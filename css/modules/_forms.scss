@@ -1,0 +1,192 @@
+/* *************************************
+//   FORMS  [modules/_forms.scss]
+//   Styling for common form elements
+/* ************************************* */
+
+input, 
+optgroup, 
+select, 
+textarea {
+  font-family: $font-family-primary;
+  font-size: 1rem;
+  color: $paragraph-color;
+}
+
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+  height: 4em;
+  background-color: #fff;
+  border: 1px solid $grey-border;
+}
+/* Removes awkward default styles on some inputs for iOS */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none; 
+}
+		  
+textarea {
+  min-height: 8em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em; 
+}
+
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+  border: 1px solid $brand-primary;
+  outline: 0; 
+}
+
+label,
+legend {
+  display: block;
+  margin-bottom: .5rem;
+  font-weight: 600; 
+}
+
+fieldset {
+  padding: 0;
+  border-width: 0; 
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline; 
+}
+
+label > .label-body {
+  display: inline-block;
+  margin-left: .5rem;
+  font-weight: normal; 
+}
+
+
+/* ----- Codrops formatting for dynamic input fields ----- */
+
+.input {
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	margin: 1em;
+  width: 100%;
+	vertical-align: top;
+	background: #fff;
+	overflow: hidden;
+}
+
+.input::after {
+	content: '';
+	width: 1px;
+	position: absolute;
+	top: 0.5em;
+	bottom: 0.5em;
+	left: 2.5em;
+	background: $brand-primary;
+	z-index: 100;
+}
+
+.input__icon {
+  background:url(../img/icon-sprite.png);
+  background-position: -0 -150px;  
+	width: 1.5em;
+  height: 25px;
+	position: absolute;
+	top: 1em;
+	left: 0.5em;
+	padding: 1em 0 0 0.5em;
+}
+
+.input__field {
+	position: relative;
+	display: block;
+	float: right;
+	-webkit-appearance: none; /* for box shadows to show on iOS */
+	background: transparent;
+	padding: 1.5em 1em 0.25em 4em;
+	width: 100%;
+	color: $brand-color-2;
+}
+
+textarea.input__field {
+  padding-top: 1.9em;
+}
+
+.input__label {
+	display: inline-block;
+	float: right;
+	-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	position: absolute;
+	width: 100%;
+	text-align: left;
+	padding-left: 4em;
+	pointer-events: none;
+}
+
+.input__label-content {
+	position: relative;
+	width: 100%;
+	padding: 1em 0;
+	display: inline-block;
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+}
+
+.input__label-content span {
+	display: inline-block;
+}
+
+.input__field:focus + .input__label .input__label-content,
+.input--filled .input__label-content {
+	-webkit-animation: anim-form 0.3s forwards;
+	animation: anim-form 0.3s forwards;
+}
+
+@-webkit-keyframes anim-form {
+	100% {
+		color: $brand-primary;
+		-webkit-transform: translate3d(0, -.6em, 0) scale3d(0.85, 0.85, 1);
+		transform: translate3d(0, -.25em, 0) scale3d(0.75, 0.75, 1);
+	}
+}
+
+@keyframes anim-form {
+	100% {
+		color: $brand-primary;
+		-webkit-transform: translate3d(0, -.6em, 0) scale3d(0.85, 0.85, 1);
+		transform: translate3d(0, -.25em, 0) scale3d(0.75, 0.75, 1);
+	}
+}
+
+
+
+
+
+

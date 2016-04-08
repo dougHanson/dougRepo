@@ -1,0 +1,17 @@
+/* *************************************
+//   FOOTER  [layout/_footer.scss]
+//   common styles for the global footer
+/* ************************************* */
+
+footer { 
+  background: $grey-background;
+  height: 60px;
+  margin-top: 40px;
+  padding: 10px 0;
+  border-top: 1px solid $grey-border;
+}
+
+.footer__logo {
+  height: 30px;
+  opacity: 0.5;
+}

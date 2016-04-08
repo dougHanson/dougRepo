@@ -1,0 +1,32 @@
+/* *************************************
+//   IMAGES  [modules/_images.scss]
+//   
+/* ************************************* */
+
+
+img {
+  vertical-align: middle;
+}
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.img-rounded {
+  border-radius: 10px;
+}
+.img-frame {
+  padding: 0.5em;
+  line-height: 1.428571429;
+  background-color: $grey-background;
+  border: 1px solid $grey-border;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+.img-circle {
+  border-radius: 50%;
+}
+

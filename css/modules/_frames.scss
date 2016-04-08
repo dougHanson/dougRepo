@@ -1,0 +1,39 @@
+/* *************************************
+//   FRAMES  [modules/_frames.scss]
+//   styles for frame borders around perimeter
+/* ************************************* */
+
+.frame {
+  background: $grey-4;
+  width: 1.5vw;
+  height: 1.5vw;
+  z-index: 999;	
+  position: fixed;	
+  opacity: 1;					
+}		
+.frame__left {
+  height: 100vh;
+  left: 0;			
+}		
+.frame__right {
+  height: 100vh;
+  right: 0;			
+}	
+.frame__top {
+  width: 100%;
+  top: 0;
+}		
+.frame__bottom {
+  width: 100%;
+  bottom: 0;
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 479px) {
+
+}
+
+

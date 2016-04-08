@@ -1,0 +1,18 @@
+/* *************************************
+//   ICONS  [modules/_icons.scss]
+//   Icons used throughout site that aren't part of icon font. SVG and PNG versions must both be maintained
+/* ************************************* */
+
+.icon {
+    background: rgba(0, 0, 0, 0) url("../img/icon-sprite.png") no-repeat scroll 0 0;
+    display: inline-block;
+    height: 25px;
+    margin: 1px 6px -3px 0;
+    width: 25px;
+}
+
+.no-svg .icon {}
+
+.icon__facebook           { background-position: -100px -150px; }
+.icon__twitter            { background-position: -125px -150px; }
+.icon__linkedin           { background-position: -150px -150px; }

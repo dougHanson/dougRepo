@@ -1,0 +1,277 @@
+/* *************************************
+//   TYPE  [modules/_type.scss]
+//   styles for copy
+/* ************************************* */
+
+p {
+  color: $paragraph-color;
+  line-height: $line-height;
+  margin: $paragraph-margin 0;
+  font-size: $paragraph-font-size;
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover, 
+a:focus {
+    color: $link-hover-color;
+    //text-decoration: $link-hover-decoration;
+}
+
+strong, b {
+  font-weight: 600;
+}
+
+em, i {
+  font-style: italic;
+}
+
+u { 
+  text-decoration: none;
+  border-bottom: 1px solid $grey-2; 
+}
+
+abbr {
+  border-bottom: 2px dotted $brand-primary;
+  position: relative;
+  cursor: help;  
+}
+
+abbr:hover::after {
+  position: absolute;
+  bottom: 100%;
+  left: -2%;
+  display: block;
+  cursor: help;
+  padding: 0.5em 1em;
+  min-width: 10em;
+  background: $grey-background;
+  border: 1px solid $grey-border;
+  font-size: 0.8em;
+  color: $grey-2;
+  text-align: center;
+  content: attr(title);
+}
+
+ins {
+  text-decoration: underline;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+::selection {
+  background: $grey-4; /* WebKit/Blink Browsers */
+  color: #fff;  
+}
+
+::-moz-selection {
+  background: $grey-4; /* Gecko Browsers */
+  color: #fff;
+}
+
+/* -------------------------------------
+//   Headings
+/* ------------------------------------- */
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: $font-family-primary;
+  color: $headings-color;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3 {
+  margin-top: 0;
+  margin-bottom: $headings-margin;
+}
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  margin-top: 0;
+  margin-bottom: ($headings-margin);
+}
+
+h1, .h1              { font-size: $font-size-h1; }
+h2, .h2              { font-size: $font-size-h2; margin-bottom: 0; }
+h3, .h3              { font-size: $font-size-h3; }
+h4, .h4              { font-size: $font-size-h4; }
+h5, .h5              { font-size: $font-size-h5; }
+h6, .h6              { font-size: $font-size-h6; }
+
+
+
+/* -------------------------------------
+//   Text
+/* ------------------------------------- */
+
+/* ----- Alignment ----- */
+
+.text-left           { text-align: left; }
+.text-right          { text-align: right; }
+.text-center         { text-align: center; }
+.text-justify        { text-align: justify; }
+.text-nowrap         { white-space: nowrap; }
+
+/* ----- Transformation ----- */
+
+.text-lowercase      { text-transform: lowercase; }
+.text-uppercase      { text-transform: uppercase; }
+.text-capitalize     { text-transform: capitalize; }
+
+/* ----- Font sizes ----- */
+
+.font-xxs            { font-size: 0.7em; }
+.font-xs             { font-size: 0.8em; }
+.font-sm             { font-size: 0.9em; }
+.font-md             { font-size: 1.2em; }
+.font-lg             { font-size: 1.5em; }
+.font-xl             { font-size: 2.0em; }
+.font-xxl            { font-size: 3.5em; }
+
+/* ----- Font weights ----- */
+
+.font-light          { font-weight: 100; }
+.font-bold           { font-weight: 400; }
+.font-heavy          { font-weight: 700; }
+
+/* ----- Line spacing ----- */
+
+.lh-sm               { line-height: 1em; }
+.lh-md               { line-height: 1.2em; }
+.lh-lg               { line-height: 1.7em; }
+.kern                { letter-spacing: -1px; }
+
+
+/* -------------------------------------
+//   Custom classes
+/* ------------------------------------- */
+
+
+.subheading { 
+  font-family: $font-family-secondary;
+  font-weight: 200; 
+}
+
+/* ----- hero heading, should only be used on home page ----- */
+
+.hero-heading {
+  font-size: 98px;
+  font-weight: 800;
+  text-transform: uppercase;   
+  color: $grey-4;
+  letter-spacing: 8px;
+}
+  
+.hero-heading span {
+  display: inline-block;
+  position: relative;  
+} 
+
+.hero-heading span:before,
+.hero-heading span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid $grey-4;
+  border-top: 1px solid $grey-4;
+  top: 45%;
+  width: 60px;
+}
+
+.hero-heading span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+
+.hero-heading span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+@media (max-width: 991px) {
+  .hero-heading {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-heading {
+    font-size: 60px;
+  }  
+  .hero-heading span:before,
+  .hero-heading span:after {
+	width: 30px;
+  }
+}
+
+@media (max-width: 479px) {
+  .hero-heading {
+    font-size: 40px;
+  }  
+  .hero-heading span:before,
+  .hero-heading span:after {
+	width: 0px;
+  }
+} 
+
+
+/* ----- page titles, to be used on a darker background/image ----- */
+
+.page-title { 
+  position: absolute;   //ensure the parent is position: relative;
+  top: 35%; 
+  width: 100%;
+  color: #fff;   
+  font-size: 3rem;  
+  text-align: center; 
+  text-transform: uppercase; 
+}
+
+.page-title span {
+  display: inline-block;
+  position: relative;  
+}
+
+.page-title span:before,
+.page-title span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  top: 45%;
+  width: 40px;
+}
+
+.page-title span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+
+.page-title span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+@media (max-width: 767px) {
+  .page-title span:before,
+  .page-title span:after {
+	width: 0px;
+  }
+}
+
+@media (max-width: 479px) {
+  .page-title span:before,
+  .page-title span:after {
+	width: 0px;
+  }
+}
+
+

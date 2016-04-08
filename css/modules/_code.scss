@@ -1,0 +1,28 @@
+/* *************************************
+//   CODE  [modules/_code.scss]
+//   Styling for preformatted text (code)
+/* ************************************* */
+
+
+code {
+  padding: .1rem .4rem;
+  margin: 0 .2rem;
+  font-size: 0.8rem;
+  font-family: monospace;
+  color: $grey-4;
+  white-space: nowrap;
+  background: $grey-background;
+  border: 1px solid $grey-border;
+  border-radius: 4px; 
+}
+  
+pre > code {
+  display: block;
+  padding: 1rem 1.5rem;
+  white-space: pre; 
+}
+
+
+
+
+

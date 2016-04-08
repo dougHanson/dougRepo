@@ -1,0 +1,93 @@
+/* *************************************
+//   RESET  [base/reset.scss]
+//   reset style for browser consistency
+/* ************************************* */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: $font-family-primary;
+  font-size: $font-size-root;
+  line-height: $line-height;	
+  color: $body-color;
+  background: $body-bg;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+:focus {
+  outline: dashed 1px $grey-2;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+section { 
+  margin-bottom: 2.5em;
+}
+
+@media screen and (max-width: 767px) { 
+  html {
+    font-size: 0.875rem;
+  }
+}
+
+@media screen and (max-width: 479px) { 
+  html {
+    font-size: 0.75rem;
+  }
+}
+
+@media screen and (min-width: 1960px) { 
+  html {
+    font-size: 1.125rem;
+  }
+}
+
+
+
+

@@ -1,0 +1,33 @@
+@import "C:/Code/build-tools/bin/../tmp/modules/_base.iinet.scss";
+
+// base styles
+@import 'base/_variables'; 
+@import 'base/_reset'; 
+@import 'base/_bootstrap'; 
+
+// layout styles
+@import 'layout/_footer';
+@import 'layout/_utilities';
+
+// module styles 
+@import 'modules/_horizontal-menu'; 
+@import 'modules/_nav'; 
+@import 'modules/_type'; 
+@import 'modules/_icons'; 
+@import 'modules/_buttons'; 
+@import 'modules/_lists';
+@import 'modules/_tables'; 
+@import 'modules/_code';
+@import 'modules/_forms';
+@import 'modules/_images';
+@import 'modules/_frames'; 
+@import 'modules/_workitems'; 
+
+
+// plugin styles
+@import 'plugins/_owl-carousel';
+@import 'plugins/_owl-carousel-theme'; 
+// import 'plugins/animate';   //CLEAN THIS UP TO REDUCE FILE SIZE, OR EXCLUDE
+
+// theme styles
+
