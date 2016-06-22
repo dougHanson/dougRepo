@@ -86,8 +86,8 @@ hr { padding: 20px 0; width: 85%; }
       <div class="hero-content parallax-bg" style="height: 80vh;">
         <div style="text-align: center; padding-top: 190px;  min-height: 510px;"> 
           <img src="img/logo.png" alt="" />
-          <h1 class="hero-heading"><span>Mountain</span></h1>
-          <h3 class="subheading">Carefully Crafted Photographer WordPress Theme For Agencies Or Personal Use</h3>
+          <h1 class="hero-heading"><span>Doug Hanson</span></h1>
+          <h3 class="subheading">Web Designer from Perth, Western Australia</h3>
           <img src="img/three-stars.png" alt="" /> 
         </div>
       </div>
