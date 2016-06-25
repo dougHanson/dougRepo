@@ -113,19 +113,19 @@ hr { padding: 20px 0; width: 85%; }
             <tbody>
               <tr>
                 <td>iiNet<br>2013 - Present</td>
-                <td><strong>Senior Web Designer</strong><br>What good is a reward if you ain't around to use it? Besides, attacking that battle station...</td>
+                <td><strong>Senior Web Designer</strong><br>To deliver design, development, and ongoing maintenance of web-based products and systems to support business initiatives. Create prototypes, UI, IA, graphical and architectural requirements, and conduct usability assessments to evaluate solutions at the information architecture &amp; design level.</td>
               </tr>
               <tr>
                 <td>Bankwest<br>2010 - 2013</td>
-                <td><strong>Digital Production Specialist</strong><br>What good is a reward if you ain't around to use it? Besides, attacking that battle station...</td>
+                <td><strong>Digital Production Specialist</strong><br>Work with key stakeholders to design and deliver innovative digital creative elements to drive Bankwest initiatives.</td>
               </tr>
               <tr>
                 <td>Bankwest<br>2009 - 2010</td>
-                <td><strong>Online Marketing Manager</strong><br>What good is a reward if you ain't around to use it? Besides, attacking that battle station...</td>
+                <td><strong>Online Marketing Manager</strong><br>To manage the marketing and customer experience of multiple product portfolios via the online channel. Responsible for implementing well defined campaign strategies, campaign optimisation, budget management, agency relationships, and online creative development.</td>
               </tr>  
               <tr>
                 <td>Bankwest<br>2007 - 2009</td>
-                <td><strong>eCommerce Marketing Coordinator</strong><br>What good is a reward if you ain't around to use it? Besides, attacking that battle station...</td>
+                <td><strong>eCommerce Marketing Coordinator</strong><br>To coordinate the Bankwest online marketing and sales function, responsible for online marketing execution, management information reporting, agency relationships and strategic projects.</td>
               </tr>                   
             </tbody>
           </table> 

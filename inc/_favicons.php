@@ -11,6 +11,7 @@
 <meta property="twitter:image" content="img/favicons/twitter.png">
 <meta property="twitter:image" content="img/favicons/twitter.png">
 <meta property="twitter:image" content="img/favicons/twitter.png">
+<meta property="twitter:image" content="img/favicons/twitter.png">
 <link rel="icon" type="image/png" sizes="192x192" href="img/favicons/android-chrome-192x192.png">
 <link rel="manifest" href="img/favicons/manifest.json">
 <meta name="mobile-web-app-capable" content="yes">
