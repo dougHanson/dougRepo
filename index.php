@@ -99,7 +99,8 @@ hr { padding: 20px 0; width: 85%; }
         <h2 class="text-center text-uppercase">About me</h2>
         <div class="text-center"><img src="img/arrow.png" /></div>
         <div class="col-lg-10 col-lg-offset-1">
-          <p>Lorizzle sure dolizzle sit amizzle, fo rizzle shizzlin dizzle. Nullizzle sapien velit, aliquet volutpat, suscipizzle quizzle, gravida vizzle, arcu. Pellentesque eget fo. Sed erizzle. Yo mamma izzle dolizzle dapibizzle turpizzle tempizzle bow wow wow. Maurizzle gangsta nibh doggy turpis. Fo izzle fizzle. Pellentesque shit rhoncus sheezy. </p> 
+          <p>A driven, creative professional with a broad technical skill set. An excellent communicator experienced in interpreting and implementing client and staff visions of new websites and digital creative. Enjoys collaborating with colleagues and clients, and will voluntarily help and teach whenever needed, with expertise ranging from design, development and conceptualization to programming and management.</p> 
+            <p>Put some personal bullshit here.</p>
           <p>&nbsp;</p>
         </div>        
         
@@ -131,7 +132,7 @@ hr { padding: 20px 0; width: 85%; }
           </table> 
           
           <div class="margin-top-30">
-            <a href="docs/" class="button margin-right-10">Download Resume</a> 
+            <a href="doc/Doug-Hanson-Resume.pdf" target="_blank" class="button margin-right-10">Download Resume (86kB)</a> 
             <a class="button button__primary nav-contact">Get in touch</a>          
           </div>
           
@@ -152,7 +153,7 @@ hr { padding: 20px 0; width: 85%; }
           <a href="#">
             <article class="work-item"> 
               <div class="work-item__frame">
-                <img src="img/1.jpeg" style="width: 100%;" />
+                <img src="img/owl1.jpg" style="width: 100%;" />
                 <div class="work-item__content">
                   <p class="work-item__heading">Multicomm website</p>
                   <p class="subheading">branding / ux / web design</p>                          
@@ -164,7 +165,7 @@ hr { padding: 20px 0; width: 85%; }
           <a href="#">
             <article class="work-item"> 
               <div class="work-item__frame arrow_box">
-                <img src="img/2.jpeg" style="width: 100%;" />
+                <img src="img/owl1.jpg" style="width: 100%;" />
                 <div class="work-item__content">
                   <p class="work-item__heading">Mobii Manager</p>
                   <p class="subheading">branding / ux / web design</p> 
@@ -176,7 +177,7 @@ hr { padding: 20px 0; width: 85%; }
           <a href="#">
             <article class="work-item"> 
               <div class="work-item__frame arrow_box">
-                <img src="img/3.png" style="width: 100%;" />
+                <img src="img/owl1.jpg" style="width: 100%;" />
                 <div class="work-item__content">
                   <p class="work-item__heading">Mobii Manager</p>
                   <p class="subheading">branding / ux / web design</p> 
