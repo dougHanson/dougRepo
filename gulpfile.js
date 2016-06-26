@@ -25,7 +25,8 @@ gulp.task('lint-js', function() {
 gulp.task('compile-sass', function() {
   return gulp.src('./css/**/*.scss')
     .pipe(sass())
-    .pipe(gulp.dest('./dist/css'));
+    .pipe(gulp.dest('./css'))         // compile sass to working folder
+    .pipe(gulp.dest('./dist/css'));  // compile sass to dist folder
 });
 
 // Minify CSS (concatenate, auto-prefix and minify)
@@ -92,9 +93,13 @@ gulp.task('watch', function() {
   gulp.watch('css/**/*.scss', ['compile-sass']);
 });
 
+
+
+
 // Default Task
-gulp.task('default', ['favicons']);
-gulp.task('production', ['minify-css', 'minify-js', 'html-replace', 'compress-images']);
+gulp.task('default', ['watch']);
+gulp.task('favicons', ['favicons']);
+gulp.task('dist', ['minify-css', 'minify-js', 'html-replace', 'compress-images']);
 gulp.task('publish', ['minify-html']);
 
-// favicons, then production, then minify-html
+// gulp watch, then favicons (prior to dist so they are compressed), then distribution to test in staging, then minify-html for live version

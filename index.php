@@ -69,7 +69,7 @@ hr { padding: 20px 0; width: 85%; }
     <div class="vertical-menu__logo"> <img src="img/logo-retina.png" /> </div>
     <nav>
       <ul>
-        <li class="nav-home"><a href="#"><i class="icon icon__homepage"></i><span>Homepage</span></a></li>
+        <li class="nav-home"><a href="#"><i class="icon icon__homepage"></i><span>Intro</span></a></li>
         <li class="nav-about"><a href="#"><i class="icon icon__homepage"></i><span>About me</span></a></li>
         <li class="nav-works"><a href="#"><i class="icon icon__homepage"></i><span>Selected works</span></a></li>
         <li class="nav-contact"><a href="#"><i class="icon icon__homepage"></i><span>Contact</span></a></li>        
@@ -360,10 +360,12 @@ hr { padding: 20px 0; width: 85%; }
 <!-- jQuery CDN --> 
 <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script> 
 <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script> 
+
 <!-- JS plugins --> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.min.js"></script>
-<script src="js/plugins/classie.js"></script>  
+
 <!-- build:js --> 
+<script src="js/plugins/classie.js"></script>  
 <script src="js/plugins/jquery.ui.touch-punch.min.js"></script> 
 <script src="js/modules/horizontal-menu.js"></script> 
 <script src="js/plugins/owl.carousel.js"></script> 
