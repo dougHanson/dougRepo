@@ -31,7 +31,7 @@
 }
 
 .hero-content {
-  background: url('img/perth-bg.jpg') #f3f3f3;
+  background: url('img/perth-bg.png') #f7f7f7;
   min-height: 94vh;
   background-position: center 15px;
   background-repeat: no-repeat;
@@ -84,10 +84,10 @@ hr { padding: 20px 0; width: 85%; }
           
       <!-- hero content -->
       <div class="hero-content parallax-bg" style="height: 80vh;">
-        <div style="text-align: center; padding-top: 190px;  min-height: 510px;"> 
-          <img src="img/logo.png" alt="" />
+        <div style="text-align: center; padding-top: 210px;  min-height: 510px;"> 
+<!--          <img src="img/logo.png" alt="" />-->
           <h1 class="hero-heading"><span>Doug Hanson</span></h1>
-          <h3 class="subheading">Web Designer from Perth, Western Australia</h3>
+          <h3 class="subheading subheading__hero">Web Designer from Perth, Western Australia</h3>
           <img src="img/three-stars.png" alt="" /> 
         </div>
       </div>

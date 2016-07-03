@@ -56,7 +56,7 @@ html, body {
   font-size: 16px;
   line-height: 1.8;
   color: #888;
-  background: #fafafa; }
+  background: #fcfcfb; }
 
 ol, ul {
   list-style: none; }
@@ -941,7 +941,7 @@ section {
 //   Custom Styles
 /* ------------------------------------- */
 .example-grid {
-  background: #fafafa none repeat scroll 0 0;
+  background: #fcfcfb none repeat scroll 0 0;
   border: 1px solid #e4e4e4;
   font-size: 0.8rem;
   font-weight: 600;
@@ -957,7 +957,7 @@ section {
 //   common styles for the global footer
 /* ************************************* */
 footer {
-  background: #fafafa;
+  background: #fcfcfb;
   height: 60px;
   margin-top: 40px;
   padding: 10px 0;
@@ -1421,7 +1421,7 @@ abbr:hover::after {
   cursor: help;
   padding: 0.5em 1em;
   min-width: 10em;
-  background: #fafafa;
+  background: #fcfcfb;
   border: 1px solid #e4e4e4;
   font-size: 0.8em;
   color: #222;
@@ -1564,35 +1564,45 @@ h6, .h6 {
   font-family: "Dancing Script", Arial, sans-serif;
   font-weight: 200; }
 
+.subheading__hero {
+  font-family: "Raleway", Arial, sans-serif;
+  font-weight: 400; }
+
 /* ----- hero heading, should only be used on home page ----- */
 .hero-heading {
-  font-size: 98px;
+  font-size: 150px;
   font-weight: 800;
-  text-transform: uppercase;
-  color: #444;
-  letter-spacing: 8px; }
+  font-family: "Dancing Script", Arial, sans-serif, serif;
+  line-height: 1.4em;
+  color: #444; }
 
 .hero-heading span {
   display: inline-block;
   position: relative; }
 
-.hero-heading span:before,
+/*.hero-heading span:before,
 .hero-heading span:after {
   content: "";
   position: absolute;
   height: 5px;
-  border-bottom: 1px solid #444;
-  border-top: 1px solid #444;
+  border-bottom: 1px solid $grey-4;
+  border-top: 1px solid $grey-4;
   top: 45%;
-  width: 60px; }
+  width: 60px;
+} 
 
 .hero-heading span:before {
   right: 100%;
-  margin-right: 15px; }
+  margin-right: 15px;
+}
 
 .hero-heading span:after {
   left: 100%;
-  margin-left: 15px; }
+  margin-left: 15px;
+}*/
+@media (max-width: 1360px) {
+  .hero-heading {
+    font-size: 100px; } }
 
 @media (max-width: 991px) {
   .hero-heading {
@@ -1822,7 +1832,7 @@ code {
   font-family: monospace;
   color: #444;
   white-space: nowrap;
-  background: #fafafa;
+  background: #fcfcfb;
   border: 1px solid #e4e4e4;
   border-radius: 4px; }
 
@@ -2013,7 +2023,7 @@ img {
 .img-frame {
   padding: 0.5em;
   line-height: 1.428571429;
-  background-color: #fafafa;
+  background-color: #fcfcfb;
   border: 1px solid #e4e4e4;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
