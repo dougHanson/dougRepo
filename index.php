@@ -149,66 +149,77 @@ hr { padding: 20px 0; width: 85%; }
         <h2 class="text-center text-uppercase">Selected works</h2>
         <div class="text-center"><img src="img/arrow.png" /></div>     
 
-        <div class="masonry-container">
+        <div style="margin-top:40px;">  <!--class="masonry-container"-->
           <a href="#">
-            <article class="work-item work-item--2w"> 
+            <article class="work-item"> 
 							<img src="img/owl1.jpg" style="width: 100%;" />
 							<div class="work-item__content">
-								<p class="work-item__heading">Multicomm website</p>
-								<p class="subheading">branding / ux / web design</p>                          
+								<p class="work-item__heading">iiNet</p>
+								<p class="subheading">ux / web design / web development</p>                          
 							</div>
             </article>
           </a> 
           
           <a href="#">
-            <article class="work-item"> 
-							<img src="img/owl1.jpg" style="width: 100%;" />
-							<div class="work-item__content">
-								<p class="work-item__heading">Mobii Manager</p>
-								<p class="subheading">branding / ux / web design</p> 
-							</div> 
-            </article>
-          </a>          
-          
-          <a href="#">
-            <article class="work-item"> 
-							<img src="img/owl1.jpg" style="width: 100%;" />
-							<div class="work-item__content">
-								<p class="work-item__heading">Mobii Manager</p>
-								<p class="subheading">branding / ux / web design</p> 
-							</div> 
-            </article>
-          </a>       
-  
-          <a href="#">
             <article class="work-item work-item--2w"> 
-							<img src="img/owl1.jpg" style="width: 100%;" />
+							<img src="img/owl2.jpg" style="width: 100%;" />
 							<div class="work-item__content">
 								<p class="work-item__heading">Mobii Manager</p>
-								<p class="subheading">branding / ux / web design</p> 
+								<p class="subheading">ux / branding / mobile design</p> 
 							</div> 
             </article>
-          </a>
+          </a>  
 					
           <a href="#">
             <article class="work-item"> 
 							<img src="img/owl1.jpg" style="width: 100%;" />
 							<div class="work-item__content">
-								<p class="work-item__heading">Mobii Manager</p>
-								<p class="subheading">branding / ux / web design</p> 
+								<p class="work-item__heading">Multicomm Website</p>
+								<p class="subheading">branding / ux / web design / web development</p> 
+							</div> 
+            </article>
+          </a>					
+          
+          <a href="#">
+            <article class="work-item"> 
+							<img src="img/owl3.jpg" style="width: 100%;" />
+							<div class="work-item__content">
+								<p class="work-item__heading">iiHelp redesign</p>
+								<p class="subheading">ux / web design</p> 
+							</div> 
+            </article>
+          </a>       
+  
+					
+          <a href="#">
+            <article class="work-item"> 
+							<img src="img/owl2.jpg" style="width: 100%;" />
+							<div class="work-item__content">
+								<p class="work-item__heading">Bankwest Mobile App</p>
+								<p class="subheading">mobile design</p> 
 							</div> 
             </article>
           </a>      					
 
           <a href="#">
-            <article class="work-item work-item--2h"> 
+            <article class="work-item"> 
 							<img src="img/owl3.jpg" style="width: 100%;" />
 							<div class="work-item__content">
-								<p class="work-item__heading">Mobii Manager</p>
-								<p class="subheading">branding / ux / web design</p> 
+								<p class="work-item__heading">World. Passion. Change.</p>
+								<p class="subheading">branding / web design / web development</p> 
 							</div> 
             </article> 
           </a> 
+					
+          <a href="#">
+            <article class="work-item"> 
+							<img src="img/owl3.jpg" style="width: 100%;" />
+							<div class="work-item__content">
+								<p class="work-item__heading">Maiko Flyers</p>
+								<p class="subheading">branding / graphic design</p> 
+							</div> 
+            </article> 
+          </a> 					
                             
         </div>
 

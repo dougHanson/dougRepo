@@ -4,6 +4,7 @@ var gulp = require('gulp');
 // Include plugins
 var jshint = require('gulp-jshint');
 var sass = require('gulp-sass');
+var favicons = require('gulp-favicons'); 
 var autoprefix = require('gulp-autoprefixer');
 var minifyCSS = require('gulp-minify-css');
 var concat = require('gulp-concat');
@@ -57,7 +58,6 @@ gulp.task('compress-images', function() {
 });
 
 // Generate favicons and Apple touch icons
-var favicons = require('gulp-favicons'); 
 gulp.task("favicons", function () {
   gulp.src("./img/favicon.png").pipe(favicons({
     developerName: "Doug Hanson",
