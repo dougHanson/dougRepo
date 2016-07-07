@@ -151,88 +151,65 @@ hr { padding: 20px 0; width: 85%; }
 
         <div class="masonry-container">
           <a href="#">
-            <article class="work-item"> 
-              <div class="work-item__frame">
-                <img src="img/owl1.jpg" style="width: 100%;" />
-                <div class="work-item__content">
-                  <p class="work-item__heading">Multicomm website</p>
-                  <p class="subheading">branding / ux / web design</p>                          
-                </div>
-              </div>
+            <article class="work-item work-item--2w"> 
+							<img src="img/owl1.jpg" style="width: 100%;" />
+							<div class="work-item__content">
+								<p class="work-item__heading">Multicomm website</p>
+								<p class="subheading">branding / ux / web design</p>                          
+							</div>
             </article>
           </a> 
           
           <a href="#">
             <article class="work-item"> 
-              <div class="work-item__frame arrow_box">
-                <img src="img/owl1.jpg" style="width: 100%;" />
-                <div class="work-item__content">
-                  <p class="work-item__heading">Mobii Manager</p>
-                  <p class="subheading">branding / ux / web design</p> 
-                </div> 
-              </div>
+							<img src="img/owl1.jpg" style="width: 100%;" />
+							<div class="work-item__content">
+								<p class="work-item__heading">Mobii Manager</p>
+								<p class="subheading">branding / ux / web design</p> 
+							</div> 
             </article>
           </a>          
           
           <a href="#">
             <article class="work-item"> 
-              <div class="work-item__frame arrow_box">
-                <img src="img/owl1.jpg" style="width: 100%;" />
-                <div class="work-item__content">
-                  <p class="work-item__heading">Mobii Manager</p>
-                  <p class="subheading">branding / ux / web design</p> 
-                </div> 
-              </div>
+							<img src="img/owl1.jpg" style="width: 100%;" />
+							<div class="work-item__content">
+								<p class="work-item__heading">Mobii Manager</p>
+								<p class="subheading">branding / ux / web design</p> 
+							</div> 
             </article>
           </a>       
   
           <a href="#">
             <article class="work-item work-item--2w"> 
-              <div class="work-item__frame arrow_box">
-                <img src="img/owl1.jpg" style="width: 100%;" />
-                <div class="work-item__content">
-                  <p class="work-item__heading">Mobii Manager</p>
-                  <p class="subheading">branding / ux / web design</p> 
-                </div> 
-              </div>
+							<img src="img/owl1.jpg" style="width: 100%;" />
+							<div class="work-item__content">
+								<p class="work-item__heading">Mobii Manager</p>
+								<p class="subheading">branding / ux / web design</p> 
+							</div> 
             </article>
           </a>
+					
+          <a href="#">
+            <article class="work-item"> 
+							<img src="img/owl1.jpg" style="width: 100%;" />
+							<div class="work-item__content">
+								<p class="work-item__heading">Mobii Manager</p>
+								<p class="subheading">branding / ux / web design</p> 
+							</div> 
+            </article>
+          </a>      					
 
           <a href="#">
-            <article class="work-item"> 
-              <div class="work-item__frame arrow_box">
-                <img src="img/owl3.jpg" style="width: 100%;" />
-                <div class="work-item__content">
-                  <p class="work-item__heading">Mobii Manager</p>
-                  <p class="subheading">branding / ux / web design</p> 
-                </div> 
-              </div>
+            <article class="work-item work-item--2h"> 
+							<img src="img/owl3.jpg" style="width: 100%;" />
+							<div class="work-item__content">
+								<p class="work-item__heading">Mobii Manager</p>
+								<p class="subheading">branding / ux / web design</p> 
+							</div> 
             </article> 
           </a> 
-          
-          <a href="#">
-            <article class="work-item"> 
-              <div class="work-item__frame arrow_box">
-                <img src="img/owl2.jpg" style="width: 100%;" />
-                <div class="work-item__content">
-                  <p class="work-item__heading">Mobii Manager</p>
-                  <p class="subheading">branding / ux / web design</p> 
-                </div> 
-              </div>
-            </article> 
-          </a> 
-          
-          <a href="#">
-            <article class="work-item"> 
-              <div class="work-item__frame arrow_box">
-                <img src="img/owl1.jpg" style="width: 100%;" />
-                <div class="work-item__content">
-                  <p class="work-item__heading">Mobii Manager</p>
-                  <p class="subheading">branding / ux / web design</p> 
-                </div> 
-              </div>
-            </article> 
-          </a>                     
+                            
         </div>
 
       </section>
