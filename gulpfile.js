@@ -58,20 +58,20 @@ gulp.task('compress-images', function() {
 });
 
 // Generate favicons and Apple touch icons
-gulp.task("favicons", function () {
-  gulp.src("./img/favicon.png").pipe(favicons({
-    developerName: "Doug Hanson",
-    background: "#fff",
-    path: "./img/favicons/",
-    orientation: "portrait",
+gulp.task('favicons', function () {
+  gulp.src('./img/favicon.png').pipe(favicons({
+    developerName: 'Doug Hanson',
+    background: '#fff',
+    path: './img/favicons/',
+    orientation: 'portrait',
     logging: false,
     online: false,
-    html: "./inc/_favicons.php"
-  })).pipe(gulp.dest("./img/favicons"));
+    html: ''./inc/_favicons.php'
+  })).pipe(gulp.dest('./img/favicons'));
 });
 
 // Minify HTML pages
-gulp.task('minify-html', ['production'], function() {
+gulp.task('minify-html', ['dist'], function() {
    gulp.src('./dist/**/*.php')
   .pipe(minifyHTML())
   .pipe(gulp.dest('./dist'));
@@ -103,3 +103,4 @@ gulp.task('dist', ['minify-css', 'minify-js', 'html-replace', 'compress-images']
 gulp.task('publish', ['minify-html']);
 
 // gulp watch, then favicons (prior to dist so they are compressed), then distribution to test in staging, then minify-html for live version
+// what if i make favicons a dependency of compress-images??
