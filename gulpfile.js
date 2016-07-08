@@ -66,7 +66,7 @@ gulp.task('favicons', function () {
     orientation: 'portrait',
     logging: false,
     online: false,
-    html: ''./inc/_favicons.php'
+    html: './inc/_favicons.php'
   })).pipe(gulp.dest('./img/favicons'));
 });
 
