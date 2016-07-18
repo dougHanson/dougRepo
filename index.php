@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:200,400,600,800|Dancing+Script" rel="stylesheet" type="text/css">
     <!-- build:css -->
     <link rel="stylesheet" href="css/styles.css" media="all">
+			<link rel="stylesheet" href="css/plugins/_grid3d.css" media="all">
     <!-- endbuild -->
 
     <style type="text/css">
@@ -149,30 +150,33 @@ hr { padding: 20px 0; width: 85%; }
         <h2 class="text-center text-uppercase">Selected works</h2>
         <div class="text-center"><img src="img/arrow.png" /></div>     
 
-        <div style="margin-top:40px;">  <!--class="masonry-container"-->
+        <div style="margin-top:40px;" > <!--class="masonry-container"--> 
+ 
           <a href="#">
+            <article class="work-item work-item--2w"> 
+							<img src="img/mobii-manager.png" style="width: 100%;" />
+							<div class="work-item__content">
+								<p class="work-item__heading">Mobii Manager</p>
+								<p class="subheading">ux / branding / mobile design</p> 
+							</div> 
+            </article>
+          </a>  					
+					
+					
+					<a href="#">
             <article class="work-item"> 
-							<img src="img/owl1.jpg" style="width: 100%;" />
+							<img src="img/iinet.png" style="width: 100%;" />
 							<div class="work-item__content">
 								<p class="work-item__heading">iiNet</p>
 								<p class="subheading">ux / web design / web development</p>                          
 							</div>
             </article>
           </a> 
-          
-          <a href="#">
-            <article class="work-item work-item--2w"> 
-							<img src="img/owl2.jpg" style="width: 100%;" />
-							<div class="work-item__content">
-								<p class="work-item__heading">Mobii Manager</p>
-								<p class="subheading">ux / branding / mobile design</p> 
-							</div> 
-            </article>
-          </a>  
+
 					
           <a href="#">
             <article class="work-item"> 
-							<img src="img/owl1.jpg" style="width: 100%;" />
+							<img src="img/multicomm.png" style="width: 100%;" />
 							<div class="work-item__content">
 								<p class="work-item__heading">Multicomm Website</p>
 								<p class="subheading">branding / ux / web design / web development</p> 
@@ -182,7 +186,7 @@ hr { padding: 20px 0; width: 85%; }
           
           <a href="#">
             <article class="work-item"> 
-							<img src="img/owl3.jpg" style="width: 100%;" />
+							<img src="img/iihelp.png" style="width: 100%;" />
 							<div class="work-item__content">
 								<p class="work-item__heading">iiHelp redesign</p>
 								<p class="subheading">ux / web design</p> 
@@ -192,8 +196,8 @@ hr { padding: 20px 0; width: 85%; }
   
 					
           <a href="#">
-            <article class="work-item"> 
-							<img src="img/owl2.jpg" style="width: 100%;" />
+            <article class="work-item   work-item--2h"> 
+							<img src="img/maiko.png" style="width: 100%;" />
 							<div class="work-item__content">
 								<p class="work-item__heading">Bankwest Mobile App</p>
 								<p class="subheading">mobile design</p> 
@@ -203,7 +207,7 @@ hr { padding: 20px 0; width: 85%; }
 
           <a href="#">
             <article class="work-item"> 
-							<img src="img/owl3.jpg" style="width: 100%;" />
+							<img src="img/world-passion-change.png" style="width: 100%;" />
 							<div class="work-item__content">
 								<p class="work-item__heading">World. Passion. Change.</p>
 								<p class="subheading">branding / web design / web development</p> 
@@ -225,6 +229,44 @@ hr { padding: 20px 0; width: 85%; }
 
       </section>
       <!-- end selected works --> 
+			
+			
+			
+			
+<section class="grid3d vertical" id="grid3d">
+	<div class="grid-wrap">
+		<div class="grid">
+			<figure><img src="img/owl1.jpg" alt="img01"/></figure>
+			<figure><img src="img/owl2.jpg" alt="img02"/></figure>
+			<figure><img src="img/owl3.jpg" alt="img03"/></figure>
+			<!-- ... -->
+		</div>
+	</div><!-- /grid-wrap -->
+	
+	
+	<div class="content">
+		<div>
+			<div class="dummy-img"></div>
+			<p class="dummy-text">Some text</p>
+			<p class="dummy-text">Some more text</p>
+		</div>
+		<div>
+			<div class="dummy-img"></div>
+			<p class="dummy-text">Some text</p>
+			<p class="dummy-text">Some more text</p>
+		</div>
+		<div>
+			<div class="dummy-img"></div>
+			<p class="dummy-text">Some text</p>
+			<p class="dummy-text">Some more text</p>
+		</div>		
+		<span class="loading"></span>
+		<span class="icon close-content"></span>
+	</div>
+</section>			
+
+			
+			
       
       <hr>
       
@@ -239,7 +281,7 @@ hr { padding: 20px 0; width: 85%; }
           <!-- begin mailform -->
           <iframe name="no-reload" style="display:none;"></iframe>
 		      <form method='post' action='#contact' style="margin-top: 2em;">     
-            <div class="col-sm-6">
+            <div class="col-sm-12">
               <span class="input">
                 <input class="input__field" type="text" id="input-name" name="input-name" />
                 <label class="input__label" for="input-name">
@@ -249,7 +291,7 @@ hr { padding: 20px 0; width: 85%; }
               </span>
             </div>
             
-            <div class="col-sm-6">
+            <div class="col-sm-12">
               <span class="input">
                 <input class="input__field" type="email" id="input-email" name="input-email" />
                 <label class="input__label" for="input-email">
@@ -258,27 +300,7 @@ hr { padding: 20px 0; width: 85%; }
                 </label>
               </span>
             </div>
-            
-            <div class="col-sm-6">          
-              <span class="input">
-                <input class="input__field" type="text" id="input-contact" name="input-contact" />
-                <label class="input__label" for="input-contact">
-                  <i class="input__icon"></i>
-                  <span class="input__label-content">Contact number</span>
-                </label>
-              </span>  
-            </div>  
-            
-            <div class="col-sm-6">          
-              <span class="input">
-                <input class="input__field" type="text" id="input-something" name="input-something" />
-                <label class="input__label" for="input-something">
-                  <i class="input__icon"></i>
-                  <span class="input__label-content">Something</span>
-                </label>
-              </span>  
-            </div>  
-            
+                        
             <div class="col-sm-12">          
               <span class="input">
                 <textarea class="input__field" type="text" id="input-message" name="input-message"></textarea>
@@ -358,6 +380,13 @@ hr { padding: 20px 0; width: 85%; }
 <script src="js/modules/horizontal-menu.js"></script> 
 <script src="js/plugins/owl.carousel.js"></script> 
 <script src="js/main.js"></script> 
+	
+		<script src="js/plugins/modernizr.custom.js"></script>
+		<script src="js/plugins/helper.js"></script>
+		<script src="js/plugins/grid3d.js"></script>
+		<script>
+			new grid3D( document.getElementById( 'grid3d' ) );
+		</script>	
 <!-- endbuild --> 
   
 </body>

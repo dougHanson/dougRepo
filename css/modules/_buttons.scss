@@ -27,11 +27,13 @@ input[type="button"] {
   margin: 0.5rem 0;
   padding: 0 1.5em;	
   background: #fff;
+	//background: rgba(0, 0, 0, 0) linear-gradient($brand-primary, darken($brand-primary, 5%)) repeat scroll 0 0;
   transition: 0.2s all ease-out;
   white-space: nowrap;
   font-size: 0.8rem;
   font-family: $font-family-primary;
   font-weight: normal;
+	box-shadow: 0 1px rgba(255, 255, 255, 0.4) inset, 0 2px 1px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width:480px) {
@@ -101,9 +103,9 @@ input.button__primary[type="button"].is-selected,
 input.button__primary[type="submit"]:hover, 
 input.button__primary[type="reset"]:hover, 
 input.button__primary[type="button"]:hover {
-  background: $brand-color-2;
+  background: $brand-color-2; 
   border: 2px solid $brand-color-2;
-  color: #fff; 
+  color: #fff;
 }
 
 

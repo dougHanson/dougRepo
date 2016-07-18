@@ -56,7 +56,7 @@ html, body {
   font-size: 16px;
   line-height: 1.8;
   color: #888;
-  background: #fcfcfb; }
+  background: #fcfcfc; }
 
 ol, ul {
   list-style: none; }
@@ -105,7 +105,7 @@ section {
 @media (min-width: 480px) {
   .container {
     /*width: 460px;*/
-    width: 75%; } }
+    width: 67%; } }
 
 /*@media (min-width: 768px) {
   .container {
@@ -941,7 +941,7 @@ section {
 //   Custom Styles
 /* ------------------------------------- */
 .example-grid {
-  background: #fcfcfb none repeat scroll 0 0;
+  background: #fcfcfc none repeat scroll 0 0;
   border: 1px solid #e4e4e4;
   font-size: 0.8rem;
   font-weight: 600;
@@ -957,7 +957,7 @@ section {
 //   common styles for the global footer
 /* ************************************* */
 footer {
-  background: #fcfcfb;
+  background: #fcfcfc;
   height: 60px;
   margin-top: 40px;
   padding: 10px 0;
@@ -1421,7 +1421,7 @@ abbr:hover::after {
   cursor: help;
   padding: 0.5em 1em;
   min-width: 10em;
-  background: #fcfcfb;
+  background: #fcfcfc;
   border: 1px solid #e4e4e4;
   font-size: 0.8em;
   color: #222;
@@ -1714,7 +1714,8 @@ input[type="button"] {
   white-space: nowrap;
   font-size: 0.8rem;
   font-family: "Raleway", Arial, sans-serif;
-  font-weight: normal; }
+  font-weight: normal;
+  box-shadow: 0 1px rgba(255, 255, 255, 0.4) inset, 0 2px 1px rgba(0, 0, 0, 0.1); }
 
 @media (max-width: 480px) {
   button,
@@ -1832,7 +1833,7 @@ code {
   font-family: monospace;
   color: #444;
   white-space: nowrap;
-  background: #fcfcfb;
+  background: #fcfcfc;
   border: 1px solid #e4e4e4;
   border-radius: 4px; }
 
@@ -1926,16 +1927,16 @@ label > .label-body {
   background: #fff;
   overflow: hidden; }
 
-.input::after {
-  content: '';
-  width: 1px;
-  position: absolute;
-  top: 0.5em;
-  bottom: 0.5em;
-  left: 2.5em;
-  background: #e1b80d;
-  z-index: 100; }
-
+/*.input::after {
+	content: '';
+	width: 1px;
+	position: absolute;
+	top: 0.5em;
+	bottom: 0.5em;
+	left: 2.5em;
+	background: $brand-primary;
+	z-index: 100;
+}*/
 .input__icon {
   background: url(../img/icon-sprite.png);
   background-position: -0 -150px;
@@ -1943,7 +1944,7 @@ label > .label-body {
   height: 25px;
   position: absolute;
   top: 1em;
-  left: 0.5em;
+  left: 1.5em;
   padding: 1em 0 0 0.5em; }
 
 .input__field {
@@ -2023,7 +2024,7 @@ img {
 .img-frame {
   padding: 0.5em;
   line-height: 1.428571429;
-  background-color: #fcfcfb;
+  background-color: #fcfcfc;
   border: 1px solid #e4e4e4;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -2074,35 +2075,20 @@ img {
 
 .work-item {
   text-align: center;
-  width: 24%;
+  width: 32%;
   margin: 10px 0.5%;
   padding: 0em;
   float: left;
-  height: 300px;
+  height: 325px;
   border: 1px solid #e4e4e4;
   background: #fff; }
 
-.work-item--2w {
-  width: 49%; }
-
-.work-item--2h {
-  height: 620px; }
-
-.work-item--2w img {
-  max-width: 60%;
-  height: 100%;
-  float: right; }
-
 @media (max-width: 1199px) {
   .work-item {
-    width: 33.333%; }
-  .work-item--2w {
-    width: 66.667%; } }
+    width: 32%; } }
 
 @media (max-width: 767px) {
   .work-item {
-    width: 100%; }
-  .work-item--2w {
     width: 100%; } }
 
 .work-item__heading {
@@ -2147,7 +2133,22 @@ img {
   border-width: 11px;
   margin-left: -11px; }
 
-/* ----- Double width element ----- */
+.work-item--dark {
+  background: #404040;
+  color: #fff; }
+
+/* ----- Double elements ----- */
+.work-item--2w {
+  width: 65%; }
+
+.work-item--2h {
+  height: 650px; }
+
+.work-item--2w img {
+  max-width: 60%;
+  height: 100%;
+  float: right; }
+
 .work-item--2w .work-item__content:after,
 .work-item--2w .work-item__content:before {
   bottom: 50%;
@@ -2158,7 +2159,7 @@ img {
   width: 40%;
   height: 100%;
   background: #fff;
-  padding-top: 10%; }
+  padding-top: 15%; }
 
 .work-item--2w .work-item__content:before {
   border-color: rgba(255, 255, 255, 0);
@@ -2172,7 +2173,6 @@ img {
   max-height: 100%;
   float: left; }
 
-/* ----- Double height element ----- */
 /* 
  *  Owl Carousel - Animate Plugin
  */
