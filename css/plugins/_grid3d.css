@@ -32,13 +32,13 @@ body {
 
 .grid figure,
 .grid .placeholder {
-	width: 340px;
-	height: 300px;
+	/*width: 340px;
+	height: 300px;*/
 }
 
 .grid figure {
-	margin: 10px;
-	display: inline-block;
+	/*margin: 10px;
+	display: inline-block;*/
 	cursor: pointer;
 }
 
@@ -137,9 +137,9 @@ body {
 
 .content > div {
 	z-index: 10;
-	position: absolute;
+	/*position: absolute;*/
 	top: 0;
-	width: 100%;
+	/*width: 100%;*/
 	overflow: hidden;
 	height: 0;
 	opacity: 0;
@@ -154,7 +154,6 @@ body {
 }
 
 .icon:before {
-	font-family: 'fontawesome';
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
@@ -166,10 +165,8 @@ body {
 .close-content {
 	position: fixed;
 	z-index: 1000;
-	top: 0;
-	right: 10px;
-	font-size: 1.6em;
-	color: #aaa;
+	top: 3vw;
+	right: 3vw;
 	cursor: pointer;
 	pointer-events: none;
 	padding: 1em;
@@ -178,25 +175,18 @@ body {
 	transition: opacity 0.3s;
 }
 
-.close-content:hover {
-	color: #999;
-}
-
 .content > div.show ~ .close-content {
 	opacity: 1;
 	pointer-events: auto;
-}
-
-.close-content:before {
-	content: "\e602";
 }
 
 /* Dummy content */
 
 .dummy-img,
 .dummy-text {
-	max-width: 600px;
-	width: 90%;
+	margin-left: 1.5vw;
+	position: relative;
+
 	opacity: 0;
 	-webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
 	transition: opacity 0.5s, transform 0.5s;

@@ -106,7 +106,7 @@ hr { padding: 20px 0; width: 85%; }
         </div>        
         
         <div class="col-lg-3 text-right visible-lg">
-          <img src="img/doug.png" class="img-circle" style="width:100%;border:1em solid #fff;">
+          <img src="img/doug.png" class="img-circle">
         </div>        
 
         <div class="col-lg-9">        
@@ -115,19 +115,31 @@ hr { padding: 20px 0; width: 85%; }
             <tbody>
               <tr>
                 <td>iiNet<br>2013 - Present</td>
-                <td><strong>Senior Web Designer</strong><br>To deliver design, development, and ongoing maintenance of web-based products and systems to support business initiatives. Create prototypes, UI, IA, graphical and architectural requirements, and conduct usability assessments to evaluate solutions at the information architecture &amp; design level.</td>
+                <td>
+									<strong>Senior Web Designer</strong><br>
+									<span class="hidden-xxs">To deliver design, development, and ongoing maintenance of web-based products and systems to support business initiatives. Create prototypes, UI, IA, graphical and architectural requirements, and conduct usability assessments to evaluate solutions at the information architecture &amp; design level.</span>
+								</td>
               </tr>
               <tr>
                 <td>Bankwest<br>2010 - 2013</td>
-                <td><strong>Digital Production Specialist</strong><br>Work with key stakeholders to design and deliver innovative digital creative elements to drive Bankwest initiatives.</td>
+                <td>
+									<strong>Digital Production Specialist</strong><br>
+									<span class="hidden-xxs">Work with key stakeholders to design and deliver innovative digital creative elements to drive Bankwest initiatives.</span>
+								</td>
               </tr>
               <tr>
                 <td>Bankwest<br>2009 - 2010</td>
-                <td><strong>Online Marketing Manager</strong><br>To manage the marketing and customer experience of multiple product portfolios via the online channel. Responsible for implementing well defined campaign strategies, campaign optimisation, budget management, agency relationships, and online creative development.</td>
+                <td>
+									<strong>Online Marketing Manager</strong><br>
+									<span class="hidden-xxs">To manage the marketing and customer experience of multiple product portfolios via the online channel. Responsible for implementing well defined campaign strategies, campaign optimisation, budget management, agency relationships, and online creative development.</span>
+								</td>
               </tr>  
               <tr>
                 <td>Bankwest<br>2007 - 2009</td>
-                <td><strong>eCommerce Marketing Coordinator</strong><br>To coordinate the Bankwest online marketing and sales function, responsible for online marketing execution, management information reporting, agency relationships and strategic projects.</td>
+                <td>
+									<strong>eCommerce Marketing Coordinator</strong><br>
+									<span class="hidden-xxs">To coordinate the Bankwest online marketing and sales function, responsible for online marketing execution, management information reporting, agency relationships and strategic projects.</span>
+								</td>
               </tr>                   
             </tbody>
           </table> 
@@ -230,14 +242,44 @@ hr { padding: 20px 0; width: 85%; }
       </section>
       <!-- end selected works --> 
 			
+		
+			
+			
+			
+			
+			
+			
 			
 			
 			
 <section class="grid3d vertical" id="grid3d">
 	<div class="grid-wrap">
 		<div class="grid">
-			<figure><img src="img/owl1.jpg" alt="img01"/></figure>
-			<figure><img src="img/owl2.jpg" alt="img02"/></figure>
+			
+			
+			<figure>
+            <article class="work-item work-item--2w"> 
+							<img src="img/mobii-manager.png" style="width: 100%;" />
+							<div class="work-item__content">
+								<p class="work-item__heading">Mobii Manager</p>
+								<p class="subheading">ux / branding / mobile design</p> 
+							</div> 
+            </article>
+			</figure>
+				
+				
+			<figure>
+
+            <article class="work-item"> 
+							<img src="img/iinet.png" style="width: 100%;" />
+							<div class="work-item__content">
+								<p class="work-item__heading">iiNet</p>
+								<p class="subheading">ux / web design / web development</p>                          
+							</div>
+            </article>
+			</figure>
+			
+			
 			<figure><img src="img/owl3.jpg" alt="img03"/></figure>
 			<!-- ... -->
 		</div>
@@ -245,11 +287,57 @@ hr { padding: 20px 0; width: 85%; }
 	
 	
 	<div class="content">
-		<div>
-			<div class="dummy-img"></div>
-			<p class="dummy-text">Some text</p>
-			<p class="dummy-text">Some more text</p>
+		
+		
+		<!-- Mobii Manager -->
+		<div class="wrapper">		
+			<div class="wrapper__outer">
+				
+				<div style="background: #fafafa; width: 100%;">
+					<img src="img/mobii-manager.png" class="margin-bottom-20 text-right" style="display: block; margin: 0 auto;">				
+				</div>
+				
+				<div class="container">
+
+
+					<!-- brand colours -->
+					<style>
+						.brand-colour { 
+							width: 20px; height: 10px; display: inline-block; margin: 0; padding: 0;
+						}
+					</style>				
+					<div class="col-sm-12">
+						<span class="brand-colour" style="background: #ff8200;"> </span>
+						<span class="brand-colour" style="background: #d21f2a;"> </span>
+						<span class="brand-colour" style="background: #0090ab;"> </span>
+						<span class="brand-colour" style="background: #808080;"> </span>
+						<span class="brand-colour" style="background: #fafafa;"> </span>
+					</div>
+
+					<div class="col-lg-9">			
+						<h3 class="h2 subheading">Mobii Manager</h3>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, aliquam condimentum at, laoreet mattis, massa. Sed eleifend nonummy diam. Praesent mauris ante, elementum etd, condimentum at, laoreet mattis, massa.</p>
+						<p>Sed eleifend nonummy diam. Praesent mauris ante, elementum et, bibendum at, posuere sit amet, nibh. Duis tincidunt lectus quis dui viverra vestibulum. Suspendisse vulputate aliquam dui. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+					</div>
+
+					<div class="col-lg-2 col-lg-offset-1">
+						<h4 class="h4 subheading margin-bottom-0">Who</h4>
+						<p class="margin-top-0">iiNet</p>
+
+						<h4 class="h4 subheading margin-bottom-0">When</h4>
+						<p class="margin-top-0">March 2014</p>
+
+						<h4 class="h4 subheading margin-bottom-0">Skills used</h4>
+						<p class="margin-top-0">Design, Branding, UX</p>
+					</div>
+
+				</div>
+			</div>
 		</div>
+		<!-- end Mobii Manager -->
+		
+
+		
 		<div>
 			<div class="dummy-img"></div>
 			<p class="dummy-text">Some text</p>
@@ -261,13 +349,25 @@ hr { padding: 20px 0; width: 85%; }
 			<p class="dummy-text">Some more text</p>
 		</div>		
 		<span class="loading"></span>
-		<span class="icon close-content"></span>
+		<span class="icon close-content svg-star svg-star-dims"></span>
 	</div>
 </section>			
 
 			
 			
-      
+    
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
       <hr>
       
       <!-- contact me -->

@@ -105,28 +105,28 @@ section {
 @media (min-width: 480px) {
   .container {
     /*width: 460px;*/
-    width: 67%; } }
+    width: 95%; } }
 
-/*@media (min-width: 768px) {
+@media (min-width: 768px) {
   .container {
-    width: 750px;
-  }
-}
+    width: 90%; } }
+
 @media (min-width: 992px) {
   .container {
-    width: 970px;
-  }
-}
+    width: 80%; } }
+
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
-  }
-}
+    width: 76%; } }
+
+@media (min-width: 1360px) {
+  .container {
+    width: 72%; } }
+
 @media (min-width: 1960px) {
   .container {
-    width: 1480px;
-  }
-}*/
+    width: 1480px; } }
+
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
@@ -1670,9 +1670,7 @@ h6, .h6 {
 /* ************************************* */
 .icon {
   display: inline-block;
-  height: 32px;
-  width: 32px;
-  margin: 1px 6px -3px 0; }
+  margin: 1px 6px -15px 0; }
 
 .icon__facebook {
   background-position: -100px -150px; }
@@ -2032,7 +2030,17 @@ img {
   height: auto; }
 
 .img-circle {
-  border-radius: 50%; }
+  border-radius: 50%;
+  width: 100%;
+  border: 1em solid #fff; }
+
+@media (max-width: 1370px) {
+  .img-circle {
+    border: 0.5em solid #fff; } }
+
+@media (max-width: 1200px) {
+  .work-item {
+    width: 100%; } }
 
 /* *************************************
 //   FRAMES  [modules/_frames.scss]
@@ -2082,9 +2090,14 @@ img {
   border: 1px solid #e4e4e4;
   background: #fff; }
 
-@media (max-width: 1199px) {
+@media (max-width: 1370px) {
   .work-item {
-    width: 49%; } }
+    width: 49%;
+    height: auto; } }
+
+@media (max-width: 1200px) {
+  .work-item {
+    width: 100%; } }
 
 .work-item__heading {
   margin-bottom: 0;
@@ -2136,6 +2149,10 @@ img {
 .work-item--2w {
   width: 65%; }
 
+@media (max-width: 1370px) {
+  .work-item--2w {
+    width: 100%; } }
+
 .work-item--2h {
   height: 650px; }
 
@@ -2168,34 +2185,41 @@ img {
   max-height: 100%;
   float: left; }
 
-.svg-lab, .svg-mail, .svg-pen, .svg-photo, .svg-user {
+.svg-lab, .svg-mail, .svg-pen, .svg-sprite, .svg-star, .svg-user {
   background: url("../svg/sprite.svg") no-repeat; }
 
 .svg-lab {
   background-position: 0 0; }
 
 .svg-lab-dims {
-  width: 42px;
-  height: 42px; }
+  width: 30px;
+  height: 30px; }
 
 .svg-mail {
-  background-position: 25% 0; }
+  background-position: 7.9787234042553195% 0; }
 
 .svg-mail-dims {
   width: 42px;
   height: 42px; }
 
 .svg-pen {
-  background-position: 50% 0; }
+  background-position: 19.148936170212767% 0; }
 
 .svg-pen-dims {
   width: 42px;
   height: 42px; }
 
-.svg-photo {
-  background-position: 75% 0; }
+.svg-sprite {
+  background-position: 57.57575757575758% 0; }
 
-.svg-photo-dims {
+.svg-sprite-dims {
+  width: 220px;
+  height: 52px; }
+
+.svg-star {
+  background-position: 88.82978723404256% 0; }
+
+.svg-star-dims {
   width: 42px;
   height: 42px; }
 
