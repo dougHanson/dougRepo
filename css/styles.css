@@ -1669,11 +1669,10 @@ h6, .h6 {
 //   Icons used throughout site that aren't part of icon font. SVG and PNG versions must both be maintained
 /* ************************************* */
 .icon {
-  background: transparent url("../img/icon-sprite.png") no-repeat scroll 0 0;
   display: inline-block;
-  height: 25px;
-  margin: 1px 6px -3px 0;
-  width: 25px; }
+  height: 32px;
+  width: 32px;
+  margin: 1px 6px -3px 0; }
 
 .icon__facebook {
   background-position: -100px -150px; }
@@ -2087,10 +2086,6 @@ img {
   .work-item {
     width: 49%; } }
 
-@media (max-width: 767px) {
-  .work-item {
-    width: 100%; } }
-
 .work-item__heading {
   margin-bottom: 0;
   margin-top: 1em;
@@ -2141,10 +2136,6 @@ img {
 .work-item--2w {
   width: 65%; }
 
-@media (max-width: 1199px) {
-  .work-item--2w {
-    width: 99%; } }
-
 .work-item--2h {
   height: 650px; }
 
@@ -2176,6 +2167,44 @@ img {
   max-width: 50%;
   max-height: 100%;
   float: left; }
+
+.svg-lab, .svg-mail, .svg-pen, .svg-photo, .svg-user {
+  background: url("../svg/sprite.svg") no-repeat; }
+
+.svg-lab {
+  background-position: 0 0; }
+
+.svg-lab-dims {
+  width: 42px;
+  height: 42px; }
+
+.svg-mail {
+  background-position: 25% 0; }
+
+.svg-mail-dims {
+  width: 42px;
+  height: 42px; }
+
+.svg-pen {
+  background-position: 50% 0; }
+
+.svg-pen-dims {
+  width: 42px;
+  height: 42px; }
+
+.svg-photo {
+  background-position: 75% 0; }
+
+.svg-photo-dims {
+  width: 42px;
+  height: 42px; }
+
+.svg-user {
+  background-position: 100% 0; }
+
+.svg-user-dims {
+  width: 42px;
+  height: 42px; }
 
 /* 
  *  Owl Carousel - Animate Plugin

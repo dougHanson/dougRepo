@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:200,400,600,800|Dancing+Script" rel="stylesheet" type="text/css">
     <!-- build:css -->
     <link rel="stylesheet" href="css/styles.css" media="all">
-			<link rel="stylesheet" href="css/plugins/_grid3d.css" media="all">
+		<link rel="stylesheet" href="css/plugins/_grid3d.css" media="all">
     <!-- endbuild -->
 
     <style type="text/css">
@@ -70,10 +70,10 @@ hr { padding: 20px 0; width: 85%; }
     <div class="vertical-menu__logo"> <img src="img/logo-retina.png" /> </div>
     <nav>
       <ul>
-        <li class="nav-home"><a href="#"><i class="icon icon__homepage"></i><span>Intro</span></a></li>
-        <li class="nav-about"><a href="#"><i class="icon icon__homepage"></i><span>About me</span></a></li>
-        <li class="nav-works"><a href="#"><i class="icon icon__homepage"></i><span>Selected works</span></a></li>
-        <li class="nav-contact"><a href="#"><i class="icon icon__homepage"></i><span>Contact</span></a></li>        
+        <li class="nav-home"><a href="#"><i class="icon svg-pen svg-pen-dims"></i><span>Intro</span></a></li>
+        <li class="nav-about"><a href="#"><i class="icon svg-user svg-user-dims"></i><span>About me</span></a></li>
+        <li class="nav-works"><a href="#"><i class="icon svg-lab svg-lab-dims"></i><span>Selected works</span></a></li>
+        <li class="nav-contact"><a href="#"><i class="icon svg-mail svg-pen-dims"></i><span>Contact</span></a></li>        
       </ul>
     </nav>
   </aside>
@@ -196,7 +196,7 @@ hr { padding: 20px 0; width: 85%; }
   
 					
           <a href="#">
-            <article class="work-item   work-item--2h"> 
+            <article class="work-item"> 
 							<img src="img/maiko.png" style="width: 100%;" />
 							<div class="work-item__content">
 								<p class="work-item__heading">Bankwest Mobile App</p>

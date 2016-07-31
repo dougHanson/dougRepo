@@ -91,30 +91,41 @@ gulp.task('html-replace', function() {
 // Watch Files For Changes
 gulp.task('watch', function() {
   gulp.watch('js/**/*.js', ['lint-js', 'minify-js']);
+	//gulp.watch('svg/**/*.svg', ['svgSprite']);	
   gulp.watch('css/**/*.scss', ['compile-sass']);
 });
 
 
-// SVG Sprites
+// SVG Sprite
 gulp.task('svgSprite', function () {
-config                  = {
-    mode                : {
-        css             : {     // Activate the «css» mode
-            render      : {
-                css     : true  // Activate CSS output (with default options)
-            }
-        }
-    }
-};
-
-gulp.src('**/*.svg', {cwd: 'path/to/assets'})
-    .pipe(svgSprite(config))
-    .pipe(gulp.dest('dist'));
+	return gulp.src('./svg/**/*.svg')
+		.pipe(svgSprite({
+			shape: {
+				spacing: {
+					padding: 5
+				}
+			},
+			mode: {
+				css: {
+					dest: "css/",
+					layout: "horizontal",
+					sprite: "../svg/sprite.svg",
+					bust: false,
+					render: {
+					scss: {
+						dest: "_sprite.scss",
+						css: true
+						}
+					}
+				}
+			},
+			variables: {
+				mapname: "icons"
+			}
+		}))
+		.pipe(gulp.dest('./'))
+		.pipe(gulp.dest('./../dist/'));
 });
-
-
-
-
 
 
 
