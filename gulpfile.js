@@ -14,6 +14,7 @@ var changed = require('gulp-changed');
 var imagemin = require('gulp-imagemin');
 var minifyHTML = require('gulp-minify-html');
 var htmlreplace = require('gulp-html-replace');
+var svgSprite = require('gulp-svg-sprite');   // #TODO - simplify var declarations
 
 // JS lint task [jsHint]
 gulp.task('lint-js', function() {
@@ -92,6 +93,28 @@ gulp.task('watch', function() {
   gulp.watch('js/**/*.js', ['lint-js', 'minify-js']);
   gulp.watch('css/**/*.scss', ['compile-sass']);
 });
+
+
+// SVG Sprites
+gulp.task('svgSprite', function () {
+config                  = {
+    mode                : {
+        css             : {     // Activate the «css» mode
+            render      : {
+                css     : true  // Activate CSS output (with default options)
+            }
+        }
+    }
+};
+
+gulp.src('**/*.svg', {cwd: 'path/to/assets'})
+    .pipe(svgSprite(config))
+    .pipe(gulp.dest('dist'));
+});
+
+
+
+
 
 
 

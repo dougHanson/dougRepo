@@ -2085,7 +2085,7 @@ img {
 
 @media (max-width: 1199px) {
   .work-item {
-    width: 32%; } }
+    width: 49%; } }
 
 @media (max-width: 767px) {
   .work-item {
@@ -2140,6 +2140,10 @@ img {
 /* ----- Double elements ----- */
 .work-item--2w {
   width: 65%; }
+
+@media (max-width: 1199px) {
+  .work-item--2w {
+    width: 99%; } }
 
 .work-item--2h {
   height: 650px; }

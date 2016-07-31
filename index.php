@@ -85,7 +85,7 @@ hr { padding: 20px 0; width: 85%; }
           
       <!-- hero content -->
       <div class="hero-content parallax-bg" style="height: 80vh;">
-        <div style="text-align: center; padding-top: 210px;  min-height: 510px;"> 
+        <div style="text-align: center; padding-top: 28vh;  height: 100vh;">  <!-- #TODO - make this a class -->
 <!--          <img src="img/logo.png" alt="" />-->
           <h1 class="hero-heading"><span>Doug Hanson</span></h1>
           <h3 class="subheading subheading__hero">Web Designer from Perth, Western Australia</h3>
@@ -105,11 +105,11 @@ hr { padding: 20px 0; width: 85%; }
           <p>&nbsp;</p>
         </div>        
         
-        <div class="col-sm-3 text-right hidden-xs hidden-xxs">
+        <div class="col-lg-3 text-right visible-lg">
           <img src="img/doug.png" class="img-circle" style="width:100%;border:1em solid #fff;">
         </div>        
 
-        <div class="col-sm-9">        
+        <div class="col-lg-9">        
           <h4>Experience</h4>   
           <table class="full-width">
             <tbody>
