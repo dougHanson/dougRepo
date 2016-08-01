@@ -120,16 +120,16 @@ nav a:focus {
 @media (max-width: 991px) {
   nav a {
     width: auto;
-    padding: 1em;
+    padding: 1em 0.8em;
   } 
 }
 @media (max-width: 767px) {
   nav a {
-    padding: 1em 2.5em;
+    padding: 1em 1.5em; 
   }  
 }
 @media (max-width: 479px) {
   nav a {
-    padding: 1em;
+    padding: 1em 0.2em;
   } 
 } 

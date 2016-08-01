@@ -1369,15 +1369,15 @@ nav a:focus {
 @media (max-width: 991px) {
   nav a {
     width: auto;
-    padding: 1em; } }
+    padding: 1em 0.8em; } }
 
 @media (max-width: 767px) {
   nav a {
-    padding: 1em 2.5em; } }
+    padding: 1em 1.5em; } }
 
 @media (max-width: 479px) {
   nav a {
-    padding: 1em; } }
+    padding: 1em 0.2em; } }
 
 /* *************************************
 //   TYPE  [modules/_type.scss]
@@ -2192,32 +2192,32 @@ img {
   background-position: 0 0; }
 
 .svg-lab-dims {
-  width: 30px;
-  height: 30px; }
+  width: 42px;
+  height: 42px; }
 
 .svg-mail {
-  background-position: 7.9787234042553195% 0; }
+  background-position: 4.1015625% 0; }
 
 .svg-mail-dims {
   width: 42px;
   height: 42px; }
 
 .svg-pen {
-  background-position: 19.148936170212767% 0; }
+  background-position: 8.203125% 0; }
 
 .svg-pen-dims {
   width: 42px;
   height: 42px; }
 
 .svg-sprite {
-  background-position: 57.57575757575758% 0; }
+  background-position: 60% 0; }
 
 .svg-sprite-dims {
-  width: 220px;
-  height: 52px; }
+  width: 856px;
+  height: 82px; }
 
 .svg-star {
-  background-position: 88.82978723404256% 0; }
+  background-position: 95.8984375% 0; }
 
 .svg-star-dims {
   width: 42px;

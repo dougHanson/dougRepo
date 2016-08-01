@@ -164,6 +164,7 @@ hr { padding: 20px 0; width: 85%; }
 
         <div style="margin-top:40px;" > <!--class="masonry-container"--> 
  
+<!--
           <a href="#">
             <article class="work-item work-item--2w"> 
 							<img src="img/mobii-manager.png" style="width: 100%;" />
@@ -209,15 +210,16 @@ hr { padding: 20px 0; width: 85%; }
 					
           <a href="#">
             <article class="work-item"> 
-							<img src="img/maiko.png" style="width: 100%;" />
+							<img src="img/owl1.jpg" style="width: 100%;" />
 							<div class="work-item__content">
 								<p class="work-item__heading">Bankwest Mobile App</p>
 								<p class="subheading">mobile design</p> 
 							</div> 
             </article>
           </a>      					
+-->
 
-          <a href="#">
+          <!--<a href="#">
             <article class="work-item"> 
 							<img src="img/world-passion-change.png" style="width: 100%;" />
 							<div class="work-item__content">
@@ -235,7 +237,7 @@ hr { padding: 20px 0; width: 85%; }
 								<p class="subheading">branding / graphic design</p> 
 							</div> 
             </article> 
-          </a> 					
+          </a> 		-->			
                             
         </div>
 
@@ -252,7 +254,7 @@ hr { padding: 20px 0; width: 85%; }
 			
 			
 			
-<section class="grid3d vertical" id="grid3d">
+<div class="grid3d vertical" id="grid3d">
 	<div class="grid-wrap">
 		<div class="grid">
 			
@@ -279,8 +281,7 @@ hr { padding: 20px 0; width: 85%; }
             </article>
 			</figure>
 			
-			
-			<figure><img src="img/owl3.jpg" alt="img03"/></figure>
+
 			<!-- ... -->
 		</div>
 	</div><!-- /grid-wrap -->
@@ -316,15 +317,15 @@ hr { padding: 20px 0; width: 85%; }
 
 					<div class="col-lg-9">			
 						<h3 class="h2 subheading">Mobii Manager</h3>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, aliquam condimentum at, laoreet mattis, massa. Sed eleifend nonummy diam. Praesent mauris ante, elementum etd, condimentum at, laoreet mattis, massa.</p>
-						<p>Sed eleifend nonummy diam. Praesent mauris ante, elementum et, bibendum at, posuere sit amet, nibh. Duis tincidunt lectus quis dui viverra vestibulum. Suspendisse vulputate aliquam dui. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+						<p>I designed a mobile application which would allow iiNet customers to interact with and manage their mobile broadband networking hardware.</p>
+						<p>As the app was being devloped only for Android, I aligned the design when possible to be consistent with the existing Android OS. </p>
 					</div>
 
 					<div class="col-lg-2 col-lg-offset-1">
 						<h4 class="h4 subheading margin-bottom-0">Who</h4>
 						<p class="margin-top-0">iiNet</p>
 
-						<h4 class="h4 subheading margin-bottom-0">When</h4>
+						<h4 class="h4 subheading margin-bottom-0">Date</h4>
 						<p class="margin-top-0">March 2014</p>
 
 						<h4 class="h4 subheading margin-bottom-0">Skills used</h4>
@@ -351,7 +352,7 @@ hr { padding: 20px 0; width: 85%; }
 		<span class="loading"></span>
 		<span class="icon close-content svg-star svg-star-dims"></span>
 	</div>
-</section>			
+</div>			
 
 			
 			
