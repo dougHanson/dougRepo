@@ -161,7 +161,9 @@ hr { padding: 20px 0; width: 85%; }
 			
 	<style>
 		.work-item { transform-style: preserve-3d; }
-		.perspective-container { perspective: 1000px; perspective-origin: center; }
+		.perspective-container { perspective: 1000px;  }
+		.perspective-left { perspective-origin: 25% center;}
+		.perspective-right { perspective-origin: 75% center;}
 		.zoom { animation: mymove 1s 1; animation-fill-mode: forwards; }
 		@keyframes mymove {
 				0%   {transform: translateZ(0px);}
@@ -208,7 +210,7 @@ hr { padding: 20px 0; width: 85%; }
 
         <div style="margin-top:40px;" > <!--class="masonry-container"-->  
 
-			<div class="perspective-container" >
+			<div class="perspective-container perspective-left" >
             <article class="work-item work-item--2w"> 
 							<div class="front">
 								<img src="img/mobii-manager.png" style="width: 100%;" />
@@ -221,7 +223,7 @@ hr { padding: 20px 0; width: 85%; }
             </article>
 		</div>
 
-				<div class="perspective-container" >
+				<div class="perspective-container perspective-right" >
             <article class="work-item"> 
 							<img src="img/iinet.png" style="width: 100%;" />
 							<div class="work-item__content">
