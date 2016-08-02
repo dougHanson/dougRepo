@@ -155,28 +155,73 @@ hr { padding: 20px 0; width: 85%; }
       <!-- end about me --> 
       
       <hr>
-          
+       
+			
+			
+			
+	<style>
+		.work-item { transform-style: preserve-3d; }
+		.perspective-container { perspective: 1000px; }
+		.zoom { animation: mymove 1s 1; animation-fill-mode: forwards; }
+		@keyframes mymove {
+				0%   {transform: translateZ(0px);}
+				10%  {transform: translateZ(-500px); }
+				100% {transform: translateZ(950px) translateY(-150px) rotateX(-180deg);}
+		}		
+		
+		.content { display: none; background: #fff; height: 100vh; overflow: auto; position: fixed; top: 0; left: 0; width: 100%; z-index: 20; }
+		.close-content { position: absolute; top: 40px; right: 40px; }
+		
+		
+		/* hide back of pane during swap */
+		.front, .back {
+			backface-visibility: hidden;
+		}
+
+		/* front pane, placed above back */
+		.front {
+			transform: rotateY(0deg);
+		}
+
+		/* back, initially hidden pane */
+		.back {
+			transform: rotateY(180deg);
+		}	
+		
+		.noscroll {
+			overflow: hidden;
+		}		
+		
+		
+	</style>	
+		
+
+			
+			
+			
       <!-- selected works -->
       <section class="selected-works container pad-lr-20">
+				
         <p class="h3 subheading text-center margin-0">my portfolio</p>
-        <h2 class="text-center text-uppercase">Selected works</h2>
+        <h2 class="text-center text-uppercase">Selected works</h2>				
         <div class="text-center"><img src="img/arrow.png" /></div>     
 
-        <div style="margin-top:40px;" > <!--class="masonry-container"--> 
- 
-<!--
-          <a href="#">
+        <div style="margin-top:40px;" > <!--class="masonry-container"-->  
+
+					<div class="perspective-container">
             <article class="work-item work-item--2w"> 
-							<img src="img/mobii-manager.png" style="width: 100%;" />
-							<div class="work-item__content">
-								<p class="work-item__heading">Mobii Manager</p>
-								<p class="subheading">ux / branding / mobile design</p> 
-							</div> 
+							<div class="front">
+								<img src="img/mobii-manager.png" style="width: 100%;" />
+								<div class="work-item__content">
+									<p class="work-item__heading">Mobii Manager</p>
+									<p class="subheading">ux / branding / mobile design</p> 
+								</div> 
+							</div>
+							<div class="back"><!-- --></div>
             </article>
-          </a>  					
-					
-					
-					<a href="#">
+					</div>
+
+				
             <article class="work-item"> 
 							<img src="img/iinet.png" style="width: 100%;" />
 							<div class="work-item__content">
@@ -184,19 +229,19 @@ hr { padding: 20px 0; width: 85%; }
 								<p class="subheading">ux / web design / web development</p>                          
 							</div>
             </article>
-          </a> 
 
-					
-          <a href="#">
+
+			 <!--
             <article class="work-item"> 
 							<img src="img/multicomm.png" style="width: 100%;" />
 							<div class="work-item__content">
 								<p class="work-item__heading">Multicomm Website</p>
 								<p class="subheading">branding / ux / web design / web development</p> 
 							</div> 
-            </article>
-          </a>					
-          
+            </article>				
+      
+					
+					
           <a href="#">
             <article class="work-item"> 
 							<img src="img/iihelp.png" style="width: 100%;" />
@@ -217,9 +262,9 @@ hr { padding: 20px 0; width: 85%; }
 							</div> 
             </article>
           </a>      					
--->
 
-          <!--<a href="#">
+
+          <a href="#">
             <article class="work-item"> 
 							<img src="img/world-passion-change.png" style="width: 100%;" />
 							<div class="work-item__content">
@@ -251,42 +296,8 @@ hr { padding: 20px 0; width: 85%; }
 			
 			
 			
-			
-			
-			
-<div class="grid3d vertical" id="grid3d">
-	<div class="grid-wrap">
-		<div class="grid">
-			
-			
-			<figure>
-            <article class="work-item work-item--2w"> 
-							<img src="img/mobii-manager.png" style="width: 100%;" />
-							<div class="work-item__content">
-								<p class="work-item__heading">Mobii Manager</p>
-								<p class="subheading">ux / branding / mobile design</p> 
-							</div> 
-            </article>
-			</figure>
-				
-				
-			<figure>
-
-            <article class="work-item"> 
-							<img src="img/iinet.png" style="width: 100%;" />
-							<div class="work-item__content">
-								<p class="work-item__heading">iiNet</p>
-								<p class="subheading">ux / web design / web development</p>                          
-							</div>
-            </article>
-			</figure>
-			
-
-			<!-- ... -->
-		</div>
-	</div><!-- /grid-wrap -->
-	
-	
+		
+	<div style="position:relative;">
 	<div class="content">
 		
 		
@@ -294,7 +305,7 @@ hr { padding: 20px 0; width: 85%; }
 		<div class="wrapper">		
 			<div class="wrapper__outer">
 				
-				<div style="background: #fafafa; width: 100%;">
+				<div style="background: #fafafa; width: 101%;">
 					<img src="img/mobii-manager.png" class="margin-bottom-20 text-right" style="display: block; margin: 0 auto;">				
 				</div>
 				
@@ -316,19 +327,19 @@ hr { padding: 20px 0; width: 85%; }
 					</div>
 
 					<div class="col-lg-9">			
-						<h3 class="h2 subheading">Mobii Manager</h3>
+						<h3 class="h3 subheading">Mobii Manager</h3>
 						<p>I designed a mobile application which would allow iiNet customers to interact with and manage their mobile broadband networking hardware.</p>
-						<p>As the app was being devloped only for Android, I aligned the design when possible to be consistent with the existing Android OS. </p>
+						<p>As the app was being devloped only for Android, I aligned the design when possible to be consistent with the existing Android OS. </p>	
 					</div>
 
 					<div class="col-lg-2 col-lg-offset-1">
-						<h4 class="h4 subheading margin-bottom-0">Who</h4>
-						<p class="margin-top-0">iiNet</p>
+						<p class="h4 subheading margin-bottom-0">Client</p>
+						<p class="margin-top-0">iiNet </p>
 
-						<h4 class="h4 subheading margin-bottom-0">Date</h4>
+						<p class="h4 subheading margin-bottom-0">Date</p>
 						<p class="margin-top-0">March 2014</p>
 
-						<h4 class="h4 subheading margin-bottom-0">Skills used</h4>
+						<p class="h4 subheading margin-bottom-0">Skills used</p>
 						<p class="margin-top-0">Design, Branding, UX</p>
 					</div>
 
@@ -337,34 +348,14 @@ hr { padding: 20px 0; width: 85%; }
 		</div>
 		<!-- end Mobii Manager -->
 		
-
-		
-		<div>
-			<div class="dummy-img"></div>
-			<p class="dummy-text">Some text</p>
-			<p class="dummy-text">Some more text</p>
-		</div>
-		<div>
-			<div class="dummy-img"></div>
-			<p class="dummy-text">Some text</p>
-			<p class="dummy-text">Some more text</p>
-		</div>		
 		<span class="loading"></span>
-		<span class="icon close-content svg-star svg-star-dims"></span>
+		<span class="icon close-content svg-star svg-star-dims">Close</span>
 	</div>
-</div>			
+		</div>
 
 			
 			
-    
-			
-			
-			
-			
-			
-			
-			
-			
+
 			
 			
 			
@@ -472,22 +463,17 @@ hr { padding: 20px 0; width: 85%; }
 <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script> 
 <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script> 
 
+
+
 <!-- JS plugins --> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.min.js"></script>
 
 <!-- build:js --> 
 <script src="js/plugins/classie.js"></script>  
 <script src="js/plugins/jquery.ui.touch-punch.min.js"></script> 
-<script src="js/modules/horizontal-menu.js"></script> 
 <script src="js/plugins/owl.carousel.js"></script> 
 <script src="js/main.js"></script> 
-	
-		<script src="js/plugins/modernizr.custom.js"></script>
-		<script src="js/plugins/helper.js"></script>
-		<script src="js/plugins/grid3d.js"></script>
-		<script>
-			new grid3D( document.getElementById( 'grid3d' ) );
-		</script>	
+
 <!-- endbuild --> 
   
 </body>

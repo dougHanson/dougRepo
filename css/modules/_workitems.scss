@@ -21,6 +21,8 @@
 	height: 325px;
   border: 1px solid $grey-border; 
   background: #fff;	
+  transform-style: preserve-3d;	
+	cursor: pointer; cursor: hand;
 }
 @media (max-width: 1370px) {
   .work-item   { width: 49%; height: auto; }  

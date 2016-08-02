@@ -59,6 +59,23 @@ $(function(){
 });
 
 
+// 3D FLIP ANIMATION FOR WORK ITEMS
+$(function() {	
+	$(".work-item").click(function(){
+		$(this).toggleClass('zoom').addClass('hasAnimated');
+		setTimeout(function(){ 
+			$(".content").fadeIn(); 
+		}, 1001);
+		$('body').addClass('noscroll');
+	});
+
+	$(".close-content,nav a").click(function(){
+		$(".content").fadeOut(); 
+		$('body').removeClass('noscroll');
+		$('.hasAnimated').removeClass('zoom');
+	});	
+});	
+
 
 
 // INPUT FIELDS - special effects from codrops 
