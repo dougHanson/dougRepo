@@ -1935,13 +1935,13 @@ label > .label-body {
 	z-index: 100;
 }*/
 .input__icon {
-  background: url(../img/icon-sprite.png);
-  background-position: -0 -150px;
-  width: 1.5em;
-  height: 25px;
+  background: url("../../svg/sprite.svg") no-repeat;
+  background-position: 4.1015625% 0;
+  height: 32px;
+  width: 32px;
   position: absolute;
-  top: 1em;
-  left: 1.5em;
+  top: 10px;
+  left: 10px;
   padding: 1em 0 0 0.5em; }
 
 .input__field {
@@ -2086,9 +2086,12 @@ img {
   margin: 10px 0.5%;
   padding: 0em;
   float: left;
-  height: 325px;
+  min-height: 340px;
   border: 1px solid #e4e4e4;
-  background: #fff; }
+  background: #fff;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  cursor: hand; }
 
 @media (max-width: 1370px) {
   .work-item {
@@ -2185,7 +2188,72 @@ img {
   max-height: 100%;
   float: left; }
 
-.svg-lab, .svg-mail, .svg-pen, .svg-sprite, .svg-star, .svg-user {
+/* ----- Perspective ----- */
+.perspective-container {
+  perspective: 1000px; }
+
+.perspective-left {
+  perspective-origin: 10% center; }
+
+.perspective-right {
+  perspective-origin: 90% center; }
+
+.flip3d {
+  animation: flipAnimation 1s 1;
+  animation-fill-mode: forwards;
+  position: relative;
+  z-index: 400; }
+
+@keyframes flipAnimation {
+  0% {
+    transform: translateZ(0px); }
+  10% {
+    transform: translateZ(-500px); }
+  100% {
+    transform: translateZ(950px) translateY(-150px) rotateX(-180deg); } }
+
+.work-item__one,
+.work-item__two,
+.work-item__three {
+  display: none;
+  background: #fff;
+  height: 100vh;
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 20; }
+
+.close-content {
+  position: absolute;
+  top: 40px;
+  right: 40px; }
+
+/* hide back of pane during swap */
+.front, .back {
+  backface-visibility: hidden; }
+
+/* front pane, placed above back */
+.front {
+  transform: rotateY(0deg); }
+
+/* back, initially hidden pane */
+.back {
+  transform: rotateY(180deg); }
+
+.noscroll {
+  overflow: hidden; }
+
+/* ----- Elements ----- */
+.brand-colour {
+  width: 20px;
+  height: 10px;
+  display: inline-block;
+  margin: 0;
+  padding: 0; }
+
+.svg-lab, .svg-mail, .svg-pen, .svg-star, .svg-user {
   background: url("../svg/sprite.svg") no-repeat; }
 
 .svg-lab {
@@ -2196,28 +2264,21 @@ img {
   height: 42px; }
 
 .svg-mail {
-  background-position: 4.1015625% 0; }
+  background-position: 25% 0; }
 
 .svg-mail-dims {
   width: 42px;
   height: 42px; }
 
 .svg-pen {
-  background-position: 8.203125% 0; }
+  background-position: 50% 0; }
 
 .svg-pen-dims {
   width: 42px;
   height: 42px; }
 
-.svg-sprite {
-  background-position: 60% 0; }
-
-.svg-sprite-dims {
-  width: 856px;
-  height: 82px; }
-
 .svg-star {
-  background-position: 95.8984375% 0; }
+  background-position: 75% 0; }
 
 .svg-star-dims {
   width: 42px;

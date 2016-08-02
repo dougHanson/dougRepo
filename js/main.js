@@ -1,8 +1,8 @@
 // OWL CAROUSEL - initiate Owl Carousel plugin 
-$(document).ready(function(){
+$(document).ready(function() {
   $(".owl-carousel").owlCarousel({
 	stagePadding: 0,
-	nav: true	  
+	nav: true
   });
 });
 
@@ -46,6 +46,7 @@ $('.parallax-bg').parallax({
 });
 
 
+
 // MASONRY GRID LAYOUT (remove if using css columns instead)
 $(function(){
   $('.masonry-container').masonry({
@@ -59,21 +60,25 @@ $(function(){
 });
 
 
+
 // 3D FLIP ANIMATION FOR WORK ITEMS
 $(function() {	
 	$(".work-item").click(function(){
-		$(this).toggleClass('zoom').addClass('hasAnimated');
+		var id = $(this).attr('id');
+		$(this).toggleClass('flip3d').addClass('hasAnimated');
 		setTimeout(function(){ 
-			$(".content").fadeIn(); 
+			$("."+id).fadeIn(); 
 		}, 1001);
 		$('body').addClass('noscroll');
-	});
+		
+		
+		$(".close-content,nav a").click(function(){
+			$("."+id).fadeOut(); 
+			$('body').removeClass('noscroll');
+			$('.hasAnimated').removeClass('flip3d');
+		});		
 
-	$(".close-content,nav a").click(function(){
-		$(".content").fadeOut(); 
-		$('body').removeClass('noscroll');
-		$('.hasAnimated').removeClass('zoom');
-	});	
+	});
 });	
 
 
@@ -112,6 +117,7 @@ $(function() {
     }
   }
 })();
+
 
 
 // NAV MENU - add smooth scrolling 

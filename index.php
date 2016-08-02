@@ -67,7 +67,7 @@ hr { padding: 20px 0; width: 85%; }
       
   <!-- left hand nav include -->
   <aside class="vertical-menu">
-    <div class="vertical-menu__logo"> <img src="img/logo-retina.png" /> </div>
+    <div class="vertical-menu__logo"><a href="/"><img src="img/logo-retina.png" /></a></div>
     <nav>
       <ul>
         <li class="nav-home"><a href="#"><i class="icon svg-pen svg-pen-dims"></i><span>Intro</span></a></li>
@@ -83,7 +83,9 @@ hr { padding: 20px 0; width: 85%; }
   <section class="wrapper">
     <div class="wrapper__outer"> 
           
-      <!-- hero content -->
+			<!-- **************************************
+			//          Intro / hero content
+			/* *************************************  -->
       <div class="hero-content parallax-bg" style="height: 80vh;">
         <div style="text-align: center; padding-top: 28vh;  height: 100vh;">  <!-- #TODO - make this a class -->
 <!--          <img src="img/logo.png" alt="" />-->
@@ -94,7 +96,11 @@ hr { padding: 20px 0; width: 85%; }
       </div>
       <!-- end hero content --> 
           
-      <!-- about me -->
+			
+			
+			<!-- **************************************
+			//            About me
+			/* *************************************  -->
       <section class="about container">
         <div class="h3 subheading text-center margin-0">roles and experience</div>
         <h2 class="text-center text-uppercase">About me</h2>
@@ -157,61 +163,20 @@ hr { padding: 20px 0; width: 85%; }
       <hr>
        
 			
-			
-			
-	<style>
-		.work-item { transform-style: preserve-3d; }
-		.perspective-container { perspective: 1000px;  }
-		.perspective-left { perspective-origin: 25% center;}
-		.perspective-right { perspective-origin: 75% center;}
-		.zoom { animation: mymove 1s 1; animation-fill-mode: forwards; }
-		@keyframes mymove {
-				0%   {transform: translateZ(0px);}
-				10%  {transform: translateZ(-500px); }
-				100% {transform: translateZ(950px) translateY(-150px) rotateX(-180deg);}
-		}		
-		
-		.content { display: none; background: #fff; height: 100vh; overflow: auto; position: fixed; top: 0; left: 0; width: 100%; z-index: 20; }
-		.close-content { position: absolute; top: 40px; right: 40px; }
-		
-		
-		/* hide back of pane during swap */
-		.front, .back {
-			backface-visibility: hidden;
-		}
-
-		/* front pane, placed above back */
-		.front {
-			transform: rotateY(0deg);
-		}
-
-		/* back, initially hidden pane */
-		.back {
-			transform: rotateY(180deg);
-		}	
-		
-		.noscroll {
-			overflow: hidden;
-		}		
-		
-		
-	</style>	
-		
-
-			
-			
-			
-      <!-- selected works -->
+	
+			<!-- **************************************
+			//            Selected Works
+			/* *************************************  -->
       <section class="selected-works container pad-lr-20">
 				
         <p class="h3 subheading text-center margin-0">my portfolio</p>
         <h2 class="text-center text-uppercase">Selected works</h2>				
         <div class="text-center"><img src="img/arrow.png" /></div>     
 
-        <div style="margin-top:40px;" > <!--class="masonry-container"-->  
+        <div style="margin-top:40px;" class="masonry-container"-->  
 
-			<div class="perspective-container perspective-left" >
-            <article class="work-item work-item--2w"> 
+					<div class="perspective-container perspective-left">
+            <article class="work-item" id="work-item__one"> 
 							<div class="front">
 								<img src="img/mobii-manager.png" style="width: 100%;" />
 								<div class="work-item__content">
@@ -221,29 +186,36 @@ hr { padding: 20px 0; width: 85%; }
 							</div>
 							<div class="back"><!-- --></div>
             </article>
-		</div>
+					</div>
 
-				<div class="perspective-container perspective-right" >
-            <article class="work-item"> 
-							<img src="img/iinet.png" style="width: 100%;" />
-							<div class="work-item__content">
-								<p class="work-item__heading">iiNet</p>
-								<p class="subheading">ux / web design / web development</p>                          
+					<div class="perspective-container">
+            <article class="work-item" id="work-item__two"> 
+							<div class="front">
+								<img src="img/iinet.png" style="width: 100%;" />
+								<div class="work-item__content">
+									<p class="work-item__heading">iiNet</p>
+									<p class="subheading">ux / web design / web development</p>                          
+								</div>
 							</div>
+							<div class="back"><!-- --></div>
             </article>
 					</div>
 
 
-			 <!--
-            <article class="work-item"> 
-							<img src="img/multicomm.png" style="width: 100%;" />
-							<div class="work-item__content">
-								<p class="work-item__heading">Multicomm Website</p>
-								<p class="subheading">branding / ux / web design / web development</p> 
-							</div> 
-            </article>				
+					<div class="perspective-container perspective-right">
+            <article class="work-item" id="work-item__three"> 
+							<div class="front">
+								<img src="img/multicomm.png" style="width: 100%;" />
+								<div class="work-item__content">
+									<p class="work-item__heading">Multicomm Website</p>
+									<p class="subheading">branding / ux / web design / web development</p> 
+								</div> 
+							</div>
+							<div class="back"><!-- --></div>
+            </article>	
+					</div>
       
-					
+				 <!--			
 					
           <a href="#">
             <article class="work-item"> 
@@ -293,93 +265,148 @@ hr { padding: 20px 0; width: 85%; }
       <!-- end selected works --> 
 			
 		
-			
-			
-			
-			
-			
-			
-		
-	<div style="position:relative;">
-	<div class="content">
-		
-		
-		<!-- Mobii Manager -->
-		<div class="wrapper">		
-			<div class="wrapper__outer">
-				
-				<div style="
-background: #fafafa;
-background: -moz-linear-gradient(left,  #f4f4f4 0%, #ffffff 50%, #f4f4f4 100%);
-background: -webkit-linear-gradient(left,  #f4f4f4 0%,#ffffff 50%,#f4f4f4 100%);
-background: linear-gradient(to right,  #f4f4f4 0%,#ffffff 50%,#f4f4f4 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', endColorstr='#fafafa',GradientType=1 );
- width: 101%;">
-					<img src="img/mobii-header.png" class="margin-bottom-20 text-right" style="display: block; margin: 0 auto;">				
-				</div>
-				
-				<div class="container">
+
+			<div style="position:relative;">
+				<div class="work-item__one">
 
 
-					<!-- brand colours -->
-					<style>
-						.brand-colour { 
-							width: 20px; height: 10px; display: inline-block; margin: 0; padding: 0;
-						}
-					</style>				
-					<div class="col-sm-12">
-						<span class="brand-colour" style="background: #ff8200;"> </span>
-						<span class="brand-colour" style="background: #d21f2a;"> </span>
-						<span class="brand-colour" style="background: #0090ab;"> </span>
-						<span class="brand-colour" style="background: #808080;"> </span>
-						<span class="brand-colour" style="background: #fafafa;"> </span>
+					<!-- Mobii Manager -->
+					<div class="wrapper">		
+						<div class="wrapper__outer">
+
+							<div class="container">
+								<img src="img/mobii-header.png" class="margin-bottom-20 text-right" style="display: block; margin: 0 auto; width: 100%;">	
+
+								<!-- brand colours -->	
+								<div class="col-sm-12">
+									<span class="brand-colour" style="background: #ff8200;"> </span>
+									<span class="brand-colour" style="background: #d21f2a;"> </span>
+									<span class="brand-colour" style="background: #0090ab;"> </span>
+									<span class="brand-colour" style="background: #808080;"> </span>
+									<span class="brand-colour" style="background: #fafafa;"> </span>
+								</div>
+
+								<!-- mobii content -->
+								<div class="col-lg-9">			
+									<h3 class="h3 subheading">Mobii Manager</h3>
+									<p>I designed a mobile application which would allow iiNet customers to interact with and manage their mobile broadband networking hardware.</p>
+									<p>As the app was being devloped only for Android, I aligned the design when possible to be consistent with the existing Android OS. </p>
+									<img src="img/mobii-designs.png" class="margin-top-30 margin-bottom-30" style="width: 100%;">				
+								</div>
+
+								<!-- mobii extra info -->
+								<div class="col-lg-2 col-lg-offset-1">
+									<p class="h4 subheading margin-bottom-0">Client</p>
+									<p class="margin-top-0">iiNet </p>
+
+									<p class="h4 subheading margin-bottom-0">Date</p>
+									<p class="margin-top-0">March 2014</p>
+
+									<p class="h4 subheading margin-bottom-0">Skills used</p>
+									<p class="margin-top-0">Design, Branding, UX</p>
+								</div>
+
+							</div>
+						</div>
 					</div>
+					<!-- end Mobii Manager -->
 
-					<!-- mobii content -->
-					<div class="col-lg-9">			
-						<h3 class="h3 subheading">Mobii Manager</h3>
-						<p>I designed a mobile application which would allow iiNet customers to interact with and manage their mobile broadband networking hardware.</p>
-						<p>As the app was being devloped only for Android, I aligned the design when possible to be consistent with the existing Android OS. </p>
-						
-						<img src="img/mobii-login.png"><img src="img/mobii-login.png">
-						
-						
-						
-					</div>
+					<!-- close button -->
+					<span class="icon close-content svg-star svg-star-dims">Close</span>
 					
-					<!-- mobii extra info -->
-					<div class="col-lg-2 col-lg-offset-1">
-						<p class="h4 subheading margin-bottom-0">Client</p>
-						<p class="margin-top-0">iiNet </p>
-
-						<p class="h4 subheading margin-bottom-0">Date</p>
-						<p class="margin-top-0">March 2014</p>
-
-						<p class="h4 subheading margin-bottom-0">Skills used</p>
-						<p class="margin-top-0">Design, Branding, UX</p>
-					</div>
-
 				</div>
 			</div>
-		</div>
-		<!-- end Mobii Manager -->
-		
-		<span class="loading"></span>
-		<span class="icon close-content svg-star svg-star-dims">Close</span>
-	</div>
-		</div>
+			
+			
+			
+			
+			<div style="position:relative;">
+				<div class="work-item__two">
+
+					<!-- iiNet plan refreshes -->
+					<div class="wrapper">		
+						<div class="wrapper__outer">
+
+							<div class="container">
+								<img src="img/iinet.png" class="margin-bottom-20 text-right" style="display: block; margin: 0 auto; width: 100%;">	
+
+								<!-- brand colours -->	
+								<div class="col-sm-12">
+									<span class="brand-colour" style="background: #ff8200;"> </span>
+									<span class="brand-colour" style="background: #d21f2a;"> </span>
+									<span class="brand-colour" style="background: #0090ab;"> </span>
+									<span class="brand-colour" style="background: #808080;"> </span>
+									<span class="brand-colour" style="background: #fafafa;"> </span>
+								</div>
+
+								<!-- mobii content -->
+								<div class="col-lg-9">			
+									<h3 class="h3 subheading">iiNet</h3>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<!-- end Mobii Manager -->
+
+					<!-- close button -->
+					<span class="icon close-content svg-star svg-star-dims">Close</span>
+					
+				</div>
+			</div>	
+			
+			
+			
+			
+			
+			<div style="position:relative;">
+				<div class="work-item__three">
+
+					<!-- Multicomm -->
+					<div class="wrapper">		
+						<div class="wrapper__outer">
+
+							<div class="container">
+								<img src="img/multicomm.png" class="margin-bottom-20 text-right" style="display: block; margin: 0 auto; width: 100%;">	
+
+								<!-- brand colours -->	
+								<div class="col-sm-12">
+									<span class="brand-colour" style="background: #F58026;"> </span>
+									<span class="brand-colour" style="background: #00235D;"> </span>
+									<span class="brand-colour" style="background: #FFBB25;"> </span>
+									<span class="brand-colour" style="background: #3193FD;"> </span>
+									<span class="brand-colour" style="background: #F4f4f4;"> </span>
+								</div>
+
+								<!-- mobii content -->
+								<div class="col-lg-9">			
+									<h3 class="h3 subheading">Multicomm</h3>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<!-- end Mobii Manager -->
+
+					<!-- close button -->
+					<span class="icon close-content svg-star svg-star-dims">Close</span>
+					
+				</div>
+			</div>				
 
 			
 			
+			
+			
 
-			
-			
-			
-			
       <hr>
       
-      <!-- contact me -->
-      <section class="contact-me container pad-lr-20">
+			
+			
+			<!-- **************************************
+			//            Contact me
+			/* *************************************  -->
+      <section class="contact-me container pad-lr-20" id="contact">
         <div class="row">
         
           <p class="h3 subheading text-center margin-0">get in touch</p>
@@ -393,7 +420,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', end
               <span class="input">
                 <input class="input__field" type="text" id="input-name" name="input-name" />
                 <label class="input__label" for="input-name">
-                  <i class="input__icon"></i>
+                  <i class="input__icon svg-user svg-user-dims"></i>
                   <span class="input__label-content">Name</span>
                 </label>
               </span>
@@ -403,7 +430,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', end
               <span class="input">
                 <input class="input__field" type="email" id="input-email" name="input-email" />
                 <label class="input__label" for="input-email">
-                  <i class="input__icon"></i>
+                  <i class="input__icon svg-mail svg-mail-dims"></i>
                   <span class="input__label-content">Email</span>
                 </label>
               </span>
@@ -413,7 +440,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', end
               <span class="input">
                 <textarea class="input__field" type="text" id="input-message" name="input-message"></textarea>
                 <label class="input__label" for="input-message">
-                  <i class="input__icon"></i>
+                  <i class="input__icon svg-pen svg-pen-dims"></i>
                   <span class="input__label-content">Message</span>
                 </label>
                 
@@ -439,8 +466,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', end
               //compose the email message 
               $to = "doug83@iinet.net.au";
               $email_from = "doug83@iinet.net.au";   
-              $email_subject = "Email from My website" ; 
-              $email_body = "A new message has been submitted by the online form on My website:\n
+              $email_subject = "Email from portfolio website" ; 
+              $email_body = "A new message has been submitted by the online form on my website:\n
                
               Name: $name \n  
               Email Address: $email \n  
@@ -478,8 +505,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', end
 <!-- jQuery CDN --> 
 <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script> 
 <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script> 
-
-
 
 <!-- JS plugins --> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.min.js"></script>
