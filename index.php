@@ -416,7 +416,7 @@ hr { padding: 20px 0; width: 85%; }
           <!-- begin mailform -->
           <iframe name="no-reload" style="display:none;"></iframe>
 		      <form method='post' action='#contact' style="margin-top: 2em;">     
-            <div class="col-sm-12">
+            <div class="col-sm-6">
               <span class="input">
                 <input class="input__field" type="text" id="input-name" name="input-name" />
                 <label class="input__label" for="input-name">
@@ -426,7 +426,7 @@ hr { padding: 20px 0; width: 85%; }
               </span>
             </div>
             
-            <div class="col-sm-12">
+            <div class="col-sm-6">
               <span class="input">
                 <input class="input__field" type="email" id="input-email" name="input-email" />
                 <label class="input__label" for="input-email">
