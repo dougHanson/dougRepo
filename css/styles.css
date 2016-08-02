@@ -2185,7 +2185,7 @@ img {
   max-height: 100%;
   float: left; }
 
-.svg-lab, .svg-mail, .svg-pen, .svg-sprite, .svg-star, .svg-user {
+.svg-lab, .svg-mail, .svg-pen, .svg-star, .svg-user {
   background: url("../svg/sprite.svg") no-repeat; }
 
 .svg-lab {
@@ -2196,28 +2196,21 @@ img {
   height: 42px; }
 
 .svg-mail {
-  background-position: 4.1015625% 0; }
+  background-position: 25% 0; }
 
 .svg-mail-dims {
   width: 42px;
   height: 42px; }
 
 .svg-pen {
-  background-position: 8.203125% 0; }
+  background-position: 50% 0; }
 
 .svg-pen-dims {
   width: 42px;
   height: 42px; }
 
-.svg-sprite {
-  background-position: 60% 0; }
-
-.svg-sprite-dims {
-  width: 856px;
-  height: 82px; }
-
 .svg-star {
-  background-position: 95.8984375% 0; }
+  background-position: 75% 0; }
 
 .svg-star-dims {
   width: 42px;
