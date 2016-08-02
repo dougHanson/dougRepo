@@ -67,7 +67,7 @@ hr { padding: 20px 0; width: 85%; }
       
   <!-- left hand nav include -->
   <aside class="vertical-menu">
-    <div class="vertical-menu__logo"> <img src="img/logo-retina.png" /> </div>
+    <div class="vertical-menu__logo"><a href="/"><img src="img/logo-retina.png" /></a></div>
     <nav>
       <ul>
         <li class="nav-home"><a href="#"><i class="icon svg-pen svg-pen-dims"></i><span>Intro</span></a></li>
@@ -83,7 +83,9 @@ hr { padding: 20px 0; width: 85%; }
   <section class="wrapper">
     <div class="wrapper__outer"> 
           
-      <!-- hero content -->
+			<!-- **************************************
+			//          Intro / hero content
+			/* *************************************  -->
       <div class="hero-content parallax-bg" style="height: 80vh;">
         <div style="text-align: center; padding-top: 28vh;  height: 100vh;">  <!-- #TODO - make this a class -->
 <!--          <img src="img/logo.png" alt="" />-->
@@ -94,7 +96,11 @@ hr { padding: 20px 0; width: 85%; }
       </div>
       <!-- end hero content --> 
           
-      <!-- about me -->
+			
+			
+			<!-- **************************************
+			//            About me
+			/* *************************************  -->
       <section class="about container">
         <div class="h3 subheading text-center margin-0">roles and experience</div>
         <h2 class="text-center text-uppercase">About me</h2>
@@ -155,48 +161,62 @@ hr { padding: 20px 0; width: 85%; }
       <!-- end about me --> 
       
       <hr>
-          
-      <!-- selected works -->
+       
+			
+	
+			<!-- **************************************
+			//            Selected Works
+			/* *************************************  -->
       <section class="selected-works container pad-lr-20">
+				
         <p class="h3 subheading text-center margin-0">my portfolio</p>
-        <h2 class="text-center text-uppercase">Selected works</h2>
+        <h2 class="text-center text-uppercase">Selected works</h2>				
         <div class="text-center"><img src="img/arrow.png" /></div>     
 
-        <div style="margin-top:40px;" > <!--class="masonry-container"--> 
- 
-<!--
-          <a href="#">
-            <article class="work-item work-item--2w"> 
-							<img src="img/mobii-manager.png" style="width: 100%;" />
-							<div class="work-item__content">
-								<p class="work-item__heading">Mobii Manager</p>
-								<p class="subheading">ux / branding / mobile design</p> 
-							</div> 
-            </article>
-          </a>  					
-					
-					
-					<a href="#">
-            <article class="work-item"> 
-							<img src="img/iinet.png" style="width: 100%;" />
-							<div class="work-item__content">
-								<p class="work-item__heading">iiNet</p>
-								<p class="subheading">ux / web design / web development</p>                          
-							</div>
-            </article>
-          </a> 
+        <div style="margin-top:40px;" class="masonry-container"-->  
 
-					
-          <a href="#">
-            <article class="work-item"> 
-							<img src="img/multicomm.png" style="width: 100%;" />
-							<div class="work-item__content">
-								<p class="work-item__heading">Multicomm Website</p>
-								<p class="subheading">branding / ux / web design / web development</p> 
-							</div> 
+					<div class="perspective-container perspective-left">
+            <article class="work-item" id="work-item__one"> 
+							<div class="front">
+								<img src="img/mobii-manager.png" style="width: 100%;" />
+								<div class="work-item__content">
+									<p class="work-item__heading">Mobii Manager</p>
+									<p class="subheading">ux / branding / mobile design</p> 
+								</div> 
+							</div>
+							<div class="back"><!-- --></div>
             </article>
-          </a>					
-          
+					</div>
+
+					<div class="perspective-container">
+            <article class="work-item" id="work-item__two"> 
+							<div class="front">
+								<img src="img/iinet.png" style="width: 100%;" />
+								<div class="work-item__content">
+									<p class="work-item__heading">iiNet</p>
+									<p class="subheading">ux / web design / web development</p>                          
+								</div>
+							</div>
+							<div class="back"><!-- --></div>
+            </article>
+					</div>
+
+
+					<div class="perspective-container perspective-right">
+            <article class="work-item" id="work-item__three"> 
+							<div class="front">
+								<img src="img/multicomm.png" style="width: 100%;" />
+								<div class="work-item__content">
+									<p class="work-item__heading">Multicomm Website</p>
+									<p class="subheading">branding / ux / web design / web development</p> 
+								</div> 
+							</div>
+							<div class="back"><!-- --></div>
+            </article>	
+					</div>
+      
+				 <!--			
+					
           <a href="#">
             <article class="work-item"> 
 							<img src="img/iihelp.png" style="width: 100%;" />
@@ -217,9 +237,9 @@ hr { padding: 20px 0; width: 85%; }
 							</div> 
             </article>
           </a>      					
--->
 
-          <!--<a href="#">
+
+          <a href="#">
             <article class="work-item"> 
 							<img src="img/world-passion-change.png" style="width: 100%;" />
 							<div class="work-item__content">
@@ -245,134 +265,148 @@ hr { padding: 20px 0; width: 85%; }
       <!-- end selected works --> 
 			
 		
-			
-			
-			
-			
-			
-			
-			
-			
-			
-<div class="grid3d vertical" id="grid3d">
-	<div class="grid-wrap">
-		<div class="grid">
-			
-			
-			<figure>
-            <article class="work-item work-item--2w"> 
-							<img src="img/mobii-manager.png" style="width: 100%;" />
-							<div class="work-item__content">
-								<p class="work-item__heading">Mobii Manager</p>
-								<p class="subheading">ux / branding / mobile design</p> 
-							</div> 
-            </article>
-			</figure>
-				
-				
-			<figure>
 
-            <article class="work-item"> 
-							<img src="img/iinet.png" style="width: 100%;" />
-							<div class="work-item__content">
-								<p class="work-item__heading">iiNet</p>
-								<p class="subheading">ux / web design / web development</p>                          
+			<div style="position:relative;">
+				<div class="work-item__one">
+
+
+					<!-- Mobii Manager -->
+					<div class="wrapper">		
+						<div class="wrapper__outer">
+
+							<div class="container">
+								<img src="img/mobii-header.png" class="margin-bottom-20 text-right" style="display: block; margin: 0 auto; width: 100%;">	
+
+								<!-- brand colours -->	
+								<div class="col-sm-12">
+									<span class="brand-colour" style="background: #ff8200;"> </span>
+									<span class="brand-colour" style="background: #d21f2a;"> </span>
+									<span class="brand-colour" style="background: #0090ab;"> </span>
+									<span class="brand-colour" style="background: #808080;"> </span>
+									<span class="brand-colour" style="background: #fafafa;"> </span>
+								</div>
+
+								<!-- mobii content -->
+								<div class="col-lg-9">			
+									<h3 class="h3 subheading">Mobii Manager</h3>
+									<p>I designed a mobile application which would allow iiNet customers to interact with and manage their mobile broadband networking hardware.</p>
+									<p>As the app was being devloped only for Android, I aligned the design when possible to be consistent with the existing Android OS. </p>
+									<img src="img/mobii-designs.png" class="margin-top-30 margin-bottom-30" style="width: 100%;">				
+								</div>
+
+								<!-- mobii extra info -->
+								<div class="col-lg-2 col-lg-offset-1">
+									<p class="h4 subheading margin-bottom-0">Client</p>
+									<p class="margin-top-0">iiNet </p>
+
+									<p class="h4 subheading margin-bottom-0">Date</p>
+									<p class="margin-top-0">March 2014</p>
+
+									<p class="h4 subheading margin-bottom-0">Skills used</p>
+									<p class="margin-top-0">Design, Branding, UX</p>
+								</div>
+
 							</div>
-            </article>
-			</figure>
-			
-
-			<!-- ... -->
-		</div>
-	</div><!-- /grid-wrap -->
-	
-	
-	<div class="content">
-		
-		
-		<!-- Mobii Manager -->
-		<div class="wrapper">		
-			<div class="wrapper__outer">
-				
-				<div style="background: #fafafa; width: 100%;">
-					<img src="img/mobii-manager.png" class="margin-bottom-20 text-right" style="display: block; margin: 0 auto;">				
-				</div>
-				
-				<div class="container">
-
-
-					<!-- brand colours -->
-					<style>
-						.brand-colour { 
-							width: 20px; height: 10px; display: inline-block; margin: 0; padding: 0;
-						}
-					</style>				
-					<div class="col-sm-12">
-						<span class="brand-colour" style="background: #ff8200;"> </span>
-						<span class="brand-colour" style="background: #d21f2a;"> </span>
-						<span class="brand-colour" style="background: #0090ab;"> </span>
-						<span class="brand-colour" style="background: #808080;"> </span>
-						<span class="brand-colour" style="background: #fafafa;"> </span>
+						</div>
 					</div>
+					<!-- end Mobii Manager -->
 
-					<div class="col-lg-9">			
-						<h3 class="h2 subheading">Mobii Manager</h3>
-						<p>I designed a mobile application which would allow iiNet customers to interact with and manage their mobile broadband networking hardware.</p>
-						<p>As the app was being devloped only for Android, I aligned the design when possible to be consistent with the existing Android OS. </p>
-					</div>
-
-					<div class="col-lg-2 col-lg-offset-1">
-						<h4 class="h4 subheading margin-bottom-0">Who</h4>
-						<p class="margin-top-0">iiNet</p>
-
-						<h4 class="h4 subheading margin-bottom-0">Date</h4>
-						<p class="margin-top-0">March 2014</p>
-
-						<h4 class="h4 subheading margin-bottom-0">Skills used</h4>
-						<p class="margin-top-0">Design, Branding, UX</p>
-					</div>
-
+					<!-- close button -->
+					<span class="icon close-content svg-star svg-star-dims">Close</span>
+					
 				</div>
 			</div>
-		</div>
-		<!-- end Mobii Manager -->
-		
+			
+			
+			
+			
+			<div style="position:relative;">
+				<div class="work-item__two">
 
-		
-		<div>
-			<div class="dummy-img"></div>
-			<p class="dummy-text">Some text</p>
-			<p class="dummy-text">Some more text</p>
-		</div>
-		<div>
-			<div class="dummy-img"></div>
-			<p class="dummy-text">Some text</p>
-			<p class="dummy-text">Some more text</p>
-		</div>		
-		<span class="loading"></span>
-		<span class="icon close-content svg-star svg-star-dims"></span>
-	</div>
-</div>			
+					<!-- iiNet plan refreshes -->
+					<div class="wrapper">		
+						<div class="wrapper__outer">
+
+							<div class="container">
+								<img src="img/iinet.png" class="margin-bottom-20 text-right" style="display: block; margin: 0 auto; width: 100%;">	
+
+								<!-- brand colours -->	
+								<div class="col-sm-12">
+									<span class="brand-colour" style="background: #ff8200;"> </span>
+									<span class="brand-colour" style="background: #d21f2a;"> </span>
+									<span class="brand-colour" style="background: #0090ab;"> </span>
+									<span class="brand-colour" style="background: #808080;"> </span>
+									<span class="brand-colour" style="background: #fafafa;"> </span>
+								</div>
+
+								<!-- mobii content -->
+								<div class="col-lg-9">			
+									<h3 class="h3 subheading">iiNet</h3>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<!-- end Mobii Manager -->
+
+					<!-- close button -->
+					<span class="icon close-content svg-star svg-star-dims">Close</span>
+					
+				</div>
+			</div>	
+			
+			
+			
+			
+			
+			<div style="position:relative;">
+				<div class="work-item__three">
+
+					<!-- Multicomm -->
+					<div class="wrapper">		
+						<div class="wrapper__outer">
+
+							<div class="container">
+								<img src="img/multicomm.png" class="margin-bottom-20 text-right" style="display: block; margin: 0 auto; width: 100%;">	
+
+								<!-- brand colours -->	
+								<div class="col-sm-12">
+									<span class="brand-colour" style="background: #F58026;"> </span>
+									<span class="brand-colour" style="background: #00235D;"> </span>
+									<span class="brand-colour" style="background: #FFBB25;"> </span>
+									<span class="brand-colour" style="background: #3193FD;"> </span>
+									<span class="brand-colour" style="background: #F4f4f4;"> </span>
+								</div>
+
+								<!-- mobii content -->
+								<div class="col-lg-9">			
+									<h3 class="h3 subheading">Multicomm</h3>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<!-- end Mobii Manager -->
+
+					<!-- close button -->
+					<span class="icon close-content svg-star svg-star-dims">Close</span>
+					
+				</div>
+			</div>				
 
 			
 			
-    
 			
 			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
+
       <hr>
       
-      <!-- contact me -->
-      <section class="contact-me container pad-lr-20">
+			
+			
+			<!-- **************************************
+			//            Contact me
+			/* *************************************  -->
+      <section class="contact-me container pad-lr-20" id="contact">
         <div class="row">
         
           <p class="h3 subheading text-center margin-0">get in touch</p>
@@ -386,7 +420,7 @@ hr { padding: 20px 0; width: 85%; }
               <span class="input">
                 <input class="input__field" type="text" id="input-name" name="input-name" />
                 <label class="input__label" for="input-name">
-                  <i class="input__icon"></i>
+                  <i class="input__icon svg-user svg-user-dims"></i>
                   <span class="input__label-content">Name</span>
                 </label>
               </span>
@@ -396,7 +430,7 @@ hr { padding: 20px 0; width: 85%; }
               <span class="input">
                 <input class="input__field" type="email" id="input-email" name="input-email" />
                 <label class="input__label" for="input-email">
-                  <i class="input__icon"></i>
+                  <i class="input__icon svg-mail svg-mail-dims"></i>
                   <span class="input__label-content">Email</span>
                 </label>
               </span>
@@ -406,7 +440,7 @@ hr { padding: 20px 0; width: 85%; }
               <span class="input">
                 <textarea class="input__field" type="text" id="input-message" name="input-message"></textarea>
                 <label class="input__label" for="input-message">
-                  <i class="input__icon"></i>
+                  <i class="input__icon svg-pen svg-pen-dims"></i>
                   <span class="input__label-content">Message</span>
                 </label>
                 
@@ -432,8 +466,8 @@ hr { padding: 20px 0; width: 85%; }
               //compose the email message 
               $to = "doug83@iinet.net.au";
               $email_from = "doug83@iinet.net.au";   
-              $email_subject = "Email from My website" ; 
-              $email_body = "A new message has been submitted by the online form on My website:\n
+              $email_subject = "Email from portfolio website" ; 
+              $email_body = "A new message has been submitted by the online form on my website:\n
                
               Name: $name \n  
               Email Address: $email \n  
@@ -478,16 +512,9 @@ hr { padding: 20px 0; width: 85%; }
 <!-- build:js --> 
 <script src="js/plugins/classie.js"></script>  
 <script src="js/plugins/jquery.ui.touch-punch.min.js"></script> 
-<script src="js/modules/horizontal-menu.js"></script> 
 <script src="js/plugins/owl.carousel.js"></script> 
 <script src="js/main.js"></script> 
-	
-		<script src="js/plugins/modernizr.custom.js"></script>
-		<script src="js/plugins/helper.js"></script>
-		<script src="js/plugins/grid3d.js"></script>
-		<script>
-			new grid3D( document.getElementById( 'grid3d' ) );
-		</script>	
+
 <!-- endbuild --> 
   
 </body>

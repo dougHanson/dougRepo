@@ -18,9 +18,11 @@
   margin: 10px 0.5%;
   padding: 0em;
   float: left;
-	height: 325px;
+	min-height: 340px;
   border: 1px solid $grey-border; 
   background: #fff;	
+  transform-style: preserve-3d;	
+	cursor: pointer; cursor: hand;
 }
 @media (max-width: 1370px) {
   .work-item   { width: 49%; height: auto; }  
@@ -57,7 +59,7 @@
   font-weight: 400;
 }
 
-.work-item__content:after, 
+.work-item__content:after,
 .work-item__content:before {
 	bottom: 100%; 
 	left: 50%;
@@ -85,9 +87,6 @@
 @media (max-width: 1370px) {
   .work-item--2w   { width: 100%; }  
 }
-
-
-
 
 .work-item--2h     { height: 650px; }
 
@@ -124,3 +123,70 @@
   max-height: 100%;
   float:left;
 }
+
+
+
+/* ----- Perspective ----- */
+
+.perspective-container { perspective: 1000px; }
+.perspective-left { perspective-origin: 10% center;}
+.perspective-right { perspective-origin: 90% center;}
+.flip3d { 
+	animation: flipAnimation 1s 1; 
+	animation-fill-mode: forwards; 
+	position: relative; 
+	z-index: 400;
+}
+@keyframes flipAnimation {
+		0%   {transform: translateZ(0px);}
+		10%  {transform: translateZ(-500px); }
+		100% {transform: translateZ(950px) translateY(-150px) rotateX(-180deg);}
+}		
+
+.work-item__one, 
+.work-item__two,
+.work-item__three { 
+	display: none; 
+	background: #fff; 
+	height: 100vh; 
+	overflow: auto; 
+	position: fixed; 
+	top: 0; left: 0; 
+	width: 100%; 
+	z-index: 20; 
+}
+.close-content { 
+	position: absolute; 
+	top: 40px; right: 40px; 
+}
+
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+}
+
+/* front pane, placed above back */
+.front {
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+}	
+
+.noscroll {
+	overflow: hidden;
+}		
+
+
+/* ----- Elements ----- */
+.brand-colour { 
+	width: 20px; 
+	height: 10px; 
+	display: inline-block; 
+	margin: 0; 
+	padding: 0;
+}
+
