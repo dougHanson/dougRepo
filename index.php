@@ -161,7 +161,7 @@ hr { padding: 20px 0; width: 85%; }
 			
 	<style>
 		.work-item { transform-style: preserve-3d; }
-		.perspective-container { perspective: 1000px; }
+		.perspective-container { perspective: 1000px; perspective-origin: center; }
 		.zoom { animation: mymove 1s 1; animation-fill-mode: forwards; }
 		@keyframes mymove {
 				0%   {transform: translateZ(0px);}
@@ -208,7 +208,7 @@ hr { padding: 20px 0; width: 85%; }
 
         <div style="margin-top:40px;" > <!--class="masonry-container"-->  
 
-					<div class="perspective-container">
+			<div class="perspective-container" >
             <article class="work-item work-item--2w"> 
 							<div class="front">
 								<img src="img/mobii-manager.png" style="width: 100%;" />
@@ -219,9 +219,9 @@ hr { padding: 20px 0; width: 85%; }
 							</div>
 							<div class="back"><!-- --></div>
             </article>
-					</div>
+		</div>
 
-				
+				<div class="perspective-container" >
             <article class="work-item"> 
 							<img src="img/iinet.png" style="width: 100%;" />
 							<div class="work-item__content">
@@ -229,6 +229,7 @@ hr { padding: 20px 0; width: 85%; }
 								<p class="subheading">ux / web design / web development</p>                          
 							</div>
             </article>
+					</div>
 
 
 			 <!--
@@ -305,8 +306,14 @@ hr { padding: 20px 0; width: 85%; }
 		<div class="wrapper">		
 			<div class="wrapper__outer">
 				
-				<div style="background: #fafafa; width: 101%;">
-					<img src="img/mobii-manager.png" class="margin-bottom-20 text-right" style="display: block; margin: 0 auto;">				
+				<div style="
+background: #fafafa;
+background: -moz-linear-gradient(left,  #f4f4f4 0%, #ffffff 50%, #f4f4f4 100%);
+background: -webkit-linear-gradient(left,  #f4f4f4 0%,#ffffff 50%,#f4f4f4 100%);
+background: linear-gradient(to right,  #f4f4f4 0%,#ffffff 50%,#f4f4f4 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', endColorstr='#fafafa',GradientType=1 );
+ width: 101%;">
+					<img src="img/mobii-header.png" class="margin-bottom-20 text-right" style="display: block; margin: 0 auto;">				
 				</div>
 				
 				<div class="container">
@@ -326,12 +333,19 @@ hr { padding: 20px 0; width: 85%; }
 						<span class="brand-colour" style="background: #fafafa;"> </span>
 					</div>
 
+					<!-- mobii content -->
 					<div class="col-lg-9">			
 						<h3 class="h3 subheading">Mobii Manager</h3>
 						<p>I designed a mobile application which would allow iiNet customers to interact with and manage their mobile broadband networking hardware.</p>
-						<p>As the app was being devloped only for Android, I aligned the design when possible to be consistent with the existing Android OS. </p>	
+						<p>As the app was being devloped only for Android, I aligned the design when possible to be consistent with the existing Android OS. </p>
+						
+						<img src="img/mobii-login.png"><img src="img/mobii-login.png">
+						
+						
+						
 					</div>
-
+					
+					<!-- mobii extra info -->
 					<div class="col-lg-2 col-lg-offset-1">
 						<p class="h4 subheading margin-bottom-0">Client</p>
 						<p class="margin-top-0">iiNet </p>
