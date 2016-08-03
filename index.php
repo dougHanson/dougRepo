@@ -9,7 +9,7 @@
     <meta name="keywords" content="gluon, boilerplate, html, doug, hanson">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- fonts Raleway & Dancing Script-->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:200,400,600,800|Dancing+Script" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,600,800|Dancing+Script" rel="stylesheet" type="text/css">
     <!-- build:css -->
     <link rel="stylesheet" href="css/styles.css" media="all">
 		<link rel="stylesheet" href="css/plugins/_grid3d.css" media="all">
@@ -83,9 +83,9 @@ hr { padding: 20px 0; width: 85%; }
   <section class="wrapper">
     <div class="wrapper__outer"> 
           
-			<!-- **************************************
-			//          Intro / hero content
-			/* *************************************  -->
+			<!-- -------------------------------------
+			//   Intro / hero content
+			------------------------------------------ -->		
       <div class="hero-content parallax-bg" style="height: 80vh;">
         <div style="text-align: center; padding-top: 28vh;  height: 100vh;">  <!-- #TODO - make this a class -->
 <!--          <img src="img/logo.png" alt="" />-->
@@ -98,16 +98,15 @@ hr { padding: 20px 0; width: 85%; }
           
 			
 			
-			<!-- **************************************
-			//            About me
-			/* *************************************  -->
+			<!-- -------------------------------------
+			//   About me
+			------------------------------------------ -->		
       <section class="about container">
         <div class="h3 subheading text-center margin-0">roles and experience</div>
         <h2 class="text-center text-uppercase">About me</h2>
         <div class="text-center"><img src="img/arrow.png" /></div>
         <div class="col-lg-10 col-lg-offset-1">
           <p>A driven, creative professional with a broad technical skill set. An excellent communicator experienced in interpreting and implementing client and staff visions of new websites and digital creative. Enjoys collaborating with colleagues and clients, and will voluntarily help and teach whenever needed, with expertise ranging from design, development and conceptualization to programming and management.</p> 
-            <p>Put some personal bullshit here.</p>
           <p>&nbsp;</p>
         </div>        
         
@@ -163,10 +162,9 @@ hr { padding: 20px 0; width: 85%; }
       <hr>
        
 			
-	
-			<!-- **************************************
-			//            Selected Works
-			/* *************************************  -->
+			<!-- -------------------------------------
+			//   Selected Works
+			------------------------------------------ -->			
       <section class="selected-works container pad-lr-20">
 				
         <p class="h3 subheading text-center margin-0">my portfolio</p>
@@ -176,31 +174,30 @@ hr { padding: 20px 0; width: 85%; }
         <div style="margin-top:40px;" class="masonry-container"-->  
 
 					<div class="perspective-container perspective-left">
-            <article class="work-item" id="work-item__one"> 
-							<div class="front">
-								<img src="img/mobii-manager.png" style="width: 100%;" />
-								<div class="work-item__content">
-									<p class="work-item__heading">Mobii Manager</p>
-									<p class="subheading">ux / branding / mobile design</p> 
-								</div> 
-							</div>
-							<div class="back"><!-- --></div>
-            </article>
-					</div>
-
-					<div class="perspective-container">
             <article class="work-item" id="work-item__two"> 
 							<div class="front">
 								<img src="img/iinet.png" style="width: 100%;" />
 								<div class="work-item__content">
 									<p class="work-item__heading">iiNet</p>
-									<p class="subheading">ux / web design / web development</p>                          
+									<p class="subheading">ux / web design &amp; development</p>                          
 								</div>
 							</div>
 							<div class="back"><!-- --></div>
             </article>
 					</div>
-
+					
+					<div class="perspective-container">
+            <article class="work-item" id="work-item__one"> 
+							<div class="front">
+								<img src="img/mobii-manager.png" style="width: 100%;" />
+								<div class="work-item__content">
+									<p class="work-item__heading">Mobii Manager</p>
+									<p class="subheading">mobile app design</p> 
+								</div> 
+							</div>
+							<div class="back"><!-- --></div>
+            </article>
+					</div>					
 
 					<div class="perspective-container perspective-right">
             <article class="work-item" id="work-item__three"> 
@@ -208,7 +205,7 @@ hr { padding: 20px 0; width: 85%; }
 								<img src="img/multicomm.png" style="width: 100%;" />
 								<div class="work-item__content">
 									<p class="work-item__heading">Multicomm Website</p>
-									<p class="subheading">branding / ux / web design / web development</p> 
+									<p class="subheading">branding / ux / web design &amp; development</p> 
 								</div> 
 							</div>
 							<div class="back"><!-- --></div>
@@ -267,145 +264,23 @@ hr { padding: 20px 0; width: 85%; }
 		
 
 			<div style="position:relative;">
-				<div class="work-item__one">
+				
+				<!-- include mobii manager content -->
+				<?php include_once("inc/_mobii-manager.php") ?>
 
+				<!-- include iinet plan page refresh content -->
+				<?php include_once("inc/_iinet-plan-pages.php") ?>
+				
+				<!-- include multicomm content -->
+				<?php include_once("inc/_multicomm.php") ?>
 
-					<!-- Mobii Manager -->
-					<div class="wrapper">		
-						<div class="wrapper__outer">
-
-							<div class="container">
-								<img src="img/mobii-header.png" class="margin-bottom-20 text-right" style="display: block; margin: 0 auto; width: 100%;">	
-
-								<!-- brand colours -->	
-								<div class="col-sm-12">
-									<span class="brand-colour" style="background: #ff8200;"> </span>
-									<span class="brand-colour" style="background: #d21f2a;"> </span>
-									<span class="brand-colour" style="background: #0090ab;"> </span>
-									<span class="brand-colour" style="background: #808080;"> </span>
-									<span class="brand-colour" style="background: #fafafa;"> </span>
-								</div>
-
-								<!-- mobii content -->
-								<div class="col-lg-9">			
-									<h3 class="h3 subheading">Mobii Manager</h3>
-									<p>I designed a mobile application which would allow iiNet customers to interact with and manage their mobile broadband networking hardware.</p>
-									<p>As the app was being devloped only for Android, I aligned the design when possible to be consistent with the existing Android OS. </p>
-									<img src="img/mobii-designs.png" class="margin-top-30 margin-bottom-30" style="width: 100%;">				
-								</div>
-
-								<!-- mobii extra info -->
-								<div class="col-lg-2 col-lg-offset-1">
-									<p class="h4 subheading margin-bottom-0">Client</p>
-									<p class="margin-top-0">iiNet </p>
-
-									<p class="h4 subheading margin-bottom-0">Date</p>
-									<p class="margin-top-0">March 2014</p>
-
-									<p class="h4 subheading margin-bottom-0">Skills used</p>
-									<p class="margin-top-0">Design, Branding, UX</p>
-								</div>
-
-							</div>
-						</div>
-					</div>
-					<!-- end Mobii Manager -->
-
-					<!-- close button -->
-					<span class="icon close-content svg-star svg-star-dims">Close</span>
-					
-				</div>
-			</div>
-			
-			
-			
-			
-			<div style="position:relative;">
-				<div class="work-item__two">
-
-					<!-- iiNet plan refreshes -->
-					<div class="wrapper">		
-						<div class="wrapper__outer">
-
-							<div class="container">
-								<img src="img/iinet.png" class="margin-bottom-20 text-right" style="display: block; margin: 0 auto; width: 100%;">	
-
-								<!-- brand colours -->	
-								<div class="col-sm-12">
-									<span class="brand-colour" style="background: #ff8200;"> </span>
-									<span class="brand-colour" style="background: #d21f2a;"> </span>
-									<span class="brand-colour" style="background: #0090ab;"> </span>
-									<span class="brand-colour" style="background: #808080;"> </span>
-									<span class="brand-colour" style="background: #fafafa;"> </span>
-								</div>
-
-								<!-- mobii content -->
-								<div class="col-lg-9">			
-									<h3 class="h3 subheading">iiNet</h3>
-								</div>
-
-							</div>
-						</div>
-					</div>
-					<!-- end Mobii Manager -->
-
-					<!-- close button -->
-					<span class="icon close-content svg-star svg-star-dims">Close</span>
-					
-				</div>
-			</div>	
-			
-			
-			
-			
-			
-			<div style="position:relative;">
-				<div class="work-item__three">
-
-					<!-- Multicomm -->
-					<div class="wrapper">		
-						<div class="wrapper__outer">
-
-							<div class="container">
-								<img src="img/multicomm.png" class="margin-bottom-20 text-right" style="display: block; margin: 0 auto; width: 100%;">	
-
-								<!-- brand colours -->	
-								<div class="col-sm-12">
-									<span class="brand-colour" style="background: #F58026;"> </span>
-									<span class="brand-colour" style="background: #00235D;"> </span>
-									<span class="brand-colour" style="background: #FFBB25;"> </span>
-									<span class="brand-colour" style="background: #3193FD;"> </span>
-									<span class="brand-colour" style="background: #F4f4f4;"> </span>
-								</div>
-
-								<!-- mobii content -->
-								<div class="col-lg-9">			
-									<h3 class="h3 subheading">Multicomm</h3>
-								</div>
-
-							</div>
-						</div>
-					</div>
-					<!-- end Mobii Manager -->
-
-					<!-- close button -->
-					<span class="icon close-content svg-star svg-star-dims">Close</span>
-					
-				</div>
 			</div>				
 
-			
-			
-			
-			
-
       <hr>
-      
-			
-			
-			<!-- **************************************
-			//            Contact me
-			/* *************************************  -->
+
+			<!-- -------------------------------------
+			//   Contact
+			------------------------------------------ -->		
       <section class="contact-me container pad-lr-20" id="contact">
         <div class="row">
         
@@ -490,17 +365,25 @@ hr { padding: 20px 0; width: 85%; }
           
         </div>
       </section>
-      <!-- end contact me -->       
+      <!-- end contact me -->  
+			
           
     </div>
     <!-- end wrapper__outer --> 
+		
   </section>
   <!-- end wrapper -->
+	
   <div class="clearfix"> </div>
-  <!-- end body content --> 
+
       
 </div>
+<!-- end body content --> 
+	
+<!-- include footer --> 	
 <?php include('inc/_footer.php'); ?>
+	
+	
 
 <!-- jQuery CDN --> 
 <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script> 
@@ -514,7 +397,6 @@ hr { padding: 20px 0; width: 85%; }
 <script src="js/plugins/jquery.ui.touch-punch.min.js"></script> 
 <script src="js/plugins/owl.carousel.js"></script> 
 <script src="js/main.js"></script> 
-
 <!-- endbuild --> 
   
 </body>

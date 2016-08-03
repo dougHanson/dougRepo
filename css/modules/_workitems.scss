@@ -35,9 +35,7 @@
   margin-bottom: 0; 
   margin-top: 1em;
   color: #000;
-  text-transform: uppercase;
-  font-size: 1em;
-	font-weight: 600;
+  font-size: 1.25em;
 }
  
 .work-item__heading:after {
@@ -50,6 +48,9 @@
   margin: 0 auto;
   top: 8px;
   border-bottom: 1px solid $brand-primary;
+}
+.work-item__heading:after::hover {
+	 width: 170px;
 }
 
 .work-item__content {
@@ -190,3 +191,8 @@
 	padding: 0;
 }
 
+ .work-content__banner {
+	 display: block;
+	 margin: 0 auto 20px; 
+	 width: 100%;
+}
