@@ -132,7 +132,7 @@ gulp.task('svgSprite', function () {
 
 // Default Task
 gulp.task('default', ['watch']);
-gulp.task('favicons', ['favicons']);
+gulp.task('favicon', ['favicons']);
 gulp.task('dist', ['minify-css', 'minify-js', 'html-replace', 'compress-images']);
 gulp.task('publish', ['minify-html']);
 
