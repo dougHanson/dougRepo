@@ -19,6 +19,11 @@
 .wrapper {
   margin: 1.5vw;
 }
+@media (max-width: 991px) {
+  .wrapper {
+      padding-top: 90px;
+  }
+}
 .wrapper__outer {
   padding-left: 290px;
   height: 100%;
@@ -32,7 +37,7 @@
 }
 
 .hero-content {
-  background: url('img/perth-bg.png') #f7f7f7;
+  background: url('img/bg.png') #f7f7f7;
   min-height: 94vh;
   background-position: center 15px;
   background-repeat: no-repeat;
@@ -182,7 +187,7 @@ hr { padding: 20px 0; width: 85%; }
 									<p class="subheading">ux / web design &amp; development</p>                          
 								</div>
 							</div>
-							<div class="back"><!-- --></div>
+							<div class="back"><!-- backface --></div>
             </article>
 					</div>
 					
@@ -195,7 +200,7 @@ hr { padding: 20px 0; width: 85%; }
 									<p class="subheading">mobile app design</p> 
 								</div> 
 							</div>
-							<div class="back"><!-- --></div>
+							<div class="back"><!-- backface --></div>
             </article>
 					</div>					
 
@@ -208,7 +213,7 @@ hr { padding: 20px 0; width: 85%; }
 									<p class="subheading">branding / ux / web design &amp; development</p> 
 								</div> 
 							</div>
-							<div class="back"><!-- --></div>
+							<div class="back"><!-- backface --></div>
             </article>	
 					</div>
       

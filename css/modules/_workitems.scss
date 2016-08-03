@@ -132,6 +132,11 @@
 .perspective-container { perspective: 1000px; }
 .perspective-left { perspective-origin: 10% center;}
 .perspective-right { perspective-origin: 90% center;}
+@media (max-width: 1200px) {
+	.perspective-left,
+	.perspective-right { perspective-origin: center center;}
+}
+
 .flip3d { 
 	animation: flipAnimation 1s 1; 
 	animation-fill-mode: forwards; 
@@ -142,7 +147,14 @@
 		0%   {transform: translateZ(0px);}
 		10%  {transform: translateZ(-500px); }
 		100% {transform: translateZ(950px) translateY(-150px) rotateX(-180deg);}
-}		
+}	
+@media (max-width: 1200px) {
+	@keyframes flipAnimation {
+			0%   {transform: translateZ(0px);}
+			10%  {transform: translateZ(-500px); }
+			100% {transform: translateZ(950px) translateY(-650px) rotateX(-180deg);}
+	}
+}
 
 .work-item__one, 
 .work-item__two,
