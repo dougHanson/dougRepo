@@ -13,9 +13,10 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 290px;
-  background-image: url('../img/side-menu-bg.png');
-  background-size: cover;
+  width: 270px;
+  //background-image: url('../img/side-menu-bg.png');
+  //background-size: cover;
+	background: #444341;
   height: 100%;
   z-index: 888;
 }
@@ -24,6 +25,12 @@
 }
 .vertical-menu__logo img {
   max-height: 100%;
+	transition: all 1s;
+}
+
+.vertical-menu__logo img:hover {
+	transform: rotateY(360deg);
+	transition: all 1s;
 }
 
 @media (max-width: 991px) {

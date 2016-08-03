@@ -25,7 +25,7 @@
   }
 }
 .wrapper__outer {
-  padding-left: 290px;
+  padding-left: 270px;
   height: 100%;
 }
 
@@ -37,19 +37,29 @@
 }
 
 .hero-content {
-  background: url('img/bg.png') #f7f7f7;
+  background: url('img/bg.jpg') #f7f7f7;
   min-height: 94vh;
   background-position: center 15px;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  margin-bottom: 80px;
+  margin-bottom: 70px;
 }
+@media (max-width: 991px) {
+	.hero-content {
+		min-height: 70vh;
+	}
+	.subheading__hero { background: rgba(255,255,255,0.6); }
+}
+.hero-content__bg {
+	text-align: center; padding-top: 28vh;  height: 100vh;
+}
+@media (max-width: 768px) {
+	.hero-content__bg {
+		text-align: center; padding-top: 22vh;  height: 70vh;
 
-.icon__homepage {
-  background-position: -80px -60px;
-  height: 20px;
-  width: 20px;
+	}
+	
 }
 
 hr { padding: 20px 0; width: 85%; }
@@ -91,8 +101,8 @@ hr { padding: 20px 0; width: 85%; }
 			<!-- -------------------------------------
 			//   Intro / hero content
 			------------------------------------------ -->		
-      <div class="hero-content parallax-bg" style="height: 80vh;">
-        <div style="text-align: center; padding-top: 28vh;  height: 100vh;">  <!-- #TODO - make this a class -->
+      <div class="hero-content parallax-bg">
+        <div class="hero-content__bg">  <!-- #TODO - make this a class -->
 <!--          <img src="img/logo.png" alt="" />-->
           <h1 class="hero-heading"><span>Doug Hanson</span></h1>
           <h3 class="subheading subheading__hero">Web Designer from Perth, Western Australia</h3>
@@ -101,70 +111,7 @@ hr { padding: 20px 0; width: 85%; }
       </div>
       <!-- end hero content --> 
           
-			
-			
-			<!-- -------------------------------------
-			//   About me
-			------------------------------------------ -->		
-      <section class="about container">
-        <div class="h3 subheading text-center margin-0">roles and experience</div>
-        <h2 class="text-center text-uppercase">About me</h2>
-        <div class="text-center"><img src="img/arrow.png" /></div>
-        <div class="col-lg-10 col-lg-offset-1">
-          <p>A driven, creative professional with a broad technical skill set. An excellent communicator experienced in interpreting and implementing client and staff visions of new websites and digital creative. Enjoys collaborating with colleagues and clients, and will voluntarily help and teach whenever needed, with expertise ranging from design, development and conceptualization to programming and management.</p> 
-          <p>&nbsp;</p>
-        </div>        
-        
-        <div class="col-lg-3 text-right visible-lg">
-          <img src="img/doug.png" class="img-circle">
-        </div>        
 
-        <div class="col-lg-9">        
-          <h4>Experience</h4>   
-          <table class="full-width">
-            <tbody>
-              <tr>
-                <td>iiNet<br>2013 - Present</td>
-                <td>
-									<strong>Senior Web Designer</strong><br>
-									<span class="hidden-xxs">To deliver design, development, and ongoing maintenance of web-based products and systems to support business initiatives. Create prototypes, UI, IA, graphical and architectural requirements, and conduct usability assessments to evaluate solutions at the information architecture &amp; design level.</span>
-								</td>
-              </tr>
-              <tr>
-                <td>Bankwest<br>2010 - 2013</td>
-                <td>
-									<strong>Digital Production Specialist</strong><br>
-									<span class="hidden-xxs">Work with key stakeholders to design and deliver innovative digital creative elements to drive Bankwest initiatives.</span>
-								</td>
-              </tr>
-              <tr>
-                <td>Bankwest<br>2009 - 2010</td>
-                <td>
-									<strong>Online Marketing Manager</strong><br>
-									<span class="hidden-xxs">To manage the marketing and customer experience of multiple product portfolios via the online channel. Responsible for implementing well defined campaign strategies, campaign optimisation, budget management, agency relationships, and online creative development.</span>
-								</td>
-              </tr>  
-              <tr>
-                <td>Bankwest<br>2007 - 2009</td>
-                <td>
-									<strong>eCommerce Marketing Coordinator</strong><br>
-									<span class="hidden-xxs">To coordinate the Bankwest online marketing and sales function, responsible for online marketing execution, management information reporting, agency relationships and strategic projects.</span>
-								</td>
-              </tr>                   
-            </tbody>
-          </table> 
-          
-          <div class="margin-top-30">
-            <a href="doc/Doug-Hanson-Resume.pdf" target="_blank" class="button margin-right-10">Download Resume (86kB)</a> 
-            <a class="button button__primary nav-contact">Get in touch</a>          
-          </div>
-          
-        </div>       
-                             
-      </section>
-      <!-- end about me --> 
-      
-      <hr>
        
 			
 			<!-- -------------------------------------
@@ -279,14 +226,81 @@ hr { padding: 20px 0; width: 85%; }
 				<!-- include multicomm content -->
 				<?php include_once("inc/_multicomm.php") ?>
 
-			</div>				
+			</div>		
+			
+			<hr>
+			
+			
+			
+			<!-- -------------------------------------
+			//   About me
+			------------------------------------------ -->		
+      <section class="about container">
+        <div class="h3 subheading text-center margin-0">roles and experience</div>
+        <h2 class="text-center text-uppercase">About me</h2>
+        <div class="text-center"><img src="img/arrow.png" /></div>
+        <div class="col-lg-10 col-lg-offset-1">
+          <p>A driven, creative professional with a broad technical skill set. An excellent communicator experienced in interpreting and implementing client and staff visions of new websites and digital creative. Enjoys collaborating with colleagues and clients, and will voluntarily help and teach whenever needed, with expertise ranging from design, development and conceptualization to programming and management.</p> 
+          <p>&nbsp;</p>
+        </div>        
+        
+        <div class="col-lg-3 text-right visible-lg">
+          <img src="img/doug.png" class="img-circle">
+        </div>        
+
+        <div class="col-lg-9">        
+          <h4>Experience</h4>   
+          <table class="full-width">
+            <tbody>
+              <tr>
+                <td>iiNet<br>2013 - Present</td>
+                <td>
+									<strong>Senior Web Designer</strong><br>
+									<span class="hidden-xxs">To deliver design, development, and ongoing maintenance of web-based products and systems to support business initiatives. Create prototypes, UI, IA, graphical and architectural requirements, and conduct usability assessments to evaluate solutions at the information architecture &amp; design level.</span>
+								</td>
+              </tr>
+              <tr>
+                <td>Bankwest<br>2010 - 2013</td>
+                <td>
+									<strong>Digital Production Specialist</strong><br>
+									<span class="hidden-xxs">Work with key stakeholders to design and deliver innovative digital creative elements to drive Bankwest initiatives.</span>
+								</td>
+              </tr>
+              <tr>
+                <td>Bankwest<br>2009 - 2010</td>
+                <td>
+									<strong>Online Marketing Manager</strong><br>
+									<span class="hidden-xxs">To manage the marketing and customer experience of multiple product portfolios via the online channel. Responsible for implementing well defined campaign strategies, campaign optimisation, budget management, agency relationships, and online creative development.</span>
+								</td>
+              </tr>  
+              <tr>
+                <td>Bankwest<br>2007 - 2009</td>
+                <td>
+									<strong>eCommerce Marketing Coordinator</strong><br>
+									<span class="hidden-xxs">To coordinate the Bankwest online marketing and sales function, responsible for online marketing execution, management information reporting, agency relationships and strategic projects.</span>
+								</td>
+              </tr>                   
+            </tbody>
+          </table> 
+          
+          <div class="margin-top-30">
+            <a href="doc/Doug-Hanson-Resume.pdf" target="_blank" class="button margin-right-10">Download Resume (80kB)</a> 
+            <!--a class="button button__primary nav-contact">Get in touch</a>          -->
+          </div>
+          
+        </div>       
+                             
+      </section>
+      <!-- end about me --> 
+      
+			
 
       <hr>
 
 			<!-- -------------------------------------
 			//   Contact
 			------------------------------------------ -->		
-      <section class="contact-me container pad-lr-20" id="contact">
+      <section class="contact-me container pad-lr-20">
         <div class="row">
         
           <p class="h3 subheading text-center margin-0">get in touch</p>
@@ -362,7 +376,7 @@ hr { padding: 20px 0; width: 85%; }
               mail($to,$email_subject,$email_body,$headers);
           
               //thankyou message on website
-              echo "<p style='background:#E6EFC2; color:#529214;border:1px solid #CCDC8C;padding:3px 14px;'>Thank you $name, we will respond to your message shortly.</p>";
+              echo "<p  id='contact' style='background:#E6EFC2; color:#529214;border:1px solid #CCDC8C;padding:3px 14px;'>Thank you $name, we will respond to your message shortly.</p>";
          
             }
           ?>          

@@ -73,7 +73,7 @@ $(function() {
 		
 		
 		$(".close-content,nav a").click(function(){
-			$("."+id).fadeOut(); 
+			$("."+id).fadeOut(500); 
 			$('body').removeClass('noscroll');
 			$('.hasAnimated').removeClass('flip3d');
 		});		

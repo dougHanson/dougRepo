@@ -15,7 +15,7 @@
 								margin-bottom: 30px;">							
 
 								<div class="container">	
-									<img src="img/multicomm-header.png" class="work-content__banner" style="margin: 0 20px ; display: block; padding: 20px 0 0; max-width: 100%; ">	
+									<img src="img/iinet-header.png" class="work-content__banner">	
 								</div>
 								
 							</div>								
@@ -24,7 +24,7 @@
 							<div class="container">
 
 								<!-- content -->
-								<div class="col-lg-8">	
+								<div class="col-md-8">	
 									
 									<!-- brand colours -->	
 									<span class="brand-colour" style="background: #ff8200;"> </span>
@@ -37,7 +37,7 @@
 								
 								
 								<!-- extra info -->
-								<div class="col-lg-3 col-lg-offset-1">
+								<div class="col-md-3 col-md-offset-1 hidden-sm hidden-xs hidden-xxs">
 									<p class="h4 subheading margin-bottom-0">Client</p>
 									<p class="margin-top-0">iiNet</p>
 
@@ -53,7 +53,7 @@
 						</div>
 					</div>
 
-					<span class="icon close-content svg-star svg-star-dims">Close</span>  					<!-- close button -->
+					<span class="icon close-content svg-close svg-close-dims" title="Return to main page"></span>  <!-- close button -->
 					
 				</div>
 				<!-- end iiNet Plan Refreshes -->
