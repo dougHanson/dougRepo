@@ -4,6 +4,7 @@
 @import 'base/_bootstrap'; 
 
 // layout styles
+@import 'layout/_content';
 @import 'layout/_footer';
 @import 'layout/_utilities';
 
@@ -20,13 +21,13 @@
 @import 'modules/_images';
 @import 'modules/_frames';
 @import 'modules/_workitems';
-@import '_sprite'; 
 
+// generated styles
+@import '_sprite'; 
 
 // plugin styles
 @import 'plugins/_owl-carousel';
 @import 'plugins/_owl-carousel-theme'; 
-// import 'plugins/animate';   //CLEAN THIS UP TO REDUCE FILE SIZE, OR EXCLUDE
 
 // theme styles
 

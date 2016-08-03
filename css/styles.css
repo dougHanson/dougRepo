@@ -953,6 +953,54 @@ section {
   text-transform: uppercase; }
 
 /* *************************************
+//   CONTENT  [layout/_content.scss]
+//   classes for wrappers, containers that aren't bootstrap
+/* ************************************* */
+/* -------------------------------------
+//   Spacing
+/* ------------------------------------- */
+/* ----- Padding ----- */
+.wrapper {
+  margin: 1.5vw; }
+
+@media (max-width: 991px) {
+  .wrapper {
+    padding-top: 90px; } }
+
+.wrapper__outer {
+  padding-left: 270px;
+  height: 100%; }
+
+@media (max-width: 991px) {
+  .wrapper__outer {
+    height: 100%;
+    padding-left: 0px; } }
+
+.hero-content {
+  background: url("../img/bg.jpg") #f7f7f7;
+  min-height: 94vh;
+  background-position: center 15px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin-bottom: 70px; }
+
+@media (max-width: 991px) {
+  .hero-content {
+    min-height: 70vh; } }
+
+.hero-content__bg {
+  text-align: center;
+  padding-top: 28vh;
+  height: 100vh; }
+
+@media (max-width: 768px) {
+  .hero-content__bg {
+    text-align: center;
+    padding-top: 22vh;
+    height: 70vh; } }
+
+/* *************************************
 //   FOOTER  [layout/_footer.scss]
 //   common styles for the global footer
 /* ************************************* */

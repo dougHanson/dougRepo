@@ -1,0 +1,74 @@
+%svg-common {
+	background: url("../svg/sprite.svg") no-repeat;
+}
+
+.svg-close {
+	@extend %svg-common;
+	background-position: 0 0;
+}
+
+.svg-close-dims {
+	width: 58px;
+	height: 58px;
+}
+
+.svg-lab {
+	@extend %svg-common;
+	background-position: 13.004484304932735% 0;
+}
+
+.svg-lab-dims {
+	width: 42px;
+	height: 42px;
+}
+
+.svg-mail {
+	@extend %svg-common;
+	background-position: 22.42152466367713% 0;
+}
+
+.svg-mail-dims {
+	width: 42px;
+	height: 42px;
+}
+
+.svg-pen {
+	@extend %svg-common;
+	background-position: 31.838565022421523% 0;
+}
+
+.svg-pen-dims {
+	width: 42px;
+	height: 42px;
+}
+
+.svg-sprite {
+	@extend %svg-common;
+	background-position: 68.65671641791045% 0;
+}
+
+.svg-sprite-dims {
+	width: 220px;
+	height: 52px;
+}
+
+.svg-star {
+	@extend %svg-common;
+	background-position: 90.5829596412556% 0;
+}
+
+.svg-star-dims {
+	width: 42px;
+	height: 42px;
+}
+
+.svg-user {
+	@extend %svg-common;
+	background-position: 100% 0;
+}
+
+.svg-user-dims {
+	width: 42px;
+	height: 42px;
+}
+

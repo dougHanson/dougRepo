@@ -1,71 +1,29 @@
 <!DOCTYPE html>
 <html>
-    <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="author" content="Doug Hanson">
-    <title>Doug Hanson - Web Designer</title>
-    <meta name="description" content="Gluon - an HTML boilerplate by Doug Hanson.">
-    <meta name="keywords" content="gluon, boilerplate, html, doug, hanson">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- fonts Raleway & Dancing Script-->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,600,800|Dancing+Script" rel="stylesheet" type="text/css">
-    <!-- build:css -->
-    <link rel="stylesheet" href="css/styles.css" media="all">
-		<link rel="stylesheet" href="css/plugins/_grid3d.css" media="all">
-    <!-- endbuild -->
-
-    <style type="text/css">
-.wrapper {
-  margin: 1.5vw;
-}
-@media (max-width: 991px) {
-  .wrapper {
-      padding-top: 90px;
-  }
-}
-.wrapper__outer {
-  padding-left: 270px;
-  height: 100%;
-}
-
-@media (max-width: 991px) {
-  .wrapper__outer {
-      height: 100%;
-      padding-left: 0px;
-  }
-}
-
-.hero-content {
-  background: url('img/bg.jpg') #f7f7f7;
-  min-height: 94vh;
-  background-position: center 15px;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  margin-bottom: 70px;
-}
-@media (max-width: 991px) {
-	.hero-content {
-		min-height: 70vh;
-	}
-	.subheading__hero { background: rgba(255,255,255,0.6); }
-}
-.hero-content__bg {
-	text-align: center; padding-top: 28vh;  height: 100vh;
-}
-@media (max-width: 768px) {
-	.hero-content__bg {
-		text-align: center; padding-top: 22vh;  height: 70vh;
-
-	}
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="author" content="Doug Hanson">
+	<title>Doug Hanson - Web Designer</title>
+	<meta name="description" content="Gluon - an HTML boilerplate by Doug Hanson.">
+	<meta name="keywords" content="gluon, boilerplate, html, doug, hanson">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-}
+	<!-- fonts Raleway & Dancing Script-->
+	<link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,600,800|Dancing+Script" rel="stylesheet" type="text/css">
+	
+	<!-- build:css -->
+	<link rel="stylesheet" href="css/styles.css" media="all">
+	<link rel="stylesheet" href="css/plugins/_grid3d.css" media="all">
+	<!-- endbuild -->
 
-hr { padding: 20px 0; width: 85%; }
+	<style type="text/css">
 
-</style>
-<?php include('/inc/_favicons.php'); ?>
+		hr { padding: 20px 0; width: 85%; }
+
+	</style>
+	
+	<?php include('/inc/_favicons.php'); ?>
 </head>
 
 
