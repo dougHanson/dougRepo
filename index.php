@@ -201,7 +201,6 @@ hr { padding: 20px 0; width: 85%; }
             </article>
 					</div>
 
-
 					<div class="perspective-container perspective-right">
             <article class="work-item" id="work-item__three"> 
 							<div class="front">
@@ -269,7 +268,6 @@ hr { padding: 20px 0; width: 85%; }
 			<div style="position:relative;">
 				<div class="work-item__one">
 
-
 					<!-- Mobii Manager -->
 					<div class="wrapper">		
 						<div class="wrapper__outer">
@@ -315,12 +313,10 @@ hr { padding: 20px 0; width: 85%; }
 					<span class="icon close-content svg-star svg-star-dims">Close</span>
 					
 				</div>
-			</div>
-			
-			
-			
-			
-			<div style="position:relative;">
+
+				
+				
+				
 				<div class="work-item__two">
 
 					<!-- iiNet plan refreshes -->
@@ -353,13 +349,10 @@ hr { padding: 20px 0; width: 85%; }
 					<span class="icon close-content svg-star svg-star-dims">Close</span>
 					
 				</div>
-			</div>	
-			
-			
-			
-			
-			
-			<div style="position:relative;">
+
+				
+				
+				
 				<div class="work-item__three">
 
 					<!-- Multicomm -->
