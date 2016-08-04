@@ -44,8 +44,8 @@
     <nav>
       <ul>
         <li class="nav-home"><a href="#"><i class="icon svg-pen svg-pen-dims"></i><span>Intro</span></a></li>
+				<li class="nav-works"><a href="#"><i class="icon svg-lab svg-lab-dims"></i><span>Selected works</span></a></li>
         <li class="nav-about"><a href="#"><i class="icon svg-user svg-user-dims"></i><span>About me</span></a></li>
-        <li class="nav-works"><a href="#"><i class="icon svg-lab svg-lab-dims"></i><span>Selected works</span></a></li>
         <li class="nav-contact"><a href="#"><i class="icon svg-mail svg-pen-dims"></i><span>Contact</span></a></li>        
       </ul>
     </nav>
@@ -63,7 +63,7 @@
         <div class="hero-content__bg">  <!-- #TODO - make this a class -->
 <!--          <img src="img/logo.png" alt="" />-->
           <h1 class="hero-heading"><span>Doug Hanson</span></h1>
-          <h3 class="subheading subheading__hero">Web Designer from Perth, Western Australia</h3>
+          <h3 class="subheading subheading__hero">Web Designer &amp; Developer from Perth, Western Australia</h3>
           <img src="img/three-stars.png" alt="" /> 
         </div>
       </div>
@@ -377,6 +377,19 @@
 <script src="js/plugins/owl.carousel.js"></script> 
 <script src="js/main.js"></script> 
 <!-- endbuild --> 
+
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-81920963-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- end Google Analytics -->
   
 </body>
 </html>
