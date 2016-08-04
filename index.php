@@ -267,8 +267,10 @@ hr { padding: 20px 0; width: 85%; }
       <!-- end selected works --> 
 			
 		
-
-			<div style="position:relative;">
+			<!-- -------------------------------------
+			//   Work content pages
+			------------------------------------------ -->	
+			<section style="position:relative;">
 				
 				<!-- include mobii manager content -->
 				<?php include_once("inc/_mobii-manager.php") ?>
@@ -279,9 +281,11 @@ hr { padding: 20px 0; width: 85%; }
 				<!-- include multicomm content -->
 				<?php include_once("inc/_multicomm.php") ?>
 
-			</div>				
+			</section>				
 
+			
       <hr>
+			
 
 			<!-- -------------------------------------
 			//   Contact
