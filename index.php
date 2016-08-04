@@ -14,7 +14,6 @@
 	
 	<!-- build:css -->
 	<link rel="stylesheet" href="css/styles.css" media="all">
-	<link rel="stylesheet" href="css/plugins/_grid3d.css" media="all">
 	<!-- endbuild -->
 
 	<style type="text/css">
@@ -82,14 +81,14 @@
         <h2 class="text-center text-uppercase">Selected works</h2>				
         <div class="text-center"><img src="img/arrow.png" /></div>     
 
-        <div style="margin-top:40px;" class="masonry-container"-->  
+        <div style="margin-top:40px;" class="masonry-container">  
 
 					<div class="perspective-container perspective-left">
             <article class="work-item" id="work-item__two"> 
 							<div class="front">
 								<img src="img/iinet.png" style="width: 100%;" />
 								<div class="work-item__content">
-									<p class="work-item__heading">iiNet</p>
+									<p class="work-item__heading">iiNet Plan Page Redesign</p>
 									<p class="subheading">ux / web design &amp; development</p>                          
 								</div>
 							</div>
@@ -97,7 +96,7 @@
             </article>
 					</div>
 					
-					<div class="perspective-container">
+					<div class="perspective-container perspective-middle">
             <article class="work-item" id="work-item__one"> 
 							<div class="front">
 								<img src="img/mobii-manager.png" style="width: 100%;" />
@@ -122,7 +121,8 @@
 							<div class="back"><!-- backface --></div>
             </article>	
 					</div>
-      
+					
+     
 				 <!--			
 					
           <a href="#">

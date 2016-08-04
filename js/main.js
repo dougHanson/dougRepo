@@ -42,7 +42,7 @@ $(document).ready(function() {
 }(jQuery));
 
 $('.parallax-bg').parallax({
-  speed : 0.33
+  speed : 0.6
 });
 
 
@@ -68,9 +68,9 @@ $(function() {
 		$(this).toggleClass('flip3d').addClass('hasAnimated');
 		setTimeout(function(){ 
 			$("."+id).fadeIn(); 
-		}, 1001);
-		$('body').addClass('noscroll');
-		
+			$('body').addClass('noscroll');
+		}, 500);
+
 		
 		$(".close-content,nav a").click(function(){
 			$("."+id).fadeOut(500); 

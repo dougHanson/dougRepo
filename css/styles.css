@@ -957,9 +957,8 @@ section {
 //   classes for wrappers, containers that aren't bootstrap
 /* ************************************* */
 /* -------------------------------------
-//   Spacing
+//   Wrappers
 /* ------------------------------------- */
-/* ----- Padding ----- */
 .wrapper {
   margin: 1.5vw; }
 
@@ -1130,10 +1129,10 @@ footer {
   margin-bottom: 20px !important; }
 
 .margin-bottom-30 {
-  margin-bottom: 20px !important; }
+  margin-bottom: 30px !important; }
 
 .margin-bottom-40 {
-  margin-bottom: 20px !important; }
+  margin-bottom: 40px !important; }
 
 .margin-0 {
   margin: 0 !important; }
@@ -1326,9 +1325,18 @@ hr {
   top: 0;
   left: 0;
   width: 270px;
-  background: #444341;
   height: 100%;
-  z-index: 888; }
+  z-index: 888;
+  background: #585754;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #484744 10%, #404042 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #484744 10%, #404042 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #484744 10%, #404042 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#484744', endColorstr='#404042',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */ }
 
 .vertical-menu__logo {
   height: 90px; }
@@ -2269,6 +2277,14 @@ img {
 .perspective-right {
   perspective-origin: 90% center; }
 
+@media (max-width: 1370px) {
+  .perspective-container {
+    perspective: 1500px; }
+  .perspective-middle {
+    perspective-origin: 75% center; }
+  .perspective-right {
+    perspective-origin: 25% center; } }
+
 @media (max-width: 1200px) {
   .perspective-left,
   .perspective-right {
@@ -2287,14 +2303,10 @@ img {
   100% {
     transform: translateZ(950px) translateY(-150px) rotateX(-180deg); } }
 
-@media (max-width: 1200px) {
+@media (max-width: 1370px) {
   @keyframes flipAnimation {
-    0% {
-      transform: translateZ(0px); }
-    10% {
-      transform: translateZ(-500px); }
     100% {
-      transform: translateZ(950px) translateY(-650px) rotateX(-180deg); } } }
+      transform: rotateY(0deg) translateY(0px) translateZ(0px); } } }
 
 .work-item__one,
 .work-item__two,
@@ -2333,7 +2345,7 @@ img {
   transform: rotateY(180deg); }
 
 .noscroll {
-  overflow: hidden; }
+  overflow-y: hidden; }
 
 /* ----- Elements ----- */
 .brand-colour {
@@ -2346,7 +2358,8 @@ img {
 .work-content__banner {
   display: block;
   width: 100%;
-  margin: 20px 0 0 -50px; }
+  max-width: 900px;
+  margin: 20px 0 0 -5px; }
 
 @media (max-width: 992px) {
   .work-content__banner {

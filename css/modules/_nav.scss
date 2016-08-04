@@ -16,9 +16,16 @@
   width: 270px;
   //background-image: url('../img/side-menu-bg.png');
   //background-size: cover;
-	background: #444341;
+	//background: #444341;
   height: 100%;
   z-index: 888;
+
+	background: #585754; /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  #484744 10%, #404042 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg,  #484744 10%,#404042 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg,  #484744 10%,#404042 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#484744', endColorstr='#404042',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */ 
+
 }
 .vertical-menu__logo {
   height: 90px;

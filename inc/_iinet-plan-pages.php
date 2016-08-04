@@ -32,7 +32,7 @@
 									<span class="brand-colour" style="background: #0090ab;"> </span>
 									<span class="brand-colour" style="background: #808080;"> </span>
 									<span class="brand-colour" style="background: #fafafa;"> </span>									
-									<h3 class="h3 subheading">iiNet</h3>
+									<h3 class="h3 subheading">iiNet Plan Page Redesign</h3>
 									
 									<p>When I began working at iiNet, the core product pages presented a complex user experience, were not responsive, and no longer aligned with the brand. Each product page also had a unique appearance and layout, confusing potential customers and customer service reps.</p>
 									<p>This presented an opportunity to improve the user experience, by simplifying these pages and unifying them with each other and the brand. The new responsive pages reduce cognitive load by breaking down the plan customisation into intuitive steps.</p>
@@ -41,13 +41,13 @@
 									<p class="margin-bottom-40"><!-- --></p>
 									
 									<div style="float:left;">
-										<p class="h5">Old page example</p>
-										<img src="img/adsl-old.png" alt="Old ADSL product page" class="margin-bottom-40" style="float: left; max-width: 330px; margin-right: 30px; border: 1px solid #efefef;">	
+										<p class="h5">Old ADSL plans page</p>
+										<img src="img/adsl-old.png" alt="Old ADSL product page" class="margin-bottom-40" style="float: left; width: 100%; max-width: 330px; margin-right: 30px; border: 1px solid #efefef;">	
 									</div>
 									
 									<div style="float:left;">
-										<p class="h5">New page example</p>
-										<img src="img/adsl-new.png" alt="New ADSL product page" class="margin-bottom-40" style="float: left; max-width: 330px; border: 1px solid #efefef;">	
+										<p class="h5">New ADSL plans page</p>
+										<img src="img/adsl-new.png" alt="New ADSL product page" class="margin-bottom-40" style="float: left; width: 100%; max-width: 330px; border: 1px solid #efefef;">	
 									</div>
 									
 								</div>
