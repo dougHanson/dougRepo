@@ -240,13 +240,14 @@
               </tr>                   
             </tbody>
           </table> 
+				</div>  
           
-          <div class="margin-top-30">
+          <div class="col-sm-12 text-center margin-top-30">
             <a href="doc/Doug-Hanson-Resume.pdf" target="_blank" class="button margin-right-10">Download Resume (80kB)</a> 
             <!--a class="button button__primary nav-contact">Get in touch</a>          -->
           </div>
           
-        </div>       
+     
                              
       </section>
       <!-- end about me --> 

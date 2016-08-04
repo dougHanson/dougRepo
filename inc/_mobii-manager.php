@@ -46,7 +46,7 @@
 									<p class="margin-top-0">March 2014</p>
 
 									<p class="h4 subheading margin-bottom-0">Skills used</p>
-									<p class="margin-top-0">Design, Branding, UX</p>
+									<p class="margin-top-0">Design<br>Branding<br>UX</p>
 								</div>
 
 							</div>
