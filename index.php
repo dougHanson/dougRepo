@@ -5,8 +5,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="author" content="Doug Hanson">
 	<title>Doug Hanson - Web Designer</title>
-	<meta name="description" content="Gluon - an HTML boilerplate by Doug Hanson.">
-	<meta name="keywords" content="gluon, boilerplate, html, doug, hanson">
+	<meta name="description" content="Web designer from Perth, Western Australia. Doug Hanson.">
+	<meta name="keywords" content="web design perth, doug, hanson">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
 	<!-- fonts Raleway & Dancing Script-->
