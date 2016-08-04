@@ -1981,7 +1981,7 @@ label > .label-body {
   position: relative;
   z-index: 1;
   display: inline-block;
-  margin: 1em;
+  margin: 1em 0;
   width: 100%;
   vertical-align: top;
   background: #fff;
@@ -2367,7 +2367,7 @@ img {
     width: 100%;
     margin: 20px 0 0 -10px; } }
 
-.svg-close, .svg-lab, .svg-mail, .svg-pen, .svg-sprite, .svg-star, .svg-user {
+.svg-close, .svg-lab, .svg-mail, .svg-pen, .svg-star, .svg-user {
   background: url("../svg/sprite.svg") no-repeat; }
 
 .svg-close {
@@ -2378,35 +2378,28 @@ img {
   height: 58px; }
 
 .svg-lab {
-  background-position: 13.004484304932735% 0; }
+  background-position: 25.663716814159294% 0; }
 
 .svg-lab-dims {
   width: 42px;
   height: 42px; }
 
 .svg-mail {
-  background-position: 22.42152466367713% 0; }
+  background-position: 44.24778761061947% 0; }
 
 .svg-mail-dims {
   width: 42px;
   height: 42px; }
 
 .svg-pen {
-  background-position: 31.838565022421523% 0; }
+  background-position: 62.83185840707964% 0; }
 
 .svg-pen-dims {
   width: 42px;
   height: 42px; }
 
-.svg-sprite {
-  background-position: 68.65671641791045% 0; }
-
-.svg-sprite-dims {
-  width: 220px;
-  height: 52px; }
-
 .svg-star {
-  background-position: 90.5829596412556% 0; }
+  background-position: 81.41592920353982% 0; }
 
 .svg-star-dims {
   width: 42px;

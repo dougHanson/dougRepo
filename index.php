@@ -336,7 +336,7 @@
               mail($to,$email_subject,$email_body,$headers);
           
               //thankyou message on website
-              echo "<p  id='contact' style='background:#E6EFC2; color:#529214;border:1px solid #CCDC8C;padding:3px 14px;'>Thank you $name, we will respond to your message shortly.</p>";
+              echo "<div class='clearfix'><!-- --></div><p  id='contact' style='background:#E6EFC2; color:#529214; border:1px solid #CCDC8C;padding:3px 14px; text-align:center;' >Thank you $name, we will respond to your message shortly.</p>";
          
             }
           ?>          
