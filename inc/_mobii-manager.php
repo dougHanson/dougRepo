@@ -12,7 +12,7 @@
 								margin-bottom: 30px;">							
 
 								<div class="container">	
-									<img src="img/mobii-header.png" class="work-content__banner" style="margin: 0 20px ; display: block; padding: 20px 0 0; ">	
+									<img src="img/mobii-header.png" class="work-content__banner" style="max-width: 582px;">	
 								</div>
 								
 							</div>
@@ -21,12 +21,12 @@
 							<div class="container">
 								
 								<!-- content -->
-								<div class="col-lg-8">	
+								<div class="col-md-8">	
 									
 									<!-- brand colours -->
 									<span class="brand-colour" style="background: #ff8200;"> </span>
-									<span class="brand-colour" style="background: #d21f2a;"> </span>
-									<span class="brand-colour" style="background: #0090ab;"> </span>
+									<span class="brand-colour" style="background: #b71234;"> </span>
+									<span class="brand-colour" style="background: #252A2D;"> </span>
 									<span class="brand-colour" style="background: #808080;"> </span>
 									<span class="brand-colour" style="background: #fafafa;"> </span>
 									<h3 class="h3 subheading">Mobii Manager</h3>
@@ -38,7 +38,7 @@
 								
 
 								<!-- extra info -->
-								<div class="col-lg-3 col-lg-offset-1">
+								<div class="col-md-3 col-md-offset-1 hidden-sm hidden-xs hidden-xxs">
 									<p class="h4 subheading margin-bottom-0">Client</p>
 									<p class="margin-top-0">iiNet </p>
 
@@ -53,7 +53,7 @@
 						</div>
 					</div>
 					
-					<span class="icon close-content svg-star svg-star-dims">Close</span>  <!-- close button -->
+					<span class="icon close-content svg-close svg-close-dims" title="Return to main page"></span>  <!-- close button -->
 					
 				</div>
 				<!-- end Mobii Manager -->	

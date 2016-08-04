@@ -132,9 +132,9 @@ gulp.task('svgSprite', function () {
 
 // Default Task
 gulp.task('default', ['watch']);
-gulp.task('favicons', ['favicons']);
+gulp.task('favicon', ['favicons']);
 gulp.task('dist', ['minify-css', 'minify-js', 'html-replace', 'compress-images']);
 gulp.task('publish', ['minify-html']);
 
-// gulp watch, then favicons (prior to dist so they are compressed), then distribution to test in staging, then minify-html for live version
+// gulp watch | gulp svgicons, compile-sass, then favicons (prior to dist so they are compressed), then distribution to test in staging, then minify-html for live version
 // what if i make favicons a dependency of compress-images??

@@ -9,6 +9,11 @@ th, td {
     padding: 12px 15px;
     text-align: left;
     line-height: $line-height;
+	
+		color: $paragraph-color;
+		font-size: $paragraph-font-size;
+		font-weight: $paragraph-font-weight;
+
 }
 
 th {
