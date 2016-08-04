@@ -20,6 +20,7 @@
 	<style type="text/css">
 
 		hr { padding: 20px 0; width: 85%; }
+		/*aside { background: url('img/noise.png'); }*/
 
 	</style>
 	
