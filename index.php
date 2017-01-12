@@ -192,7 +192,7 @@
 				<?php include_once("inc/_mobii-manager.php") ?>
 
 				<!-- include iinet plan page refresh content -->
-				<?php include_once("inc/_iinet-plan-pages.php") ?>
+				<?php //include_once("inc/_iinet-plan-pages.php") ?>
 				
 				<!-- include multicomm content -->
 				<?php include_once("inc/_multicomm.php") ?>
