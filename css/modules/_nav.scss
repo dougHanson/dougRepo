@@ -20,15 +20,19 @@
   height: 100%;
   z-index: 888;
 
-	background: #585754; /* Old browsers */
-	background: -moz-linear-gradient(-45deg,  #484744 10%, #404042 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(-45deg,  #484744 10%,#404042 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(135deg,  #484744 10%,#404042 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#484744', endColorstr='#404042',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */ 
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ef5f4e+0,f59a5d+100 */
+background: #ef5f4e; /* Old browsers */
+background: -moz-linear-gradient(top,  #ef5f4e 0%, #f59a5d 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ef5f4e 0%,#f59a5d 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ef5f4e 0%,#f59a5d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef5f4e', endColorstr='#f59a5d',GradientType=0 ); /* IE6-9 */
+	
+	box-shadow: 4px 0px 12px #ccc;
 
 }
 .vertical-menu__logo {
   height: 90px;
+	text-align: center;
 }
 .vertical-menu__logo img {
   max-height: 100%;
@@ -95,7 +99,7 @@ nav li {
 nav li::after {
   bottom: 0;
   content: "";
-  background-color: rgba(222, 222, 222, 0.1);
+  background-color: rgba(222, 222, 222, 0.33);
   display: block;
   height: 1px;
   width: 100%;

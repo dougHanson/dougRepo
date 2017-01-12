@@ -976,7 +976,7 @@ section {
     padding-left: 0px; } }
 
 .hero-content {
-  background: url("../img/bg.jpg") #f7f7f7;
+  background: url("../img/bg-bw.png") #f7f7f7;
   min-height: 94vh;
   background-position: center 15px;
   background-repeat: no-repeat;
@@ -1207,7 +1207,7 @@ hr {
 .hrmenu {
   width: 100%;
   margin-top: 2em;
-  border-bottom: 4px solid #e1b80d; }
+  border-bottom: 4px solid #EF5F4E; }
 
 /* general ul style */
 .hrmenu ul {
@@ -1238,13 +1238,13 @@ hr {
 .hrmenu > ul > li.hropen a,
 .hrmenu > ul > li.hropen > a:hover {
   color: #fff;
-  background: #e1b80d; }
+  background: #EF5F4E; }
 
 /* sub-menu */
 .hrmenu .hrsub {
   display: none;
   position: absolute;
-  background: #e1b80d;
+  background: #EF5F4E;
   width: 100%;
   left: 0;
   z-index: 2000;
@@ -1296,7 +1296,7 @@ hr {
     font-size: 75%; }
   .hrmenu > ul > li {
     display: block;
-    border-bottom: 1px solid #e1b80d;
+    border-bottom: 1px solid #EF5F4E;
     margin-bottom: 0; }
   .hrmenu > ul > li > a {
     display: block;
@@ -1327,19 +1327,22 @@ hr {
   width: 270px;
   height: 100%;
   z-index: 888;
-  background: #585754;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ef5f4e+0,f59a5d+100 */
+  background: #ef5f4e;
   /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #484744 10%, #404042 100%);
+  background: -moz-linear-gradient(top, #ef5f4e 0%, #f59a5d 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(-45deg, #484744 10%, #404042 100%);
+  background: -webkit-linear-gradient(top, #ef5f4e 0%, #f59a5d 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg, #484744 10%, #404042 100%);
+  background: linear-gradient(to bottom, #ef5f4e 0%, #f59a5d 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#484744', endColorstr='#404042',GradientType=1 );
-  /* IE6-9 fallback on horizontal gradient */ }
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef5f4e', endColorstr='#f59a5d',GradientType=0 );
+  /* IE6-9 */
+  box-shadow: 4px 0px 12px #ccc; }
 
 .vertical-menu__logo {
-  height: 90px; }
+  height: 90px;
+  text-align: center; }
 
 .vertical-menu__logo img {
   max-height: 100%;
@@ -1395,7 +1398,7 @@ nav li {
 nav li::after {
   bottom: 0;
   content: "";
-  background-color: rgba(222, 222, 222, 0.1);
+  background-color: rgba(222, 222, 222, 0.33);
   display: block;
   height: 1px;
   width: 100%; }
@@ -1451,13 +1454,13 @@ p {
   font-weight: 300; }
 
 a {
-  color: #e1b80d;
+  color: #EF5F4E;
   text-decoration: none;
   font-weight: 600; }
 
 a:hover,
 a:focus {
-  color: #997d09; }
+  color: #dd2914; }
 
 strong, b {
   font-weight: 600; }
@@ -1470,7 +1473,7 @@ u {
   border-bottom: 1px solid #222; }
 
 abbr {
-  border-bottom: 2px dotted #e1b80d;
+  border-bottom: 2px dotted #EF5F4E;
   position: relative;
   cursor: help; }
 
@@ -1631,8 +1634,8 @@ h6, .h6 {
 
 /* ----- hero heading, should only be used on home page ----- */
 .hero-heading {
-  font-size: 150px;
-  font-weight: 800;
+  font-size: 120px;
+  font-weight: 300;
   font-family: "Dancing Script", Arial, sans-serif, serif;
   line-height: 1.4em;
   color: #444; }
@@ -1663,7 +1666,7 @@ h6, .h6 {
 }*/
 @media (max-width: 1360px) {
   .hero-heading {
-    font-size: 100px; } }
+    font-size: 80px; } }
 
 @media (max-width: 991px) {
   .hero-heading {
@@ -1757,8 +1760,8 @@ input[type="button"] {
   min-width: 10em;
   min-height: calc(2.75em + 6px);
   line-height: 3em;
-  border: 2px solid #e1b80d;
-  color: #e1b80d;
+  border: 2px solid #EF5F4E;
+  color: #EF5F4E;
   cursor: pointer;
   display: inline-block;
   text-align: center;
@@ -1792,8 +1795,8 @@ input[type="button"] {
 input.button__primary[type="submit"],
 input.button__primary[type="reset"],
 input.button__primary[type="button"] {
-  background-color: #e1b80d;
-  border: 2px solid #e1b80d;
+  background-color: #EF5F4E;
+  border: 2px solid #EF5F4E;
   color: #fff; }
 
 /* -------------------------------------
@@ -1810,8 +1813,8 @@ button:hover,
 input[type="submit"]:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover {
-  background: #e1b80d;
-  border-color: #e1b80d;
+  background: #EF5F4E;
+  border-color: #EF5F4E;
   color: #fff;
   text-decoration: none; }
 
@@ -1823,8 +1826,8 @@ input.button__primary[type="button"].is-selected,
 input.button__primary[type="submit"]:hover,
 input.button__primary[type="reset"]:hover,
 input.button__primary[type="button"]:hover {
-  background: #867666;
-  border: 2px solid #867666;
+  background: #F4965C;
+  border: 2px solid #F4965C;
   color: #fff; }
 
 /* -----IE8 ----- */
@@ -1954,7 +1957,7 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-  border: 1px solid #e1b80d;
+  border: 1px solid #EF5F4E;
   outline: 0; }
 
 label,
@@ -2016,7 +2019,7 @@ label > .label-body {
   background: transparent;
   padding: 1.5em 1em 0.25em 4em;
   width: 100%;
-  color: #867666; }
+  color: #F4965C; }
 
 textarea.input__field {
   padding-top: 1.9em; }
@@ -2056,13 +2059,13 @@ textarea.input__field {
 
 @-webkit-keyframes anim-form {
   100% {
-    color: #e1b80d;
+    color: #EF5F4E;
     -webkit-transform: translate3d(0, -0.6em, 0) scale3d(0.85, 0.85, 1);
     transform: translate3d(0, -0.25em, 0) scale3d(0.75, 0.75, 1); } }
 
 @keyframes anim-form {
   100% {
-    color: #e1b80d;
+    color: #EF5F4E;
     -webkit-transform: translate3d(0, -0.6em, 0) scale3d(0.85, 0.85, 1);
     transform: translate3d(0, -0.25em, 0) scale3d(0.75, 0.75, 1); } }
 
@@ -2110,7 +2113,7 @@ img {
 //   styles for frame borders around perimeter
 /* ************************************* */
 .frame {
-  background: #f4f4f4;
+  background: #404040;
   width: 1.5vw;
   height: 1.5vw;
   z-index: 999;
@@ -2188,7 +2191,7 @@ img {
   right: 0;
   margin: 0 auto;
   top: 8px;
-  border-bottom: 1px solid #e1b80d;
+  border-bottom: 1px solid #EF5F4E;
   transition: all 500ms; }
 
 .work-item:hover .work-item__heading:after {
@@ -2667,4 +2670,4 @@ img {
   border-radius: 30px; }
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-  background-color: #e1b80d; }
+  background-color: #EF5F4E; }

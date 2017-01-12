@@ -168,8 +168,8 @@ h6, .h6              { font-size: $font-size-h6; }
 /* ----- hero heading, should only be used on home page ----- */
 
 .hero-heading {
-  font-size: 150px;
-  font-weight: 800;
+  font-size: 120px;
+  font-weight: 300;
   font-family: $font-family-secondary, serif;
   line-height: 1.4em;
   //text-transform: uppercase;   
@@ -205,7 +205,7 @@ h6, .h6              { font-size: $font-size-h6; }
 
 @media (max-width: 1360px) {
   .hero-heading {
-    font-size: 100px;
+    font-size: 80px;
   }
 }
 @media (max-width: 991px) {

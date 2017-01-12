@@ -42,8 +42,9 @@
   <aside class="vertical-menu">
     <div class="vertical-menu__logo"><a href="/"><img src="img/logo-retina.png" /></a></div>
     <nav>
+			<br><br><br>
       <ul>
-        <li class="nav-home"><a href="#"><i class="icon svg-pen svg-pen-dims"></i><span>Intro</span></a></li>
+        <li class="nav-home"><a href="#"><i class="icon svg-pen svg-pen-dims"></i><span>Home</span></a></li>
 				<li class="nav-works"><a href="#"><i class="icon svg-lab svg-lab-dims"></i><span>Selected works</span></a></li>
         <li class="nav-about"><a href="#"><i class="icon svg-user svg-user-dims"></i><span>About me</span></a></li>
         <li class="nav-contact"><a href="#"><i class="icon svg-mail svg-pen-dims"></i><span>Contact</span></a></li>        
@@ -63,8 +64,8 @@
         <div class="hero-content__bg">  <!-- #TODO - make this a class -->
 <!--          <img src="img/logo.png" alt="" />-->
           <h1 class="hero-heading"><span>Doug Hanson</span></h1>
-          <h3 class="subheading subheading__hero">Web Designer &amp; Developer from Perth, Western Australia</h3>
-          <img src="img/three-stars.png" alt="" /> 
+          <h3 class="subheading subheading__hero">Web Designer &amp; Front-end Developer based in Perth, Western Australia</h3>
+         <!-- <img src="img/three-stars.png" alt="" /> -->
         </div>
       </div>
       <!-- end hero content --> 
