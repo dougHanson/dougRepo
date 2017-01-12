@@ -84,7 +84,7 @@
 
         <div style="margin-top:40px;" class="masonry-container">  
 
-					<div class="perspective-container perspective-left">
+					<!--<div class="perspective-container perspective-left">
             <article class="work-item" id="work-item__two"> 
 							<div class="front">
 								<img src="img/iinet.png" style="width: 100%;" />
@@ -93,9 +93,20 @@
 									<p class="subheading">ux / web design &amp; development</p>                          
 								</div>
 							</div>
-							<div class="back"><!-- backface --></div>
+							<div class="back"><!-- backface --><!--</div>
             </article>
-					</div>
+					</div>-->
+					
+					<a href="/iinet-plan-pages/">
+            <article class="work-item" id="work-item__two"> 
+							<img src="img/iinet.png" style="width: 100%;" />
+							<div class="work-item__content">
+								<p class="work-item__heading">iiNet Plan Page Redesign</p>
+								<p class="subheading">ux / web design &amp; development</p>                          
+							</div>
+            </article>
+					</a>
+		
 					
 					<div class="perspective-container perspective-middle">
             <article class="work-item" id="work-item__one"> 

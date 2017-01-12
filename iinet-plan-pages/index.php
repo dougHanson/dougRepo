@@ -1,26 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="author" content="Doug Hanson">
+	<title>Doug Hanson - Web Designer</title>
+	<meta name="description" content="Web designer from Perth, Western Australia. Doug Hanson.">
+	<meta name="keywords" content="web design perth, doug, hanson">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- fonts Raleway & Dancing Script-->
+	<link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,600,800|Dancing+Script" rel="stylesheet" type="text/css">
+	
+	<!-- build:css -->
+	<link rel="stylesheet" href="/css/styles.css" media="all">
+	<!-- endbuild -->
+
+	<style type="text/css">
+
+		hr { padding: 20px 0; width: 85%; }
+		/*aside { background: url('img/noise.png'); }*/
+
+	</style>
+
+</head>
+
+
+<body>					
+
+
+
 					<!-- iiNet plan refreshes -->
-				<div class="work-item__two">
 					<div class="wrapper">		
 						<div class="wrapper__outer">
 
 							
-							<!-- banner -->
-							<div style="width:102%; 
-								background: #d16e73;
-								background: -moz-linear-gradient(left,  #d16e73 0%, #ffc489 99%);
-								background: -webkit-linear-gradient(left,  #d16e73 0%,#ffc489 99%);
-								background: linear-gradient(to right,  #d16e73 0%,#ffc489 99%);
-								filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d16e73', endColorstr='#ffc489',GradientType=1 );
-
-								margin-bottom: 30px;">							
-
-								<div class="container">	
-									<img src="img/iinet-header.png" class="work-content__banner" >	
-								</div>
+							<!-- banner -->	
+							<div class="container">	
+								<img src="img/iinet-header.png" class="work-content__banner" >	
+							</div>
 								
-							</div>								
 
-							
 							<div class="container">
 
 								<!-- content -->
@@ -71,6 +91,5 @@
 					</div>
 
 					<span class="icon close-content svg-close svg-close-dims" title="Return to main page"></span>  <!-- close button -->
-					
-				</div>
+	
 				<!-- end iiNet Plan Refreshes -->
