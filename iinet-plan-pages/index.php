@@ -19,7 +19,8 @@
 	<style type="text/css">
 
 		hr { padding: 20px 0; width: 85%; }
-		/*aside { background: url('img/noise.png'); }*/
+		.wrapper__outer { background: #f3f3f3; }
+
 
 	</style>
 
@@ -37,7 +38,7 @@
       
   <!-- left hand nav include -->
   <aside class="vertical-menu">
-    <div class="vertical-menu__logo"><a href="/"><img src="img/logo-retina.png" /></a></div>
+    <div class="vertical-menu__logo"><a href="/"><img src="/img/namelogo.png" /></a></div>
     <nav>
 			<br><br><br>
       <ul>
@@ -64,7 +65,7 @@
 							<div class="container">
 
 								<!-- content -->
-								<div class="col-md-8">	
+
 									
 									<!-- brand colours -->	
 									<span class="brand-colour" style="background: #ff8200;"> </span>
@@ -72,7 +73,7 @@
 									<span class="brand-colour" style="background: #0090ab;"> </span>
 									<span class="brand-colour" style="background: #808080;"> </span>
 									<span class="brand-colour" style="background: #fafafa;"> </span>									
-									<h3 class="h3 subheading">iiNet Plan Page Redesign</h3>
+									<h3 class="h3 uppercase">iiNet Plan Page Redesign</h3>
 									
 									<p>When I began working at iiNet, the core product pages presented a complex user experience, were not responsive, and no longer aligned with the brand. Each product page also had a unique appearance and layout, confusing potential customers and customer service reps.</p>
 									<p>This presented an opportunity to improve the user experience, by simplifying these pages and unifying them with each other and the brand. The new responsive pages reduce cognitive load by breaking down the plan customisation into intuitive steps.</p>
@@ -90,11 +91,7 @@
 										<img src="img/adsl-new.png" alt="New ADSL product page" class="margin-bottom-40" style="float: left; width: 100%; max-width: 330px; border: 1px solid #efefef;">	
 									</div>
 									
-								</div>
-								
-								
-								<!-- extra info -->
-								<div class="col-md-3 col-md-offset-1 hidden-sm hidden-xs hidden-xxs">
+
 									<p class="h4 subheading margin-bottom-0">Client</p>
 									<p class="margin-top-0">iiNet</p>
 
@@ -102,8 +99,7 @@
 									<p class="margin-top-0">2014 - 2016</p>
 
 									<p class="h4 subheading margin-bottom-0">Skills used</p>
-									<p class="margin-top-0">Web design<br>HTML5<br>SASS<br>Angular JS<br>PHP<br>UX</p>
-								</div>									
+								
 								
 
 							</div>

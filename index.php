@@ -17,9 +17,7 @@
 	<!-- endbuild -->
 
 	<style type="text/css">
-
 		hr { padding: 20px 0; width: 85%; }
-		/*aside { background: url('img/noise.png'); }*/
 
 	</style>
 	
@@ -40,7 +38,7 @@
       
   <!-- left hand nav include -->
   <aside class="vertical-menu">
-    <div class="vertical-menu__logo"><a href="/"><img src="img/logo-retina.png" /></a></div>
+    <div class="vertical-menu__logo"><a href="/"><img src="img/namelogo.png" /></a></div>
     <nav>
 			<br><br><br>
       <ul>
@@ -106,8 +104,19 @@
 							</div>
             </article>
 					</a>
-		
 					
+					
+					<a href="/iinet-plan-pages/">
+            <article class="work-item" id="work-item__two"> 
+							<img src="img/iinet.png" style="width: 100%;" />
+							<div class="work-item__content">
+								<p class="work-item__heading">iiNet Plan Page Redesign</p>
+								<p class="subheading">ux / web design &amp; development</p>                          
+							</div>
+            </article>
+					</a>					
+					
+
 					<div class="perspective-container perspective-middle">
             <article class="work-item" id="work-item__one"> 
 							<div class="front">
@@ -133,8 +142,8 @@
 							<div class="back"><!-- backface --></div>
             </article>	
 					</div>
-					
-     
+			
+										
 				 <!--			
 					
           <a href="#">
@@ -210,21 +219,23 @@
         <div class="h3 subheading text-center margin-0">roles and experience</div>
         <h2 class="text-center text-uppercase">About me</h2>
         <div class="text-center"><img src="img/arrow.png" /></div>
-        <div class="col-lg-10 col-lg-offset-1">
+        <div class="col-lg-9 ">
           <p>A driven, creative professional with a broad technical skill set. An excellent communicator experienced in interpreting and implementing client and staff visions of new websites and digital creative. Enjoys collaborating with colleagues and clients, and will voluntarily help and teach whenever needed, with expertise ranging from design, development and conceptualization to programming and management.</p> 
           <p>&nbsp;</p>
-        </div>        
-        
+        </div> 
         <div class="col-lg-3 text-right visible-lg">
           <img src="img/doug.png" class="img-circle">
-        </div>        
+        </div>  				
+				
+        
+      
 
-        <div class="col-lg-9">        
+        <div class="col-lg-12">        
           <h4>Experience</h4>   
           <table class="full-width">
             <tbody>
               <tr>
-                <td>iiNet<br>2013 - Present</td>
+                <td width="150px">iiNet<br>2013 - Present</td>
                 <td>
 									<strong>Senior Web Designer</strong><br>
 									<span class="hidden-xxs">To deliver design, development, and ongoing maintenance of web-based products and systems to support business initiatives. Create prototypes, UI, IA, graphical and architectural requirements, and conduct usability assessments to evaluate solutions at the information architecture &amp; design level.</span>
@@ -253,12 +264,17 @@
               </tr>                   
             </tbody>
           </table> 
+					
+					<div class="row">
+						<div class="col-sm-12 margin-top-30">
+							<a href="doc/Doug-Hanson-Resume.pdf" target="_blank" class="button margin-right-10">Download Resume (80kB)</a> 
+							<!--a class="button button__primary nav-contact">Get in touch</a>          -->
+						</div>	
+					</div>
+					
 				</div>  
           
-          <div class="col-sm-12 text-center margin-top-30">
-            <a href="doc/Doug-Hanson-Resume.pdf" target="_blank" class="button margin-right-10">Download Resume (80kB)</a> 
-            <!--a class="button button__primary nav-contact">Get in touch</a>          -->
-          </div>
+
           
      
                              
@@ -313,7 +329,7 @@
               </span>  
             </div>                            
             
-            <div class="text-center col-sm-12">
+            <div class="col-sm-12">
               <button class="button button__primary text-right" name="submitted">Send message</button>
             </div> 
           </form> 
