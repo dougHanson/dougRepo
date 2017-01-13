@@ -976,7 +976,7 @@ section {
     padding-left: 0px; } }
 
 .hero-content {
-  background: url("../img/bg-bw.png") #f7f7f7;
+  background: url("../img/perth-bg-new.png") #f7f7f7;
   min-height: 94vh;
   background-position: center 15px;
   background-repeat: no-repeat;
@@ -1327,16 +1327,23 @@ hr {
   width: 270px;
   height: 100%;
   z-index: 888;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ef5f4e+0,f59a5d+100 */
-  background: #ef5f4e;
+  /* orange red gradient
+background: #ef5f4e;
+background: -moz-linear-gradient(top,  #ef5f4e 0%, #f59a5d 100%); 
+background: -webkit-linear-gradient(top,  #ef5f4e 0%,#f59a5d 100%);
+background: linear-gradient(to bottom,  #ef5f4e 0%,#f59a5d 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef5f4e', endColorstr='#f59a5d',GradientType=0 ); 
+*/
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#829ddd+0,2bcacf+100 */
+  background: #829ddd;
   /* Old browsers */
-  background: -moz-linear-gradient(top, #ef5f4e 0%, #f59a5d 100%);
+  background: -moz-linear-gradient(top, #829ddd 0%, #2bcacf 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #ef5f4e 0%, #f59a5d 100%);
+  background: -webkit-linear-gradient(top, #829ddd 0%, #2bcacf 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #ef5f4e 0%, #f59a5d 100%);
+  background: linear-gradient(to bottom, #829ddd 0%, #2bcacf 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef5f4e', endColorstr='#f59a5d',GradientType=0 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#829ddd', endColorstr='#2bcacf',GradientType=0 );
   /* IE6-9 */
   box-shadow: 4px 0px 12px #ccc; }
 
