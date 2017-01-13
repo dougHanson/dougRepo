@@ -95,53 +95,36 @@
             </article>
 					</div>-->
 					
-					<a href="/iinet-plan-pages/">
+					<a href="iinet-plan-pages/">
             <article class="work-item" id="work-item__two"> 
-							<img src="img/iinet.png" style="width: 100%;" />
+							<img src="img/iinet.png" style="width: 100%;" class="img-rounded"  />
 							<div class="work-item__content">
 								<p class="work-item__heading">iiNet Plan Page Redesign</p>
-								<p class="subheading">ux / web design &amp; development</p>                          
+                <p class="h5 subheading">ux / web design &amp; development</p>     
 							</div>
             </article>
 					</a>
-					
-					
-					<a href="/iinet-plan-pages/">
-            <article class="work-item" id="work-item__two"> 
-							<img src="img/iinet.png" style="width: 100%;" />
+
+
+					<a href="iinet-plan-pages/">
+            <article class="work-item" id="work-item__one"> 
+							<img src="img/mobii-manager.png" style="width: 100%;" class="img-rounded"  />
 							<div class="work-item__content">
-								<p class="work-item__heading">iiNet Plan Page Redesign</p>
-								<p class="subheading">ux / web design &amp; development</p>                          
-							</div>
+								<p class="work-item__heading">Mobii Manager</p>
+								<p class="h5 subheading">mobile app design</p> 
+							</div> 
             </article>
 					</a>					
-					
 
-					<div class="perspective-container perspective-middle">
-            <article class="work-item" id="work-item__one"> 
-							<div class="front">
-								<img src="img/mobii-manager.png" style="width: 100%;" />
-								<div class="work-item__content">
-									<p class="work-item__heading">Mobii Manager</p>
-									<p class="subheading">mobile app design</p> 
-								</div> 
-							</div>
-							<div class="back"><!-- backface --></div>
-            </article>
-					</div>					
-
-					<div class="perspective-container perspective-right">
+					<a href="iinet-plan-pages/">
             <article class="work-item" id="work-item__three"> 
-							<div class="front">
-								<img src="img/multicomm.png" style="width: 100%;" />
+								<img src="img/multicomm.png" style="width: 100%;" class="img-rounded"  />
 								<div class="work-item__content">
 									<p class="work-item__heading">Multicomm Website</p>
-									<p class="subheading">branding / ux / web design &amp; development</p> 
+									<p class="h5 subheading">branding / ux / web design &amp; development</p> 
 								</div> 
-							</div>
-							<div class="back"><!-- backface --></div>
             </article>	
-					</div>
+					</a>
 			
 										
 				 <!--			
@@ -198,13 +181,13 @@
 			<div style="position:relative;">
 				
 				<!-- include mobii manager content -->
-				<?php include_once("inc/_mobii-manager.php") ?>
+				<?php //include_once("inc/_mobii-manager.php") ?>
 
 				<!-- include iinet plan page refresh content -->
 				<?php //include_once("inc/_iinet-plan-pages.php") ?>
 				
 				<!-- include multicomm content -->
-				<?php include_once("inc/_multicomm.php") ?>
+				<?php //include_once("inc/_multicomm.php") ?>
 
 			</div>		
 			
@@ -219,19 +202,20 @@
         <div class="h3 subheading text-center margin-0">roles and experience</div>
         <h2 class="text-center text-uppercase">About me</h2>
         <div class="text-center"><img src="img/arrow.png" /></div>
-        <div class="col-lg-9 ">
+        <div class="col-lg-9">
+					<br>
           <p>A driven, creative professional with a broad technical skill set. An excellent communicator experienced in interpreting and implementing client and staff visions of new websites and digital creative. Enjoys collaborating with colleagues and clients, and will voluntarily help and teach whenever needed, with expertise ranging from design, development and conceptualization to programming and management.</p> 
           <p>&nbsp;</p>
         </div> 
         <div class="col-lg-3 text-right visible-lg">
-          <img src="img/doug.png" class="img-circle">
+          <img src="img/doug.png" class="img-circle" style="width:90%;">
         </div>  				
 				
         
       
 
         <div class="col-lg-12">        
-          <h4>Experience</h4>   
+          <h4 style="margin-top: -40px;">Experience</h4>   
           <table class="full-width">
             <tbody>
               <tr>

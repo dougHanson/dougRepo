@@ -13,7 +13,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,600,800|Dancing+Script" rel="stylesheet" type="text/css">
 	
 	<!-- build:css -->
-	<link rel="stylesheet" href="/css/styles.css" media="all">
+	<link rel="stylesheet" href="../css/styles.css" media="all">
 	<!-- endbuild -->
 
 	<style type="text/css">
@@ -38,7 +38,7 @@
       
   <!-- left hand nav include -->
   <aside class="vertical-menu">
-    <div class="vertical-menu__logo"><a href="/"><img src="/img/namelogo.png" /></a></div>
+    <div class="vertical-menu__logo"><a href="/"><img src="../img/namelogo.png" /></a></div>
     <nav>
 			<br><br><br>
       <ul>
@@ -66,40 +66,37 @@
 
 								<!-- content -->
 
-									
+									<div class="col-sm-9">
 									<!-- brand colours -->	
 									<span class="brand-colour" style="background: #ff8200;"> </span>
 									<span class="brand-colour" style="background: #d21f2a;"> </span>
 									<span class="brand-colour" style="background: #0090ab;"> </span>
 									<span class="brand-colour" style="background: #808080;"> </span>
 									<span class="brand-colour" style="background: #fafafa;"> </span>									
-									<h3 class="h3 uppercase">iiNet Plan Page Redesign</h3>
+									<h1 class="h5 font-bold text-uppercase">iiNet Plan Page Redesign</h3>
 									
 									<p>When I began working at iiNet, the core product pages presented a complex user experience, were not responsive, and no longer aligned with the brand. Each product page also had a unique appearance and layout, confusing potential customers and customer service reps.</p>
 									<p>This presented an opportunity to improve the user experience, by simplifying these pages and unifying them with each other and the brand. The new responsive pages reduce cognitive load by breaking down the plan customisation into intuitive steps.</p>
 									<p>Both conversion and bounce rates improved once the new pages were released.</p>
-									<p>Live website: <a href="//iinet.net.au/internet-products/broadband/adsl/" target="_blank">iiNet ADSL plans page</a></p>
 									<p class="margin-bottom-40"><!-- --></p>
-									
-									<div style="float:left;">
-										<p class="h5">Old ADSL plans page</p>
-										<img src="img/adsl-old.png" alt="Old ADSL product page" class="margin-bottom-40" style="float: left; width: 100%; max-width: 330px; margin-right: 30px; border: 1px solid #efefef;">	
-									</div>
-									
-									<div style="float:left;">
-										<p class="h5">New ADSL plans page</p>
-										<img src="img/adsl-new.png" alt="New ADSL product page" class="margin-bottom-40" style="float: left; width: 100%; max-width: 330px; border: 1px solid #efefef;">	
-									</div>
-									
-
-									<p class="h4 subheading margin-bottom-0">Client</p>
-									<p class="margin-top-0">iiNet</p>
-
-									<p class="h4 subheading margin-bottom-0">Date</p>
-									<p class="margin-top-0">2014 - 2016</p>
-
-									<p class="h4 subheading margin-bottom-0">Skills used</p>
 								
+								</div>
+								
+								<div class="col-sm-2 col-sm-offset-1 margin-top-20">
+								
+									<p class="h6 font-bold margin-bottom-0 hidden-xs">Client</p>
+									<p class="margin-top-0 hidden-xs">iiNet</p>
+
+									<p class="h6 font-bold margin-bottom-0 hidden-xs">Year</p>
+									<p class="margin-top-0 hidden-xs">2016</p>
+									
+									<p class="h6 font-bold margin-bottom-0">Live website</p>
+									<p class="margin-top-0"><a href="//iinet.net.au/internet-products/broadband/adsl/" target="_blank">www.iinet.net.au</a></p>
+								
+								
+								</div>
+								
+
 								
 
 							</div>
