@@ -139,7 +139,7 @@ h6, .h6              { font-size: $font-size-h6; }
 /* ----- Font weights ----- */
 
 .font-light          { font-weight: 100; }
-.font-bold           { font-weight: 400; }
+.font-bold           { font-weight: 600; }
 .font-heavy          { font-weight: 700; }
 
 /* ----- Line spacing ----- */
@@ -161,8 +161,10 @@ h6, .h6              { font-size: $font-size-h6; }
 }
 
 .subheading__hero {
-    font-family: $font-family-primary;
-		font-weight: 400;
+	font-family: $font-family-primary;
+	font-weight: 400;
+	width: 80%;
+	margin: 0 auto;
 }
 
 /* ----- hero heading, should only be used on home page ----- */
@@ -175,6 +177,8 @@ h6, .h6              { font-size: $font-size-h6; }
   //text-transform: uppercase;   
   color: $grey-4;
   //letter-spacing: 8px;
+	width: 80%;
+	margin: 0 auto;	
 }
   
 .hero-heading span {

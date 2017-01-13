@@ -13,7 +13,7 @@ img {
   height: auto;
 }
 .img-rounded {
-  border-radius: 10px;
+  border-radius: 16px;
 }
 .img-frame {
   padding: 0.5em;
@@ -28,8 +28,8 @@ img {
 }
 .img-circle {
   border-radius: 50%;
-	width:100%;
-	border:1em solid #fff;
+	width: 100%;
+	border: 0.5em solid #fff;
 }
 @media (max-width: 1370px) {
   .img-circle   { border: 0.5em solid #fff; }  

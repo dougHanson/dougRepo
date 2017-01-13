@@ -39,12 +39,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#829ddd', end
 	
 	
 	
-	box-shadow: 4px 0px 12px #ccc;
+	//box-shadow: 4px 0px 12px #ccc;
 
 }
 .vertical-menu__logo {
   height: 90px;
 	text-align: center;
+	margin-top: 30px;
 }
 .vertical-menu__logo img {
   max-height: 100%;
@@ -66,6 +67,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#829ddd', end
   .vertical-menu__logo {
     height: 50px;
     width: 50px;
+		margin-top: 0;
     float: left;
     position: absolute;
   }  
