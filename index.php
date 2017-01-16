@@ -112,8 +112,8 @@
 					
 					<a href="iinet-plan-pages/">
 						<article class="work-item" id="work-item__two">
-							<div class="work-item__drawings" id="drawings">
-								<img class="illustration" src="img/mobii-manager.png" alt="" />
+							<div class="work-item__drawings" id="drawings"  style="height: 300px;">
+								<img class="illustration" src="img/mobii-manager.png" alt="" style="padding-top: 50px;" />
 								<?php echo file_get_contents("svg/galaxy-phone.svg"); ?>															
 							</div>
 
