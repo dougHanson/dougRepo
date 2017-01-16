@@ -75,7 +75,7 @@
 			progress = this.current_frame/this.total_frames;
 		if (progress > 1) {
 			window.cancelAnimFrame(this.handle);
-			this.showImage();
+			//this.showImage();  // ## shows the full image once svg path is completely shown
 		} else {
 			this.current_frame++;
 			for(var j=0, len = this.path.length; j<len;j++){

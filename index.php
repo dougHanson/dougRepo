@@ -99,17 +99,46 @@
 					<a href="iinet-plan-pages/">
 						<article class="work-item" id="work-item__two">
 							<div class="work-item__drawings" id="drawings">
-								<img class="illustration" src="/img/finn-balloons.png" alt="" />
+								<img class="illustration" src="img/finn-balloons.png" alt="" />
 								<?php echo file_get_contents("svg/finn.svg"); ?>															
 							</div>
 
 							<div class="work-item__content">
-								<p class="work-item__heading">iiNet Plan Page Redesign</p>
+								<p class="work-item__heading">Product Page Redesign</p>
 								<p class="h5 subheading">ux / web design &amp; development</p>
 							</div>
 						</article>
 					</a>
+					
+					<a href="iinet-plan-pages/">
+						<article class="work-item" id="work-item__two">
+							<div class="work-item__drawings" id="drawings">
+								<img class="illustration" src="img/mobii-manager.png" alt="" />
+								<?php echo file_get_contents("svg/galaxy-phone.svg"); ?>															
+							</div>
 
+							<div class="work-item__content">
+								<p class="work-item__heading">Mobii Manager</p>
+								<p class="h5 subheading">ux / mobile design </p>
+							</div>
+						</article>
+					</a>
+					
+
+					<a href="iinet-plan-pages/">
+						<article class="work-item" id="work-item__two">
+							<div class="work-item__drawings" id="drawings">
+								<img class="illustration" src="img/finn-balloons.png" alt="" />
+								<?php echo file_get_contents("svg/finn.svg"); ?>															
+							</div>
+
+							<div class="work-item__content">
+								<p class="work-item__heading">Product Page Redesign</p>
+								<p class="h5 subheading">ux / web design &amp; development</p>
+							</div>
+						</article>
+					</a>
+										
 
 					<!--<a href="iinet-plan-pages/">
             <article class="work-item" id="work-item__one"> 

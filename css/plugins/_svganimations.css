@@ -5,6 +5,7 @@ svg {
 
 .illustration {
 	/*max-height: 100%;*/
+	height: 300px;
 	max-width: 100%;
 	opacity: 0;
 	display: block;
@@ -25,6 +26,10 @@ svg {
 .illustration {
 	-webkit-transition: opacity 0.5s;
 	transition: opacity 0.5s;
+}
+
+.illustration:hover {
+	opacity: 1;
 }
 
 .line-drawing {
