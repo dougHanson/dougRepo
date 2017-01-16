@@ -46,7 +46,7 @@
 		this.el = el;
 		this.image = this.el.previousElementSibling;
 		this.current_frame = 0;
-		this.total_frames = 60;
+		this.total_frames = 80;
 		this.path = new Array();
 		this.length = new Array();
 		this.handle = 0;
@@ -106,7 +106,7 @@
  
 	// http://stackoverflow.com/a/5598797/989439
 	function getOffset( el ) {
-		var offsetTop = 0, offsetLeft = 0;
+		var offsetTop = 160, offsetLeft = 0;
 		do {
 			if ( !isNaN( el.offsetTop ) ) {
 				offsetTop += el.offsetTop;
@@ -137,7 +137,7 @@
 	}
 	
 	function init() {
-		var svgs = Array.prototype.slice.call( document.querySelectorAll( '#main svg' ) ),
+		var svgs = Array.prototype.slice.call( document.querySelectorAll( '#drawings svg' ) ),
 			svgArr = new Array(),
 			didScroll = false,
 			resizeTimeout;

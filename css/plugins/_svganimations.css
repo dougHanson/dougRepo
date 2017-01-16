@@ -1,0 +1,41 @@
+svg {
+	pointer-events: none;
+}
+
+
+.illustration {
+	/*max-height: 100%;*/
+	max-width: 100%;
+	opacity: 0;
+	display: block;
+	margin: 0 auto;
+	/*-webkit-transform: translateX(-50%) translateY(-50%);*/
+	/*transform: translateX(-50%) translateY(-50%);*/
+}
+
+.show {
+	opacity: 1;
+}
+
+.hide {
+	opacity: 0;
+}
+
+.line-drawing,
+.illustration {
+	-webkit-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+}
+
+.line-drawing {
+	position: absolute; 
+	top: 0; 
+	left: 0;
+}
+
+.line-drawing path {
+	fill: none;
+	stroke: #aaa;
+	stroke-width: 1;
+}
+
