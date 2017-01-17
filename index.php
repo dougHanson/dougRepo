@@ -43,10 +43,31 @@
     <nav>
 			<br><br><br>
       <ul>
-        <li class="nav-home"><a href="#"><i class="icon svg-pen svg-pen-dims"></i><span>Home</span></a></li>
-				<li class="nav-works"><a href="#"><i class="icon svg-lab svg-lab-dims"></i><span>Selected works</span></a></li>
-        <li class="nav-about"><a href="#"><i class="icon svg-user svg-user-dims"></i><span>About me</span></a></li>
-        <li class="nav-contact"><a href="#"><i class="icon svg-mail svg-pen-dims"></i><span>Contact</span></a></li>        
+        <li class="nav-home"><a href="#">					
+					<i class="icon">
+						<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="25" height="23" viewBox="0 -5 210 210"><defs><style>.cls-1{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:10px;}</style></defs><title>briefcase</title><path class="cls-1" d="M404,685h69V618.5c0-5.52-4.48-9.5-10-9.5H286c-5.52,0-10,4-10,9.5V685" transform="translate(-274 -581)"/><line class="cls-1" x1="2" y1="104" x2="72" y2="104"/><rect class="cls-1" x="77" y="94" width="48" height="19" rx="8.06" ry="8.06"/><path class="cls-1" d="M467,685v54.94A10.44,10.44,0,0,1,457,750H292.56c-5.26,0-9.56-4.8-9.56-10.06V685" transform="translate(-274 -581)"/><path class="cls-1" d="M405,592.5c0-5.5-4.5-9.5-10-9.5H354c-5.5,0-10,4-10,9.5V601h61Z" transform="translate(-274 -581)"/></svg>
+					</i><span>Home</span></a>
+				</li>
+				<li class="nav-works"><a href="#">
+					<i class="icon">
+						<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="25" height="23" viewBox="0 -5 210 210"><defs><style>.cls-1{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:10px;}</style></defs><title>briefcase</title><path class="cls-1" d="M404,685h69V618.5c0-5.52-4.48-9.5-10-9.5H286c-5.52,0-10,4-10,9.5V685" transform="translate(-274 -581)"/><line class="cls-1" x1="2" y1="104" x2="72" y2="104"/><rect class="cls-1" x="77" y="94" width="48" height="19" rx="8.06" ry="8.06"/><path class="cls-1" d="M467,685v54.94A10.44,10.44,0,0,1,457,750H292.56c-5.26,0-9.56-4.8-9.56-10.06V685" transform="translate(-274 -581)"/><path class="cls-1" d="M405,592.5c0-5.5-4.5-9.5-10-9.5H354c-5.5,0-10,4-10,9.5V601h61Z" transform="translate(-274 -581)"/></svg>
+					</i>
+					<span>Selected works</span></a></li>
+        <li class="nav-about"><a href="#">					
+					<i class="icon">
+						<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="25" height="23" viewBox="0 -5 210 210"><defs><style>.cls-1{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:10px;}</style></defs><title>briefcase</title><path class="cls-1" d="M404,685h69V618.5c0-5.52-4.48-9.5-10-9.5H286c-5.52,0-10,4-10,9.5V685" transform="translate(-274 -581)"/><line class="cls-1" x1="2" y1="104" x2="72" y2="104"/><rect class="cls-1" x="77" y="94" width="48" height="19" rx="8.06" ry="8.06"/><path class="cls-1" d="M467,685v54.94A10.44,10.44,0,0,1,457,750H292.56c-5.26,0-9.56-4.8-9.56-10.06V685" transform="translate(-274 -581)"/><path class="cls-1" d="M405,592.5c0-5.5-4.5-9.5-10-9.5H354c-5.5,0-10,4-10,9.5V601h61Z" transform="translate(-274 -581)"/></svg>
+					</i><span>About me</span></a>
+				</li>
+									
+        <li class="nav-contact"><a href="#">
+					<i class="icon">
+						<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="25" height="23" viewBox="0 -5 210 210"><defs><style>.cls-1{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:10px;}</style></defs><title>briefcase</title><path class="cls-1" d="M404,685h69V618.5c0-5.52-4.48-9.5-10-9.5H286c-5.52,0-10,4-10,9.5V685" transform="translate(-274 -581)"/><line class="cls-1" x1="2" y1="104" x2="72" y2="104"/><rect class="cls-1" x="77" y="94" width="48" height="19" rx="8.06" ry="8.06"/><path class="cls-1" d="M467,685v54.94A10.44,10.44,0,0,1,457,750H292.56c-5.26,0-9.56-4.8-9.56-10.06V685" transform="translate(-274 -581)"/><path class="cls-1" d="M405,592.5c0-5.5-4.5-9.5-10-9.5H354c-5.5,0-10,4-10,9.5V601h61Z" transform="translate(-274 -581)"/>
+						</svg>
+					</i><span>Contact</span></a>
+				</li>       
+				
+				<!--<li class="nav-contact"><a href="#"><i class="icon svg-mail svg-pen-dims"></i><span>Contact</span></a></li>-->
+				
       </ul>
     </nav>
   </aside>
@@ -83,23 +104,11 @@
 
         <div style="margin-top:40px;" class="masonry-container">  
 
-					<!--<div class="perspective-container perspective-left">
-            <article class="work-item" id="work-item__two"> 
-							<div class="front">
-								<img src="img/iinet.png" style="width: 100%;" />
-								<div class="work-item__content">
-									<p class="work-item__heading">iiNet Plan Page Redesign</p>
-									<p class="subheading">ux / web design &amp; development</p>                          
-								</div>
-							</div>
-							<div class="back"><!-- backface --><!--</div>
-            </article>
-					</div>-->
 					
 					<a href="iinet-plan-pages/">
 						<article class="work-item" id="work-item__two">
 							<div class="work-item__drawings" id="drawings">
-								<img class="illustration" src="img/finn-balloons.png" alt="" />
+								<img class="illustration" src="img/finn-balloons.png" alt="" style="width:100%; max-width: 244px;" />
 								<?php echo file_get_contents("svg/finn.svg"); ?>															
 							</div>
 
@@ -109,11 +118,12 @@
 							</div>
 						</article>
 					</a>
+							
 					
 					<a href="iinet-plan-pages/">
 						<article class="work-item" id="work-item__two">
-							<div class="work-item__drawings" id="drawings"  style="height: 300px;">
-								<img class="illustration" src="img/mobii-manager.png" alt="" style="padding-top: 50px;" />
+							<div class="work-item__drawings" id="drawings" style="height: 300px;">
+								<img class="illustration" src="img/mobii-manager.png" alt="" style="padding-top: 50px; width:100%; max-width: 360px;" />
 								<?php echo file_get_contents("svg/galaxy-phone.svg"); ?>															
 							</div>
 
@@ -127,14 +137,14 @@
 
 					<a href="iinet-plan-pages/">
 						<article class="work-item" id="work-item__two">
-							<div class="work-item__drawings" id="drawings">
-								<img class="illustration" src="img/finn-balloons.png" alt="" />
-								<?php echo file_get_contents("svg/finn.svg"); ?>															
+							<div class="work-item__drawings" id="drawings" style="height: 300px; width:100%; max-width: 360px;">
+								<img class="illustration" src="img/multicomm.png" style="padding-top: 76px;" alt="" />
+								<?php echo file_get_contents("svg/multicomm.svg"); ?>															
 							</div>
 
 							<div class="work-item__content">
-								<p class="work-item__heading">Product Page Redesign</p>
-								<p class="h5 subheading">ux / web design &amp; development</p>
+								<p class="work-item__heading">Multicomm Website</p>
+								<p class="h5 subheading">branding / web design &amp; development</p>
 							</div>
 						</article>
 					</a>
@@ -209,21 +219,7 @@
 
       </section>
       <!-- end selected works --> 
-			
-		
-
-			<div style="position:relative;">
 				
-				<!-- include mobii manager content -->
-				<?php //include_once("inc/_mobii-manager.php") ?>
-
-				<!-- include iinet plan page refresh content -->
-				<?php //include_once("inc/_iinet-plan-pages.php") ?>
-				
-				<!-- include multicomm content -->
-				<?php //include_once("inc/_multicomm.php") ?>
-
-			</div>		
 			
 			<hr>
 			
@@ -242,7 +238,11 @@
           <p>&nbsp;</p>
         </div> 
         <div class="col-lg-3 text-right visible-lg">
-          <img src="img/doug.png" class="img-circle" style="width:90%;">
+							<div id="drawings" style="height: 300px;">
+								<img src="img/doug.png" class="illustration img-circle" style="width:90%; width: 180px;">
+								<?php echo file_get_contents("svg/doug.svg"); ?>															
+							</div>					
+          
         </div>  				
 				
         
