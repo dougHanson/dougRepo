@@ -85,3 +85,9 @@
 					</div>
 	
 				<!-- end iiNet Plan Refreshes -->
+	
+	<!-- include footer --> 	
+	<?php include('../inc/_footer.php'); ?>	
+	
+</body>
+	

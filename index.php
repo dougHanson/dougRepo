@@ -31,7 +31,7 @@
 <div style="position: relative;"> 
       
 <!-- include frames and nav --> 	
-<?php include('inc/_nav.php'); ?>
+<?php include('/inc/_nav.php'); ?>
       
   <!-- body content -->
   <section class="wrapper">
@@ -65,7 +65,7 @@
 
 					
 					<a href="iinet-plan-pages/">
-						<article class="work-item" id="work-item__two">
+						<article class="work-item">
 							<div class="work-item__drawings" id="drawings">
 								<img class="illustration" src="img/finn-balloons.png" alt="" style="width:100%; max-width: 244px;" />
 								<?php echo file_get_contents("svg/finn.svg"); ?>															
@@ -80,7 +80,7 @@
 							
 					
 					<a href="iinet-plan-pages/">
-						<article class="work-item" id="work-item__two">
+						<article class="work-item">
 							<div class="work-item__drawings" id="drawings" style="height: 300px;">
 								<img class="illustration" src="img/mobii-manager.png" alt="" style="padding-top: 50px; width:100%; max-width: 360px;" />
 								<?php echo file_get_contents("svg/galaxy-phone.svg"); ?>															
@@ -95,7 +95,7 @@
 					
 
 					<a href="iinet-plan-pages/">
-						<article class="work-item" id="work-item__two">
+						<article class="work-item">
 							<div class="work-item__drawings" id="drawings" style="height: 300px; width:100%; max-width: 360px;">
 								<img class="illustration" src="img/multicomm.png" style="padding-top: 76px;" alt="" />
 								<?php echo file_get_contents("svg/multicomm.svg"); ?>															
@@ -345,36 +345,7 @@
 	
 <!-- include footer --> 	
 <?php include('inc/_footer.php'); ?>
-	
-	
 
-<!-- jQuery CDN --> 
-<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script> 
-<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script> 
-
-<!-- JS plugins --> 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.min.js"></script>
-
-<!-- build:js --> 
-<script src="js/plugins/classie.js"></script>  
-<script src="js/plugins/jquery.ui.touch-punch.min.js"></script> 
-<script src="js/plugins/owl.carousel.js"></script> 
-<script src="js/plugins/svganimations.js"></script>	
-<script src="js/main.js"></script> 
-<!-- endbuild --> 
-
-<!-- Google Analytics -->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-81920963-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-<!-- end Google Analytics -->
   
 </body>
 </html>

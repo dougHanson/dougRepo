@@ -82,7 +82,7 @@ $(function(){
 
 
 // 3D FLIP ANIMATION FOR WORK ITEMS
-$(function() {	
+/*$(function() {	
 	$(".work-item").click(function(){
 		var id = $(this).attr('id');
 		$(this).toggleClass('flip3d').addClass('hasAnimated');
@@ -99,7 +99,7 @@ $(function() {
 		});		
 
 	});
-});	
+});	*/
 
 
 

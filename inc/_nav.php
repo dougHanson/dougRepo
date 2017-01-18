@@ -12,25 +12,25 @@
       <ul>
         <li class="nav-home"><a href="#">					
 					<i class="icon">
-						<?php //echo file_get_contents("svg/home.svg"); ?>
+						<?php echo file_get_contents("svg/home.svg"); ?>
 					</i><span>Home</span></a>
 				</li>
 				
 				<li class="nav-works"><a href="#">
 					<i class="icon">
-						<?php // echo file_get_contents("svg/briefcase.svg"); ?>
+						<?php echo file_get_contents("svg/briefcase.svg"); ?>
 					</i><span>Selected works</span></a>
 				</li>
 				
         <li class="nav-about"><a href="#">					
 					<i class="icon">
-						<?php //echo file_get_contents("svg/about.svg"); ?>	
+						<?php echo file_get_contents("svg/about.svg"); ?>	
 					</i><span>About me</span></a>
 				</li>
 									
         <li class="nav-contact"><a href="#">
 					<i class="icon">
-						<?php //echo file_get_contents("svg/contact.svg"); ?>
+						<?php echo file_get_contents("svg/contact.svg"); ?>
 					</i><span>Contact</span></a>
 				</li>       
 				
