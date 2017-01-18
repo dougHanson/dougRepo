@@ -41,34 +41,38 @@
   <aside class="vertical-menu">
     <div class="vertical-menu__logo"><a href="/"><img src="img/namelogo.png" /></a></div>
     <nav>
-			<br><br><br>
       <ul>
         <li class="nav-home"><a href="#">					
 					<i class="icon">
-						<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="25" height="23" viewBox="0 -5 210 210"><defs><style>.cls-1{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:10px;}</style></defs><title>briefcase</title><path class="cls-1" d="M404,685h69V618.5c0-5.52-4.48-9.5-10-9.5H286c-5.52,0-10,4-10,9.5V685" transform="translate(-274 -581)"/><line class="cls-1" x1="2" y1="104" x2="72" y2="104"/><rect class="cls-1" x="77" y="94" width="48" height="19" rx="8.06" ry="8.06"/><path class="cls-1" d="M467,685v54.94A10.44,10.44,0,0,1,457,750H292.56c-5.26,0-9.56-4.8-9.56-10.06V685" transform="translate(-274 -581)"/><path class="cls-1" d="M405,592.5c0-5.5-4.5-9.5-10-9.5H354c-5.5,0-10,4-10,9.5V601h61Z" transform="translate(-274 -581)"/></svg>
+						<?php //echo file_get_contents("svg/home.svg"); ?>
 					</i><span>Home</span></a>
 				</li>
+				
 				<li class="nav-works"><a href="#">
 					<i class="icon">
-						<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="25" height="23" viewBox="0 -5 210 210"><defs><style>.cls-1{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:10px;}</style></defs><title>briefcase</title><path class="cls-1" d="M404,685h69V618.5c0-5.52-4.48-9.5-10-9.5H286c-5.52,0-10,4-10,9.5V685" transform="translate(-274 -581)"/><line class="cls-1" x1="2" y1="104" x2="72" y2="104"/><rect class="cls-1" x="77" y="94" width="48" height="19" rx="8.06" ry="8.06"/><path class="cls-1" d="M467,685v54.94A10.44,10.44,0,0,1,457,750H292.56c-5.26,0-9.56-4.8-9.56-10.06V685" transform="translate(-274 -581)"/><path class="cls-1" d="M405,592.5c0-5.5-4.5-9.5-10-9.5H354c-5.5,0-10,4-10,9.5V601h61Z" transform="translate(-274 -581)"/></svg>
-					</i>
-					<span>Selected works</span></a></li>
+						<?php // echo file_get_contents("svg/briefcase.svg"); ?>
+					</i><span>Selected works</span></a>
+				</li>
+				
         <li class="nav-about"><a href="#">					
 					<i class="icon">
-						<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="25" height="23" viewBox="0 -5 210 210"><defs><style>.cls-1{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:10px;}</style></defs><title>briefcase</title><path class="cls-1" d="M404,685h69V618.5c0-5.52-4.48-9.5-10-9.5H286c-5.52,0-10,4-10,9.5V685" transform="translate(-274 -581)"/><line class="cls-1" x1="2" y1="104" x2="72" y2="104"/><rect class="cls-1" x="77" y="94" width="48" height="19" rx="8.06" ry="8.06"/><path class="cls-1" d="M467,685v54.94A10.44,10.44,0,0,1,457,750H292.56c-5.26,0-9.56-4.8-9.56-10.06V685" transform="translate(-274 -581)"/><path class="cls-1" d="M405,592.5c0-5.5-4.5-9.5-10-9.5H354c-5.5,0-10,4-10,9.5V601h61Z" transform="translate(-274 -581)"/></svg>
+						<?php //echo file_get_contents("svg/about.svg"); ?>	
 					</i><span>About me</span></a>
 				</li>
 									
         <li class="nav-contact"><a href="#">
 					<i class="icon">
-						<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="25" height="23" viewBox="0 -5 210 210"><defs><style>.cls-1{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:10px;}</style></defs><title>briefcase</title><path class="cls-1" d="M404,685h69V618.5c0-5.52-4.48-9.5-10-9.5H286c-5.52,0-10,4-10,9.5V685" transform="translate(-274 -581)"/><line class="cls-1" x1="2" y1="104" x2="72" y2="104"/><rect class="cls-1" x="77" y="94" width="48" height="19" rx="8.06" ry="8.06"/><path class="cls-1" d="M467,685v54.94A10.44,10.44,0,0,1,457,750H292.56c-5.26,0-9.56-4.8-9.56-10.06V685" transform="translate(-274 -581)"/><path class="cls-1" d="M405,592.5c0-5.5-4.5-9.5-10-9.5H354c-5.5,0-10,4-10,9.5V601h61Z" transform="translate(-274 -581)"/>
-						</svg>
+						<?php //echo file_get_contents("svg/contact.svg"); ?>
 					</i><span>Contact</span></a>
 				</li>       
 				
-				<!--<li class="nav-contact"><a href="#"><i class="icon svg-mail svg-pen-dims"></i><span>Contact</span></a></li>-->
-				
+				<!--<li class="nav-contact"><a href="#"><i class="icon svg-mail svg-pen-dims"></i><span>Contact</span></a></li>-->				
       </ul>
+			
+			<br><br>
+			<small style="font-size: .85em; font-weight: 100; text-transform: none;">My social links</small>
+			
+			
     </nav>
   </aside>
   <!-- end left hand nav include --> 
@@ -288,7 +292,7 @@
           </table> 
 					
 					<div class="row">
-						<div class="col-sm-12 margin-top-30">
+						<div class="col-sm-12 margin-top-30 ">
 							<a href="doc/Doug-Hanson-Resume.pdf" target="_blank" class="button margin-right-10">Download Resume (80kB)</a> 
 							<!--a class="button button__primary nav-contact">Get in touch</a>          -->
 						</div>	
@@ -311,7 +315,7 @@
 			//   Contact
 			------------------------------------------ -->		
       <section class="contact-me container pad-lr-20">
-        <div class="row">
+        <div class="col-lg-10 col-lg-offset-1 row">
         
           <p class="h3 subheading text-center margin-0">get in touch</p>
           <h2 class="text-center text-uppercase">Contact</h2>
@@ -351,8 +355,8 @@
               </span>  
             </div>                            
             
-            <div class="col-sm-12">
-              <button class="button button__primary text-right" name="submitted">Send message</button>
+            <div class="col-sm-12 text-center">
+              <button class="button button__primary text-right" name="submitted"  style="width: 100%;">Send message</button>
             </div> 
           </form> 
             
