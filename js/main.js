@@ -7,6 +7,27 @@ $(document).ready(function() {
 });
 
 
+
+// FADE ON SCROLL
+  var fadeStart = 150;
+  var fadeUntil = 770;
+	var fadingClass = $('.fadeOut');
+
+$(window).bind('scroll', function(){
+	var offset = $(document).scrollTop();
+	var opacity = 0;	
+  if ( offset<=fadeStart ) {
+  	opacity=1;
+  } 
+	else if ( offset<=fadeUntil ) {
+		opacity = 1-(offset-fadeStart)/(fadeUntil);
+	}
+    fadingClass.css('opacity',opacity);
+		fadingClass.css('top',offset*0.4); 
+});
+
+
+
 // PARALLAX SCROLLING
 (function($) {
     
@@ -42,9 +63,8 @@ $(document).ready(function() {
 }(jQuery));
 
 $('.parallax-bg').parallax({
-  speed : 0.6
+  speed : 0.4
 });
-
 
 
 // MASONRY GRID LAYOUT (remove if using css columns instead)

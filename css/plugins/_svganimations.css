@@ -32,6 +32,10 @@ svg {
 	opacity: 1;
 }
 
+.work-item:hover .illustration {
+	opacity: 1;
+}
+
 .line-drawing {
 	position: absolute; 
 	top: 0; 
@@ -42,5 +46,10 @@ svg {
 	fill: none;
 	stroke: #aaa;
 	stroke-width: 1;
+}
+
+.work-item:hover .line-drawing,
+.profile-pic:hover .line-drawing {
+	opacity: 0;
 }
 

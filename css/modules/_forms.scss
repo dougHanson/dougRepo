@@ -62,7 +62,7 @@ label,
 legend {
   display: block;
   margin-bottom: .5rem;
-  font-weight: 600; 
+  font-weight: 300; 
 }
 
 fieldset {
@@ -115,6 +115,7 @@ label > .label-body {
 	top: 10px;
 	left: 10px;
 	padding: 1em 0 0 0.5em;
+	display: none;
 }
 
 .input__field {
@@ -123,9 +124,9 @@ label > .label-body {
 	float: right;
 	-webkit-appearance: none; /* for box shadows to show on iOS */
 	background: transparent;
-	padding: 1.5em 1em 0.25em 4em;
+	padding: 1.5em 1em 0.25em 2em;
 	width: 100%;
-	color: $brand-color-2;
+	color: $grey-2;
 }
 
 textarea.input__field {
@@ -146,7 +147,7 @@ textarea.input__field {
 	position: absolute;
 	width: 100%;
 	text-align: left;
-	padding-left: 2.5em;
+	padding-left: 2em;
 	pointer-events: none;
 }
 
@@ -180,6 +181,7 @@ textarea.input__field {
 @keyframes anim-form {
 	100% {
 		color: $brand-primary;
+		font-weight: 600;
 		-webkit-transform: translate3d(0, -.6em, 0) scale3d(0.85, 0.85, 1);
 		transform: translate3d(0, -.25em, 0) scale3d(0.75, 0.75, 1);
 	}

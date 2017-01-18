@@ -15,15 +15,15 @@ input[type="reset"],
 input[type="button"] {
   min-width: 10em;
   min-height: calc(2.75em + 6px);
-  line-height: 3em;
-  border: 2px solid $brand-primary;
-  color: $brand-primary;
+  line-height: 3.5em;
+  border: 2px solid $brand-color-2;
+  color: $brand-color-2;
   cursor: pointer;
   display: inline-block;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  letter-spacing: 1.4px;
+  letter-spacing: 1.5px;
   margin: 0.5rem 0;
   padding: 0 1.5em;	
   background: #fff;
@@ -66,8 +66,8 @@ input[type="button"] {
 input.button__primary[type="submit"], 
 input.button__primary[type="reset"], 
 input.button__primary[type="button"] {
-  background-color: $brand-primary;
-  border: 2px solid $brand-primary;
+  background-color: $brand-color-2;
+  border: 2px solid $brand-color-2;
   color: #fff; 
 }
 
@@ -88,8 +88,8 @@ button:hover,
 input[type="submit"]:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover {
-  background: $brand-primary;
-  border-color: $brand-primary;
+  background: $brand-color-2;
+  border-color: $brand-color-2;
   color: #fff;
   text-decoration: none;
 }
@@ -103,8 +103,8 @@ input.button__primary[type="button"].is-selected,
 input.button__primary[type="submit"]:hover, 
 input.button__primary[type="reset"]:hover, 
 input.button__primary[type="button"]:hover {
-  background: $brand-color-2; 
-  border: 2px solid $brand-color-2;
+  background: $brand-color-3; 
+  border: 2px solid $brand-color-3;
   color: #fff;
 }
 

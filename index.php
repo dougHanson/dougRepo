@@ -30,52 +30,8 @@
 
 <div style="position: relative;"> 
       
-  <!-- frame borders -->
-  <div class="frame frame__top"></div>
-  <div class="frame frame__bottom"></div>
-  <div class="frame frame__left"></div>
-  <div class="frame frame__right"></div>
-  <!-- end frame borders --> 
-      
-  <!-- left hand nav include -->
-  <aside class="vertical-menu">
-    <div class="vertical-menu__logo"><a href="/"><img src="img/namelogo.png" /></a></div>
-    <nav>
-      <ul>
-        <li class="nav-home"><a href="#">					
-					<i class="icon">
-						<?php //echo file_get_contents("svg/home.svg"); ?>
-					</i><span>Home</span></a>
-				</li>
-				
-				<li class="nav-works"><a href="#">
-					<i class="icon">
-						<?php // echo file_get_contents("svg/briefcase.svg"); ?>
-					</i><span>Selected works</span></a>
-				</li>
-				
-        <li class="nav-about"><a href="#">					
-					<i class="icon">
-						<?php //echo file_get_contents("svg/about.svg"); ?>	
-					</i><span>About me</span></a>
-				</li>
-									
-        <li class="nav-contact"><a href="#">
-					<i class="icon">
-						<?php //echo file_get_contents("svg/contact.svg"); ?>
-					</i><span>Contact</span></a>
-				</li>       
-				
-				<!--<li class="nav-contact"><a href="#"><i class="icon svg-mail svg-pen-dims"></i><span>Contact</span></a></li>-->				
-      </ul>
-			
-			<br><br>
-			<small style="font-size: .85em; font-weight: 100; text-transform: none;">My social links</small>
-			
-			
-    </nav>
-  </aside>
-  <!-- end left hand nav include --> 
+<!-- include frames and nav --> 	
+<?php include('inc/_nav.php'); ?>
       
   <!-- body content -->
   <section class="wrapper">
@@ -85,11 +41,10 @@
 			//   Intro / hero content
 			------------------------------------------ -->		
       <div class="hero-content parallax-bg">
-        <div class="hero-content__bg">  <!-- #TODO - make this a class -->
+        <div class="hero-content__bg">
 <!--          <img src="img/logo.png" alt="" />-->
-          <h1 class="hero-heading"><span>Doug Hanson</span></h1>
-          <h3 class="subheading subheading__hero">Web Designer &amp; Front-end Developer based in Perth, Western Australia</h3>
-         <!-- <img src="img/three-stars.png" alt="" /> -->
+          <h1 class="hero-heading fadeOut"><span>Doug Hanson</span></h1>
+          <h3 class="subheading subheading__hero fadeOut">Web Designer &amp; Front-end Developer based in Perth, Western Australia</h3>
         </div>
       </div>
       <!-- end hero content --> 
@@ -103,7 +58,7 @@
       <section class="selected-works container pad-lr-20">
 				
         <p class="h3 subheading text-center margin-0">my portfolio</p>
-        <h2 class="text-center text-uppercase">Selected works</h2>				
+        <h2 class="text-center">Selected works</h2>				
         <div class="text-center"><img src="img/arrow.png" /></div>     
 
         <div style="margin-top:40px;" class="masonry-container">  
@@ -153,27 +108,6 @@
 						</article>
 					</a>
 										
-
-					<!--<a href="iinet-plan-pages/">
-            <article class="work-item" id="work-item__one"> 
-							<img src="img/mobii-manager.png" style="width: 100%;" class="img-rounded"  />
-							<div class="work-item__content">
-								<p class="work-item__heading">Mobii Manager</p>
-								<p class="h5 subheading">mobile app design</p> 
-							</div> 
-            </article>
-					</a>					
-
-					<a href="iinet-plan-pages/">
-            <article class="work-item" id="work-item__three"> 
-								<img src="img/multicomm.png" style="width: 100%;" class="img-rounded"  />
-								<div class="work-item__content">
-									<p class="work-item__heading">Multicomm Website</p>
-									<p class="h5 subheading">branding / ux / web design &amp; development</p> 
-								</div> 
-            </article>	
-					</a>-->
-			
 										
 				 <!--			
 					
@@ -234,7 +168,7 @@
 			------------------------------------------ -->		
       <section class="about container">
         <div class="h3 subheading text-center margin-0">roles and experience</div>
-        <h2 class="text-center text-uppercase">About me</h2>
+        <h2 class="text-center">About me</h2>
         <div class="text-center"><img src="img/arrow.png" /></div>
         <div class="col-lg-9">
 					<br>
@@ -242,22 +176,18 @@
           <p>&nbsp;</p>
         </div> 
         <div class="col-lg-3 text-right visible-lg">
-							<div id="drawings" style="height: 300px;">
-								<img src="img/doug.png" class="illustration img-circle" style="width:90%; width: 180px;">
+							<div id="drawings">
+								<img src="img/doug.png" class="illustration profile-pic img-circle" style="width:90%; width: 180px;">
 								<?php echo file_get_contents("svg/doug.svg"); ?>															
 							</div>					
           
         </div>  				
 				
         
-    
- 
- 
 
-  
 
         <div class="col-lg-12">        
-          <h4 style="margin-top: -40px;">Experience</h4>   
+          <h4>Experience</h4>   
           <table class="full-width">
             <tbody>
               <tr>
@@ -318,7 +248,7 @@
         <div class="col-lg-10 col-lg-offset-1 row">
         
           <p class="h3 subheading text-center margin-0">get in touch</p>
-          <h2 class="text-center text-uppercase">Contact</h2>
+          <h2 class="text-center">Contact</h2>
           <div class="text-center"><img src="img/arrow.png" /></div>    
           
           <!-- begin mailform -->
@@ -356,7 +286,7 @@
             </div>                            
             
             <div class="col-sm-12 text-center">
-              <button class="button button__primary text-right" name="submitted"  style="width: 100%;">Send message</button>
+              <button class="button button__primary text-right" name="submitted">Send message</button>
             </div> 
           </form> 
             

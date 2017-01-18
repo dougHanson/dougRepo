@@ -75,7 +75,8 @@
 			progress = this.current_frame/this.total_frames;
 		if (progress > 1) {
 			window.cancelAnimFrame(this.handle);
-			//this.showImage();  // ## shows the full image once svg path is completely shown
+			this.showImage();  // ## shows the full image once svg path is completely shown
+			//this.showImage();
 		} else {
 			this.current_frame++;
 			for(var j=0, len = this.path.length; j<len;j++){
@@ -86,6 +87,7 @@
 	};
 
 	SVGEl.prototype.showImage = function() {
+		alert(this.handle);
 		classie.add( this.image, 'show' );
 		classie.add( this.el, 'hide' );
 	};

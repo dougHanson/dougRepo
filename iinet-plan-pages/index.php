@@ -29,27 +29,8 @@
 
 <body>					
 
-  <!-- frame borders -->
-  <div class="frame frame__top"></div>
-  <div class="frame frame__bottom"></div>
-  <div class="frame frame__left"></div>
-  <div class="frame frame__right"></div>
-  <!-- end frame borders --> 
-      
-  <!-- left hand nav include -->
-  <aside class="vertical-menu">
-    <div class="vertical-menu__logo"><a href="/"><img src="../img/namelogo.png" /></a></div>
-    <nav>
-			<br><br><br>
-      <ul>
-        <li class="nav-home"><a href="#"><i class="icon svg-pen svg-pen-dims"></i><span>Home</span></a></li>
-				<li class="nav-works"><a href="#"><i class="icon svg-lab svg-lab-dims"></i><span>Selected works</span></a></li>
-        <li class="nav-about"><a href="#"><i class="icon svg-user svg-user-dims"></i><span>About me</span></a></li>
-        <li class="nav-contact"><a href="#"><i class="icon svg-mail svg-pen-dims"></i><span>Contact</span></a></li>        
-      </ul>
-    </nav>
-  </aside>
-  <!-- end left hand nav include --> 
+<!-- include frames and nav --> 	
+<?php include('../inc/_nav.php'); ?>
 
 					<!-- iiNet plan refreshes -->
 					<div class="wrapper">		
