@@ -25,8 +25,8 @@ $grey-e:                    #eee !default;
 $grey-border:               #e4e4e4 !default;
 $grey-background:           #fafafa !default;
 
-$brand-primary:             #819DDD !default;  //#65a4cd  #80A8CC  
-$brand-color-2:             #F4965C !default;
+$brand-primary:             #31C7D0 !default;  //#65a4cd  #80A8CC  
+$brand-color-2:             #829DDD !default;
 $brand-color-3:             #d5c3aa !default;
 $brand-color-4:             #eae2d6 !default;
 
@@ -48,7 +48,7 @@ $body-color:                 $grey-6 !default;
 //   Links
 /* ------------------------------------- */
 
-$link-color:                 $brand-primary !default;
+$link-color:                 $brand-color-3 !default;
 $link-hover-color:           darken($link-color, 15%) !default;
 $link-hover-decoration:      underline !default;
 

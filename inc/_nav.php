@@ -39,6 +39,8 @@
 			
 			<br><br>
 			<small style="font-size: .85em; font-weight: 100; text-transform: none;">My social links</small>
+
+	
 			
 			
     </nav>
