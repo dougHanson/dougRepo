@@ -87,10 +87,12 @@
 /* ------------------------------------- */
 
 .white                { color: #fff !important; }
+.grey-6								{ color: $grey-6; }
 .full-width           { width: 100%; }
+
 hr {
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 2em;
+  margin-bottom: 2em;
   border: 0;
   border-top: 1px solid $grey-border;
 }

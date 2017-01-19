@@ -144,22 +144,22 @@ $(function(){
 var scrollSpeed = 1200;
 $(".nav-about").click(function() {
     $('html, body').animate({
-        scrollTop: $(".about").offset().top-20
+        scrollTop: $(".about").offset().top-50
     }, scrollSpeed);
 });
 $(".nav-contact").click(function() {
     $('html, body').animate({
-        scrollTop: $(".contact-me").offset().top-20
+        scrollTop: $(".contact-me").offset().top-50
     }, scrollSpeed);
 });
 $(".nav-home").click(function() {
     $('html, body').animate({
-        scrollTop: $(".hero-content").offset().top-20
+        scrollTop: $(".hero-content").offset().top
     }, scrollSpeed);
 });
 $(".nav-works").click(function() {
     $('html, body').animate({
-        scrollTop: $(".selected-works").offset().top-20
+        scrollTop: $(".selected-works").offset().top-50
     }, scrollSpeed);
 });
 	

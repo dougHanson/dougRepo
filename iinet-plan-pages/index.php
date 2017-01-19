@@ -54,7 +54,7 @@
 									<span class="brand-colour" style="background: #0090ab;"> </span>
 									<span class="brand-colour" style="background: #808080;"> </span>
 									<span class="brand-colour" style="background: #fafafa;"> </span>									
-									<h1 class="h5 font-bold text-uppercase">iiNet Plan Page Redesign</h3>
+									<h1 class="h4 font-bold grey-6 text-uppercase">iiNet Plan Page Redesign</h3>
 									
 									<p>When I began working at iiNet, the core product pages presented a complex user experience, were not responsive, and no longer aligned with the brand. Each product page also had a unique appearance and layout, confusing potential customers and customer service reps.</p>
 									<p>This presented an opportunity to improve the user experience, by simplifying these pages and unifying them with each other and the brand. The new responsive pages reduce cognitive load by breaking down the plan customisation into intuitive steps.</p>
