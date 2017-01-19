@@ -10,8 +10,9 @@ $(document).ready(function() {
 
 // FADE CONTENT ON SCROLL
   var fadeStart = 150;
-  var fadeUntil = 770;
+  var fadeUntil = 700;
 	var fadingClass = $('.fadeOut');
+	var fadingFastClass = $('.fadeOut--fast');
 
 $(window).bind('scroll', function(){
 	var offset = $(document).scrollTop();
@@ -24,6 +25,8 @@ $(window).bind('scroll', function(){
 	}
     fadingClass.css('opacity',opacity);
 		fadingClass.css('top',offset*0.4); 
+    fadingFastClass.css('opacity',opacity);
+		fadingFastClass.css('top',offset*0.4); 	
 });
 
 
