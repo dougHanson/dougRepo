@@ -237,7 +237,7 @@ width: 24px;
         <div style="margin-top:40px;" class="masonry-container">  
 
 					
-					<a href="iinet-plan-pages/">
+					<a href="iinet-plan-pages.php">
 						<article class="work-item">
 							<div class="work-item__drawings" id="drawings">
 								<img class="illustration" src="img/finn-balloons.png" alt="" style="width:100%; max-width: 244px;" />
@@ -252,7 +252,7 @@ width: 24px;
 					</a>
 							
 					
-					<a href="iinet-plan-pages/">
+					<a href="mobii-manager.php">
 						<article class="work-item">
 							<div class="work-item__drawings" id="drawings" style="height: 300px;">
 								<img class="illustration" src="img/mobii-manager.png" alt="" style="padding-top: 50px; width:100%; max-width: 360px;" />
