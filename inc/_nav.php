@@ -38,8 +38,39 @@
       </ul>
 			
 			<br><br>
-			<small style="font-size: .85em; font-weight: 100; text-transform: none;">My social links</small>
-
+			<p class="social-icon__copy">My social links</p>
+			
+			<a href="//linkedin.com/doug83" target="_blank">
+				<div class="social-icon">
+					<div class="social-icon__bg"></div>
+					<div class="social-icon__svg">
+						<?php echo file_get_contents("svg/linkedin.svg"); ?>
+					</div>
+				</div>
+			</a>
+			
+			<div class="social-icon">
+				<div class="social-icon__bg"></div>
+				<div class="social-icon__svg">
+					<?php echo file_get_contents("svg/facebook.svg"); ?>
+				</div>
+			</div>
+			
+			<div class="social-icon">
+				<div class="social-icon__bg"></div>
+				<div class="social-icon__svg">
+					<?php echo file_get_contents("svg/twitter.svg"); ?>
+				</div>
+			</div>
+			
+			<div class="social-icon">
+				<div class="social-icon__bg"></div>
+				<div class="social-icon__svg">
+					<?php echo file_get_contents("svg/pinterest.svg"); ?>
+				</div>
+			</div>			
+			
+			
 	
 			
 			

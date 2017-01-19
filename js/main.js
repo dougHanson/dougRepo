@@ -8,7 +8,7 @@ $(document).ready(function() {
 
 
 
-// FADE ON SCROLL
+// FADE CONTENT ON SCROLL
   var fadeStart = 150;
   var fadeUntil = 770;
 	var fadingClass = $('.fadeOut');

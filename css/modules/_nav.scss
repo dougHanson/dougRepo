@@ -134,6 +134,9 @@ nav li::after {
   nav li span {
     display: none;
   }  
+	nav li::after {
+		height: 0px;
+	}	
 }
 
 nav a {
@@ -165,3 +168,50 @@ nav a:focus {
     padding: 1em 0.2em;
   } 
 } 
+
+
+/* ----- social links ----- */
+
+.social-icon { 
+	position: relative; 
+	float: left; 
+	padding-right: 2px; 
+	margin-top: 6px
+}
+
+.social-icon__bg {
+	height: 40px; 
+	width: 40px; 
+	background: #fff; 
+	opacity: 0.3; 
+	padding: 10px;
+}
+
+.social-icon:hover .social-icon__bg {
+	opacity: 0.5;
+}
+
+.social-icon__svg {
+	position: absolute; 
+	top: 10px; 
+	left: 10px;
+}
+
+.social-icon__copy {
+	font-size: .85em; 
+	font-weight: 100; 
+	text-transform: none; 
+	padding-bottom: 16px;
+}
+
+@media (max-width: 767px) {
+  .social-icon__copy,
+	.social-icon {
+    display: none;
+  }  
+}
+
+
+
+
+
