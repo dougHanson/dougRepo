@@ -76,7 +76,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#829ddd', end
 @media (max-width: 479px) {
   .hero-heading span:before,
   .hero-heading span:after {
-	width: 0px;
+		width: 0px;
   }
 } 
 
@@ -99,7 +99,7 @@ nav {
     width: 100%;
     float: left;
     display: inline-block;
-    margin: 0 auto;
+    text-align: right;
   }
 }
 
@@ -121,25 +121,39 @@ nav li::after {
 
 @media (max-width: 991px) {
   nav ul { 
-    text-align: center;
-    margin-left: 2.5em;
+    margin-left: 5em;
+		margin-right: 10%; 
   }
   nav li {
     display: inline-block;
     margin-left: 0px;
-    margin-right: 0px; 
+		margin-right: 0px;
   }  
+	nav li::after {
+		height: 0px;
+	}	
+	.nav-home	{ display: none; } //On mobile devices the logo can be used to nav home		
 }
 @media (max-width: 767px) {
   nav li span {
     display: none;
   }  
-	nav li::after {
-		height: 0px;
-	}	
-}
+  nav ul { 
+    margin-left: 10em;
+		margin-right: 15%; 
+		text-align: right;
+  }
 
-nav a {
+}
+@media (max-width: 479px) {
+  nav ul { 
+		margin-left: 1em;
+		margin-right: 1%; 
+  } 
+
+} 
+
+.nav-link {
   color: #fff;
   width: 100%;
   height: 100%;
@@ -147,25 +161,25 @@ nav a {
   display: block;
   transition: all 0.2s;
 }
-nav a:hover,
-nav a:focus {
+.nav-link:hover,
+.nav-link:focus {
   background-color: rgba(255,255,255,0.10);
   color: #fff;
 }
 @media (max-width: 991px) {
-  nav a {
+  .nav-link {
     width: auto;
     padding: 1em 0.8em;
   } 
 }
 @media (max-width: 767px) {
-  nav a {
-    padding: 1em 1.5em; 
+  .nav-link {
+    padding: 1em 1.6em; 
   }  
 }
 @media (max-width: 479px) {
-  nav a {
-    padding: 1em 0.2em;
+  .nav-link {
+    padding: 1em 0.6em;
   } 
 } 
 
@@ -176,7 +190,9 @@ nav a:focus {
 	position: relative; 
 	float: left; 
 	padding-right: 2px; 
-	margin-top: 6px
+	margin-top: 6px;
+	display: inline-block;
+		
 }
 
 .social-icon__bg {
@@ -185,23 +201,26 @@ nav a:focus {
 	background: #fff; 
 	opacity: 0.3; 
 	padding: 10px;
+	transition: all 0.25s;
 }
 
 .social-icon:hover .social-icon__bg {
 	opacity: 0.5;
+	transition: all 0.25s;
 }
 
 .social-icon__svg {
 	position: absolute; 
 	top: 10px; 
 	left: 10px;
+
 }
 
 .social-icon__copy {
-	font-size: .85em; 
+	font-size: 1em; 
 	font-weight: 100; 
+	color: #fff;
 	text-transform: none; 
-	padding-bottom: 16px;
 }
 
 @media (max-width: 767px) {

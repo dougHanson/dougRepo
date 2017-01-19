@@ -177,8 +177,8 @@
         </div> 
         <div class="col-lg-3 text-right visible-lg">
 							<div id="drawings">
-								<img src="img/doug.png" class="illustration profile-pic img-circle" style="width:90%; width: 180px;">
-								<?php echo file_get_contents("svg/doug.svg"); ?>															
+								<img src="img/doug.png" class="profile-pic img-circle" style="width:90%; width: 180px;">
+								<?php //echo file_get_contents("svg/doug.svg"); ?>															
 							</div>					
           
         </div>  				
@@ -223,8 +223,7 @@
 					
 					<div class="row">
 						<div class="col-sm-12 margin-top-30 ">
-							<a href="doc/Doug-Hanson-Resume.pdf" target="_blank" class="button margin-right-10">Download Resume (80kB)</a> 
-							<!--a class="button button__primary nav-contact">Get in touch</a>          -->
+							<a href="doc/Doug-Hanson-Resume.pdf" target="_blank" class="button margin-right-10">Download Resume` (80kB)</a> 
 						</div>	
 					</div>
 					
