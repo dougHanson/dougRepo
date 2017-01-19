@@ -202,7 +202,7 @@ width: 24px;
           <h1 class="hero-heading fadeOut"><span>Doug Hanson</span></h1>
           <h3 class="subheading subheading__hero fadeOut">Web Designer &amp; Front-end Developer based in Perth, Western Australia</h3>
         
-					<div class="mouse_scroll fadeOut--fast visible-lg">
+					<!--<div class="mouse_scroll fadeOut--fast visible-lg">
 						<div class="mouse">
 							<div class="wheel"></div>
 						</div>
@@ -211,7 +211,7 @@ width: 24px;
 							<span class="m_scroll_arrows doi"></span>
 							<span class="m_scroll_arrows trei"></span>
 						</div>
-					</div>				
+					</div>	-->			
 				
 				
 				</div>

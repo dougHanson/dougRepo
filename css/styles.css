@@ -999,6 +999,9 @@ section {
     padding-top: 22vh;
     height: 70vh; } }
 
+.selected-works {
+  z-index: 1; }
+
 /* *************************************
 //   FOOTER  [layout/_footer.scss]
 //   common styles for the global footer
@@ -1391,7 +1394,7 @@ nav li::after {
   color: #fff;
   text-transform: none; }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .social-icon__copy,
   .social-icon {
     display: none; } }
@@ -1696,7 +1699,7 @@ h6, .h6 {
 /* ************************************* */
 .icon {
   display: inline-block;
-  margin: 1px 6px -15px 0; }
+  margin: 1px 10px -15px 0; }
 
 .icon__facebook {
   background-position: -100px -150px; }

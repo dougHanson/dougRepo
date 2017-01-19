@@ -1,0 +1,24 @@
+gulp clean & gulp in general
+
+contact form functionality
+
+footer styling and content
+
+widen perth bg image and compress
+
+scroll down image
+
+work items on mobile
+
+
+
+
+case studies
+------------
+
+content
+
+fix includes
+
+ability to flick to next case study with codrops preview, or back to grid (vigor style)
+
