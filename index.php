@@ -16,6 +16,7 @@
 	<link rel="stylesheet" href="css/styles.css" media="all">
 	<link rel="stylesheet" type="text/css" href="css/plugins/_svganimations.css" />	
 	<link rel="stylesheet" type="text/css" href="css/plugins/_progress-bar.css" />		
+	<link rel="stylesheet" type="text/css" href="css/plugins/_arrow-navigation.css" />			
 	<!-- endbuild -->
 
 	<style type="text/css">

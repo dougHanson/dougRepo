@@ -14,6 +14,8 @@
 	
 	<!-- build:css -->
 	<link rel="stylesheet" href="css/styles.css" media="all">
+	<link rel="stylesheet" type="text/css" href="css/plugins/_progress-bar.css" />		
+	<link rel="stylesheet" type="text/css" href="css/plugins/_arrow-navigation.css" />			
 	<!-- endbuild -->
 
 </head>
@@ -35,7 +37,7 @@
 			</div>
 
 
-			<div class="container">
+			<div class="container" style="position: relative; overflow-x: hidden; padding-bottom: 100px;">
 
 				<!-- content -->
 
@@ -51,7 +53,7 @@
 					<p>When I began working at iiNet, the core product pages presented a complex user experience, were not responsive, and no longer aligned with the brand. Each product page also had a unique appearance and layout, confusing potential customers and customer service reps.</p>
 					<p>This presented an opportunity to improve the user experience, by simplifying these pages and unifying them with each other and the brand. The new responsive pages reduce cognitive load by breaking down the plan customisation into intuitive steps.</p>
 					<p>Both conversion and bounce rates improved once the new pages were released.</p>
-					<p class="margin-bottom-40"><!-- --></p>
+					<p class="margin-bottom-40"><!-- --></p>					
 				</div>
 
 				<div class="col-sm-2 col-sm-offset-1 margin-top-20">
@@ -71,7 +73,39 @@
 					<p class="margin-top-0"><a href="//iinet.net.au/internet-products/broadband/adsl/" target="_blank">www.iinet.net.au</a></p>
 				</div>
 
-
+				
+				<!-- svg paths for arrows #TODO move into svg files--> 
+				<div class="svg-wrap">
+					<svg width="64" height="64" viewBox="0 0 64 64">
+						<path id="arrow-left-1" d="M46.077 55.738c0.858 0.867 0.858 2.266 0 3.133s-2.243 0.867-3.101 0l-25.056-25.302c-0.858-0.867-0.858-2.269 0-3.133l25.056-25.306c0.858-0.867 2.243-0.867 3.101 0s0.858 2.266 0 3.133l-22.848 23.738 22.848 23.738z" />
+					</svg>
+					<svg width="64" height="64" viewBox="0 0 64 64">
+						<path id="arrow-right-1" d="M17.919 55.738c-0.858 0.867-0.858 2.266 0 3.133s2.243 0.867 3.101 0l25.056-25.302c0.858-0.867 0.858-2.269 0-3.133l-25.056-25.306c-0.858-0.867-2.243-0.867-3.101 0s-0.858 2.266 0 3.133l22.848 23.738-22.848 23.738z" />
+					</svg>
+				</div>
+				
+				<!-- arrow navigation -->
+				<section>
+					<div class="nav-slide">
+						<a class="prev" href="mobii-manager.php">
+							<span class="icon-wrap"><svg class="icon" width="32" height="32" viewBox="0 0 64 64"><use xlink:href="#arrow-left-1"></svg></span>
+							<div>
+								<h3><span>previous project</span>Multicomm Website</h3>
+								<img src="img/1.png" alt="Prev thumb"/>
+							</div>
+						</a>
+						<a class="next" href="mobii-manager.php">
+							<span class="icon-wrap"><svg class="icon" width="32" height="32" viewBox="0 0 64 64"><use xlink:href="#arrow-right-1"></svg></span>
+							<div>
+								<h3><span>next project</span>Mobii Manager</h3>
+								<img src="img/2.png" alt="Next thumb"/>
+							</div>
+						</a>
+					</div>
+				</section>
+	
+				
+				
 			</div>
 		</div>
 	</div>	
