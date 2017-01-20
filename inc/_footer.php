@@ -1,9 +1,40 @@
-<footer style="background: url('img/aside.png'); background-size: cover; height: 170px;">
-	<div class="container">
-		<a href="http://facebook.com/doug83"><i class="icon icon__facebook"></i></a>
-		<a href="http://twitter.com/doug83"><i class="icon icon__twitter"></i></a>
-		<a href="https://au.linkedin.com/in/doug83"><i class="icon icon__linkedin"></i></a>              
+<footer class="text-center" style="background: url('img/footer.png') fixed no-repeat; background-position: bottom; height: 180px;">
+	
+	
+	<div class="wrapper">		
+		<div class="wrapper__outer">	
+			<div class="container text-center">
+					<a class="social-icon" href="//www.linkedin.com/in/doug83/" target="_blank">
+						<div class="social-icon__bg"></div>
+						<div class="social-icon__svg">
+							<?php echo file_get_contents("svg/linkedin.svg"); ?>
+						</div>
+					</a>
+
+					<a class="social-icon" href="//facebook.com/doug83" target="_blank">
+						<div class="social-icon__bg"></div>
+						<div class="social-icon__svg">
+							<?php echo file_get_contents("svg/facebook.svg"); ?>
+						</div>
+					</a>
+
+					<a class="social-icon" href="//twitter.com/doug83" target="_blank">
+						<div class="social-icon__bg"></div>
+						<div class="social-icon__svg">
+							<?php echo file_get_contents("svg/twitter.svg"); ?>
+						</div>
+					</a>
+
+					<a class="social-icon" href="//au.pinterest.com/dhanson1087/" target="_blank">
+						<div class="social-icon__bg"></div>
+						<div class="social-icon__svg">
+							<?php echo file_get_contents("svg/pinterest.svg"); ?>
+						</div>
+					</a>         
+			</div>
+		</div>
 	</div>
+	
 </footer>
 
 
@@ -31,7 +62,6 @@
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-81920963-1', 'auto');
-  ga('send', 'pageview');
-
+  ga('send', 'pageview');	
 </script>
 <!-- end Google Analytics -->

@@ -16,14 +16,6 @@
 	<link rel="stylesheet" href="css/styles.css" media="all">
 	<!-- endbuild -->
 
-	<style type="text/css">
-
-		hr { padding: 20px 0; width: 85%; }
-		.wrapper__outer { background: #f3f3f3; }
-
-
-	</style>
-
 </head>
 
 
@@ -32,59 +24,58 @@
 <!-- include frames and nav --> 	
 <?php include('inc/_nav.php'); ?>
 
-					<!-- iiNet plan refreshes -->
-					<div class="wrapper">		
-						<div class="wrapper__outer">
+	<!-- iiNet plan refreshes -->
+	<div class="wrapper">		
+		<div class="wrapper__outer">
 
-							
-							<!-- banner -->	
-							<div class="container">	
-								<img src="img/iinet-header.png" class="work-content__banner" >	
-							</div>
-								
 
-							<div class="container">
+			<!-- banner -->	
+			<div class="container">	
+				<img src="img/iinet-header.png" class="work-content__banner" >	
+			</div>
 
-								<!-- content -->
 
-									<div class="col-sm-9">
-									<!-- brand colours -->	
-									<span class="brand-colour" style="background: #ff8200;"> </span>
-									<span class="brand-colour" style="background: #d21f2a;"> </span>
-									<span class="brand-colour" style="background: #0090ab;"> </span>
-									<span class="brand-colour" style="background: #808080;"> </span>
-									<span class="brand-colour" style="background: #fafafa;"> </span>									
-									<h1 class="h4 font-bold grey-6 text-uppercase">iiNet Plan Page Redesign</h3>
-									
-									<p>When I began working at iiNet, the core product pages presented a complex user experience, were not responsive, and no longer aligned with the brand. Each product page also had a unique appearance and layout, confusing potential customers and customer service reps.</p>
-									<p>This presented an opportunity to improve the user experience, by simplifying these pages and unifying them with each other and the brand. The new responsive pages reduce cognitive load by breaking down the plan customisation into intuitive steps.</p>
-									<p>Both conversion and bounce rates improved once the new pages were released.</p>
-									<p class="margin-bottom-40"><!-- --></p>
-								
-								</div>
-								
-								<div class="col-sm-2 col-sm-offset-1 margin-top-20">
-								
-									<p class="h6 font-bold margin-bottom-0 hidden-xs">Client</p>
-									<p class="margin-top-0 hidden-xs">iiNet</p>
+			<div class="container">
 
-									<p class="h6 font-bold margin-bottom-0 hidden-xs">Year</p>
-									<p class="margin-top-0 hidden-xs">2016</p>
-									
-									<p class="h6 font-bold margin-bottom-0">Live website</p>
-									<p class="margin-top-0"><a href="//iinet.net.au/internet-products/broadband/adsl/" target="_blank">www.iinet.net.au</a></p>
-								
-								
-								</div>
-								
+				<!-- content -->
 
-								
+				<div class="col-sm-9">
+					<!-- brand colours -->	
+					<span class="brand-colour" style="background: #ff8200;"> </span>
+					<span class="brand-colour" style="background: #d21f2a;"> </span>
+					<span class="brand-colour" style="background: #0090ab;"> </span>
+					<span class="brand-colour" style="background: #808080;"> </span>
+					<span class="brand-colour" style="background: #fafafa;"> </span>									
+					<h1 class="h4 font-bold grey-6 text-uppercase">iiNet Plan Page Redesign</h3>
 
-							</div>
-						</div>
-					</div>
-	
-				<!-- end iiNet Plan Refreshes -->
+					<p>When I began working at iiNet, the core product pages presented a complex user experience, were not responsive, and no longer aligned with the brand. Each product page also had a unique appearance and layout, confusing potential customers and customer service reps.</p>
+					<p>This presented an opportunity to improve the user experience, by simplifying these pages and unifying them with each other and the brand. The new responsive pages reduce cognitive load by breaking down the plan customisation into intuitive steps.</p>
+					<p>Both conversion and bounce rates improved once the new pages were released.</p>
+					<p class="margin-bottom-40"><!-- --></p>
+				</div>
+
+				<div class="col-sm-2 col-sm-offset-1 margin-top-20">
+					<p class="h6 font-bold margin-bottom-0 hidden-xs">Client</p>
+					<p class="margin-top-0 hidden-xs">iiNet</p>
+
+					<p class="h6 font-bold margin-bottom-0 hidden-xs">Skills used</p>
+					<p class="margin-top-0 hidden-xs">
+						<span class="tag" style="font-size: .8em; background: #dfdfdf; border: 1px solid #fefefe; border-radius: 6px; display: inline; padding: 5px;">HTML5</span>
+						<span class="tag" style="font-size: .8em; background: #dfdfdf; border: 1px solid #fefefe; border-radius: 6px; display: inline; padding: 5px;">CSS3</span>
+						<span class="tag" style="font-size: .8em; background: #dfdfdf; border: 1px solid #fefefe; border-radius: 6px; display: inline; padding: 5px;">PHP</span>
+						<span class="tag" style="font-size: .8em; background: #dfdfdf; border: 1px solid #fefefe; border-radius: 6px; display: inline; padding: 5px;">AngularJS</span>
+						<span class="tag" style="font-size: .8em; background: #dfdfdf; border: 1px solid #fefefe; border-radius: 6px; display: inline; padding: 5px; white-space: nowrap;">User Testing</span>
+					</p>					
+
+					<p class="h6 font-bold margin-bottom-0">Live website</p>
+					<p class="margin-top-0"><a href="//iinet.net.au/internet-products/broadband/adsl/" target="_blank">www.iinet.net.au</a></p>
+				</div>
+
+
+			</div>
+		</div>
+	</div>	
+	<!-- end iiNet Plan Refreshes -->
 	
 	<!-- include footer --> 	
 	<?php include('inc/_footer.php'); ?>	

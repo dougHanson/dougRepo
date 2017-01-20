@@ -145,27 +145,71 @@ $(function(){
 
 // NAV MENU - add smooth scrolling 
 var scrollSpeed = 1200;
-$(".nav-about").click(function() {
-    $('html, body').animate({
-        scrollTop: $(".about").offset().top-50
-    }, scrollSpeed);
-});
-$(".nav-contact").click(function() {
-    $('html, body').animate({
-        scrollTop: $(".contact-me").offset().top-50
-    }, scrollSpeed);
-});
-$(".nav-home").click(function() {
-    $('html, body').animate({
-        scrollTop: $(".hero-content").offset().top
-    }, scrollSpeed);
-});
-$(".nav-works").click(function() {
-    $('html, body').animate({
-        scrollTop: $(".selected-works").offset().top-50
-    }, scrollSpeed);
-});
+var pathname = window.location.pathname; // Returns path only
+
 	
-  
+	$(".nav-home").click(function() {
+		if (pathname == '/index.php') {	
+			$('html, body').animate({
+				scrollTop: $(".hero-content").offset().top
+			}, scrollSpeed);
+		}
+		else { window.location.pathname = '/index.php#hero-content'; }	
+	});
+
+	$(".nav-works").click(function() {	
+		if (pathname == '/index.php') {			
+			$('html, body').animate({
+				scrollTop: $(".selected-works").offset().top-50
+			}, scrollSpeed);	
+		}
+		else { window.location.pathname = '/index.php#selected-works'; }			
+	});	
+
+	$(".nav-about").click(function() {
+		if (pathname == '/index.php') {			
+			$('html, body').animate({
+				scrollTop: $(".about").offset().top-50
+			}, scrollSpeed);
+		}
+		else { window.location.pathname = '/index.php#about'; }				
+	});
+
+	$(".nav-contact").click(function() {
+		if (pathname == '/index.php') {			
+			$('html, body').animate({
+				scrollTop: $(".contact-me").offset().top-50
+			}, scrollSpeed);
+		}
+		else { window.location.pathname = '/index.php#contact'; }						
+	});
+
+
+
+
+
+// PROGRESS BAR ANIMATION
+$(function() {
+	var $progress = $('#progress');
+	$(document).ajaxStart(function() {
+		//only add progress bar if not added yet.
+		if ($progress.length === 0) {
+			$progress = $('<div><dt/><dd/></div>').attr('id', 'progress');
+			$("body").append($progress);
+		}
+		$progress.width((50 + Math.random() * 30) + "%");
+	});
+
+	$(document).ajaxComplete(function() {
+		//End loading animation
+		$progress.width("100%").delay(200).fadeOut(400, function() {
+			$progress.width("0%").delay(200).show();
+		});
+	});
+
+	$('.progressLoad').on('click', function() {
+		$.getJSON('http://jsonip.com');
+	});
+});
 
 	

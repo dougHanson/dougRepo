@@ -15,165 +15,11 @@
 	<!-- build:css -->
 	<link rel="stylesheet" href="css/styles.css" media="all">
 	<link rel="stylesheet" type="text/css" href="css/plugins/_svganimations.css" />	
+	<link rel="stylesheet" type="text/css" href="css/plugins/_progress-bar.css" />		
 	<!-- endbuild -->
 
 	<style type="text/css">
 
-		
-		
-.mouse_scroll {
-	display: block;
-	margin: 0 auto;
-	width: 24px;
-	height: 100px;
-	margin-top: 12%;
-	z-index: 0;
-}
-
-
-.m_scroll_arrows
-{
-  display: block;
-  width: 5px;
-  height: 5px;
-  -ms-transform: rotate(45deg); /* IE 9 */
-  -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
-  transform: rotate(45deg);
-   
-  border-right: 2px solid #666;
-  border-bottom: 2px solid #666;
-  margin: 0 0 3px 4px;
-  
-  width: 16px;
-  height: 16px;
-}
-
-
-.unu
-{
-  margin-top: 1px;
-}
-
-.unu, .doi, .trei
-{
-    -webkit-animation: mouse-scroll 1s infinite;
-    -moz-animation: mouse-scroll 1s infinite;
-}
-
-.unu
-{
-  -webkit-animation-delay: .1s;
-  -moz-animation-delay: .1s;
-  -webkit-animation-direction: alternate;
-}
-
-.doi
-{
-  -webkit-animation-delay: .2s;
-  -moz-animation-delay: .2s;
-  -webkit-animation-direction: alternate;
-  margin-top: -6px;
-}
-
-.trei
-{
-  -webkit-animation-delay: .3s;
-  -moz-animation-delay: .3s;
-  -webkit-animation-direction: alternate;
-  margin-top: -6px;
-}
-
-
-
-
-.mouse
-{
-height: 42px;
-width: 24px;
-  border-radius: 14px;
-  transform: none;
-  border: 2px solid #666;
-  top: 70px;
-}
-
-.wheel
-{
-  height: 5px;
-  width: 2px;
-  display: block;
-  margin: 5px auto;
-  background: white;
-  position: relative;
-  
-  height: 4px;
-  width: 4px;
-  border: 2px solid #666;
-  -webkit-border-radius: 8px;
-          border-radius: 8px;
-  
-
-}
-
-.wheel
-{
-  -webkit-animation: mouse-wheel 0.6s linear infinite;
-  -moz-animation: mouse-wheel 0.6s linear infinite;
-}
-
-
-
-@-webkit-keyframes mouse-wheel
-{
-   0% {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-    -ms-transform: translateY(0);
-    transform: translateY(0);
-  }
-
-  100% {
-    opacity: 0;
-    -webkit-transform: translateY(6px);
-    -ms-transform: translateY(6px);
-    transform: translateY(6px);
-  }
-}
-
-@-moz-keyframes mouse-wheel
-{
-  0% { top: 1px; }
-  25% { top: 2px; }
-  50% { top: 3px;}
-  75% { top: 2px;}
-  100% { top: 1px;}
-}
-
-@-webkit-keyframes mouse-scroll {
-
-  0%   { opacity: 0;}
-  50%  { opacity: .5;}
-  100% { opacity: 1;}
-}
-@-moz-keyframes mouse-scroll {
-
-  0%   { opacity: 0; }
-  50%  { opacity: .5; }
-  100% { opacity: 1; }
-}
-@-o-keyframes mouse-scroll {
-
-  0%   { opacity: 0; }
-  50%  { opacity: .5; }
-  100% { opacity: 1; }
-}
-@keyframes mouse-scroll {
-
-  0%   { opacity: 0; }
-  50%  { opacity: .5; }
-  100% { opacity: 1; }
-}
-
-		
 		
 		
 	</style>
@@ -187,7 +33,7 @@ width: 24px;
 <div style="position: relative;"> 
       
 <!-- include frames and nav --> 	
-<?php include('/inc/_nav.php'); ?>
+<?php include('inc/_nav.php'); ?>
       
   <!-- body content -->
   <section class="wrapper">
@@ -196,7 +42,7 @@ width: 24px;
 			<!-- -------------------------------------
 			//   Intro / hero content
 			------------------------------------------ -->		
-      <div class="hero-content parallax-bg">
+      <div id="hero-content" class="hero-content parallax-bg">
         <div class="hero-content__bg">
 <!--          <img src="img/logo.png" alt="" />-->
           <h1 class="hero-heading fadeOut"><span>Doug Hanson</span></h1>
@@ -228,7 +74,7 @@ width: 24px;
 			<!-- -------------------------------------
 			//   Selected Works
 			------------------------------------------ -->			
-      <section class="selected-works container pad-lr-20">
+      <section id="selected-works" class="selected-works container pad-lr-20">
 				
         <p class="h3 subheading text-center margin-0">my portfolio</p>
         <h2 class="text-center">Selected works</h2>				
@@ -237,7 +83,7 @@ width: 24px;
         <div style="margin-top:40px;" class="masonry-container">  
 
 					
-					<a href="iinet-plan-pages.php">
+					<a href="iinet-plan-pages.php" class="progressLoad">
 						<article class="work-item">
 							<div class="work-item__drawings" id="drawings">
 								<img class="illustration" src="img/finn-balloons.png" alt="" style="width:100%; max-width: 244px;" />
@@ -252,7 +98,7 @@ width: 24px;
 					</a>
 							
 					
-					<a href="mobii-manager.php">
+					<a href="mobii-manager.php" class="progressLoad">
 						<article class="work-item">
 							<div class="work-item__drawings" id="drawings" style="height: 300px;">
 								<img class="illustration" src="img/mobii-manager.png" alt="" style="padding-top: 50px; width:100%; max-width: 360px;" />
@@ -267,7 +113,7 @@ width: 24px;
 					</a>
 					
 
-					<a href="iinet-plan-pages/">
+					<a href="iinet-plan-pages/" class="progressLoad">
 						<article class="work-item">
 							<div class="work-item__drawings" id="drawings" style="height: 300px; width:100%; max-width: 360px;">
 								<img class="illustration" src="img/multicomm.png" style="padding-top: 76px;" alt="" />
@@ -339,7 +185,7 @@ width: 24px;
 			<!-- -------------------------------------
 			//   About me
 			------------------------------------------ -->		
-      <section class="about container">
+      <section id="about" class="about container">
         <div class="h3 subheading text-center margin-0">roles and experience</div>
         <h2 class="text-center">About me</h2>
         <div class="text-center"><img src="img/arrow.png" /></div>
@@ -396,7 +242,7 @@ width: 24px;
 					
 					<div class="row">
 						<div class="col-sm-12 margin-top-30 ">
-							<a href="doc/Doug-Hanson-Resume.pdf" target="_blank" class="button margin-right-10">Download Resume` (80kB)</a> 
+							<a href="doc/Doug-Hanson-Resume.pdf" target="_blank" class="button progressLoad margin-right-10">Download Resume` (80kB)</a> 
 						</div>	
 					</div>
 					
@@ -416,7 +262,7 @@ width: 24px;
 			<!-- -------------------------------------
 			//   Contact
 			------------------------------------------ -->		
-      <section class="contact-me container pad-lr-20">
+      <section id="contact" class="contact-me container pad-lr-20">
         <div class="col-lg-10 col-lg-offset-1 row">
         
           <p class="h3 subheading text-center margin-0">get in touch</p>
@@ -458,10 +304,10 @@ width: 24px;
             </div>                            
             
             <div class="col-sm-12 text-center">
-              <button class="button button__primary text-right" name="submitted">Send message</button>
+              <button class="button button__primary progressLoad text-right" name="submitted">Send message</button>
             </div> 
           </form> 
-            
+
           <?php
             if (isset($_POST['submitted']))
             //if submit button is clicked, send email
@@ -517,6 +363,7 @@ width: 24px;
 	
 <!-- include footer --> 	
 <?php include('inc/_footer.php'); ?>
+
 
   
 </body>
