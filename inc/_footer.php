@@ -4,6 +4,9 @@
 	<div class="wrapper">		
 		<div class="wrapper__outer">	
 			<div class="container text-center">
+					
+				
+					<!-- social media icons -->
 					<a class="social-icon" href="//www.linkedin.com/in/doug83/" target="_blank">
 						<div class="social-icon__bg"></div>
 						<div class="social-icon__svg">
@@ -30,10 +33,39 @@
 						<div class="social-icon__svg">
 							<?php echo file_get_contents("svg/pinterest.svg"); ?>
 						</div>
-					</a>         
+					</a>
+				<!-- end social icons -->
+				
+				
+				<?php /*
+				<script>
+					window.twttr = (function(d, s, id) {
+						var js, fjs = d.getElementsByTagName(s)[0],
+							t = window.twttr || {};
+						if (d.getElementById(id)) return t;
+						js = d.createElement(s);
+						js.id = id;
+						js.src = "https://platform.twitter.com/widgets.js";
+						fjs.parentNode.insertBefore(js, fjs);
+
+						t._e = [];
+						t.ready = function(f) {
+							t._e.push(f);
+						};
+
+						return t;
+					}(document, "script", "twitter-wjs"));
+				</script>
+				<a class="twitter-timeline" href="https://twitter.com/Doug83" data-dnt="true" data-text-color="#fff" data-width="100%" data-height="210" data-tweet-limit="1" data-link-color="#E81C4F" data-chrome="noheader nofooter noborders noscrollbar transparent">
+				</a>
+				*/ ?>
+
+				
 			</div>
 		</div>
 	</div>
+	
+	
 	
 </footer>
 
