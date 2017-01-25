@@ -1,9 +1,72 @@
-<footer style="background: url('img/aside.png'); background-size: cover; height: 170px;">
-	<div class="container">
-		<a href="http://facebook.com/doug83"><i class="icon icon__facebook"></i></a>
-		<a href="http://twitter.com/doug83"><i class="icon icon__twitter"></i></a>
-		<a href="https://au.linkedin.com/in/doug83"><i class="icon icon__linkedin"></i></a>              
+<footer class="text-center" style="background: url('img/footer.png') fixed no-repeat; background-position: bottom; height: 180px;">
+	
+	
+	<div class="wrapper">		
+		<div class="wrapper__outer">	
+			<div class="container text-center">
+					
+				
+					<!-- social media icons -->
+					<a class="social-icon" href="//www.linkedin.com/in/doug83/" target="_blank">
+						<div class="social-icon__bg"></div>
+						<div class="social-icon__svg">
+							<?php echo file_get_contents("svg/linkedin.svg"); ?>
+						</div>
+					</a>
+
+					<a class="social-icon" href="//facebook.com/doug83" target="_blank">
+						<div class="social-icon__bg"></div>
+						<div class="social-icon__svg">
+							<?php echo file_get_contents("svg/facebook.svg"); ?>
+						</div>
+					</a>
+
+					<a class="social-icon" href="//twitter.com/doug83" target="_blank">
+						<div class="social-icon__bg"></div>
+						<div class="social-icon__svg">
+							<?php echo file_get_contents("svg/twitter.svg"); ?>
+						</div>
+					</a>
+
+					<a class="social-icon" href="//au.pinterest.com/dhanson1087/" target="_blank">
+						<div class="social-icon__bg"></div>
+						<div class="social-icon__svg">
+							<?php echo file_get_contents("svg/pinterest.svg"); ?>
+						</div>
+					</a>
+				<!-- end social icons -->
+				
+				
+				<?php /*
+				<script>
+					window.twttr = (function(d, s, id) {
+						var js, fjs = d.getElementsByTagName(s)[0],
+							t = window.twttr || {};
+						if (d.getElementById(id)) return t;
+						js = d.createElement(s);
+						js.id = id;
+						js.src = "https://platform.twitter.com/widgets.js";
+						fjs.parentNode.insertBefore(js, fjs);
+
+						t._e = [];
+						t.ready = function(f) {
+							t._e.push(f);
+						};
+
+						return t;
+					}(document, "script", "twitter-wjs"));
+				</script>
+				<a class="twitter-timeline" href="https://twitter.com/Doug83" data-dnt="true" data-text-color="#fff" data-width="100%" data-height="210" data-tweet-limit="1" data-link-color="#E81C4F" data-chrome="noheader nofooter noborders noscrollbar transparent">
+				</a>
+				*/ ?>
+
+				
+			</div>
+		</div>
 	</div>
+	
+	
+	
 </footer>
 
 
@@ -31,7 +94,6 @@
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-81920963-1', 'auto');
-  ga('send', 'pageview');
-
+  ga('send', 'pageview');	
 </script>
 <!-- end Google Analytics -->

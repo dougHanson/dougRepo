@@ -242,6 +242,20 @@ h6, .h6              { font-size: $font-size-h6; }
 } 
 
 
+/* ----- tags ----- */
+
+.tag {
+	font-size: .8em; 
+	background: #505050; 
+	color: #fefefe;
+	border: 1px solid #fefefe; 
+	border-radius: 6px; 
+	display: inline; 
+	padding: 5px;
+	white-space: nowrap;
+}
+
+
 /* ----- page titles, to be used on a darker background/image ----- */
 
 .page-title { 
@@ -293,5 +307,6 @@ h6, .h6              { font-size: $font-size-h6; }
 	width: 0px;
   }
 }
+
 
 
