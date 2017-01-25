@@ -24,9 +24,9 @@
 // plugin styles
 @import 'plugins/_owl-carousel';
 @import 'plugins/_owl-carousel-theme'; 
-@import '_progress-bar'; 
-@import '_arrow-navigation'; 
-@import '_svganimations';
+@import 'plugins/_progress-bar'; 
+@import 'plugins/_arrow-navigation'; 
+@import 'plugins/_svganimations';
 
 // generated styles
-@import '_sprite'; 
+@import '_sprite';

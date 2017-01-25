@@ -41,19 +41,19 @@
 	z-index: 100;
 	display: block;
 	padding: 1em;
-	background-color: #fafafa;
+	background-color: $grey-background;
 	margin: 0;
 }
 
 .nav-slide svg.icon {
-	fill: #34495e;
+	fill: $grey-9;
 }
 
 .nav-slide div {
 	position: absolute;
 	top: 50%;
 	padding: 0 100px;
-	background-color: #ddd;
+	background-color: $grey-a;
 	-webkit-transition: -webkit-transform 0.3s;
 	transition: transform 0.3s;
 }
@@ -73,6 +73,13 @@
 	transform: translateY(-50%) translateX(100%);
 }
 
+@media (max-width: 991px) {
+	.nav-slide a.prev div,
+	.nav-slide a.next div {
+		display: none;  // don't show hover on mobile devices
+	}
+}
+
 .nav-slide h3 {
 	position: relative;
 	margin: 0;
@@ -86,10 +93,10 @@
 
 .nav-slide div h3 span {
 	display: block;
-	color: #95a5a6;
+	color: $grey-2;
 	font-style: italic;
-	font-size: 65%;
-	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+	font-size: 0.8em;
+	font-family: $font-family-secondary, serif;
 }
 
 .nav-slide img {

@@ -58,8 +58,11 @@ $(window).bind('scroll', function(){
       
         var yBgPosition = Math.round((offset - scrollTop) * settings.speed);
       
-        // Apply the Y Background Position to Set the Parallax Effect
-        $this.css('background-position', 'center ' + yBgPosition + 'px');
+        // Apply the Y Background Position to Set the Parallax Effect (NOT ON MOBILE)
+				if( ! /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+				 $this.css('background-position', 'center ' + yBgPosition + 'px');
+				}				
+        
       });
     });
   }
@@ -149,39 +152,39 @@ var pathname = window.location.pathname; // Returns path only
 
 	
 	$(".nav-home").click(function() {
-		if (pathname == '/index.php') {	
+		if (pathname == 'index.php') {	
 			$('html, body').animate({
 				scrollTop: $(".hero-content").offset().top
 			}, scrollSpeed);
 		}
-		else { window.location.pathname = '/index.php#hero-content'; }	
+		else { window.location.pathname = 'index.php#hero-content'; }	
 	});
 
 	$(".nav-works").click(function() {	
-		if (pathname == '/index.php') {			
+		if (pathname == 'index.php') {			
 			$('html, body').animate({
 				scrollTop: $(".selected-works").offset().top-50
 			}, scrollSpeed);	
 		}
-		else { window.location.pathname = '/index.php#selected-works'; }			
+		else { window.location.pathname = 'index.php#selected-works'; }			
 	});	
 
 	$(".nav-about").click(function() {
-		if (pathname == '/index.php') {			
+		if (pathname == 'index.php') {			
 			$('html, body').animate({
 				scrollTop: $(".about").offset().top-50
 			}, scrollSpeed);
 		}
-		else { window.location.pathname = '/index.php#about'; }				
+		else { window.location.pathname = 'index.php#about'; }				
 	});
 
 	$(".nav-contact").click(function() {
-		if (pathname == '/index.php') {			
+		if (pathname == 'index.php') {			
 			$('html, body').animate({
 				scrollTop: $(".contact-me").offset().top-50
 			}, scrollSpeed);
 		}
-		else { window.location.pathname = '/index.php#contact'; }						
+		else { window.location.pathname = 'index.php#contact'; }						
 	});
 
 
