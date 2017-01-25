@@ -8,6 +8,7 @@
   <!-- left hand nav include -->
   <aside class="vertical-menu">
     <div class="vertical-menu__logo"><a href="index.php"><img src="img/namelogo.png" /></a></div>
+		<br class="hidden-sm hidden-xs hidden-xxs">
     <nav>
       <ul>
         <li class="nav-home"><a href="#" class="nav-link">					

@@ -46,28 +46,28 @@
 					<span class="brand-colour" style="background: #0090ab;"> </span>
 					<span class="brand-colour" style="background: #808080;"> </span>
 					<span class="brand-colour" style="background: #fff;"> </span>									
-					<h1 class="h4 font-bold grey-6 text-uppercase">iiNet Plan Page Redesign</h3>
+					<h1 class="h3 font-bold grey-6 subheading">iiNet Plan Page Redesign</h3>
 
-					<p>When I began working at iiNet, the core product pages presented a complex user experience, were not responsive, and no longer aligned with the brand. Each product page also had a unique appearance and layout, confusing potential customers and customer service reps.</p>
+					<p>The problem:<br>iiNet's core product pages presented a complex user experience, were not responsive, and were no longer aligned with the brand. Each product page also had a unique appearance and layout, confusing potential customers and customer service reps.</p>
 					<p>This presented an opportunity to improve the user experience, by simplifying these pages and unifying them with each other and the brand. The new responsive pages reduce cognitive load by breaking down the plan customisation into intuitive steps.</p>
-					<p>Both conversion and bounce rates improved once the new pages were released.</p>
+					<p>The outcome: <br>Both conversion and bounce rates improved once the new pages were released.</p>
 					<p class="margin-bottom-40"><!-- --></p>					
 				</div>
 
 				<div class="col-sm-2 col-sm-offset-1 margin-top-20">
-					<p class="h6 font-bold margin-bottom-0 hidden-xs">Client</p>
-					<p class="margin-top-0 hidden-xs">iiNet</p>
+					<p class="h6 font-bold margin-bottom-0">Client</p>
+					<p class="margin-top-0">iiNet</p>
 
-					<p class="h6 font-bold margin-bottom-0 hidden-xs">Skills used</p>
-					<p class="margin-top-0 hidden-xs">
-						<span class="tag">HTML5</span>
-						<span class="tag">CSS3</span>
-						<span class="tag">PHP</span>
-						<span class="tag">AngularJS</span>
-						<span class="tag">User Testing</span>
+					<p class="h6 font-bold margin-top-20 margin-bottom-0">Skills used</p>
+					<p class="margin-0">
+						<h3 class="tag">HTML5</h3>
+						<h3 class="tag">CSS3</h3>
+						<h3 class="tag">PHP</h3>
+						<h3 class="tag">AngularJS</h3>
+						<h3 class="tag">User Testing</h3>
 					</p>					
 
-					<p class="h6 font-bold margin-bottom-0">Live website</p>
+					<p class="h6 font-bold margin-top-20 margin-bottom-0">Live website</p>
 					<p class="margin-top-0"><a href="//iinet.net.au/internet-products/broadband/adsl/" target="_blank">www.iinet.net.au</a></p>
 				</div>
 

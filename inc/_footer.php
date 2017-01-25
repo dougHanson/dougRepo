@@ -5,36 +5,43 @@
 		<div class="wrapper__outer">	
 			<div class="container text-center">
 					
-				
-					<!-- social media icons -->
-					<a class="social-icon" href="//www.linkedin.com/in/doug83/" target="_blank">
-						<div class="social-icon__bg"></div>
-						<div class="social-icon__svg">
-							<?php echo file_get_contents("svg/linkedin.svg"); ?>
-						</div>
-					</a>
+				<div class="row">
+					<div class="col-sm-12">
+						<p class="text-center white">Copyright Doug Hanson 2017</p>
+					</div>
+					
+					<div class="col-sm-12 text-center">
+						<!-- social media icons -->
+						<a class="social-icon" href="//www.linkedin.com/in/doug83/" target="_blank">
+							<div class="social-icon__bg social-icon__bg--transparent"></div>
+							<div class="social-icon__svg">
+								<?php echo file_get_contents("svg/linkedin.svg"); ?>
+							</div>
+						</a>
 
-					<a class="social-icon" href="//facebook.com/doug83" target="_blank">
-						<div class="social-icon__bg"></div>
-						<div class="social-icon__svg">
-							<?php echo file_get_contents("svg/facebook.svg"); ?>
-						</div>
-					</a>
+						<a class="social-icon" href="//facebook.com/doug83" target="_blank">
+							<div class="social-icon__bg social-icon__bg--transparent"></div>
+							<div class="social-icon__svg">
+								<?php echo file_get_contents("svg/facebook.svg"); ?>
+							</div>
+						</a>
 
-					<a class="social-icon" href="//twitter.com/doug83" target="_blank">
-						<div class="social-icon__bg"></div>
-						<div class="social-icon__svg">
-							<?php echo file_get_contents("svg/twitter.svg"); ?>
-						</div>
-					</a>
+						<a class="social-icon" href="//twitter.com/doug83" target="_blank">
+							<div class="social-icon__bg social-icon__bg--transparent"></div>
+							<div class="social-icon__svg">
+								<?php echo file_get_contents("svg/twitter.svg"); ?>
+							</div>
+						</a>
 
-					<a class="social-icon" href="//au.pinterest.com/dhanson1087/" target="_blank">
-						<div class="social-icon__bg"></div>
-						<div class="social-icon__svg">
-							<?php echo file_get_contents("svg/pinterest.svg"); ?>
-						</div>
-					</a>
-				<!-- end social icons -->
+						<a class="social-icon" href="//au.pinterest.com/dhanson1087/" target="_blank">
+							<div class="social-icon__bg social-icon__bg--transparent"></div>
+							<div class="social-icon__svg">
+								<?php echo file_get_contents("svg/pinterest.svg"); ?>
+							</div>
+						</a>
+					<!-- end social icons -->
+					</div>	
+				</div>
 				
 				
 				<?php /*
