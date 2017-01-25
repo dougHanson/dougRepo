@@ -21,12 +21,12 @@
 @import 'modules/_frames';
 @import 'modules/_workitems';
 
-// generated styles
-@import '_sprite'; 
-
 // plugin styles
 @import 'plugins/_owl-carousel';
 @import 'plugins/_owl-carousel-theme'; 
+@import '_progress-bar'; 
+@import '_arrow-navigation'; 
+@import '_svganimations';
 
-// theme styles
-
+// generated styles
+@import '_sprite'; 

@@ -13,9 +13,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,600,800|Dancing+Script" rel="stylesheet" type="text/css">
 	
 	<!-- build:css -->
-	<link rel="stylesheet" href="css/styles.css" media="all">
-	<link rel="stylesheet" type="text/css" href="css/plugins/_progress-bar.css" />		
-	<link rel="stylesheet" type="text/css" href="css/plugins/_arrow-navigation.css" />			
+	<link rel="stylesheet" href="css/styles.css" media="all">			
 	<!-- endbuild -->
 
 </head>
@@ -47,7 +45,7 @@
 					<span class="brand-colour" style="background: #d21f2a;"> </span>
 					<span class="brand-colour" style="background: #0090ab;"> </span>
 					<span class="brand-colour" style="background: #808080;"> </span>
-					<span class="brand-colour" style="background: #fafafa;"> </span>									
+					<span class="brand-colour" style="background: #fff;"> </span>									
 					<h1 class="h4 font-bold grey-6 text-uppercase">iiNet Plan Page Redesign</h3>
 
 					<p>When I began working at iiNet, the core product pages presented a complex user experience, were not responsive, and no longer aligned with the brand. Each product page also had a unique appearance and layout, confusing potential customers and customer service reps.</p>
@@ -62,11 +60,11 @@
 
 					<p class="h6 font-bold margin-bottom-0 hidden-xs">Skills used</p>
 					<p class="margin-top-0 hidden-xs">
-						<span class="tag" style="font-size: .8em; background: #dfdfdf; border: 1px solid #fefefe; border-radius: 6px; display: inline; padding: 5px;">HTML5</span>
-						<span class="tag" style="font-size: .8em; background: #dfdfdf; border: 1px solid #fefefe; border-radius: 6px; display: inline; padding: 5px;">CSS3</span>
-						<span class="tag" style="font-size: .8em; background: #dfdfdf; border: 1px solid #fefefe; border-radius: 6px; display: inline; padding: 5px;">PHP</span>
-						<span class="tag" style="font-size: .8em; background: #dfdfdf; border: 1px solid #fefefe; border-radius: 6px; display: inline; padding: 5px;">AngularJS</span>
-						<span class="tag" style="font-size: .8em; background: #dfdfdf; border: 1px solid #fefefe; border-radius: 6px; display: inline; padding: 5px; white-space: nowrap;">User Testing</span>
+						<span class="tag">HTML5</span>
+						<span class="tag">CSS3</span>
+						<span class="tag">PHP</span>
+						<span class="tag">AngularJS</span>
+						<span class="tag">User Testing</span>
 					</p>					
 
 					<p class="h6 font-bold margin-bottom-0">Live website</p>

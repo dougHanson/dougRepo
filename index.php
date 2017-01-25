@@ -15,8 +15,6 @@
 	<!-- build:css -->
 	<link rel="stylesheet" href="css/styles.css" media="all">
 	<link rel="stylesheet" type="text/css" href="css/plugins/_svganimations.css" />	
-	<link rel="stylesheet" type="text/css" href="css/plugins/_progress-bar.css" />		
-	<link rel="stylesheet" type="text/css" href="css/plugins/_arrow-navigation.css" />			
 	<!-- endbuild -->
 
 	<style type="text/css">
@@ -31,6 +29,36 @@
 
 <body>
 
+	
+<?php
+
+  // Define your username and password
+  $username = "doug";
+  $password = "p2j01256";
+			
+  if ($_POST['txtUsername'] != $username || $_POST['txtPassword'] != $password) {
+?>
+		<div class="col-md-2 col-md-offset-5">
+			<h1 style="margin-top: 100px;">Login</h1>
+
+			<form name="form" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+					<p><label for="txtUsername">Username:</label>
+					<br /><input type="text" title="Enter your Username" name="txtUsername" /></p>
+
+					<p><label for="txtpassword">Password:</label>
+					<br /><input type="password" title="Enter your password" name="txtPassword" /></p>
+
+					<p><input type="submit" name="Submit" value="Login" /></p>
+
+			</form>
+		</div>
+<?php
+  }	
+  else {
+?>	
+	
+	
+	
 <div style="position: relative;"> 
       
 <!-- include frames and nav --> 	
@@ -365,7 +393,7 @@
 <!-- include footer --> 	
 <?php include('inc/_footer.php'); ?>
 
-
+<?php  } ?>
   
 </body>
 </html>
