@@ -20,14 +20,6 @@
   height: 100%;
   z-index: 888;
 
-/* orange red gradient
-background: #ef5f4e;
-background: -moz-linear-gradient(top,  #ef5f4e 0%, #f59a5d 100%); 
-background: -webkit-linear-gradient(top,  #ef5f4e 0%,#f59a5d 100%);
-background: linear-gradient(to bottom,  #ef5f4e 0%,#f59a5d 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef5f4e', endColorstr='#f59a5d',GradientType=0 ); 
-*/
-	
 	
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#829ddd+0,2bcacf+100 */
 background: $brand-color-2; /* Old browsers */
@@ -35,8 +27,18 @@ background: -moz-linear-gradient(top, $brand-color-2 0%, $brand-primary 100%); /
 background: -webkit-linear-gradient(top, $brand-color-2 0%,$brand-primary 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom, $brand-color-2 0%,$brand-primary 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#829ddd', endColorstr='#2bcacf',GradientType=0 ); /* IE6-9 */	
-	
-	
+@media (max-width: 991px) {
+  background: $brand-color-2;
+}	
+
+/* orange red gradient
+background: #ef5f4e;
+background: -moz-linear-gradient(top,  #ef5f4e 0%, #f59a5d 100%); 
+background: -webkit-linear-gradient(top,  #ef5f4e 0%,#f59a5d 100%);
+background: linear-gradient(to bottom,  #ef5f4e 0%,#f59a5d 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef5f4e', endColorstr='#f59a5d',GradientType=0 ); 
+*/
+		
 	
 	
 	//box-shadow: 4px 0px 12px #ccc;
@@ -143,7 +145,6 @@ nav li::after {
 		margin-right: 15%; 
 		text-align: right;
   }
-
 }
 @media (max-width: 479px) {
   nav ul { 

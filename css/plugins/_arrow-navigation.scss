@@ -53,7 +53,7 @@
 	position: absolute;
 	top: 50%;
 	padding: 0 100px;
-	background-color: $grey-a;
+	background-color: $grey-6;
 	-webkit-transition: -webkit-transform 0.3s;
 	transition: transform 0.3s;
 }
@@ -76,7 +76,7 @@
 @media (max-width: 991px) {
 	.nav-slide a.prev div,
 	.nav-slide a.next div {
-		display: none;  // don't show hover on mobile devices
+	display: none;  // don't show hover on mobile devices
 	}
 }
 
@@ -87,16 +87,16 @@
 	color: #fff;
 	white-space: nowrap;
 	font-weight: 300;
-	font-size: 1.3em;
+	font-size: 1.5em;
 	line-height: 1.5;
+	font-family: $font-family-secondary, serif;
 }
 
 .nav-slide div h3 span {
 	display: block;
-	color: $grey-2;
-	font-style: italic;
-	font-size: 0.8em;
-	font-family: $font-family-secondary, serif;
+	color: $grey-e;
+	font-size: 0.5em;
+	font-family: $font-family-primary, serif;
 }
 
 .nav-slide img {

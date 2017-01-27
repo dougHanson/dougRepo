@@ -12,7 +12,6 @@ $(document).ready(function() {
   var fadeStart = 150;
   var fadeUntil = 750;
 	var fadingClass = $('.fadeOut');
-	var fadingFastClass = $('.fadeOut--fast');
 
 $(window).bind('scroll', function(){
 	var offset = $(document).scrollTop();
@@ -22,11 +21,11 @@ $(window).bind('scroll', function(){
   } 
 	else if ( offset<=fadeUntil ) {
 		opacity = 1-(offset-fadeStart)/(fadeUntil);
-	}
-    fadingClass.css('opacity',opacity);
+	}	
+	if( ! /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+		fadingClass.css('opacity',opacity);
 		fadingClass.css('top',offset*0.4); 
-    fadingFastClass.css('opacity',opacity);
-		fadingFastClass.css('top',offset*0.3); 	
+	}
 });
 
 
@@ -152,39 +151,36 @@ var pathname = window.location.pathname; // Returns path only
 
 	
 	$(".nav-home").click(function() {
-		if (pathname == 'index.php') {	
+		//if (pathname == 'index.php') {	
 			$('html, body').animate({
 				scrollTop: $(".hero-content").offset().top
 			}, scrollSpeed);
-		}
-		else { window.location.pathname = 'index.php#hero-content'; }	
+		//}
+		//else { window.location.pathname = 'index.php#hero-content'; }	
 	});
 
 	$(".nav-works").click(function() {	
-		if (pathname == 'index.php') {			
+			
 			$('html, body').animate({
 				scrollTop: $(".selected-works").offset().top-50
 			}, scrollSpeed);	
-		}
-		else { window.location.pathname = 'index.php#selected-works'; }			
+			
 	});	
 
 	$(".nav-about").click(function() {
-		if (pathname == 'index.php') {			
+		
 			$('html, body').animate({
 				scrollTop: $(".about").offset().top-50
 			}, scrollSpeed);
-		}
-		else { window.location.pathname = 'index.php#about'; }				
+			
 	});
 
 	$(".nav-contact").click(function() {
-		if (pathname == 'index.php') {			
+	
 			$('html, body').animate({
 				scrollTop: $(".contact-me").offset().top-50
 			}, scrollSpeed);
-		}
-		else { window.location.pathname = 'index.php#contact'; }						
+				
 	});
 
 

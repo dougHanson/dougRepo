@@ -28,8 +28,23 @@
 	float: left; 
 	padding-right: 2px; 
 	margin-top: 6px;
-	display: inline-block;
-		
+	display: inline-block;	
+}
+
+.social-wrapper {
+	width:200px; 
+	display:block; 
+	margin: 0 auto; 
+	padding-left: 8px;
+}
+
+.social-icon-footer { 
+	position: relative; 
+	float: left; 
+	padding-right: 2px; 
+	margin-top: 6px;
+	display: inline-block;	
+	width: 25%;	
 }
 
 .social-icon__bg {
@@ -48,6 +63,9 @@
 
 .social-icon__bg--transparent {
 	opacity: 0;
+	@media (max-width: 991px) {
+		opacity: 0.2; 
+	}	
 }
 
 .social-icon:hover .social-icon__bg--transparent {

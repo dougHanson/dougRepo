@@ -41,16 +41,16 @@
 
 				<div class="col-sm-9">
 					<!-- brand colours -->	
-					<span class="brand-colour" style="background: #ff8200;"> </span>
+					<!--<span class="brand-colour" style="background: #ff8200;"> </span>
 					<span class="brand-colour" style="background: #d21f2a;"> </span>
 					<span class="brand-colour" style="background: #0090ab;"> </span>
 					<span class="brand-colour" style="background: #808080;"> </span>
-					<span class="brand-colour" style="background: #fff;"> </span>									
+					<span class="brand-colour" style="background: #fff;"> </span>			-->						
 					<h1 class="h3 font-bold grey-6 subheading">iiNet Plan Page Redesign</h3>
 
-					<p>The problem:<br>iiNet's core product pages presented a complex user experience, were not responsive, and were no longer aligned with the brand. Each product page also had a unique appearance and layout, confusing potential customers and customer service reps.</p>
-					<p>This presented an opportunity to improve the user experience, by simplifying these pages and unifying them with each other and the brand. The new responsive pages reduce cognitive load by breaking down the plan customisation into intuitive steps.</p>
-					<p>The outcome: <br>Both conversion and bounce rates improved once the new pages were released.</p>
+					<p><strong>The problem:</strong><br>iiNet's core product pages presented a complex user experience. They were not responsive, and were no longer aligned with the brand. Each product page also had a unique interface and layout, confusing potential customers and customer service representatives.</p>
+					<p>This presented an opportunity to improve the user experience, by simplifying these pages and unifying them with each other and the brand. </p>
+					<p><strong>The outcome:</strong><br>The new responsive pages reduce cognitive load by breaking down the plan customisation into intuitive steps. Both conversion and bounce rates improved once the new pages were released.</p>
 					<p class="margin-bottom-40"><!-- --></p>					
 				</div>
 
