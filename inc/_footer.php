@@ -1,7 +1,7 @@
 <footer class="text-center" style="background: url('img/footer.png') fixed no-repeat; background-position: bottom; height: 180px;">
 	
 	
-	<div class="wrapper">		
+	<div class="wrapper wrapper--footer">		
 		<div class="wrapper__outer">	
 			<div class="container text-center">
 					
@@ -10,30 +10,30 @@
 						<p class="text-center white">Copyright Doug Hanson 2017</p>
 					</div>
 					
-					<div class="col-sm-12 text-center">
+					<div class="social-wrapper">
 						<!-- social media icons -->
-						<a class="social-icon" href="//www.linkedin.com/in/doug83/" target="_blank">
+						<a class="social-icon-footer" href="//www.linkedin.com/in/doug83/" target="_blank">
 							<div class="social-icon__bg social-icon__bg--transparent"></div>
 							<div class="social-icon__svg">
 								<?php echo file_get_contents("svg/linkedin.svg"); ?>
 							</div>
 						</a>
 
-						<a class="social-icon" href="//facebook.com/doug83" target="_blank">
+						<a class="social-icon-footer" href="//facebook.com/doug83" target="_blank">
 							<div class="social-icon__bg social-icon__bg--transparent"></div>
 							<div class="social-icon__svg">
 								<?php echo file_get_contents("svg/facebook.svg"); ?>
 							</div>
 						</a>
 
-						<a class="social-icon" href="//twitter.com/doug83" target="_blank">
+						<a class="social-icon-footer" href="//twitter.com/doug83" target="_blank">
 							<div class="social-icon__bg social-icon__bg--transparent"></div>
 							<div class="social-icon__svg">
 								<?php echo file_get_contents("svg/twitter.svg"); ?>
 							</div>
 						</a>
 
-						<a class="social-icon" href="//au.pinterest.com/dhanson1087/" target="_blank">
+						<a class="social-icon-footer" href="//au.pinterest.com/dhanson1087/" target="_blank">
 							<div class="social-icon__bg social-icon__bg--transparent"></div>
 							<div class="social-icon__svg">
 								<?php echo file_get_contents("svg/pinterest.svg"); ?>

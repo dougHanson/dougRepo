@@ -30,7 +30,7 @@
 <body>
 
 	
-<?php
+<?php /*
 
   // Define your username and password
   $username = "doug";
@@ -55,7 +55,7 @@
 <?php
   }	
   else {
-?>	
+*/ ?>	
 	
 	
 	
@@ -292,7 +292,7 @@
 			//   Contact
 			------------------------------------------ -->		
       <section id="contact" class="contact-me container pad-lr-20">
-        <div class="col-lg-10 col-lg-offset-1 row">
+        <div class="col-sm-12 row">
         
           <p class="h3 subheading text-center margin-0">get in touch</p>
           <h2 class="text-center">Contact</h2>
@@ -345,7 +345,7 @@
               //get the data entered in the forms
               $name = $_POST['input-name'];
               $email = $_POST['input-email'];
-              $contact = $_POST['input-contact'];
+              //$contact = $_POST['input-contact'];
               $message = $_POST['input-message'];
             
               //compose the email message 
@@ -355,9 +355,9 @@
               $email_body = "A new message has been submitted by the online form on my website:\n
                
               Name: $name \n  
-              Email Address: $email \n  
-              Contact number: $contact \n 
-              Enquiry: $message"; 
+              Email Address: $email \n " + 
+              //Contact number: $contact \n 
+              "Enquiry: $message"; 
             
               //from multicomm address to stop spam catcher
               $headers = "From: $email_from \n"; 
@@ -367,7 +367,7 @@
               mail($to,$email_subject,$email_body,$headers);
           
               //thankyou message on website
-              echo "<div class='clearfix'><!-- --></div><p  id='contact' style='background:#E6EFC2; color:#529214; border:1px solid #CCDC8C;padding:3px 14px; text-align:center;' >Thank you $name, I'll respond to your message shortly.</p>";
+              echo "<div class='clearfix'><!-- --></div><p id='contact' style='background:#E6EFC2; color:#529214; border:1px solid #CCDC8C;padding:3px 14px; text-align:center;' >Thank you $name, I'll respond to your message shortly.</p>";
          
             }
           ?>          
@@ -393,7 +393,7 @@
 <!-- include footer --> 	
 <?php include('inc/_footer.php'); ?>
 
-<?php  } ?>
+<?php//  } ?>
   
 </body>
 </html>
