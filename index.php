@@ -4,25 +4,16 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="author" content="Doug Hanson">
-	<title>Doug Hanson - Web Designer</title>
-	<meta name="description" content="Web designer from Perth, Western Australia. Doug Hanson.">
-	<meta name="keywords" content="web design perth, doug, hanson">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
 	
-	<!-- fonts Raleway & Dancing Script-->
-	<link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,600,800|Dancing+Script" rel="stylesheet" type="text/css">
+	<title>Doug Hanson | Web Design and Development, Perth</title>
+	<meta name="description" content="Doug Hanson is a web designer and front end developer from Perth, Western Australia.">
+	<meta name="keywords" content="web design, designer, web development, front end developer, ux design, perth, doug hanson">
 	
 	<!-- build:css -->
 	<link rel="stylesheet" href="css/styles.css" media="all">
-	<link rel="stylesheet" type="text/css" href="css/plugins/_svganimations.css" />	
 	<!-- endbuild -->
 
-	<style type="text/css">
-
-		
-		
-	</style>
-	
 	<?php include('/inc/_favicons.php'); ?>
 </head>
 
