@@ -47,11 +47,15 @@
 }
 
 .hero-content__bg {
-	text-align: center; padding-top: 28vh;  height: 100vh;
+	text-align: center; 
+	padding-top: 30vh 10vh;  
+	height: 100vh;
 }
 @media (max-width: 768px) {
 	.hero-content__bg {
-		text-align: center; padding-top: 22vh;  height: 70vh;
+		text-align: center; 
+		padding: 12vh 2vh;  
+		height: 70vh;
 	}
 }
 
