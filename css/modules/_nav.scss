@@ -45,9 +45,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef5f4e', end
 
 }
 .vertical-menu__logo {
-  height: 90px;
+  height: 160px;
 	text-align: center;
-	margin-top: 30px;
+	margin-top: 10px;
 }
 .vertical-menu__logo img {
   max-height: 100%;
@@ -137,16 +137,17 @@ nav li::after {
 	.nav-home	{ display: none; } //On mobile devices the logo can be used to nav home		
 }
 @media (max-width: 767px) {
-  nav li span {
-    display: none;
-  }  
+ 
   nav ul { 
-    margin-left: 10em;
-		margin-right: 15%; 
+    margin-left: 5em;
+		margin-right: 5%; 
 		text-align: right;
   }
 }
-@media (max-width: 479px) {
+@media (max-width: 560px) {
+  nav li span {
+    display: none;
+  } 	
   nav ul { 
 		margin-left: 1em;
 		margin-right: 1%; 
@@ -160,14 +161,10 @@ nav li::after {
 }
 @media (max-width: 767px) {
 	.icon {
-    margin: 0 20px;
+    margin: 0 10px;
 	}
 }
-@media (max-width: 600px) {
-	.icon {
-    margin: 0;
-	}
-}
+
 
 .nav-link {
   color: #fff;
@@ -190,11 +187,7 @@ nav li::after {
 }
 @media (max-width: 767px) {
   .nav-link {
-    padding: 0 1.6em; 
+    padding: 0 1em; 
   }  
 }
-@media (max-width: 479px) {
-  .nav-link {
-    padding: 0 1em;
-  } 
-} 
+
