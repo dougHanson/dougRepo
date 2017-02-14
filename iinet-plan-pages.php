@@ -12,8 +12,10 @@
 
 
 	<!-- build:css -->
-	<link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,600,800|Dancing+Script" rel="stylesheet" type="text/css">	
-	<link rel="stylesheet" href="css/styles.css" media="all">			
+	<link href="https://fonts.googleapis.com/css?family=Raleway|Dancing+Script|Satisfy" rel="stylesheet" type="text/css">	
+	<link rel="stylesheet" href="css/styles.css" media="all">		
+	<link rel="stylesheet" href="css/plugins/_article-intro.css" media="all">		
+	
 	<!-- endbuild -->
 
 </head>
@@ -27,17 +29,11 @@
 <?php 
 	$title = 'iiNet Plan Page Redesign';
 	$client = 'iiNet';
-	
-	$website_url = '//www.iinet.net.au/internet-products/broadband/adsl';
-	$website = 'www.iinet.net.au';	
-	
 	$brand_colours = [ '#ff8200', '#d21f2a', '#0090ab', '#808080', '#fff' ];
-	$brand_colours_count = count($brand_colours);
-	
+	$year = '2016';		
 	$skills = [ 'HTML5', 'CSS3', 'PHP', 'Angular JS', 'User Testing' ];
-	$skills_count = count($skills);
-	
-	$year = '2016';
+	$website = 'www.iinet.net.au';	
+	$website_url = '//www.iinet.net.au/internet-products/broadband/adsl';
 ?>
 	
 	
@@ -51,24 +47,33 @@
 
 
 			<!-- banner -->	
-			<div class="container">	
-				<img src="img/iinet-header.png" class="work-content__banner" >	
-			</div>
+			<!--<div class="container">	
+				<img src="" alt="" class="work-content__banner" >	
+			</div>-->
 
 
-			<div class="container" style="position: relative; overflow-x: hidden; padding-bottom: 100px;">
-
+			<div class="" style="position: relative; overflow-x: hidden; padding-bottom: 100px;">
+			<div id="container" class="intro-effect-jam3">	
+			<header class="header">
+				<div class="bg-img"><img src="img/1.jpg" alt="Background Image" /></div>
+				<div class="title">
+					<h1 class="h3 font-bold grey-6 subheading"><?php print $title ?></h3>
+				</div>
+			</header>
 				
+				
+			<article class="content">
+				<div class="container">
+			
 				
 				<!-- content -->
 				<div class="col-sm-9">
 					
 					<!-- brand colours -->	
 					<p class="margin-0">
-						<?php 
-							for ($i = 99; $i <= $brand_colours_count-1; $i++) {  ?>   <!-- value of 99 to hide -->
-								<span class="brand-colour" style="background: <?php print $brand_colours[$i] ?>"> </span>
-						<?php	} ?>						
+						<?php foreach ($brand_colours as $a_colour) { ?>	
+								<span class="brand-colour" style="background: <?php print $a_colour ?>"> </span>
+						<?php	} ?>	
 					</p>			
 					
 					<!-- title -->
@@ -89,16 +94,16 @@
 				
 				<!-- additional info -->
 				<div class="col-sm-2 col-sm-offset-1 margin-top-20">
-					<p class="h6 font-bold margin-bottom-0">Client</p>
-					<p class="margin-top-0"><?php print $client ?></p>
-
+					
 					<p class="h6 font-bold margin-top-20 margin-bottom-0">Skills used</p>
 					<p class="margin-0">
-						<?php 
-							for ($i = 0; $i <= $skills_count-1; $i++) {  ?>
-								<h3 class="tag"> <?php print $skills[$i] ?></h3>
-						<?php	} ?>						
-					</p>					
+						<?php foreach ($skills as $a_skill) { ?>	
+								<h3 class="tag"> <?php print $a_skill ?></h3>
+						<?php	} ?>											
+					</p>		
+				
+					<p class="h6 font-bold margin-bottom-0">Client</p>
+					<p class="margin-top-0"><?php print $client ?></p>				
 
 					<p class="h6 font-bold margin-top-20 margin-bottom-0">Live website</p>
 					<p class="margin-top-0"><a href="<?php print $website_url ?>" target="_blank"><?php print $website ?></a></p>
@@ -107,10 +112,11 @@
 					<p class="margin-top-0">fb</p>				
 				</div>
 
+				</div>
 				
-
 				
-				<!-- arrow navigation -->
+				
+			<!-- arrow navigation -->
 				<div class="svg-wrap">
 					<svg width="64" height="64" viewBox="0 0 64 64">
 						<path id="arrow-left-1" d="M46.077 55.738c0.858 0.867 0.858 2.266 0 3.133s-2.243 0.867-3.101 0l-25.056-25.302c-0.858-0.867-0.858-2.269 0-3.133l25.056-25.306c0.858-0.867 2.243-0.867 3.101 0s0.858 2.266 0 3.133l-22.848 23.738 22.848 23.738z" />
@@ -138,7 +144,8 @@
 					</div>
 				</section>
 	
-				
+
+			</article>				
 				
 			</div>
 		</div>
@@ -147,6 +154,153 @@
 	
 	<!-- include footer --> 	
 	<?php include('inc/_footer.php'); ?>	
+		
+		
+		
+				<script src="js/plugins/classie.js"></script>
+
+		<script>
+			(function() {
+
+				// detect if IE : from http://stackoverflow.com/a/16657946		
+				var ie = (function(){
+					var undef,rv = -1; // Return value assumes failure.
+					var ua = window.navigator.userAgent;
+					var msie = ua.indexOf('MSIE ');
+					var trident = ua.indexOf('Trident/');
+
+					if (msie > 0) {
+						// IE 10 or older => return version number
+						rv = parseInt(ua.substring(msie + 5, ua.indexOf('.', msie)), 10);
+					} else if (trident > 0) {
+						// IE 11 (or newer) => return version number
+						var rvNum = ua.indexOf('rv:');
+						rv = parseInt(ua.substring(rvNum + 3, ua.indexOf('.', rvNum)), 10);
+					}
+
+					return ((rv > -1) ? rv : undef);
+				}());
+
+
+				// disable/enable scroll (mousewheel and keys) from http://stackoverflow.com/a/4770179					
+				// left: 37, up: 38, right: 39, down: 40,
+				// spacebar: 32, pageup: 33, pagedown: 34, end: 35, home: 36
+				var keys = [32, 37, 38, 39, 40], wheelIter = 0;
+
+				function preventDefault(e) {
+					e = e || window.event;
+					if (e.preventDefault)
+					e.preventDefault();
+					e.returnValue = false;  
+				}
+
+				function keydown(e) {
+					for (var i = keys.length; i--;) {
+						if (e.keyCode === keys[i]) {
+							preventDefault(e);
+							return;
+						}
+					}
+				}
+
+				function touchmove(e) {
+					preventDefault(e);
+				}
+
+				function wheel(e) {
+					// for IE 
+					//if( ie ) {
+						//preventDefault(e);
+					//}
+				}
+
+				function disable_scroll() {
+					window.onmousewheel = document.onmousewheel = wheel;
+					document.onkeydown = keydown;
+					document.body.ontouchmove = touchmove;
+				}
+
+				function enable_scroll() {
+					window.onmousewheel = document.onmousewheel = document.onkeydown = document.body.ontouchmove = null;  
+				}
+
+				var docElem = window.document.documentElement,
+					scrollVal,
+					isRevealed, 
+					noscroll, 
+					isAnimating,
+					container = document.getElementById( 'container' ),
+					trigger = container.querySelector( 'button.trigger' );
+
+				function scrollY() {
+					return window.pageYOffset || docElem.scrollTop;
+				}
+				
+				function scrollPage() {
+					scrollVal = scrollY();
+					
+					if( noscroll && !ie ) {
+						if( scrollVal < 0 ) return false;
+						// keep it that way
+						window.scrollTo( 0, 0 );
+					}
+
+					if( classie.has( container, 'notrans' ) ) {
+						classie.remove( container, 'notrans' );
+						return false;
+					}
+
+					if( isAnimating ) {
+						return false;
+					}
+					
+					if( scrollVal <= 0 && isRevealed ) {
+						toggle(0);
+					}
+					else if( scrollVal > 0 && !isRevealed ){
+						toggle(1);
+					}
+				}
+
+				function toggle( reveal ) {
+					isAnimating = true;
+					
+					if( reveal ) {
+						classie.add( container, 'modify' );
+					}
+					else {
+						noscroll = true;
+						disable_scroll();
+						classie.remove( container, 'modify' );
+					}
+
+					// simulating the end of the transition:
+					setTimeout( function() {
+						isRevealed = !isRevealed;
+						isAnimating = false;
+						if( reveal ) {
+							noscroll = false;
+							enable_scroll();
+						}
+					}, 2600 );
+				}
+
+				// refreshing the page...
+				var pageScroll = scrollY();
+				noscroll = pageScroll === 0;
+				
+				disable_scroll();
+				
+				if( pageScroll ) {
+					isRevealed = true;
+					classie.add( container, 'notrans' );
+					classie.add( container, 'modify' );
+				}
+				
+				window.addEventListener( 'scroll', scrollPage );
+				trigger.addEventListener( 'click', function() { toggle( 'reveal' ); } );
+			})();
+		</script>		
 	
 </body>
 	

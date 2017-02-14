@@ -1558,21 +1558,21 @@ h6, .h6 {
   color: #fff !important; }
 
 .subheading {
-  font-family: "Dancing Script", Arial, sans-serif;
+  font-family: "Dancing Script", cursive;
   font-weight: 200;
   color: #666; }
 
 .subheading__hero {
-  font-family: "Raleway", Arial, sans-serif;
+  font-family: "Dancing Script", cursive;
   font-weight: 400;
   width: 80%;
   margin: 0 auto; }
 
 /* ----- hero heading, should only be used on home page ----- */
 .hero-heading {
-  font-size: 120px;
-  font-weight: 300;
-  font-family: "Dancing Script", Arial, sans-serif, serif;
+  font-size: 118px;
+  font-weight: 100;
+  font-family: "Raleway", Arial, sans-serif, serif;
   line-height: 1.4em;
   color: #444;
   width: 80%;
@@ -2752,7 +2752,7 @@ img {
   font-weight: 300;
   font-size: 1.5em;
   line-height: 1.5;
-  font-family: "Dancing Script", Arial, sans-serif, serif; }
+  font-family: "Dancing Script", cursive, serif; }
 
 .nav-slide div h3 span {
   display: block;
