@@ -960,7 +960,7 @@ section {
 
 @media (max-width: 991px) {
   .wrapper {
-    padding-top: 90px; }
+    padding-top: 60px; }
   .wrapper--footer {
     padding-top: 0px; } }
 
@@ -988,13 +988,13 @@ section {
 
 .hero-content__bg {
   text-align: center;
-  padding-top: 28vh;
+  padding: 30vh 10vh;
   height: 100vh; }
 
 @media (max-width: 768px) {
   .hero-content__bg {
     text-align: center;
-    padding-top: 22vh;
+    padding: 12vh 2vh;
     height: 70vh; } }
 
 .selected-works {
@@ -1250,9 +1250,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef5f4e', end
       background: #829DDD; } }
 
 .vertical-menu__logo {
-  height: 90px;
+  height: 160px;
   text-align: center;
-  margin-top: 30px; }
+  margin-top: 10px; }
 
 .vertical-menu__logo img {
   max-height: 100%;
@@ -1327,14 +1327,14 @@ nav li::after {
     display: none; } }
 
 @media (max-width: 767px) {
-  nav li span {
-    display: none; }
   nav ul {
-    margin-left: 10em;
-    margin-right: 15%;
+    margin-left: 5em;
+    margin-right: 5%;
     text-align: right; } }
 
-@media (max-width: 479px) {
+@media (max-width: 560px) {
+  nav li span {
+    display: none; }
   nav ul {
     margin-left: 1em;
     margin-right: 1%; } }
@@ -1345,11 +1345,7 @@ nav li::after {
 
 @media (max-width: 767px) {
   .icon {
-    margin: 0 20px; } }
-
-@media (max-width: 600px) {
-  .icon {
-    margin: 0; } }
+    margin: 0 10px; } }
 
 .nav-link {
   color: #fff;
@@ -1370,10 +1366,6 @@ nav li::after {
     padding: 0 0.8em; } }
 
 @media (max-width: 767px) {
-  .nav-link {
-    padding: 0 1.6em; } }
-
-@media (max-width: 479px) {
   .nav-link {
     padding: 0 1em; } }
 
@@ -1566,21 +1558,21 @@ h6, .h6 {
   color: #fff !important; }
 
 .subheading {
-  font-family: "Dancing Script", Arial, sans-serif;
+  font-family: "Dancing Script", cursive;
   font-weight: 200;
   color: #666; }
 
 .subheading__hero {
-  font-family: "Raleway", Arial, sans-serif;
+  font-family: "Dancing Script", cursive;
   font-weight: 400;
   width: 80%;
   margin: 0 auto; }
 
 /* ----- hero heading, should only be used on home page ----- */
 .hero-heading {
-  font-size: 120px;
-  font-weight: 300;
-  font-family: "Dancing Script", Arial, sans-serif, serif;
+  font-size: 118px;
+  font-weight: 100;
+  font-family: "Raleway", Arial, sans-serif, serif;
   line-height: 1.4em;
   color: #444;
   width: 80%;
@@ -2139,7 +2131,7 @@ img {
   background: #fff;
   width: 1.5vw;
   height: 1.5vw;
-  z-index: 999;
+  z-index: 9999;
   position: fixed;
   opacity: 1; }
 
@@ -2760,7 +2752,7 @@ img {
   font-weight: 300;
   font-size: 1.5em;
   line-height: 1.5;
-  font-family: "Dancing Script", Arial, sans-serif, serif; }
+  font-family: "Dancing Script", cursive, serif; }
 
 .nav-slide div h3 span {
   display: block;
