@@ -55,9 +55,9 @@
 			<div class="" style="position: relative; overflow-x: hidden; padding-bottom: 100px;">
 			<div id="container" class="intro-effect-jam3">	
 			<header class="header">
-				<div class="bg-img"><img src="img/1.jpg" alt="Background Image" /></div>
+				<div class="bg-img"><img src="img/1.jpg" alt="" /></div>
 				<div class="title">
-					<h1 class="h3 font-bold grey-6 subheading"><?php print $title ?></h3>
+					<h1 class="h3 font-bold grey-6 subheading"><?php print $title ?></h1>
 				</div>
 			</header>
 				
@@ -70,14 +70,13 @@
 				<div class="col-sm-9">
 					
 					<!-- brand colours -->	
-					<p class="margin-0">
+					<?php /*<p class="margin-0">
 						<?php foreach ($brand_colours as $a_colour) { ?>	
 								<span class="brand-colour" style="background: <?php print $a_colour ?>"> </span>
 						<?php	} ?>	
-					</p>			
+					</p>	*/  ?>		
 					
-					<!-- title -->
-					<h1 class="h3 font-bold grey-6 subheading"><?php print $title ?></h3>
+
 					
 					<!-- content -->
 					<p><strong>The problem:</strong><br>iiNet's core product pages presented a complex user experience. They were not responsive, and were no longer aligned with the brand. Each product page also had a unique interface and layout, confusing potential customers and customer service representatives.</p>
@@ -156,9 +155,6 @@
 	<?php include('inc/_footer.php'); ?>	
 		
 		
-		
-				<script src="js/plugins/classie.js"></script>
-
 		<script>
 			(function() {
 
@@ -185,7 +181,7 @@
 				// disable/enable scroll (mousewheel and keys) from http://stackoverflow.com/a/4770179					
 				// left: 37, up: 38, right: 39, down: 40,
 				// spacebar: 32, pageup: 33, pagedown: 34, end: 35, home: 36
-				var keys = [32, 37, 38, 39, 40], wheelIter = 0;
+				var keys = [32], wheelIter = 0;
 
 				function preventDefault(e) {
 					e = e || window.event;
@@ -267,6 +263,7 @@
 					
 					if( reveal ) {
 						classie.add( container, 'modify' );
+						//$('.content').css('margin-top','-300px');
 					}
 					else {
 						noscroll = true;
@@ -282,7 +279,7 @@
 							noscroll = false;
 							enable_scroll();
 						}
-					}, 2600 );
+					}, 600 );
 				}
 
 				// refreshing the page...
