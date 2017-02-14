@@ -290,7 +290,7 @@ button.trigger span::before {
 }
 
 .intro-effect-jam3 .content > div {
-	opacity: 0.2;
+	opacity: 0.7;
 	-webkit-transform: translateY(170px);
 	transform: translateY(170px);
 }
