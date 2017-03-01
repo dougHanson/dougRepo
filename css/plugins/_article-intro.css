@@ -6,9 +6,13 @@ html, body, .container, .header {
 .header {
 	position: relative;
 	margin: 0 auto;
-	min-height: 560px;
-	
+	min-height: 560px;	
 	width: 100%;
+}
+@media (max-width: 767px) {
+	.header {
+		min-height: 400px;	
+	}	
 }
 
 .bg-img {
@@ -151,8 +155,11 @@ button.trigger span::before {
 
 .content > div:not(.title) {
 	margin: -80px auto 0;
-	/*max-width: 900px;
-	padding: 0 1.25em;*/
+}
+@media (max-width: 767px) {
+	.content > div:not(.title) {
+		margin: -40px auto 0;
+	}
 }
 
 .content > div:not(.title) p {
@@ -165,8 +172,7 @@ button.trigger span::before {
 }
 
 .content h3 {
-	margin: 0;
-
+	margin: 2px 0;
 }
 
 .content blockquote {

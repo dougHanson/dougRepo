@@ -12,7 +12,7 @@
 
 
 	<!-- build:css -->
-	<link href="https://fonts.googleapis.com/css?family=Raleway|Dancing+Script|Satisfy" rel="stylesheet" type="text/css">	
+	<link href="https://fonts.googleapis.com/css?family=Raleway|Dancing+Script" rel="stylesheet" type="text/css">	
 	<link rel="stylesheet" href="css/styles.css" media="all">		
 	<link rel="stylesheet" href="css/plugins/_article-intro.css" media="all">		
 	
@@ -23,17 +23,20 @@
 
 <body>	
 
-<!-- ########################
+<?php /* ####################
 					DEFINE PROJECT 
-############################# -->
+############################# */ ?>
 <?php 
 	$title = 'iiNet Plan Page Redesign';
 	$client = 'iiNet';
 	$brand_colours = [ '#ff8200', '#d21f2a', '#0090ab', '#808080', '#fff' ];
-	$year = '2016';		
+	//$year = '2016';		
 	$skills = [ 'HTML5', 'CSS3', 'PHP', 'Angular JS', 'User Testing' ];
 	$website = 'www.iinet.net.au';	
 	$website_url = '//www.iinet.net.au/internet-products/broadband/adsl';
+	
+	$next_project = ['multicomm', 'Multicomm Website'];
+	$previous_project = ['mobii-manager', 'Mobii Manager'];
 ?>
 	
 	
@@ -66,82 +69,65 @@
 				<div class="container">
 			
 				
-				<!-- content -->
-				<div class="col-sm-9">
-					
-					<!-- brand colours -->	
-					<?php /*<p class="margin-0">
-						<?php foreach ($brand_colours as $a_colour) { ?>	
-								<span class="brand-colour" style="background: <?php print $a_colour ?>"> </span>
-						<?php	} ?>	
-					</p>	*/  ?>		
-					
-
-					
 					<!-- content -->
-					<p><strong>The problem:</strong><br>iiNet's core product pages presented a complex user experience. They were not responsive, and were no longer aligned with the brand. Each product page also had a unique interface and layout, confusing potential customers and customer service representatives.</p>
-					<p>This presented an opportunity to improve the user experience, by simplifying these pages and unifying them with each other and the brand. </p>
-					
-					<p><strong>The process:</strong><br>The first step was to conduct a handful of user testing sessions, to identify the main pain points for users. The designs were then refined.</p>
-					
-					<p><strong>The outcome:</strong><br>The new responsive pages reduce cognitive load by breaking down the plan customisation into intuitive steps. Both conversion and bounce rates improved once the new pages were released.</p>
-					<p class="margin-bottom-40"><!-- --></p>		
-					
-				</div>
+					<div class="col-sm-9">
 
-				
-				
-				<!-- additional info -->
-				<div class="col-sm-2 col-sm-offset-1 margin-top-20">
-					
-					<p class="h6 font-bold margin-top-20 margin-bottom-0">Skills used</p>
-					<p class="margin-0">
-						<?php foreach ($skills as $a_skill) { ?>	
-								<h3 class="tag"> <?php print $a_skill ?></h3>
-						<?php	} ?>											
-					</p>		
-				
-					<p class="h6 font-bold margin-bottom-0">Client</p>
-					<p class="margin-top-0"><?php print $client ?></p>				
+						<!-- brand colours -->	
+						<?php /*<p class="margin-0">
+							<?php foreach ($brand_colours as $a_colour) { ?>	
+									<span class="brand-colour" style="background: <?php print $a_colour ?>"> </span>
+							<?php	} ?>	
+						</p>	*/  ?>		
 
-					<p class="h6 font-bold margin-top-20 margin-bottom-0">Live website</p>
-					<p class="margin-top-0"><a href="<?php print $website_url ?>" target="_blank"><?php print $website ?></a></p>
-				
-					<p class="h6 font-bold margin-top-20 margin-bottom-0">Share</p>
-					<p class="margin-top-0">fb</p>				
-				</div>
 
-				</div>
-				
-				
-				
-			<!-- arrow navigation -->
-				<div class="svg-wrap">
-					<svg width="64" height="64" viewBox="0 0 64 64">
-						<path id="arrow-left-1" d="M46.077 55.738c0.858 0.867 0.858 2.266 0 3.133s-2.243 0.867-3.101 0l-25.056-25.302c-0.858-0.867-0.858-2.269 0-3.133l25.056-25.306c0.858-0.867 2.243-0.867 3.101 0s0.858 2.266 0 3.133l-22.848 23.738 22.848 23.738z" />
-					</svg>
-					<svg width="64" height="64" viewBox="0 0 64 64">
-						<path id="arrow-right-1" d="M17.919 55.738c-0.858 0.867-0.858 2.266 0 3.133s2.243 0.867 3.101 0l25.056-25.302c0.858-0.867 0.858-2.269 0-3.133l-25.056-25.306c-0.858-0.867-2.243-0.867-3.101 0s-0.858 2.266 0 3.133l22.848 23.738-22.848 23.738z" />
-					</svg>
-				</div>			
-				<section>
-					<div class="nav-slide">
-						<a class="prev" href="multicomm.php">
-							<span class="icon-wrap"><svg class="icon" width="32" height="32" viewBox="0 0 64 64"><use xlink:href="#arrow-left-1"></svg></span>
-							<div>
-								<h3><span>previous project</span>Multicomm Website</h3>
-								<img src="img/multicomm-thumb.png" alt="Prev project"/>
-							</div>
-						</a>
-						<a class="next" href="mobii-manager.php">
-							<span class="icon-wrap"><svg class="icon" width="32" height="32" viewBox="0 0 64 64"><use xlink:href="#arrow-right-1"></svg></span>
-							<div>
-								<h3><span>next project</span>Mobii Manager</h3>
-								<img src="img/mobii-manager-thumb.png" alt="Next project"/>
-							</div>
-						</a>
+
+						<!-- content -->
+						<p><strong>The problem:</strong><br>iiNet's core product pages presented a complex user experience. They were not responsive, and were no longer aligned with the brand. Each product page also had a unique interface and layout, confusing potential customers and customer service representatives.</p>
+						<p>This presented an opportunity to improve the user experience, by simplifying these pages and unifying them with each other and the brand. </p>
+
+						<p><strong>The process:</strong><br>The first step was to conduct a handful of user testing sessions, to identify the main pain points for users. The designs were then refined.</p>
+
+						<p><strong>The outcome:</strong><br>The new responsive pages reduce cognitive load by breaking down the plan customisation into intuitive steps. Both conversion and bounce rates improved once the new pages were released.</p>
+						<p class="margin-bottom-40"><!-- --></p>		
+
 					</div>
-				</section>
+
+
+
+					<!-- additional info -->
+					<div class="col-sm-2 col-sm-offset-1 margin-top-20">
+
+						<p class="h6 font-bold margin-top-20 margin-bottom-0">Skills used</p>
+						<p class="margin-0">
+							<?php foreach ($skills as $a_skill) { ?>	
+									<h3 class="tag"> <?php print $a_skill ?></h3>
+							<?php	} ?>											
+						</p>		
+
+						<p class="h6 font-bold margin-bottom-0">Client</p>
+						<p class="margin-top-0"><?php print $client ?></p>				
+
+						<?php if(isset($website)) { ?>
+						<p class="h6 font-bold margin-top-20 margin-bottom-0">Live website</p>
+						<p class="margin-top-0"><a href="<?php print $website_url ?>" target="_blank"><?php print $website ?></a></p>
+						<?php } ?>
+
+						<?php if(isset($year)) { ?>
+						<p class="h6 font-bold margin-top-20 margin-bottom-0">When</p>
+						<p class="margin-top-0"><?php print $year ?></p>
+						<?php } ?>					
+
+						<p class="h6 font-bold margin-top-20 margin-bottom-0">Share</p>
+						<p class="margin-top-0">facebook</p>				
+					</div>
+
+				</div>
+				
+				
+					<?php include('inc/_project-slides.php'); ?>	
+		
+				
+				
 	
 
 			</article>				
