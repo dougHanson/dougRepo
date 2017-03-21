@@ -65,11 +65,11 @@
 			------------------------------------------ -->		
       <div id="hero-content" class="hero-content parallax-bg">
         <div class="hero-content__bg">
-					<div class="fadeOut"><a href="index.php"><img src="img/namelogo.png" /></a></div>
+					<!--<div class="fadeOut"><a href="index.php"><img src="img/namelogo.png" /></a></div>-->
           <h3 class="h1 hero-heading fadeOut"><span>Doug Hanson</span></h1>
           <h1 class="h3 subheading subheading__hero grey-2 fadeOut">Web Designer &amp; Front-end Developer based in Perth, Western Australia</h3>
         
-					<!--<div class="mouse_scroll fadeOut--fast visible-lg">
+					<div class="mouse_scroll fadeOut--fast visible-lg">
 						<div class="mouse">
 							<div class="wheel"></div>
 						</div>
@@ -78,7 +78,7 @@
 							<span class="m_scroll_arrows doi"></span>
 							<span class="m_scroll_arrows trei"></span>
 						</div>
-					</div>	-->			
+					</div>		
 				
 				
 				</div>
