@@ -1,4 +1,4 @@
-<footer class="text-center" style="background: url('img/footer.png') fixed no-repeat; background-position: bottom; height: 180px;">
+<footer class="text-center" >
 	
 	
 	<div class="wrapper wrapper--footer">		
@@ -7,7 +7,7 @@
 					
 				<div class="row">
 					<div class="col-sm-12">
-						<p class="text-center white">Copyright Doug Hanson 2017</p>
+						<p class="text-center">Copyright Doug Hanson 2017</p>
 					</div>
 					
 					<div class="social-wrapper">

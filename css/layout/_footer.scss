@@ -4,13 +4,14 @@
 /* ************************************* */
 
 footer { 
-  background: $grey-background;
-	background: url('img/footer.png'); 
+  background: #fff;
+	//background: url('img/footer.png'); 
 	background-size: cover; 
   height: 200px;
   margin-top: 40px;
   padding: 10px 0;
   border-top: 1px solid $grey-border;
+	//style="background: url('img/footer.png') fixed no-repeat; background-position: bottom; height: 180px;"
 }
 
 .footer__logo {

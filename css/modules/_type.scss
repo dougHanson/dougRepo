@@ -163,12 +163,14 @@ h6, .h6              { font-size: $font-size-h6; }
 .subheading { 
   font-family: $font-family-secondary;
   font-weight: 200; 
-	color: $grey-6;
+	color: $grey-4;
 }
 
 .subheading__hero {
 	font-family: $font-family-secondary;
 	font-weight: 400;
+	font-size: 2rem;
+	color: $grey-1;
 	width: 80%;
 	margin: 0 auto;
 }
@@ -176,13 +178,13 @@ h6, .h6              { font-size: $font-size-h6; }
 /* ----- hero heading, should only be used on home page ----- */
 
 .hero-heading {
-  font-size: 118px;
+  font-size: 88px;
   font-weight: 100;
   font-family: $font-family-primary, serif;
   line-height: 1.4em;
   //text-transform: uppercase;   
-  color: $grey-4;
-  //letter-spacing: 8px;
+  color: $grey-1;
+  letter-spacing: 3px;
 	width: 80%;
 	margin: 0 auto;	
 }

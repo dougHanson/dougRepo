@@ -22,11 +22,13 @@
 
 	
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#829ddd+0,2bcacf+100 */
-background: $brand-color-2; /* Old browsers */
-background: -moz-linear-gradient(top, $brand-color-2 0%, $brand-primary 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, $brand-color-2 0%,$brand-primary 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, $brand-color-2 0%,$brand-primary 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#829ddd', endColorstr='#2bcacf',GradientType=0 ); /* IE6-9 */	
+	background: url('../img/aside1.png');
+	box-shadow: 3px 0 6px $grey-8;
+/*background: $brand-color-2;
+background: -moz-linear-gradient(top, $brand-color-2 0%, $brand-primary 100%);
+background: -webkit-linear-gradient(top, $brand-color-2 0%,$brand-primary 100%); 
+background: linear-gradient(to bottom, $brand-color-2 0%,$brand-primary 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#829ddd', endColorstr='#2bcacf',GradientType=0 );
 @media (max-width: 991px) {
   background: $brand-color-2;
 }	

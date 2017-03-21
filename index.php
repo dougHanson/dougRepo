@@ -65,9 +65,9 @@
 			------------------------------------------ -->		
       <div id="hero-content" class="hero-content parallax-bg">
         <div class="hero-content__bg">
-<!--          <img src="img/logo.png" alt="" />-->
-          <h1 class="hero-heading fadeOut"><span>Doug Hanson</span></h1>
-          <h3 class="subheading subheading__hero fadeOut">Web Designer &amp; Front-end Developer based in Perth, Western Australia</h3>
+					<div class="fadeOut"><a href="index.php"><img src="img/namelogo.png" /></a></div>
+          <h3 class="h1 hero-heading fadeOut"><span>Doug Hanson</span></h1>
+          <h1 class="h3 subheading subheading__hero grey-2 fadeOut">Web Designer &amp; Front-end Developer based in Perth, Western Australia</h3>
         
 					<!--<div class="mouse_scroll fadeOut--fast visible-lg">
 						<div class="mouse">
@@ -284,7 +284,7 @@
 			//   Contact
 			------------------------------------------ -->		
       <section id="contact" class="contact-me container pad-lr-20">
-        <div class="col-sm-12 row">
+        <div class="col-sm-12">
         
           <p class="h3 subheading text-center margin-0">get in touch</p>
           <h2 class="text-center">Contact</h2>
