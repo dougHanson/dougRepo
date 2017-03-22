@@ -29,7 +29,7 @@ html, body, .container, .header {
 .bg-img img {
 	position: absolute;
 	top: 0;
-	left: 0;
+	right: 0;
 	display: block;
 	min-width: 100%;
 	min-height: 100%;
@@ -52,8 +52,13 @@ html, body, .container, .header {
 	padding: 0 0 0.2em;
 	color: #fff;
 	font-weight: 800;
-	font-size: 3.25em;
+	font-size: 3em; 
 	margin: 0 auto;
+}
+@media (max-width: 767px) {
+	.title h1 {
+		font-size: 2em; 	
+	}	
 }
 
 .title p {
@@ -282,18 +287,6 @@ button.trigger span::before {
 	transform: translateY(0);
 }
 
-.intro-effect-jam3 .content {
-	padding: 0;
-}
-
-.intro-effect-jam3.modify .content {
-	padding: 0;
-}
-
-.intro-effect-jam3 .header,
-.intro-effect-jam3 .content {
-	background: #fafaf9;
-}
 
 .intro-effect-jam3 .content > div {
 	opacity: 0.7;

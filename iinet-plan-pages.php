@@ -14,7 +14,7 @@
 	<!-- build:css -->
 	<link href="https://fonts.googleapis.com/css?family=Raleway|Dancing+Script" rel="stylesheet" type="text/css">	
 	<link rel="stylesheet" href="css/styles.css" media="all">		
-	<link rel="stylesheet" href="css/plugins/_article-intro.css" media="all">		
+	
 	
 	<!-- endbuild -->
 
@@ -60,7 +60,7 @@
 			<header class="header">
 				<div class="bg-img"><img src="img/1.jpg" alt="" /></div>
 				<div class="title">
-					<h1 class="h3 font-bold grey-6 subheading"><?php print $title ?></h1>
+					<h1 class="h3 font-bold grey-6"><?php print $title ?></h1>
 				</div>
 			</header>
 				
@@ -82,8 +82,8 @@
 
 
 						<!-- content -->
-						<p><strong>The problem:</strong><br>iiNet's core product pages presented a complex user experience. They were not responsive, and were no longer aligned with the brand. Each product page also had a unique interface and layout, confusing potential customers and customer service representatives.</p>
-						<p>This presented an opportunity to improve the user experience, by simplifying these pages and unifying them with each other and the brand. </p>
+						<p class="h3 subheading padding-0 margin-0">At a glance</p>
+						<p>iiNet's core product pages presented a complex user experience. They were not responsive, and were no longer aligned with the brand. Each product page also had a unique interface and layout, confusing potential customers and customer service representatives. This presented an opportunity to improve the user experience, by simplifying these pages and unifying them with each other and the brand. </p>
 
 						<p><strong>The process:</strong><br>The first step was to conduct a handful of user testing sessions, to identify the main pain points for users. The designs were then refined.</p>
 
@@ -95,36 +95,36 @@
 
 
 					<!-- additional info -->
-					<div class="col-sm-2 col-sm-offset-1 margin-top-20">
+					<div class="col-sm-2 col-sm-offset-1 ">
 
-						<p class="h6 font-bold margin-top-20 margin-bottom-0">Skills used</p>
+						<p class="h4 subheading font-bold margin-top-20 margin-bottom-0">Skills used</p>
 						<p class="margin-0">
 							<?php foreach ($skills as $a_skill) { ?>	
-									<h3 class="tag"> <?php print $a_skill ?></h3>
+									<h2 class="tag"> <?php print $a_skill ?></h2>
 							<?php	} ?>											
 						</p>		
 
-						<p class="h6 font-bold margin-bottom-0">Client</p>
+						<p class="h4 subheading font-bold margin-bottom-0">Client</p>
 						<p class="margin-top-0"><?php print $client ?></p>				
 
 						<?php if(isset($website)) { ?>
-						<p class="h6 font-bold margin-top-20 margin-bottom-0">Live website</p>
+						<p class="h4 subheading font-bold margin-top-20 margin-bottom-0">Live website</p>
 						<p class="margin-top-0"><a href="<?php print $website_url ?>" target="_blank"><?php print $website ?></a></p>
 						<?php } ?>
 
 						<?php if(isset($year)) { ?>
-						<p class="h6 font-bold margin-top-20 margin-bottom-0">When</p>
+						<p class="h4 subheading font-bold margin-top-20 margin-bottom-0">When</p>
 						<p class="margin-top-0"><?php print $year ?></p>
 						<?php } ?>					
 
-						<p class="h6 font-bold margin-top-20 margin-bottom-0">Share</p>
+						<p class="h4 subheading font-bold margin-top-20 margin-bottom-0">Share</p>
 						<p class="margin-top-0">facebook</p>				
 					</div>
 
 				</div>
 				
 				
-					<?php include('inc/_project-slides.php'); ?>	
+				<?php include('inc/_project-slides.php'); ?>	
 		
 				
 				

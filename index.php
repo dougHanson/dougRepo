@@ -97,8 +97,8 @@
 			------------------------------------------ -->			
       <section id="selected-works" class="selected-works container pad-lr-20">
 				
-        <p class="h3 subheading text-center margin-0">my portfolio</p>
-        <h2 class="text-center">Selected works</h2>				
+        <h4 class="h3 subheading text-center margin-0">my portfolio</h4>
+        <h4 class="h2 text-center">Selected works</h4>				
         <div class="text-center"><img src="img/arrow.png" /></div>     
 
         <div style="margin-top:40px;" class="masonry-container">  
@@ -113,7 +113,7 @@
 
 							<div class="work-item__content">
 								<p class="work-item__heading">Product Page Redesign</p>
-								<p class="h5 subheading">ux / web design &amp; development</p>
+								<h2 class="h5 subheading">ux / web design &amp; development</h2>
 							</div>
 						</article>
 					</a>
@@ -128,7 +128,7 @@
 
 							<div class="work-item__content">
 								<p class="work-item__heading">Mobii Manager</p>
-								<p class="h5 subheading">ux / mobile design </p>
+								<h2 class="h5 subheading">ux / mobile design </h2>
 							</div>
 						</article>
 					</a>
@@ -143,7 +143,7 @@
 
 							<div class="work-item__content">
 								<p class="work-item__heading">Multicomm Website</p>
-								<p class="h5 subheading">branding / web design &amp; development</p>
+								<h2 class="h5 subheading">branding / web design &amp; development</h2>
 							</div>
 						</article>
 					</a>
@@ -207,12 +207,12 @@
 			//   About me
 			------------------------------------------ -->		
       <section id="about" class="about container">
-        <div class="h3 subheading text-center margin-0">roles and experience</div>
-        <h2 class="text-center">About me</h2>
+        <h4 class="h3 subheading text-center margin-0">roles and experience</h4>
+        <h4 class="h2 text-center">About me</h4>
         <div class="text-center"><img src="img/arrow.png" /></div>
         <div class="col-lg-9">
 					<br>
-          <p>A driven, creative professional with a broad technical skill set. An excellent communicator experienced in interpreting and implementing client and staff visions of new websites and digital creative. Enjoys collaborating with colleagues and clients, and will voluntarily help and teach whenever needed, with expertise ranging from design, development and conceptualization to programming and management.</p> 
+          <p class="text-center-xs">A driven, creative professional with a broad technical skill set. An excellent communicator experienced in interpreting and implementing client and staff visions of new websites and digital creative. Enjoys collaborating with colleagues and clients, and will voluntarily help and teach whenever needed, with expertise ranging from design, development and conceptualization to programming and management.</p> 
           <p>&nbsp;</p>
         </div> 
         <div class="col-lg-3 text-right visible-lg">
@@ -284,10 +284,9 @@
 			//   Contact
 			------------------------------------------ -->		
       <section id="contact" class="contact-me container pad-lr-20">
-        <div class="col-sm-12">
         
-          <p class="h3 subheading text-center margin-0">get in touch</p>
-          <h2 class="text-center">Contact</h2>
+          <h4 class="h3 subheading text-center margin-0">get in touch</h4>
+          <h4 class="h2 text-center">Contact</h4>
           <div class="text-center"><img src="img/arrow.png" /></div>    
           
           <!-- begin mailform -->
@@ -365,7 +364,6 @@
           ?>          
           <!-- end mailform -->
           
-        </div>
       </section>
       <!-- end contact me -->  
 			

@@ -23,11 +23,13 @@ $(window).bind('scroll', function(){
   } 
 	else if ( offset<=fadeUntil ) {
 		opacity = 1-(offset-fadeStart)/(fadeUntil);
-		fadingFastClass.css('opacity',opacity-0.7);
+		fadingFastClass.css('opacity',opacity-0.5);
 	}	
 	if( ! /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 		fadingClass.css('opacity',opacity);
 		fadingClass.css('top',offset*0.4); 
+		//fadingFastClass.css('opacity',opacity-0.4);
+		fadingFastClass.css('top',offset*0.9); 
 		//fadingFastClass.css('opacity',0);
 	}
 });
@@ -151,7 +153,7 @@ $(function(){
 
 // NAV MENU - add smooth scrolling 
 var scrollSpeed = 1200;
-var pathname = window.location.pathname; // Returns path only
+var pathname = window.location.pathname.substr(10); // Returns path only
 
 	
 	$(".nav-home").click(function() {
@@ -164,11 +166,17 @@ var pathname = window.location.pathname; // Returns path only
 	});
 
 	$(".nav-works").click(function() {	
-			
+		if (pathname == 'index.php') {	
 			$('html, body').animate({
 				scrollTop: $(".selected-works").offset().top-50
 			}, scrollSpeed);	
-			
+		}
+		else { 
+			window.location.pathname = '/dougRepo/index.php'; 				 
+			setTimeout(function(){ 
+				alert(pathname);
+			}, 500);
+		}		
 	});	
 
 	$(".nav-about").click(function() {

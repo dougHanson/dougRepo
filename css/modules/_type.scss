@@ -123,6 +123,9 @@ h6, .h6              { font-size: $font-size-h6; }
 .text-center         { text-align: center; }
 .text-justify        { text-align: justify; }
 .text-nowrap         { white-space: nowrap; }
+.text-center-xs			 { text-align: left;		
+	@media (max-width: 479px) {	text-align: center; } 	
+}
 
 /* ----- Transformation ----- */
 
@@ -173,7 +176,11 @@ h6, .h6              { font-size: $font-size-h6; }
 	color: $grey-1;
 	width: 80%;
 	margin: 0 auto;
+	@media (max-width: 479px) {
+		font-size: 1.5rem;
+	} 	
 }
+
 
 /* ----- hero heading, should only be used on home page ----- */
 
@@ -254,6 +261,7 @@ h6, .h6              { font-size: $font-size-h6; }
 	border-radius: 6px; 
 	display: inline-block; 
 	padding: 5px;
+	margin: 2px 0;
 	white-space: nowrap;
 }
 

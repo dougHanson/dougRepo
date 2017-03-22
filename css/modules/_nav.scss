@@ -14,36 +14,14 @@
   top: 0;
   left: 0;
   width: 270px;
-  //background-image: url('../img/side-menu-bg.png');
-  //background-size: cover;
-	//background: #444341;
   height: 100%;
   z-index: 888;
-
-	
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#829ddd+0,2bcacf+100 */
-	background: url('../img/aside1.png');
-	box-shadow: 3px 0 6px $grey-8;
-/*background: $brand-color-2;
-background: -moz-linear-gradient(top, $brand-color-2 0%, $brand-primary 100%);
-background: -webkit-linear-gradient(top, $brand-color-2 0%,$brand-primary 100%); 
-background: linear-gradient(to bottom, $brand-color-2 0%,$brand-primary 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#829ddd', endColorstr='#2bcacf',GradientType=0 );
-@media (max-width: 991px) {
-  background: $brand-color-2;
-}	
-
-/* orange red gradient
-background: #ef5f4e;
-background: -moz-linear-gradient(top,  #ef5f4e 0%, #f59a5d 100%); 
-background: -webkit-linear-gradient(top,  #ef5f4e 0%,#f59a5d 100%);
-background: linear-gradient(to bottom,  #ef5f4e 0%,#f59a5d 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef5f4e', endColorstr='#f59a5d',GradientType=0 ); 
-*/
-		
-	
-	
-	//box-shadow: 4px 0px 12px #ccc;
+	background-image: url('../img/aside1.png');
+	background-size: cover;
+	box-shadow: 3px 0 6px $grey-9;
+	@media (max-width: 991px) {
+		background: $brand-primary;
+	}
 
 }
 .vertical-menu__logo {

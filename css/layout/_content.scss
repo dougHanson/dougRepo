@@ -39,11 +39,19 @@
   background-attachment: fixed;
   background-size: cover;
   margin-bottom: 70px;
-}
-@media (max-width: 991px) {
-	.hero-content {
-		min-height: 70vh;
+	@media (max-width: 991px) {
+			min-height: 80vh;
 	}
+	@media (max-width: 768px) {
+			text-align: center; 
+			padding: 10vh 0;  
+			height: 80vh;
+	}
+	@media (max-width: 480px) {
+			text-align: center; 
+			padding: 14vh 0;  
+			height: 80vh;
+	}	
 }
 
 .hero-content__bg {
