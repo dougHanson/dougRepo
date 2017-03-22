@@ -14,13 +14,13 @@ p {
 a {
   color: $link-color;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 600; 
 }
 
 a:hover, 
 a:focus {
     color: $link-hover-color;
-    //text-decoration: $link-hover-decoration;
+    text-decoration: $link-hover-decoration;
 }
 
 strong, b {

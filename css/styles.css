@@ -1015,7 +1015,6 @@ section {
 /* ************************************* */
 footer {
   background: #fff;
-  background-size: cover;
   height: 200px;
   margin-top: 40px;
   padding: 10px 0;
@@ -1237,7 +1236,7 @@ hr {
   z-index: 888;
   background-image: url("../img/aside1.png");
   background-size: cover;
-  border-right: 1px solid #e4e4e4; }
+  border-right: 1px solid #888; }
   @media (max-width: 991px) {
     .vertical-menu {
       background: #B8AB8A; } }
@@ -1252,6 +1251,7 @@ hr {
   transition: all 1s; }
 
 .vertical-menu__logo img:hover {
+  transform: scale(1.1);
   transition: all 1s; }
 
 @media (max-width: 991px) {
@@ -1346,12 +1346,14 @@ nav li::after {
   height: 100%;
   padding: 1em 2em;
   display: block;
-  transition: all 0.2s; }
+  transition: all 0.2s;
+  text-decoration: none; }
 
 .nav-link:hover,
 .nav-link:focus {
   background-color: rgba(255, 255, 255, 0.1);
-  color: #fff; }
+  color: #fff;
+  text-decoration: none; }
 
 @media (max-width: 991px) {
   .nav-link {
@@ -1380,7 +1382,8 @@ a {
 
 a:hover,
 a:focus {
-  color: #141319; }
+  color: #141319;
+  text-decoration: underline; }
 
 strong, b {
   font-weight: 600; }
@@ -2139,7 +2142,7 @@ img {
 //   styles for frame borders around perimeter
 /* ************************************* */
 .frame {
-  background: #fff;
+  background: #636363;
   width: 1.5vw;
   height: 1.5vw;
   z-index: 9999;
@@ -2972,6 +2975,10 @@ html, body, .container, .header {
   .header {
     min-height: 400px; } }
 
+/* Move footer up */
+footer {
+  margin-top: -140px; }
+
 .bg-img {
   position: absolute;
   overflow: hidden;
@@ -3125,6 +3132,10 @@ button.trigger span::before {
 /* -------------------------- */
 /* Jam 3 */
 /* -------------------------- */
+.intro-effect-jam3 {
+  position: relative;
+  overflow: hidden; }
+
 .intro-effect-jam3:not(.notrans) .bg-img {
   -webkit-transition-property: top, left, right, bottom;
   transition-property: top, left, right, bottom; }
@@ -3199,12 +3210,12 @@ button.trigger span::before {
   transform: translateY(170px); }
 
 .intro-effect-jam3 .content > div {
-  opacity: 0.3; }
+  opacity: 0.1; }
 
 .intro-effect-jam3.modify .content > div {
   opacity: 1;
-  -webkit-transform: translateY(-130px);
-  transform: translateY(-130px); }
+  -webkit-transform: translateY(-145px);
+  transform: translateY(-145px); }
 
 .intro-effect-jam3.modify .codrops-top a {
   color: #514753; }

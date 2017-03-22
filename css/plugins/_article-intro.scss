@@ -15,6 +15,9 @@ html, body, .container, .header {
 	}	
 }
 
+/* Move footer up */
+footer { margin-top: -140px; }
+
 .bg-img {
 	position: absolute;
 	overflow: hidden;
@@ -195,6 +198,8 @@ button.trigger span::before {
 /* -------------------------- */
 /* Jam 3 */
 /* -------------------------- */
+.intro-effect-jam3 {  position: relative; overflow: hidden; }
+
 .intro-effect-jam3:not(.notrans) .bg-img {
 	-webkit-transition-property: top, left, right, bottom;
 	transition-property: top, left, right, bottom;
@@ -289,13 +294,13 @@ button.trigger span::before {
 }
 
 .intro-effect-jam3 .content > div {
-	opacity: 0.3;
+	opacity: 0.1;
 }
 
 .intro-effect-jam3.modify .content > div {
 	opacity: 1;
-	-webkit-transform: translateY(-130px);
-	transform: translateY(-130px);
+	-webkit-transform: translateY(-145px);
+	transform: translateY(-145px); 
 }
 
 .intro-effect-jam3.modify .codrops-top a {

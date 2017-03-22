@@ -18,7 +18,7 @@
   z-index: 888;
 	background-image: url('../img/aside1.png');
 	background-size: cover;
-	border-right: 1px solid $grey-border;
+	border-right: 1px solid $grey-8;
 	//box-shadow: 3px 0 6px $grey-9;
 	@media (max-width: 991px) {
 		background: $brand-primary;
@@ -36,7 +36,7 @@
 }
 
 .vertical-menu__logo img:hover {
-	//transform: rotateY(360deg);
+	transform: scale(1.1);
 	transition: all 1s;
 }
 
@@ -154,11 +154,13 @@ nav li::after {
   padding: 1em 2em;
   display: block;
   transition: all 0.2s;
+	text-decoration: none;
 }
 .nav-link:hover,
 .nav-link:focus {
   background-color: rgba(255,255,255,0.10);
   color: #fff;
+	text-decoration: none;
 }
 @media (max-width: 991px) {
   .nav-link {
