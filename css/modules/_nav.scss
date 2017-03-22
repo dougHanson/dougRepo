@@ -18,7 +18,8 @@
   z-index: 888;
 	background-image: url('../img/aside1.png');
 	background-size: cover;
-	box-shadow: 3px 0 6px $grey-9;
+	border-right: 1px solid $grey-border;
+	//box-shadow: 3px 0 6px $grey-9;
 	@media (max-width: 991px) {
 		background: $brand-primary;
 	}

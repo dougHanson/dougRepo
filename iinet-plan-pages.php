@@ -58,17 +58,19 @@
 			<div class="" style="position: relative; overflow-x: hidden; padding-bottom: 100px;">
 			<div id="container" class="intro-effect-jam3">	
 			<header class="header">
-				<div class="bg-img"><img src="img/1.jpg" alt="" /></div>
-				<div class="title">
-					<h1 class="h3 font-bold grey-6"><?php print $title ?></h1>
+				<div class="bg-img">
+					<img src="img/1.jpg" alt="" />
 				</div>
+
 			</header>
-				
+				<div class="container"><div class="col-sm-12 title">
+							<h1 class="h3 font-bold grey-6"><?php print $title ?></h1>
+					</div>	</div>
 				
 			<article class="content">
 				<div class="container">
 			
-				
+						
 					<!-- content -->
 					<div class="col-sm-9">
 
@@ -82,6 +84,8 @@
 
 
 						<!-- content -->
+					
+						
 						<p class="h3 subheading padding-0 margin-0">At a glance</p>
 						<p>iiNet's core product pages presented a complex user experience. They were not responsive, and were no longer aligned with the brand. Each product page also had a unique interface and layout, confusing potential customers and customer service representatives. This presented an opportunity to improve the user experience, by simplifying these pages and unifying them with each other and the brand. </p>
 
@@ -97,27 +101,27 @@
 					<!-- additional info -->
 					<div class="col-sm-2 col-sm-offset-1 ">
 
-						<p class="h4 subheading font-bold margin-top-20 margin-bottom-0">Skills used</p>
+						<p class="h5 subheading font-bold margin-0 margin-bottom-0">Skills used</p>
 						<p class="margin-0">
 							<?php foreach ($skills as $a_skill) { ?>	
 									<h2 class="tag"> <?php print $a_skill ?></h2>
 							<?php	} ?>											
 						</p>		
 
-						<p class="h4 subheading font-bold margin-bottom-0">Client</p>
+						<p class="h5 subheading font-bold margin-bottom-0">Client</p>
 						<p class="margin-top-0"><?php print $client ?></p>				
 
 						<?php if(isset($website)) { ?>
-						<p class="h4 subheading font-bold margin-top-20 margin-bottom-0">Live website</p>
+						<p class="h5 subheading font-bold margin-top-20 margin-bottom-0">Live website</p>
 						<p class="margin-top-0"><a href="<?php print $website_url ?>" target="_blank"><?php print $website ?></a></p>
 						<?php } ?>
 
 						<?php if(isset($year)) { ?>
-						<p class="h4 subheading font-bold margin-top-20 margin-bottom-0">When</p>
+						<p class="h5 subheading font-bold margin-top-20 margin-bottom-0">When</p>
 						<p class="margin-top-0"><?php print $year ?></p>
 						<?php } ?>					
 
-						<p class="h4 subheading font-bold margin-top-20 margin-bottom-0">Share</p>
+						<p class="h5 subheading font-bold margin-top-20 margin-bottom-0">Share</p>
 						<p class="margin-top-0">facebook</p>				
 					</div>
 
