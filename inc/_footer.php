@@ -72,10 +72,7 @@
 		</div>
 	</div>
 	
-	
-	
 </footer>
-
 
 
 <!-- jQuery CDN --> 
@@ -104,3 +101,10 @@
   ga('send', 'pageview');	
 </script>
 <!-- end Google Analytics -->
+
+<!-- Fade wrapper in page load -->
+<script>
+	$(".wrapper").animate({"opacity": "1"}, 300);	
+</script>
+
+

@@ -15,9 +15,6 @@ html, body, .container, .header {
 	}	
 }
 
-/* Move footer up */
-footer { margin-top: -140px; }
-
 .bg-img {
 	position: absolute;
 	overflow: hidden;
@@ -45,13 +42,9 @@ footer { margin-top: -140px; }
 	position: absolute;
 }
 
-.title h1 {
-	padding: 0 0 0.2em;
-	color: #fff;
-	font-weight: 800;
-	font-size: 3em; 
-	margin: 0 auto;
-}
+.title h1 { color: #fff; }
+
+
 @media (max-width: 767px) {
 	.title h1 {
 		font-size: 2em; 	
@@ -257,10 +250,6 @@ button.trigger span::before {
 
 .intro-effect-jam3 .title {
 	top: 250px;
-	//right: -30px;
-	//bottom: -45px;
-	//left: -30px;
-	//background: #514753;
 }
 
 .intro-effect-jam3.modify .bg-img {
@@ -271,7 +260,7 @@ button.trigger span::before {
 }
 
 .intro-effect-jam3.modify .title h1 {
-	color: #514753;
+	color: $grey-6;
 }
 
 .intro-effect-jam3 .header p {
@@ -303,9 +292,6 @@ button.trigger span::before {
 	transform: translateY(-145px); 
 }
 
-.intro-effect-jam3.modify .codrops-top a {
-	color: #514753;
-}
 
 /* Delays */
 .intro-effect-jam3.modify:not(.notrans) .header p:nth-last-child(2) {

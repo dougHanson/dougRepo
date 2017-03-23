@@ -7,7 +7,6 @@ $(document).ready(function() {
 });
 
 
-
 // FADE CONTENT ON SCROLL
   var fadeStart = 150;
   var fadeUntil = 750;
@@ -172,10 +171,10 @@ var pathname = window.location.pathname.substr(10); // Returns path only
 			}, scrollSpeed);	
 		}
 		else { 
-			window.location.pathname = '/dougRepo/index.php'; 				 
-			setTimeout(function(){ 
-				alert(pathname);
-			}, 500);
+			$('html, body').fadeOut(100);				 
+			$('html,body').animate({
+				scrollTop: $(window.location.hash).offset().top
+			});
 		}		
 	});	
 

@@ -10,6 +10,8 @@
 
 .wrapper {
   margin: 1.5vw 1.5vw 0 1.5vw;
+	opacity: 0; 
+	transition: opacity 500ms;
 }
 @media (max-width: 991px) {
   .wrapper {

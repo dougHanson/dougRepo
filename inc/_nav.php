@@ -11,31 +11,29 @@
 		<br class="hidden-sm hidden-xs hidden-xxs">
     <nav>
       <ul>
-        <li class="nav-home"><a href="#" class="nav-link">					
+        <li class="nav-home"><a href="index.php#home" class="nav-link">					
 					<i class="icon">
 						<?php echo file_get_contents("svg/home.svg"); ?>
 					</i><span>Home</span></a>
 				</li>
 				
-				<li class="nav-works"><a href="#" class="nav-link">
+				<li class="nav-works"><a href="index.php#selected-works" class="nav-link">
 					<i class="icon">
 						<?php echo file_get_contents("svg/briefcase.svg"); ?>
 					</i><span><span class="hidden-xs">Selected</span> works</span></a>
 				</li>
 				
-        <li class="nav-about"><a href="#" class="nav-link">					
+        <li class="nav-about"><a href="index.php#about" class="nav-link">					
 					<i class="icon">
 						<?php echo file_get_contents("svg/about.svg"); ?>	
 					</i><span>About <span class="hidden-xs">me</span></span></a>
 				</li>
 									
-        <li class="nav-contact"><a href="#" class="nav-link">
+        <li class="nav-contact"><a href="index.php#contact" class="nav-link">
 					<i class="icon">
 						<?php echo file_get_contents("svg/contact.svg"); ?>
 					</i><span>Contact</span></a>
-				</li>       
-				
-				<!--<li class="nav-contact"><a href="#"><i class="icon svg-mail svg-pen-dims"></i><span>Contact</span></a></li>-->				
+				</li>       			
       </ul>
 			
 			<br><br>
@@ -68,9 +66,6 @@
 					<?php echo file_get_contents("svg/pinterest.svg"); ?>
 				</div>
 			</a>			
-			
-			
-	
 			
 			
     </nav>

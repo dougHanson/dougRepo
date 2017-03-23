@@ -20,8 +20,8 @@
 
 </head>
 
+<body class="project-page">	
 
-<body>	
 
 <?php /* ####################
 					DEFINE PROJECT 
@@ -49,7 +49,7 @@
 	<div class="wrapper">		
 		<div class="wrapper__outer">
 
-			<div id="container" class="intro-effect-jam3">	
+			<div id="container" class="intro-effect-jam3" style="position: relative;">	
 				
 				<header class="header">
 					<div class="bg-img">
@@ -59,7 +59,7 @@
 
 				<div class="container">
 					<div class="col-sm-12 title">
-							<h1 class="h3 font-bold grey-6"><?php print $title ?></h1>
+							<h1 class="font-bold grey-6"><?php print $title ?></h1>
 					</div>	
 				</div>
 
@@ -89,10 +89,8 @@
 						</div>
 
 
-
 						<!-- additional info -->
-						<div class="col-lg-2 col-lg-offset-1">
-
+						<div class="col-lg-2 col-lg-offset-1 sidebar">
 							<p class="h4 subheading font-bold margin-0 margin-bottom-0">Skills used</p>
 							<p class="margin-0">
 								<?php if(isset($skills)) { foreach ($skills as $a_skill) { ?>	
@@ -116,6 +114,7 @@
 							<p class="h4 subheading font-bold margin-top-20 margin-bottom-0">Share</p>
 							<p class="margin-top-0">facebook</p>				
 						</div>
+					
 
 
 					</div> <!-- end container -->
@@ -135,7 +134,23 @@
 	
 	<!-- include footer --> 	
 	<?php include('inc/_footer.php'); ?>	
-		
+	<style>.sidebar { margin-top: 20px; position:relative; top:0; .fixed{ position: fixed; top: 0; }</style>
+	
+	<script>
+		$(function () {
+
+			var sidebar = $('.sidebar');
+			var top = sidebar.offset().top;
+
+			$(window).scroll(function (event) {
+				var y = $(this).scrollTop() + 400;
+				if (y >= top) {
+					sidebar.css('top',y-700);
+				} 
+			});
+		});
+	</script>
+	
 		
 		<script>
 			(function() {

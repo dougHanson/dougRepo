@@ -11,6 +11,9 @@ footer {
   border-top: 1px solid $grey-border;
 }
 
+/* Move footer up on project pages to allow for transition */
+.project-page footer { margin-top: -140px; }
+
 .footer__logo {
   height: 30px;
   opacity: 0.5;
