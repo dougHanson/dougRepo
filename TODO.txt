@@ -10,9 +10,10 @@ make progress bar blue (brand-color-3)
 
 fix floating aside on plan pages, disable for mobile
 fix title positioning on mobile
+fix image hover sizes in selected works on tablets etc
 
 
-
+lazy load images on plan pages
 
 
 
@@ -21,6 +22,7 @@ iinet plan pages
 
 
 At a glance
+-all pages were made responsive
 
 [old page] Here's an example of the pages which needed improvement
 
@@ -33,5 +35,7 @@ At a glance
 [step 6] order summary was simplified to make all costs transparent, with a large primary CTA. 
 
 [accordion] further information about each product was neatly concealed within and expandable accordion, reducing the height and complexity of the page. Awards and testimonials, which act as support for purchase decision have been included on every plan page. 
+
+[responsive images] All pages are now responsive, and X% of traffic is on mobile
 
 [link to live site or full screenshot which opens in new tab]
