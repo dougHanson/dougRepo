@@ -31,13 +31,13 @@
 	$client = 'iiNet';
 	//$brand_colours = [ '#ff8200', '#d21f2a', '#0090ab', '#808080', '#fff' ];
 	//$year = '2016';		
-	$skills = [ 'HTML5', 'CSS3', 'PHP', 'Angular JS', 'User Testing' ];
+	$skills = array('HTML5', 'CSS3', 'PHP', 'Angular JS', 'User Testing');
 	
 	$website = 'www.iinet.net.au';	
 	$website_url = '//www.iinet.net.au/internet-products/broadband/adsl';
 	
-	$next_project = ['multicomm', 'Multicomm Website'];
-	$previous_project = ['mobii-manager', 'Mobii Manager'];
+	$next_project = array('multicomm', 'Multicomm Website');
+	$previous_project = array('mobii-manager', 'Mobii Manager');
 ?>
 	
 	
@@ -134,7 +134,7 @@
 	
 	<!-- include footer --> 	
 	<?php include('inc/_footer.php'); ?>	
-	<style>.sidebar { margin-top: 20px; position:relative; top:0; .fixed{ position: fixed; top: 0; }</style>
+	<style>.sidebar { margin-top: 20px; position:relative; top:0; } .fixed{ position: fixed; top: 0; }</style>
 	
 	<script>
 		$(function () {

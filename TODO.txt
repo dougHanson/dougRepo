@@ -2,25 +2,36 @@ gulp clean & gulp in general
 
 contact form functionality
 
-footer styling and content
-
 widen perth bg image and compress
+widen plan page image and compress
 
-scroll down image
+progress load effect on arrow navigation
+make progress bar blue (brand-color-3)
 
-work items on mobile
-
-progress load on arrow navigation
-
-
+fix floating aside on plan pages, disable for mobile
+fix title positioning on mobile
 
 
-case studies
-------------
 
-content
 
-fix includes
 
-ability to flick to next case study with codrops preview, or back to grid (vigor style)
 
+-----------
+iinet plan pages
+
+
+At a glance
+
+[old page] Here's an example of the pages which needed improvement
+
+[banner, subnav, breadcrumbs] banner integrated with current ATL campaign artwork, featuring hero plan.
+
+
+[carousel steps 1 and 2 | step 3 4 5]new design created with a stepped approach, making it easy for users to understand. User testing was then conducted with a handful of customer service reps, which allowed us to refine the design further and highlight key plan features, and clear feedback as to plan availability. Checkbox element created to allow for clear feedback as to what has been selected.
+
+
+[step 6] order summary was simplified to make all costs transparent, with a large primary CTA. 
+
+[accordion] further information about each product was neatly concealed within and expandable accordion, reducing the height and complexity of the page. Awards and testimonials, which act as support for purchase decision have been included on every plan page. 
+
+[link to live site or full screenshot which opens in new tab]
