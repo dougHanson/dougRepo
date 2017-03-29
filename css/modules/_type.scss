@@ -14,7 +14,7 @@ p {
 a {
   color: $link-color;
   text-decoration: none;
-  font-weight: 600; 
+  font-weight: 400; 
 }
 
 a:hover, 
@@ -146,8 +146,8 @@ h6, .h6              { font-size: $font-size-h6; }
 /* ----- Font weights ----- */
 
 .font-light          { font-weight: 100; }
-.font-bold           { font-weight: 600; }
-.font-heavy          { font-weight: 700; }
+.font-bold           { font-weight: 400; }
+.font-heavy          { font-weight: 600; }
 
 /* ----- Line spacing ----- */
 
@@ -165,13 +165,11 @@ h6, .h6              { font-size: $font-size-h6; }
 
 .subheading { 
   font-family: $font-family-secondary;
-  font-weight: 200; 
 	color: $grey-6;
 }
 
 .subheading__hero {
 	font-family: $font-family-secondary;
-	font-weight: 400;
 	font-size: 2rem;
 	color: $grey-2;
 	width: 80%;

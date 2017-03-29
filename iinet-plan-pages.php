@@ -12,7 +12,7 @@
 
 
 	<!-- build:css -->
-	<link href="https://fonts.googleapis.com/css?family=Raleway|Dancing+Script" rel="stylesheet" type="text/css">	
+	<link href="https://fonts.googleapis.com/css?family=Raleway:100,200,400,600|Dancing+Script" rel="stylesheet" type="text/css">	
 	<link rel="stylesheet" href="css/styles.css" media="all">		
 	
 	
@@ -78,29 +78,24 @@
 							</p>
 
 							<!-- copy -->
-							<p class="h2 subheading padding-0 margin-0">At a glance</p>
+							<p class="h3 subheading padding-0 margin-0">At a glance</p>
 							<p>iiNet's core product pages presented a complex user experience. They were not responsive, and were no longer aligned with the brand. Each product page also had a unique interface and layout, confusing potential customers and customer service representatives. This presented an opportunity to improve the user experience, by simplifying these pages and unifying them with each other and the brand. </p>
-
-							<p><strong>The process:</strong><br>The first step was to conduct a handful of user testing sessions, to identify the main pain points for users. The designs were then refined.</p>
-
-							<p><strong>The outcome:</strong><br>The new responsive pages reduce cognitive load by breaking down the plan customisation into intuitive steps. Both conversion and bounce rates improved once the new pages were released.</p>
 							
-							<p>[old page] Here's an example of the pages which needed improvement</p>
 
-							<p>[banner, subnav, breadcrumbs] banner integrated with current ATL campaign artwork, featuring hero plan.</p>
+							<p class="h3 subheading padding-0 margin-0">The process</p>
+							<p>The new design was created with a stepped approach, making it easy for users to understand. User testing sessions were then conducted with a handful of customer service reps, which allowed us to identify pain points for users and refine the design further to highlight key plan features.</p>
+							<p>Each plan is broken out into its own box, with emphasis on the benefit (the quota) rather than the price. Large checkboxes are with a very distinct active state to make it clear to the user what they have chosen.</p>
+							<div class="owl-carousel owl-theme">
+								<div class="item"><img src="img/iinet-plan-pages-mobile-banner.png" /></div>
+								<div class="item"><img src="img/iinet-plan-pages-mobile-signup.png" /></div>
+								<div class="item"><h4>3</h4></div>
+								<div class="item"><h4>4</h4></div>
+						</div>
 
-
-							<p>[carousel steps 1 and 2 | step 3 4 5]new design created with a stepped approach, making it easy for users to understand. User testing was then conducted with a handful of customer service reps, which allowed us to refine the design further and highlight key plan features, and clear feedback as to plan availability. Checkbox element created to allow for clear feedback as to what has been selected.</p>
-
-							<p>[step 6] order summary was simplified to make all costs transparent, with a large primary CTA. </p>
-
-							<p>[accordion] further information about each product was neatly concealed within and expandable accordion, reducing the height and complexity of the page. Awards and testimonials, which act as support for purchase decision have been included on every plan page. </p>
-
-							<p>[responsive images] All pages are now responsive, and X% of traffic is on mobile</p>
-
-							<p>[link to live site or full screenshot which opens in new tab]</p>
-							
-							
+							<p class="h3 subheading padding-0 margin-0">The result</p>
+							<p>The new responsive pages reduce cognitive load by breaking down the plan customisation into intuitive steps. Both conversion and bounce rates improved once the new pages were released.</p>
+							<p><img src="img/iinet-plan-pages-naked-dsl.png" alt="" / style="max-width: 100%; box-shadow: 0px 15px 25px #636362;"></p>
+			
 							<p class="margin-bottom-40"><!-- --></p>		
 
 						</div>
@@ -129,6 +124,29 @@
 	
 	
 	<script>
+		
+	$(window).on('beforeunload', function(){
+		$(window).scrollTop(0);
+	});	
+		
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+		autoHeight:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:2
+        }
+    }
+})		
+		
 	$(function() {
 
 		var sidebar = $('.sidebar');
