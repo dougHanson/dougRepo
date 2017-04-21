@@ -80,21 +80,23 @@
 							<!-- copy -->
 							<p class="h3 subheading padding-0 margin-0">At a glance</p>
 							<p>iiNet's core product pages presented a complex user experience. They were not responsive, and were no longer aligned with the brand. Each product page also had a unique interface and layout, confusing potential customers and customer service representatives. This presented an opportunity to improve the user experience, by simplifying these pages and unifying them with each other and the brand. </p>
+							<p><img src="img/iinet-plan-pages-naked-dsl.png" alt="" / style="max-width: 100%; box-shadow: 0px 15px 25px #636362;"></p>
+							<p class="margin-bottom-40"><!-- --></p>
 							
 
 							<p class="h3 subheading padding-0 margin-0">The process</p>
 							<p>The new design was created with a stepped approach, making it easy for users to understand. User testing sessions were then conducted with a handful of customer service reps, which allowed us to identify pain points for users and refine the design further to highlight key plan features.</p>
 							<p>Each plan is broken out into its own box, with emphasis on the benefit (the quota) rather than the price. Large checkboxes are with a very distinct active state to make it clear to the user what they have chosen.</p>
-							<div class="owl-carousel owl-theme">
-								<div class="item"><img src="img/iinet-plan-pages-mobile-banner.png" /></div>
-								<div class="item"><img src="img/iinet-plan-pages-mobile-signup.png" /></div>
-								<div class="item"><h4>3</h4></div>
-								<div class="item"><h4>4</h4></div>
-						</div>
+							
+
 
 							<p class="h3 subheading padding-0 margin-0">The result</p>
 							<p>The new responsive pages reduce cognitive load by breaking down the plan customisation into intuitive steps. Both conversion and bounce rates improved once the new pages were released.</p>
-							<p><img src="img/iinet-plan-pages-naked-dsl.png" alt="" / style="max-width: 100%; box-shadow: 0px 15px 25px #636362;"></p>
+							<div class="owl-carousel owl-theme">
+								<div class="item"><img src="img/iinet-plan-pages-mobile-banner.png" /></div>
+								<div class="item"><img src="img/iinet-plan-pages-mobile-signup.png" /></div>
+							</div>
+							
 			
 							<p class="margin-bottom-40"><!-- --></p>		
 
@@ -132,7 +134,7 @@
 $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
-    nav:true,
+    nav:false,
 		autoHeight:true,
     responsive:{
         0:{
