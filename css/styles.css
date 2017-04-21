@@ -985,7 +985,7 @@ section {
     padding-left: 0px; } }
 
 .hero-content {
-  background: url("../img/perth-bg-new.png") #fafaf9;
+  background: url("../img/perth-bg.jpg") #fafaf9;
   min-height: 94vh;
   background-position: center 15px;
   background-repeat: no-repeat;
@@ -1399,7 +1399,8 @@ a {
 
 a:hover,
 a:focus {
-  color: #28a1c5;
+  background: #5bc0de;
+  color: #fff;
   text-decoration: underline; }
 
 strong, b {
@@ -2998,8 +2999,7 @@ html, body, .container, .header {
   left: 0;
   right: 0;
   bottom: 0;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden; }
+  background: #d1d1d0; }
 
 .bg-img img {
   position: absolute;
@@ -3203,7 +3203,8 @@ button.trigger span::before {
   left: 0; }
 
 .intro-effect-jam3.modify .title h1 {
-  color: #636362; }
+  color: #636362;
+  transition: 0.2s; }
 
 .intro-effect-jam3 .header p {
   opacity: 1;
@@ -3229,6 +3230,9 @@ button.trigger span::before {
   transform: translateY(-145px); }
 
 /* Delays */
+.intro-effect-jam3.modify .title h1 {
+  transition: all 0.5s; }
+
 .intro-effect-jam3.modify:not(.notrans) .header p:nth-last-child(2) {
   -webkit-transition-delay: 0.1s;
   transition-delay: 0.1s; }
