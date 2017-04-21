@@ -19,7 +19,8 @@ a {
 
 a:hover, 
 a:focus {
-    color: $link-hover-color;
+	background: $link-color
+    color: #fff;
     text-decoration: $link-hover-decoration;
 }
 

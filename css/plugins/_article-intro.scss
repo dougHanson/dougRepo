@@ -22,8 +22,7 @@ html, body, .container, .header {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
+	background: $grey-d; //so header can be seen before img loads
 }
 
 .bg-img img {
@@ -262,6 +261,7 @@ button.trigger span::before {
 
 .intro-effect-jam3.modify .title h1 {
 	color: $grey-6;
+	transition: 0.2s;
 }
 
 .intro-effect-jam3 .header p {
@@ -295,6 +295,8 @@ button.trigger span::before {
 
 
 /* Delays */
+
+.intro-effect-jam3.modify .title h1 { transition: all 0.5s; }
 .intro-effect-jam3.modify:not(.notrans) .header p:nth-last-child(2) {
 	-webkit-transition-delay: 0.1s;
 	transition-delay: 0.1s;

@@ -12,7 +12,7 @@
 								margin-bottom: 30px;">							
 
 								<div class="container">	
-									<img src="img/mobii-header.png" class="work-content__banner" style="max-width: 582px;">	
+									<img src="img/mobii-manager-header.png" class="work-content__banner" style="max-width: 582px;">	
 								</div>
 								
 							</div>

@@ -36,8 +36,8 @@
 	$website = 'www.iinet.net.au';	
 	$website_url = '//www.iinet.net.au/internet-products/broadband/adsl';
 	
-	$next_project = array('multicomm', 'Multicomm Website');
-	$previous_project = array('mobii-manager', 'Mobii Manager');
+	$next_project = array('mobii-manager', 'Mobii Manager');
+	$previous_project = array('multicomm', 'Multicomm Website');
 ?>
 	
 	
@@ -53,7 +53,7 @@
 				
 				<header class="header">
 					<div class="bg-img">
-						<img src="img/1.jpg" alt="" />
+						<img src="img/iinet-plan-pages-header.jpg" alt="" />
 					</div>
 				</header>
 
