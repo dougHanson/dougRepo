@@ -10,7 +10,10 @@
 							<p class="margin-top-0"><?php print $client ?></p>				
 
 							<?php if(isset($website)) { ?>
-							<p class="h4 subheading font-bold margin-top-20 margin-bottom-0"><span class="visible-xl">Live w</span><span class="hidden-xl">W</span>ebsite</p>
+							<p class="h4 subheading font-bold margin-top-20 margin-bottom-0">
+								<span class="visible-xl">Live website</span>
+								<span class="hidden-xl">Website</span>
+							</p>
 							<p class="margin-top-0"><a href="<?php print $website_url ?>" target="_blank"><?php print $website ?></a></p>
 							<?php } ?>
 
