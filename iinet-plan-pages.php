@@ -125,43 +125,49 @@
 	<?php include('inc/_footer.php'); ?>	
 	
 	
-	<script>
-		
-	$(window).on('beforeunload', function(){
-		$(window).scrollTop(0);
-	});	
-		
-$('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:false,
-		autoHeight:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:2
-        }
-    }
-})		
-		
-	$(function() {
+	<script type="text/javascript">		
+		$(window).on('beforeunload', function(){
+			$(window).scrollTop(0);
+		});	
 
-		var sidebar = $('.sidebar');
-		var top = sidebar.offset().top;
+		$('.owl-carousel').owlCarousel({
+				loop:true,
+				margin:10,
+				nav:false,
+				autoHeight:true,
+				responsive:{
+						0:{
+								items:1
+						},
+						600:{
+								items:2
+						},
+						1000:{
+								items:2
+						}
+				}
+		})		
 
-		$(window).scroll(function(event) {
-			var y = $(this).scrollTop() + 400;
-			if (y >= top) {
-				sidebar.css('top', y - 700);
-			}
+		$(function() {
+
+			var sidebar = $('.sidebar');
+			var top = sidebar.offset().top;
+
+			$(window).scroll(function(event) {
+				var viewportWidth = $(window).width();
+				var y = $(this).scrollTop() + 400;
+				if (y >= top) {
+					if ( viewportWidth > 1200 ) {
+						sidebar.css('top', y - 700);
+					}
+					else {
+						sidebar.css('top', 0);	
+					}
+				}
+			});
+
 		});
-	});
-</script>	
+	</script>	
 	
 </body>
 	

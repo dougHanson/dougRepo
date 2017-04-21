@@ -250,6 +250,7 @@ button.trigger span::before {
 
 .intro-effect-jam3 .title {
 	top: 250px;
+	@media (max-width: 767px) { top: 170px; }
 }
 
 .intro-effect-jam3.modify .bg-img {

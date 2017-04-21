@@ -1,5 +1,8 @@
 						<div class="col-lg-2 col-lg-offset-1 sidebar">
-							<p class="h4 subheading font-bold margin-0 margin-bottom-0">Skills <span class="visible-xl">used</span></p>
+							<p class="h4 subheading font-bold margin-0 margin-bottom-0">
+								<span class="hidden-xl">Skills</span>
+								<span class="visible-xl">Skills used</span>
+							</p>
 							<p class="margin-0">
 								<?php if(isset($skills)) { foreach ($skills as $a_skill) { ?>	
 										<h2 class="tag"> <?php print $a_skill ?></h2>

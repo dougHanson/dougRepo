@@ -153,6 +153,8 @@ nav li::after {
   padding: 1em 2em;
   display: block;
   transition: all 0.2s;
+	font-weight: 600;
+	text-shadow: 0 0 1px $grey-6;
 	text-decoration: none;
 }
 .nav-link:hover,

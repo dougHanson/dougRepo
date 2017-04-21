@@ -775,7 +775,8 @@ section {
 .visible-xs,
 .visible-sm,
 .visible-md,
-.visible-lg {
+.visible-lg,
+.visible-xl {
   display: none !important; }
 
 .visible-xs-block,
@@ -879,6 +880,10 @@ section {
   .visible-lg-inline-block {
     display: inline-block !important; } }
 
+@media (min-width: 1500px) {
+  .visible-xl {
+    display: block !important; } }
+
 @media (max-width: 479px) {
   .hidden-xxs {
     display: none !important; } }
@@ -897,6 +902,10 @@ section {
 
 @media (min-width: 1200px) {
   .hidden-lg {
+    display: none !important; } }
+
+@media (min-width: 1500px) {
+  .hidden-xl {
     display: none !important; } }
 
 /* -------------------------------------
@@ -1353,6 +1362,8 @@ nav li::after {
   padding: 1em 2em;
   display: block;
   transition: all 0.2s;
+  font-weight: 600;
+  text-shadow: 0 0 1px #636362;
   text-decoration: none; }
 
 .nav-link:hover,
@@ -1379,7 +1390,7 @@ p {
   line-height: 1.8;
   margin: 0.75rem 0;
   font-size: 0.95rem;
-  font-weight: 200; }
+  font-weight: 300; }
 
 a {
   color: #5bc0de;
@@ -1900,7 +1911,7 @@ th, td {
   line-height: 1.8;
   color: #636362;
   font-size: 0.95rem;
-  font-weight: 200; }
+  font-weight: 300; }
 
 th {
   font-weight: 600;
@@ -3181,6 +3192,9 @@ button.trigger span::before {
 
 .intro-effect-jam3 .title {
   top: 250px; }
+  @media (max-width: 767px) {
+    .intro-effect-jam3 .title {
+      top: 170px; } }
 
 .intro-effect-jam3.modify .bg-img {
   top: 0;
