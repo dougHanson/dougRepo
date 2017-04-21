@@ -1286,8 +1286,8 @@ nav {
   margin-top: 60px;
   text-transform: uppercase;
   font-size: 0.85em;
-  font-weight: 800;
-  letter-spacing: 2px; }
+  font-weight: 600;
+  letter-spacing: 1px; }
 
 @media (max-width: 991px) {
   nav {
@@ -1379,12 +1379,12 @@ p {
   line-height: 1.8;
   margin: 0.75rem 0;
   font-size: 0.95rem;
-  font-weight: 300; }
+  font-weight: 200; }
 
 a {
   color: #5bc0de;
   text-decoration: none;
-  font-weight: 600; }
+  font-weight: 400; }
 
 a:hover,
 a:focus {
@@ -1541,10 +1541,10 @@ h6, .h6 {
   font-weight: 100; }
 
 .font-bold {
-  font-weight: 600; }
+  font-weight: 400; }
 
 .font-heavy {
-  font-weight: 700; }
+  font-weight: 600; }
 
 /* ----- Line spacing ----- */
 .lh-sm {
@@ -1567,12 +1567,10 @@ h6, .h6 {
 
 .subheading {
   font-family: "Dancing Script", cursive;
-  font-weight: 200;
   color: #636362; }
 
 .subheading__hero {
   font-family: "Dancing Script", cursive;
-  font-weight: 400;
   font-size: 2rem;
   color: #222221;
   width: 80%;
@@ -1902,7 +1900,7 @@ th, td {
   line-height: 1.8;
   color: #636362;
   font-size: 0.95rem;
-  font-weight: 300; }
+  font-weight: 200; }
 
 th {
   font-weight: 600;
@@ -2768,11 +2766,12 @@ img {
   margin: 0;
   padding: 20px 0;
   color: #fff;
-  white-space: nowrap;
-  font-weight: 300;
+  font-family: "Dancing Script", cursive, serif;
+  font-weight: 400;
   font-size: 1.5em;
   line-height: 1.5;
-  font-family: "Dancing Script", cursive, serif; }
+  white-space: nowrap;
+  letter-spacing: 1px; }
 
 .nav-slide div h3 span {
   display: block;

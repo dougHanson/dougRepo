@@ -12,7 +12,7 @@
 
 
 	<!-- build:css -->
-	<link href="https://fonts.googleapis.com/css?family=Raleway:100,200,400,600|Dancing+Script" rel="stylesheet" type="text/css">	
+	<link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,600|Dancing+Script" rel="stylesheet" type="text/css">	
 	<link rel="stylesheet" href="css/styles.css" media="all">		
 	
 	
