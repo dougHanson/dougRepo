@@ -1,5 +1,5 @@
 						<div class="col-lg-2 col-lg-offset-1 sidebar">
-							<p class="h4 subheading font-bold margin-0 margin-bottom-0">Skills used</p>
+							<p class="h4 subheading font-bold margin-0 margin-bottom-0">Skills <span class="visible-xl">used</span></p>
 							<p class="margin-0">
 								<?php if(isset($skills)) { foreach ($skills as $a_skill) { ?>	
 										<h2 class="tag"> <?php print $a_skill ?></h2>
@@ -10,7 +10,7 @@
 							<p class="margin-top-0"><?php print $client ?></p>				
 
 							<?php if(isset($website)) { ?>
-							<p class="h4 subheading font-bold margin-top-20 margin-bottom-0">Live website</p>
+							<p class="h4 subheading font-bold margin-top-20 margin-bottom-0"><span class="visible-xl">Live w</span><span class="hidden-xl">W</span>ebsite</p>
 							<p class="margin-top-0"><a href="<?php print $website_url ?>" target="_blank"><?php print $website ?></a></p>
 							<?php } ?>
 
@@ -19,8 +19,8 @@
 							<p class="margin-top-0"><?php print $year ?></p>
 							<?php } ?>					
 
-							<p class="h4 subheading font-bold margin-top-20 margin-bottom-0">Share</p>
-							<p class="margin-top-0">facebook</p>				
+							<!--<p class="h4 subheading font-bold margin-top-20 margin-bottom-0">Share</p>
+							<p class="margin-top-0">facebook</p>			-->	
 						</div>
 
 

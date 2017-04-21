@@ -413,7 +413,8 @@
 .visible-xs,
 .visible-sm,
 .visible-md,
-.visible-lg {
+.visible-lg,
+.visible-xl {
   display: none !important;
 }
 .visible-xs-block,
@@ -552,6 +553,11 @@
     display: inline-block !important;
   }
 }
+@media (min-width: 1460px) { 
+	.visible-xl {
+		display: block !important; 
+	} 
+}
 @media (max-width: 479px) {
   .hidden-xxs {
     display: none !important;
@@ -574,6 +580,11 @@
 }
 @media (min-width: 1200px) {
   .hidden-lg {
+    display: none !important;
+  }
+}
+@media (min-width: 1460px) {
+  .hidden-xl {
     display: none !important;
   }
 }
