@@ -134,7 +134,7 @@
 					</a>
 					
 
-					<a href="iinet-plan-pages/" class="progressLoad">
+					<a href="multicomm.php" class="progressLoad">
 						<article class="work-item">
 							<div class="work-item__drawings" id="drawings" style="height: 300px; width:100%; max-width: 360px;">
 								<img class="illustration" src="img/multicomm.png" style="padding-top: 76px;" alt="" />
