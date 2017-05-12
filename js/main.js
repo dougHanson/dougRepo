@@ -156,42 +156,27 @@ var pathname = window.location.pathname.substr(10); // Returns path only
 
 	
 	$(".nav-home").click(function() {
-		//if (pathname == 'index.php') {	
 			$('html, body').animate({
 				scrollTop: $(".hero-content").offset().top
 			}, scrollSpeed);
-		//}
-		//else { window.location.pathname = 'index.php#hero-content'; }	
 	});
 
 	$(".nav-works").click(function() {	
-		if (pathname == 'index.php') {	
 			$('html, body').animate({
 				scrollTop: $(".selected-works").offset().top-50
 			}, scrollSpeed);	
-		}
-		else { 
-			$('html, body').fadeOut(100);				 
-			$('html,body').animate({
-				scrollTop: $(window.location.hash).offset().top
-			});
-		}		
 	});	
 
-	$(".nav-about").click(function() {
-		
+	$(".nav-about").click(function() {		
 			$('html, body').animate({
 				scrollTop: $(".about").offset().top-50
-			}, scrollSpeed);
-			
+			}, scrollSpeed);			
 	});
 
-	$(".nav-contact").click(function() {
-	
+	$(".nav-contact").click(function() {	
 			$('html, body').animate({
-				scrollTop: $(".contact-me").offset().top-50
-			}, scrollSpeed);
-				
+				scrollTop: $(".contact").offset().top-50
+			}, scrollSpeed);				
 	});
 
 
