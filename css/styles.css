@@ -1249,7 +1249,7 @@ hr {
   width: 270px;
   height: 100%;
   z-index: 888;
-  background-image: url("../img/aside1.png");
+  background-image: url("../img/aside.png");
   background-size: cover;
   border-right: 1px solid #999998; }
   @media (max-width: 991px) {
@@ -1594,7 +1594,7 @@ h6, .h6 {
 /* ----- hero heading, should only be used on home page ----- */
 .hero-heading {
   font-size: 88px;
-  font-weight: 100;
+  font-weight: 400;
   font-family: "Raleway", Arial, sans-serif, serif;
   line-height: 1.4em;
   color: #222221;
@@ -2158,7 +2158,7 @@ img {
 //   styles for frame borders around perimeter
 /* ************************************* */
 .frame {
-  background: #636362;
+  background: #fff;
   width: 1.5vw;
   height: 1.5vw;
   z-index: 9999;
@@ -3020,6 +3020,10 @@ html, body, .container, .header {
 @media (max-width: 767px) {
   .title h1 {
     font-size: 2em; } }
+
+@media (max-width: 480px) {
+  .title h1 {
+    font-size: 1.6em; } }
 
 .title p {
   color: #fff;
