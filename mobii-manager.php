@@ -18,12 +18,13 @@
 	
 	<style>
 		.title { width: auto; }
-		.title h1 { color: #636362; }
+		.title h1 { color: #636362; padding: 15px; transition: 0.5s;}
 		@media (max-width: 1580px) {
 			.title h1 { color: #636362; background: #fcfcfc; padding: 15px; transition: 0.5s; }
 			.intro-effect-jam3.modify .title h1 { background: none; transition: 0.5s;}
 		}			
-	</style>		
+	</style>	
+
 
 </head>
 
@@ -46,12 +47,7 @@
 	$next_project = array('multicomm', 'Multicomm Website');
 	$previous_project = array('iinet-plan-pages', 'iiNet Plan Page Redesign');
 ?>
-	
-	<style>
-		.title { width: auto; }
-		.title h1 { color: #636362; background: #fcfcfc; padding: 15px; transition: 0.5s; }
-		.intro-effect-jam3.modify .title h1 { background: none; transition: 0.5s;}
-	</style>	
+
 
 <!-- include frames and nav --> 	
 <?php include('inc/_nav.php'); ?>
@@ -64,7 +60,7 @@
 				
 				<header class="header">
 					<div class="bg-img">
-						<img src="img/mobii-manager-header.png" alt="" />
+						<img src="img/mobii-manager-header.jpg" alt="Mobile App Design" />
 					</div>
 				</header>
 
