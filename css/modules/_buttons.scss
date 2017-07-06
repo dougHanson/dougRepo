@@ -36,7 +36,7 @@ input[type="button"] {
 	//box-shadow: 0 1px rgba(255, 255, 255, 0.4) inset, 0 2px 1px rgba(0, 0, 0, 0.1);
 }
 
-@media (max-width:480px) {
+@media (max-width:767px) {
   button, 
   .button, 
   input[type="submit"], 
@@ -103,8 +103,8 @@ input.button__primary[type="button"].is-selected,
 input.button__primary[type="submit"]:hover, 
 input.button__primary[type="reset"]:hover, 
 input.button__primary[type="button"]:hover {
-  background: $brand-color-3; 
-  border: 2px solid $brand-color-3;
+  background: $brand-primary; 
+  border: 2px solid $brand-primary;
   color: #fff;
 }
 
