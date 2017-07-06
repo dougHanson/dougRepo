@@ -39,10 +39,10 @@
 	$client = 'iiNet';
 	//$brand_colours = [ '#ff8200', '#d21f2a', '#0090ab', '#808080', '#fff' ];
 	//$year = '2016';		
-	$skills = array('HTML5', 'CSS3', 'PHP', 'Angular JS', 'User Testing');
+	$skills = array('HTML5', 'CSS3', 'PHP', 'Angular JS', 'User Testing', 'SASS', 'OOCSS/BEM');
 	
 	$website = 'www.iinet.net.au';	
-	$website_url = '//www.iinet.net.au/internet-products/broadband/adsl';
+	$website_url = '//www.iinet.net.au/internet-products/broadband/naked-dsl';
 	
 	$next_project = array('mobii-manager', 'Mobii Manager');
 	$previous_project = array('multicomm', 'Multicomm Website');

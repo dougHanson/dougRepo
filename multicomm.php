@@ -14,10 +14,16 @@
 	<!-- build:css -->
 	<link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,600|Dancing+Script" rel="stylesheet" type="text/css">	
 	<link rel="stylesheet" href="css/styles.css" media="all">		
-	
-	
 	<!-- endbuild -->
 
+	<style>
+		.title { width: auto; }
+		@media (max-width: 2000px) {
+			.title h1 { text-shadow: 1px 1px 2px #636362; transition: 0.5s; }
+			.intro-effect-jam3.modify .title h1 { text-shadow: none; transition: 0.5s; }
+		}			
+	</style>		
+	
 </head>
 
 <body class="project-page">	
@@ -31,7 +37,7 @@
 	$client = 'Multicomm';
 	//$brand_colours = [ '#ff8200', '#d21f2a', '#0090ab', '#808080', '#fff' ];
 	//$year = '2016';		
-	$skills = array('HTML5', 'CSS3', 'jQuery', 'Branding');
+	$skills = array('HTML5', 'CSS3', 'jQuery', 'branding', 'PHP', 'UX design', 'logo design', 'interaction design', 'freelance');
 	
 	$website = 'www.multicomm.com.au';	
 	$website_url = '//www.multicomm.com.au/';
@@ -79,23 +85,14 @@
 
 							<!-- copy -->
 							<p class="h3 subheading padding-0 margin-0">At a glance</p>
-							<p>iiNet's core product pages presented a complex user experience. They were not responsive, and were no longer aligned with the brand. Each product page also had a unique interface and layout, confusing potential customers and customer service representatives. This presented an opportunity to improve the user experience, by simplifying these pages and unifying them with each other and the brand. </p>
+							<p>Multicomm's new website was a freelance project I completed in my spare time. Keeping nothing but the original colours, it began with a rebranding exercise, including the design of a new logo. This led to wireframes, designs, and eventually the build&nbsp;and&nbsp;implementation.</p>
 							<p><img src="img/multicomm-business.png" alt="" / style="max-width: 100%; box-shadow: 0px 15px 25px #636362;"></p>
 							<p class="margin-bottom-40"><!-- --></p>
-							
 
-							<p class="h3 subheading padding-0 margin-0">The process</p>
-							<p>The new design was created with a stepped approach, making it easy for users to understand. User testing sessions were then conducted with a handful of customer service reps, which allowed us to identify pain points for users and refine the design further to highlight key plan features.</p>
-							<p>Each plan is broken out into its own box, with emphasis on the benefit (the quota) rather than the price. Large checkboxes are with a very distinct active state to make it clear to the user what they have chosen.</p>
-							
-
-
-							<p class="h3 subheading padding-0 margin-0">The result</p>
-							<p>The new responsive pages reduce cognitive load by breaking down the plan customisation into intuitive steps. Both conversion and bounce rates improved once the new pages were released.</p>
-							<div class="owl-carousel owl-theme">
+							<!--<div class="owl-carousel owl-theme">
 								<div class="item"><img src="img/iinet-plan-pages-mobile-banner.png" /></div>
 								<div class="item"><img src="img/iinet-plan-pages-mobile-signup.png" /></div>
-							</div>
+							</div>-->
 							
 			
 							<p class="margin-bottom-40"><!-- --></p>		

@@ -14,9 +14,16 @@
 	<!-- build:css -->
 	<link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,600|Dancing+Script" rel="stylesheet" type="text/css">	
 	<link rel="stylesheet" href="css/styles.css" media="all">		
-	
-	
 	<!-- endbuild -->
+	
+	<style>
+		.title { width: auto; }
+		.title h1 { color: #636362; }
+		@media (max-width: 1580px) {
+			.title h1 { color: #636362; background: #fcfcfc; padding: 15px; transition: 0.5s; }
+			.intro-effect-jam3.modify .title h1 { background: none; transition: 0.5s;}
+		}			
+	</style>		
 
 </head>
 
@@ -30,8 +37,8 @@
 	$title = 'Mobii Manager App Design';
 	$client = 'iiNet';
 	//$brand_colours = [ '#ff8200', '#d21f2a', '#0090ab', '#808080', '#fff' ];
-	//$year = '2016';		
-	$skills = array('Mobile App Design', 'PHP', 'Angular JS', 'User Testing');
+	$year = '2016';		
+	$skills = array('mobile app design',  'UI/UX', 'interaction design', 'Adobe Photoshop');
 	
 	//$website = 'www.iinet.net.au';	
 	//$website_url = '//www.iinet.net.au/internet-products/broadband/adsl';
@@ -90,10 +97,10 @@
 							<p class="margin-bottom-40"><!-- --></p>
 							
 
-							<div class="owl-carousel owl-theme">
+							<!--<div class="owl-carousel owl-theme">
 								<div class="item"><img src="img/iinet-plan-pages-mobile-banner.png" /></div>
 								<div class="item"><img src="img/iinet-plan-pages-mobile-signup.png" /></div>
-							</div>
+							</div>-->
 							
 			
 							<p class="margin-bottom-40"><!-- --></p>		
