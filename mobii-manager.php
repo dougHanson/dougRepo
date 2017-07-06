@@ -84,7 +84,9 @@
 							<!-- copy -->
 							<p class="h3 subheading padding-0 margin-0">At a glance</p>
 							<p class="margin-bottom-40">iiNet had just released  shiny new mobile broadband hardware, which was using the generic Huawei Android app to operate the hardware. I designed a tailored iiNet Android app which strengthened the brand, whilst providing a better user experience than the generic app. Once all stakeholders were happy with the design, I worked with an external development agency, guiding them through the anitcipated UX and interactions, as well as supplying all graphical elements.</p>
-							<p><img src="img/mobii-designs.png" alt="" / style="max-width: 100%; float: left;"></p>
+							<p><img src="img/mobii-designs.png" class="margin-bottom-20" alt="" / style="max-width: 100%; float: left;"></p>
+							<p><img src="img/mobii-designs-2.png" class="margin-bottom-20" alt="" / style="max-width: 100%; float: left;"></p>
+							<p><img src="img/mobii-designs-3.png" alt="" / style="max-width: 100%; float: left;"></p>
 							<p class="margin-bottom-40"><!-- --></p>
 							
 
