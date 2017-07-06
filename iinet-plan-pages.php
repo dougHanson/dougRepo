@@ -16,6 +16,15 @@
 	<link rel="stylesheet" href="css/styles.css" media="all">		
 	<!-- endbuild -->
 	
+	<style>
+		.title { width: auto; }
+		.title h1 { color: #636362; }
+		@media (max-width: 1400px) {
+			.title h1 { color: #636362; background: #fcfcfc; padding: 15px; transition: 0.5s; }
+			.intro-effect-jam3.modify .title h1 { background: none; transition: 0.5s;}
+		}			
+	</style>		
+	
 
 </head>
 
