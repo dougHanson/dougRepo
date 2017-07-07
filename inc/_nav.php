@@ -7,7 +7,7 @@
       
   <!-- left hand nav include -->
   <aside class="vertical-menu">
-    <div class="vertical-menu__logo"><a href="index.php"><img src="img/namelogo.png" /></a></div>
+    <div class="vertical-menu__logo"><a href="index.php"><img src="img/logo-retina.png" /></a></div>
 		<br class="hidden-sm hidden-xs hidden-xxs">
     <nav>
       <ul>

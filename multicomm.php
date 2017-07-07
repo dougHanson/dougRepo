@@ -17,11 +17,15 @@
 	<!-- endbuild -->
 
 	<style>
-		.title { width: auto; }
-		@media (max-width: 2000px) {
+		.title { width: auto; padding: 15px 15px 0; background: rgba(99,99,98,0.25); transition: 0.5s; }
+		.intro-effect-jam3.modify .title { background: none; transition: 0.5s;  }
+		@media (max-width: 1400px) {
 			.title h1 { text-shadow: 1px 1px 2px #636362; transition: 0.5s; }
-			.intro-effect-jam3.modify .title h1 { text-shadow: none; transition: 0.5s; }
-		}			
+			.intro-effect-jam3.modify .title h1 { text-shadow: none; transition: 0.5s; margin-top: -10px;}
+		}		
+		@media (max-width: 960px) {
+		.bg-img img { right: -200px; }
+		}
 	</style>		
 	
 </head>

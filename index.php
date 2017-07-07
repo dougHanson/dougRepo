@@ -263,7 +263,7 @@
 					
 					<div class="row">
 						<div class="col-sm-12 margin-top-30 ">
-							<a href="doc/Doug-Hanson-Resume.pdf" target="_blank" class="button progressLoad margin-right-10">Download Resume` (80kB)</a> 
+							<a href="doc/Doug-Hanson-Resume.pdf" target="_blank" class="button progressLoad margin-right-10">Download Resume` (PDF 80kB)</a> 
 						</div>	
 					</div>
 					
@@ -324,7 +324,7 @@
             </div>                            
             
             <div class="col-sm-12 text-center">
-              <button class="button button__primary progressLoad text-right" name="submitted">Send message</button>
+              <button class="button button__primary progressLoad text-right" name="submitted">&nbsp; Send message &nbsp;</button>
             </div> 
           </form> 
 

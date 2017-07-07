@@ -22,7 +22,11 @@
 		@media (max-width: 1400px) {
 			.title h1 { color: #636362; background: #fcfcfc; padding: 15px; transition: 0.5s; }
 			.intro-effect-jam3.modify .title h1 { background: none; transition: 0.5s; padding: 0; margin-top: -2px; }
-		}			
+		}		
+		@media (max-width: 960px) {
+		.bg-img img { right: -110px; top: -40px; transition: 0.5s; }
+			.intro-effect-jam3.modify .bg-img img { top: -60px; transition: 0.5s; }
+		}		
 	</style>		
 	
 
@@ -35,7 +39,7 @@
 					DEFINE PROJECT 
 ############################# */ ?>
 <?php 
-	$title = '<span class=\"hidden-xs\">iiNet Plan</span> Page Redesign';
+	$title = '<span class="hidden-xxs">iiNet</span> Product Page Redesign';
 	$client = 'iiNet';
 	//$brand_colours = [ '#ff8200', '#d21f2a', '#0090ab', '#808080', '#fff' ];
 	//$year = '2016';		

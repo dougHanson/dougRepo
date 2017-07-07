@@ -175,7 +175,7 @@ var pathname = window.location.pathname.substr(10); // Returns path only
 
 	$(".nav-contact").click(function() {	
 			$('html, body').animate({
-				scrollTop: $(".contact").offset().top-50
+				scrollTop: $(".contact").offset().top-150
 			}, scrollSpeed);				
 	});
 

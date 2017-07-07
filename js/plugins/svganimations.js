@@ -75,7 +75,12 @@
 			progress = this.current_frame/this.total_frames;
 		if (progress > 1) {
 			window.cancelAnimFrame(this.handle);
-			//this.showImage();  // ## shows the full image once svg path is completely shown
+			
+			// Draw the image in on mobiles only
+			if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+			 this.showImage();  // ## shows the full image once svg path is completely shown
+			}					
+
 		} else {
 			this.current_frame++;
 			for(var j=0, len = this.path.length; j<len;j++){

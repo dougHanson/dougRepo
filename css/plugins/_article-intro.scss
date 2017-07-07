@@ -37,7 +37,7 @@ html, body, .container, .header {
 .title {
 	z-index: 700;
 	margin: 0 auto;
-	width: 100%;
+	width: auto;
 	position: absolute;
 }
 
@@ -296,6 +296,17 @@ button.trigger span::before {
 	opacity: 1;
 	-webkit-transform: translateY(-145px);
 	transform: translateY(-145px); 
+}
+
+.blur { transition: 0.5s; }
+
+.intro-effect-jam3.modify .blur {
+	-webkit-filter: blur(2px);
+	-moz-filter: blur(2px);
+	-o-filter: blur(2px);
+	-ms-filter: blur(2px);
+	filter: blur(2px);
+	transition: 0.5s;
 }
 
 

@@ -17,12 +17,21 @@
 	<!-- endbuild -->
 	
 	<style>
-		.title { width: auto; }
+		.title { width: auto;}
 		.title h1 { color: #636362; padding: 15px; transition: 0.5s;}
-		@media (max-width: 1580px) {
+		@media (max-width: 1670px) {
 			.title h1 { color: #636362; background: #fcfcfc; padding: 15px; transition: 0.5s; }
-			.intro-effect-jam3.modify .title h1 { background: none; transition: 0.5s;}
-		}			
+			.intro-effect-jam3.modify .title h1 { background: none; transition: 0.5s; margin-top: -10px;}
+		}		
+		.bg-img img { min-width: auto; min-height: auto; width: 685px; right: 50px; top: 50px; }
+		.bg-img { 
+			background: #FCECE3;  /* fallback for old browsers */
+			background: -webkit-linear-gradient(to left, #fdedf7, #fcecdf);  /* Chrome 10-25, Safari 5.1-6 */
+			background: linear-gradient(to left, #fdedf7, #fcecdf); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		}
+		@media (max-width: 960px) {
+		.bg-img img { right: -100px; }
+		}
 	</style>	
 
 
@@ -35,11 +44,11 @@
 					DEFINE PROJECT 
 ############################# */ ?>
 <?php 
-	$title = 'Mobii Manager App Design';
+	$title = '<span class="hidden-xxs">Mobii Manager</span> App Design';
 	$client = 'iiNet';
 	//$brand_colours = [ '#ff8200', '#d21f2a', '#0090ab', '#808080', '#fff' ];
 	$year = '2016';		
-	$skills = array('mobile app design',  'UI/UX', 'interaction design', 'Adobe Photoshop');
+	$skills = array('mobile app design', 'UI/UX', 'interaction design', 'Adobe Photoshop');
 	
 	//$website = 'www.iinet.net.au';	
 	//$website_url = '//www.iinet.net.au/internet-products/broadband/adsl';
@@ -60,7 +69,7 @@
 				
 				<header class="header">
 					<div class="bg-img">
-						<img src="img/mobii-manager-header.jpg" alt="Mobile App Design" />
+						<img src="img/mobii-manager-big.png" alt="Mobile App Design" />
 					</div>
 				</header>
 
