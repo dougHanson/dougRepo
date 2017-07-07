@@ -291,7 +291,7 @@
           
           <!-- begin mailform -->
           <iframe name="no-reload" style="display:none;"></iframe>
-		      <form method='post' action='#contact' style="margin-top: 2em;">     
+		      <form method='post' action='#contacted' style="margin-top: 2em;">     
             <div class="col-sm-6">
               <span class="input">
                 <input class="input__field" type="text" id="input-name" name="input-name" />
@@ -358,7 +358,7 @@
               mail($to,$email_subject,$email_body,$headers);
           
               //thankyou message on website
-              echo "<div class='clearfix'><!-- --></div><p id='contact' style='background:#E6EFC2; color:#529214; border:1px solid #CCDC8C;padding:3px 14px; text-align:center;' >Thank you $name, I'll respond to your message shortly.</p>";
+              echo "<div class='clearfix'><!-- --></div><p id='contacted' style='background:#E6EFC2; color:#529214; border:1px solid #CCDC8C;padding:3px 14px; text-align:center;' >Thank you $name, I'll respond to your message shortly.</p>";
          
             }
           ?>          

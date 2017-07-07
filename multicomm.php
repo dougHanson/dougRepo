@@ -24,7 +24,8 @@
 			.intro-effect-jam3.modify .title h1 { text-shadow: none; transition: 0.5s; margin-top: -10px;}
 		}		
 		@media (max-width: 960px) {
-		.bg-img img { right: -200px; }
+		.bg-img img { right: -200px; top: 0; transition: 0.5s; }
+			.intro-effect-jam3.modify .bg-img img { top: -60px; transition: 0.5s;}
 		}
 	</style>		
 	
