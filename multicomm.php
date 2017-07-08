@@ -129,7 +129,7 @@
 	
 	<script type="text/javascript">		
 		$(window).on('beforeunload', function(){
-			$(window).scrollTop(0);
+			$(window).scrollTop(0),1000;
 		});	
 
 		$('.owl-carousel').owlCarousel({
@@ -142,9 +142,9 @@
 								items:1
 						},
 						600:{
-								items:2
+								items:1
 						},
-						1000:{
+						1400:{
 								items:2
 						}
 				}

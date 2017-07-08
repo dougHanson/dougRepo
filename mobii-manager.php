@@ -27,7 +27,7 @@
 		}		
 		.bg-img img { min-width: auto; min-height: auto; width: 685px; right: 50px; top: 50px; }
 		.bg-img { 
-			background: #FCECE3;  /* fallback for old browsers */
+			background: #fcece3;  /* fallback for old browsers */
 			background: -webkit-linear-gradient(to left, #fdedf7, #fcecdf);  /* Chrome 10-25, Safari 5.1-6 */
 			background: linear-gradient(to left, #fdedf7, #fcecdf); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 		}
@@ -140,7 +140,7 @@
 	
 	<script type="text/javascript">		
 		$(window).on('beforeunload', function(){
-			$(window).scrollTop(0);
+			$(window).scrollTop(0),1000;
 		});	
 
 		$('.owl-carousel').owlCarousel({
@@ -153,9 +153,9 @@
 								items:1
 						},
 						600:{
-								items:2
+								items:1
 						},
-						1000:{
+						1400:{
 								items:2
 						}
 				}

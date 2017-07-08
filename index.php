@@ -78,31 +78,15 @@
 							<span class="m_scroll_arrows doi"></span>
 							<span class="m_scroll_arrows trei"></span>
 						</div>
-					</div>		
+					</div>	
 				
 				
 				</div>
-				
-
 				
 				
       </div>
       <!-- end hero content --> 
           
-<style>
-			
-	.work-item__img--finn { width:100%; max-width: 244px; }
-	
-	.work-item__img--mobii { height: 300px; padding-top: 40px; width:100%; max-width: 340px; }
-	
-	.work-item__img--multicomm {     
-		height: 300px;
-    padding-top: 76px;
-    margin-left: 37px;
-    max-width: 340px; 
-	}
-	
-			</style>
        
 			
 			<!-- -------------------------------------

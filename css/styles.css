@@ -2270,7 +2270,8 @@ img {
 	margin-left: -11px;
 }*/
 .work-item__drawings {
-  height: 300px; }
+  height: 300px;
+  margin: 0 auto; }
 
 .work-item--dark {
   background: #404040;
