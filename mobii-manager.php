@@ -19,6 +19,8 @@
 	<style>
 		.title { width: auto;}
 		.title h1 { color: #636362; padding: 15px; transition: 0.5s;}
+		.bg-img img {  top: 0px; transition: 0.5s; }
+		.intro-effect-jam3.modify .bg-img img { top: -40px; transition: 0.5s; }		
 		@media (max-width: 1670px) {
 			.title h1 { color: #636362; background: #fcfcfc; padding: 15px; transition: 0.5s; }
 			.intro-effect-jam3.modify .title h1 { background: none; transition: 0.5s; margin-top: -10px;}
@@ -30,8 +32,9 @@
 			background: linear-gradient(to left, #fdedf7, #fcecdf); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 		}
 		@media (max-width: 960px) {
-		.bg-img img { right: -100px; }
-		}
+		.bg-img img { right: -100px; top: 20px; transition: 0.5s; }
+		.intro-effect-jam3.modify .bg-img img { top: -40px; transition: 0.5s; }
+		}		
 	</style>	
 
 

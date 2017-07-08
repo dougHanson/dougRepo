@@ -6,6 +6,7 @@ svg {
 .illustration {
 	/*max-height: 100%;*/
 	/*height: 300px;*/
+	width: 100%;
 	max-width: 100%;
 	opacity: 0;
 	display: block;
@@ -52,4 +53,3 @@ svg {
 .profile-pic:hover .line-drawing {
 	opacity: 0;
 }
-

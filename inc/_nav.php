@@ -20,13 +20,13 @@
 				<li class="nav-works"><a href="index.php#selected-works" class="nav-link">
 					<i class="icon">
 						<?php echo file_get_contents("svg/briefcase.svg"); ?>
-					</i><span><span class="hidden-xs">Selected</span> works</span></a>
+					</i><span><span class="hidden-xs hidden-xxs">Selected</span> works</span></a>
 				</li>
 				
         <li class="nav-about"><a href="index.php#about" class="nav-link">					
 					<i class="icon">
 						<?php echo file_get_contents("svg/about.svg"); ?>	
-					</i><span>About <span class="hidden-xs">me</span></span></a>
+					</i><span>About <span class="hidden-xs hidden-xxs">me</span></span></a>
 				</li>
 									
         <li class="nav-contact"><a href="index.php#contact" class="nav-link">

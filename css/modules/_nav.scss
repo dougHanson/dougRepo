@@ -126,7 +126,8 @@ nav li::after {
 }
 @media (max-width: 560px) {
   nav li span {
-    display: none;
+    font-size: 9px;
+    display: block;
   } 	
   nav ul { 
 		margin-left: 1em;
@@ -138,12 +139,14 @@ nav li::after {
 .icon {
     display: inline-block;
     margin: 1px 10px -15px 0;
+	@media (max-width: 767px) {
+		 margin: 0 10px;
+	}	
+	@media (max-width: 560px) {
+		 margin: 0 28%;
+	}		
 }
-@media (max-width: 767px) {
-	.icon {
-    margin: 0 10px;
-	}
-}
+
 
 
 .nav-link {
@@ -156,6 +159,16 @@ nav li::after {
 	font-weight: 600;
 	text-shadow: 0 0 1px $grey-6;
 	text-decoration: none;
+	@media (max-width: 991px) {
+		width: auto;
+		padding: 0 0.8em;
+	}
+	@media (max-width: 767px) {
+		padding: 0 1em; 
+	}
+	@media (max-width: 560px) {
+		margin-top: -7px;
+	}	
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -163,15 +176,6 @@ nav li::after {
   color: #fff;
 	text-decoration: none;
 }
-@media (max-width: 991px) {
-  .nav-link {
-    width: auto;
-    padding: 0 0.8em;
-  } 
-}
-@media (max-width: 767px) {
-  .nav-link {
-    padding: 0 1em; 
-  }  
-}
+
+
 

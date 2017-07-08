@@ -5,11 +5,7 @@
 
 							
 							<!-- banner -->
-							<div style="width:102%; 
-								background: #8e9eab; /* fallback for old browsers */
-								background: -webkit-linear-gradient(to right, #8e9eab , #eef2f3);
-								background: linear-gradient(to right, #8e9eab , #eef2f3);		
-								margin-bottom: 30px;">							
+							<div class="gradient__orange-pink">							
 
 								<div class="container">	
 									<img src="img/mobii-manager-header.png" class="work-content__banner" style="max-width: 582px;">	

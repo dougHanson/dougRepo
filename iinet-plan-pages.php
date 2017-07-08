@@ -10,7 +10,6 @@
 	<meta name="description" content="Doug Hanson is a web designer and front end developer from Perth, Western Australia.">
 	<meta name="keywords" content="iinet plan pages, web design, designer, web development, front end developer, ux design, perth, doug hanson">
 
-
 	<!-- build:css -->
 	<link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,600|Dancing+Script" rel="stylesheet" type="text/css">	
 	<link rel="stylesheet" href="css/styles.css" media="all">		
@@ -19,12 +18,14 @@
 	<style>
 		.title { width: auto; }
 		.title h1 { color: #636362; padding: 0px; }
+		.intro-effect-jam3.modify .bg-img img { top: -47px; transition: 0.5s; }
+		.bg-img img {  transition: 0.5s; top: 0;}
 		@media (max-width: 1400px) {
 			.title h1 { color: #636362; background: #fcfcfc; padding: 15px; transition: 0.5s; }
 			.intro-effect-jam3.modify .title h1 { background: none; transition: 0.5s; padding: 0; margin-top: -2px; }
 		}		
 		@media (max-width: 960px) {
-		.bg-img img { right: -110px; top: -40px; transition: 0.5s; }
+			.bg-img img { right: -110px; top: -40px; transition: 0.5s; }
 			.intro-effect-jam3.modify .bg-img img { top: -60px; transition: 0.5s; }
 		}		
 	</style>		
