@@ -60,7 +60,7 @@ gulp.task('compress-images', function() {
 
 // Generate favicons and Apple touch icons
 gulp.task('favicons', function () {
-  gulp.src('./img/favicon.png').pipe(favicons({
+  gulp.src('./img/logo-retina.png').pipe(favicons({
     developerName: 'Doug Hanson',
     background: '#fff',
     path: './img/favicons/',

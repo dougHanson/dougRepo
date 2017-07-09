@@ -283,13 +283,12 @@ button.trigger span::before {
 
 
 .intro-effect-jam3 .content > div {
-	opacity: 0.7;
 	-webkit-transform: translateY(170px);
 	transform: translateY(170px);
-}
-
-.intro-effect-jam3 .content > div {
 	opacity: 0.1;
+	@media (max-width: 767px) { 
+		opacity: 1; // content visible on small screens
+	}  
 }
 
 .intro-effect-jam3.modify .content > div {

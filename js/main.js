@@ -13,26 +13,26 @@ $(document).ready(function() {
 	var fadingClass = $('.fadeOut');
 	var fadingFastClass = $('.fadeOut--fast');
 
-$(window).bind('scroll', function(){
-	var offset = $(document).scrollTop();
-	var opacity = 0;	
-  if ( offset<=fadeStart ) {
-  	opacity=1;
-		fadingFastClass.css('opacity',1);
-  } 
-	else if ( offset<=fadeUntil ) {
-		opacity = 1-(offset-fadeStart)/(fadeUntil);
-		fadingFastClass.css('opacity',opacity-0.5);
-	}	
-	if( ! /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-		fadingClass.css('opacity',opacity);
-		fadingClass.css('top',offset*0.4); 
-		//fadingFastClass.css('opacity',opacity-0.4);
-		fadingFastClass.css('top',offset*0.9); 
-		//fadingFastClass.css('opacity',0);
-	}
-});
 
+	$(window).bind('scroll', function(){
+		var offset = $(document).scrollTop();
+		var opacity = 0;	
+		if ( offset<=fadeStart ) {
+			opacity=1;
+			fadingFastClass.css('opacity',1);
+		} 
+		else if ( offset<=fadeUntil ) {
+			opacity = 1-(offset-fadeStart)/(fadeUntil);
+			fadingFastClass.css('opacity',opacity-0.5);
+		}	
+		if( ! /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+			fadingClass.css('opacity',opacity);
+			fadingClass.css('top',offset*0.4); 
+			//fadingFastClass.css('opacity',opacity-0.4);
+			fadingFastClass.css('top',offset*0.9); 
+			//fadingFastClass.css('opacity',0);
+		}
+	});
 
 
 // PARALLAX SCROLLING
@@ -64,7 +64,7 @@ $(window).bind('scroll', function(){
       
         // Apply the Y Background Position to Set the Parallax Effect (NOT ON MOBILE)
 				if( ! /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-				 $this.css('background-position', 'center ' + yBgPosition + 'px');
+					$this.css('background-position', 'center ' + yBgPosition + 'px');
 				}				
         
       });

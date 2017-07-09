@@ -214,7 +214,7 @@
         </div> 
         <div class="col-lg-3 text-right visible-lg">
 							<div id="drawings">
-								<img src="img/doug.png" class="profile-pic img-circle" style="width:90%; width: 180px;">
+								<img src="img/doug.png" class="profile-pic img-circle">
 								<?php //echo file_get_contents("svg/doug.svg"); ?>															
 							</div>					
           

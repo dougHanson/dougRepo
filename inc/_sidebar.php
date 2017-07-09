@@ -31,7 +31,11 @@
 
 
 <script>
+	
+	//scroll animation - disabled on mobile as doesn't render correctly
 	(function() {
+		
+		if( ! /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 
 		// detect if IE : from http://stackoverflow.com/a/16657946		
 		var ie = (function() {
@@ -172,5 +176,14 @@
 		trigger.addEventListener('click', function() {
 			toggle('reveal');
 		});
+	}
+		
+	else {		
+		var	container = document.getElementById('container');		
+		container.className += " modify";
+	}
+		
+		
+		
 	})();
 </script>
