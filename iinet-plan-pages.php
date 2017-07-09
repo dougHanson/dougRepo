@@ -152,7 +152,7 @@
 				loop:true,
 				margin:10,
 				nav:false,
-				autoHeight:true,
+				//autoHeight:true,
 				responsive:{
 						0:{
 								items:1
