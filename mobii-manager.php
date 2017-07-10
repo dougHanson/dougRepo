@@ -17,66 +17,19 @@
 	<link rel="stylesheet" href="css/styles.css" media="all">
 	<!-- endbuild -->
 
+	<!-- individual banner styles -->
 	<style>
-		.title {
-			width: auto;
-		}
-		
-		.title h1 {
-			color: #636362;
-			padding: 15px;
-			transition: 0.5s;
-		}
-		
-		.bg-img img {
-			top: 0px;
-			transition: 0.5s;
-		}
-		
-		.intro-effect-jam3.modify .bg-img img {
-			top: -40px;
-			transition: 0.5s;
-		}
-		
+		.title h1 {	color: #636362;	padding: 15px; }
+		.bg-img {	background: #fcece3; background: -webkit-linear-gradient(to left, #fdedf7, #fcecdf); background: linear-gradient(to left, #fdedf7, #fcecdf); }		
+		.bg-img img {	min-width: auto; min-height: auto; width: 685px; right: 50px; top: 50px; }	
+		.intro-effect-jam3.modify .bg-img img { top: -40px;	}			
 		@media (max-width: 1670px) {
-			.title h1 {
-				color: #636362;
-				background: #fcfcfc;
-				padding: 15px;
-				transition: 0.5s;
-			}
-			.intro-effect-jam3.modify .title h1 {
-				background: none;
-				transition: 0.5s;
-				margin-top: -10px;
-			}
-		}
-		
-		.bg-img img {
-			min-width: auto;
-			min-height: auto;
-			width: 685px;
-			right: 50px;
-			top: 50px;
-		}
-		
-		.bg-img {
-			background: #fcece3;
-			background: -webkit-linear-gradient(to left, #fdedf7, #fcecdf);
-			background: linear-gradient(to left, #fdedf7, #fcecdf);
-		}
-		
+			.title h1 {	background: #fcfcfc; }		
+			.intro-effect-jam3.modify .title h1 {	background: none;	margin-top: -10px; }			
+		}		
 		@media (max-width: 960px) {
-			.bg-img img {
-				right: -100px;
-				top: 20px;
-				transition: 0.5s;
-			}
-			.intro-effect-jam3.modify .bg-img img {
-				top: -40px;
-				transition: 0.5s;
-			}
-		}
+			.bg-img img { right: -100px; top: 20px;	}
+		}			
 	</style>
 
 
@@ -85,10 +38,10 @@
 <body class="project-page">
 
 
-	<?php /* ####################
+<?php /* ####################
 					DEFINE PROJECT 
-############################# */ ?>
-		<?php 
+############################# */ 
+	
 	$title = '<span class="hidden-xxs">Mobii Manager</span> App Design';
 	$client = 'iiNet';
 	//$brand_colours = [ '#ff8200', '#d21f2a', '#0090ab', '#808080', '#fff' ];
@@ -110,7 +63,7 @@
 				<div class="wrapper">
 					<div class="wrapper__outer">
 
-						<div id="container" class="intro-effect-jam3" style="position: relative;">
+						<div id="container" class="intro-effect-jam3">
 
 							<header class="header">
 								<div class="bg-img">
@@ -141,21 +94,10 @@
 										<!-- copy -->
 										<p class="h3 subheading padding-0 margin-0">At a glance</p>
 										<p class="margin-bottom-40">iiNet had just released shiny new mobile broadband hardware, which was using the generic Huawei Android app to operate the hardware. I designed a tailored iiNet Android app which strengthened the brand, whilst providing a better user experience than the generic app. Once all stakeholders were happy with the design, I worked with an external development agency, guiding them through the anitcipated UX and interactions, as well as supplying all graphical elements.</p>
-										<p><img src="img/mobii-designs.png" class="margin-bottom-20" alt="" / style="max-width: 100%; float: left;"></p>
-										<p><img src="img/mobii-designs-2.png" class="margin-bottom-20" alt="" / style="max-width: 100%; float: left;"></p>
-										<p><img src="img/mobii-designs-3.png" alt="" / style="max-width: 100%; float: left;"></p>
+										<p><img src="img/mobii-designs.png" class="margin-bottom-20 img-responsive" alt=""></p>
+										<p><img src="img/mobii-designs-2.png" class="margin-bottom-20 img-responsive" alt=""></p>
+										<p><img src="img/mobii-designs-3.png" class="img-responsive" alt=""></p>
 										<p class="margin-bottom-40">&nbsp;</p>
-
-
-										<!--<div class="owl-carousel owl-theme">
-								<div class="item"><img src="img/iinet-plan-pages-mobile-banner.png" /></div>
-								<div class="item"><img src="img/iinet-plan-pages-mobile-signup.png" /></div>
-							</div>-->
-
-
-										<p class="margin-bottom-40">
-											<!-- -->
-										</p>
 
 									</div>
 
@@ -182,48 +124,11 @@
 				<!-- include footer -->
 				<?php include('inc/_footer.php'); ?>
 
-
-					<script type="text/javascript">
-						$(window).on('beforeunload', function() {
-							$(window).scrollTop(0), 1000;
-						});
-
-						$('.owl-carousel').owlCarousel({
-							loop: true,
-							margin: 10,
-							nav: false,
-							autoHeight: true,
-							responsive: {
-								0: {
-									items: 1
-								},
-								600: {
-									items: 1
-								},
-								1400: {
-									items: 2
-								}
-							}
-						})
-
-						$(function() {
-
-							var sidebar = $('.sidebar');
-							var top = sidebar.offset().top;
-
-							$(window).scroll(function(event) {
-								var viewportWidth = $(window).width();
-								var y = $(this).scrollTop() + 400;
-								if (y >= top) {
-									if (viewportWidth > 1200) {
-										sidebar.css('top', y - 700);
-									} else {
-										sidebar.css('top', 0);
-									}
-								}
-							});
-
-						});
-					</script>
+				<script>
+					//Scroll page back to top on refresh, to ensure loading effect is maintained
+					$(window).on('beforeunload', function() {
+						$(window).scrollTop(0), 5000;
+					});	
+				</script>		
 
 </body>

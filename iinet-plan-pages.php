@@ -16,51 +16,17 @@
 	<link rel="stylesheet" href="css/styles.css" media="all">
 	<!-- endbuild -->
 
-	<style>
-		.title {
-			width: auto;
-		}
-		
-		.title h1 {
-			color: #636362;
-			padding: 0px;
-		}
-		
-		.intro-effect-jam3.modify .bg-img img {
-			top: -47px;
-			transition: 0.5s;
-		}
-		
-		.bg-img img {
-			transition: 0.5s;
-			top: 0;
-		}
-		
+	<!-- individual banner styles -->
+	<style>		
+		.title h1 {	color: #636362;	}		
+		.intro-effect-jam3.modify .bg-img  { top: -47px; transition: 0.5s; }
 		@media (max-width: 1400px) {
-			.title h1 {
-				color: #636362;
-				background: #fcfcfc;
-				padding: 15px;
-				transition: 0.5s;
-			}
-			.intro-effect-jam3.modify .title h1 {
-				background: none;
-				transition: 0.5s;
-				padding: 0;
-				margin-top: -2px;
-			}
-		}
-		
-		@media (max-width: 960px) {
-			.bg-img img {
-				right: -110px;
-				top: -40px;
-				transition: 0.5s;
-			}
-			.intro-effect-jam3.modify .bg-img img {
-				top: -60px;
-				transition: 0.5s;
-			}
+			.title h1 {	background: #fcfcfc; padding: 15px;	}
+			.intro-effect-jam3.modify .title h1 {	background: none;	padding: 0;	margin-top: -2px; }
+		}		
+		@media (max-width: 768px) {
+			.bg-img img {	right: -110px; top: -40px; }
+			.intro-effect-jam3.modify .bg-img img { top: -60px; }
 		}
 	</style>
 
@@ -70,10 +36,10 @@
 <body class="project-page">
 
 
-	<?php /* ####################
+<?php /* ####################
 					DEFINE PROJECT 
-############################# */ ?>
-		<?php 
+############################# */ 
+	
 	$title = '<span class="hidden-xxs">iiNet</span> Product Page Redesign';
 	$client = 'iiNet';
 	//$brand_colours = [ '#ff8200', '#d21f2a', '#0090ab', '#808080', '#fff' ];
@@ -96,11 +62,11 @@
 				<div class="wrapper">
 					<div class="wrapper__outer">
 
-						<div id="container" class="intro-effect-jam3" style="position: relative;">
+						<div id="container" class="intro-effect-jam3">
 
 							<header class="header">
 								<div class="bg-img">
-									<img src="img/iinet-plan-pages-header.jpg" alt="" />
+									<img src="img/iinet-plan-pages-header.jpg" alt="iiNet Product Page Refresh" />
 								</div>
 							</header>
 
@@ -148,11 +114,7 @@
 											<div class="item"><img src="img/iinet-plan-pages-mobile-plans.png" /></div>
 											<div class="item"><img src="img/iinet-plan-pages-mobile-signup.png" /></div>
 										</div>
-
-
-										<p class="margin-bottom-40">
-											<!-- -->
-										</p>
+										<p class="margin-bottom-40">&nbsp;</p>
 
 									</div>
 
@@ -179,48 +141,11 @@
 				<!-- include footer -->
 				<?php include('inc/_footer.php'); ?>
 
-
-					<script type="text/javascript">
-						$(window).on('beforeunload', function() {
-							$(window).scrollTop(0), 1000;
-						});
-
-						$('.owl-carousel').owlCarousel({
-							loop: true,
-							margin: 10,
-							nav: false,
-							//autoHeight:true,
-							responsive: {
-								0: {
-									items: 1
-								},
-								600: {
-									items: 1
-								},
-								1400: {
-									items: 2
-								}
-							}
-						})
-
-						$(function() {
-
-							var sidebar = $('.sidebar');
-							var top = sidebar.offset().top;
-
-							$(window).scroll(function(event) {
-								var viewportWidth = $(window).width();
-								var y = $(this).scrollTop() + 400;
-								if (y >= top) {
-									if (viewportWidth > 1200) {
-										sidebar.css('top', y - 700);
-									} else {
-										sidebar.css('top', 0);
-									}
-								}
-							});
-
-						});
-					</script>
+				<script>
+					//Scroll page back to top on refresh, to ensure loading effect is maintained
+					$(window).on('beforeunload', function() {
+						$(window).scrollTop(0), 5000;
+					});	
+				</script>		
 
 </body>

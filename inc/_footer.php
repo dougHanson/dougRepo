@@ -102,9 +102,50 @@
 </script>
 <!-- end Google Analytics -->
 
-<!-- Fade wrapper in page load -->
-<script>
-	$(".wrapper").animate({"opacity": "1"}, 300);	
-</script>
 
+<script>
+	
+	// Fade wrapper in page load
+	$(".wrapper").animate({"opacity": "1"}, 300);	
+
+
+	//Initialise Owl Carousel
+	$('.owl-carousel').owlCarousel({
+		loop: true,
+		margin: 10,
+		nav: false,
+		responsive: {
+			0: {
+				items: 1
+			},
+			600: {
+				items: 1
+			},
+			1400: {
+				items: 2
+			}
+		}
+	})
+	
+	//keep project sidebar floating on left
+	$(function() {
+
+		var sidebar = $('.sidebar');
+		var top = sidebar.offset().top;
+
+		$(window).scroll(function(event) {
+			var viewportWidth = $(window).width();
+			var y = $(this).scrollTop() + 400;
+			if (y >= top) {
+				if (viewportWidth > 1200) {
+					sidebar.css('top', y - 700);
+				} else {
+					sidebar.css('top', 0);
+				}
+			}
+		});
+
+	});
+
+</script>
 

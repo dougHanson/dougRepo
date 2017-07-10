@@ -23,6 +23,7 @@ html, body, .container, .header {
 	right: 0;
 	bottom: 0;
 	background: $grey-d; //so header can be seen before img loads
+	transition: 0.5s
 }
 
 .bg-img img {
@@ -32,6 +33,7 @@ html, body, .container, .header {
 	display: block;
 	min-width: 100%;
 	min-height: 100%;
+	transition: 0.5s;
 }
 
 .title {
@@ -39,9 +41,14 @@ html, body, .container, .header {
 	margin: 0 auto;
 	width: auto;
 	position: absolute;
+	transition: 0.5s; 
 }
 
-.title h1 { color: #fff; }
+.title h1 { 
+	color: #fff; 
+	transition: 0.5s; 
+	margin: 0;
+}
 
 
 @media (max-width: 767px) {
@@ -262,7 +269,10 @@ button.trigger span::before {
 	right: 0;
 	bottom: 67%;
 	left: 0;
+	transition: 0.5s;
 }
+
+.intro-effect-jam3.modify .bg-img img { transition: 0.5s; }
 
 .intro-effect-jam3.modify .title h1 {
 	color: $grey-6;
@@ -308,18 +318,18 @@ button.trigger span::before {
 
 /* Delays */
 
-.intro-effect-jam3.modify .title h1 { transition: all 0.5s; }
+.intro-effect-jam3.modify .title h1 { transition: 0.5s; }
 .intro-effect-jam3.modify:not(.notrans) .header p:nth-last-child(2) {
-	-webkit-transition-delay: 0.1s;
-	transition-delay: 0.1s;
+	-webkit-transition-delay: 0.2s;
+	transition-delay: 0.2s;
 }
 
 .intro-effect-jam3.modify:not(.notrans) .header p:last-child {
-	-webkit-transition-delay: 0.15s;
-	transition-delay: 0.15s;
+	-webkit-transition-delay: 0.3s;
+	transition-delay: 0.3s;
 }
 
 .intro-effect-jam3.modify:not(.notrans) .content > div {
-	-webkit-transition-delay: 0.2s;
-	transition-delay: 0.2s;
+	-webkit-transition-delay: 0.4s;
+	transition-delay: 0.4s;
 }

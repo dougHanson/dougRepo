@@ -18,40 +18,15 @@
 	<!-- endbuild -->
 
 	<style>
-		.title {
-			width: auto;
-			padding: 15px 15px 0;
-			background: rgba(99, 99, 98, 0.4);
-			transition: 0.5s;
-		}
-		
-		.intro-effect-jam3.modify .title {
-			background: none;
-			transition: 0.5s;
-		}
-		
+		.title { padding: 15px;	background: rgba(99, 99, 98, 0.4); }		
+		.intro-effect-jam3.modify .title { background: none; }		
 		@media (max-width: 1400px) {
-			.title h1 {
-				text-shadow: 1px 1px 2px #636362;
-				transition: 0.5s;
-			}
-			.intro-effect-jam3.modify .title h1 {
-				text-shadow: none;
-				transition: 0.5s;
-				margin-top: -10px;
-			}
-		}
-		
+			.title h1 { text-shadow: 1px 1px 2px #636362;	}
+			.intro-effect-jam3.modify .title h1 { text-shadow: none; margin-top: -10px; }
+		}		
 		@media (max-width: 960px) {
-			.bg-img img {
-				right: -200px;
-				top: 0;
-				transition: 0.5s;
-			}
-			.intro-effect-jam3.modify .bg-img img {
-				top: -60px;
-				transition: 0.5s;
-			}
+			.bg-img img {	right: -200px; top: 0; }
+			.intro-effect-jam3.modify .bg-img img { top: -60px; }
 		}
 	</style>
 
@@ -60,10 +35,10 @@
 <body class="project-page">
 
 
-	<?php /* ####################
+<?php /* ####################
 					DEFINE PROJECT 
-############################# */ ?>
-		<?php 
+############################# */ 
+	
 	$title = 'Multicomm Website';
 	$client = 'Multicomm';
 	//$brand_colours = [ '#ff8200', '#d21f2a', '#0090ab', '#808080', '#fff' ];
@@ -78,7 +53,6 @@
 ?>
 
 
-
 			<!-- include frames and nav -->
 			<?php include('inc/_nav.php'); ?>
 
@@ -86,11 +60,11 @@
 				<div class="wrapper">
 					<div class="wrapper__outer">
 
-						<div id="container" class="intro-effect-jam3" style="position: relative;">
+						<div id="container" class="intro-effect-jam3">
 
 							<header class="header">
 								<div class="bg-img">
-									<img src="img/multicomm-header.jpg" alt="" />
+									<img src="img/multicomm-header.jpg" alt="Multicomm Website Development" />
 								</div>
 							</header>
 
@@ -127,11 +101,7 @@
 											<div class="item"><img src="img/multicomm-mobile-page.png" /></div>
 											<div class="item"><img src="img/multicomm-mobile-contact.png" /></div>
 										</div>
-
-
-										<p class="margin-bottom-40">
-											<!-- -->
-										</p>
+										<p class="margin-bottom-40">&nbsp;</p>
 
 									</div>
 
@@ -157,49 +127,13 @@
 
 				<!-- include footer -->
 				<?php include('inc/_footer.php'); ?>
+	
+				<script>
+					//Scroll page back to top on refresh, to ensure loading effect is maintained
+					$(window).on('beforeunload', function() {
+						$(window).scrollTop(0), 5000;
+					});	
+				</script>		
 
-
-					<script type="text/javascript">
-						$(window).on('beforeunload', function() {
-							$(window).scrollTop(0), 1000;
-						});
-
-						$('.owl-carousel').owlCarousel({
-							loop: true,
-							margin: 10,
-							nav: false,
-							autoHeight: true,
-							responsive: {
-								0: {
-									items: 1
-								},
-								600: {
-									items: 1
-								},
-								1400: {
-									items: 2
-								}
-							}
-						})
-
-						$(function() {
-
-							var sidebar = $('.sidebar');
-							var top = sidebar.offset().top;
-
-							$(window).scroll(function(event) {
-								var viewportWidth = $(window).width();
-								var y = $(this).scrollTop() + 400;
-								if (y >= top) {
-									if (viewportWidth > 1200) {
-										sidebar.css('top', y - 700);
-									} else {
-										sidebar.css('top', 0);
-									}
-								}
-							});
-
-						});
-					</script>
 
 </body>

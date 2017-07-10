@@ -2153,9 +2153,9 @@ img {
   .img-circle {
     border: 0.5em solid #fff; } }
 
-@media (max-width: 1200px) {
-  .work-item {
-    width: 100%; } }
+.img-shadow {
+  max-width: 100%;
+  box-shadow: 0px 15px 25px #636362; }
 
 /* *************************************
 //   FRAMES  [modules/_frames.scss]
@@ -3008,23 +3008,28 @@ html, body, .container, .header {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #d1d1d0; }
+  background: #d1d1d0;
+  transition: 0.5s; }
 
 .bg-img img {
   position: absolute;
   right: 0px;
   display: block;
   min-width: 100%;
-  min-height: 100%; }
+  min-height: 100%;
+  transition: 0.5s; }
 
 .title {
   z-index: 700;
   margin: 0 auto;
   width: auto;
-  position: absolute; }
+  position: absolute;
+  transition: 0.5s; }
 
 .title h1 {
-  color: #fff; }
+  color: #fff;
+  transition: 0.5s;
+  margin: 0; }
 
 @media (max-width: 767px) {
   .title h1 {
@@ -3214,7 +3219,11 @@ button.trigger span::before {
   top: 0;
   right: 0;
   bottom: 67%;
-  left: 0; }
+  left: 0;
+  transition: 0.5s; }
+
+.intro-effect-jam3.modify .bg-img img {
+  transition: 0.5s; }
 
 .intro-effect-jam3.modify .title h1 {
   color: #636362;
@@ -3234,9 +3243,6 @@ button.trigger span::before {
   -webkit-transform: translateY(170px);
   transform: translateY(170px);
   opacity: 0.1; }
-  @media (max-width: 767px) {
-    .intro-effect-jam3 .content > div {
-      opacity: 1; } }
 
 .intro-effect-jam3.modify .content > div {
   opacity: 1;
@@ -3256,19 +3262,19 @@ button.trigger span::before {
 
 /* Delays */
 .intro-effect-jam3.modify .title h1 {
-  transition: all 0.5s; }
+  transition: 0.5s; }
 
 .intro-effect-jam3.modify:not(.notrans) .header p:nth-last-child(2) {
-  -webkit-transition-delay: 0.1s;
-  transition-delay: 0.1s; }
-
-.intro-effect-jam3.modify:not(.notrans) .header p:last-child {
-  -webkit-transition-delay: 0.15s;
-  transition-delay: 0.15s; }
-
-.intro-effect-jam3.modify:not(.notrans) .content > div {
   -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s; }
+
+.intro-effect-jam3.modify:not(.notrans) .header p:last-child {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s; }
+
+.intro-effect-jam3.modify:not(.notrans) .content > div {
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s; }
 
 .svg-close, .svg-lab, .svg-mail, .svg-pen, .svg-star, .svg-user {
   background: url("../svg/sprite.svg") no-repeat; }
