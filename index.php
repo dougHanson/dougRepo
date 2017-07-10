@@ -15,7 +15,7 @@
 	<link rel="stylesheet" href="css/styles.css" media="all">
 	<!-- endbuild -->
 
-	<?php include('/inc/_favicons.php'); ?>
+	<?php //include('/inc/_favicons.php'); ?>
 </head>
 
 
@@ -66,8 +66,8 @@
       <div id="hero-content" class="hero-content parallax-bg">
         <div class="hero-content__bg">
 					<!--<div class="fadeOut"><a href="index.php"><img src="img/namelogo.png" /></a></div>-->
-          <h3 class="h1 hero-heading fadeOut"><span>Doug Hanson</span></h1>
-          <h1 class="h3 subheading subheading__hero grey-2 fadeOut">Web Designer &amp; Front-end Developer based in Perth, Western Australia</h3>
+          <h3 class="h1 hero-heading fadeOut"><span>Doug Hanson</span></h3>
+          <h1 class="h3 subheading subheading__hero grey-2 fadeOut">Web Designer &amp; Front-end Developer based in Perth, Western Australia</h1>
         
 					<div class="mouse_scroll fadeOut--fast visible-lg">
 						<div class="mouse">
@@ -260,7 +260,7 @@
 					
 					<div class="row">
 						<div class="col-sm-12 margin-top-30 ">
-							<a href="doc/Doug-Hanson-Resume.pdf" target="_blank" class="button progressLoad margin-right-10">Download Resume` (PDF 80kB)</a> 
+							<a href="doc/Doug-Hanson-Resume.pdf" target="_blank" class="button progressLoad margin-right-10">Download Resume` (PDF 72kB)</a> 
 						</div>	
 					</div>
 					
@@ -380,7 +380,6 @@
 <!-- include footer --> 	
 <?php include('inc/_footer.php'); ?>
 
-<?php//  } ?>
   
 </body>
 </html>
