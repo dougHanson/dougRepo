@@ -1,52 +1,94 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="author" content="Doug Hanson">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
-	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<title>Mobile App Design | Doug Hanson | Web and Mobile Design, Perth</title>
 	<meta name="description" content="Doug Hanson is a web designer and front end developer from Perth, Western Australia.">
 	<meta name="keywords" content="mobii manager, web design, designer, web development, front end developer, ux design, perth, doug hanson">
 
 
 	<!-- build:css -->
-	<link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,600|Dancing+Script" rel="stylesheet" type="text/css">	
-	<link rel="stylesheet" href="css/styles.css" media="all">		
+	<link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,600|Dancing+Script" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/styles.css" media="all">
 	<!-- endbuild -->
-	
+
 	<style>
-		.title { width: auto;}
-		.title h1 { color: #636362; padding: 15px; transition: 0.5s;}
-		.bg-img img {  top: 0px; transition: 0.5s; }
-		.intro-effect-jam3.modify .bg-img img { top: -40px; transition: 0.5s; }		
-		@media (max-width: 1670px) {
-			.title h1 { color: #636362; background: #fcfcfc; padding: 15px; transition: 0.5s; }
-			.intro-effect-jam3.modify .title h1 { background: none; transition: 0.5s; margin-top: -10px;}
-		}		
-		.bg-img img { min-width: auto; min-height: auto; width: 685px; right: 50px; top: 50px; }
-		.bg-img { 
-			background: #fcece3;  /* fallback for old browsers */
-			background: -webkit-linear-gradient(to left, #fdedf7, #fcecdf);  /* Chrome 10-25, Safari 5.1-6 */
-			background: linear-gradient(to left, #fdedf7, #fcecdf); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		.title {
+			width: auto;
 		}
+		
+		.title h1 {
+			color: #636362;
+			padding: 15px;
+			transition: 0.5s;
+		}
+		
+		.bg-img img {
+			top: 0px;
+			transition: 0.5s;
+		}
+		
+		.intro-effect-jam3.modify .bg-img img {
+			top: -40px;
+			transition: 0.5s;
+		}
+		
+		@media (max-width: 1670px) {
+			.title h1 {
+				color: #636362;
+				background: #fcfcfc;
+				padding: 15px;
+				transition: 0.5s;
+			}
+			.intro-effect-jam3.modify .title h1 {
+				background: none;
+				transition: 0.5s;
+				margin-top: -10px;
+			}
+		}
+		
+		.bg-img img {
+			min-width: auto;
+			min-height: auto;
+			width: 685px;
+			right: 50px;
+			top: 50px;
+		}
+		
+		.bg-img {
+			background: #fcece3;
+			background: -webkit-linear-gradient(to left, #fdedf7, #fcecdf);
+			background: linear-gradient(to left, #fdedf7, #fcecdf);
+		}
+		
 		@media (max-width: 960px) {
-		.bg-img img { right: -100px; top: 20px; transition: 0.5s; }
-		.intro-effect-jam3.modify .bg-img img { top: -40px; transition: 0.5s; }
-		}		
-	</style>	
+			.bg-img img {
+				right: -100px;
+				top: 20px;
+				transition: 0.5s;
+			}
+			.intro-effect-jam3.modify .bg-img img {
+				top: -40px;
+				transition: 0.5s;
+			}
+		}
+	</style>
 
 
 </head>
 
-<body class="project-page">	
+<body class="project-page">
 
 
-<?php /* ####################
+	<?php /* ####################
 					DEFINE PROJECT 
 ############################# */ ?>
-<?php 
+		<?php 
 	$title = '<span class="hidden-xxs">Mobii Manager</span> App Design';
 	$client = 'iiNet';
 	//$brand_colours = [ '#ff8200', '#d21f2a', '#0090ab', '#808080', '#fff' ];
@@ -61,126 +103,127 @@
 ?>
 
 
-<!-- include frames and nav --> 	
-<?php include('inc/_nav.php'); ?>
+			<!-- include frames and nav -->
+			<?php include('inc/_nav.php'); ?>
 
-	<!-- iiNet plan refreshes -->
-	<div class="wrapper">		
-		<div class="wrapper__outer">
+				<!-- iiNet plan refreshes -->
+				<div class="wrapper">
+					<div class="wrapper__outer">
 
-			<div id="container" class="intro-effect-jam3" style="position: relative;">	
-				
-				<header class="header">
-					<div class="bg-img">
-						<img src="img/mobii-manager-big.png" alt="Mobile App Design" />
-					</div>
-				</header>
+						<div id="container" class="intro-effect-jam3" style="position: relative;">
 
-				<div class="container">
-					<div class="title">
-							<h1 class="font-bold grey-6"><?php print $title ?></h1>
-					</div>	
-				</div>
+							<header class="header">
+								<div class="bg-img">
+									<img src="img/mobii-manager-big.png" alt="Mobile App Design" />
+								</div>
+							</header>
 
-				<article class="content">
-					<div class="container">
+							<div class="container">
+								<div class="title">
+									<h1 class="font-bold grey-6"><?php print $title ?></h1>
+								</div>
+							</div>
+
+							<article class="content">
+								<div class="container">
 
 
-						<!-- content -->
-						<div class="col-lg-9">
+									<!-- content -->
+									<div class="col-lg-9">
 
-							<!-- brand colours -->	
-							 <p class="margin-0">
-								<?php if(isset($brand_colours)) { foreach ($brand_colours as $a_colour) { ?>	
-										<span class="brand-colour" style="background: <?php print $a_colour ?>"> </span>
-								<?php	} } ?>	
-							</p>
+										<!-- brand colours -->
+										<p class="margin-0">
+											<?php if(isset($brand_colours)) { foreach ($brand_colours as $a_colour) { ?>
+												<span class="brand-colour" style="background: <?php print $a_colour ?>"> </span>
+												<?php	} } ?>
+										</p>
 
-							<!-- copy -->
-							<p class="h3 subheading padding-0 margin-0">At a glance</p>
-							<p class="margin-bottom-40">iiNet had just released  shiny new mobile broadband hardware, which was using the generic Huawei Android app to operate the hardware. I designed a tailored iiNet Android app which strengthened the brand, whilst providing a better user experience than the generic app. Once all stakeholders were happy with the design, I worked with an external development agency, guiding them through the anitcipated UX and interactions, as well as supplying all graphical elements.</p>
-							<p><img src="img/mobii-designs.png" class="margin-bottom-20" alt="" / style="max-width: 100%; float: left;"></p>
-							<p><img src="img/mobii-designs-2.png" class="margin-bottom-20" alt="" / style="max-width: 100%; float: left;"></p>
-							<p><img src="img/mobii-designs-3.png" alt="" / style="max-width: 100%; float: left;"></p>
-							<p class="margin-bottom-40"><!-- --></p>
-							
+										<!-- copy -->
+										<p class="h3 subheading padding-0 margin-0">At a glance</p>
+										<p class="margin-bottom-40">iiNet had just released shiny new mobile broadband hardware, which was using the generic Huawei Android app to operate the hardware. I designed a tailored iiNet Android app which strengthened the brand, whilst providing a better user experience than the generic app. Once all stakeholders were happy with the design, I worked with an external development agency, guiding them through the anitcipated UX and interactions, as well as supplying all graphical elements.</p>
+										<p><img src="img/mobii-designs.png" class="margin-bottom-20" alt="" / style="max-width: 100%; float: left;"></p>
+										<p><img src="img/mobii-designs-2.png" class="margin-bottom-20" alt="" / style="max-width: 100%; float: left;"></p>
+										<p><img src="img/mobii-designs-3.png" alt="" / style="max-width: 100%; float: left;"></p>
+										<p class="margin-bottom-40">&nbsp;</p>
 
-							<!--<div class="owl-carousel owl-theme">
+
+										<!--<div class="owl-carousel owl-theme">
 								<div class="item"><img src="img/iinet-plan-pages-mobile-banner.png" /></div>
 								<div class="item"><img src="img/iinet-plan-pages-mobile-signup.png" /></div>
 							</div>-->
-							
-			
-							<p class="margin-bottom-40"><!-- --></p>		
+
+
+										<p class="margin-bottom-40">
+											<!-- -->
+										</p>
+
+									</div>
+
+									<!-- additional project info -->
+									<?php include('inc/_sidebar.php'); ?>
+
+
+								</div>
+								<!-- end container -->
+
+								<!-- next & prev slides -->
+								<div style="margin-top:150px;">
+									<?php include('inc/_project-slides.php'); ?>
+								</div>
+
+							</article>
 
 						</div>
 
-						<!-- additional project info -->
-						<?php include('inc/_sidebar.php'); ?>	
-					
-
-					</div> <!-- end container -->
-
-					<!-- next & prev slides -->
-					<div style="margin-top:150px;">
-						<?php include('inc/_project-slides.php'); ?>	
 					</div>
+				</div>
+				<!-- end iiNet Plan Refreshes -->
 
-				</article>				
-				
-			</div>
-		
-		</div>
-	</div>	
-	<!-- end iiNet Plan Refreshes -->
-	
-	<!-- include footer --> 	
-	<?php include('inc/_footer.php'); ?>	
-	
-	
-	<script type="text/javascript">		
-		$(window).on('beforeunload', function(){
-			$(window).scrollTop(0),1000;
-		});	
+				<!-- include footer -->
+				<?php include('inc/_footer.php'); ?>
 
-		$('.owl-carousel').owlCarousel({
-				loop:true,
-				margin:10,
-				nav:false,
-				autoHeight:true,
-				responsive:{
-						0:{
-								items:1
-						},
-						600:{
-								items:1
-						},
-						1400:{
-								items:2
-						}
-				}
-		})		
 
-		$(function() {
+					<script type="text/javascript">
+						$(window).on('beforeunload', function() {
+							$(window).scrollTop(0), 1000;
+						});
 
-			var sidebar = $('.sidebar');
-			var top = sidebar.offset().top;
+						$('.owl-carousel').owlCarousel({
+							loop: true,
+							margin: 10,
+							nav: false,
+							autoHeight: true,
+							responsive: {
+								0: {
+									items: 1
+								},
+								600: {
+									items: 1
+								},
+								1400: {
+									items: 2
+								}
+							}
+						})
 
-			$(window).scroll(function(event) {
-				var viewportWidth = $(window).width();
-				var y = $(this).scrollTop() + 400;
-				if (y >= top) {
-					if ( viewportWidth > 1200 ) {
-						sidebar.css('top', y - 700);
-					}
-					else {
-						sidebar.css('top', 0);	
-					}
-				}
-			});
+						$(function() {
 
-		});
-	</script>	
-	
+							var sidebar = $('.sidebar');
+							var top = sidebar.offset().top;
+
+							$(window).scroll(function(event) {
+								var viewportWidth = $(window).width();
+								var y = $(this).scrollTop() + 400;
+								if (y >= top) {
+									if (viewportWidth > 1200) {
+										sidebar.css('top', y - 700);
+									} else {
+										sidebar.css('top', 0);
+									}
+								}
+							});
+
+						});
+					</script>
+
 </body>
-	

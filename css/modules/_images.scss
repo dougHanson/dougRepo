@@ -34,6 +34,9 @@ img {
 @media (max-width: 1370px) {
   .img-circle   { border: 0.5em solid #fff; }  
 }
-@media (max-width: 1200px) {
-  .work-item       { width: 100%; }  
+
+.img-shadow {
+	max-width: 100%; 
+	box-shadow: 0px 15px 25px $grey-6;
 }
+
