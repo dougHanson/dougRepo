@@ -30,11 +30,10 @@
 		}
 	</style>
 
-
 </head>
+	
 
 <body class="project-page">
-
 
 <?php /* ####################
 					DEFINE PROJECT 
@@ -52,7 +51,6 @@
 	$next_project = array('mobii-manager', 'Mobii Manager');
 	$previous_project = array('multicomm', 'Multicomm Website');
 ?>
-
 
 
 			<!-- include frames and nav -->

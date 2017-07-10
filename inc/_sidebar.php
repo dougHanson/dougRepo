@@ -3,11 +3,11 @@
 								<span class="hidden-xl">Skills</span>
 								<span class="visible-xl">Skills used</span>
 							</p>
-							<p class="margin-0">
+							<div class="margin-bottom-20">
 								<?php if(isset($skills)) { foreach ($skills as $a_skill) { ?>	
 										<h2 class="tag"> <?php print $a_skill ?></h2>
 								<?php	} } ?>											
-							</p>		
+							</div>		
 
 							<p class="h4 subheading font-bold margin-bottom-0">Client</p>
 							<p class="margin-top-0"><?php print $client ?></p>				

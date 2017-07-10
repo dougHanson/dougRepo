@@ -11,7 +11,6 @@
 	<meta name="description" content="Doug Hanson is a web designer and front end developer from Perth, Western Australia.">
 	<meta name="keywords" content="mobii manager, web design, designer, web development, front end developer, ux design, perth, doug hanson">
 
-
 	<!-- build:css -->
 	<link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,600|Dancing+Script" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="css/styles.css" media="all">
@@ -32,11 +31,10 @@
 		}			
 	</style>
 
-
 </head>
+	
 
 <body class="project-page">
-
 
 <?php /* ####################
 					DEFINE PROJECT 
@@ -45,7 +43,7 @@
 	$title = '<span class="hidden-xxs">Mobii Manager</span> App Design';
 	$client = 'iiNet';
 	//$brand_colours = [ '#ff8200', '#d21f2a', '#0090ab', '#808080', '#fff' ];
-	$year = '2016';		
+	$year = '2014';		
 	$skills = array('mobile app design', 'UI/UX', 'interaction design', 'Adobe Photoshop');
 	
 	//$website = 'www.iinet.net.au';	
@@ -59,7 +57,7 @@
 			<!-- include frames and nav -->
 			<?php include('inc/_nav.php'); ?>
 
-				<!-- iiNet plan refreshes -->
+				<!-- Mobii Manager -->
 				<div class="wrapper">
 					<div class="wrapper__outer">
 

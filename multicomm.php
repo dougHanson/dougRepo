@@ -11,12 +11,12 @@
 	<meta name="description" content="Doug Hanson is a web designer and front end developer from Perth, Western Australia.">
 	<meta name="keywords" content="multicomm, web design, designer, web development, front end developer, ux design, perth, doug hanson">
 
-
 	<!-- build:css -->
 	<link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,600|Dancing+Script" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="css/styles.css" media="all">
 	<!-- endbuild -->
 
+	<!-- individual banner styles -->
 	<style>
 		.title { padding: 15px;	background: rgba(99, 99, 98, 0.4); }		
 		.intro-effect-jam3.modify .title { background: none; }		
@@ -31,9 +31,9 @@
 	</style>
 
 </head>
+	
 
 <body class="project-page">
-
 
 <?php /* ####################
 					DEFINE PROJECT 
@@ -56,7 +56,7 @@
 			<!-- include frames and nav -->
 			<?php include('inc/_nav.php'); ?>
 
-				<!-- iiNet plan refreshes -->
+				<!-- Multicomm -->
 				<div class="wrapper">
 					<div class="wrapper__outer">
 
@@ -91,6 +91,7 @@
 										<!-- copy -->
 										<p class="h3 subheading padding-0 margin-0">At a glance</p>
 										<p>Multicomm's new website was a freelance project I completed in my spare time. Keeping nothing but the original colours, it began with a rebranding exercise, including the design of a new logo. This led to wireframes, designs, and eventually the build&nbsp;and&nbsp;implementation.</p>
+										<!--<p><img src="img/multicomm-devices.png" alt="Multicomm Website Screenshot" class="img-responsive"></p>-->
 										<p><img src="img/multicomm-business.png" alt="Multicomm Website Screenshot" class="img-shadow"></p>
 										<p class="margin-bottom-40">&nbsp;</p>
 
