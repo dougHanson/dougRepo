@@ -290,9 +290,9 @@
             //if submit button is clicked, send email
             {
               //thankyou message on website
-              echo "<div class='clearfix container'><!-- --></div><p class='thankyou-msg' style='background:#E6EFC2; color:#529214; border:1px solid #CCDC8C;padding:3px 14px; text-align:center;' >Thank you $name, I'll respond to your message shortly.</p>";
-         
-            }		?> 		
+              echo "<div class='clearfix'><!-- --></div><p class='thankyou-msg'>Thank you $name, I'll respond to your message shortly.</p>";         
+            }		
+					?> 		
           
           <!-- begin mailform -->
           <iframe name="no-reload" style="display:none;"></iframe>
