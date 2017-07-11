@@ -12,7 +12,6 @@
   margin: 1.5vw 1.5vw 0 1.5vw;
 	opacity: 0; 
 	transition: opacity 500ms;
-}
 @media (max-width: 991px) {
   .wrapper {
       padding-top: 60px;
@@ -25,9 +24,7 @@
 .wrapper__outer {
   padding-left: 270px;
   height: 100%;
-}
-@media (max-width: 991px) {
-  .wrapper__outer {
+	@media (max-width: 991px) {
       height: 100%;
       padding-left: 0px;
   }
@@ -60,9 +57,7 @@
 	text-align: center; 
 	padding: 30vh 10vh;  
 	height: 100vh;
-}
-@media (max-width: 768px) {
-	.hero-content__bg {
+	@media (max-width: 768px) {
 		text-align: center; 
 		padding: 12vh 2vh;  
 		height: 70vh;
@@ -70,3 +65,14 @@
 }
 
 .selected-works { z-index: 1; }
+
+.thankyou-msg {
+	color: $brand-success; 
+	border: 1px solid $brand-success; 
+	padding: 10px 14px; 
+	margin: 15px; 
+	width: 50%;
+	min-width: 270px;
+	text-align: center; 
+	background: #fdfffd none repeat scroll 0px 0px;
+}

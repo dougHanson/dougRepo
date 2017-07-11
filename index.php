@@ -284,11 +284,19 @@
         
           <h4 class="h3 subheading text-center margin-0">get in touch</h4>
           <h4 class="h2 text-center">Contact</h4>
-          <div class="text-center"><img src="img/arrow.png" /></div>    
+          <div class="text-center"><img src="img/arrow.png" /></div> 
+					<?php
+            if (isset($_POST['submitted']))
+            //if submit button is clicked, send email
+            {
+              //thankyou message on website
+              echo "<div class='clearfix container'><!-- --></div><p class='thankyou-msg' style='background:#E6EFC2; color:#529214; border:1px solid #CCDC8C;padding:3px 14px; text-align:center;' >Thank you $name, I'll respond to your message shortly.</p>";
+         
+            }		?> 		
           
           <!-- begin mailform -->
           <iframe name="no-reload" style="display:none;"></iframe>
-		      <form method='post' action='#contacted' style="margin-top: 2em;">     
+		      <form method='post' action='index.php#contacted' style="margin-top: 2em;">     
             <div class="col-sm-6">
               <span class="input">
                 <input class="input__field" type="text" id="input-name" name="input-name" />
@@ -340,28 +348,25 @@
               $to = "doug83@iinet.net.au";
               $email_from = "doug83@iinet.net.au";   
               $email_subject = "Email from portfolio website" ; 
-              $email_body = "A new message has been submitted by the online form on my website:\n
+              $email_body = "A new message has been submitted:\n
                
               Name: $name \n  
-              Email Address: $email \n " + 
-              //Contact number: $contact \n 
-              "Enquiry: $message"; 
+              Email Address: $email \n              
+              Enquiry: $message"; 
             
-              //from multicomm address to stop spam catcher
+              //from my address to stop spam catcher
               $headers = "From: $email_from \n"; 
               $headers .= "Reply-To: $email \n"; 
             
               //send email
-              mail($to,$email_subject,$email_body,$headers);
-          
-              //thankyou message on website
-              echo "<div class='clearfix'><!-- --></div><p id='contacted' style='background:#E6EFC2; color:#529214; border:1px solid #CCDC8C;padding:3px 14px; text-align:center;' >Thank you $name, I'll respond to your message shortly.</p>";
+              mail($to,$email_subject,$email_body,$headers);         
          
             }
           ?>          
           <!-- end mailform -->
           
       </section>
+			<div id="contacted"><!-- --></div>
       <!-- end contact me -->  
 			
           
