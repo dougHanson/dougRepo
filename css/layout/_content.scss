@@ -12,6 +12,7 @@
   margin: 1.5vw 1.5vw 0 1.5vw;
 	opacity: 0; 
 	transition: opacity 500ms;
+}
 @media (max-width: 991px) {
   .wrapper {
       padding-top: 60px;
@@ -69,8 +70,9 @@
 .thankyou-msg {
 	color: $brand-success; 
 	border: 1px solid $brand-success; 
+	font-weight: 700;
 	padding: 10px 14px; 
-	margin: 15px; 
+	margin: 15px auto; 
 	width: 50%;
 	min-width: 270px;
 	text-align: center; 
