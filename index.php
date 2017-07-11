@@ -289,10 +289,36 @@
             if (isset($_POST['submitted']))
             //if submit button is clicked, send email
             {
+          
+              //get the data entered in the forms
+              $name = $_POST['input-name'];
+              $email = $_POST['input-email'];
+              //$contact = $_POST['input-contact'];
+              $message = $_POST['input-message'];
+            
+              //compose the email message 
+              $to = "doug83@iinet.net.au";
+              $email_from = "doug83@iinet.net.au";   
+              $email_subject = "Email from portfolio website" ; 
+              $email_body = "A new message has been submitted:\n
+               
+              Name: $name \n  
+              Email Address: $email \n              
+              Enquiry: $message"; 
+            
+              //from my address to stop spam catcher
+              $headers = "From: $email_from \n"; 
+              $headers .= "Reply-To: $email \n"; 
+            
+              //send email
+              mail($to,$email_subject,$email_body,$headers);   
+          
               //thankyou message on website
-              echo "<div class='clearfix'><!-- --></div><p class='thankyou-msg'>Thank you $name, I'll respond to your message shortly.</p>";         
-            }		
-					?> 		
+              echo "<div class='clearfix'><!-- --></div><p class='thankyou-msg font-heavy'>Thank you ".$name.", I'll respond to your message shortly.</p>";         
+
+            }
+          ?>          
+          <!-- end mailform -->	
           
           <!-- begin mailform -->
           <iframe name="no-reload" style="display:none;"></iframe>
@@ -333,37 +359,7 @@
             </div> 
           </form> 
 
-          <?php
-            if (isset($_POST['submitted']))
-            //if submit button is clicked, send email
-            {
-          
-              //get the data entered in the forms
-              $name = $_POST['input-name'];
-              $email = $_POST['input-email'];
-              //$contact = $_POST['input-contact'];
-              $message = $_POST['input-message'];
-            
-              //compose the email message 
-              $to = "doug83@iinet.net.au";
-              $email_from = "doug83@iinet.net.au";   
-              $email_subject = "Email from portfolio website" ; 
-              $email_body = "A new message has been submitted:\n
-               
-              Name: $name \n  
-              Email Address: $email \n              
-              Enquiry: $message"; 
-            
-              //from my address to stop spam catcher
-              $headers = "From: $email_from \n"; 
-              $headers .= "Reply-To: $email \n"; 
-            
-              //send email
-              mail($to,$email_subject,$email_body,$headers);         
-         
-            }
-          ?>          
-          <!-- end mailform -->
+
           
       </section>
 			<div id="contacted"><!-- --></div>
