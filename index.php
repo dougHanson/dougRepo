@@ -144,51 +144,23 @@
 							</div>
 						</article>
 					</a>
-										
-										
-				 <!--			
 					
-          <a href="#">
-            <article class="work-item"> 
-							<img src="img/iihelp.png" style="width: 100%;" />
-							<div class="work-item__content">
-								<p class="work-item__heading">iiHelp redesign</p>
-								<p class="subheading">ux / web design</p> 
-							</div> 
-            </article>
-          </a>       
-  
-					
-          <a href="#">
-            <article class="work-item"> 
-							<img src="img/owl1.jpg" style="width: 100%;" />
-							<div class="work-item__content">
-								<p class="work-item__heading">Bankwest Mobile App</p>
-								<p class="subheading">mobile design</p> 
-							</div> 
-            </article>
-          </a>      					
+					<!--
+					<a href="bankwest.php" class="progressLoad">
+						<article class="work-item">
+							<div class="work-item__drawings" id="drawings">
+								<img class="illustration" src="img/sunny.png" alt="" style="max-width: 250px;" />
+								<?php echo file_get_contents("svg/sun.svg"); ?>															
+							</div>
 
-
-          <a href="#">
-            <article class="work-item"> 
-							<img src="img/world-passion-change.png" style="width: 100%;" />
 							<div class="work-item__content">
-								<p class="work-item__heading">World. Passion. Change.</p>
-								<p class="subheading">branding / web design / web development</p> 
-							</div> 
-            </article> 
-          </a> 
-					
-          <a href="#">
-            <article class="work-item"> 
-							<img src="img/owl3.jpg" style="width: 100%;" />
-							<div class="work-item__content">
-								<p class="work-item__heading">Maiko Flyers</p>
-								<p class="subheading">branding / graphic design</p> 
-							</div> 
-            </article> 
-          </a> 		-->			
+								<p class="work-item__heading">Bankwest landing pages &amp; eDMs</p>
+								<h2 class="h5 subheading">web design / web development / email marketing</h2>
+							</div>
+						</article>
+					</a>			
+					-->
+		
                             
         </div>
 

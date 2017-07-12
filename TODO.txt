@@ -1,20 +1,23 @@
-gulp clean & gulp in general
+use gulp clean, and get gulp minifying all files in dist directory correctly
 
-contact form functionality
+contact form inline validation
 
-widen perth bg image and compress
-widen plan page image and compress
-
-progress load effect on arrow navigation
-make progress bar blue (brand-color-3)
-
-fix floating aside on plan pages, disable for mobile
-fix title positioning on mobile
-fix image hover sizes in selected works on tablets etc
-
+progress load effect on arrow navigation (make bright blue)
 
 lazy load images on plan pages
 
+
+
+
+[ ] more mobile images in iinet page carousel
+[ ] place screenshots for mobii in carousel
+[ ] open screenshots in lightbox
+[ ] improve wording for multicomm
+[ ] add CTAs to each project b4 building more
+[ ] include more projects, including relocations, beige, and gluon/portfolio
+[ ] support retina images
+[ ] show some code in screenshots -iinet plan page angular
+[ ] do a page on CSS recommendations, like blog article. good for seo.
 
 
 -----------
