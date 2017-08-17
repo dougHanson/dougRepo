@@ -67,12 +67,12 @@ del {
 }
 
 ::selection {
-  background: $grey-6; /* WebKit/Blink Browsers */
+  background: $brand-primary; /* WebKit/Blink Browsers */
   color: #fff;  
 }
 
 ::-moz-selection {
-  background: $grey-6; /* Gecko Browsers */
+  background: $brand-primary; /* Gecko Browsers */
   color: #fff;
 }
 
@@ -165,7 +165,7 @@ h6, .h6              { font-size: $font-size-h6; }
 
 .subheading { 
   font-family: $font-family-secondary;
-	color: $grey-6;
+	color: $grey-2;
 }
 
 .subheading__hero {

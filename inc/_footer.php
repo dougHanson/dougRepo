@@ -107,8 +107,7 @@
 	
 	// Fade wrapper in page load
 	$(".wrapper").animate({"opacity": "1"}, 300);	
-
-
+	
 	//Initialise Owl Carousel
 	$('.owl-carousel').owlCarousel({
 		loop: true,

@@ -150,7 +150,7 @@
 						<article class="work-item">
 							<div class="work-item__drawings" id="drawings">
 								<img class="illustration" src="img/sunny.png" alt="" style="max-width: 250px;" />
-								<?php echo file_get_contents("svg/sun.svg"); ?>															
+								<?php //echo file_get_contents("svg/sun.svg"); ?>															
 							</div>
 
 							<div class="work-item__content">
@@ -172,9 +172,9 @@
 			
 			
 			
-			<!-- -------------------------------------
+			<!--  -------------------------------------
 			//   About me
-			------------------------------------------ -->		
+			------------------------------------------  -->		
       <section id="about" class="about container">
         <h4 class="h3 subheading text-center margin-0">roles and experience</h4>
         <h4 class="h2 text-center">About me</h4>

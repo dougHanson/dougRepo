@@ -29,7 +29,6 @@
 			.intro-effect-jam3.modify .bg-img img { top: -60px; }
 		}
 	</style>
-
 </head>
 	
 
@@ -91,22 +90,20 @@
 										<!-- copy -->
 										<p class="h3 subheading padding-0 margin-0">At a glance</p>
 										<p>iiNet's core product pages presented a complex user experience. They were not responsive, and were no longer aligned with the brand. Each product page also had a unique interface and layout, confusing potential customers and customer service representatives. This presented an opportunity to improve the user experience, by simplifying these pages and unifying them with each other and the brand. </p>
-										<p><img src="img/iinet-plan-pages-naked-dsl.png" alt="iiNet Product Page Refresh" class="img-shadow"></p>
-										<p class="margin-bottom-40">&nbsp;</p>
-
 
 										<p class="h3 subheading padding-0 margin-0">The process</p>
-										<p>The new design was created with a stepped approach, making it easy for users to understand. User testing sessions were then conducted with a handful of customer service reps, which allowed us to identify pain points for users and refine the design further to highlight key plan features.</p>
-										<p>Each plan is broken out into its own box, with emphasis on the benefit (the quota) rather than the price. Large checkboxes are with a very distinct active state to make it clear to the user what they have chosen.</p>
-
-
+										<p>To begin gathering <strong>user requirements</strong>, I conducted a <strong>focus group</strong> with customer service reps, to identify pain points with the existing design. This gave insight not only into what users like and dislike, but also what users do, how they do it, and what frustrates them. I then conducted an <strong>expert review</strong> and a <strong>competitor analysis</strong>, to investigate the best way to solve the identified problems.</p>
+										<p>Iterations of <strong>wireframes and designs</strong> followed, and reviewed by key stakeholders at each major step. Once a very basic <strong>prototype</strong> was ready, <strong>user testing sessions</strong> were then conducted with a handful of users, which allowed us to identify any remaining issues and refine the design further.</p>
+										
+										<p><img src="img/iinet-plan-pages-naked-dsl.png" alt="iiNet Product Page Refresh" class="img-shadow"></p>
+										<p class="margin-bottom-40">&nbsp;</p>								
 
 										<p class="h3 subheading padding-0 margin-0">The result</p>
-										<p>The new responsive pages reduce cognitive load by breaking down the plan customisation into intuitive steps. Both conversion and bounce rates improved once the new pages were released.</p>
-
-
-
-										<p class="h3 subheading padding-0 margin-0">Additional screenshots</p>
+										<p>The new design was created with a stepped approach, making it easy for users to understand. Each plan is broken out into its own box, with emphasis on the benefit (the quota) rather than the price. The address check field was previously overlooked, so this was given more prominence as the first step. Large checkboxes have a very distinct active state to make it clear to the user what they have chosen.</p>
+										<p>The new responsive pages reduce cognitive load by breaking down the plan customisation into intuitive steps. Both <strong>conversion and bounce rates improved once the new pages were released</strong>.</p>															
+										
+										
+										<p class="h3 subheading padding-0 margin-top-40">Additional screenshots</p>
 										<div class="owl-carousel owl-theme">
 											<div class="item"><img src="img/iinet-plan-pages-mobile-banner.png" /></div>
 											<div class="item"><img src="img/iinet-plan-pages-mobile-plans.png" /></div>
@@ -144,6 +141,12 @@
 					$(window).on('beforeunload', function() {
 						$(window).scrollTop(0), 5000;
 					});	
-				</script>		
+				</script>	
+	
+	
+
+	
+	
+	
 
 </body>
