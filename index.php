@@ -203,21 +203,21 @@
                 <td width="150px">iiNet<br>2013 - Present</td>
                 <td>
 									<strong>Senior Web Designer</strong><br>
-									<span class="hidden-xxs">To deliver design, development, and ongoing maintenance of web-based products and systems to support business initiatives. Create prototypes, UI, IA, graphical and architectural requirements, and conduct usability assessments to evaluate solutions at the information architecture &amp; design level.</span>
+									<span class="hidden-xxs"><span class="hidden-xs">To deliver design, development, and ongoing maintenance of web-based products and systems to support business initiatives.</span> Create prototypes, UI, IA, graphical and architectural requirements, and conduct usability assessments to evaluate solutions at the information architecture &amp; design level.</span>
 								</td>
               </tr>
               <tr>
                 <td>Bankwest<br>2010 - 2013</td>
                 <td>
 									<strong>Digital Production Specialist</strong><br>
-									<span class="hidden-xxs">Work with key stakeholders to design and deliver innovative digital creative elements to drive Bankwest initiatives.</span>
+									<span class="hidden-xxs">Work with key stakeholders to design and deliver innovative digital creative elements to drive Bankwest initiatives. <span class="hidden-xs">Designed and implemented changes to the existing Bankwest website and was involved with large scale development projects, including a website refresh and designs for the original Bankwest Mobile App.</span></span>
 								</td>
               </tr>
               <tr>
                 <td>Bankwest<br>2009 - 2010</td>
                 <td>
 									<strong>Online Marketing Manager</strong><br>
-									<span class="hidden-xxs">To manage the marketing and customer experience of multiple product portfolios via the online channel. Responsible for implementing well defined campaign strategies, campaign optimisation, budget management, agency relationships, and online creative development.</span>
+									<span class="hidden-xxs"><span class="hidden-xs">To manage the marketing and customer experience of multiple product portfolios via the online channel.</span> Responsible for implementing well defined campaign strategies, campaign optimisation, budget management, agency relationships, and online creative development.</span>
 								</td>
               </tr>  
               <tr>
@@ -226,7 +226,14 @@
 									<strong>eCommerce Marketing Coordinator</strong><br>
 									<span class="hidden-xxs">To coordinate the Bankwest online marketing and sales function, responsible for online marketing execution, management information reporting, agency relationships and strategic projects.</span>
 								</td>
-              </tr>                   
+              </tr>  
+              <tr>
+                <td>White Chalk Road<br>2006 - 2007</td>
+                <td>
+									<strong>Internet Marketing Consultant</strong><br>
+									<span class="hidden-xxs"><span class="hidden-xs">To manage a wide, varied portfolio of over 20 clients and improve ROI through Search Engines by implementing proven SEO methodologies.</span> Responsible for setting up, managing, and optimising small SEM campaigns within Google Adwords to drive acquisitions and improve ROI.</span>
+								</td>
+              </tr> 							
             </tbody>
           </table> 
 					
