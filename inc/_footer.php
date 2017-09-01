@@ -75,9 +75,13 @@
 </footer>
 
 
+<style>
+	
+</style>
+
 <!-- jQuery CDN --> 
 <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script> 
-<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script> 
+<!--<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>  -->
 
 <!-- JS plugins --> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.min.js"></script>
@@ -87,6 +91,7 @@
 <script src="js/plugins/jquery.ui.touch-punch.min.js"></script> 
 <script src="js/plugins/owl.carousel.js"></script> 
 <script src="js/plugins/svganimations.js"></script>	
+<script src="js/plugins/lightbox.js"></script>
 <script src="js/main.js"></script> 
 <!-- endbuild --> 
 
@@ -110,7 +115,7 @@
 	
 	//Initialise Owl Carousel
 	$('.owl-carousel').owlCarousel({
-		loop: true,
+		loop: false,
 		margin: 10,
 		nav: false,
 		responsive: {
