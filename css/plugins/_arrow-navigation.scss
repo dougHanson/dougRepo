@@ -118,3 +118,18 @@
 	-webkit-transform: translateY(-50%) translateX(0); 
 	transform: translateY(-50%) translateX(0);
 }
+
+
+.nav-slide a:hover .icon-wrap__text { 
+	opacity: 0; 
+	color: #fff; 
+	transition: all 250ms; 
+	@media (max-width: 991px) {
+		opacity: 1;
+		color: #000;
+	}
+}
+
+.icon-wrap__text { position: absolute; top: 18px; color: $grey-2; }
+.icon-wrap__text--left { left: 60px; }
+.icon-wrap__text--right { right: 60px;  }

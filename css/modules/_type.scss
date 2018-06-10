@@ -174,7 +174,7 @@ h6, .h6              { font-size: $font-size-h6; }
 	color: $grey-2;
 	width: 80%;
 	margin: 0 auto;
-	@media (max-width: 479px) {
+	@media (max-width: 540px) {
 		font-size: 1.5rem;
 	} 	
 }
@@ -190,7 +190,7 @@ h6, .h6              { font-size: $font-size-h6; }
   //text-transform: uppercase;   
   color: $grey-2;
   letter-spacing: 3px;
-	width: 80%;
+	width: 90%;
 	margin: 0 auto;	
 }
   
@@ -222,7 +222,7 @@ h6, .h6              { font-size: $font-size-h6; }
 
 @media (max-width: 1360px) {
   .hero-heading {
-    font-size: 80px;
+    font-size: 70px;
   }
 }
 @media (max-width: 991px) {
@@ -238,6 +238,11 @@ h6, .h6              { font-size: $font-size-h6; }
   .hero-heading span:after {
 	width: 30px;
   }
+}
+@media (max-width: 520px) {
+  .hero-heading {
+    font-size: 48px; 
+  }  
 }
 @media (max-width: 479px) {
   .hero-heading {
@@ -304,17 +309,10 @@ h6, .h6              { font-size: $font-size-h6; }
 
 @media (max-width: 767px) {
   .page-title span:before,
-  .page-title span:after {
-	width: 0px;
-  }
+  .page-title span:after { width: 0px; }
 }
 
 @media (max-width: 479px) {
   .page-title span:before,
-  .page-title span:after {
-	width: 0px;
-  }
+  .page-title span:after { width: 0px; }
 }
-
-
-
