@@ -17,8 +17,6 @@
 	<!-- endbuild -->
 
 
-
-
 	<!-- individual banner styles -->
 	<style>
 		.title h1 {
@@ -67,7 +65,7 @@
 	$client = 'iiNet';
 	//$brand_colours = [ '#ff8200', '#d21f2a', '#0090ab', '#808080', '#fff' ];
 	//$year = '2016';		
-	$skills = array('HTML5', 'CSS3', 'PHP', 'Angular JS', 'User Testing', 'SASS', 'OOCSS/BEM');
+	$skills = array('HTML5', 'CSS3', 'PHP', 'AngularJS', 'User Testing', 'SASS', 'OOCSS/BEM');
 	
 	$website = 'www.iinet.net.au';	
 	$website_url = '//www.iinet.net.au/internet-products/broadband/naked-dsl';
@@ -152,7 +150,7 @@
 							<!-- end container -->
 
 							<!-- next & prev slides -->
-							<div style="margin-top:150px;">
+							<div>
 								<?php include('inc/_project-slides.php'); ?>
 							</div>
 

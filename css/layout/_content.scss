@@ -65,7 +65,11 @@
 	}
 }
 
+.selected-works, .about, .contact { margin-bottom: 70px; }
+
 .selected-works { z-index: 1; }
+
+.nav-slide { margin-top: 150px; } 
 
 .thankyou-msg {
 	color: $brand-success; 

@@ -107,7 +107,7 @@
 								<!-- end container -->
 
 								<!-- next & prev slides -->
-								<div style="margin-top:150px;">
+								<div class="project-slides">
 									<?php include('inc/_project-slides.php'); ?>
 								</div>
 

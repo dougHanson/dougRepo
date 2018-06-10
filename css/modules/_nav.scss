@@ -13,12 +13,13 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 230px;
+  width: 230px; 
   height: 100%;
   z-index: 888;
 	background: $brand-primary; 
 	background-image: url('../img/aside.jpg');
 	background-size: cover;
+	background-position: 0 -40px;
 	border-right: 1px solid $grey-9;
 	@media (max-width: 991px) {
 		background: $brand-primary;

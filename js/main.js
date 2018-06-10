@@ -163,19 +163,19 @@ var pathname = window.location.pathname.substr(10); // Returns path only
 
 	$(".nav-works").click(function() {	
 			$('html, body').animate({
-				scrollTop: $(".selected-works").offset().top-50
+				scrollTop: $(".selected-works").offset().top-55
 			}, scrollSpeed);	
 	});	
 
 	$(".nav-about").click(function() {		
 			$('html, body').animate({
-				scrollTop: $(".about").offset().top-50
+				scrollTop: $(".about").offset().top-55
 			}, scrollSpeed);			
 	});
 
 	$(".nav-contact").click(function() {	
 			$('html, body').animate({
-				scrollTop: $(".contact-me").offset().top-50
+				scrollTop: $(".contact-me").offset().top-55
 			}, scrollSpeed);				
 	});
 

@@ -46,7 +46,7 @@
 
 		<br>
 		<br>
-		<p class="social-icon__copy">My social links</p>
+		<!--<p class="social-icon__copy">My social links</p>-->
 
 		<a class="social-icon" href="//www.linkedin.com/in/doug83/" target="_blank">
 			<div class="social-icon__bg"></div>

@@ -140,7 +140,8 @@
 		$(window).scroll(function(event) {
 			var viewportWidth = $(window).width();
 			var y = $(this).scrollTop() + 400;
-			if (y >= top) {
+			var base = $('footer').offset().top - window.scrollY;
+			if (y >= top && base > 720) {
 				if (viewportWidth > 1200) {
 					sidebar.css('top', y - 700);
 				} else {
