@@ -1,38 +1,53 @@
 // OWL CAROUSEL - initiate Owl Carousel plugin 
-$(document).ready(function() {
-  $(".owl-carousel").owlCarousel({
+$('.owl-carousel').owlCarousel({
 	stagePadding: 0,
-	nav: true
-  });
-});
+	loop: false,
+	margin: 10,
+	nav: false,
+	responsive: {
+		0: {
+			items: 1
+		},
+		600: {
+			items: 1
+		},
+		1400: {
+			items: 2
+		}
+	}
+})
+
+	
+// FADE WRAPPER IN ON PAGE LOAD
+$(".wrapper").animate({"opacity": "1"}, 300);	
 
 
 // FADE CONTENT ON SCROLL
-  var fadeStart = 150;
-  var fadeUntil = 750;
-	var fadingClass = $('.fadeOut');
-	var fadingFastClass = $('.fadeOut--fast');
+var fadeStart = 150;
+var fadeUntil = 750;
+var fadingClass = $('.fadeOut');
+var fadingFastClass = $('.fadeOut--fast');
 
 
-	$(window).bind('scroll', function(){
-		var offset = $(document).scrollTop();
-		var opacity = 0;	
-		if ( offset<=fadeStart ) {
-			opacity=1;
-			fadingFastClass.css('opacity',1);
-		} 
-		else if ( offset<=fadeUntil ) {
-			opacity = 1-(1.8*((offset-fadeStart)/(fadeUntil)));
-			fadingFastClass.css('opacity',opacity-0.5);
-		}	
-		if ( ! /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) { // && $(window).width() > 768 ) {
-			fadingClass.css('opacity',opacity);
-			fadingClass.css('top',offset*0.4); 
-			//fadingFastClass.css('opacity',opacity-0.4);
-			fadingFastClass.css('top',offset*0.9); 
-			//fadingFastClass.css('opacity',0);
-		}
-	});
+$(window).bind('scroll', function(){
+	var offset = $(document).scrollTop();
+	var opacity = 0;	
+	if ( offset<=fadeStart ) {
+		opacity=1;
+		fadingFastClass.css('opacity',1);
+	} 
+	else if ( offset<=fadeUntil ) {
+		opacity = 1-(1.8*((offset-fadeStart)/(fadeUntil)));
+		fadingFastClass.css('opacity',opacity-0.5);
+	}	
+	if ( ! /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) { // && $(window).width() > 768 ) {
+		fadingClass.css('opacity',opacity);
+		fadingClass.css('top',offset*0.4); 
+		//fadingFastClass.css('opacity',opacity-0.4);
+		fadingFastClass.css('top',offset*0.9); 
+		//fadingFastClass.css('opacity',0);
+	}
+});
 
 
 // PARALLAX SCROLLING
@@ -208,7 +223,7 @@ $(function() {
 });
 
 	
-//keep project sidebar floating on right
+//FLOATING SIDEBAR 
 $(function() {
 
 	var sidebar = $('.sidebar');
@@ -228,25 +243,3 @@ $(function() {
 	});
 
 });
-
-	
-// Fade wrapper in on page load
-$(".wrapper").animate({"opacity": "1"}, 300);	
-
-//Initialise Owl Carousel
-$('.owl-carousel').owlCarousel({
-	loop: false,
-	margin: 10,
-	nav: false,
-	responsive: {
-		0: {
-			items: 1
-		},
-		600: {
-			items: 1
-		},
-		1400: {
-			items: 2
-		}
-	}
-})

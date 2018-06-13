@@ -10,7 +10,7 @@
 							</div>		
 
 							<p class="h4 subheading font-bold margin-bottom-0">Client</p>
-							<p class="margin-top-0"><?php print $client ?></p>				
+							<p class="margin-top-0" id="projectClient"><?php print $client ?></p>				
 
 							<?php if(isset($website)) { ?>
 							<p class="h4 subheading font-bold margin-top-20 margin-bottom-0">

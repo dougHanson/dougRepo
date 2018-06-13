@@ -154,49 +154,10 @@
 		$(window).on('beforeunload', function() {
 			$(window).scrollTop(0), 5000;
 		});
-	</script>
-	
-	<script>
-	var projects = {
-		product_page_redesign: {
-			title: '<span class="hidden-xxs">iiNet</span> Product Page Redesign',
-			client: 'iiNet',
-			brand_colours: [ '#ff8200', '#d21f2a', '#0090ab', '#808080', '#fff' ],
-			skills: ['HTML5', 'CSS3', 'PHP', 'AngularJS', 'UX Design', 'User Testing', 'SASS', 'OOCSS/BEM'],
-			//year: '2016',
-			website: 'www.iinet.net.au',
-			website_url: '//www.iinet.net.au/internet-products/broadband/naked-dsl'
-		},
-		mobii_manager: {
-			title: '<span class="hidden-xxs">iiNet</span> Product Page Redesign',
-			client: 'iiNet',
-			brand_colours: [ '#ff8200', '#d21f2a', '#0090ab', '#808080', '#fff' ],
-			skills: ['HTML5', 'CSS3', 'PHP', 'AngularJS', 'UX Design', 'User Testing', 'SASS', 'OOCSS/BEM'],
-			year: '2014',
-			website: 'www.iinet.net.au',
-			website_url: '//www.iinet.net.au/internet-products/broadband/naked-dsl'
-		},
-		multicomm: {
-			title: '<span class="hidden-xxs">iiNet</span> Product Page Redesign',
-			client: 'iiNet',
-			brand_colours: [ '#ff8200', '#d21f2a', '#0090ab', '#808080', '#fff' ],
-			skills: ['HTML5', 'CSS3', 'PHP', 'AngularJS', 'UX Design', 'User Testing', 'SASS', 'OOCSS/BEM'],
-			year: '2015',
-			website: 'www.iinet.net.au',
-			website_url: '//www.iinet.net.au/internet-products/broadband/naked-dsl'
-		},
-		bankwest: {
-			title: '<span class="hidden-xxs">iiNet</span> Product Page Redesign',
-			client: 'Bankwest',
-			brand_colours: [ '#ff8200', '#d21f2a', '#0090ab', '#808080', '#fff' ],
-			skills: ['HTML5', 'CSS3', 'PHP', 'AngularJS', 'UX Design', 'User Testing', 'SASS', 'OOCSS/BEM'],
-			//year: '2016',
-			website: 'www.iinet.net.au',
-			website_url: '//www.iinet.net.au/internet-products/broadband/naked-dsl'
-		}
 
-	};		
-	document.getElementById("projectTitle").innerHTML = projects.product_page_redesign.title;
+		//project population
+		document.getElementById("projectTitle").innerHTML = projects.product_page_redesign.title;
+		document.getElementById("projectClient").innerHTML = projects.product_page_redesign.client;
 	</script> 	
 
 </body>
