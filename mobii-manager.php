@@ -37,7 +37,7 @@
 <body class="project-page">
 
 <?php /* ####################
-					DEFINE PROJECT 
+		  DEFINE PROJECT 
 ############################# */ 
 	
 	$title = '<span class="hidden-xxs">Mobii Manager</span> App Design';
@@ -54,79 +54,79 @@
 ?>
 
 
-			<!-- include frames and nav -->
-			<?php include('inc/_nav.php'); ?>
+	<!-- include frames and nav -->
+	<?php include('inc/_nav.php'); ?>
 
-				<!-- Mobii Manager -->
-				<div class="wrapper">
-					<div class="wrapper__outer">
+	<!-- Mobii Manager -->
+	<div class="wrapper">
+		<div class="wrapper__outer">
 
-						<div id="container" class="intro-effect-jam3">
+			<div id="container" class="intro-effect-jam3">
 
-							<header class="header">
-								<div class="bg-img">
-									<img src="img/mobii-manager-big.png" alt="Mobile App Design" />
-								</div>
-							</header>
+				<header class="header">
+					<div class="bg-img">
+						<img src="img/mobii-manager-big.png" alt="Mobile App Design" />
+					</div>
+				</header>
 
-							<div class="container">
-								<div class="title">
-									<h1 class="font-bold grey-6"><?php print $title ?></h1>
-								</div>
-							</div>
+				<div class="container">
+					<div class="title">
+						<h1 class="font-bold grey-6"><?php print $title ?></h1>
+					</div>
+				</div>
 
-							<article class="content">
-								<div class="container">
-
-
-									<!-- content -->
-									<div class="col-lg-9">
-
-										<!-- brand colours -->
-										<p class="margin-0">
-											<?php if(isset($brand_colours)) { foreach ($brand_colours as $a_colour) { ?>
-												<span class="brand-colour" style="background: <?php print $a_colour ?>"> </span>
-												<?php	} } ?>
-										</p>
-
-										<!-- copy -->
-										<p class="h3 subheading padding-0 margin-0">At a glance</p>
-										<p class="margin-bottom-40">iiNet had just released shiny new mobile broadband hardware, which was using the generic Huawei Android app to operate the hardware. I designed a tailored iiNet Android app which strengthened the brand, whilst providing a better user experience than the generic app. Once all stakeholders were happy with the design, I worked with an external development agency, guiding them through the anitcipated UX and interactions, as well as supplying all graphical elements.</p>
-										<p><img src="img/mobii-designs.png" class="margin-bottom-20 img-responsive" alt=""></p>
-										<p><img src="img/mobii-designs-2.png" class="margin-bottom-20 img-responsive" alt=""></p>
-										<p><img src="img/mobii-designs-3.png" class="img-responsive" alt=""></p>
-										<p class="margin-bottom-40">&nbsp;</p>
-
-									</div>
-
-									<!-- additional project info -->
-									<?php include('inc/_sidebar.php'); ?>
+				<article class="content">
+					<div class="container">
 
 
-								</div>
-								<!-- end container -->
+						<!-- content -->
+						<div class="col-lg-9">
 
-								<!-- next & prev slides -->
-								<div class="project-slides">
-									<?php include('inc/_project-slides.php'); ?>
-								</div>
+							<!-- brand colours -->
+							<p class="margin-0">
+								<?php if(isset($brand_colours)) { foreach ($brand_colours as $a_colour) { ?>
+									<span class="brand-colour" style="background: <?php print $a_colour ?>"> </span>
+									<?php	} } ?>
+							</p>
 
-							</article>
+							<!-- copy -->
+							<p class="h3 subheading padding-0 margin-0">At a glance</p>
+							<p class="margin-bottom-40">iiNet had just released shiny new mobile broadband hardware, which was using the generic Huawei Android app to operate the hardware. I designed a tailored iiNet Android app which strengthened the brand, whilst providing a better user experience than the generic app. Once all stakeholders were happy with the design, I worked with an external development agency, guiding them through the anitcipated UX and interactions, as well as supplying all graphical elements.</p>
+							<p><img src="img/mobii-designs.png" class="margin-bottom-20 img-responsive" alt=""></p>
+							<p><img src="img/mobii-designs-2.png" class="margin-bottom-20 img-responsive" alt=""></p>
+							<p><img src="img/mobii-designs-3.png" class="img-responsive" alt=""></p>
+							<p class="margin-bottom-40">&nbsp;</p>
 
 						</div>
 
+						<!-- additional project info -->
+						<?php include('inc/_sidebar.php'); ?>
+
+
 					</div>
-				</div>
-				<!-- end iiNet Plan Refreshes -->
+					<!-- end container -->
 
-				<!-- include footer -->
-				<?php include('inc/_footer.php'); ?>
+					<!-- next & prev slides -->
+					<div class="project-slides">
+						<?php include('inc/_project-slides.php'); ?>
+					</div>
 
-				<script>
-					//Scroll page back to top on refresh, to ensure loading effect is maintained
-					$(window).on('beforeunload', function() {
-						$(window).scrollTop(0), 5000;
-					});	
-				</script>		
+				</article>
+
+			</div>
+
+		</div>
+	</div>
+	<!-- end iiNet Plan Refreshes -->
+
+	<!-- include footer -->
+	<?php include('inc/_footer.php'); ?>
+
+	<script>
+		//Scroll page back to top on refresh, to ensure loading effect is maintained
+		$(window).on('beforeunload', function() {
+			$(window).scrollTop(0), 5000;
+		});	
+	</script>		
 
 </body>

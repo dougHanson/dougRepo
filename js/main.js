@@ -208,3 +208,45 @@ $(function() {
 });
 
 	
+//keep project sidebar floating on right
+$(function() {
+
+	var sidebar = $('.sidebar');
+	var top = sidebar.offset().top;
+
+	$(window).scroll(function(event) {
+		var viewportWidth = $(window).width();
+		var y = $(this).scrollTop() + 400;
+		var base = $('footer').offset().top - window.scrollY;
+		if (y >= top && base > 960) {
+			if (viewportWidth > 1200) {
+				sidebar.css('top', y - 700);
+			} else {
+				sidebar.css('top', 0);
+			}
+		}
+	});
+
+});
+
+	
+// Fade wrapper in on page load
+$(".wrapper").animate({"opacity": "1"}, 300);	
+
+//Initialise Owl Carousel
+$('.owl-carousel').owlCarousel({
+	loop: false,
+	margin: 10,
+	nav: false,
+	responsive: {
+		0: {
+			items: 1
+		},
+		600: {
+			items: 1
+		},
+		1400: {
+			items: 2
+		}
+	}
+})

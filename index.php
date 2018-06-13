@@ -48,9 +48,8 @@
   }	
   else {
 */ ?>	
-	
-	
-	
+
+
 <div style="position: relative;"> 
       
 <!-- include frames and nav --> 	
@@ -59,7 +58,7 @@
   <!-- body content -->
 	<section class="wrapper">
 		<div class="wrapper__outer"> 
-          
+	
 			<!-- ###############################
 			//   Intro / hero content
 			#################################### -->		
@@ -146,7 +145,7 @@
 							<div class="work-item__drawings" id="drawings">
 								<img class="illustration" src="img/sunny.png" alt="" style="max-width: 250px;" />
 								<?php //echo file_get_contents("svg/sun.svg"); ?>															
-							</div>
+							</div> 
 
 							<div class="work-item__content">
 								<p class="work-item__heading">Bankwest landing pages &amp; eDMs</p>

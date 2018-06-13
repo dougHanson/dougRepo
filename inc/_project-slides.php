@@ -10,7 +10,7 @@
 				<section>
 					<div class="nav-slide">
 	
-						<a class="prev" href="<?php print $previous_project[0] ?>.php">												
+						<a class="prev progressLoad" href="<?php print $previous_project[0] ?>.php">												
 							<span class="icon-wrap">
 								<span class="icon-wrap__text icon-wrap__text--left">Prev</span>
 								<svg class="icon" width="32" height="32" viewBox="0 0 64 64"><use xlink:href="#arrow-left-1"></svg>
@@ -21,7 +21,7 @@
 							</div>
 						</a>
 							
-						<a class="next" href="<?php print $next_project[0] ?>.php">
+						<a class="next progressLoad" href="<?php print $next_project[0] ?>.php">
 							<span class="icon-wrap">
 								<span  class="icon-wrap__text icon-wrap__text--right">Next</span>
 								<svg class="icon" width="32" height="32" viewBox="0 0 64 64"><use xlink:href="#arrow-right-1"></svg>

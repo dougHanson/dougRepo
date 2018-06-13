@@ -7,17 +7,26 @@ progress load effect on arrow navigation (make bright blue)
 lazy load images on plan pages
 
 
+[X] clean up code so scripts are centralised and easier to find
+[ ] create global json of projects for further automation
+[ ] use properly formatted sass
 
-
-[ ] more mobile images in iinet page carousel
+[ ] more diversified imagery in iinet page
 [ ] place screenshots for mobii in carousel
-[ ] open screenshots in lightbox
 [ ] improve wording for multicomm
-[ ] add CTAs to each project b4 building more
+[ ] open all additional screenshots in lightbox
+
+[ ] stop work items from solidifying on hover until fully drawn
+[ ] add dropdown on mobile to show more job details
+
+[ ] add CTAs to each project in aside, contact form perhaps
 [ ] include more projects, including relocations, beige, and gluon/portfolio
 [ ] support retina images
+[ ] improve load times, shrink images down
+[ ] add some flair to banners
 [ ] show some code in screenshots -iinet plan page angular
 [ ] do a page on CSS recommendations, like blog article. good for seo.
+
 
 
 -----------

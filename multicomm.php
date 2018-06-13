@@ -36,7 +36,7 @@
 <body class="project-page">
 
 <?php /* ####################
-					DEFINE PROJECT 
+			DEFINE PROJECT 
 ############################# */ 
 	
 	$title = 'Multicomm Website';
@@ -53,88 +53,88 @@
 ?>
 
 
-			<!-- include frames and nav -->
-			<?php include('inc/_nav.php'); ?>
+	<!-- include frames and nav -->
+	<?php include('inc/_nav.php'); ?>
 
-				<!-- Multicomm -->
-				<div class="wrapper">
-					<div class="wrapper__outer">
+	<!-- Multicomm -->
+	<div class="wrapper">
+		<div class="wrapper__outer">
 
-						<div id="container" class="intro-effect-jam3">
+			<div id="container" class="intro-effect-jam3">
 
-							<header class="header">
-								<div class="bg-img">
-									<img src="img/multicomm-header.jpg" alt="Multicomm Website Development" />
-								</div>
-							</header>
+				<header class="header">
+					<div class="bg-img">
+						<img src="img/multicomm-header.jpg" alt="Multicomm Website Development" />
+					</div>
+				</header>
 
-							<div class="container">
-								<div class="col-sm-12 title">
-									<h1 class="font-bold grey-6"><?php print $title ?></h1>
-								</div>
+				<div class="container">
+					<div class="col-sm-12 title">
+						<h1 class="font-bold grey-6"><?php print $title ?></h1>
+					</div>
+				</div>
+
+				<article class="content">
+					<div class="container">
+
+
+						<!-- content -->
+						<div class="col-lg-9">
+
+							<!-- brand colours -->
+							<p class="margin-0">
+								<?php if(isset($brand_colours)) { foreach ($brand_colours as $a_colour) { ?>
+								<span class="brand-colour" style="background: <?php print $a_colour ?>"> </span>
+								<?php	} } ?>
+							</p>
+
+							<!-- copy -->
+							<p class="h3 subheading padding-0 margin-0">At a glance</p>
+							<p>Multicomm's new website was a freelance project I completed in my spare time. Keeping nothing but the original colours, it began with a rebranding exercise, including the design of a new logo. This led to wireframes, designs, and eventually the build&nbsp;and&nbsp;implementation.</p>
+							<!--<p><img src="img/multicomm-devices.png" alt="Multicomm Website Screenshot" class="img-responsive"></p>-->
+							<p><img src="img/multicomm-business.png" alt="Multicomm Website Screenshot" class="img-shadow"></p>
+							<p class="margin-bottom-40">&nbsp;</p>
+
+							<p class="h3 subheading padding-0 margin-top-40">Additional screenshots</p>
+							<div class="owl-carousel owl-theme">
+								<div class="item"><img src="img/multicomm-mobile-home.png" /></div>
+								<div class="item"><img src="img/multicomm-mobile-nav.png" /></div>
+								<div class="item"><img src="img/multicomm-mobile-page.png" /></div>
+								<div class="item"><img src="img/multicomm-mobile-contact.png" /></div>
 							</div>
-
-							<article class="content">
-								<div class="container">
-
-
-									<!-- content -->
-									<div class="col-lg-9">
-
-										<!-- brand colours -->
-										<p class="margin-0">
-											<?php if(isset($brand_colours)) { foreach ($brand_colours as $a_colour) { ?>
-												<span class="brand-colour" style="background: <?php print $a_colour ?>"> </span>
-												<?php	} } ?>
-										</p>
-
-										<!-- copy -->
-										<p class="h3 subheading padding-0 margin-0">At a glance</p>
-										<p>Multicomm's new website was a freelance project I completed in my spare time. Keeping nothing but the original colours, it began with a rebranding exercise, including the design of a new logo. This led to wireframes, designs, and eventually the build&nbsp;and&nbsp;implementation.</p>
-										<!--<p><img src="img/multicomm-devices.png" alt="Multicomm Website Screenshot" class="img-responsive"></p>-->
-										<p><img src="img/multicomm-business.png" alt="Multicomm Website Screenshot" class="img-shadow"></p>
-										<p class="margin-bottom-40">&nbsp;</p>
-
-										<p class="h3 subheading padding-0 margin-top-40">Additional screenshots</p>
-										<div class="owl-carousel owl-theme">
-											<div class="item"><img src="img/multicomm-mobile-home.png" /></div>
-											<div class="item"><img src="img/multicomm-mobile-nav.png" /></div>
-											<div class="item"><img src="img/multicomm-mobile-page.png" /></div>
-											<div class="item"><img src="img/multicomm-mobile-contact.png" /></div>
-										</div>
-										<p class="margin-bottom-40">&nbsp;</p>
-
-									</div>
-
-									<!-- additional project info -->
-									<?php include('inc/_sidebar.php'); ?>
-
-
-								</div>
-								<!-- end container -->
-
-								<!-- next & prev slides -->
-								<div class="project-slides">
-									<?php include('inc/_project-slides.php'); ?>
-								</div>
-
-							</article>
+							<p class="margin-bottom-40">&nbsp;</p>
 
 						</div>
 
-					</div>
-				</div>
-				<!-- end iiNet Plan Refreshes -->
+						<!-- additional project info -->
+						<?php include('inc/_sidebar.php'); ?>
 
-				<!-- include footer -->
-				<?php include('inc/_footer.php'); ?>
-	
-				<script>
-					//Scroll page back to top on refresh, to ensure loading effect is maintained
-					$(window).on('beforeunload', function() {
-						$(window).scrollTop(0), 5000;
-					});	
-				</script>		
+
+					</div>
+					<!-- end container -->
+
+					<!-- next & prev slides -->
+					<div class="project-slides">
+						<?php include('inc/_project-slides.php'); ?>
+					</div>
+
+				</article>
+
+			</div>
+
+		</div>
+	</div>
+	<!-- end iiNet Plan Refreshes -->
+
+	<!-- include footer -->
+	<?php include('inc/_footer.php'); ?>
+
+	<script>
+		//Scroll page back to top on refresh, to ensure loading effect is maintained
+		$(window).on('beforeunload', function() {
+			$(window).scrollTop(0), 5000;
+		});	
+	</script>		
 
 
 </body>
