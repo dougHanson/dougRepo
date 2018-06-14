@@ -105,8 +105,8 @@
 			isRevealed,
 			noscroll,
 			isAnimating,
-			container = document.getElementById('container'),
-			trigger = container.querySelector('button.trigger');
+			container = document.getElementById('container')
+			//trigger = container.querySelector('button.trigger');
 
 		function scrollY() {
 			return window.pageYOffset || docElem.scrollTop;
@@ -132,7 +132,8 @@
 
 			if (scrollVal <= 0 && isRevealed) {
 				toggle(0);
-			} else if (scrollVal > 0 && !isRevealed) {
+			} 
+			else if (scrollVal > 0 && !isRevealed) {
 				toggle(1);
 			}
 		}
@@ -143,7 +144,8 @@
 			if (reveal) {
 				classie.add(container, 'modify');
 				//$('.content').css('margin-top','-300px');
-			} else {
+			} 
+			else {
 				noscroll = true;
 				disable_scroll();
 				classie.remove(container, 'modify');
@@ -173,10 +175,11 @@
 		}
 
 		window.addEventListener('scroll', scrollPage);
-		trigger.addEventListener('click', function() {
-			toggle('reveal');
-		});
-	}
+		//trigger.addEventListener('click', function() {
+		//	toggle('reveal');
+		//});
+			
+	} //end if not mobile device logic
 		
 	else {		
 		var	container = document.getElementById('container');		

@@ -14,7 +14,7 @@
 	<nav>
 		<ul>
 			<li class="nav-home">
-				<a href="index.php#home" class="nav-link">
+				<a href="#home" class="nav-link">
 					<i class="icon">
 						<?php echo file_get_contents("svg/home.svg"); ?>
 					</i><span>Home</span></a>

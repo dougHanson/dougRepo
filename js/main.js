@@ -43,9 +43,7 @@ $(window).bind('scroll', function(){
 	if ( ! /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) { // && $(window).width() > 768 ) {
 		fadingClass.css('opacity',opacity);
 		fadingClass.css('top',offset*0.4); 
-		//fadingFastClass.css('opacity',opacity-0.4);
 		fadingFastClass.css('top',offset*0.9); 
-		//fadingFastClass.css('opacity',0);
 	}
 });
 
@@ -167,32 +165,33 @@ $(function(){
 
 // NAV MENU - add smooth scrolling 
 var scrollSpeed = 1200;
-var pathname = window.location.pathname.substr(10); // Returns path only
-
+var pathname = window.location.pathname.substr(1); // Returns path only
+if (pathname == "index.php") {}
 	
 	$(".nav-home").click(function() {
-			$('html, body').animate({
-				scrollTop: $(".hero-content").offset().top
-			}, scrollSpeed);
+		$('html, body').animate({
+			scrollTop: $(".hero-content").offset().top
+		}, scrollSpeed);
 	});
 
 	$(".nav-works").click(function() {	
-			$('html, body').animate({
-				scrollTop: $(".selected-works").offset().top-55
-			}, scrollSpeed);	
+		$('html, body').animate({
+			scrollTop: $(".selected-works").offset().top-55
+		}, scrollSpeed);	
 	});	
 
 	$(".nav-about").click(function() {		
-			$('html, body').animate({
-				scrollTop: $(".about").offset().top-55
-			}, scrollSpeed);			
+		$('html, body').animate({
+			scrollTop: $(".about").offset().top-55
+		}, scrollSpeed);			
 	});
 
 	$(".nav-contact").click(function() {	
-			$('html, body').animate({
-				scrollTop: $(".contact-me").offset().top-55
-			}, scrollSpeed);				
+		$('html, body').animate({
+			scrollTop: $(".contact-me").offset().top-55
+		}, scrollSpeed);				
 	});
+}
 
 
 
@@ -225,21 +224,25 @@ $(function() {
 	
 //FLOATING SIDEBAR 
 $(function() {
+	
+	if($('.sidebar').length) {
 
-	var sidebar = $('.sidebar');
-	var top = sidebar.offset().top;
+		var sidebar = $('.sidebar');
+		var top = sidebar.offset().top;
 
-	$(window).scroll(function(event) {
-		var viewportWidth = $(window).width();
-		var y = $(this).scrollTop() + 400;
-		var base = $('footer').offset().top - window.scrollY;
-		if (y >= top && base > 960) {
-			if (viewportWidth > 1200) {
-				sidebar.css('top', y - 700);
-			} else {
-				sidebar.css('top', 0);
+		$(window).scroll(function(event) {
+			var viewportWidth = $(window).width();
+			var y = $(this).scrollTop() + 400;
+			var base = $('footer').offset().top - window.scrollY;
+			if (y >= top && base > 960) {
+				if (viewportWidth > 1200) {
+					sidebar.css('top', y - 700);
+				} else {
+					sidebar.css('top', 0);
+				}
 			}
-		}
-	});
+		});
+	
+	}
 
 });

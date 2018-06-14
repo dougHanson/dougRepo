@@ -79,16 +79,16 @@
   clip: rect(0, 0, 0, 0);
   border: 0; 
 }
-[hidden]             { display: none !important; }
+[hidden]			{ display: none !important; }
 
 
 /* -------------------------------------
 //   Other
 /* ------------------------------------- */
 
-.white                { color: #fff !important; }
-.grey-6								{ color: $grey-6; }
-.full-width           { width: 100%; }
+.white				{ color: #fff !important; }
+.grey-6				{ color: $grey-6; }
+.full-width			{ width: 100%; }
 
 hr {
   margin-bottom: 4em;
