@@ -191,7 +191,7 @@ if (pathname == "index.php") {}
 			scrollTop: $(".contact-me").offset().top-55
 		}, scrollSpeed);				
 	});
-}
+
 
 
 
