@@ -29,7 +29,7 @@
 			</li>
 
 			<li class="nav-about">
-				<a href="index.php#about" class="nav-link">
+				<a href="#about" class="nav-link">
 					<i class="icon">
 						<?php echo file_get_contents("svg/about.svg"); ?>	
 					</i><span>About <span class="hidden-xs hidden-xxs">me</span></span>
@@ -75,7 +75,6 @@
 				<?php echo file_get_contents("svg/pinterest.svg"); ?>
 			</div>
 		</a>
-
 
 	</nav>
 </aside>

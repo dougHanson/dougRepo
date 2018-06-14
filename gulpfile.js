@@ -89,7 +89,7 @@ gulp.task('html-replace', function() {
 });
 
 // Watch Files For Changes
-gulp.task('watch', function() {
+gulp.task('watch', ['compile-sass'], function() {
   gulp.watch('js/**/*.js', ['lint-js', 'minify-js']);
 	//gulp.watch('svg/**/*.svg', ['svgSprite']);	
   gulp.watch('css/**/*.scss', ['compile-sass']);

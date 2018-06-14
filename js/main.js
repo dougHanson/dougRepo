@@ -15,11 +15,13 @@ $('.owl-carousel').owlCarousel({
 			items: 2
 		}
 	}
-})
+});
+
 
 	
 // FADE WRAPPER IN ON PAGE LOAD
-$(".wrapper").animate({"opacity": "1"}, 300);	
+$(".wrapper").animate({"opacity": "1"}, 300);
+
 
 
 // FADE CONTENT ON SCROLL
@@ -28,17 +30,16 @@ var fadeUntil = 750;
 var fadingClass = $('.fadeOut');
 var fadingFastClass = $('.fadeOut--fast');
 
-
-$(window).bind('scroll', function(){
+$(window).bind('scroll', function() {
 	var offset = $(document).scrollTop();
-	var opacity = 0;	
-	if ( offset<=fadeStart ) {
-		opacity=1;
-		fadingFastClass.css('opacity',1);
-	} 
-	else if ( offset<=fadeUntil ) {
+	var opacity = 0;
+	if (offset <= fadeStart) {
+		opacity = 1;
+		fadingFastClass.css('opacity', 1);
+	}
+	else if (offset <= fadeUntil) {
 		opacity = 1-(1.8*((offset-fadeStart)/(fadeUntil)));
-		fadingFastClass.css('opacity',opacity-0.5);
+		fadingFastClass.css('opacity', opacity-0.5);
 	}	
 	if ( ! /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) { // && $(window).width() > 768 ) {
 		fadingClass.css('opacity',opacity);
@@ -46,6 +47,7 @@ $(window).bind('scroll', function(){
 		fadingFastClass.css('top',offset*0.9); 
 	}
 });
+
 
 
 // PARALLAX SCROLLING
@@ -88,6 +90,7 @@ $(window).bind('scroll', function(){
 $('.parallax-bg').parallax({
   speed : 0.4
 });
+
 
 
 // MASONRY GRID LAYOUT (remove if using css columns instead)
@@ -166,7 +169,7 @@ $(function(){
 // NAV MENU - add smooth scrolling 
 var scrollSpeed = 1200;
 var pathname = window.location.pathname.substr(1); // Returns path only
-if (pathname == "index.php") {}
+//if (pathname != "index.php") { window.location.pathname = "index.php"}
 	
 	$(".nav-home").click(function() {
 		$('html, body').animate({
@@ -180,7 +183,8 @@ if (pathname == "index.php") {}
 		}, scrollSpeed);	
 	});	
 
-	$(".nav-about").click(function() {		
+	$(".nav-about").click(function() {	
+		if (pathname != "index.php") { window.location.pathname = "index.php"}
 		$('html, body').animate({
 			scrollTop: $(".about").offset().top-55
 		}, scrollSpeed);			
@@ -191,9 +195,6 @@ if (pathname == "index.php") {}
 			scrollTop: $(".contact-me").offset().top-55
 		}, scrollSpeed);				
 	});
-
-
-
 
 
 
@@ -222,6 +223,7 @@ $(function() {
 });
 
 	
+
 //FLOATING SIDEBAR 
 $(function() {
 	
