@@ -169,31 +169,42 @@ $(function(){
 // NAV MENU - add smooth scrolling 
 var scrollSpeed = 1200;
 var pathname = window.location.pathname.substr(1); // Returns path only
-//if (pathname != "index.php") { window.location.pathname = "index.php"}
-	
-	$(".nav-home").click(function() {
-		$('html, body').animate({
-			scrollTop: $(".hero-content").offset().top
-		}, scrollSpeed);
+
+	$(".nav-home").click(function(e) {
+		if (pathname == "index.php" || pathname == '') { 
+			e.preventDefault();
+			$('html, body').animate({
+				scrollTop: $(".hero-content").offset().top
+			}, scrollSpeed);			
+		}
 	});
 
-	$(".nav-works").click(function() {	
-		$('html, body').animate({
-			scrollTop: $(".selected-works").offset().top-55
-		}, scrollSpeed);	
+	$(".nav-works").click(function(e) {
+		if (pathname == "index.php" || pathname == '') { 
+			e.preventDefault();
+			$('html, body').animate({
+				scrollTop: $(".selected-works").offset().top
+			}, scrollSpeed);			
+		}	
 	});	
 
-	$(".nav-about").click(function() {	
-		if (pathname != "index.php") { window.location.pathname = "index.php"}
-		$('html, body').animate({
-			scrollTop: $(".about").offset().top-55
-		}, scrollSpeed);			
+	$(".nav-about").click(function(e) {	
+		if (pathname == "index.php" || pathname == '') { 
+			e.preventDefault();
+			$('html, body').animate({
+				scrollTop: $(".about").offset().top
+			}, scrollSpeed);			
+		}				
 	});
 
-	$(".nav-contact").click(function() {	
-		$('html, body').animate({
-			scrollTop: $(".contact-me").offset().top-55
-		}, scrollSpeed);				
+	$(".nav-contact").click(function(e) {
+		if (pathname == "index.php" || pathname == '') { 
+			e.preventDefault();
+			$('html, body').animate({
+				scrollTop: $(".contact-me").offset().top
+			}, scrollSpeed);			
+		}
+				
 	});
 
 

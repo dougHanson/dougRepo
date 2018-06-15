@@ -14,10 +14,11 @@
 	<nav>
 		<ul>
 			<li class="nav-home">
-				<a href="#home" class="nav-link">
+				<a href="index.php#home" class="nav-link">
 					<i class="icon">
 						<?php echo file_get_contents("svg/home.svg"); ?>
-					</i><span>Home</span></a>
+					</i><span>Home</span>
+				</a>
 			</li>
 
 			<li class="nav-works">
@@ -29,7 +30,7 @@
 			</li>
 
 			<li class="nav-about">
-				<a href="#about" class="nav-link">
+				<a href="index.php#about" class="nav-link">
 					<i class="icon">
 						<?php echo file_get_contents("svg/about.svg"); ?>	
 					</i><span>About <span class="hidden-xs hidden-xxs">me</span></span>
@@ -40,7 +41,8 @@
 				<a href="index.php#contact" class="nav-link">
 					<i class="icon">
 						<?php echo file_get_contents("svg/contact.svg"); ?>
-					</i><span>Contact</span></a>
+					</i><span>Contact</span>
+				</a>
 			</li>
 		</ul>
 

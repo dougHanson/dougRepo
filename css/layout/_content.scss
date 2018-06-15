@@ -65,7 +65,10 @@
 	}
 }
 
-.selected-works, .about, .contact { margin-bottom: 70px; }
+.selected-works, .about, .contact-me { 
+	margin-bottom: 70px; 
+	padding-top: 60px;
+}
 
 .selected-works { z-index: 1; }
 
