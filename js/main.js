@@ -84,7 +84,7 @@ $(window).bind('scroll', function() {
         
       });
     });
-  }
+  };
 }(jQuery));
 
 $('.parallax-bg').parallax({
@@ -171,7 +171,7 @@ var scrollSpeed = 1200;
 var pathname = window.location.pathname.substr(1); // Returns path only
 
 	$(".nav-home").click(function(e) {
-		if (pathname == "index.php" || pathname == '') { 
+		if (pathname === "index.php" || pathname === '') { 
 			e.preventDefault();
 			$('html, body').animate({
 				scrollTop: $(".hero-content").offset().top
@@ -180,7 +180,7 @@ var pathname = window.location.pathname.substr(1); // Returns path only
 	});
 
 	$(".nav-works").click(function(e) {
-		if (pathname == "index.php" || pathname == '') { 
+		if (pathname === "index.php" || pathname === '') { 
 			e.preventDefault();
 			$('html, body').animate({
 				scrollTop: $(".selected-works").offset().top
@@ -189,7 +189,7 @@ var pathname = window.location.pathname.substr(1); // Returns path only
 	});	
 
 	$(".nav-about").click(function(e) {	
-		if (pathname == "index.php" || pathname == '') { 
+		if (pathname === "index.php" || pathname === '') { 
 			e.preventDefault();
 			$('html, body').animate({
 				scrollTop: $(".about").offset().top
@@ -198,13 +198,12 @@ var pathname = window.location.pathname.substr(1); // Returns path only
 	});
 
 	$(".nav-contact").click(function(e) {
-		if (pathname == "index.php" || pathname == '') { 
+		if (pathname === "index.php" || pathname === '') { 
 			e.preventDefault();
 			$('html, body').animate({
 				scrollTop: $(".contact-me").offset().top
 			}, scrollSpeed);			
-		}
-				
+		}				
 	});
 
 

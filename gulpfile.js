@@ -18,7 +18,7 @@ var svgSprite = require('gulp-svg-sprite');   // #TODO - simplify var declaratio
 
 // JS lint task [jsHint]
 gulp.task('lint-js', function() {
-  return gulp.src('./js/**/*.js')
+  return gulp.src(['./js/**/*.js', '!js/plugins/**/*.js']) //exclude plugins
     .pipe(jshint())
     .pipe(jshint.reporter('default'));
 });
@@ -90,7 +90,7 @@ gulp.task('html-replace', function() {
 
 // Watch Files For Changes
 gulp.task('watch', ['compile-sass'], function() {
-  gulp.watch('js/**/*.js', ['lint-js', 'minify-js']);
+  gulp.watch(['js/**/*.js', '!js/plugins/**/*.js'], ['lint-js', 'minify-js']);
 	//gulp.watch('svg/**/*.svg', ['svgSprite']);	
   gulp.watch('css/**/*.scss', ['compile-sass']);
 });

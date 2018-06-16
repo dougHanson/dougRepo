@@ -36,10 +36,6 @@
 <body class="project-page">
 
 
-	
-	
-	
-	
 <?php 
 	/* ##########################
 		DEFINE PROJECT 
@@ -93,6 +89,12 @@
 									<span class="brand-colour" style="background: <?php print $a_colour ?>"> </span>
 								<?php } } ?>
 							</p>
+							
+							<p class="margin-0">
+
+									<span class="brand-colour" id="projectBrandColours"> </span>
+
+							</p>							
 
 							<!-- copy -->
 							<p class="h3 subheading padding-0 margin-0">At a glance</p>
@@ -129,7 +131,6 @@
 						<!-- additional project info -->
 						<?php include('inc/_sidebar.php'); ?>
 
-
 					</div>
 					<!-- end container -->
 
@@ -152,12 +153,18 @@
 	<script>
 		//Scroll page back to top on refresh, to ensure loading effect is maintained
 		$(window).on('beforeunload', function() {
-			$(window).scrollTop(0), 5000;
+			$(window).fadeOut(), 2000;
+			$(window).scrollTop(0), 15000;
 		});
 
 		//project population
 		document.getElementById("projectTitle").innerHTML = projects.product_page_redesign.title;
 		document.getElementById("projectClient").innerHTML = projects.product_page_redesign.client;
+		
+		//for ( var i=0; i <= projects.product_page_redesign.brand_colours.length; i++) {
+		//	$('#projectBrandColours').css('background', projects.product_page_redesign.brand_colours[i-1]);
+		//}
+	
 	</script> 	
 
 </body>

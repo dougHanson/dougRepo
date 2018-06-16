@@ -86,7 +86,7 @@
 			<!-- ###############################
 			//   Selected Works
 			#################################### -->
-			<section id="selected-works" class="selected-works container pad-lr-20">
+			<section id="selected-works" class="selected-works container">
 
 				<h4 class="h3 subheading text-center margin-0">my portfolio</h4>
 				<h4 class="h2 text-center">Selected works</h4>
@@ -109,7 +109,7 @@
 						</article>
 					</a>
 
-					<!-- 3 -->
+					<!-- 2 -->
 					<a href="mobii-manager.php" class="progressLoad">
 						<article class="work-item">
 							<div class="work-item__drawings" id="drawings">
@@ -254,7 +254,7 @@
 			<!-- ###############################
 			//   Contact
 			#################################### -->
-			<section id="contact" class="contact-me container pad-lr-20">
+			<section id="contact" class="contact-me container">
 
 				<h4 class="h3 subheading text-center margin-0">get in touch</h4>
 				<h4 class="h2 text-center">Contact</h4>

@@ -12,12 +12,13 @@
   margin: 1.5vw 1.5vw 0 1.5vw;
 	opacity: 0; 
 	transition: opacity 500ms;
+	@media (max-width: 991px) {
+			padding-top: 60px;
+	}
 }
-@media (max-width: 991px) {
-  .wrapper {
-      padding-top: 60px;
-  }
-  .wrapper--footer {
+
+.wrapper--footer {
+	@media (max-width: 991px) {		
       padding-top: 0px;
   }	
 }
@@ -69,8 +70,6 @@
 	margin-bottom: 70px; 
 	padding-top: 60px;
 }
-
-.selected-works { z-index: 1; }
 
 .nav-slide { margin-top: 150px; } 
 

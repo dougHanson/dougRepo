@@ -968,10 +968,11 @@ section {
   margin: 1.5vw 1.5vw 0 1.5vw;
   opacity: 0;
   transition: opacity 500ms; }
+  @media (max-width: 991px) {
+    .wrapper {
+      padding-top: 60px; } }
 
 @media (max-width: 991px) {
-  .wrapper {
-    padding-top: 60px; }
   .wrapper--footer {
     padding-top: 0px; } }
 
@@ -1015,11 +1016,9 @@ section {
       padding: 12vh 2vh;
       height: 70vh; } }
 
-.selected-works, .about, .contact {
-  margin-bottom: 70px; }
-
-.selected-works {
-  z-index: 1; }
+.selected-works, .about, .contact-me {
+  margin-bottom: 70px;
+  padding-top: 60px; }
 
 .nav-slide {
   margin-top: 150px; }
@@ -1241,7 +1240,6 @@ footer {
   width: 100%; }
 
 hr {
-  margin-bottom: 4em;
   border: 0;
   border-top: 1px solid #e4e4e4; }
 
@@ -1842,14 +1840,13 @@ input[type="button"] {
   font-size: 0.8rem;
   font-family: "Raleway", Arial, sans-serif;
   font-weight: normal; }
-
-@media (max-width: 767px) {
-  button,
-  .button,
-  input[type="submit"],
-  input[type="reset"],
-  input[type="button"] {
-    width: 100%; } }
+  @media (max-width: 767px) {
+    button,
+    .button,
+    input[type="submit"],
+    input[type="reset"],
+    input[type="button"] {
+      width: 100%; } }
 
 /* -------------------------------------
 //   Modifiers
@@ -1896,7 +1893,6 @@ input.button__primary[type="button"]:hover {
   border: 2px solid #727c7d;
   color: #fff; }
 
-/* -----IE8 ----- */
 /* *************************************
 //   LISTS  [modules/_lists.scss]
 //   Styling for ordered and unordered lists - up to 2 levels deep
