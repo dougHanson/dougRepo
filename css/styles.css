@@ -117,7 +117,7 @@ section {
 
 @media (min-width: 1360px) {
   .container {
-    width: 80%; } }
+    width: 84%; } }
 
 @media (min-width: 1960px) {
   .container {
@@ -1677,7 +1677,7 @@ h6, .h6 {
   border-radius: 6px;
   display: inline-block;
   padding: 5px;
-  margin: 2px 0;
+  margin: 2px;
   white-space: nowrap; }
 
 /* ----- page titles, to be used on a darker background/image ----- */

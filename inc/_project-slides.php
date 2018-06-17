@@ -10,25 +10,25 @@
 				<section>
 					<div class="nav-slide">
 	
-						<a class="prev progressLoad" href="<?php print $previous_project[0] ?>.php">												
+						<a class="prev progressLoad" id="projecPrevLink" href="#">												
 							<span class="icon-wrap">
 								<span class="icon-wrap__text icon-wrap__text--left">Prev</span>
 								<svg class="icon" width="32" height="32" viewBox="0 0 64 64"><use xlink:href="#arrow-left-1"></svg>
 							</span>
 							<div>
-								<h3><span>previous project</span><?php print $previous_project[1] ?></h3>
-								<img src="img/<?php print $previous_project[0] ?>-thumb.png" alt="Prev project"/>
+								<h3 id="projectPrevTitle"><span>previous project</span></h3>
+								<img id="projectPrevImg" alt="Previous project"/>
 							</div>
 						</a>
 							
-						<a class="next progressLoad" href="<?php print $next_project[0] ?>.php">
+						<a class="next progressLoad" id="projectNextLink" href="#">
 							<span class="icon-wrap">
 								<span  class="icon-wrap__text icon-wrap__text--right">Next</span>
 								<svg class="icon" width="32" height="32" viewBox="0 0 64 64"><use xlink:href="#arrow-right-1"></svg>
 							</span>
 							<div>
-								<h3><span>next project</span><?php print $next_project[1] ?></h3>
-								<img src="img/<?php print $next_project[0] ?>-thumb.png" alt="Next project"/>
+								<h3 id="projectNextTitle"><span>next project</span></h3>
+								<img id="projectNextImg" alt="Next project"/>
 							</div>
 						</a>
 					</div>

@@ -125,7 +125,7 @@
 	<script>
 		//Scroll page back to top on refresh, to ensure loading effect is maintained
 		$(window).on('beforeunload', function() {
-			$(window).scrollTop(0), 5000;
+			$(window).scrollTop(0), 10;
 		});	
 	</script>		
 

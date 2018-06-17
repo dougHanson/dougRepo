@@ -1,29 +1,32 @@
 						<div class="col-lg-2 col-lg-offset-1 sidebar">
+							
+							<!-- skills used -->
 							<p class="h4 subheading font-bold margin-0 margin-bottom-0">
 								<span class="hidden-xl">Skills</span>
 								<span class="visible-xl">Skills used</span>
 							</p>
-							<div class="margin-bottom-20">
-								<?php if(isset($skills)) { foreach ($skills as $a_skill) { ?>	
-										<h2 class="tag"> <?php print $a_skill ?></h2>
-								<?php	} } ?>											
-							</div>		
+							<div class="margin-bottom-20" id="projectSkills"></div>		
 
+							<!-- client -->
 							<p class="h4 subheading font-bold margin-bottom-0">Client</p>
-							<p class="margin-top-0" id="projectClient"><?php print $client ?></p>				
+							<p class="margin-top-0" id="projectClient"></p>				
 
-							<?php if(isset($website)) { ?>
-							<p class="h4 subheading font-bold margin-top-20 margin-bottom-0">
-								<span class="visible-xl">Live website</span>
-								<span class="hidden-xl">Website</span>
-							</p>
-							<p class="margin-top-0"><a href="<?php print $website_url ?>" target="_blank"><?php print $website ?></a></p>
-							<?php } ?>
-
-							<?php if(isset($year)) { ?>
-							<p class="h4 subheading font-bold margin-top-20 margin-bottom-0">When</p>
-							<p class="margin-top-0"><?php print $year ?></p>
-							<?php } ?>					
+							<!-- website -->
+							<div>
+								<p class="h4 subheading font-bold margin-top-20 margin-bottom-0">
+									<span class="visible-xl">Live website</span>
+									<span class="hidden-xl">Website</span>
+								</p>							
+								<p class="margin-top-0" id="projectWebsite"></p>
+							</div>
+							
+							
+							<!-- year -->
+							<div>
+								<p class="h4 subheading font-bold margin-top-20 margin-bottom-0">When</p>
+								<p class="margin-top-0" id="projectYear"></p>
+							</div>
+											
 
 							<!--<p class="h4 subheading font-bold margin-top-20 margin-bottom-0">Share</p>
 							<p class="margin-top-0">facebook</p>			-->	

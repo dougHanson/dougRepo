@@ -37,21 +37,9 @@
 
 
 <?php 
-	/* ##########################
-		DEFINE PROJECT 
-	############################# */ 
 	
-	$title = '<span class="hidden-xxs">iiNet</span> Product Page Redesign';
-	$client = 'iiNet';
-	//$brand_colours = [ '#ff8200', '#d21f2a', '#0090ab', '#808080', '#fff' ];
-	//$year = '2016';		
-	$skills = array('HTML5', 'CSS3', 'PHP', 'AngularJS', 'UX Design', 'User Testing', 'SASS', 'OOCSS/BEM');
-	
-	$website = 'www.iinet.net.au';	
-	$website_url = '//www.iinet.net.au/internet-products/broadband/naked-dsl';
-	
-	$next_project = array('mobii-manager', 'Mobii Manager');
-	$previous_project = array('multicomm', 'Multicomm Website');
+$project = 'mobii_manager';
+
 ?>
 
 
@@ -88,11 +76,9 @@
 								<?php if(isset($brand_colours)) { foreach ($brand_colours as $a_colour) { ?>
 									<span class="brand-colour" style="background: <?php print $a_colour ?>"> </span>
 								<?php } } ?>
-							</p>
+							</p>	
 							
-							<p class="margin-0">
-									<span class="brand-colour" id="projectBrandColours"> </span>
-							</p>							
+							<p id="projectBrandColours"></p>
 
 							<!-- copy -->
 							<p class="h3 subheading padding-0 margin-0">At a glance</p>
@@ -151,17 +137,61 @@
 	<script>
 		//Scroll page back to top on refresh, to ensure loading effect is maintained
 		$(window).on('beforeunload', function() {
-			$(window).fadeOut(), 2000;
-			$(window).scrollTop(0), 2000;
+			//$(window).fadeOut(), 200;
+			$(window).scrollTop(0), 1000;
 		});
 
+
 		//project population
-		document.getElementById("projectTitle").innerHTML = projects.product_page_redesign.title;
-		document.getElementById("projectClient").innerHTML = projects.product_page_redesign.client;
+		var thisProject = projects.<?php echo $project ?>;
 		
-		//for ( var i=0; i <= projects.product_page_redesign.brand_colours.length; i++) {
-		//	$('#projectBrandColours').css('background', projects.product_page_redesign.brand_colours[i-1]);
-		//}
+		//title & client
+		$('#projectTitle').html(thisProject.title);
+		$('#projectClient').html(thisProject.client);
+		
+		//brand colours
+		if (!!thisProject.brand_colours) {
+			for ( var i=0; i < thisProject.brand_colours.length; i++) {
+				$('#projectBrandColours').append("<span class='brand-colour' style='background: " + thisProject.brand_colours[i] + "'></span>");
+			}
+		}
+		else { $('#projectBrandColours').hide(); }
+		
+		//skills
+		for ( var skill=0; skill < thisProject.skills.length; skill++) {
+			$('#projectSkills').append("<h2 class='tag'>" + thisProject.skills[skill] + "</h2>");
+		}
+				
+		//year
+		if (!!thisProject.year) {
+			$('#projectYear').html(thisProject.year);
+		}
+		else { $('#projectYear').parent().hide(); }
+		
+		//website
+		if (!!thisProject.website) {
+			$('#projectWebsite').append("<a href='" + thisProject.website_url + "' target='_blank'>" + thisProject.website + "</a>");
+		}
+		else { $('#projectWebsite').parent().hide(); }
+		
+		//next projects
+		var nextObject = projectOrder.indexOf("<?php echo $project ?>")+1;
+		var nextProject = projectOrder[nextObject];
+		var next = projects[nextProject];
+
+		$('#projectNextLink').attr("href", next.website_url+".php");
+		$('#projectNextTitle').append(next.title);
+		$('#projectNextImg').attr("src", "img/" + nextProject + "-thumb.png");
+		
+		//previous projects
+		var prevObject = projectOrder.indexOf("<?php echo $project ?>")-1;
+		var prevProject = projectOrder[prevObject];
+		var prev = projects[prevProject];
+
+		$('#projectPrevtLink').attr("href", prev.website_url+".php");
+		$('#projectPrevTitle').append(prev.title);
+		$('#projectPrevImg').attr("src", "img/" + prevProject + "-thumb.png");		
+
 	
 	</script> 	
 
