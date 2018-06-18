@@ -150,8 +150,15 @@
 		
 		//next projects
 		var nextObject = projectOrder.indexOf("<?php echo $project ?>")+1;
-		var nextProject = projectOrder[nextObject];
-		var next = projects[nextProject];
+		if (nextObject <= projectOrder.length-1) {
+			var nextProject = projectOrder[nextObject];
+			var next = projects[nextProject];
+		}
+		else {
+			nextObject = 0;
+			var nextProject = projectOrder[nextObject];
+			var next = projects[nextProject];
+		}
 
 		$('#projectNextLink').attr("href", next.url);
 		$('#projectNextTitle').append(next.title);
@@ -159,8 +166,15 @@
 		
 		//previous projects
 		var prevObject = projectOrder.indexOf("<?php echo $project ?>")-1;
-		var prevProject = projectOrder[prevObject];
-		var prev = projects[prevProject];
+		if (prevObject < 0) {
+			prevObject = projectOrder.length-1;
+			var prevProject = projectOrder[prevObject];
+			var prev = projects[prevProject];
+		}
+		else {
+			var prevProject = projectOrder[prevObject];
+			var prev = projects[prevProject];
+		}
 
 		$('#projectPrevtLink').attr("href", prev.url);
 		$('#projectPrevTitle').append(prev.title);
