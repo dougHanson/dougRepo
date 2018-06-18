@@ -35,24 +35,7 @@
 
 <body class="project-page">
 
-
-<?php 
-	/* ##########################
-		DEFINE PROJECT 
-	############################# */ 
-	
-	$title = '<span class="hidden-xxs">iiNet</span> Product Page Redesign';
-	$client = 'iiNet';
-	//$brand_colours = [ '#ff8200', '#d21f2a', '#0090ab', '#808080', '#fff' ];
-	//$year = '2016';		
-	$skills = array('HTML5', 'CSS3', 'PHP', 'AngularJS', 'UX Design', 'User Testing', 'SASS', 'OOCSS/BEM');
-	
-	$website = 'www.iinet.net.au';	
-	$website_url = '//www.iinet.net.au/internet-products/broadband/naked-dsl';
-	
-	$next_project = array('mobii-manager', 'Mobii Manager');
-	$previous_project = array('multicomm', 'Multicomm Website');
-?>
+<?php $project = 'product_page_redesign'; ?>
 
 
 	<!-- include frames and nav -->
@@ -153,16 +136,7 @@
 		$(window).on('beforeunload', function() {
 			$(window).fadeOut(), 2000;
 			$(window).scrollTop(0), 2000;
-		});
-
-		//project population
-		document.getElementById("projectTitle").innerHTML = projects.product_page_redesign.title;
-		document.getElementById("projectClient").innerHTML = projects.product_page_redesign.client;
-		
-		//for ( var i=0; i <= projects.product_page_redesign.brand_colours.length; i++) {
-		//	$('#projectBrandColours').css('background', projects.product_page_redesign.brand_colours[i-1]);
-		//}
-	
+		});	
 	</script> 	
 
 </body>

@@ -107,3 +107,64 @@
   ga('send', 'pageview');	
 </script>
 <!-- end Google Analytics -->
+
+	<script>
+		//Scroll page back to top on refresh, to ensure loading effect is maintained
+		$(window).on('beforeunload', function() {
+			//$(window).fadeOut(), 200;
+			$(window).scrollTop(0), 1000;
+		});
+
+
+		//project population
+		var thisProject = projects.<?php echo $project ?>;
+		
+		//title & client
+		$('#projectTitle').html(thisProject.title);
+		$('#projectClient').html(thisProject.client);
+		
+		//brand colours
+		if (!!thisProject.brand_colours) {
+			for ( var i=0; i < thisProject.brand_colours.length; i++) {
+				$('#projectBrandColours').append("<span class='brand-colour' style='background: " + thisProject.brand_colours[i] + "'></span>");
+			}
+		}
+		else { $('#projectBrandColours').hide(); }
+		
+		//skills
+		for ( var skill=0; skill < thisProject.skills.length; skill++) {
+			$('#projectSkills').append("<h2 class='tag'>" + thisProject.skills[skill] + "</h2>");
+		}
+				
+		//year
+		if (!!thisProject.year) {
+			$('#projectYear').html(thisProject.year);
+		}
+		else { $('#projectYear').parent().hide(); }
+		
+		//website
+		if (!!thisProject.website) {
+			$('#projectWebsite').append("<a href='" + thisProject.website_url + "' target='_blank'>" + thisProject.website + "</a>");
+		}
+		else { $('#projectWebsite').parent().hide(); }
+		
+		//next projects
+		var nextObject = projectOrder.indexOf("<?php echo $project ?>")+1;
+		var nextProject = projectOrder[nextObject];
+		var next = projects[nextProject];
+
+		$('#projectNextLink').attr("href", next.url);
+		$('#projectNextTitle').append(next.title);
+		$('#projectNextImg').attr("src", "img/" + nextProject + "-thumb.png");
+		
+		//previous projects
+		var prevObject = projectOrder.indexOf("<?php echo $project ?>")-1;
+		var prevProject = projectOrder[prevObject];
+		var prev = projects[prevProject];
+
+		$('#projectPrevtLink').attr("href", prev.url);
+		$('#projectPrevTitle').append(prev.title);
+		$('#projectPrevImg').attr("src", "img/" + prevProject + "-thumb.png");		
+
+	
+	</script> 

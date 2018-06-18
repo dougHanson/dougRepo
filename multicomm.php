@@ -34,24 +34,8 @@
 	
 
 <body class="project-page">
-
-<?php /* ####################
-			DEFINE PROJECT 
-############################# */ 
 	
-	$title = 'Multicomm Website';
-	$client = 'Multicomm';
-	//$brand_colours = [ '#ff8200', '#d21f2a', '#0090ab', '#808080', '#fff' ];
-	//$year = '2016';		
-	$skills = array('HTML5', 'CSS3', 'jQuery', 'branding', 'PHP', 'UX design', 'logo design', 'interaction design', 'freelance');
-	
-	$website = 'www.multicomm.com.au';	
-	$website_url = '//www.multicomm.com.au/';
-	
-	$next_project = array('iinet-plan-pages', 'iiNet Plan Page Redesign');
-	$previous_project = array('mobii-manager', 'Mobii Manager');
-?>
-
+<?php $project = 'multicomm'; ?>
 
 	<!-- include frames and nav -->
 	<?php include('inc/_nav.php'); ?>
@@ -70,7 +54,7 @@
 
 				<div class="container">
 					<div class="col-sm-12 title">
-						<h1 class="font-bold grey-6"><?php print $title ?></h1>
+						<h1 class="font-bold grey-6" id="projectTitle"></h1>
 					</div>
 				</div>
 

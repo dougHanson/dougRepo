@@ -35,12 +35,7 @@
 
 <body class="project-page">
 
-
-<?php 
-	
-$project = 'mobii_manager';
-
-?>
+<?php $project = 'bankwest'; ?>
 
 
 	<!-- include frames and nav -->
@@ -54,7 +49,7 @@ $project = 'mobii_manager';
 
 				<header class="header">
 					<div class="bg-img">
-						<img src="img/iinet-plan-pages-header.jpg" alt="iiNet Product Page Refresh" />
+						
 					</div>
 				</header>
 
@@ -80,35 +75,7 @@ $project = 'mobii_manager';
 							
 							<p id="projectBrandColours"></p>
 
-							<!-- copy -->
-							<p class="h3 subheading padding-0 margin-0">At a glance</p>
-							<p>iiNet's core product pages presented a complex user experience. They were not responsive, and were no longer aligned with the brand. Each product page also had a unique interface and layout, confusing potential customers and customer service representatives. This presented an opportunity to improve the user experience, by simplifying these pages and unifying them with each other and the brand. </p>
-
-							<p class="h3 subheading padding-0 margin-0">The process</p>
-							<p>To begin gathering <strong>user requirements</strong>, I conducted a <strong>focus group</strong> with customer service reps, to identify pain points with the existing design. This gave insight not only into what users like and dislike, but also what users do, how they do it, and what frustrates them. I then conducted an <strong>expert review</strong> and a <strong>competitor analysis</strong>, to investigate the best way to solve the identified problems.</p>
-							<p>Iterations of <strong>wireframes and designs</strong> followed, and reviewed by key stakeholders at each major step. Once a very basic <strong>prototype</strong> was ready, <strong>user testing sessions</strong> were then conducted with a handful of users, which allowed us to identify any remaining issues and refine the design further.</p>
-
-							<p><img src="img/iinet-plan-pages-naked-dsl.png" alt="iiNet Product Page Refresh" class="img-shadow"></p>
-							<p class="margin-bottom-40">&nbsp;</p>
-
-							<p class="h3 subheading padding-0 margin-0">The result</p>
-							<p>The new design was created with a stepped approach, making it easy for users to understand. Each plan is broken out into its own box, with emphasis on the benefit (the quota) rather than the price. The address check field was previously overlooked, so this was given more prominence as the first step. Large checkboxes have a very distinct active state to make it clear to the user what they have chosen.</p>
-							<p>The new responsive pages reduce cognitive load by breaking down the plan customisation into intuitive steps. Both <strong>conversion and bounce rates improved once the new pages were released</strong>.</p>
-
-
-							<p class="h3 subheading padding-0 margin-top-40">Additional screenshots</p>
-							<div class="owl-carousel owl-theme">
-								<div class="item">
-									<a href="img/iinet-plan-pages-mobile-banner.png" data-lightbox="iinet-plan-pages" data-title="Campaign banner"><img src="img/iinet-plan-pages-mobile-banner.png" /></a>
-								</div>
-								<div class="item">
-									<a href="img/iinet-plan-pages-mobile-plans.png" data-lightbox="iinet-plan-pages" data-title="Broadband plans"><img src="img/iinet-plan-pages-mobile-plans.png" /></a>
-								</div>
-								<div class="item">
-									<a href="img/iinet-plan-pages-mobile-signup.png" data-lightbox="iinet-plan-pages" data-title="Signup summary"><img src="img/iinet-plan-pages-mobile-signup.png" /></a>
-								</div>
-							</div>
-							<p class="margin-bottom-40">&nbsp;</p>
+					
 
 						</div>
 
@@ -134,65 +101,5 @@ $project = 'mobii_manager';
 	<!-- include footer -->
 	<?php include('inc/_footer.php'); ?>
 
-	<script>
-		//Scroll page back to top on refresh, to ensure loading effect is maintained
-		$(window).on('beforeunload', function() {
-			//$(window).fadeOut(), 200;
-			$(window).scrollTop(0), 1000;
-		});
-
-
-		//project population
-		var thisProject = projects.<?php echo $project ?>;
-		
-		//title & client
-		$('#projectTitle').html(thisProject.title);
-		$('#projectClient').html(thisProject.client);
-		
-		//brand colours
-		if (!!thisProject.brand_colours) {
-			for ( var i=0; i < thisProject.brand_colours.length; i++) {
-				$('#projectBrandColours').append("<span class='brand-colour' style='background: " + thisProject.brand_colours[i] + "'></span>");
-			}
-		}
-		else { $('#projectBrandColours').hide(); }
-		
-		//skills
-		for ( var skill=0; skill < thisProject.skills.length; skill++) {
-			$('#projectSkills').append("<h2 class='tag'>" + thisProject.skills[skill] + "</h2>");
-		}
-				
-		//year
-		if (!!thisProject.year) {
-			$('#projectYear').html(thisProject.year);
-		}
-		else { $('#projectYear').parent().hide(); }
-		
-		//website
-		if (!!thisProject.website) {
-			$('#projectWebsite').append("<a href='" + thisProject.website_url + "' target='_blank'>" + thisProject.website + "</a>");
-		}
-		else { $('#projectWebsite').parent().hide(); }
-		
-		//next projects
-		var nextObject = projectOrder.indexOf("<?php echo $project ?>")+1;
-		var nextProject = projectOrder[nextObject];
-		var next = projects[nextProject];
-
-		$('#projectNextLink').attr("href", next.website_url+".php");
-		$('#projectNextTitle').append(next.title);
-		$('#projectNextImg').attr("src", "img/" + nextProject + "-thumb.png");
-		
-		//previous projects
-		var prevObject = projectOrder.indexOf("<?php echo $project ?>")-1;
-		var prevProject = projectOrder[prevObject];
-		var prev = projects[prevProject];
-
-		$('#projectPrevtLink').attr("href", prev.website_url+".php");
-		$('#projectPrevTitle').append(prev.title);
-		$('#projectPrevImg').attr("src", "img/" + prevProject + "-thumb.png");		
-
-	
-	</script> 	
 
 </body>

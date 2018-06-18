@@ -1,6 +1,7 @@
 var projects = {
 	product_page_redesign: {
-		title: '<span class="hidden-xxs">iiNet</span> Product Page Redesign',
+		url: 'iinet-plan-pages.php',
+		title: 'Product Page Redesign',
 		client: 'iiNet',
 		//brand_colours: [ '#ff8200', '#d21f2a', '#0090ab', '#808080', '#000000' ],
 		skills: ['HTML5', 'CSS3', 'PHP', 'SASS', 'AngularJS', 'UX Design', 'User Testing', 'OOCSS/BEM'],
@@ -9,27 +10,30 @@ var projects = {
 		website_url: '//www.iinet.net.au/internet-products/broadband/naked-dsl'
 	},
 	mobii_manager: {
-		title: 'Product Page Redesign',
+		url: 'mobii-manager.php',
+		title: 'Mobile App Design',
 		client: 'iiNet',
-		brand_colours: [ '#ff8200', '#d21f2a', '#0090ab', '#808080', '#fff' ],
-		skills: ['HTML5', 'CSS3', 'PHP', 'AngularJS', 'UX Design', 'User Testing', 'SASS', 'OOCSS/BEM'],
+		//brand_colours: [ '#ff8200', '#d21f2a', '#0090ab', '#808080', '#fff' ],
+		skills: ['mobile app design', 'UI/UX', 'interaction design', 'Adobe Photoshop'],
 		year: '2014',
-		website: 'www.iinet.net.au',
-		website_url: '//www.iinet.net.au/internet-products/broadband/naked-dsl'
+		//website: 'www.iinet.net.au',
+		//website_url: '//www.iinet.net.au/internet-products/broadband/naked-dsl'
 	},
 	multicomm: {
-		title: '<span class="hidden-xxs">iiNet</span> Product Page Redesign',
-		client: 'iiNet',
-		brand_colours: [ '#ff8200', '#d21f2a', '#0090ab', '#808080', '#fff' ],
-		skills: ['HTML5', 'CSS3', 'PHP', 'AngularJS', 'UX Design', 'User Testing', 'SASS', 'OOCSS/BEM'],
+		url: 'multicomm.php',
+		title: 'Multicomm Website',
+		client: 'Multicomm',
+		//brand_colours: [ '#ff8200', '#d21f2a', '#0090ab', '#808080', '#fff' ],
+		skills: ['HTML5', 'CSS3', 'jQuery', 'branding', 'PHP', 'UX design', 'logo design', 'interaction design', 'freelance'],
 		year: '2015',
-		website: 'www.iinet.net.au',
-		website_url: '//www.iinet.net.au/internet-products/broadband/naked-dsl'
+		website: 'www.multicomm.com.au',
+		website_url: '//www.multicomm.com.au/'
 	},
 	bankwest: {
-		title: '<span class="hidden-xxs">iiNet</span> Product Page Redesign',
+		url: 'bankwest.php',
+		title: 'Bankwest',
 		client: 'Bankwest',
-		brand_colours: [ '#ff8200', '#d21f2a', '#0090ab', '#808080', '#fff' ],
+		//brand_colours: [ '#ff8200', '#d21f2a', '#0090ab', '#808080', '#fff' ],
 		skills: ['HTML5', 'CSS3', 'PHP', 'AngularJS', 'UX Design', 'User Testing', 'SASS', 'OOCSS/BEM'],
 		//year: '2016',
 		website: 'www.iinet.net.au',

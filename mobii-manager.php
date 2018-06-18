@@ -36,23 +36,7 @@
 
 <body class="project-page">
 
-<?php /* ####################
-		  DEFINE PROJECT 
-############################# */ 
-	
-	$title = '<span class="hidden-xxs">Mobii Manager</span> App Design';
-	$client = 'iiNet';
-	//$brand_colours = [ '#ff8200', '#d21f2a', '#0090ab', '#808080', '#fff' ];
-	$year = '2014';		
-	$skills = array('mobile app design', 'UI/UX', 'interaction design', 'Adobe Photoshop');
-	
-	//$website = 'www.iinet.net.au';	
-	//$website_url = '//www.iinet.net.au/internet-products/broadband/adsl';
-	
-	$next_project = array('multicomm', 'Multicomm Website');
-	$previous_project = array('iinet-plan-pages', 'iiNet Plan Page Redesign');
-?>
-
+<?php $project = 'mobii_manager'; ?>
 
 	<!-- include frames and nav -->
 	<?php include('inc/_nav.php'); ?>
@@ -71,7 +55,7 @@
 
 				<div class="container">
 					<div class="title">
-						<h1 class="font-bold grey-6"><?php print $title ?></h1>
+						<h1 class="font-bold grey-6" id="projectTitle"></h1>
 					</div>
 				</div>
 
