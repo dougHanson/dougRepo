@@ -81,10 +81,18 @@
 
 							<p class="h3 subheading padding-0 margin-top-40">Additional screenshots</p>
 							<div class="owl-carousel owl-theme">
-								<div class="item"><img src="img/multicomm-mobile-home.png" /></div>
-								<div class="item"><img src="img/multicomm-mobile-nav.png" /></div>
-								<div class="item"><img src="img/multicomm-mobile-page.png" /></div>
-								<div class="item"><img src="img/multicomm-mobile-contact.png" /></div>
+								<div class="item">
+									<a href="img/multicomm-mobile-home.png" data-lightbox="multicomm" data-title="Mobile homepage"><img src="img/multicomm-mobile-home.png" /></a>
+								</div>
+								<div class="item">
+									<a href="img/multicomm-mobile-nav.png" data-lightbox="multicomm" data-title="Mobile navigation"><img src="img/multicomm-mobile-nav.png" /></a>
+								</div>
+								<div class="item">
+									<a href="img/multicomm-mobile-page.png" data-lightbox="multicomm" data-title="Product page"><img src="img/multicomm-mobile-page.png" /></a>
+								</div>
+								<div class="item">
+									<a href="img/multicomm-mobile-contact.png" data-lightbox="multicomm" data-title="Contact form"><img src="img/multicomm-mobile-contact.png" /></a>
+								</div>
 							</div>
 							<p class="margin-bottom-40">&nbsp;</p>
 

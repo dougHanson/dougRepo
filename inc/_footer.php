@@ -150,35 +150,28 @@
 		
 		//next projects
 		var nextObject = projectOrder.indexOf("<?php echo $project ?>")+1;
-		if (nextObject <= projectOrder.length-1) {
-			var nextProject = projectOrder[nextObject];
-			var next = projects[nextProject];
-		}
-		else {
+		if (nextObject > projectOrder.length-1) {
 			nextObject = 0;
-			var nextProject = projectOrder[nextObject];
-			var next = projects[nextProject];
 		}
+		var nextProject = projectOrder[nextObject];
+		var next = projects[nextProject];
 
 		$('#projectNextLink').attr("href", next.url);
 		$('#projectNextTitle').append(next.title);
-		$('#projectNextImg').attr("src", "img/" + nextProject + "-thumb.png");
+		$('#projectNextImg').attr("src", "img/" + next.thumbnail);
 		
 		//previous projects
 		var prevObject = projectOrder.indexOf("<?php echo $project ?>")-1;
 		if (prevObject < 0) {
 			prevObject = projectOrder.length-1;
-			var prevProject = projectOrder[prevObject];
-			var prev = projects[prevProject];
 		}
-		else {
-			var prevProject = projectOrder[prevObject];
-			var prev = projects[prevProject];
-		}
+		var prevProject = projectOrder[prevObject];
+		var prev = projects[prevProject];
 
-		$('#projectPrevtLink').attr("href", prev.url);
+
+		$('#projectPrevLink').attr("href", prev.url);
 		$('#projectPrevTitle').append(prev.title);
-		$('#projectPrevImg').attr("src", "img/" + prevProject + "-thumb.png");		
+		$('#projectPrevImg').attr("src", "img/" + prev.thumbnail);		
 
 	
 	</script> 

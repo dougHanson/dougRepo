@@ -10,7 +10,7 @@
 				<section>
 					<div class="nav-slide">
 	
-						<a class="prev progressLoad" id="projecPrevLink" href="#">												
+						<a class="prev progressLoad" id="projectPrevLink" href="#">												
 							<span class="icon-wrap">
 								<span class="icon-wrap__text icon-wrap__text--left">Prev</span>
 								<svg class="icon" width="32" height="32" viewBox="0 0 64 64"><use xlink:href="#arrow-left-1"></svg>
