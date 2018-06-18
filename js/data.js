@@ -17,8 +17,8 @@ var projects = {
 		//brand_colours: [ '#ff8200', '#d21f2a', '#0090ab', '#808080', '#fff' ],
 		skills: ['mobile app design', 'UI/UX', 'interaction design', 'Adobe Photoshop'],
 		year: '2014',
-		//website: 'www.iinet.net.au',
-		//website_url: '//www.iinet.net.au/internet-products/broadband/naked-dsl',
+		//website: '',
+		//website_url: '',
 		thumbnail: 'mobii-manager-thumb.png'
 	},
 	multicomm: {
@@ -38,7 +38,7 @@ var projects = {
 		client: 'Bankwest',
 		//brand_colours: [ '#ff8200', '#d21f2a', '#0090ab', '#808080', '#fff' ],
 		skills: ['HTML5', 'CSS3', 'PHP', 'AngularJS', 'UX Design', 'User Testing', 'SASS', 'OOCSS/BEM'],
-		//year: '2016',
+		//year: '2012',
 		website: 'www.iinet.net.au',
 		website_url: '//www.iinet.net.au/internet-products/broadband/naked-dsl',
 		thumbnail: 'bankwest-thumb.png'		

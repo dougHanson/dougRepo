@@ -35,7 +35,7 @@
 							
 					<!-- grid icon -->
 					<div class="full-width text-center"> 
-						<a href="/index.php#selected-works" style="display: inline-block; position: relative; top: -35px;">							
+						<a href="index.php#selected-works" style="display: inline-block; position: relative; top: -35px;">							
 							<svg height="40px" width="40px" viewBox="0 0 512 512">
 								<path d="M160,153.3c0,3.7-3,6.7-6.7,6.7h-50.5c-3.7,0-6.7-3-6.7-6.7v-50.5c0-3.7,3-6.7,6.7-6.7h50.5c3.7,0,6.7,3,6.7,6.7V153.3z"/>
 								<path d="M288,153.3c0,3.7-3,6.7-6.7,6.7h-50.5c-3.7,0-6.7-3-6.7-6.7v-50.5c0-3.7,3-6.7,6.7-6.7h50.5c3.7,0,6.7,3,6.7,6.7V153.3z"/>
