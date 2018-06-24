@@ -42,8 +42,8 @@
 	<?php include('inc/_nav.php'); ?>
 
 	<!-- iiNet plan refreshes -->
-	<div class="wrapper">
-		<div class="wrapper__outer">
+	<div class="wrapper__outer">
+		<div class="wrapper__inner">
 
 			<div id="container" class="intro-effect-jam3">
 

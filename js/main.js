@@ -20,7 +20,17 @@ $('.owl-carousel').owlCarousel({
 
 	
 // FADE WRAPPER IN ON PAGE LOAD
-$(".wrapper").animate({"opacity": "1"}, 300);
+$(".wrapper__outer").animate({"opacity": "1"}, 300);
+
+
+
+//DISPLAY SKELETON CSS UNTIL PAGE READY
+$(document).ready( function() {  
+	$('.skeleton').fadeOut(300);
+	setTimeout ( function() {
+		$('.wrapper').css('opacity','1');				
+	}, 10);
+});
 
 
 
@@ -258,3 +268,5 @@ $(function() {
 	}
 
 });
+
+

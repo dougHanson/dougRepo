@@ -7,13 +7,23 @@
 //   Wrappers
 /* ------------------------------------- */
 
+.wrapper{ position: relative; }
 
-.wrapper {
+.wrapper__outer {
   margin: 1.5vw 1.5vw 0 1.5vw;
 	opacity: 0; 
 	transition: opacity 500ms;
 	@media (max-width: 991px) {
 			padding-top: 60px;
+	}
+}
+
+.wrapper__inner {
+  padding-left: 230px;
+  height: 100%;
+	@media (max-width: 991px) {
+      height: 100%;
+      padding-left: 0px;
 	}
 }
 
@@ -23,14 +33,6 @@
   }	
 }
 
-.wrapper__outer {
-  padding-left: 230px;
-  height: 100%;
-	@media (max-width: 991px) {
-      height: 100%;
-      padding-left: 0px;
-  }
-}
 
 .hero-content {
   background: url('../img/perth-bg.jpg') $grey-background;

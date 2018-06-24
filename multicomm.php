@@ -41,8 +41,8 @@
 	<?php include('inc/_nav.php'); ?>
 
 	<!-- Multicomm -->
-	<div class="wrapper">
-		<div class="wrapper__outer">
+	<div class="wrapper__outer">
+		<div class="wrapper__inner">
 
 			<div id="container" class="intro-effect-jam3">
 

@@ -20,7 +20,8 @@
 
 
 <body>
-
+	
+<?php include('inc/_skeleton.php'); ?>
 	
 <?php /*
 
@@ -50,14 +51,14 @@
 */ ?>	
 
 
-<div style="position: relative;"> 
+<div class="wrapper"> 
       
 <!-- include frames and nav --> 	
 <?php include('inc/_nav.php'); ?>
       
   <!-- body content -->
-	<section class="wrapper">
-		<div class="wrapper__outer"> 
+	<section class="wrapper__outer">
+		<div class="wrapper__inner"> 
 	
 			<!-- ###############################
 			//   Intro / hero content
