@@ -1,8 +1,8 @@
 <footer class="text-center" >
 	
 	
-	<div class="wrapper wrapper--footer">		
-		<div class="wrapper__outer">	
+	<div class="wrapper">		
+		<div class="wrapper__inner">	
 			<div class="container text-center">
 					
 				<div class="row">

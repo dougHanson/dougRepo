@@ -55,7 +55,7 @@
 
 				<div class="container">
 					<div class="col-sm-12 title">
-						<h1 class="font-bold grey-6" id="projectTitle">iiNet</h1>
+						<h1 class="font-bold grey-6" id="projectTitle"></h1>
 					</div>	
 				</div>
 

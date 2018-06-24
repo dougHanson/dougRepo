@@ -983,10 +983,6 @@ section {
       height: 100%;
       padding-left: 0px; } }
 
-@media (max-width: 991px) {
-  .wrapper--footer {
-    padding-top: 0px; } }
-
 .hero-content {
   background: url("../img/perth-bg.jpg") #fcfcfb;
   min-height: 94vh;
@@ -1044,7 +1040,7 @@ footer {
   background: #fff;
   height: 160px;
   margin-top: 40px;
-  padding: 10px 0;
+  padding: 30px 0;
   border-top: 1px solid #e4e4e4; }
 
 /* Move footer up on project pages to allow for transition */
@@ -2490,13 +2486,22 @@ img {
   background: #dfdfdf;
   width: 50%;
   margin: 40px auto; }
+  @media (max-width: 991px) {
+    .skeleton__bar1 {
+      width: 100%;
+      height: 30px;
+      margin: 30px auto; } }
 
 .skeleton__bar2 {
   height: 30px;
   background: #dfdfdf;
   width: 70%;
-  margin: 50px auto;
-  margin-bottom: 100px; }
+  margin: 50px auto 100px; }
+  @media (max-width: 991px) {
+    .skeleton__bar2 {
+      width: 75%;
+      height: 70px;
+      margin: 20px auto; } }
 
 /* ----- project pages ----- */
 /* 

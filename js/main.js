@@ -29,7 +29,7 @@ $(document).ready( function() {
 	$('.skeleton').fadeOut(300);
 	setTimeout ( function() {
 		$('.wrapper').css('opacity','1');				
-	}, 10);
+	}, 100);
 });
 
 
