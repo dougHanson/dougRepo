@@ -13,10 +13,14 @@
 	<!-- build:css -->
 	<link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,600|Dancing+Script" rel="stylesheet" type="text/css">	
 	<link rel="stylesheet" href="css/styles.css" media="all">
+	<style>
+		.wrapper { opacity: 0; transition: all 200ms; } /* hide content until DOM ready */
+	</style>
 	<!-- endbuild -->
 
 	<?php //include('/inc/_favicons.php'); ?>
 </head>
+
 
 
 <body>

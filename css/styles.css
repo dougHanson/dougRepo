@@ -964,8 +964,7 @@ section {
 /* -------------------------------------
 //   Wrappers
 /* ------------------------------------- */
-.wrapper {
-  position: relative; }
+.wrapper { position: relative; }
 
 .wrapper__outer {
   margin: 1.5vw 1.5vw 0 1.5vw;
