@@ -26,10 +26,10 @@ $(".wrapper__outer").animate({"opacity": "1"}, 300);
 
 //DISPLAY SKELETON CSS UNTIL PAGE READY
 $(document).ready( function() {  
-	$('.skeleton').fadeOut(300);
-	setTimeout ( function() {
+	$('.skeleton').fadeOut(200);
+	//setTimeout ( function() {
 		$('.wrapper').css('opacity','1');				
-	}, 100);
+	//}, 200);
 });
 
 
