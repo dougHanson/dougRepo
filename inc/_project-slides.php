@@ -1,3 +1,4 @@
+			<div class="project-slides">				
 				<div class="svg-wrap">
 					<svg width="64" height="64" viewBox="0 0 64 64">
 						<path id="arrow-left-1" d="M46.077 55.738c0.858 0.867 0.858 2.266 0 3.133s-2.243 0.867-3.101 0l-25.056-25.302c-0.858-0.867-0.858-2.269 0-3.133l25.056-25.306c0.858-0.867 2.243-0.867 3.101 0s0.858 2.266 0 3.133l-22.848 23.738 22.848 23.738z" />
@@ -33,9 +34,25 @@
 						</a>
 					</div>
 							
+							<style>
+.grid-icon {
+	transition: all 1s;
+}
+
+.grid-icon:hover {
+	transform: scale(1.1);
+	transition: all 1s;
+}
+.grid-icon svg path {	transition: all 1s; }							
+.grid-icon:hover svg path {
+	transition: all 1s;
+	fill: #5BC0DE;
+}
+							</style>
+							
 					<!-- grid icon -->
 					<div class="full-width text-center"> 
-						<a href="index.php#selected-works" style="display: inline-block; position: relative; top: -35px;">							
+						<a href="index.php#selected-works" title="Selected Works" class="grid-icon" style="display: inline-block; position: relative; top: -35px;">							
 							<svg height="40px" width="40px" viewBox="0 0 512 512">
 								<path d="M160,153.3c0,3.7-3,6.7-6.7,6.7h-50.5c-3.7,0-6.7-3-6.7-6.7v-50.5c0-3.7,3-6.7,6.7-6.7h50.5c3.7,0,6.7,3,6.7,6.7V153.3z"/>
 								<path d="M288,153.3c0,3.7-3,6.7-6.7,6.7h-50.5c-3.7,0-6.7-3-6.7-6.7v-50.5c0-3.7,3-6.7,6.7-6.7h50.5c3.7,0,6.7,3,6.7,6.7V153.3z"/>
@@ -51,3 +68,4 @@
 					</div>
 							
 				</section>
+			</div>

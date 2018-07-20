@@ -36,23 +36,28 @@
 
 <body class="project-page">
 
-<?php $project = 'mobii_manager'; ?>
+<?php 
+	// DECLARE PROJECT VARIABLE - refer to data.js
+	// Mobii Manager
+	$project = 'mobii_manager'; 
+?>
 
 	<!-- include frames and nav -->
 	<?php include('inc/_nav.php'); ?>
 
-	<!-- Mobii Manager -->
 	<div class="wrapper__outer">
 		<div class="wrapper__inner">
 
 			<div id="container" class="intro-effect-jam3">
 
+				<!-- header image -->
 				<header class="header">
 					<div class="bg-img">
 						<img src="img/mobii-manager-big.png" alt="Mobile App Design" />
 					</div>
 				</header>
 
+				<!-- heading -->
 				<div class="container">
 					<div class="title">
 						<h1 class="font-bold grey-6" id="projectTitle"></h1>
@@ -63,25 +68,26 @@
 					<div class="container">
 
 
-						<!-- content -->
+						<!-- ###############################
+						//   Page specific content
+						#################################### -->>
 						<div class="col-lg-9">
 
-							<!-- brand colours -->
-							<p class="margin-0">
-								<?php if(isset($brand_colours)) { foreach ($brand_colours as $a_colour) { ?>
-									<span class="brand-colour" style="background: <?php print $a_colour ?>"> </span>
-									<?php	} } ?>
-							</p>
-
-							<!-- copy -->
 							<p class="h3 subheading padding-0 margin-0">At a glance</p>
-							<p class="margin-bottom-40">iiNet had just released shiny new mobile broadband hardware, which was using the generic Huawei Android app to operate the hardware. I designed a tailored iiNet Android app which strengthened the brand, whilst providing a better user experience than the generic app. Once all stakeholders were happy with the design, I worked with an external development agency, guiding them through the anitcipated UX and interactions, as well as supplying all graphical elements.</p>
+							<p class="margin-bottom-40">iiNet had just released shiny new mobile broadband hardware, which was using the generic Huawei Android app to operate the hardware. I designed a tailored iiNet Android app which strengthened the brand, whilst providing a better user experience than the generic app. </p>
 							<p><img src="img/mobii-designs.png" class="margin-bottom-20 img-responsive" alt=""></p>
+							
+							
+							<p class="h3 subheading padding-0 margin-0">The process</p>
+							<p>To kick the project off, I met with Product Managers to understand to conduct <strong>requirements gathering</strong> for the project. After toying with some <strong>paper sketches</strong>, I turned the best ones into <strong>high fidelity wireframes</strong> to seek intitial stakeholder feedback. Once all stakeholders were happy with the look and feel, I developed a <strong>rapid prototype using basic HTML, CSS &amp; JavaScript</strong>. This allowed me to demonstrate the desired <strong>UX and interactions</strong> to the external development agency, whom then turned my prototype into a <strong>native Android app</strong>.</p>
 							<p><img src="img/mobii-designs-2.png" class="margin-bottom-20 img-responsive" alt=""></p>
 							<p><img src="img/mobii-designs-3.png" class="img-responsive" alt=""></p>
 							<p class="margin-bottom-40">&nbsp;</p>
 
 						</div>
+						<!-- end page specific content -->
+						
+						
 
 						<!-- additional project info -->
 						<?php include('inc/_sidebar.php'); ?>
@@ -91,9 +97,8 @@
 					<!-- end container -->
 
 					<!-- next & prev slides -->
-					<div class="project-slides">
-						<?php include('inc/_project-slides.php'); ?>
-					</div>
+					<?php include('inc/_project-slides.php'); ?>
+					
 
 				</article>
 
@@ -105,12 +110,6 @@
 
 	<!-- include footer -->
 	<?php include('inc/_footer.php'); ?>
-
-	<script>
-		//Scroll page back to top on refresh, to ensure loading effect is maintained
-		$(window).on('beforeunload', function() {
-			$(window).scrollTop(0), 10;
-		});	
-	</script>		
+	
 
 </body>

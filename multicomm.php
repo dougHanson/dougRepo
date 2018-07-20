@@ -35,23 +35,28 @@
 
 <body class="project-page">
 	
-<?php $project = 'multicomm'; ?>
+<?php 
+	// DECLARE PROJECT VARIABLE - refer to data.js
+	// Multicomm
+	$project = 'multicomm'; 
+?>
 
 	<!-- include frames and nav -->
 	<?php include('inc/_nav.php'); ?>
 
-	<!-- Multicomm -->
 	<div class="wrapper__outer">
 		<div class="wrapper__inner">
 
 			<div id="container" class="intro-effect-jam3">
 
+				<!-- heading image -->
 				<header class="header">
 					<div class="bg-img">
 						<img src="img/multicomm-header.jpg" alt="Multicomm Website Development" />
 					</div>
 				</header>
 
+				<!-- heading -->
 				<div class="container">
 					<div class="col-sm-12 title">
 						<h1 class="font-bold grey-6" id="projectTitle"></h1>
@@ -62,23 +67,18 @@
 					<div class="container">
 
 
-						<!-- content -->
+						<!-- ###############################
+						//   Page specific content
+						#################################### -->
 						<div class="col-lg-9">
 
-							<!-- brand colours -->
-							<p class="margin-0">
-								<?php if(isset($brand_colours)) { foreach ($brand_colours as $a_colour) { ?>
-								<span class="brand-colour" style="background: <?php print $a_colour ?>"> </span>
-								<?php	} } ?>
-							</p>
-
-							<!-- copy -->
 							<p class="h3 subheading padding-0 margin-0">At a glance</p>
-							<p>Multicomm's new website was a freelance project I completed in my spare time. Keeping nothing but the original colours, it began with a rebranding exercise, including the design of a new logo. This led to wireframes, designs, and eventually the build&nbsp;and&nbsp;implementation.</p>
+							<p>Multicomm's new website was a freelance web development project which I completed in my spare time. Keeping nothing but the original colours, it began with a rebranding exercise, including the design of a new logo. This led to wireframes, designs, and eventually the build&nbsp;and&nbsp;implementation.</p>
 							<!--<p><img src="img/multicomm-devices.png" alt="Multicomm Website Screenshot" class="img-responsive"></p>-->
 							<p><img src="img/multicomm-business.png" alt="Multicomm Website Screenshot" class="img-shadow"></p>
 							<p class="margin-bottom-40">&nbsp;</p>
 
+							<!-- additional screenshots -->
 							<p class="h3 subheading padding-0 margin-top-40">Additional screenshots</p>
 							<div class="owl-carousel owl-theme">
 								<div class="item">
@@ -97,6 +97,9 @@
 							<p class="margin-bottom-40">&nbsp;</p>
 
 						</div>
+						<!-- end page specific content -->
+						
+						
 
 						<!-- additional project info -->
 						<?php include('inc/_sidebar.php'); ?>
@@ -106,9 +109,7 @@
 					<!-- end container -->
 
 					<!-- next & prev slides -->
-					<div class="project-slides">
-						<?php include('inc/_project-slides.php'); ?>
-					</div>
+					<?php include('inc/_project-slides.php'); ?>
 
 				</article>
 
@@ -120,13 +121,6 @@
 
 	<!-- include footer -->
 	<?php include('inc/_footer.php'); ?>
-
-	<script>
-		//Scroll page back to top on refresh, to ensure loading effect is maintained
-		$(window).on('beforeunload', function() {
-			$(window).scrollTop(0), 5000;
-		});	
-	</script>		
 
 
 </body>

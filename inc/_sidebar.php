@@ -9,7 +9,9 @@
 
 							<!-- client -->
 							<p class="h4 subheading font-bold margin-bottom-0">Client</p>
-							<p class="margin-top-0" id="projectClient"></p>				
+							<p class="margin-top-0" id="projectClient"></p>		
+							<div id="projectBrandColours"> </div>
+							
 
 							<!-- website -->
 							<div>
@@ -18,8 +20,7 @@
 									<span class="hidden-xl">Website</span>
 								</p>							
 								<p class="margin-top-0" id="projectWebsite"></p>
-							</div>
-							
+							</div>							
 							
 							<!-- year -->
 							<div>

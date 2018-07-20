@@ -50,28 +50,28 @@
 		<br>
 		<!--<p class="social-icon__copy">My social links</p>-->
 
-		<a class="social-icon" href="//www.linkedin.com/in/doug83/" target="_blank">
+		<a class="social-icon" href="//www.linkedin.com/in/doug83/" target="_blank" title="LinkedIn">
 			<div class="social-icon__bg"></div>
 			<div class="social-icon__svg">
 				<?php echo file_get_contents("svg/linkedin.svg"); ?>
 			</div>
 		</a>
 
-		<a class="social-icon" href="//facebook.com/doug83" target="_blank">
+		<a class="social-icon" href="//facebook.com/doug83" target="_blank" title="Facebook">
 			<div class="social-icon__bg"></div>
 			<div class="social-icon__svg">
 				<?php echo file_get_contents("svg/facebook.svg"); ?>
 			</div>
 		</a>
 
-		<a class="social-icon" href="//twitter.com/doug83" target="_blank">
+		<a class="social-icon" href="//twitter.com/doug83" target="_blank" title="Twitter">
 			<div class="social-icon__bg"></div>
 			<div class="social-icon__svg">
 				<?php echo file_get_contents("svg/twitter.svg"); ?>
 			</div>
 		</a>
 
-		<a class="social-icon" href="//au.pinterest.com/dhanson1087/" target="_blank">
+		<a class="social-icon" href="//au.pinterest.com/dhanson1087/" target="_blank" title="Pinterest">
 			<div class="social-icon__bg"></div>
 			<div class="social-icon__svg">
 				<?php echo file_get_contents("svg/pinterest.svg"); ?>

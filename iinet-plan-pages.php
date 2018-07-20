@@ -35,24 +35,28 @@
 
 <body class="project-page">
 
-<?php $project = 'product_page_redesign'; ?>
-
+<?php 
+	// DECLARE PROJECT VARIABLE - refer to data.js
+	// iiNet plan page redesign and rebuild
+	$project = 'product_page_redesign'; 
+?>
 
 	<!-- include frames and nav -->
 	<?php include('inc/_nav.php'); ?>
 
-	<!-- iiNet plan refreshes -->
 	<div class="wrapper__outer">
 		<div class="wrapper__inner">
 
 			<div id="container" class="intro-effect-jam3">
 
+				<!-- header image -->
 				<header class="header">
 					<div class="bg-img">
 						<img src="img/iinet-plan-pages-header.jpg" alt="iiNet Product Page Refresh" />
 					</div>
 				</header>
 
+				<!-- heading -->
 				<div class="container">
 					<div class="col-sm-12 title">
 						<h1 class="font-bold grey-6" id="projectTitle"></h1>
@@ -62,22 +66,12 @@
 				<article class="content">
 					<div class="container">
 
-
-						<!-- content -->
+	
+						<!-- ###############################
+						//   Page specific content
+						#################################### -->
 						<div class="col-lg-9">
-
-							<!-- brand colours -->
-							<p class="margin-0">
-								<?php if(isset($brand_colours)) { foreach ($brand_colours as $a_colour) { ?>
-									<span class="brand-colour" style="background: <?php print $a_colour ?>"> </span>
-								<?php } } ?>
-							</p>
-							
-							<p class="margin-0">
-								<span class="brand-colour" id="projectBrandColours"> </span>
-							</p>							
-
-							<!-- copy -->
+														
 							<p class="h3 subheading padding-0 margin-0">At a glance</p>
 							<p>iiNet's core product pages presented a complex user experience. They were not responsive, and were no longer aligned with the brand. Each product page also had a unique interface and layout, confusing potential customers and customer service representatives. This presented an opportunity to improve the user experience, by simplifying these pages and unifying them with each other and the brand. </p>
 
@@ -103,7 +97,7 @@
 							<p>The new design was created with a stepped approach, making it easy for users to understand. Each plan is broken out into its own box, with emphasis on the benefit (the quota) rather than the price. The address check field was previously overlooked, so this was given more prominence as the first step. Large checkboxes have a very distinct active state to make it clear to the user what they have chosen.</p>
 							<p>The new responsive pages reduce cognitive load by breaking down the plan customisation into intuitive steps. Both <strong>conversion and bounce rates improved once the new pages were released</strong>.</p>
 
-
+							<!-- additional screenshots -->
 							<p class="h3 subheading padding-0 margin-top-40">Additional screenshots</p>
 							<div class="owl-carousel owl-theme">
 								<div class="item">
@@ -119,6 +113,9 @@
 							<p class="margin-bottom-40">&nbsp;</p>
 
 						</div>
+						<!-- end page specific content -->
+					
+					
 
 						<!-- additional project info -->
 						<?php include('inc/_sidebar.php'); ?>
@@ -127,9 +124,7 @@
 					<!-- end container -->
 
 					<!-- next & prev slides -->
-					<div>
-						<?php include('inc/_project-slides.php'); ?>
-					</div>
+					<?php include('inc/_project-slides.php'); ?>
 
 				</article>
 
@@ -142,12 +137,5 @@
 	<!-- include footer -->
 	<?php include('inc/_footer.php'); ?>
 
-	<script>
-		//Scroll page back to top on refresh, to ensure loading effect is maintained
-		$(window).on('beforeunload', function() {
-			$(window).fadeOut(), 2000;
-			$(window).scrollTop(0), 2000;
-		});	
-	</script> 	
 
 </body>

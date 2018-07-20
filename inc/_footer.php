@@ -109,11 +109,10 @@
 
 	//only load if project var defined
 	<?php if (isset($project)) { ?>	
-
+	
 		//Scroll page back to top on refresh, to ensure loading effect is maintained
-		$(window).on('beforeunload', function() {
-			//$(window).fadeOut(), 200;
-			$(window).scrollTop(0), 1000;
+		$(window).on('beforeunload', function() {			
+			$(window).scrollTop(0),200;
 		});
 	
 		//get current project from defined php variable
