@@ -87,6 +87,17 @@
 
 							<p><img src="img/iinet-plan-pages-naked-dsl.png" alt="iiNet Product Page Refresh" class="img-shadow"></p>
 							<p class="margin-bottom-40">&nbsp;</p>
+							
+							<p class="h3 subheading padding-0 margin-0">The code</p>
+							<p>A sample of the AngularJS code, more to come.</p>
+
+							<p>
+								<div class="item">
+									<a href="img/iinet-plan-pages-code.png" data-lightbox="code" data-title="Sample of AngularJS"><img src="img/iinet-plan-pages-code.png" alt="AngularJS code" class="img-shadow">
+									</a>
+								</div>
+							</p>
+							<p class="margin-bottom-20">&nbsp;</p>							
 
 							<p class="h3 subheading padding-0 margin-0">The result</p>
 							<p>The new design was created with a stepped approach, making it easy for users to understand. Each plan is broken out into its own box, with emphasis on the benefit (the quota) rather than the price. The address check field was previously overlooked, so this was given more prominence as the first step. Large checkboxes have a very distinct active state to make it clear to the user what they have chosen.</p>

@@ -8,7 +8,7 @@ lazy load images on plan pages
 
 
 [X] clean up code so scripts are centralised and easier to find
-[ ] create global json of projects for further automation
+[x] create global json of projects for further automation
 [ ] use properly formatted sass
 
 [ ] more diversified imagery in iinet page
