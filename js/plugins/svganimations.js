@@ -77,11 +77,12 @@
 			window.cancelAnimFrame(this.handle);
 			
 			// Draw the image in on mobiles only
-			if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+			if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
 			 this.showImage();  // ## shows the full image once svg path is completely shown
 			}					
 
-		} else {
+		} 
+		else {
 			this.current_frame++;
 			for(var j=0, len = this.path.length; j<len;j++){
 				this.path[j].style.strokeDashoffset = Math.floor(this.length[j] * (1 - progress));
@@ -130,13 +131,18 @@
 	function inViewport( el, h ) {
 		var elH = el.offsetHeight,
 			scrolled = scrollY(),
-			viewed = scrolled + getViewportH(),
+			viewed = scrolled + getViewportH()+30,
 			elTop = getOffset(el).top,
 			elBottom = elTop + elH,
 			// if 0, the element is considered in the viewport as soon as it enters.
 			// if 1, the element is considered in the viewport only when it's fully inside
 			// value in percentage (1 >= h >= 0)
 			h = h || 0;
+		
+			//draw svg path earlier on mobile devices
+			if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+				viewed = scrolled + getViewportH()+90;
+			}
  
 		return (elTop + elH * h) <= viewed && (elBottom) >= scrolled;
 	}

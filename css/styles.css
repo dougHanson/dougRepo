@@ -989,7 +989,7 @@ section {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  margin-bottom: 70px; }
+  margin-bottom: 0px; }
   @media (max-width: 991px) {
     .hero-content {
       min-height: 80vh; } }
@@ -1612,7 +1612,7 @@ h6, .h6 {
 /* ----- hero heading, should only be used on home page ----- */
 .hero-heading {
   font-size: 88px;
-  font-weight: 400;
+  font-weight: 600;
   font-family: "Raleway", Arial, sans-serif, serif;
   line-height: 1.4em;
   color: #4a4a4a;
