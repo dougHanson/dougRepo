@@ -32,12 +32,12 @@
 }
 .vertical-menu__logo img {
   max-height: 100%;
-	transition: all 1s;
+	transition: all 0.25s;
 }
 
 .vertical-menu__logo img:hover {
 	transform: scale(1.1);
-	transition: all 1s;
+	transition: all 0.25s;
 }
 
 @media (max-width: 991px) {
@@ -155,7 +155,7 @@ nav li::after {
   height: 100%;
   padding: 1em 2em;
   display: block;
-  transition: all 0.2s;
+  transition: all 0.25s;
 	font-weight: 600;
 	text-shadow: 0 0 1px $grey-6;
 	text-decoration: none;

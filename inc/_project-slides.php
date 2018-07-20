@@ -34,25 +34,9 @@
 						</a>
 					</div>
 							
-							<style>
-.grid-icon {
-	transition: all 1s;
-}
-
-.grid-icon:hover {
-	transform: scale(1.1);
-	transition: all 1s;
-}
-.grid-icon svg path {	transition: all 1s; }							
-.grid-icon:hover svg path {
-	transition: all 1s;
-	fill: #5BC0DE;
-}
-							</style>
-							
 					<!-- grid icon -->
 					<div class="full-width text-center"> 
-						<a href="index.php#selected-works" title="Selected Works" class="grid-icon" style="display: inline-block; position: relative; top: -35px;">							
+						<a href="index.php#selected-works" title="Selected Works" class="grid-icon">							
 							<svg height="40px" width="40px" viewBox="0 0 512 512">
 								<path d="M160,153.3c0,3.7-3,6.7-6.7,6.7h-50.5c-3.7,0-6.7-3-6.7-6.7v-50.5c0-3.7,3-6.7,6.7-6.7h50.5c3.7,0,6.7,3,6.7,6.7V153.3z"/>
 								<path d="M288,153.3c0,3.7-3,6.7-6.7,6.7h-50.5c-3.7,0-6.7-3-6.7-6.7v-50.5c0-3.7,3-6.7,6.7-6.7h50.5c3.7,0,6.7,3,6.7,6.7V153.3z"/>

@@ -1276,11 +1276,11 @@ hr {
 
 .vertical-menu__logo img {
   max-height: 100%;
-  transition: all 1s; }
+  transition: all 0.25s; }
 
 .vertical-menu__logo img:hover {
   transform: scale(1.1);
-  transition: all 1s; }
+  transition: all 0.25s; }
 
 @media (max-width: 991px) {
   .vertical-menu {
@@ -1377,7 +1377,7 @@ nav li::after {
   height: 100%;
   padding: 1em 2em;
   display: block;
-  transition: all 0.2s;
+  transition: all 0.25s;
   font-weight: 600;
   text-shadow: 0 0 1px #636362;
   text-decoration: none; }
@@ -1750,7 +1750,7 @@ h6, .h6 {
   fill: #fff; }
 
 footer .icon {
-  fill: #000 !important; }
+  fill: #000; }
 
 /* ----- social icons ----- */
 .social-icon {
@@ -1758,7 +1758,8 @@ footer .icon {
   float: left;
   padding-right: 2px;
   margin-top: 6px;
-  display: inline-block; }
+  display: inline-block;
+  transition: all 0.25s; }
 
 .social-wrapper {
   width: 200px;
@@ -1799,7 +1800,36 @@ footer .icon {
 .social-icon__svg {
   position: absolute;
   top: 10px;
-  left: 10px; }
+  left: 10px;
+  transition: all 0.25s; }
+
+.social-icon__svg--linkedin .icon {
+  transition: all 0.75s; }
+
+.social-icon__svg--facebook .icon {
+  transition: all 0.75s; }
+
+.social-icon__svg--twitter .icon {
+  transition: all 0.75s; }
+
+.social-icon__svg--pinterest .icon {
+  transition: all 0.75s; }
+
+.social-icon__svg--linkedin:hover .icon {
+  transition: all 0.25s;
+  fill: #0077b5; }
+
+.social-icon__svg--facebook:hover .icon {
+  transition: all 0.25s;
+  fill: #3b5998; }
+
+.social-icon__svg--twitter:hover .icon {
+  transition: all 0.25s;
+  fill: #1da1f2; }
+
+.social-icon__svg--pinterest:hover .icon {
+  transition: all 0.25s;
+  fill: #bd081c; }
 
 .social-icon__copy {
   font-size: 1em;
@@ -1811,6 +1841,24 @@ footer .icon {
   .social-icon__copy,
   .social-icon {
     display: none; } }
+
+/* ----- grid icon ----- */
+.grid-icon {
+  transition: all 0.25s;
+  display: inline-block;
+  position: relative;
+  top: -35px; }
+
+.grid-icon:hover {
+  transform: scale(1.1);
+  transition: all 0.25s; }
+
+.grid-icon svg path {
+  transition: all 0.3s; }
+
+.grid-icon:hover svg path {
+  transition: all 0.25s;
+  fill: #5BC0DE; }
 
 /* *************************************
 //   BUTTONS  [modules/_buttons.scss]

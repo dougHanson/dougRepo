@@ -7,35 +7,35 @@
 					
 				<div class="row">
 					<div class="col-sm-12">
-						<p class="text-center">Copyright Doug Hanson 2017</p>
+						<p class="text-center">Copyright Doug Hanson 2018</p>
 					</div>
 					
 					<div class="social-wrapper">
 						<!-- social media icons -->
 						<a class="social-icon-footer" href="//www.linkedin.com/in/doug83/" target="_blank">
 							<div class="social-icon__bg social-icon__bg--transparent"></div>
-							<div class="social-icon__svg">
+							<div class="social-icon__svg social-icon__svg--linkedin">
 								<?php echo file_get_contents("svg/linkedin.svg"); ?>
 							</div>
 						</a>
 
 						<a class="social-icon-footer" href="//facebook.com/doug83" target="_blank">
 							<div class="social-icon__bg social-icon__bg--transparent"></div>
-							<div class="social-icon__svg">
+							<div class="social-icon__svg social-icon__svg--facebook">
 								<?php echo file_get_contents("svg/facebook.svg"); ?>
 							</div>
 						</a>
 
 						<a class="social-icon-footer" href="//twitter.com/doug83" target="_blank">
 							<div class="social-icon__bg social-icon__bg--transparent"></div>
-							<div class="social-icon__svg">
+							<div class="social-icon__svg social-icon__svg--twitter">
 								<?php echo file_get_contents("svg/twitter.svg"); ?>
 							</div>
 						</a>
 
 						<a class="social-icon-footer" href="//au.pinterest.com/dhanson1087/" target="_blank">
 							<div class="social-icon__bg social-icon__bg--transparent"></div>
-							<div class="social-icon__svg">
+							<div class="social-icon__svg social-icon__svg--pinterest">
 								<?php echo file_get_contents("svg/pinterest.svg"); ?>
 							</div>
 						</a>
