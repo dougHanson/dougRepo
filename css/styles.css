@@ -1389,7 +1389,10 @@ nav li::after {
       padding: 0 1em; } }
   @media (max-width: 560px) {
     .nav-link {
-      margin-top: -7px; } }
+      margin-top: -16px; padding: 6px 1em 0;} }
+  @media (max-width: 400px) {
+    .nav-link {
+      padding: 6px 6px 0;} }
 
 .nav-link:hover,
 .nav-link:focus {
