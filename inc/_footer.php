@@ -104,6 +104,7 @@
 
 
 <!-- Google Analytics -->
+<?php if ($_SERVER['SERVER_NAME'] != 'localhost') { ?>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -113,6 +114,7 @@
   ga('create', 'UA-81920963-1', 'auto');
   ga('send', 'pageview');	
 </script>
+<?php } ?>
 <!-- end Google Analytics -->
 
 <script>
