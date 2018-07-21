@@ -82,16 +82,26 @@
 <!-- jQuery CDN --> 
 <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script> 
 
+
+
 <!-- build:js --> 
 <script src="js/data.js"></script> 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.min.js"></script>
+<script src="js/plugins/lozad.min.js"></script>
+<script src="js/plugins/masonry.pkgd.min.js"></script>
 <script src="js/plugins/classie.js"></script>  
 <script src="js/plugins/jquery.ui.touch-punch.min.js"></script> 
 <script src="js/plugins/svganimations.js"></script>	
-<script src="js/plugins/owl.carousel.js"></script> 
+<script src="js/plugins/owl.carousel.min.js"></script> 
 <script src="js/plugins/lightbox.js"></script>
 <script src="js/main.js"></script> 
 <!-- endbuild --> 
+
+
+<script>
+
+
+</script>
+
 
 <!-- Google Analytics -->
 <script>

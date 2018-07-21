@@ -118,28 +118,6 @@ $(function(){
 
 
 
-// 3D FLIP ANIMATION FOR WORK ITEMS
-/*$(function() {	
-	$(".work-item").click(function(){
-		var id = $(this).attr('id');
-		$(this).toggleClass('flip3d').addClass('hasAnimated');
-		setTimeout(function(){ 
-			$("."+id).fadeIn(); 
-			$('body').addClass('noscroll');
-		}, 500);
-
-		
-		$(".close-content,nav a").click(function(){
-			$("."+id).fadeOut(500); 
-			$('body').removeClass('noscroll');
-			$('.hasAnimated').removeClass('flip3d');
-		});		
-
-	});
-});	*/
-
-
-
 // INPUT FIELDS - special effects from codrops 
 (function() {
   // trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
@@ -271,3 +249,42 @@ $(function() {
 });
 
 
+
+//INITIALISE LAZY LOAD (LOZAD)
+lozad('.lazy-load', {
+    load: function(el) {
+        el.src = el.dataset.src;
+        el.onload = function() {
+					//if not homepage, fadeIn images. Don't fadeIn on homepage as interferes with SVG animations.
+					if (pathname != "/index.php" && pathname != '/' && pathname != '/~doug.hanson/') {
+            el.classList.add('fadeIn'); //see utilities.scss for fadeIn class
+					}
+        };
+    }
+}).observe();
+
+//LAZY LOAD BG IMAGES
+(() => {
+  'use strict';
+  // Page is loaded
+	
+	//if ( ! /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) && $(window).width() > 991 ) {
+		const asideImg = new Image();	
+		asideImg.src = 'img/aside.jpg';
+		asideImg.onload = () => {
+			$('.vertical-menu').css("background-image", "url('"+asideImg.src+"')"); 
+		};
+	//}
+
+	if ($('.hero-content').length) { 
+		const heroImg = new Image();
+		heroImg.src = 'img/perth-bg.jpg';
+		heroImg.onload = () => {
+			$('.hero-content').css("background-image", "url('"+heroImg.src+"')"); 
+		};
+	}
+	
+	// Once images are loaded replace the src of the HTML element
+
+
+})();

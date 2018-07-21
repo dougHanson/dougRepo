@@ -11,7 +11,6 @@
 	<meta name="keywords" content="web design, designer, web development, front end developer, ux design, perth, doug hanson">
 	
 	<!-- build:css -->
-	<link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,600|Dancing+Script" rel="stylesheet" type="text/css">	
 	<link rel="stylesheet" href="css/styles.css" media="all">
 	<style>
 		.wrapper { opacity: 0; transition: all 200ms; } /* hide content until DOM ready */
@@ -20,7 +19,6 @@
 
 	<?php //include('/inc/_favicons.php'); ?>
 </head>
-
 
 
 <body>
@@ -53,7 +51,7 @@
   }	
   else {
 */ ?>	
-
+	
 
 <div class="wrapper"> 
       
@@ -68,7 +66,7 @@
 			//   Intro / hero content
 			#################################### -->		
 			<div id="hero-content" class="hero-content parallax-bg">
-				<div class="hero-content__bg">
+				<div class="lazy-load hero-content__bg">
 					<!--<div class="fadeOut"><a href="index.php"><img src="img/namelogo.png" /></a></div>-->
 					<h3 class="h1 hero-heading fadeOut"><span>Doug Hanson</span></h3>
 					<h1 class="h3 subheading subheading__hero grey-2 fadeOut">Web Designer &amp; Front-end Developer based in Perth, Western Australia</h1>
@@ -103,7 +101,7 @@
 					<a href="iinet-plan-pages.php" class="progressLoad">
 						<article class="work-item">
 							<div class="work-item__drawings" id="drawings">
-								<img class="illustration" src="img/finn-balloons.png" alt="" style="max-width: 244px;" />
+								<img class="lazy-load illustration" data-src="img/finn-balloons.png" alt="" style="max-width: 244px;" />
 								<?php echo file_get_contents("svg/finn.svg"); ?>
 							</div>
 
@@ -118,7 +116,7 @@
 					<a href="mobii-manager.php" class="progressLoad">
 						<article class="work-item">
 							<div class="work-item__drawings" id="drawings">
-								<img class="illustration" src="img/mobii-manager.png" alt="" style="max-width: 300px;" />
+								<img class="lazy-load illustration" data-src="img/mobii-manager.png" alt="" style="max-width: 300px;" />
 								<?php echo file_get_contents("svg/galaxy-phone.svg"); ?>
 							</div>
 
@@ -133,7 +131,7 @@
 					<a href="multicomm.php" class="progressLoad">
 						<article class="work-item">
 							<div class="work-item__drawings" id="drawings">
-								<img class="illustration" src="img/multicomm.png" alt="" style="max-width: 300px; padding-top:15px;" />
+								<img class="lazy-load illustration" data-src="img/multicomm.png" alt="" style="max-width: 300px; padding-top:15px;" />
 								<?php echo file_get_contents("svg/multicomm.svg"); ?>
 							</div>
 
@@ -179,12 +177,13 @@
 				<div class="text-center"><img src="img/arrow.png" /></div>
 				<div class="col-lg-9">
 					<br>
-					<p class="text-center-xs">A driven, creative professional with a broad technical skill set. An excellent communicator experienced in interpreting and implementing client and staff visions of new websites and digital creative. Enjoys collaborating with colleagues and clients, and will voluntarily help and teach whenever needed, with expertise ranging from design, development and conceptualization to programming and management.</p>
+					<p>Over 8 years of hands on experience in user-centred web design &amp; front end web development. Experience designing User Interfaces (UI) and User Experience (UX) for products from various domains. Expertise in handling projects in Web development, Responsive Web Design, JavaScript, JQuery, AngularJS, HTML5, CSS3, SASS and&nbsp;PHP.</p>
+					<p class="hidden-xs hidden-xxs">A driven, creative professional with a broad technical skill set. An excellent communicator experienced in interpreting and implementing client and staff visions of new websites and digital creative.</p>
 					<p>&nbsp;</p>
 				</div>
 				<div class="col-lg-3 text-right visible-lg">
 					<div id="drawings">
-						<img src="img/doug.png" class="profile-pic img-circle">
+						<img data-src="img/doug.png" class="lazy-load profile-pic img-circle">
 						<?php //echo file_get_contents("svg/doug.svg"); ?>
 					</div>
 				</div>
@@ -361,5 +360,9 @@
 <?php include('inc/_footer.php'); ?>
 
   
+<script>
+
+</script>
+	
 </body>
 </html>

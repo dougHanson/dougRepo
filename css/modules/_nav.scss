@@ -17,12 +17,17 @@
   height: 100%;
   z-index: 888;
 	background: $brand-primary; 
-	background-image: url('../img/aside.jpg');
+	background-image: url('../img/aside.min.jpg');
 	background-size: cover;
 	background-position: 0 -40px;
 	border-right: 1px solid $grey-9;
 	@media (max-width: 991px) {
 		background: $brand-primary;
+		background-image: none;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: -9999px -9999px;
+		box-shadow: 0px 2px 5px $brand-primary;
 	}
 }
 .vertical-menu__logo {
@@ -31,7 +36,8 @@
 	margin-top: 10px;
 }
 .vertical-menu__logo img {
-  max-height: 100%;
+  max-height: 150%;
+	margin-top: -8px;
 	transition: all 0.25s;
 }
 

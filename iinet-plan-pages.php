@@ -8,14 +8,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<title>iiNet Plan Page Redesign | Doug Hanson | Web Design and Development, Perth</title>
-	<meta name="description" content="Doug Hanson is a web designer and front end developer from Perth, Western Australia.">
+	<meta name="description" content="Website rebuild case study by Doug Hanson, a web designer and front end developer from Perth, Western Australia.">
 	<meta name="keywords" content="iinet plan pages, web design, designer, web development, front end developer, ux design, perth, doug hanson">
 
 	<!-- build:css -->
-	<link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,600|Dancing+Script" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="css/styles.css" media="all">
 	<!-- endbuild -->
-
 
 	<!-- individual banner styles -->
 	<style>
@@ -35,10 +33,11 @@
 
 <body class="project-page">
 
-<?php 
+<?php 	
 	// DECLARE PROJECT VARIABLE - refer to data.js
 	// iiNet plan page redesign and rebuild
 	$project = 'product_page_redesign'; 
+	//include('inc/_skeleton.php');	
 ?>
 
 	<!-- include frames and nav -->
@@ -52,7 +51,7 @@
 				<!-- header image -->
 				<header class="header">
 					<div class="bg-img">
-						<img src="img/iinet-plan-pages-header.jpg" alt="iiNet Product Page Refresh" />
+						<img data-src="img/iinet-plan-pages-header.jpg" class="lazy-load" alt="iiNet Product Page Refresh" />
 					</div>
 				</header>
 
@@ -79,7 +78,7 @@
 							<p>To begin gathering <strong>user requirements</strong>, I conducted a <strong>focus group</strong> with customer service reps, to identify pain points with the existing design. This gave insight not only into what users like and dislike, but also what users do, how they do it, and what frustrates them. I then conducted an <strong>expert review</strong> and a <strong>competitor analysis</strong>, to investigate the best way to solve the identified problems.</p>
 							<p>Iterations of <strong>wireframes and designs</strong> followed, and reviewed by key stakeholders at each major step. Once a very basic <strong>prototype</strong> was ready, <strong>user testing sessions</strong> were then conducted with a handful of users, which allowed us to identify any remaining issues and refine the design further.</p>
 
-							<p><img src="img/iinet-plan-pages-naked-dsl.png" alt="iiNet Product Page Refresh" class="img-shadow"></p>
+							<p><img data-src="img/iinet-plan-pages-naked-dsl.png" alt="iiNet Product Page Refresh" class="lazy-load img-shadow"></p>
 							<p class="margin-bottom-40">&nbsp;</p>
 							
 							<p class="h3 subheading padding-0 margin-0">The code</p>
@@ -87,7 +86,8 @@
 
 							<p>
 								<div class="item">
-									<a href="img/iinet-plan-pages-code.png" data-lightbox="code" data-title="Sample of AngularJS"><img src="img/iinet-plan-pages-code.png" alt="AngularJS code" class="img-shadow">
+									<a href="img/iinet-plan-pages-code.png" data-lightbox="code" data-title="Sample of AngularJS">
+										<img data-src="img/iinet-plan-pages-code.png" alt="AngularJS code" class="lazy-load img-shadow">
 									</a>
 								</div>
 							</p>
@@ -101,13 +101,13 @@
 							<p class="h3 subheading padding-0 margin-top-40">Additional screenshots</p>
 							<div class="owl-carousel owl-theme">
 								<div class="item">
-									<a href="img/iinet-plan-pages-mobile-banner.png" data-lightbox="iinet-plan-pages" data-title="Campaign banner"><img src="img/iinet-plan-pages-mobile-banner.png" /></a>
+									<a href="img/iinet-plan-pages-mobile-banner.png" data-lightbox="iinet-plan-pages" data-title="Campaign banner"><img data-src="img/iinet-plan-pages-mobile-banner.png" class="lazy-load" /></a>
 								</div>
 								<div class="item">
-									<a href="img/iinet-plan-pages-mobile-plans.png" data-lightbox="iinet-plan-pages" data-title="Broadband plans"><img src="img/iinet-plan-pages-mobile-plans.png" /></a>
+									<a href="img/iinet-plan-pages-mobile-plans.png" data-lightbox="iinet-plan-pages" data-title="Broadband plans"><img data-src="img/iinet-plan-pages-mobile-plans.png" class="lazy-load"  /></a>
 								</div>
 								<div class="item">
-									<a href="img/iinet-plan-pages-mobile-signup.png" data-lightbox="iinet-plan-pages" data-title="Signup summary"><img src="img/iinet-plan-pages-mobile-signup.png" /></a>
+									<a href="img/iinet-plan-pages-mobile-signup.png" data-lightbox="iinet-plan-pages" data-title="Signup summary"><img data-src="img/iinet-plan-pages-mobile-signup.png" class="lazy-load"  /></a>
 								</div>
 							</div>
 							<p class="margin-bottom-40">&nbsp;</p>

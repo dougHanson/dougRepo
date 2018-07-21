@@ -8,11 +8,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<title>Multicomm Website | Doug Hanson | Web Design and Development, Perth</title>
-	<meta name="description" content="Doug Hanson is a web designer and front end developer from Perth, Western Australia.">
+	<meta name="description" content="A case study of a freelance web development project by Doug Hanson, a web designer and front end developer from Perth, Western Australia.">
 	<meta name="keywords" content="multicomm, web design, designer, web development, front end developer, ux design, perth, doug hanson">
 
 	<!-- build:css -->
-	<link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,600|Dancing+Script" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="css/styles.css" media="all">
 	<!-- endbuild -->
 
@@ -29,7 +28,6 @@
 			.intro-effect-jam3.modify .bg-img img { top: -60px; }
 		}
 	</style>
-
 </head>
 	
 
@@ -39,6 +37,7 @@
 	// DECLARE PROJECT VARIABLE - refer to data.js
 	// Multicomm
 	$project = 'multicomm'; 
+	//include('inc/_skeleton.php'); 	
 ?>
 
 	<!-- include frames and nav -->
@@ -52,7 +51,7 @@
 				<!-- heading image -->
 				<header class="header">
 					<div class="bg-img">
-						<img src="img/multicomm-header.jpg" alt="Multicomm Website Development" />
+						<img class="lazy-load" data-src="img/multicomm-header.jpg" alt="Multicomm Website Development" />
 					</div>
 				</header>
 
@@ -79,17 +78,18 @@
 							<p class="h3 subheading padding-0 margin-0">The process</p>
 							<p>As this page was being built from scratch, I started by using <a href="http://styletil.es/">Style Tiles</a> to <strong>communicate the visual elements of the online brand</strong> to the client. After further requirements gathering I was able to produce templated <strong>web designs</strong> for the homepage, category pages and content pages.</p>
 							
-							<p><img src="img/multicomm-business.png" alt="Multicomm Website Screenshot" class="img-shadow margin-bottom-20"></p>
+							<p><img data-src="img/multicomm-business.png" alt="Multicomm Website Screenshot" class="lazy-load img-shadow margin-bottom-20"></p>
 							
 							<p class="h3 subheading padding-0 margin-top-40 margin-bottom-0">The build</p>
 							<p>For the build, I chose to use <strong>Bootstrap</strong> as my <strong>CSS framework</strong>, as it would allow for rapid <strong>web development</strong>. I used a basic <strong>PHP mail script</strong> to add functionality to the form, and leveraged the <strong>Google Maps API</strong> to display the client's three office locations on the one map.</p>
 							
 							<p>
 								<div class="item">
-									<a href="img/multicomm-code.png" data-lightbox="code" data-title="Sample of HTML code"><img src="img/multicomm-code.png" alt="HTML" class="img-shadow">
+									<a href="img/multicomm-code.png" data-lightbox="code" data-title="Sample of HTML code">
+										<img data-src="img/multicomm-code.png" alt="HTML" class="lazy-load img-shadow">
 									</a>
 								</div>
-							</p>						
+							</p>
 							
 							
 							<p class="h3 subheading padding-0 margin-top-40 margin-bottom-0">The result</p>
@@ -101,19 +101,19 @@
 							<p class="h3 subheading padding-0 margin-top-20">Additional screenshots</p>
 							<div class="owl-carousel owl-theme">
 								<div class="item">
-									<a href="img/multicomm-mobile-home.png" data-lightbox="multicomm" data-title="Mobile homepage"><img src="img/multicomm-mobile-home.png" /></a>
+									<a href="img/multicomm-mobile-home.png" data-lightbox="multicomm" data-title="Mobile homepage"><img class="lazy-load" data-src="img/multicomm-mobile-home.png" /></a>
 								</div>
 								<div class="item">
-									<a href="img/multicomm-mobile-nav.png" data-lightbox="multicomm" data-title="Mobile navigation"><img src="img/multicomm-mobile-nav.png" /></a>
+									<a href="img/multicomm-mobile-nav.png" data-lightbox="multicomm" data-title="Mobile navigation"><img class="lazy-load" data-src="img/multicomm-mobile-nav.png" /></a>
 								</div>
 								<div class="item">
-									<a href="img/multicomm-mobile-page.png" data-lightbox="multicomm" data-title="Product page"><img src="img/multicomm-mobile-page.png" /></a>
+									<a href="img/multicomm-mobile-page.png" data-lightbox="multicomm" data-title="Product page"><img class="lazy-load" data-src="img/multicomm-mobile-page.png" /></a>
 								</div>
 								<div class="item">
-									<a href="img/multicomm-mobile-contact.png" data-lightbox="multicomm" data-title="Contact form"><img src="img/multicomm-mobile-contact.png" /></a>
+									<a href="img/multicomm-mobile-contact.png" data-lightbox="multicomm" data-title="Contact form"><img class="lazy-load" data-src="img/multicomm-mobile-contact.png" /></a>
 								</div>
 								<div class="item">
-									<a href="img/multicomm-style-tile.png" data-lightbox="multicomm" data-title="brand elements"><img src="img/multicomm-style-tile.png" style="border: 1px solid #d1d1d0" /></a>
+									<a href="img/multicomm-style-tile.png" data-lightbox="multicomm" data-title="brand elements"><img class="lazy-load" data-src="img/multicomm-style-tile.png" style="border: 1px solid #d1d1d0" /></a>
 								</div>								
 							</div>
 							<p class="margin-bottom-40">&nbsp;</p>

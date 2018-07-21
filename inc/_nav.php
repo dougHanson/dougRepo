@@ -1,3 +1,6 @@
+<!-- Google fonts -->
+<link href="https://fonts.googleapis.com/css?family=Raleway:100,400,600|Dancing+Script" rel="stylesheet" type="text/css">	
+
 <!-- frame borders -->
 <div class="frame frame__top"></div>
 <div class="frame frame__bottom"></div>
@@ -46,9 +49,7 @@
 			</li>
 		</ul>
 
-		<br>
-		<br>
-		<!--<p class="social-icon__copy">My social links</p>-->
+		<br><br>
 
 		<a class="social-icon" href="//www.linkedin.com/in/doug83/" target="_blank" title="LinkedIn">
 			<div class="social-icon__bg"></div>

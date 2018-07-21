@@ -984,7 +984,7 @@ section {
       padding-left: 0px; } }
 
 .hero-content {
-  background: url("../img/perth-bg.jpg") #fcfcfb;
+  background: url("../img/perth-bg.min.jpg") #fcfcfb;
   min-height: 94vh;
   background-position: center 15px;
   background-repeat: no-repeat;
@@ -1242,6 +1242,16 @@ hr {
   border: 0;
   border-top: 1px solid #e4e4e4; }
 
+.fadeIn {
+  animation-name: fadeIn;
+  animation-duration: 0.5s; }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
 .fadeOut {
   position: relative; }
 
@@ -1265,13 +1275,18 @@ hr {
   height: 100%;
   z-index: 888;
   background: #727c7d;
-  background-image: url("../img/aside.jpg");
+  background-image: url("../img/aside.min.jpg");
   background-size: cover;
   background-position: 0 -40px;
   border-right: 1px solid #999998; }
   @media (max-width: 991px) {
     .vertical-menu {
-      background: #727c7d; } }
+      background: #727c7d;
+      background-image: none;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: -9999px -9999px;
+      box-shadow: 0px 2px 5px #727c7d; } }
 
 .vertical-menu__logo {
   height: 160px;
@@ -1279,7 +1294,8 @@ hr {
   margin-top: 10px; }
 
 .vertical-menu__logo img {
-  max-height: 100%;
+  max-height: 150%;
+  margin-top: -8px;
   transition: all 0.25s; }
 
 .vertical-menu__logo img:hover {
@@ -1415,7 +1431,7 @@ p {
   line-height: 1.8;
   margin: 0.75rem 0;
   font-size: 0.95rem;
-  font-weight: 300; }
+  font-weight: 400; }
 
 a {
   color: #5bc0de;
@@ -1849,8 +1865,7 @@ footer .icon {
   transition: all 0.3s; }
 
 .grid-icon:hover svg path {
-  transition: all 0.25s;
-  fill: #5BC0DE; }
+  transition: all 0.25s; }
 
 /* *************************************
 //   BUTTONS  [modules/_buttons.scss]
@@ -1974,7 +1989,7 @@ th, td {
   line-height: 1.8;
   color: #636362;
   font-size: 0.95rem;
-  font-weight: 300; }
+  font-weight: 400; }
 
 th {
   font-weight: 600;
@@ -2069,7 +2084,7 @@ label,
 legend {
   display: block;
   margin-bottom: .5rem;
-  font-weight: 300; }
+  font-weight: 400; }
 
 fieldset {
   padding: 0;
@@ -2214,6 +2229,9 @@ img {
 .img-shadow {
   max-width: 100%;
   box-shadow: 0px 15px 25px #636362; }
+
+.no-shadow {
+  box-shadow: none !important; }
 
 /* *************************************
 //   FRAMES  [modules/_frames.scss]

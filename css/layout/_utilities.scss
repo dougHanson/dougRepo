@@ -95,6 +95,19 @@ hr {
   border-top: 1px solid $grey-border;
 }
 
+.fadeIn {
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .fadeOut { position: relative; }
 
 .grabbable {

@@ -8,11 +8,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<title>Mobile App Design | Doug Hanson | Web and Mobile Design, Perth</title>
-	<meta name="description" content="Doug Hanson is a web designer and front end developer from Perth, Western Australia.">
+	<meta name="description" content="Mobile Application design case study by Doug Hanson, a web designer and front end developer from Perth, Western Australia.">
 	<meta name="keywords" content="mobii manager, web design, designer, web development, front end developer, ux design, perth, doug hanson">
 
 	<!-- build:css -->
-	<link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,600|Dancing+Script" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="css/styles.css" media="all">
 	<!-- endbuild -->
 
@@ -30,7 +29,6 @@
 			.bg-img img { right: -100px; top: 20px;	}
 		}			
 	</style>
-
 </head>
 	
 
@@ -40,6 +38,7 @@
 	// DECLARE PROJECT VARIABLE - refer to data.js
 	// Mobii Manager
 	$project = 'mobii_manager'; 
+	//include('inc/_skeleton.php'); 	
 ?>
 
 	<!-- include frames and nav -->
@@ -53,7 +52,7 @@
 				<!-- header image -->
 				<header class="header">
 					<div class="bg-img">
-						<img src="img/mobii-manager-big.png" alt="Mobile App Design" />
+						<img class="lazy-load" data-src="img/mobii-manager-big.png" alt="Mobile App Design" />
 					</div>
 				</header>
 
@@ -75,13 +74,13 @@
 
 							<p class="h3 subheading padding-0 margin-0">At a glance</p>
 							<p class="margin-bottom-40">iiNet had just released shiny new mobile broadband hardware, which was using the generic Huawei Android app to operate the hardware. I designed a tailored iiNet Android app which strengthened the brand, whilst providing a better user experience than the generic app. </p>
-							<p><img src="img/mobii-designs.png" class="margin-bottom-20 img-responsive" alt=""></p>
+							<p><img data-src="img/mobii-designs.png" class="lazy-load margin-bottom-20 img-responsive" alt=""></p>
 							
 							
 							<p class="h3 subheading padding-0 margin-0">The process</p>
 							<p>To kick the project off, I met with Product Managers to understand to conduct <strong>requirements gathering</strong> for the project. After toying with some <strong>paper sketches</strong>, I turned the best ones into <strong>high fidelity wireframes</strong> to seek intitial stakeholder feedback. Once all stakeholders were happy with the look and feel, I developed a <strong>rapid prototype using basic HTML, CSS &amp; JavaScript</strong>. This allowed me to demonstrate the desired <strong>UX and interactions</strong> to the external development agency, whom then turned my prototype into a <strong>native Android app</strong>.</p>
-							<p><img src="img/mobii-designs-2.png" class="margin-bottom-20 img-responsive" alt=""></p>
-							<p><img src="img/mobii-designs-3.png" class="img-responsive" alt=""></p>
+							<p><img data-src="img/mobii-designs-2.png" class="lazy-load margin-bottom-20 img-responsive" alt=""></p>
+							<p><img data-src="img/mobii-designs-3.png" class="lazy-load img-responsive" alt=""></p>
 							<p class="margin-bottom-40">&nbsp;</p>
 
 						</div>
