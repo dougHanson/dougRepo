@@ -1,6 +1,7 @@
 // OWL CAROUSEL - initiate Owl Carousel plugin 
 $('.owl-carousel').owlCarousel({
 	stagePadding: 0,
+	lazyLoad: true,
 	loop: false,
 	margin: 10,
 	nav: false,

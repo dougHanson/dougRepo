@@ -70,7 +70,7 @@
 
 						<!-- ###############################
 						//   Page specific content
-						#################################### -->>
+						#################################### -->
 						<div class="col-lg-9">
 
 							<p class="h3 subheading padding-0 margin-0">At a glance</p>

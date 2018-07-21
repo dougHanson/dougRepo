@@ -6,8 +6,8 @@
 	<meta name="author" content="Doug Hanson">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
 	
-	<title>Doug Hanson | Web Design and Development, Perth</title>
-	<meta name="description" content="Doug Hanson is a web designer and front end developer from Perth, Western Australia.">
+	<title>Doug Hanson | Web Development Perth</title>
+	<meta name="description" content="Doug Hanson is a web designer and front end web developer from Perth, Western Australia.">
 	<meta name="keywords" content="web design, designer, web development, front end developer, ux design, perth, doug hanson">
 	
 	<!-- build:css -->

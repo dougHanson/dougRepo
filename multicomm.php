@@ -73,13 +73,32 @@
 						<div class="col-lg-9">
 
 							<p class="h3 subheading padding-0 margin-0">At a glance</p>
-							<p>Multicomm's new website was a freelance web development project which I completed in my spare time. Keeping nothing but the original colours, it began with a rebranding exercise, including the design of a new logo. This led to wireframes, designs, and eventually the build&nbsp;and&nbsp;implementation.</p>
+							<p>Multicomm's new website was a freelance web development project which I completed in my spare time. Keeping nothing but the original colours, it began with a rebranding exercise, including the design of a new&nbsp;logo.</p>
 							<!--<p><img src="img/multicomm-devices.png" alt="Multicomm Website Screenshot" class="img-responsive"></p>-->
-							<p><img src="img/multicomm-business.png" alt="Multicomm Website Screenshot" class="img-shadow"></p>
-							<p class="margin-bottom-40">&nbsp;</p>
+							
+							<p class="h3 subheading padding-0 margin-0">The process</p>
+							<p>As this page was being built from scratch, I started by using <a href="http://styletil.es/">Style Tiles</a> to <strong>communicate the visual elements of the online brand</strong> to the client. After further requirements gathering I was able to produce templated <strong>web designs</strong> for the homepage, category pages and content pages.</p>
+							
+							<p><img src="img/multicomm-business.png" alt="Multicomm Website Screenshot" class="img-shadow margin-bottom-20"></p>
+							
+							<p class="h3 subheading padding-0 margin-top-40 margin-bottom-0">The build</p>
+							<p>For the build, I chose to use <strong>Bootstrap</strong> as my <strong>CSS framework</strong>, as it would allow for rapid <strong>web development</strong>. I used a basic <strong>PHP mail script</strong> to add functionality to the form, and leveraged the <strong>Google Maps API</strong> to display the client's three office locations on the one map.</p>
+							
+							<p>
+								<div class="item">
+									<a href="img/multicomm-code.png" data-lightbox="code" data-title="Sample of HTML code"><img src="img/multicomm-code.png" alt="HTML" class="img-shadow">
+									</a>
+								</div>
+							</p>						
+							
+							
+							<p class="h3 subheading padding-0 margin-top-40 margin-bottom-0">The result</p>
+							<p>The result was a fully <strong>responsive website</strong> which the client was extremely pleased with, and is still live at the time of publishing this case study.</p>
+							
+
 
 							<!-- additional screenshots -->
-							<p class="h3 subheading padding-0 margin-top-40">Additional screenshots</p>
+							<p class="h3 subheading padding-0 margin-top-20">Additional screenshots</p>
 							<div class="owl-carousel owl-theme">
 								<div class="item">
 									<a href="img/multicomm-mobile-home.png" data-lightbox="multicomm" data-title="Mobile homepage"><img src="img/multicomm-mobile-home.png" /></a>
@@ -93,6 +112,9 @@
 								<div class="item">
 									<a href="img/multicomm-mobile-contact.png" data-lightbox="multicomm" data-title="Contact form"><img src="img/multicomm-mobile-contact.png" /></a>
 								</div>
+								<div class="item">
+									<a href="img/multicomm-style-tile.png" data-lightbox="multicomm" data-title="brand elements"><img src="img/multicomm-style-tile.png" style="border: 1px solid #d1d1d0" /></a>
+								</div>								
 							</div>
 							<p class="margin-bottom-40">&nbsp;</p>
 

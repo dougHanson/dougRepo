@@ -3,23 +3,6 @@
 //   Icons used throughout site that aren't part of icon font. SVG and PNG versions must both be maintained
 /* ************************************* */
 
-/*.icon {
-    display: inline-block;
-   // height: 32px;
-    //width: 32px;	
-    margin: 1px 10px -15px 0;
-}
-@media (max-width: 991px) {
-	.icon {
-    margin: 0 10px;
-	}
-}
-@media (max-width: 991px) {
-	.icon {
-    margin: 0;
-	}
-}
-*/
 
 .icon { fill: #fff; }
 footer .icon { fill: #000; }
@@ -87,20 +70,19 @@ footer .icon { fill: #000; }
 .social-icon__svg--facebook .icon {	transition: all 0.75s; }
 .social-icon__svg--twitter .icon { transition: all 0.75s; }
 .social-icon__svg--pinterest .icon { transition: all 0.75s;	}
-.social-icon__svg--linkedin:hover .icon {	transition: all 0.25s; fill: #0077b5; }
-.social-icon__svg--facebook:hover .icon {	transition: all 0.25s; fill: #3b5998; }
-.social-icon__svg--twitter:hover .icon { transition: all 0.25s;	fill: #1da1f2; }
-.social-icon__svg--pinterest:hover .icon { transition: all 0.25s;	fill: #bd081c; }
 
-.social-icon__copy {
-	font-size: 1em; 
-	font-weight: 100; 
-	color: #fff;
-	text-transform: none; 
-}
+.social-icon__svg--linkedin:hover { /*transform: scale(1.1);*/ transition: all 0.25s; }
+.social-icon__svg--facebook:hover {	/*transform: scale(1.1);*/ transition: all 0.25s; }
+.social-icon__svg--twitter:hover { /*transform: scale(1.1);*/ transition: all 0.25s; }
+.social-icon__svg--pinterest:hover { /*transform: scale(1.1);*/ transition: all 0.25s; }
+
+.social-icon__svg--linkedin:hover .icon {	fill: #0077b5; }
+.social-icon__svg--facebook:hover .icon {	fill: #3b5998; }
+.social-icon__svg--twitter:hover .icon { fill: #1da1f2; }
+.social-icon__svg--pinterest:hover .icon { fill: #bd081c; }
+
 
 @media (max-width: 991px) {
-  .social-icon__copy,
 	.social-icon {
     display: none;
   }  
