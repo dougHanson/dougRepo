@@ -18,8 +18,11 @@
 	<!-- individual banner styles -->
 	<style>
 		.title h1 {	color: #636362;	padding: 15px; }
-		.bg-img {	background: #fcece3; background: -webkit-linear-gradient(to left, #fdedf7, #fcecdf); background: linear-gradient(to left, #fdedf7, #fcecdf); }		
-		.bg-img img {	min-width: auto; min-height: auto; width: 685px; right: 50px; top: 50px; }	
+		.bg-img {	
+			background: rgba(247,143,29,.4); 
+			background: -webkit-linear-gradient(to left, rgba(247,143,29,.3), rgba(189,18,52,.3)); 
+			background: linear-gradient(to left, rgba(247,143,29,0.3), rgba(189,18,52,0.3)); }		
+		.bg-img img {	min-width: auto; min-height: auto; width: 725px; right: 30px; top: 90px; }	
 		.intro-effect-jam3.modify .bg-img img { top: -40px;	}			
 		@media (max-width: 1670px) {
 			.title h1 {	background: #fcfcfc; }		
@@ -52,7 +55,7 @@
 				<!-- header image -->
 				<header class="header">
 					<div class="bg-img">
-						<img class="lazy-load" data-src="img/mobii-manager-big.png" alt="Mobile App Design" />
+						<img class="lazy-load" data-src="img/mobii-header.png" alt="Mobile App Design" />
 					</div>
 				</header>
 
@@ -73,15 +76,48 @@
 						<div class="col-lg-9">
 
 							<p class="h3 subheading padding-0 margin-0">At a glance</p>
-							<p class="margin-bottom-40">iiNet had just released shiny new mobile broadband hardware, which was using the generic Huawei Android app to operate the hardware. I designed a tailored iiNet Android app which strengthened the brand, whilst providing a better user experience than the generic app. </p>
-							<p><img data-src="img/mobii-designs.png" class="lazy-load margin-bottom-20 img-responsive" alt=""></p>
+							<p class="margin-bottom-40">iiNet had just released shiny new mobile broadband hardware, which was using the generic Huawei Android app to operate the hardware. I designed a tailored iiNet Android app which strengthened the brand, whilst providing a better user experience than the generic&nbsp;app. </p>
+
+							
+							<div class="owl-carousel owl-theme margin-bottom-20">
+								<div class="item">
+									<a href="img/mobii-02.png" data-lightbox="mobii" data-title="Mobii Manager"><img class="lazy-load" data-src="img/mobii-02.png" /></a>
+								</div>
+								<div class="item">
+									<a href="img/mobii-05.png" data-lightbox="mobii" data-title="Mobii Manager"><img class="lazy-load" data-src="img/mobii-05.png" /></a>
+								</div>	
+								<div class="item">
+									<a href="img/mobii-11.png" data-lightbox="mobii" data-title="Mobii Manager"><img class="lazy-load" data-src="img/mobii-11.png" /></a>
+								</div>	
+								<div class="item">
+									<a href="img/mobii-12.png" data-lightbox="mobii" data-title="Mobii Manager"><img class="lazy-load" data-src="img/mobii-12.png" /></a>
+								</div>	
+								<div class="item">
+									<a href="img/mobii-13.png" data-lightbox="mobii" data-title="Mobii Manager"><img class="lazy-load" data-src="img/mobii-13.png" /></a>
+								</div>									
+								<div class="item">
+									<a href="img/mobii-06.png" data-lightbox="mobii" data-title="Mobii Manager"><img class="lazy-load" data-src="img/mobii-06.png" /></a>
+								</div>
+								<div class="item">
+									<a href="img/mobii-07.png" data-lightbox="mobii" data-title="Mobii Manager"><img class="lazy-load" data-src="img/mobii-07.png" /></a>
+								</div>	
+								<div class="item">
+									<a href="img/mobii-08.png" data-lightbox="mobii" data-title="Mobii Manager"><img class="lazy-load" data-src="img/mobii-08.png" /></a>
+								</div>	
+								<div class="item">
+									<a href="img/mobii-09.png" data-lightbox="mobii" data-title="Mobii Manager"><img class="lazy-load" data-src="img/mobii-09.png" /></a>
+								</div>	
+								<div class="item">
+									<a href="img/mobii-10.png" data-lightbox="mobii" data-title="Mobii Manager"><img class="lazy-load" data-src="img/mobii-10.png" /></a>
+								</div>	
+							</div>							
 							
 							
 							<p class="h3 subheading padding-0 margin-0">The process</p>
-							<p>To kick the project off, I met with Product Managers to understand to conduct <strong>requirements gathering</strong> for the project. After toying with some <strong>paper sketches</strong>, I turned the best ones into <strong>high fidelity wireframes</strong> to seek intitial stakeholder feedback. Once all stakeholders were happy with the look and feel, I developed a <strong>rapid prototype using basic HTML, CSS &amp; JavaScript</strong>. This allowed me to demonstrate the desired <strong>UX and interactions</strong> to the external development agency, whom then turned my prototype into a <strong>native Android app</strong>.</p>
-							<p><img data-src="img/mobii-designs-2.png" class="lazy-load margin-bottom-20 img-responsive" alt=""></p>
-							<p><img data-src="img/mobii-designs-3.png" class="lazy-load img-responsive" alt=""></p>
-							<p class="margin-bottom-40">&nbsp;</p>
+							<p>To kick the project off, I met with Product Managers to understand to conduct <strong>requirements gathering</strong> for the project. After toying with some <strong>paper sketches</strong>, I turned the best ones into <strong>high fidelity wireframes</strong> to seek intitial stakeholder feedback. Once all stakeholders were happy with the look and feel, I developed a <strong>rapid prototype using basic HTML, CSS &amp; JavaScript</strong>. This allowed me to demonstrate the desired <strong>UX and interactions</strong> to the external development agency, whom then turned my prototype into a <strong>native&nbsp;Android&nbsp;app</strong>.</p>
+							
+
+							<p class="margin-top-40"><img data-src="img/mobii-manager-big-light.png" class="lazy-load img-responsive" alt=""></p>
 
 						</div>
 						<!-- end page specific content -->
@@ -110,5 +146,27 @@
 	<!-- include footer -->
 	<?php include('inc/_footer.php'); ?>
 	
+	
+	<!-- page specific scripts -->
+	<script>	
+		// OWL CAROUSEL - initiate Owl Carousel plugin 
+		$('.owl-carousel').owlCarousel({
+			stagePadding: 0,
+			//lazyLoad: true,
+			margin: 20,
+			nav: false,
+			responsive: {
+				0: {
+					items: 2
+				},
+				600: {
+					items: 3
+				},
+				1400: {
+					items: 4
+				}
+			}
+		});
+	</script>
 
 </body>

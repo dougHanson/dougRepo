@@ -1,5 +1,5 @@
 // OWL CAROUSEL - initiate Owl Carousel plugin 
-$('.owl-carousel').owlCarousel({
+/*$('.owl-carousel').owlCarousel({
 	stagePadding: 0,
 	lazyLoad: true,
 	loop: false,
@@ -16,7 +16,7 @@ $('.owl-carousel').owlCarousel({
 			items: 2
 		}
 	}
-});
+});*/
 
 
 	
@@ -258,7 +258,6 @@ lozad('.lazy-load', {
 					//if not homepage, fadeIn images. Don't fadeIn on homepage as interferes with SVG animations.
 					var pathname = window.location.pathname;
 					if (pathname != "/index.php" && pathname != '/' && pathname != '/~doug.hanson' && pathname != '/~doug.hanson/index.php') {
-						
             el.classList.add('fadeIn'); //see utilities.scss for fadeIn class
 					}
         };

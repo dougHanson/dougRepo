@@ -137,5 +137,28 @@
 	<!-- include footer -->
 	<?php include('inc/_footer.php'); ?>
 
-
+	<!-- page specific scripts -->
+	<script>
+		// OWL CAROUSEL - initiate Owl Carousel plugin 
+		$('.owl-carousel').owlCarousel({
+			stagePadding: 0,
+			lazyLoad: true,
+			loop: false,
+			margin: 10,
+			nav: false,
+			responsive: {
+				0: {
+					items: 1
+				},
+				600: {
+					items: 1
+				},
+				1400: {
+					items: 2
+				}
+			}
+		});
+	</script>
+	
+	
 </body>

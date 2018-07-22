@@ -34,13 +34,13 @@ var projects = {
 	},
 	bankwest: {
 		url: 'bankwest.php',
-		title: 'Bankwest Collateral',
+		title: 'Bankwest Digital Creative',
 		client: 'Bankwest',
-		brand_colours: [ '#ff8200', '#d21f2a', '#0090ab', '#808080' ],
-		skills: ['HTML5', 'CSS3', 'PHP', 'AngularJS', 'UX Design', 'User Testing', 'SASS', 'OOCSS / BEM'],
+		brand_colours: [ '#ff920b', '#E96211', '#FFFFFF', '#33404D' ],
+		skills: ['HTML', 'CSS', 'Javascript', 'JQuery', 'Fatwire CMS'],
 		//year: '2012',
-		website: 'www.iinet.net.au',
-		website_url: '//www.iinet.net.au/internet-products/broadband/naked-dsl',
+		//website: 'www.bankwest.com.au',
+		//website_url: '//www.bankwest.com.au',
 		thumbnail: 'bankwest-thumb.png'		
 	}
 }; 

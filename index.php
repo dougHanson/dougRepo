@@ -146,13 +146,13 @@
 					<a href="bankwest.php" class="progressLoad">
 						<article class="work-item">
 							<div class="work-item__drawings" id="drawings">
-								<img class="illustration" src="img/sunny.png" alt="" style="max-width: 250px;" />
+								<img class="illustration" src="img/sunny.png" alt="" style="max-width: 250px; padding-top: 25px;" />
 								<?php //echo file_get_contents("svg/sun.svg"); ?>															
 							</div> 
 
 							<div class="work-item__content">
-								<p class="work-item__heading">Bankwest landing pages &amp; eDMs</p>
-								<h2 class="h5 subheading">web design / web development / email marketing</h2>
+								<p class="work-item__heading">Bankwest Digital Design</p>
+								<h2 class="h5 subheading">web design / web development / email&nbsp;marketing</h2>
 							</div>
 						</article>
 					</a>			
