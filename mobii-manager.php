@@ -25,12 +25,18 @@
 		.bg-img img {	min-width: auto; min-height: auto; width: 725px; right: 30px; top: 90px; }	
 		.intro-effect-jam3.modify .bg-img img { top: -40px;	}			
 		@media (max-width: 1670px) {
-			.title h1 {	background: #fcfcfc; }		
+			.title h1 {	background: #fcfcfc; }	
+			.bg-img img { top: 80px; right: 20px;	}
 			.intro-effect-jam3.modify .title h1 {	background: none;	margin-top: -10px; }			
 		}		
 		@media (max-width: 960px) {
-			.bg-img img { right: -100px; top: 20px;	}
+			.bg-img img { top: 70px; right: -60px; }
+			.intro-effect-jam3.modify .bg-img img { right: -40px; top: 0px; width: 582px; }
 		}			
+		@media (max-width: 767px) {
+			.bg-img img { top: 20px; right: -160px; }
+			.intro-effect-jam3.modify .bg-img img { right: -40px; top: 0px; width: 400px; }
+		}	
 	</style>
 </head>
 	
@@ -117,7 +123,7 @@
 							<p>To kick the project off, I met with Product Managers to understand to conduct <strong>requirements gathering</strong> for the project. After toying with some <strong>paper sketches</strong>, I turned the best ones into <strong>high fidelity wireframes</strong> to seek intitial stakeholder feedback. Once all stakeholders were happy with the look and feel, I developed a <strong>rapid prototype using basic HTML, CSS &amp; JavaScript</strong>. This allowed me to demonstrate the desired <strong>UX and interactions</strong> to the external development agency, whom then turned my prototype into a <strong>native&nbsp;Android&nbsp;app</strong>.</p>
 							
 
-							<p class="margin-top-40"><img data-src="img/mobii-manager-big-light.png" class="lazy-load img-responsive" alt=""></p>
+							<p class="margin-top-40"><img data-src="img/mobii-manager-big-light.png" class="lazy-load img-responsive img-center" alt=""></p>
 
 						</div>
 						<!-- end page specific content -->

@@ -2208,6 +2208,10 @@ img {
   max-width: 100%;
   height: auto; }
 
+.img-center {
+  display: block;
+  margin: auto; }
+
 .img-rounded {
   border-radius: 16px; }
 
@@ -2226,10 +2230,9 @@ img {
   border-radius: 50%;
   width: 100%;
   border: 0.5em solid #fff; }
-
-@media (max-width: 1370px) {
-  .img-circle {
-    border: 0.5em solid #fff; } }
+  @media (max-width: 1370px) {
+    .img-circle {
+      border: 0.5em solid #fff; } }
 
 .img-shadow {
   max-width: 100%;

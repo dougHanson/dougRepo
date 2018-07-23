@@ -20,17 +20,29 @@
 		.title h1 {	color: #636362;	padding: 15px; }
 		.bg-img {	
 			background: #FF920B;  /* fallback for old browsers */
-			background: -webkit-linear-gradient(to top, #FCFCFB, #FF920B);  /* Chrome 10-25, Safari 5.1-6 */
-			background: linear-gradient(to top, #FCFCFB, #FF920B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+			/*background: -webkit-linear-gradient(to top, #FCFCFB, #FF920B);
+			background: linear-gradient(to top, #FCFCFB, #FF920B);*/
+			background: -webkit-linear-gradient(to top, #efefef, #fff);
+			background: linear-gradient(to top, #efefef, #fff);
+			border-bottom: 1px solid #dfdfdf;
 		}
 		.bg-img img {	min-width: auto; min-height: auto; width: 725px; right: 30px; top: 90px; }	
-		.intro-effect-jam3.modify .bg-img img { top: -200px;	}			
+		.intro-effect-jam3.modify .bg-img img { top: -200px; }			
 		@media (max-width: 1670px) {
 			.title h1 {	background: #fcfcfc; }		
-			.intro-effect-jam3.modify .title h1 {	background: none;	margin-top: -10px; }			
+			.intro-effect-jam3.modify .title h1 {	background: none;	margin-top: -10px; padding: 0; }	
+			.intro-effect-jam3.modify .bg-img img { top: -100px; width: 525px; }	
 		}		
 		@media (max-width: 960px) {
-			.bg-img img { right: -100px; top: 20px;	}
+			.intro-effect-jam3.modify .bg-img img { right: 0px; top: -40px; width: 400px;	}
+			.bg-img img { right: -100px; top: 80px; width: 700px; }
+		}			
+		@media (max-width: 767px) {
+			.bg-img img { right: -100px; top: 80px; width: 500px; }
+			.intro-effect-jam3.modify .bg-img img { width: 300px;	}
+		}	
+		@media (max-width: 600px) {
+			.intro-effect-jam3.modify .bg-img img { width: 250px;	}
 		}			
 	</style>
 </head>
@@ -77,26 +89,57 @@
 						<div class="col-lg-9">
 
 							<p class="h3 subheading padding-0 margin-0">At a glance</p>
-							<p>Bankwest</p>
-							<!--<p><img src="img/multicomm-devices.png" alt="Multicomm Website Screenshot" class="img-responsive"></p>-->
+							<p>Over 6 years working at Bankwest allowed me to produce a variety of digital creative. Below is a sample. </p>
 							
-							<p class="h3 subheading padding-0 margin-0">The process</p>
-							<p>sdfsdfsdf</p>
 							
-						
-							
-							<p>
+							<p class="h3 subheading padding-0 margin-0">Website</p>
+							<p>Lorem ipsum dolor sit amet.</p>
+							<p class="margin-bottom-20">
 								<div class="item">
-									<a href="img/multicomm-code.png" data-lightbox="code" data-title="Sample of HTML code">
-										<img data-src="img/multicomm-code.png" alt="HTML" class="lazy-load img-shadow">
+									<a href="img/bankwest-site.png" data-lightbox="code" data-title="Bankwest Website">
+										<img data-src="img/bankwest-site.png" alt="Bankwest eDM" class="lazy-load img-shadow">
 									</a>
 								</div>
 							</p>
 							
+							
+							<p class="h3 subheading padding-0 margin-0">Landing pages</p>
+							<p>Lorem ipsum dolor sit amet.</p>
+							<p class="margin-bottom-20">
+								<div class="item">
+									<a href="img/bankwest-edm.png" data-lightbox="code" data-title="Bankwest eDM">
+										<img data-src="img/bankwest-edm.png" alt="Bankwest eDM" class="lazy-load img-shadow">
+									</a>
+								</div>
+							</p>
+						
+						
+							<p class="h3 subheading padding-0 margin-bottom-0 margin-top-40">eDMs</p>
+							<p>Lorem ipsum dolor sit amet.</p>						
+							<p class="margin-bottom-20">
+								<div class="item">
+									<a href="img/bankwest-edm.png" data-lightbox="code" data-title="Bankwest eDM">
+										<img data-src="img/bankwest-edm.png" alt="Bankwest eDM" class="lazy-load img-shadow">
+									</a>
+								</div>
+							</p>
+				
+				
+				
+							<p class="h3 subheading padding-0 margin-bottom-0 margin-top-40">Calculators</p>
+							<p>Lorem ipsum dolor sit amet.</p>						
+							<p class="margin-bottom-20">
+								<div class="item">
+									<a href="img/bankwest-edm.png" data-lightbox="code" data-title="Bankwest eDM">
+										<img data-src="img/bankwest-edm.png" alt="Bankwest eDM" class="lazy-load img-shadow">
+									</a>
+								</div>
+							</p>				
+							
 					
 
 							<!-- additional screenshots -->
-							<p class="h3 subheading padding-0 margin-top-20">Additional screenshots</p>
+							<p class="h3 subheading padding-0 margin-top-40">Additional screenshots</p>
 							<div class="owl-carousel owl-theme">
 								<div class="item">
 									<a href="img/sunny.png" data-lightbox="bankwest" data-title="Mobile homepage"><img class="lazy-load" data-src="img/sunny.png" /></a>
