@@ -13,7 +13,7 @@
 	<div class="vertical-menu__logo">
 		<a href="index.php"><img src="img/logo-retina.png" /></a>
 	</div>
-	<br class="hidden-sm hidden-xs hidden-xxs">
+	<!--<br class="hidden-sm hidden-xs hidden-xxs">-->
 	<nav>
 		<ul>
 			<li class="nav-home">
@@ -49,8 +49,7 @@
 			</li>
 		</ul>
 
-		<br><br>
-
+		<!-- social icons -->
 		<a class="social-icon" href="//www.linkedin.com/in/doug83/" target="_blank" title="LinkedIn">
 			<div class="social-icon__bg"></div>
 			<div class="social-icon__svg">
