@@ -27,7 +27,7 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: -9999px -9999px;
-		box-shadow: 0px 2px 5px $brand-primary;
+		//box-shadow: 0px 2px 5px $brand-primary;
 	}
 }
 .vertical-menu__logo {
@@ -91,7 +91,9 @@ nav {
     text-align: right;
   }
 }
-
+nav ul { 
+	margin-bottom: 5vh; 
+}
 nav li {
   list-style: none;
   padding: 0;
@@ -140,7 +142,6 @@ nav li::after {
 		margin-left: 1em;
 		margin-right: 1%; 
   } 
-
 } 
 
 .icon {

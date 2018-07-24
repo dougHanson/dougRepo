@@ -17,26 +17,68 @@
 
 	<!-- individual banner styles -->
 	<style>
-		.title h1 {	color: #636362;	padding: 15px; }
+		
+		/* mobile first */
+		.title h1 {	background: #fcfcfc; color: #636362; padding: 15px; }
 		.bg-img {	
 			background: rgba(247,143,29,.4); 
 			background: -webkit-linear-gradient(to left, rgba(247,143,29,.3), rgba(189,18,52,.3)); 
-			background: linear-gradient(to left, rgba(247,143,29,0.3), rgba(189,18,52,0.3)); }		
-		.bg-img img {	min-width: auto; min-height: auto; width: 725px; right: 30px; top: 90px; }	
-		.intro-effect-jam3.modify .bg-img img { top: -40px;	}			
-		@media (max-width: 1670px) {
-			.title h1 {	background: #fcfcfc; }	
-			.bg-img img { top: 80px; right: 20px;	}
-			.intro-effect-jam3.modify .title h1 {	background: none;	margin-top: -10px; }			
-		}		
-		@media (max-width: 960px) {
-			.bg-img img { top: 70px; right: -60px; }
-			.intro-effect-jam3.modify .bg-img img { right: -40px; top: 0px; width: 582px; }
+			background: linear-gradient(to left, rgba(247,143,29,0.3), rgba(189,18,52,0.3)); 
 		}			
-		@media (max-width: 767px) {
-			.bg-img img { top: 20px; right: -160px; }
-			.intro-effect-jam3.modify .bg-img img { right: -40px; top: 0px; width: 400px; }
+		.bg-img img { 
+			top: 20px; 
+			right: -160px; 
+			min-width: auto; 
+			min-height: auto; 
+			width: 725px;
 		}	
+		.intro-effect-jam3.modify .bg-img img { 
+			top: 0px;
+			right: -40px; 			 
+			width: 400px; 
+		}
+		
+		@media (min-width: 768px) {
+			.bg-img img { 
+				top: 90px; 
+				right: 0px; 
+			}
+			.intro-effect-jam3.modify .bg-img img { 
+				right: -20px; 				
+				width: 582px; 
+			}			
+		}
+		
+		@media (min-width: 992px) {
+			.bg-img img { 
+				right: 30px; 
+			}
+			.intro-effect-jam3.modify .bg-img img { 
+				top: -40px;
+				right: 80px;
+				width: 650px;
+			}	
+			.intro-effect-jam3.modify .title h1 {
+				background: none;
+				margin-top: -10px; 
+			}
+		}	
+		
+		@media (min-width: 1670px) {
+			.title h1 {	background: none; }
+			.bg-img img { 
+				right: 10%; 
+			}
+			.intro-effect-jam3.modify .bg-img img { 
+				right: 10%; 
+				top: 0px; 
+				width: 640px; 
+			}				
+		}			
+		
+		
+		
+		
 	</style>
 </head>
 	
