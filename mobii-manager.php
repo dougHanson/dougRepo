@@ -41,10 +41,9 @@
 		@media (min-width: 768px) {
 			.bg-img img { 
 				top: 90px; 
-				right: -60px; 
+				right: 0px; 
 			}
 			.intro-effect-jam3.modify .bg-img img { 
-				top: 0px; 
 				right: -20px; 				
 				width: 582px; 
 			}			
@@ -52,10 +51,12 @@
 		
 		@media (min-width: 992px) {
 			.bg-img img { 
-				right: 0px; 
+				right: 30px; 
 			}
 			.intro-effect-jam3.modify .bg-img img { 
+				top: -40px;
 				right: 80px;
+				width: 650px;
 			}	
 			.intro-effect-jam3.modify .title h1 {
 				background: none;

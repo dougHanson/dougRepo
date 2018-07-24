@@ -19,18 +19,27 @@
 	<style>
 			
 		
-		.title { padding: 15px;	background: rgba(99, 99, 98, 0.4); }		
-		.intro-effect-jam3.modify .title { background: none; }	
+		.title { padding: 15px;	background: rgba(99, 99, 98, 0.4); }
+		.title h1 { background: none; }
 		
-		.bg-img img { right: -150px; top: 0; }
-		.intro-effect-jam3.modify .bg-img img { top: -50px; right: -200px;  }
+		.intro-effect-jam3.modify .title { background: none; top: 150px; }
+		.intro-effect-jam3.modify .title h1 { padding: 0; }
+		
+		.bg-img img { right: -150px; top: 0; width: 1100px; }
+		.intro-effect-jam3.modify .bg-img img { top: 0; right: 0; width: 100%;  }
+		
+		@media (min-width: 768px) {
+			.bg-img img { width: auto; }
+			.intro-effect-jam3.modify .bg-img img { top: -40px; right: -150px; width: auto; }
+			.intro-effect-jam3.modify .title { top: 250px; }
+		}
 		
 		@media (min-width: 992px) {
-			.bg-img img { right: 50;  }
-			.intro-effect-jam3.modify .bg-img img { right: -80px;  }
+			.bg-img img { right: -50px;  }
+			.intro-effect-jam3.modify .bg-img img { right: -120px;  }
 			.title h1 { 
 				text-shadow: 1px 1px 2px #636362;	
-			}
+			}			
 			.intro-effect-jam3.modify .title h1 { 
 				text-shadow: none; 
 				margin-top: -10px; 
@@ -40,7 +49,7 @@
 		
 		@media (min-width: 1360px) {
 			.bg-img img { right: 0; }
-			.intro-effect-jam3.modify .bg-img img { top: -80px; right: 0; }
+			.intro-effect-jam3.modify .bg-img img { top: -70px; right: 0; }
 			.title h1 { 
 				text-shadow: 1px 1px 2px #636362;	
 			}
