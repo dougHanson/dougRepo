@@ -19,7 +19,7 @@
 			<li class="nav-home">
 				<a href="index.php#home" class="nav-link">
 					<i class="icon">
-						<?php echo file_get_contents("svg/home.svg"); ?>
+						<?php echo file_get_contents("svg/homepage.svg"); ?>
 					</i><span>Home</span>
 				</a>
 			</li>
