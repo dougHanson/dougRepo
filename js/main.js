@@ -287,4 +287,4 @@ $(function() {
 	 
 	// Once images are loaded replace the src of the HTML element
 
-})();
+});

@@ -16,34 +16,73 @@
 	<!-- endbuild -->
 
 	<!-- individual banner styles -->
-	<style>
-		.title h1 {	color: #636362;	padding: 15px; }
+	<style>		
+		.title h1 { padding: 15px; color: #636362; background: rgba(255, 255, 255, 0.8); }
+		.intro-effect-jam3.modify .title h1 { background: none; margin-top: -10px; padding: 0; }
+		
 		.bg-img {	
-			background: #FF920B;  /* fallback for old browsers */
-			/*background: -webkit-linear-gradient(to top, #FCFCFB, #FF920B);
-			background: linear-gradient(to top, #FCFCFB, #FF920B);*/
-			background: -webkit-linear-gradient(to top, #efefef, #fff);
-			background: linear-gradient(to top, #efefef, #fff);
+			background: #efefef;  /* fallback for old browsers */
+			background-image: linear-gradient(to top, #ffecd2 0%, #fcb69f 100%); /*juicy peach */
 			border-bottom: 1px solid #dfdfdf;
+			/*background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+ 			background-blend-mode: screen;*/ /*elegance */	
 		}
-		.bg-img img {	min-width: auto; min-height: auto; width: 725px; right: 30px; top: 90px; }	
-		.intro-effect-jam3.modify .bg-img img { top: -200px; }			
-		@media (max-width: 1670px) {
-			.title h1 {	background: #fcfcfc; }		
-			.intro-effect-jam3.modify .title h1 {	background: none;	margin-top: -10px; padding: 0; }	
-			.intro-effect-jam3.modify .bg-img img { top: -100px; width: 525px; }	
-		}		
-		@media (max-width: 960px) {
-			.intro-effect-jam3.modify .bg-img img { right: 0px; top: -40px; width: 400px;	}
-			.bg-img img { right: -100px; top: 80px; width: 700px; }
-		}			
-		@media (max-width: 767px) {
-			.bg-img img { right: -100px; top: 80px; width: 500px; }
-			.intro-effect-jam3.modify .bg-img img { width: 300px;	}
+		.bg-img img { 
+			min-width: auto; min-height: auto;
+			width: 500px; 
+			right: -150px; 
+			top: 70px; 
 		}	
-		@media (max-width: 600px) {
-			.intro-effect-jam3.modify .bg-img img { width: 250px;	}
-		}			
+		.intro-effect-jam3.modify .bg-img img { 
+			top: -40px; 
+			right: 20px; 
+			width: 320px; 
+		}
+		
+		@media (min-width: 375px) {
+			.bg-img img { 
+				right: -80px; 
+				top: 70px; 
+			}			
+			.intro-effect-jam3.modify .title h1 { margin-top: 0px; }	
+		}
+		
+		@media (min-width: 768px) {
+			.bg-img img { 
+				width: 600px;
+				right: 0;
+				top: 120px;
+			}
+			.intro-effect-jam3.modify .bg-img img { 
+				top: -40px; 
+				right: 30px; 
+				width: 400px; 
+			}
+			.intro-effect-jam3.modify .title { top: 250px; }
+		}	
+		
+		@media (min-width: 992px) {
+			.bg-img img { 
+				right: -50px; 
+			}
+			.intro-effect-jam3.modify .bg-img img { 
+				right: 50px; 
+			}			
+		}	
+		
+		@media (min-width: 1360px) {
+			.title { background: none; }
+			.bg-img img { 
+				width: 700px; 
+				top: 10px; 
+				right: 50px; 
+			}
+			.intro-effect-jam3.modify .bg-img img { 
+				right: 15%; 
+				top: -90px;
+				width: 500px;
+			}
+		}	
 	</style>
 </head>
 	

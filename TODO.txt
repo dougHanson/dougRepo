@@ -4,17 +4,15 @@ contact form inline validation
 
 progress load effect on arrow navigation (make bright blue)
 
-lazy load images on plan pages
-
 
 [X] clean up code so scripts are centralised and easier to find
 [x] create global json of projects for further automation
 [ ] use properly formatted sass
 
-[ ] more diversified imagery in iinet page
-[ ] place screenshots for mobii in carousel
-[ ] improve wording for multicomm
-[ ] open all additional screenshots in lightbox
+[x] more diversified imagery in iinet page
+[x] place screenshots for mobii in carousel
+[x] improve wording for multicomm
+[x] open all additional screenshots in lightbox
 
 [ ] stop work items from solidifying on hover until fully drawn
 [ ] add dropdown on mobile to show more job details

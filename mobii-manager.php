@@ -19,7 +19,7 @@
 	<style>
 		
 		/* mobile first */
-		.title h1 {	background: #fcfcfc; color: #636362; padding: 15px; }
+		.title h1 {	background: rgba(255, 255, 255, 0.8); color: #636362; padding: 15px; }
 		.bg-img {	
 			background: rgba(247,143,29,.4); 
 			background: -webkit-linear-gradient(to left, rgba(247,143,29,.3), rgba(189,18,52,.3)); 
@@ -65,7 +65,7 @@
 		}	
 		
 		@media (min-width: 1670px) {
-			.title h1 {	background: none; }
+			
 			.bg-img img { 
 				right: 10%; 
 			}
