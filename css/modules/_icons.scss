@@ -100,8 +100,8 @@ footer .icon { fill: #000; }
 	transform: scale(1.1);
 	transition: all 0.25s;
 }
-.grid-icon svg path {	transition: all 0.3s; }							
+.grid-icon svg path { transition: all 0.3s; fill: #636362; }							
 .grid-icon:hover svg path {
 	transition: all 0.25s;
-	//fill: #5BC0DE;
+	fill: #000;
 }
