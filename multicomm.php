@@ -26,7 +26,7 @@
 		.intro-effect-jam3.modify .title h1 { padding: 0; }
 		
 		.bg-img img { right: -150px; top: 0; width: 1100px; }
-		.intro-effect-jam3.modify .bg-img img { top: 0; right: 0; width: 100%;  }
+		.intro-effect-jam3.modify .bg-img img { top: 0; right: 0; width: 100%; }
 		
 		@media (min-width: 768px) {
 			.bg-img img { width: auto; }
