@@ -255,11 +255,11 @@ lozad('.lazy-load', {
     load: function(el) {
         el.src = el.dataset.src;
         el.onload = function() {
-					//if not homepage, fadeIn images. Don't fadeIn on homepage as interferes with SVG animations.
-					var pathname = window.location.pathname;
-					if (pathname != "/index.php" && pathname != '/' && pathname != '/~doug.hanson' && pathname != '/~doug.hanson/index.php') {
-            el.classList.add('fadeIn'); //see utilities.scss for fadeIn class
-					}
+			//if not homepage, fadeIn images. Don't fadeIn on homepage as interferes with SVG animations.
+			var pathname = window.location.pathname;
+			if (pathname != "/index.php" && pathname != '/' && pathname != '/~doug.hanson' && pathname != '/~doug.hanson/index.php') {
+				el.classList.add('fadeIn'); //see utilities.scss for fadeIn class
+			}
         };
     }
 }).observe()

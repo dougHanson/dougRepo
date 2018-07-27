@@ -89,7 +89,7 @@ label > .label-body {
 	z-index: 1;
 	display: inline-block;
 	margin: 1em 0;
-  width: 100%;
+  	width: 100%;
 	vertical-align: top;
 	background: #fff;
 	overflow: hidden;  
@@ -137,7 +137,7 @@ textarea.input__field {
 	display: inline-block;
 	float: right;
 	-webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  	-moz-osx-font-smoothing: grayscale;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;
@@ -185,4 +185,12 @@ textarea.input__field {
 		-webkit-transform: translate3d(0, -.6em, 0) scale3d(0.85, 0.85, 1);
 		transform: translate3d(0, -.25em, 0) scale3d(0.75, 0.75, 1);
 	}
+}
+
+/* ----- Inline validation styles ----- */
+#input-name.input-error {
+	border-color: $brand-warning;
+}
+#input-name.input-valid {
+	border-color: $brand-success;
 }

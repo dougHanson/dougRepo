@@ -29,7 +29,7 @@
 
   // Define your username and password
   $username = "doug";
-  $password = "p2j01256";
+  $password = "password";
 			
   if ($_POST['txtUsername'] != $username || $_POST['txtPassword'] != $password) {
 ?>
@@ -264,6 +264,7 @@
 				<h4 class="h2 text-center">Contact</h4>
 				<div class="text-center"><img src="img/arrow.png" /></div>
 
+
 				<?php
 				//if submit button is clicked, send email
 				if (isset($_POST['submitted'])) {
@@ -297,40 +298,42 @@
 
 				}
 				?>
-
+				
 
 				<!-- begin mailform -->
 				<iframe name="no-reload" style="display:none;"></iframe>
 				<form method='post' action='index.php#contacted' style="margin-top: 2em;">
 					<div class="col-sm-6">
 						<span class="input">
-						<input class="input__field" type="text" id="input-name" name="input-name" />
+						<input class="input__field" type="text" id="input-name" name="input-name" maxlength="50" />
 						<label class="input__label" for="input-name">
-						  <i class="input__icon svg-user svg-user-dims"></i>
-						  <span class="input__label-content">Name</span>
+							<i class="input__icon svg-user svg-user-dims"></i>
+							<span class="input__label-content">Name</span>
 						</label>
 						</span>
+						<p class="input-name__validation font-xs margin-top-0"></p>
 					</div>
 
 					<div class="col-sm-6">
 						<span class="input">
-						<input class="input__field" type="email" id="input-email" name="input-email" />
+						<input class="input__field" type="email" id="input-email" name="input-email" maxlength="70" />
 						<label class="input__label" for="input-email">
-						  <i class="input__icon svg-mail svg-mail-dims"></i>
-						  <span class="input__label-content">Email</span>
+					  		<i class="input__icon svg-mail svg-mail-dims"></i>
+							<span class="input__label-content">Email</span>
 						</label>
 						</span>
+						<p class="input-email__validation font-xs margin-top-0"></p>
 					</div>
 
 					<div class="col-sm-12">
 						<span class="input">
-						<textarea class="input__field" type="text" id="input-message" name="input-message"></textarea>
+						<textarea class="input__field" type="text" id="input-message" name="input-message" maxlength="2000"></textarea>
 						<label class="input__label" for="input-message">
-						  <i class="input__icon svg-pen svg-pen-dims"></i>
-						  <span class="input__label-content">Message</span>
+							<i class="input__icon svg-pen svg-pen-dims"></i>
+							<span class="input__label-content">Message</span>
 						</label>
-
 						</span>
+						<p class="input-message__validation font-xs margin-top-0"></p>
 					</div>
 
 					<div class="col-sm-12 text-center">
@@ -359,9 +362,77 @@
 <!-- include footer --> 	
 <?php include('inc/_footer.php'); ?>
 
-  
+	
+	
+<!--  #TODO | Form Validation - move all of this into correct partials -->
+<style type="text/css">
+	#input-name.input-error,
+	#input-email.input-error,
+	#input-message.input-error {
+		border-color: #f0ad4e;
+	}
+	#input-name.input-valid,
+	#input-email.input-valid,
+	#input-message.input-valid {
+		border-color: #5cb85c;
+	}
+	.input-name__validation,
+	.input-email__validation,
+	.input-message__validation{ 
+		display: none; 
+		color: #f0ad4e 
+	}
+	textarea { resize: none; }
+</style>	
 <script>
+	
+	function isValidField(field) {
+		field.addClass('input-valid').removeClass('input-error');
+	
+	}
+	function notValidField(field) {
+		field.removeClass('input-valid').addClass('input-error');	
+	}
+	
+	
+	$('#input-name').blur(function() {
+		var nameEntered = this.value;
+		var alphaExp = /^(?=.*[a-zA-Z])[a-zA-Z -]+$/;
+		if (alphaExp.test(nameEntered)) {
+			isValidField($(this));	
+			$('.input-name__validation').fadeOut();
+		} 
+		else {
+			notValidField($(this));	
+			$('.input-name__validation').text('Name should consist of only letters').fadeIn();
+		}
+	});
 
+	$('#input-email').blur(function() {
+		var emailEntered = this.value;
+		var emailExp = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+		if (emailExp.test(emailEntered)) {
+			isValidField($(this));	
+			$('.input-email__validation').fadeOut();
+		} 
+		else {
+			notValidField($(this));
+			$('.input-email__validation').text('Please enter a valid email address').fadeIn();
+		}
+	});
+
+	$('#input-message').blur(function() {
+		var messageEntered = this.value;
+		var messageExp = /[a-zA-Z]/;
+		if (messageExp.test(messageEntered)) {
+			isValidField($(this));	
+			$('.input-message__validation').fadeOut();
+		} 
+		else {
+			notValidField($(this));
+			$('.input-message__validation').text('Please enter a message').fadeIn();
+		}
+	});
 </script>
 	
 </body>

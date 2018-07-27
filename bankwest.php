@@ -136,7 +136,7 @@
 							<p class="margin-bottom-20">
 								<div class="item">
 									<a href="img/bankwest-site.png" data-lightbox="code" data-title="Bankwest Website">
-										<img data-src="img/bankwest-site.png" alt="Bankwest eDM" class="lazy-load img-shadow">
+										<img src="img/loading.gif" data-src="img/bankwest-site.png" alt="Bankwest eDM" class="lazy-load img-shadow">
 									</a>
 								</div>
 							</p>
@@ -164,9 +164,8 @@
 							</p>
 				
 				
-				
-							<p class="h3 subheading padding-0 margin-bottom-0 margin-top-40">Calculators</p>
-							<p>Lorem ipsum dolor sit amet.</p>						
+				<style> .lazy-load:after { content: 'Loading'; }</style>
+							<p class="h3 subheading padding-0 margin-bottom-0 margin-top-40">Calculators</p>				
 							<p class="margin-bottom-20">
 								<div class="item">
 									<a href="img/bankwest-edm.png" data-lightbox="code" data-title="Bankwest eDM">
@@ -181,7 +180,11 @@
 							<p class="h3 subheading padding-0 margin-top-40">Additional screenshots</p>
 							<div class="owl-carousel owl-theme">
 								<div class="item">
-									<a href="img/sunny.png" data-lightbox="bankwest" data-title="Mobile homepage"><img class="lazy-load" data-src="img/sunny.png" /></a>
+									<p class="test">Loading</p>
+									<a href="img/sunny.png" data-lightbox="bankwest" data-title="Mobile homepage">
+										
+										<img class="lazy-load" data-src="img/sunny.png" />
+									</a>
 								</div>							
 							</div>
 							<p class="margin-bottom-40">&nbsp;</p>
