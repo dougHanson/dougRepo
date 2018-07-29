@@ -12,7 +12,7 @@
 	<meta name="keywords" content="iinet plan pages, web design, designer, web development, front end developer, ux design, perth, doug hanson">
 
 	<!-- build:css -->
-	<link rel="stylesheet" href="css/styles.css" media="all">
+	<link rel="stylesheet" href="css/styles.min.css" media="all">
 	<!-- endbuild -->
 
 	<!-- individual banner styles -->
@@ -114,7 +114,7 @@
 							<p>To begin gathering <strong>user requirements</strong>, I conducted a <strong>focus group</strong> with customer service reps, to identify pain points with the existing design. This gave insight not only into what users like and dislike, but also what users do, how they do it, and what frustrates them. I then conducted an <strong>expert review</strong> and a <strong>competitor analysis</strong>, to investigate the best way to solve the identified problems.</p>
 							<p>Iterations of <strong>wireframes and designs</strong> followed, and reviewed by key stakeholders at each major step. Once a very basic <strong>prototype</strong> was ready, <strong>user testing sessions</strong> were then conducted with a handful of users, which allowed us to identify any remaining issues and refine the design&nbsp;further.</p>
 
-							<img data-src="img/iinet-plan-pages-naked-dsl.png" alt="iiNet Product Page Refresh" class="lazy-load img-shadow margin-bottom-20">
+							<img src="img/loading.gif" data-src="img/iinet-plan-pages-naked-dsl.png" alt="iiNet Product Page Refresh" class="lazy-load img-shadow img-center margin-bottom-20">
 							<p>&nbsp;</p>
 							
 							<p class="h3 subheading padding-0 margin-0">The build</p>
@@ -124,7 +124,7 @@
 							
 							<div class="item margin-bottom-20">
 								<a href="img/iinet-plan-pages-code.png" data-lightbox="code" data-title="Sample of AngularJS code">
-									<img data-src="img/iinet-plan-pages-code.png" alt="Sample AngularJS code" class="lazy-load img-shadow">
+									<img src="img/loading.gif" data-src="img/iinet-plan-pages-code.png" alt="Sample AngularJS code" class="lazy-load img-shadow img-center">
 								</a>
 							</div>
 							<p>&nbsp;</p>
@@ -138,13 +138,13 @@
 							<p class="h3 subheading padding-0 margin-top-40">Additional screenshots</p>
 							<div class="owl-carousel owl-theme">
 								<div class="item">
-									<a href="img/iinet-plan-pages-mobile-banner.png" data-lightbox="iinet-plan-pages" data-title="Campaign banner"><img data-src="img/iinet-plan-pages-mobile-banner.png" class="lazy-load" /></a>
+									<a href="img/iinet-plan-pages-mobile-banner.png" data-lightbox="iinet-plan-pages" data-title="Campaign banner"><img src="img/loading.gif" data-src="img/iinet-plan-pages-mobile-banner.png" class="lazy-load img-center" /></a>
 								</div>
 								<div class="item">
-									<a href="img/iinet-plan-pages-mobile-plans.png" data-lightbox="iinet-plan-pages" data-title="Broadband plans"><img data-src="img/iinet-plan-pages-mobile-plans.png" class="lazy-load"  /></a>
+									<a href="img/iinet-plan-pages-mobile-plans.png" data-lightbox="iinet-plan-pages" data-title="Broadband plans"><img src="img/loading.gif" data-src="img/iinet-plan-pages-mobile-plans.png" class="lazy-load img-center" /></a>
 								</div>
 								<div class="item">
-									<a href="img/iinet-plan-pages-mobile-signup.png" data-lightbox="iinet-plan-pages" data-title="Signup summary"><img data-src="img/iinet-plan-pages-mobile-signup.png" class="lazy-load"  /></a>
+									<a href="img/iinet-plan-pages-mobile-signup.png" data-lightbox="iinet-plan-pages" data-title="Signup summary"><img src="img/loading.gif" data-src="img/iinet-plan-pages-mobile-signup.png" class="lazy-load img-center" /></a>
 								</div>
 							</div>
 							<p class="margin-bottom-40">&nbsp;</p>

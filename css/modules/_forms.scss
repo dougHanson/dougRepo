@@ -188,9 +188,21 @@ textarea.input__field {
 }
 
 /* ----- Inline validation styles ----- */
-#input-name.input-error {
+#input-name.input-error,
+#input-email.input-error,
+#input-message.input-error {
 	border-color: $brand-warning;
 }
-#input-name.input-valid {
+#input-name.input-valid,
+#input-email.input-valid,
+#input-message.input-valid {
 	border-color: $brand-success;
 }
+.input-name__validation,
+.input-email__validation,
+.input-message__validation{ 
+	display: none; 
+	color: $brand-warning; 
+}
+textarea { resize: none; }
+

@@ -11,7 +11,7 @@
 	<meta name="keywords" content="web design, designer, web development, front end developer, ux design, perth, doug hanson">
 	
 	<!-- build:css -->
-	<link rel="stylesheet" href="css/styles.css" media="all">
+	<link rel="stylesheet" href="css/styles.min.css" media="all">
 	<style>
 		.wrapper { opacity: 0; transition: all 200ms; } /* hide content until DOM ready */
 	</style>
@@ -305,7 +305,7 @@
 				<form method='post' action='index.php#contacted' style="margin-top: 2em;">
 					<div class="col-sm-6">
 						<span class="input">
-						<input class="input__field" type="text" id="input-name" name="input-name" maxlength="50" />
+						<input class="input__field" type="text" id="input-name" name="input-name" maxlength="50" required="required" />
 						<label class="input__label" for="input-name">
 							<i class="input__icon svg-user svg-user-dims"></i>
 							<span class="input__label-content">Name</span>
@@ -316,7 +316,7 @@
 
 					<div class="col-sm-6">
 						<span class="input">
-						<input class="input__field" type="email" id="input-email" name="input-email" maxlength="70" />
+						<input class="input__field" type="email" id="input-email" name="input-email" maxlength="70" required="required" />
 						<label class="input__label" for="input-email">
 					  		<i class="input__icon svg-mail svg-mail-dims"></i>
 							<span class="input__label-content">Email</span>
@@ -327,7 +327,7 @@
 
 					<div class="col-sm-12">
 						<span class="input">
-						<textarea class="input__field" type="text" id="input-message" name="input-message" maxlength="2000"></textarea>
+						<textarea class="input__field" type="text" id="input-message" name="input-message" maxlength="2000" required="required"></textarea>
 						<label class="input__label" for="input-message">
 							<i class="input__icon svg-pen svg-pen-dims"></i>
 							<span class="input__label-content">Message</span>
@@ -362,78 +362,6 @@
 <!-- include footer --> 	
 <?php include('inc/_footer.php'); ?>
 
-	
-	
-<!--  #TODO | Form Validation - move all of this into correct partials -->
-<style type="text/css">
-	#input-name.input-error,
-	#input-email.input-error,
-	#input-message.input-error {
-		border-color: #f0ad4e;
-	}
-	#input-name.input-valid,
-	#input-email.input-valid,
-	#input-message.input-valid {
-		border-color: #5cb85c;
-	}
-	.input-name__validation,
-	.input-email__validation,
-	.input-message__validation{ 
-		display: none; 
-		color: #f0ad4e 
-	}
-	textarea { resize: none; }
-</style>	
-<script>
-	
-	function isValidField(field) {
-		field.addClass('input-valid').removeClass('input-error');
-	
-	}
-	function notValidField(field) {
-		field.removeClass('input-valid').addClass('input-error');	
-	}
-	
-	
-	$('#input-name').blur(function() {
-		var nameEntered = this.value;
-		var alphaExp = /^(?=.*[a-zA-Z])[a-zA-Z -]+$/;
-		if (alphaExp.test(nameEntered)) {
-			isValidField($(this));	
-			$('.input-name__validation').fadeOut();
-		} 
-		else {
-			notValidField($(this));	
-			$('.input-name__validation').text('Name should consist of only letters').fadeIn();
-		}
-	});
 
-	$('#input-email').blur(function() {
-		var emailEntered = this.value;
-		var emailExp = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-		if (emailExp.test(emailEntered)) {
-			isValidField($(this));	
-			$('.input-email__validation').fadeOut();
-		} 
-		else {
-			notValidField($(this));
-			$('.input-email__validation').text('Please enter a valid email address').fadeIn();
-		}
-	});
-
-	$('#input-message').blur(function() {
-		var messageEntered = this.value;
-		var messageExp = /[a-zA-Z]/;
-		if (messageExp.test(messageEntered)) {
-			isValidField($(this));	
-			$('.input-message__validation').fadeOut();
-		} 
-		else {
-			notValidField($(this));
-			$('.input-message__validation').text('Please enter a message').fadeIn();
-		}
-	});
-</script>
-	
 </body>
 </html>

@@ -107,7 +107,7 @@
 				<!-- heading image -->
 				<header class="header">
 					<div class="bg-img">
-						<img class="lazy-load" src="img/sun.min.png" data-src="img/sun-large.png" alt="Bankwest Digital Design" />
+						<img class="img-center lazy-load" src="img/sun.min.png" data-src="img/sun-large.png" alt="Bankwest Digital Design" />
 					</div>
 				</header>
 
@@ -127,67 +127,49 @@
 						#################################### -->
 						<div class="col-lg-9">
 
-							<p class="h3 subheading padding-0 margin-0">At a glance</p>
-							<p>Over 6 years working at Bankwest allowed me to produce a variety of digital creative. Below is a sample. </p>
+							<!-- <p class="h3 subheading padding-0 margin-0">At a glance</p> -->
+							<p>Over 6 years working at Bankwest allowed me to produce a variety of online digital creative. Below is a sample. </p>
 							
 							
 							<p class="h3 subheading padding-0 margin-0">Website</p>
-							<p>Lorem ipsum dolor sit amet.</p>
-							<p class="margin-bottom-20">
-								<div class="item">
-									<a href="img/bankwest-site.png" data-lightbox="code" data-title="Bankwest Website">
-										<img src="img/loading.gif" data-src="img/bankwest-site.png" alt="Bankwest eDM" class="lazy-load img-shadow">
-									</a>
-								</div>
-							</p>
+							<p>Designed and implemented changes to the existing Bankwest website. Was involved with large scale development projects, including a <strong>website refresh</strong> which included defining <strong>taxonomy, information architecture, developing UI and graphical elements</strong>, and generating content. The new website was integrated with an <strong>enterprise content management system</strong>, namely <strong>Fatwire&nbsp;CMS</strong>. </p>
+							<div class="item margin-bottom-20">
+									<img src="img/loading.gif" data-src="img/bankwest-site.jpg" alt="Bankwest eDM" class="lazy-load img-center img-shadow">
+							</div>
+							<p>&nbsp;</p>
 							
 							
 							<p class="h3 subheading padding-0 margin-0">Landing pages</p>
-							<p>Lorem ipsum dolor sit amet.</p>
-							<p class="margin-bottom-20">
-								<div class="item">
-									<a href="img/bankwest-edm.png" data-lightbox="code" data-title="Bankwest eDM">
-										<img data-src="img/bankwest-edm.png" alt="Bankwest eDM" class="lazy-load img-shadow">
-									</a>
-								</div>
-							</p>
-						
-						
-							<p class="h3 subheading padding-0 margin-bottom-0 margin-top-40">eDMs</p>
-							<p>Lorem ipsum dolor sit amet.</p>						
-							<p class="margin-bottom-20">
-								<div class="item">
-									<a href="img/bankwest-edm.png" data-lightbox="code" data-title="Bankwest eDM">
-										<img data-src="img/bankwest-edm.png" alt="Bankwest eDM" class="lazy-load img-shadow">
-									</a>
-								</div>
-							</p>
-				
-				
-				<style> .lazy-load:after { content: 'Loading'; }</style>
-							<p class="h3 subheading padding-0 margin-bottom-0 margin-top-40">Calculators</p>				
-							<p class="margin-bottom-20">
-								<div class="item">
-									<a href="img/bankwest-edm.png" data-lightbox="code" data-title="Bankwest eDM">
-										<img data-src="img/bankwest-edm.png" alt="Bankwest eDM" class="lazy-load img-shadow">
-									</a>
-								</div>
-							</p>				
-							
-					
+							<p>A large number of on-brand, dynamic <strong>campaign landing pages</strong> were developed using <strong>HTML, CSS, Javascript and JQuery</strong>. These were designed to have a single call to action, driving sales through the online application&nbsp;system. </p>
 
-							<!-- additional screenshots -->
-							<p class="h3 subheading padding-0 margin-top-40">Additional screenshots</p>
 							<div class="owl-carousel owl-theme">
 								<div class="item">
-									<p class="test">Loading</p>
-									<a href="img/sunny.png" data-lightbox="bankwest" data-title="Mobile homepage">
-										
-										<img class="lazy-load" data-src="img/sunny.png" />
-									</a>
-								</div>							
+										<img src="img/loading.gif" data-src="img/bankwest-landing-mobile.png" alt="Bankwest eDM" class="lazy-load img-center img-responsive">
+								</div>
+								<div class="item">
+										<img src="img/loading.gif" data-src="img/bankwest-landing-page-more.jpg" alt="Bankwest eDM" class="lazy-load img-center img-responsive">
+								</div>									
 							</div>
-							<p class="margin-bottom-40">&nbsp;</p>
+
+						
+						
+							<p class="h3 subheading padding-0 margin-bottom-0 margin-top-20">eDMs</p>
+							<p>Optimised for viewing on mobile devices, I created eDMs which rendered well in all major email clients, using clean code and best practices for conversion.</p>	
+						
+							<div class="owl-carousel owl-theme">		
+								<div class="item">
+										<img src="img/loading.gif" class="lazy-load img-center img-responsive" data-src="img/bankwest-edm-service.png" />
+								</div>	
+								<div class="item">
+										<img src="img/loading.gif" class="lazy-load img-center img-responsive" data-src="img/bankwest-edm-sales.png" />
+								</div>
+							</div>
+						
+
+							<!--<p class="h3 subheading padding-0 margin-bottom-0 margin-top-40">Calculators</p>
+
+							<p>&nbsp;</p>		-->		
+							
 
 						</div>
 						<!-- end page specific content -->
@@ -220,9 +202,9 @@
 		// OWL CAROUSEL - initiate Owl Carousel plugin 
 		$('.owl-carousel').owlCarousel({
 			stagePadding: 0,
-			lazyLoad: true,
+			//lazyLoad: true,
 			loop: false,
-			margin: 10,
+			margin: 30,
 			nav: false,
 			responsive: {
 				0: {

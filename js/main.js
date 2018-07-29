@@ -155,6 +155,56 @@ $(function(){
 
 
 
+//FORM VALIDATION	
+function isValidField(field) {
+	field.addClass('input-valid').removeClass('input-error');	
+}
+function notValidField(field) {
+	field.removeClass('input-valid').addClass('input-error');	
+}
+
+
+$('#input-name').blur(function() {
+	var nameEntered = this.value;
+	var alphaExp = /^(?=.*[a-zA-Z])[a-zA-Z -]+$/;
+	if (alphaExp.test(nameEntered)) {
+		isValidField($(this));	
+		$('.input-name__validation').fadeOut();
+	} 
+	else {
+		notValidField($(this));	
+		$('.input-name__validation').text('Name should not contain numbers or special characters').fadeIn();
+	}
+});
+
+$('#input-email').blur(function() {
+	var emailEntered = this.value;
+	var emailExp = /^(([-\w\d]+)(\.[-\w\d]+)*@([-\w\d]+)(\.[-\w\d]+)*(\.([a-zA-Z]{2,5}|[\d]{1,3})){1,2})$/;
+	if (emailExp.test(emailEntered)) {
+		isValidField($(this));	
+		$('.input-email__validation').fadeOut();
+	} 
+	else {
+		notValidField($(this));
+		$('.input-email__validation').text('Please enter a valid email address').fadeIn();
+	}
+});
+
+$('#input-message').blur(function() {
+	var messageEntered = this.value;
+	var messageExp = /[a-zA-Z]/;
+	if (messageExp.test(messageEntered)) {
+		isValidField($(this));	
+		$('.input-message__validation').fadeOut();
+	} 
+	else {
+		notValidField($(this));
+		$('.input-message__validation').text('Please enter a message').fadeIn();
+	}
+});
+
+
+
 // NAV MENU - add smooth scrolling 
 var scrollSpeed = 1000;
 var pathname = window.location.pathname; // Returns path only
@@ -262,7 +312,7 @@ lozad('.lazy-load', {
 			}
         };
     }
-}).observe()
+}).observe();
 
 //LAZY LOAD BG IMAGES
 $(function() {

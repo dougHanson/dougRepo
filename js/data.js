@@ -36,9 +36,9 @@ var projects = {
 		url: 'bankwest.php',
 		title: 'Bankwest Digital Creative',
 		client: 'Bankwest',
-		brand_colours: [ '#F7921E', '#E96211', '#FFFFFF', '#33404D' ],
+		brand_colours: [ '#FF920C', '#E96211', '#FFFFFF', '#33404D' ],
 		skills: ['HTML', 'CSS', 'Javascript', 'JQuery', 'Fatwire CMS', 'AJAX', 'email marketing'],
-		//year: '2012',
+		year: '2010 - 2013',
 		//website: 'www.bankwest.com.au',
 		//website_url: '//www.bankwest.com.au',
 		thumbnail: 'bankwest-thumb.png'		
