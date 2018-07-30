@@ -12,7 +12,7 @@
 	<meta name="keywords" content="mobii manager, web design, designer, web development, front end developer, ux design, perth, doug hanson">
 
 	<!-- build:css -->
-	<link rel="stylesheet" href="css/styles.css" media="all">
+	<link rel="stylesheet" href="css/styles.min.css" media="all">
 	<!-- endbuild -->
 
 	<!-- individual banner styles -->
@@ -129,34 +129,44 @@
 							
 							<div class="owl-carousel owl-theme">
 								<div class="item">
-									<a href="img/mobii-02.png" data-lightbox="mobii" data-title="Mobii Manager"><img class="lazy-load" data-src="img/mobii-02.png" /></a>
+									<a href="img/mobii-02.png" data-lightbox="mobii" data-title="Mobii Manager">
+										<img class="lazy-load img-center" src="img/loading.gif" data-src="img/mobii-02.png" /></a>
 								</div>
 								<div class="item">
-									<a href="img/mobii-05.png" data-lightbox="mobii" data-title="Mobii Manager"><img class="lazy-load" data-src="img/mobii-05.png" /></a>
+									<a href="img/mobii-05.png" data-lightbox="mobii" data-title="Mobii Manager">
+										<img class="lazy-load img-center" src="img/loading.gif" data-src="img/mobii-05.png" /></a>
 								</div>	
 								<div class="item">
-									<a href="img/mobii-11.png" data-lightbox="mobii" data-title="Mobii Manager"><img class="lazy-load" data-src="img/mobii-11.png" /></a>
+									<a href="img/mobii-11.png" data-lightbox="mobii" data-title="Mobii Manager">
+										<img class="lazy-load img-center" src="img/loading.gif" data-src="img/mobii-11.png" /></a>
 								</div>	
 								<div class="item">
-									<a href="img/mobii-12.png" data-lightbox="mobii" data-title="Mobii Manager"><img class="lazy-load" data-src="img/mobii-12.png" /></a>
+									<a href="img/mobii-12.png" data-lightbox="mobii" data-title="Mobii Manager">
+										<img class="lazy-load img-center" src="img/loading.gif" data-src="img/mobii-12.png" /></a>
 								</div>	
 								<div class="item">
-									<a href="img/mobii-13.png" data-lightbox="mobii" data-title="Mobii Manager"><img class="lazy-load" data-src="img/mobii-13.png" /></a>
+									<a href="img/mobii-13.png" data-lightbox="mobii" data-title="Mobii Manager">
+										<img class="lazy-load img-center" src="img/loading.gif" data-src="img/mobii-13.png" /></a>
 								</div>									
 								<div class="item">
-									<a href="img/mobii-06.png" data-lightbox="mobii" data-title="Mobii Manager"><img class="lazy-load" data-src="img/mobii-06.png" /></a>
+									<a href="img/mobii-06.png" data-lightbox="mobii" data-title="Mobii Manager">
+										<img class="lazy-load img-center" src="img/loading.gif" data-src="img/mobii-06.png" /></a>
 								</div>
 								<div class="item">
-									<a href="img/mobii-07.png" data-lightbox="mobii" data-title="Mobii Manager"><img class="lazy-load" data-src="img/mobii-07.png" /></a>
+									<a href="img/mobii-07.png" data-lightbox="mobii" data-title="Mobii Manager">
+										<img class="lazy-load img-center" src="img/loading.gif" data-src="img/mobii-07.png" /></a>
 								</div>	
 								<div class="item">
-									<a href="img/mobii-08.png" data-lightbox="mobii" data-title="Mobii Manager"><img class="lazy-load" data-src="img/mobii-08.png" /></a>
+									<a href="img/mobii-08.png" data-lightbox="mobii" data-title="Mobii Manager">
+										<img class="lazy-load img-center" src="img/loading.gif" data-src="img/mobii-08.png" /></a>
 								</div>	
 								<div class="item">
-									<a href="img/mobii-09.png" data-lightbox="mobii" data-title="Mobii Manager"><img class="lazy-load" data-src="img/mobii-09.png" /></a>
+									<a href="img/mobii-09.png" data-lightbox="mobii" data-title="Mobii Manager">
+										<img class="lazy-load img-center" src="img/loading.gif" data-src="img/mobii-09.png" /></a>
 								</div>	
 								<div class="item">
-									<a href="img/mobii-10.png" data-lightbox="mobii" data-title="Mobii Manager"><img class="lazy-load" data-src="img/mobii-10.png" /></a>
+									<a href="img/mobii-10.png" data-lightbox="mobii" data-title="Mobii Manager">
+										<img class="lazy-load img-center" src="img/loading.gif" data-src="img/mobii-10.png" /></a>
 								</div>	
 							</div>							
 							<p>&nbsp;</p>
@@ -165,7 +175,7 @@
 							<p>To kick the mobile design project off, I met with Product Managers to understand to conduct <strong>requirements gathering</strong> for the project. After toying with some <strong>paper sketches</strong>, I turned the best ones into <strong>high fidelity wireframes</strong> to seek intitial stakeholder feedback. Once all stakeholders were happy with the look and feel, I developed a <strong>rapid prototype using basic HTML, CSS &amp; JavaScript</strong>. This allowed me to demonstrate the desired <strong>UX and interactions</strong> to the external development agency, whom then turned my prototype into a <strong>native&nbsp;Android&nbsp;app</strong>.</p>
 							
 
-							<img data-src="img/mobii-manager-big-light.png" class="lazy-load img-responsive img-center margin-top-40" alt="">
+							<img src="img/loading.gif" data-src="img/mobii-manager-big-light.png" class="lazy-load img-center img-responsive img-center margin-top-40" alt="">
 
 						</div>
 						<!-- end page specific content -->

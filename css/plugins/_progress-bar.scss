@@ -5,7 +5,7 @@
   left: 0px;
   width: 0%;
   height: 2px;
-  background: $brand-primary;
+  background: $brand-color-2;
   -moz-border-radius: 1px;
   -webkit-border-radius: 1px;
   border-radius: 1px;
@@ -20,10 +20,10 @@
   position: absolute;
   top: 0;
   height: 2px;
-  -moz-box-shadow: $brand-primary 1px 0 6px 1px;
-  -ms-box-shadow: $brand-primary 1px 0 6px 1px;
-  -webkit-box-shadow: $brand-primary 1px 0 6px 1px;
-  box-shadow: $brand-primary 1px 0 6px 1px;
+  -moz-box-shadow: $brand-color-2 1px 0 6px 1px;
+  -ms-box-shadow: $brand-color-2 1px 0 6px 1px;
+  -webkit-box-shadow: $brand-color-2 1px 0 6px 1px;
+  box-shadow:$brand-color-2 1px 0 6px 1px;
   -moz-border-radius: 100%;
   -webkit-border-radius: 100%;
   border-radius: 100%;
@@ -41,4 +41,4 @@
   width: 20px;
   right: 0;
   clip: rect(-6px, 22px, 14px, 10px);
-}
+} 

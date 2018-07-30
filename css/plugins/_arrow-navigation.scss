@@ -47,6 +47,11 @@
 
 .nav-slide svg.icon {
 	fill: $grey-6;
+	transition: all 250ms; 
+}
+.nav-slide:hover svg.icon {
+	fill: #000;
+	transition: all 250ms; 
 }
 
 .nav-slide div {
