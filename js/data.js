@@ -37,7 +37,7 @@ var projects = {
 		title: 'Bankwest Digital Creative',
 		client: 'Bankwest',
 		brand_colours: [ '#FF920C', '#E96211', '#FFFFFF', '#33404D' ],
-		skills: ['HTML', 'CSS', 'Javascript', 'JQuery', 'Fatwire CMS', 'AJAX', 'email marketing'],
+		skills: ['HTML', 'CSS', 'Javascript', 'JQuery', 'Fatwire CMS', 'AJAX', 'email marketing', 'digital marketing'],
 		year: '2010 - 2013',
 		//website: 'www.bankwest.com.au',
 		//website_url: '//www.bankwest.com.au',
