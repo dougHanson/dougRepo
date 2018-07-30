@@ -12,49 +12,17 @@
 	<meta name="keywords" content="multicomm, web design, designer, web development, front end developer, ux design, perth, doug hanson">
 
 	<!-- build:css -->
-	<link rel="stylesheet" href="css/styles.min.css" media="all">
+	<link rel="stylesheet" href="css/styles.css" media="all">
 	<!-- endbuild -->
 
-	<!-- individual banner styles -->
-	<style>
-		.title { padding: 15px;	background: rgba(99, 99, 98, 0.6); }
-		.title h1 { background: none; }
-		
-		.intro-effect-jam3.modify .title { background: none; top: 150px; }
-		.intro-effect-jam3.modify .title h1 { padding: 0; }
-		
-		.bg-img img { right: -100px; top: 0; width: 1100px; }
-		.intro-effect-jam3.modify .bg-img img { top: 0; right: 0; width: 400px; }
-		@media (min-width: 400px) {
-			.bg-img img { right: -20px; }
-		}
-		@media (min-width: 768px) {
-			.bg-img img { width: auto; }
-			.intro-effect-jam3.modify .bg-img img { top: -40px; right: 0px; width: auto; }
-			.intro-effect-jam3.modify .title { top: 250px; }
-		}		
-		@media (min-width: 992px) {
-			.bg-img img { right: 0px; }
-			.title h1 { 
-				text-shadow: 1px 1px 2px #636362;	
-			}			
-			.intro-effect-jam3.modify .title h1 { 
-				text-shadow: none; 
-				margin-top: -10px; 
-			}			
-		}		
-	</style>
 </head>
-	
-
-<body class="project-page">
 	
 <?php 
 	// DECLARE PROJECT VARIABLE - refer to data.js
-	// Multicomm
-	$project = 'multicomm'; 
-	//include('inc/_skeleton.php'); 	
+	$project = 'multicomm'; 	
 ?>
+	
+<body class="project-page" id="<?php echo $project ?>">
 
 	<!-- include frames and nav -->
 	<?php include('inc/_nav.php'); ?>
