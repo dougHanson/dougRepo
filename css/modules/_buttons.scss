@@ -13,26 +13,26 @@ button,
 input[type="submit"], 
 input[type="reset"], 
 input[type="button"] {
-  min-width: 10em;
-  min-height: calc(2.75em + 6px);
-  line-height: 3.5em;
-  border: 2px solid $brand-color-2;
-  color: $brand-color-2;
-  cursor: pointer;
-  display: inline-block;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  margin: 0.5rem 0;
-  padding: 0 1.5em;	
-  background: #fff;
+	min-width: 10em;
+	min-height: calc(2.75em + 6px);
+	line-height: 3.5em;
+	border: 2px solid $brand-color-2;
+	color: $brand-color-2;
+	cursor: pointer;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	margin: 0.5rem 0;
+	padding: 0 1.5em;	
+	background: #fff;
 	//background: rgba(0, 0, 0, 0) linear-gradient($brand-primary, darken($brand-primary, 5%)) repeat scroll 0 0;
-  transition: 0.25s all ease-out;
-  white-space: nowrap;
-  font-size: 0.8rem;
-  font-family: $font-family-primary;
-  font-weight: 600;
+	transition: 0.25s all ease-out;
+	white-space: nowrap;
+	font-size: 0.8rem;
+	font-family: $font-family-primary;
+	font-weight: 600;
 	//box-shadow: 0 1px rgba(255, 255, 255, 0.4) inset, 0 2px 1px rgba(0, 0, 0, 0.1);
 	@media (max-width:767px) { width: 100%; }
 }
@@ -55,9 +55,9 @@ input[type="button"] {
 input.button__primary[type="submit"], 
 input.button__primary[type="reset"], 
 input.button__primary[type="button"] {
-  background-color: $brand-color-2;
-  border: 2px solid $brand-color-2;
-  color: #fff; 
+	background-color: $brand-color-2;
+	border: 2px solid $brand-color-2;
+	color: #fff; 
 }
 
 
@@ -77,10 +77,10 @@ button:hover,
 input[type="submit"]:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover {
-  background: $brand-color-2;
-  border-color: $brand-color-2;
-  color: #fff;
-  text-decoration: none;
+	background: $brand-color-2;
+	border-color: $brand-color-2;
+	color: #fff;
+	text-decoration: none;
 }
 
 
@@ -92,7 +92,7 @@ input.button__primary[type="button"].is-selected,
 input.button__primary[type="submit"]:hover, 
 input.button__primary[type="reset"]:hover, 
 input.button__primary[type="button"]:hover {
-  background: $brand-primary; 
-  border: 2px solid $brand-primary;
-  color: #fff;
+	background: $brand-primary; 
+	border: 2px solid $brand-primary;
+	color: #fff;
 }

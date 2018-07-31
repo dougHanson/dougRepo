@@ -95,6 +95,7 @@
 				<h4 class="h2 text-center">Selected works</h4>
 				<div class="text-center"><img src="img/arrow.png" /></div>
 
+				<?php /*
 				<div style="margin-top:40px;" class="masonry-container">
 
 					<!-- 1 -->
@@ -141,6 +142,7 @@
 							</div>
 						</article>
 					</a>
+					
 
 					<!-- 4
 					<a href="bankwest.php" class="progressLoad">
@@ -158,8 +160,87 @@
 					</a>			
 					-->
 
-
 				</div>
+				*/ ?>
+				
+				
+				<div style="margin-top:40px;" class="full-width">
+					<div class="row">
+					<!-- 1 -->
+					<a href="iinet-plan-pages.php" class="progressLoad">
+						<article class="work-item col-lg-4">
+							<div class="work-item__drawings" id="drawings">
+								<img class="lazy-load illustration" data-src="img/finn-balloons.png" alt="" style="max-width: 244px;" />
+								<?php echo file_get_contents("svg/finn.svg"); ?>
+							</div>
+
+							<div class="work-item__content">
+								<p class="work-item__heading">Product Page Redesign</p>
+								<h2 class="h5 subheading">ux / web design &amp; development</h2>
+							</div>
+						</article>
+					</a>
+
+					<!-- 2 -->
+					<a href="mobii-manager.php" class="progressLoad">
+						<article class="work-item col-lg-4">
+							<div class="work-item__drawings" id="drawings">
+								<img class="lazy-load illustration" data-src="img/mobii-manager.png" alt="" style="max-width: 300px;" />
+								<?php echo file_get_contents("svg/galaxy-phone.svg"); ?>
+							</div>
+
+							<div class="work-item__content">
+								<p class="work-item__heading">Mobii Manager</p>
+								<h2 class="h5 subheading">ux / mobile design </h2>
+							</div>
+						</article>
+					</a>
+
+					<!-- 3 -->
+					<a href="multicomm.php" class="progressLoad">
+						<article class="work-item col-lg-4">
+							<div class="work-item__drawings" id="drawings">
+								<img class="lazy-load illustration" data-src="img/multicomm.png" alt="" style="max-width: 300px; padding-top:15px;" />
+								<?php echo file_get_contents("svg/multicomm.svg"); ?>
+							</div>
+
+							<div class="work-item__content">
+								<p class="work-item__heading">Multicomm Website</p>
+								<h2 class="h5 subheading">branding / web design &amp; development</h2>
+							</div>
+						</article>
+					</a>
+					
+
+					<!-- 4 -->
+					<a href="bankwest.php" class="progressLoad">
+						<article class="work-item showMore">
+							<div class="work-item__drawings" id="drawings">
+								<img class="illustration" src="img/sunny.png" alt="" style="max-width: 250px; padding-top: 25px;" />
+								<?php echo file_get_contents("svg/sun.svg"); ?>															
+							</div> 
+
+							<div class="work-item__content">
+								<p class="work-item__heading">Bankwest Digital Design</p>
+								<h2 class="h5 subheading">web design / web development / email&nbsp;marketing</h2>
+							</div>
+						</article>
+					</a>			
+					
+
+				</div>				
+				
+		
+				<style>
+					.showMore {
+						display: none;
+					}
+				</style>
+					
+				<div class="col-sm-12 text-center">
+					<button class="button progressLoad text-center clicky  margin-top-40">Show more</button>
+				</div>	
+				
 
 			</section>
 			<!-- end selected works -->
@@ -362,6 +443,16 @@
 <!-- include footer --> 	
 <?php include('inc/_footer.php'); ?>
 
+	
+<script>
+	$('.clicky').click( function() {
+		$('.showMore').slideDown();
+		$('.clicky').fadeOut();
+		$('html, body').animate({
+			scrollTop: $(".showMore").offset().top-200
+		}, 500);
+	});
+</script>
 
 </body>
 </html>

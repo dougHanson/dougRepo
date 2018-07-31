@@ -7,34 +7,51 @@
 //   Wrappers
 /* ------------------------------------- */
 
-.wrapper{ position: relative; }
+.wrapper { 
+	position: relative;
+	&__outer {
+		margin: 1.5vw 1.5vw 0 1.5vw;
+		opacity: 0; 
+		transition: opacity 500ms;
+		@media (max-width: 991px) {
+			padding-top: 60px;
+		}
+	}
+	&__inner {
+		padding-left: 230px;
+		height: 100%;
+		@media (max-width: 991px) {
+		  height: 100%;
+		  padding-left: 0px;
+		}
+	} 
+}
 
-.wrapper__outer {
-  margin: 1.5vw 1.5vw 0 1.5vw;
+/*.wrapper__outer {
+ 	margin: 1.5vw 1.5vw 0 1.5vw;
 	opacity: 0; 
 	transition: opacity 500ms;
 	@media (max-width: 991px) {
 			padding-top: 60px;
 	}
 }
-
 .wrapper__inner {
-  padding-left: 230px;
-  height: 100%;
+	padding-left: 230px;
+	height: 100%;
 	@media (max-width: 991px) {
-      height: 100%;
-      padding-left: 0px;
+	  height: 100%;
+	  padding-left: 0px;
 	}
-}
+}*/
 
 .hero-content {
-  background: url('../img/perth-bg.min.jpg') $grey-background;
-  min-height: 94vh;
-  background-position: center 15px;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  margin-bottom: 0px;
+	background: url('../img/perth-bg.min.jpg') $grey-background;
+	min-height: 94vh;
+	background-position: center 15px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	margin-bottom: 0px;
 	@media (max-width: 991px) {
 		min-height: 80vh;
 	}
@@ -48,9 +65,18 @@
 		padding: 14vh 0;  
 		height: 80vh;
 	}	
+	&__bg {
+	text-align: center; 
+	padding: 30vh 10vh;  
+	height: 100vh;
+	@media (max-width: 768px) {
+		text-align: center; 
+		padding: 12vh 2vh;  
+		height: 70vh;
+	}	
 }
 
-.hero-content__bg {
+/*.hero-content__bg {
 	text-align: center; 
 	padding: 30vh 10vh;  
 	height: 100vh;
@@ -59,9 +85,11 @@
 		padding: 12vh 2vh;  
 		height: 70vh;
 	}
-}
+}*/
 
-.selected-works, .about, .contact-me { 
+.selected-works, 
+.about, 
+.contact-me { 
 	margin-bottom: 70px; 
 	padding-top: 60px;
 }

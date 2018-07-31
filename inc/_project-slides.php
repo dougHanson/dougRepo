@@ -1,4 +1,4 @@
-			<div class="project-slides">				
+			<div class="project-slides container" style="overflow: hidden;">				
 				<div class="svg-wrap">
 					<svg width="64" height="64" viewBox="0 0 64 64">
 						<path id="arrow-left-1" d="M46.077 55.738c0.858 0.867 0.858 2.266 0 3.133s-2.243 0.867-3.101 0l-25.056-25.302c-0.858-0.867-0.858-2.269 0-3.133l25.056-25.306c0.858-0.867 2.243-0.867 3.101 0s0.858 2.266 0 3.133l-22.848 23.738 22.848 23.738z" />

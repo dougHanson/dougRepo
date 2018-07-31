@@ -88,11 +88,12 @@
 
 .white				{ color: #fff !important; }
 .grey-6				{ color: $grey-6; }
-.full-width		{ width: 100%; }
+.full-width			{ width: 100%; }
 
 hr {
   border: 0;
   border-top: 1px solid $grey-border;
+  width: 83%;
 }
 
 .fadeIn {
@@ -112,7 +113,7 @@ hr {
 
 .grabbable {
     cursor: move; /* fallback if grab cursor is unsupported */
-    //cursor: grab;
-    //cursor: -moz-grab;
-    //cursor: -webkit-grab;
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
 }

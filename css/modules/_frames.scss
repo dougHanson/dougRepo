@@ -4,13 +4,31 @@
 /* ************************************* */
 
 .frame {
-  background: #fff;
-  width: 1.5vw;
-  height: 1.5vw;
-  z-index: 9999;	
-  position: fixed;	
-  opacity: 1;					
-}		
+	background: #fff;
+	width: 1.5vw;
+	height: 1.5vw;
+	z-index: 9999;	
+	position: fixed;	
+	opacity: 1;	
+	&__left {
+	  height: 100vh;
+	  left: 0;			
+	}	
+	&__right {
+	  height: 100vh;
+	  right: 0;			
+	}
+	&__top {
+	  width: 100%;
+	  top: 0;
+	}
+	&__bottom {
+	  width: 100%;
+	  bottom: 0;
+	}
+}
+
+/*
 .frame__left {
   height: 100vh;
   left: 0;			
@@ -27,9 +45,4 @@
   width: 100%;
   bottom: 0;
 }
-
-@media (max-width: 767px) {}
-
-@media (max-width: 479px) {}
-
-
+*/
