@@ -206,3 +206,16 @@ textarea.input__field {
 }
 textarea { resize: none; }
 
+
+/* ----- Post submit styles ----- */
+.thankyou-msg {
+	color: $brand-success; 
+	border: 1px solid $brand-success; 
+	padding: 10px 14px; 
+	margin: 15px auto; 
+	width: 50%;
+	min-width: 270px;
+	text-align: center; 
+	background: #fdfffd none repeat scroll 0px 0px;
+}
+

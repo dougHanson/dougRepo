@@ -1,12 +1,12 @@
 /* *************************************
 //   CONTENT  [layout/_content.scss]
-//   classes for wrappers, containers that aren't bootstrap
+//   classes for wrappers, containers etc that aren't bootstrap
 /* ************************************* */
+
 
 /* -------------------------------------
 //   Wrappers
 /* ------------------------------------- */
-
 .wrapper { 
 	position: relative;
 	&__outer {
@@ -27,23 +27,10 @@
 	} 
 }
 
-/*.wrapper__outer {
- 	margin: 1.5vw 1.5vw 0 1.5vw;
-	opacity: 0; 
-	transition: opacity 500ms;
-	@media (max-width: 991px) {
-			padding-top: 60px;
-	}
-}
-.wrapper__inner {
-	padding-left: 230px;
-	height: 100%;
-	@media (max-width: 991px) {
-	  height: 100%;
-	  padding-left: 0px;
-	}
-}*/
 
+/* -------------------------------------
+//   Hero content on homepage
+/* ------------------------------------- */
 .hero-content {
 	background: url('../img/perth-bg.min.jpg') $grey-background;
 	min-height: 94vh;
@@ -66,27 +53,21 @@
 		height: 80vh;
 	}	
 	&__bg {
-	text-align: center; 
-	padding: 30vh 10vh;  
-	height: 100vh;
-	@media (max-width: 768px) {
 		text-align: center; 
-		padding: 12vh 2vh;  
-		height: 70vh;
-	}	
+		padding: 30vh 10vh;  
+		height: 100vh;
+		@media (max-width: 768px) {
+			text-align: center; 
+			padding: 12vh 2vh;  
+			height: 70vh;
+		}	
+	}
 }
 
-/*.hero-content__bg {
-	text-align: center; 
-	padding: 30vh 10vh;  
-	height: 100vh;
-	@media (max-width: 768px) {
-		text-align: center; 
-		padding: 12vh 2vh;  
-		height: 70vh;
-	}
-}*/
 
+/* -------------------------------------
+//  Homepage sections
+/* ------------------------------------- */
 .selected-works, 
 .about, 
 .contact-me { 
@@ -94,15 +75,35 @@
 	padding-top: 60px;
 }
 
-.nav-slide { margin-top: 150px; } 
 
-.thankyou-msg {
-	color: $brand-success; 
-	border: 1px solid $brand-success; 
-	padding: 10px 14px; 
-	margin: 15px auto; 
-	width: 50%;
-	min-width: 270px;
-	text-align: center; 
-	background: #fdfffd none repeat scroll 0px 0px;
+/* -------------------------------------
+//  Frames
+/* ------------------------------------- */
+.frame {
+	background: #fff;
+	width: 1.5vw;
+	height: 1.5vw;
+	z-index: 9999;	
+	position: fixed;	
+	opacity: 1;	
+	&__left {
+		//background-image: linear-gradient(to top, #ffecd2 0%, #fcb69f 100%); 
+	  height: 100vh;
+	  left: 0;			
+	}	
+	&__right {
+	  //background-image: linear-gradient(to top, #ffecd2 0%, #fcb69f 100%); 
+		height: 100vh;
+	  right: 0;			
+	}
+	&__top {
+		//background: #fcb69f;
+	  width: 100%;
+	  top: 0;
+	}
+	&__bottom {
+		//background: #ffecd2;
+	  width: 100%;
+	  bottom: 0;
+	}
 }

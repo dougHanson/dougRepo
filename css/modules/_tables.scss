@@ -13,7 +13,6 @@ th, td {
 		color: $paragraph-color;
 		font-size: $paragraph-font-size;
 		font-weight: $paragraph-font-weight;
-
 }
 
 th {
@@ -30,6 +29,3 @@ th:last-child, td:last-child {
 tr:last-child td {
     border-bottom: none;  /* Not needed as there is a <hr> directly below */
 }
-
-
-

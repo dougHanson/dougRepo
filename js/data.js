@@ -4,7 +4,7 @@ var projects = {
 		title: 'Product Page Redesign',
 		client: 'iiNet',
 		brand_colours: [ '#ff8200', '#d21f2a', '#808080', '#0090ab' ],
-		skills: ['HTML5', 'CSS3', 'PHP', 'SASS', 'AngularJS', 'UX Design', 'User Testing', 'OOCSS & BEM', 'browser testing'],
+		skills: ['HTML5', 'CSS3', 'PHP', 'SASS', 'AngularJS', 'UX design', 'user testing', 'OOCSS & BEM', 'browser testing'],
 		year: '2016',
 		website: 'www.iinet.net.au',
 		website_url: '//www.iinet.net.au/internet-products/broadband/naked-dsl',
@@ -45,4 +45,4 @@ var projects = {
 	}
 }; 
 
-var projectOrder = ["product_page_redesign", "mobii_manager", "multicomm"];//, "bankwest"]; 
+var projectOrder = ["product_page_redesign", "mobii_manager", "multicomm", "bankwest"]; 

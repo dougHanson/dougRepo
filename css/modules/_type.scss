@@ -81,6 +81,8 @@ del {
   color: #fff;
 }
 
+
+
 /* -------------------------------------
 //   Headings
 /* ------------------------------------- */
@@ -160,6 +162,54 @@ h6, .h6              { font-size: $font-size-h6; }
 .lh-md               { line-height: 1.2em; }
 .lh-lg               { line-height: 1.7em; }
 .kern                { letter-spacing: -1px; }
+
+
+
+
+/* -------------------------------------
+//   Lists
+/* ------------------------------------- */
+
+ul { list-style: inside circle; }
+ol { list-style: inside decimal; }
+ol, ul {
+  margin-top: 0;
+  padding-left: 0;
+}
+ul ul, ul ol, ol ol, ol ul {
+  font-size: 90%;
+  margin: 1rem 0 1.5rem 2rem;
+}
+
+ul ul { list-style: inside disc; }
+ol ol { list-style: inside lower-alpha; }
+
+li { margin-bottom: 0.75rem; }
+
+
+
+/* -------------------------------------
+//    preformatted text (code)
+/* ------------------------------------- */
+
+code {
+  padding: .1rem .4rem;
+  margin: 0 .2rem;
+  font-size: 0.8rem;
+  font-family: monospace;
+  color: $grey-6;
+  white-space: nowrap;
+  background: $grey-background;
+  border: 1px solid $grey-border;
+  border-radius: 4px; 
+}
+  
+pre > code {
+  display: block;
+  padding: 1rem 1.5rem;
+  white-space: pre; 
+}
+
 
 
 /* -------------------------------------

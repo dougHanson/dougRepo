@@ -18,7 +18,7 @@
 	}
 });*/
 
-
+ 
 	
 // FADE WRAPPER IN ON PAGE LOAD
 $(".wrapper__outer").animate({"opacity": "1"}, 300);
@@ -105,7 +105,7 @@ $('.parallax-bg').parallax({
 
 
 // MASONRY GRID LAYOUT (remove if using css columns instead)
-$(function(){
+/*$(function(){
   $('.masonry-container').masonry({
     // options
     itemSelector : '.work-item',
@@ -114,7 +114,7 @@ $(function(){
     }(),
     // isOriginTop: false  //puts most recent work at top of grid
   });
-});
+});*/
 
 
 

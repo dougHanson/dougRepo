@@ -83,7 +83,6 @@
 <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script> 
 
 
-
 <!-- build:js --> 
 <script src="js/data.js"></script> 
 <script src="js/plugins/lozad.min.js"></script>
@@ -95,47 +94,6 @@
 <script src="js/plugins/lightbox.js"></script>
 <script src="js/main.js"></script> 
 <!-- endbuild --> 
-
-
-<script>
-lozad('.lazy-load', {
-    load: function(el) {
-        el.src = el.dataset.src;
-        el.onload = function() {
-					//if not homepage, fadeIn images. Don't fadeIn on homepage as interferes with SVG animations.
-					if (pathname != "/index.php" && pathname != '/' && pathname != '/~doug.hanson/' && pathname != '/~doug.hanson/index.php') {
-            el.classList.add('fadeIn'); //see utilities.scss for fadeIn class
-					}
-        };
-    }
-}).observe();
-	
-	//LAZY LOAD BG IMAGES
-$(function() {
-  'use strict';
-  // Page is loaded
-	
-	//if ( ! /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) && $(window).width() > 991 ) {
-		var asideImg = new Image();	
-		asideImg.src = 'img/aside.jpg';
-		asideImg.onload = function() {
-			$('.vertical-menu').css("background-image", "url('"+asideImg.src+"')"); 
-		};
-	//}
-
-	if ($('.hero-content').length) { 
-		var heroImg = new Image();
-		heroImg.src = 'img/perth-bg.jpg';
-		heroImg.onload = function() {
-			$('.hero-content').css("background-image", "url('"+heroImg.src+"')"); 
-		};
-	}
-	 
-	// Once images are loaded replace the src of the HTML element
-
-});
-
-</script>
 
 
 <!-- Google Analytics -->

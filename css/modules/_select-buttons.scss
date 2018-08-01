@@ -16,7 +16,7 @@
     cursor: pointer;
     margin: 0 auto 20px 0;
     background: #fff;
-	transition: 0.2s all ease-out;
+		transition: 0.2s all ease-out;
 }
 
 @media (max-width:480px) {
@@ -46,7 +46,7 @@
     width: 50px;
     margin-right: 12px;
     background: #f1f1f1;	
-	transition: 0.2s all ease-out;
+		transition: 0.2s all ease-out;
 }
 
 .selectBtn__checkbox {
@@ -63,7 +63,7 @@
     padding-right: 12px;
     height: 46px;
     font-size: 15px;
-	font-family: $font-family-primary;
+		font-family: $font-family-primary;
     line-height: 46px;	
     color: $brand-primary;	
     text-align: left;
@@ -136,72 +136,6 @@
 //   Themes
 /* ------------------------------------- */
 
-/* ----- Westnet ----- */
-#westnet .selectBtn__label,
-#westnet .selectBtn__planPrice { 
-	color:#d71f85;
-    font-family: 'MVB Calliope Semibold',Arial,Helvetica,sans-serif;
-}
-
-#westnet .selectBtn.is-selected,
-#westnet .selectBtn:hover {
-	background: #61C250;
-	border-color: #3c9947;
-	color:#fff;
-}
-
-#westnet .selectBtn:hover .selectBtn__label,
-#westnet .selectBtn:hover .selectBtn__planPrice,
-#westnet .selectBtn.is-selected .selectBtn__label,
-#westnet .selectBtn.is-selected .selectBtn__planPrice { color:#fff; }
-
-#westnet .selectBtn.is-selected .selectBtn__leftHolder,
-#westnet .selectBtn:hover .selectBtn__leftHolder { background: #3c9947; }
-
-#westnet .selectBtn.is-selected .selectBtn__checkbox,
-#westnet .selectBtn:hover .selectBtn__checkbox { border-color: #3c9947; }
-
-#westnet .selectBtn.is-selected .selectBtn__checkbox { 
-    background-image: url("http://www.iinet.net.au/IPEContent/Images/form-option-checkbox-tick-westnet.svg"); 
-}
-
-/* ----- Adam ----- */
-#adam .selectBtn__label,
-#adam .selectBtn__planPrice {
-    color: #f6a20a;
-    font-family: 'ff-dax-web-pro',Arial,Helvetica,sans-serif;
-}
-
-#adam .selectBtn__planPrice { color:#f6a20a; }
-
-#adam .selectBtn.is-selected,
-#adam .selectBtn:hover {
-	background: #f6a20a;
-	border-color: #f7941e;
-	color:#fff;
-}
-
-#adam .selectBtn:hover .selectBtn__label,
-#adam .selectBtn:hover .selectBtn__planPrice,
-#adam .selectBtn.is-selected .selectBtn__label,
-#adam .selectBtn.is-selected .selectBtn__planPrice { color:#fff; }
-
-#adam .selectBtn.is-selected .selectBtn__leftHolder,
-#adam .selectBtn:hover .selectBtn__leftHolder { background: #f7941e; }
-
-#adam .selectBtn.is-selected .selectBtn__checkbox,
-#adam .selectBtn:hover .selectBtn__checkbox { border-color: #f7941e; }
-
-/* -----IE8 ----- */
-.ie8 .selectBtn.is-selected .selectBtn__checkbox { 
-    background-image: url("http://www.iinet.net.au/IPEContent/Images/form-elements.png"); 
-	background-position: -1px -64px;
-}
-
-.ie8 #westnet .selectBtn.is-selected .selectBtn__checkbox { 
-	background-image: url("http://www.westnet.com.au/IPEContent/Images/Westnet/form-elements.westnet.png");
-	background-position: -1px -64px;
-}
 
 
 

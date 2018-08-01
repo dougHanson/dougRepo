@@ -38,7 +38,7 @@ svg {
 	left: 0;
 	right: 0;
 	margin: auto;
-	max-width: 300px;
+	max-width: 300px; 
 }
 
 .line-drawing path {
@@ -50,6 +50,6 @@ svg {
 .work-item:hover .line-drawing,
 .profile-pic:hover .line-drawing {
 	opacity: 0;
-}
+} 
 
 .profile-pic { width:90%; width: 180px; }

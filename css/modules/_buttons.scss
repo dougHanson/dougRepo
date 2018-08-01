@@ -51,10 +51,10 @@ input[type="button"] {
 //   Submodules
 /* ------------------------------------- */
 
-.button__primary,
-input.button__primary[type="submit"], 
-input.button__primary[type="reset"], 
-input.button__primary[type="button"] {
+.button--primary,
+input.button--primary[type="submit"], 
+input.button--primary[type="reset"], 
+input.button--primary[type="button"] {
 	background-color: $brand-color-2;
 	border: 2px solid $brand-color-2;
 	color: #fff; 
@@ -85,13 +85,13 @@ input[type="reset"]:hover {
 
 
 .button__primary.is-selected,
-input.button__primary[type="submit"].is-selected, 
-input.button__primary[type="reset"].is-selected, 
-input.button__primary[type="button"].is-selected,
-.button__primary:hover,
-input.button__primary[type="submit"]:hover, 
-input.button__primary[type="reset"]:hover, 
-input.button__primary[type="button"]:hover {
+input.button--primary[type="submit"].is-selected, 
+input.button--primary[type="reset"].is-selected, 
+input.button--primary[type="button"].is-selected,
+.button--primary:hover,
+input.button--primary[type="submit"]:hover, 
+input.button--primary[type="reset"]:hover, 
+input.button--primary[type="button"]:hover {
 	background: $brand-primary; 
 	border: 2px solid $brand-primary;
 	color: #fff;

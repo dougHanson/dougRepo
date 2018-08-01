@@ -14,24 +14,22 @@
 @import 'modules/_type'; 
 @import 'modules/_icons'; 
 @import 'modules/_buttons'; 
-@import 'modules/_lists';
 @import 'modules/_tables'; 
-@import 'modules/_code';
 @import 'modules/_forms';
 @import 'modules/_images';
-@import 'modules/_frames';
 @import 'modules/_workitems';
 @import 'modules/_skeleton';
+@import 'modules/_progress-bar'; 
+@import 'modules/_arrow-navigation'; 
+@import 'modules/_svganimations';
+@import 'modules/_mouse-scroll';
+@import 'modules/_article-intro';
+@import 'modules/_lightbox';
 
 // plugin styles
 @import 'plugins/_owl-carousel';
 @import 'plugins/_owl-carousel-theme'; 
-@import 'plugins/_progress-bar'; 
-@import 'plugins/_arrow-navigation'; 
-@import 'plugins/_svganimations';
-@import 'plugins/_mouse-scroll';
-@import 'plugins/_article-intro';
-@import 'plugins/_lightbox';
+
 
 // generated styles
 @import '_sprite';

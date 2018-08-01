@@ -11,7 +11,7 @@
 	<meta name="keywords" content="web design, designer, web development, front end developer, ux design, perth, doug hanson">
 	
 	<!-- build:css -->
-	<link rel="stylesheet" href="css/styles.min.css" media="all">
+	<link rel="stylesheet" href="css/styles.css" media="all">
 	<style>
 		.wrapper { opacity: 0; transition: all 200ms; } /* hide content until DOM ready */
 	</style>
@@ -191,7 +191,7 @@
 
 							<div class="work-item__content">
 								<p class="work-item__heading">Mobii Manager</p>
-								<h2 class="h5 subheading">ux / mobile design </h2>
+								<h2 class="h5 subheading">ux &amp; ui design / mobile design </h2>
 							</div>
 						</article>
 					</a>
@@ -222,10 +222,21 @@
 
 							<div class="work-item__content">
 								<p class="work-item__heading">Bankwest Digital Design</p>
-								<h2 class="h5 subheading">web design / web development / email&nbsp;marketing</h2>
+								<h2 class="h5 subheading">web design / web development / digital&nbsp;marketing</h2>
 							</div>
 						</article>
-					</a>			
+					</a>
+						
+						
+					<!-- 5 -->
+					<a href="bankwest.php" class="progressLoad">
+						<article class="work-item showMore">
+
+							<div class="work-item__content">
+								<h2 class="h5 subheading" style="margin-top: 140px;">More coming in August...</h2>
+							</div>
+						</article>
+					</a>						
 					
 
 				</div>				
@@ -238,7 +249,7 @@
 				</style>
 					
 				<div class="col-sm-12 text-center">
-					<button class="button progressLoad text-center clicky  margin-top-40">Show more</button>
+					<button class="button progressLoad text-center clicky margin-top-40">Show all</button>
 				</div>	
 				
 
@@ -325,7 +336,7 @@
 					<!-- resume` link -->
 					<div class="row">
 						<div class="col-sm-12 margin-top-30 ">
-							<a href="doc/Doug-Hanson-Resume.pdf" target="_blank" class="button progressLoad margin-right-10">Download Resume` (PDF 72kB)</a>
+							<a href="doc/Doug-Hanson-Resume.pdf" target="_blank" class="button button--primary progressLoad margin-right-10">Download Resume` (PDF 72kB)</a>
 						</div>
 					</div>
 
@@ -418,7 +429,7 @@
 					</div>
 
 					<div class="col-sm-12 text-center">
-						<button class="button button__primary progressLoad text-right" name="submitted">&nbsp; Send message &nbsp;</button>
+						<button class="button button--primary progressLoad text-right" name="submitted">&nbsp; Send message &nbsp;</button>
 					</div>
 				</form>
 				<!-- end mailform -->
@@ -447,7 +458,7 @@
 <script>
 	$('.clicky').click( function() {
 		$('.showMore').slideDown();
-		$('.clicky').fadeOut();
+		$('.clicky').hide();
 		$('html, body').animate({
 			scrollTop: $(".showMore").offset().top-200
 		}, 500);
