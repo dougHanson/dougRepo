@@ -130,6 +130,7 @@
 		$('#projectNextLink').attr("href", next.url);
 		$('#projectNextTitle').append(next.title);
 		$('#projectNextImg').attr("src", "img/" + next.thumbnail);
+		$('#projectNextPosition').append(" (" + (nextObject+1) + " of " + projectOrder.length + ")") ;
 
 		//previous projects
 		var prevObject = projectOrder.indexOf("<?php echo $project ?>")-1;
@@ -139,7 +140,7 @@
 		$('#projectPrevLink').attr("href", prev.url);
 		$('#projectPrevTitle').append(prev.title);
 		$('#projectPrevImg').attr("src", "img/" + prev.thumbnail);		
-	
+		$('#projectPrevPosition').append(" (" + (prevObject+1) + " of " + projectOrder.length + ")") ;
 	
 	
 	//scroll animation - disabled on mobile as doesn't render correctly

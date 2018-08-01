@@ -17,7 +17,7 @@
 								<svg class="icon" width="32" height="32" viewBox="0 0 64 64"><use xlink:href="#arrow-left-1"></svg>
 							</span>
 							<div>
-								<h3 id="projectPrevTitle"><span>previous project</span></h3>
+								<h3 id="projectPrevTitle"><span id="projectPrevPosition">previous project</span></h3>
 								<img id="projectPrevImg" alt="Previous project"/>
 							</div>
 						</a>
@@ -28,7 +28,7 @@
 								<svg class="icon" width="32" height="32" viewBox="0 0 64 64"><use xlink:href="#arrow-right-1"></svg>
 							</span>
 							<div>
-								<h3 id="projectNextTitle"><span>next project</span></h3>
+								<h3 id="projectNextTitle"><span id="projectNextPosition">next project</span></h3>
 								<img id="projectNextImg" alt="Next project"/>
 							</div>
 						</a>
