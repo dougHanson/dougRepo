@@ -1061,10 +1061,6 @@ footer {
 .project-page footer {
   margin-top: -160px; }
 
-.footer__logo {
-  height: 30px;
-  opacity: 0.5; }
-
 /* *************************************
 //   UTILITIES  [layout/_utilities.scss]
 //   utility classes for spacing
@@ -1243,14 +1239,11 @@ footer {
 /* -------------------------------------
 //   Other
 /* ------------------------------------- */
-.white {
-  color: #fff !important; }
-
-.grey-6 {
-  color: #636362; }
-
 .full-width {
   width: 100%; }
+
+.show-all-content {
+  display: none; }
 
 hr {
   border: 0;
@@ -2073,6 +2066,9 @@ footer .icon {
   margin-top: 6px;
   display: inline-block;
   transition: all 0.25s; }
+  @media (max-width: 991px) {
+    .social-icon {
+      display: none; } }
 
 .social-wrapper {
   width: 200px;
@@ -2129,19 +2125,15 @@ footer .icon {
   transition: all 0.75s; }
 
 .social-icon__svg--linkedin:hover {
-  /*transform: scale(1.1);*/
   transition: all 0.25s; }
 
 .social-icon__svg--facebook:hover {
-  /*transform: scale(1.1);*/
   transition: all 0.25s; }
 
 .social-icon__svg--twitter:hover {
-  /*transform: scale(1.1);*/
   transition: all 0.25s; }
 
 .social-icon__svg--pinterest:hover {
-  /*transform: scale(1.1);*/
   transition: all 0.25s; }
 
 .social-icon__svg--linkedin:hover .icon {
@@ -2155,10 +2147,6 @@ footer .icon {
 
 .social-icon__svg--pinterest:hover .icon {
   fill: #bd081c; }
-
-@media (max-width: 991px) {
-  .social-icon {
-    display: none; } }
 
 /* ----- grid icon ----- */
 .grid-icon {
@@ -2220,9 +2208,6 @@ input[type="button"] {
 
 /* -------------------------------------
 //   Modifiers
-/* ------------------------------------- */
-/* -------------------------------------
-//   Submodules
 /* ------------------------------------- */
 .button--primary,
 input.button--primary[type="submit"],
@@ -2511,7 +2496,6 @@ img {
   line-height: 1.428571429;
   background-color: #f7f7f7;
   border: 1px solid #e4e4e4;
-  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   display: inline-block;
   max-width: 100%;
@@ -2529,8 +2513,9 @@ img {
   max-width: 100%;
   box-shadow: 0px 15px 25px #636362; }
 
-.no-shadow {
-  box-shadow: none !important; }
+.profile-pic {
+  width: 90%;
+  width: 180px; }
 
 /* *************************************
 //   WORK ITEMS  [modules/_workitems.scss]
@@ -2918,10 +2903,6 @@ svg {
 .work-item:hover .line-drawing,
 .profile-pic:hover .line-drawing {
   opacity: 0; }
-
-.profile-pic {
-  width: 90%;
-  width: 180px; }
 
 .mouse_scroll {
   display: block;
@@ -3801,48 +3782,3 @@ body.lb-disable-scrolling {
 
 .owl-carousel a:focus {
   outline: none; }
-
-.svg-close, .svg-lab, .svg-mail, .svg-pen, .svg-star, .svg-user {
-  background: url("../svg/sprite.svg") no-repeat; }
-
-.svg-close {
-  background-position: 0 0; }
-
-.svg-close-dims {
-  width: 58px;
-  height: 58px; }
-
-.svg-lab {
-  background-position: 25.663716814159294% 0; }
-
-.svg-lab-dims {
-  width: 24px;
-  height: 24px; }
-
-.svg-mail {
-  background-position: 44.24778761061947% 0; }
-
-.svg-mail-dims {
-  width: 42px;
-  height: 42px; }
-
-.svg-pen {
-  background-position: 62.83185840707964% 0; }
-
-.svg-pen-dims {
-  width: 24px;
-  height: 24px; }
-
-.svg-star {
-  background-position: 81.41592920353982% 0; }
-
-.svg-star-dims {
-  width: 42px;
-  height: 42px; }
-
-.svg-user {
-  background-position: 100% 0; }
-
-.svg-user-dims {
-  width: 42px;
-  height: 42px; }

@@ -24,7 +24,6 @@ img {
   line-height: 1.428571429;
   background-color: #f7f7f7; //$grey-background;
   border: 1px solid $grey-border;
-  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   display: inline-block;
   max-width: 100%;
@@ -42,4 +41,8 @@ img {
 	max-width: 100%; 
 	box-shadow: 0px 15px 25px $grey-6;
 }
-.no-shadow { box-shadow: none !important; }
+
+.profile-pic { 
+	width: 90%; 
+	width: 180px; 
+}

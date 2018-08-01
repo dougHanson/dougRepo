@@ -16,7 +16,11 @@ footer .icon { fill: #000; }
 	margin-top: 6px;
 	display: inline-block;	
 	transition: all 0.25s;
+	@media (max-width: 991px) {
+    display: none;
+	}
 }
+
 
 .social-wrapper {
 	width:200px; 
@@ -71,10 +75,10 @@ footer .icon { fill: #000; }
 .social-icon__svg--twitter .icon { transition: all 0.75s; }
 .social-icon__svg--pinterest .icon { transition: all 0.75s;	}
 
-.social-icon__svg--linkedin:hover { /*transform: scale(1.1);*/ transition: all 0.25s; }
-.social-icon__svg--facebook:hover {	/*transform: scale(1.1);*/ transition: all 0.25s; }
-.social-icon__svg--twitter:hover { /*transform: scale(1.1);*/ transition: all 0.25s; }
-.social-icon__svg--pinterest:hover { /*transform: scale(1.1);*/ transition: all 0.25s; }
+.social-icon__svg--linkedin:hover { transition: all 0.25s; }
+.social-icon__svg--facebook:hover { transition: all 0.25s; }
+.social-icon__svg--twitter:hover { transition: all 0.25s; }
+.social-icon__svg--pinterest:hover { transition: all 0.25s; }
 
 .social-icon__svg--linkedin:hover .icon {	fill: #0077b5; }
 .social-icon__svg--facebook:hover .icon {	fill: #3b5998; }
@@ -82,11 +86,6 @@ footer .icon { fill: #000; }
 .social-icon__svg--pinterest:hover .icon { fill: #bd081c; }
 
 
-@media (max-width: 991px) {
-	.social-icon {
-    display: none;
-  }  
-}
 
 /* ----- grid icon ----- */
 .grid-icon {

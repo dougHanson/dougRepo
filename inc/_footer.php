@@ -1,17 +1,16 @@
 <footer class="text-center" >
 	
-	
 	<div class="wrapper">		
 		<div class="wrapper__inner">	
-			<div class="container text-center">
-					
+			<div class="container text-center">					
 				<div class="row">
+					
 					<div class="col-sm-12">
 						<p class="text-center">Copyright Doug Hanson 2018</p>
 					</div>
 					
+					<!-- social media icons -->
 					<div class="social-wrapper">
-						<!-- social media icons -->
 						<a class="social-icon-footer" href="//www.linkedin.com/in/doug83/" target="_blank">
 							<div class="social-icon__bg social-icon__bg--transparent"></div>
 							<div class="social-icon__svg social-icon__svg--linkedin">
@@ -39,45 +38,16 @@
 								<?php echo file_get_contents("svg/pinterest.svg"); ?>
 							</div>
 						</a>
-					<!-- end social icons -->
 					</div>	
-				</div>
-				
-				
-				<?php /*
-				<script>
-					window.twttr = (function(d, s, id) {
-						var js, fjs = d.getElementsByTagName(s)[0],
-							t = window.twttr || {};
-						if (d.getElementById(id)) return t;
-						js = d.createElement(s);
-						js.id = id;
-						js.src = "https://platform.twitter.com/widgets.js";
-						fjs.parentNode.insertBefore(js, fjs);
-
-						t._e = [];
-						t.ready = function(f) {
-							t._e.push(f);
-						};
-
-						return t;
-					}(document, "script", "twitter-wjs"));
-				</script>
-				<a class="twitter-timeline" href="https://twitter.com/Doug83" data-dnt="true" data-text-color="#fff" data-width="100%" data-height="210" data-tweet-limit="1" data-link-color="#E81C4F" data-chrome="noheader nofooter noborders noscrollbar transparent">
-				</a>
-				*/ ?>
-
-				
+					<!-- end social icons -->
+					
+				</div>								
 			</div>
 		</div>
 	</div>
 	
 </footer>
 
-
-<style>
-	
-</style>
 
 <!-- jQuery CDN --> 
 <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script> 
@@ -86,9 +56,9 @@
 <!-- build:js --> 
 <script src="js/data.js"></script> 
 <script src="js/plugins/lozad.min.js"></script>
-<script src="js/plugins/masonry.pkgd.min.js"></script>
+<!--<script src="js/plugins/masonry.pkgd.min.js"></script>-->
 <script src="js/plugins/classie.js"></script>  
-<script src="js/plugins/jquery.ui.touch-punch.min.js"></script> 
+<!--<script src="js/plugins/jquery.ui.touch-punch.min.js"></script>-->
 <script src="js/plugins/svganimations.js"></script>	
 <script src="js/plugins/owl.carousel.min.js"></script> 
 <script src="js/plugins/lightbox.js"></script>

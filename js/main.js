@@ -104,6 +104,16 @@ $('.parallax-bg').parallax({
 
 
 
+//SHOW ALL BUTTON ON HOMEPAGE
+$('.show-all-btn').click( function() {
+	$('.show-all-content').slideDown();
+	$('.show-all-btn').hide();
+	$('html, body').animate({
+		scrollTop: $(".show-all-content").offset().top-200
+	}, 500);
+});
+
+
 // MASONRY GRID LAYOUT (remove if using css columns instead)
 /*$(function(){
   $('.masonry-container').masonry({
