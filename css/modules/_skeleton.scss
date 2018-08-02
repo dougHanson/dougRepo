@@ -6,14 +6,16 @@
 
 /* ----- navigation ----- */
 .skeleton__aside { 
-	width: 230px;
-	height: 100vh;
-	margin: 1.5vw;
-	background: #cfcfcf;
+	height: 60px; 
+	margin: 0; 
+	width: 100%;
+	background: $grey-d;
 	position: fixed;
 	top: 0;
-	@media (max-width: 991px) {
-		height: 60px; margin: 0; width: 100%;
+	@media (min-width: 992px) {
+		width: 230px;
+		height: 100vh;
+		margin: 1.5vw;	
 	}
 }
 .skeleton__logo { 
@@ -50,20 +52,24 @@
 }
 .skeleton__bar1 { 
 	height: 70px; 
-	background: #dfdfdf; 
+	background: $grey-d; 
 	width: 50%; 
 	margin: 40px auto; 
 	@media (max-width: 991px) {
-		width: 100%; height: 30px; margin: 30px auto;
+		width: 100%; 
+		height: 30px; 
+		margin: 30px auto;
 	}
 }
 .skeleton__bar2 { 
 	height: 30px; 
-	background: #dfdfdf; 
+	background: $grey-d; 
 	width: 70%; 
 	margin: 50px auto 100px;  
 	@media (max-width: 991px) {
-		width: 75%; height: 70px; margin: 20px auto;
+		width: 75%; 
+		height: 70px; 
+		margin: 20px auto;
 	}
 }
 

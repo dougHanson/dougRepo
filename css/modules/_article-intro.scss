@@ -8,10 +8,8 @@ html, body, .container, .header {
 	margin: 0 auto;
 	min-height: 560px;	
 	width: 100%;
-}
-@media (max-width: 767px) {
-	.header {
-		min-height: 400px;	
+	@media (max-width: 767px) {
+		min-height: 400px;
 	}	
 }
 
@@ -23,18 +21,18 @@ html, body, .container, .header {
 	right: 0;
 	bottom: 0;
 	background: $grey-d; //so header can be seen before img loads
-	transition: 0.5s
+	transition: 0.5s;
+	img {
+		position: absolute;
+		//top: 0;
+		right: 0px;
+		display: block;
+		min-width: 100%;
+		min-height: 100%;
+		transition: 0.5s;
+	}
 }
 
-.bg-img img {
-	position: absolute;
-	//top: 0;
-	right: 0px;
-	display: block;
-	min-width: 100%;
-	min-height: 100%;
-	transition: 0.5s;
-}
 
 .title {
 	z-index: 700;
@@ -42,45 +40,37 @@ html, body, .container, .header {
 	width: auto;
 	position: absolute;
 	transition: 0.5s; 
+	h1 { 
+		color: #fff; 
+		transition: 0.5s; 
+		margin: 0;
+		@media (max-width: 767px) {
+			font-size: 2em; 	
+		}
+		@media (max-width: 480px) {
+			font-size: 1.6em; 	
+		}
+	}
+	p {
+		color: #fff;
+		padding: 0 0 0.6em;
+		font-weight: 300;
+		font-size: 0.85em;
+		margin: 0 auto;
+	}
 }
 
-.title h1 { 
-	color: #fff; 
-	transition: 0.5s; 
-	margin: 0;
-}
-
-
-@media (max-width: 767px) {
-	.title h1 {
-		font-size: 2em; 	
-	}	
-}
-@media (max-width: 480px) {
-	.title h1 {
-		font-size: 1.6em; 	
-	}	
-}
-
-.title p {
-	color: #fff;
-	padding: 0 0 0.6em;
-	font-weight: 300;
-	font-size: 0.85em;
-	margin: 0 auto;
-}
-
-.title h1,
+/*.title h1,
 .title p.subline {
 	line-height: 1;
 }
 
 .title p.subline {
 	font-size: 1.75em;
-}
+}*/
 
 /* Trigger Button */
-button.trigger {
+/*button.trigger {
 	position: fixed;
 	bottom: 40px;
 	left: 50%;
@@ -151,51 +141,27 @@ button.trigger span::before {
 	speak: none;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-}
+}*/
 
 /* Conent */
 .content {
 	margin: 0 auto;
 	padding: 0 0 3em;
+	h3 {
+		margin: 2px 0;
+	}
 }
 
 .content > div:not(.title) {
 	margin: -80px auto 0;
-}
-@media (max-width: 767px) {
-	.content > div:not(.title) {
+	@media (max-width: 767px) {
 		margin: -40px auto 0;
+	}
+	p {
+		margin: 0 auto 1.5em auto;
 	}
 }
 
-.content > div:not(.title) p {
-	margin: 0 auto 1.5em auto;
-
-}
-
-.content > div:not(.title) p:first-child {
-	/*font-size: 1.35em;*/
-}
-
-.content h3 {
-	margin: 2px 0;
-}
-
-.content blockquote {
-	padding: 0.25em;
-	font-style: italic;
-	font-size: 1.65em;
-	font-family: 'Lora', serif;
-	line-height: 1.4;
-}
-
-.content blockquote::before {
-	content: '\201C';
-}
-
-.content blockquote::after {
-	content: '\201D';
-}
 
 /***** Individual effects *****/
 
