@@ -56,49 +56,49 @@
 						<div class="col-lg-9">
 
 							<p class="h3 subheading padding-0 margin-0">At a glance</p>
-							<p class="margin-bottom-40">iiNet had just released shiny new mobile broadband hardware, which was using the generic Huawei Android app to operate the hardware. I designed a tailored iiNet Android app which strengthened the brand, whilst providing a better user experience than the pre-existing Huawei&nbsp;app.</p>
+							<p class="margin-bottom-40">iiNet had just released shiny new mobile broadband hardware, which was using the generic Huawei Android app to operate the hardware. I designed a tailored iiNet Android app which strengthened the brand, whilst providing a better user experience than the existing Huawei mobile&nbsp;app.</p>
 
 							
 							<div class="owl-carousel owl-theme">
 								<div class="item">
 									<a href="img/mobii-02.png" data-lightbox="mobii" data-title="Mobii Manager">
-										<img class="lazy-load img-center" src="img/loading.gif" data-src="img/mobii-02.png" /></a>
+										<img class="lazy-load img-center" src="img/loading.gif" data-src="img/mobii-02.png" alt="mobile design" /></a>
 								</div>
 								<div class="item">
 									<a href="img/mobii-05.png" data-lightbox="mobii" data-title="Mobii Manager">
-										<img class="lazy-load img-center" src="img/loading.gif" data-src="img/mobii-05.png" /></a>
+										<img class="lazy-load img-center" src="img/loading.gif" data-src="img/mobii-05.png" alt="mobile design" /></a>
 								</div>	
 								<div class="item">
 									<a href="img/mobii-11.png" data-lightbox="mobii" data-title="Mobii Manager">
-										<img class="lazy-load img-center" src="img/loading.gif" data-src="img/mobii-11.png" /></a>
+										<img class="lazy-load img-center" src="img/loading.gif" data-src="img/mobii-11.png" alt="mobile design" /></a>
 								</div>	
 								<div class="item">
 									<a href="img/mobii-12.png" data-lightbox="mobii" data-title="Mobii Manager">
-										<img class="lazy-load img-center" src="img/loading.gif" data-src="img/mobii-12.png" /></a>
+										<img class="lazy-load img-center" src="img/loading.gif" data-src="img/mobii-12.png" alt="mobile design" /></a>
 								</div>	
 								<div class="item">
 									<a href="img/mobii-13.png" data-lightbox="mobii" data-title="Mobii Manager">
-										<img class="lazy-load img-center" src="img/loading.gif" data-src="img/mobii-13.png" /></a>
+										<img class="lazy-load img-center" src="img/loading.gif" data-src="img/mobii-13.png" alt="mobile design" /></a>
 								</div>									
 								<div class="item">
 									<a href="img/mobii-06.png" data-lightbox="mobii" data-title="Mobii Manager">
-										<img class="lazy-load img-center" src="img/loading.gif" data-src="img/mobii-06.png" /></a>
+										<img class="lazy-load img-center" src="img/loading.gif" data-src="img/mobii-06.png" alt="mobile design" /></a>
 								</div>
 								<div class="item">
 									<a href="img/mobii-07.png" data-lightbox="mobii" data-title="Mobii Manager">
-										<img class="lazy-load img-center" src="img/loading.gif" data-src="img/mobii-07.png" /></a>
+										<img class="lazy-load img-center" src="img/loading.gif" data-src="img/mobii-07.png" alt="mobile design" /></a>
 								</div>	
 								<div class="item">
 									<a href="img/mobii-08.png" data-lightbox="mobii" data-title="Mobii Manager">
-										<img class="lazy-load img-center" src="img/loading.gif" data-src="img/mobii-08.png" /></a>
+										<img class="lazy-load img-center" src="img/loading.gif" data-src="img/mobii-08.png" alt="mobile design" /></a>
 								</div>	
 								<div class="item">
 									<a href="img/mobii-09.png" data-lightbox="mobii" data-title="Mobii Manager">
-										<img class="lazy-load img-center" src="img/loading.gif" data-src="img/mobii-09.png" /></a>
+										<img class="lazy-load img-center" src="img/loading.gif" data-src="img/mobii-09.png" alt="mobile design" /></a>
 								</div>	
 								<div class="item">
 									<a href="img/mobii-10.png" data-lightbox="mobii" data-title="Mobii Manager">
-										<img class="lazy-load img-center" src="img/loading.gif" data-src="img/mobii-10.png" /></a>
+										<img class="lazy-load img-center" src="img/loading.gif" data-src="img/mobii-10.png" alt="mobile design" /></a>
 								</div>	
 							</div>							
 							<p>&nbsp;</p>
@@ -107,7 +107,7 @@
 							<p>To kick the mobile design project off, I met with Product Managers to understand to conduct <strong>requirements gathering</strong> for the project. After toying with some <strong>paper sketches</strong>, I turned the best ones into <strong>high fidelity wireframes</strong> to seek intitial stakeholder feedback. Once all stakeholders were happy with the look and feel, I developed a <strong>rapid prototype using basic HTML, CSS &amp; JavaScript</strong>. This allowed me to demonstrate the desired <strong>UX and interactions</strong> to the external development agency, whom then turned my prototype into a <strong>native&nbsp;Android&nbsp;app</strong>.</p>
 							
 
-							<img src="img/loading.gif" data-src="img/mobii-manager-big-light.png" class="lazy-load img-center img-responsive img-center margin-top-40" alt="">
+							<img src="img/loading.gif" data-src="img/mobii-manager-big-light.png" class="lazy-load img-center img-responsive img-center margin-top-40 margin-bottom-40" alt="Mobile design on Samsung Galaxy S3">
 
 						</div>
 						<!-- end page specific content -->

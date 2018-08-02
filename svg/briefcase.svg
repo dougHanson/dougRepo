@@ -1,8 +1,1 @@
-<svg width="18.75" height="16.01" viewBox="0 0 18.75 16.01">
-	<title>selected works</title>
-	<path class="icon-briefcase" d="M552.7,438.32H559v-6.08a.88.88,0,0,0-.91-.87H541.91a.88.88,0,0,0-.91.87v6.08" transform="translate(-540.63 -428.63)" />
-	<line class="icon-briefcase" x1="0.38" y1="9.69" x2="6.77" y2="9.69" />
-	<ellipse class="icon-briefcase" cx="9.42" cy="9.62" rx="2.17" ry="0.88" />
-	<path class="icon-briefcase" d="M558.45,438.32v5a1,1,0,0,1-.92.92h-15a.92.92,0,0,1-.87-.92v-5" transform="translate(-540.63 -428.63)" />
-	<path class="icon-briefcase" d="M552.79,430.64v-.78a.88.88,0,0,0-.91-.87h-3.75a.88.88,0,0,0-.91.87v.78" transform="translate(-540.63 -428.63)" />
-</svg>
+<svg width="18.75" height="16.01" viewBox="0 0 18.75 16.01"><title>selected works</title><path class="icon-briefcase" d="M12.07 9.69h6.3V3.61a.88.88 0 0 0-.91-.87H1.28a.88.88 0 0 0-.91.87v6.08M.38 9.69h6.39"/><ellipse class="icon-briefcase" cx="9.42" cy="9.62" rx="2.17" ry=".88"/><path class="icon-briefcase" d="M17.82 9.69v5a1 1 0 0 1-.92.92h-15a.92.92 0 0 1-.87-.92v-5M12.16 2.01v-.78a.88.88 0 0 0-.91-.87H7.5a.88.88 0 0 0-.91.87v.78"/></svg>

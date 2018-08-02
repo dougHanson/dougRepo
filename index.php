@@ -69,7 +69,7 @@
 				<div class="lazy-load hero-content__bg">
 					<!--<div class="fadeOut"><a href="index.php"><img src="img/namelogo.png" /></a></div>-->
 					<h3 class="h1 hero-heading fadeOut"><span>Doug Hanson</span></h3>
-					<h1 class="h3 subheading subheading__hero grey-2 fadeOut">Web Designer &amp; Front-end Developer based in Perth, Western Australia</h1>
+					<h1 class="h3 subheading subheading__hero grey-2 fadeOut">Web designer &amp; front end developer based in Perth, Western&nbsp;Australia</h1>
 
 					<div class="mouse_scroll fadeOut--fast visible-lg">
 						<div class="mouse">
@@ -93,96 +93,98 @@
 
 				<h4 class="h3 subheading text-center margin-0">my portfolio</h4>
 				<h4 class="h2 text-center">Selected works</h4>
-				<div class="text-center"><img src="img/arrow.png" /></div>
+				<div class="text-center"><img src="svg/spear.svg"></div>
 		
 				
 				<div style="margin-top:40px;" class="full-width">
 					<div class="row">
-					<!-- 1 -->
-					<a href="iinet-plan-pages.php" class="progressLoad">
-						<article class="work-item col-lg-4">
-							<div class="work-item__drawings" id="drawings">
-								<img class="lazy-load illustration" data-src="img/finn-balloons.png" alt="" style="max-width: 244px;" />
-								<?php echo file_get_contents("svg/finn.svg"); ?>
-							</div>
-
-							<div class="work-item__content">
-								<p class="work-item__heading">Product Page Redesign</p>
-								<h2 class="h5 subheading">ux / web design &amp; development</h2>
-							</div>
-						</article>
-					</a>
-
-					<!-- 2 -->
-					<a href="mobii-manager.php" class="progressLoad">
-						<article class="work-item col-lg-4">
-							<div class="work-item__drawings" id="drawings">
-								<img class="lazy-load illustration" data-src="img/mobii-manager.png" alt="" style="max-width: 300px;" />
-								<?php echo file_get_contents("svg/galaxy-phone.svg"); ?>
-							</div>
-
-							<div class="work-item__content">
-								<p class="work-item__heading">Mobii Manager</p>
-								<h2 class="h5 subheading">ux &amp; ui design / mobile design </h2>
-							</div>
-						</article>
-					</a>
-
-					<!-- 3 -->
-					<a href="multicomm.php" class="progressLoad">
-						<article class="work-item col-lg-4">
-							<div class="work-item__drawings" id="drawings">
-								<img class="lazy-load illustration" data-src="img/multicomm.png" alt="" style="max-width: 300px; padding-top:15px;" />
-								<?php echo file_get_contents("svg/multicomm.svg"); ?>
-							</div>
-
-							<div class="work-item__content">
-								<p class="work-item__heading">Multicomm Website</p>
-								<h2 class="h5 subheading">branding / web design &amp; development</h2>
-							</div>
-						</article>
-					</a>
-					
-
-					<!-- 4 -->
-					<a href="bankwest.php" class="progressLoad">
-						<article class="work-item  show-all-content">
-							<div class="work-item__drawings" id="drawings">
-								<img class="illustration" src="img/sunny.png" alt="" style="max-width: 250px; padding-top: 25px;" />
-								<?php echo file_get_contents("svg/sun.svg"); ?>															
-							</div> 
-
-							<div class="work-item__content">
-								<p class="work-item__heading">Bankwest Digital Design</p>
-								<h2 class="h5 subheading">web design / web development / digital&nbsp;marketing</h2>
-							</div>
-						</article>
-					</a>
 						
-						
-					<!-- 5		
-					<a href="fetch.php" class="progressLoad">
-						<article class="work-item showMore">
-							<div class="work-item__drawings" id="drawings">
-								<img class="illustration" src="img/fetch.png" alt="" style="max-width: 250px; padding-top: 25px;" />
-								<?php //echo file_get_contents("svg/fetch.svg"); ?>															
-							</div> 
+						<!-- 1 -->
+						<a href="iinet-plan-pages.php" class="progressLoad">
+							<article class="work-item col-lg-4">
+								<div class="work-item__drawings" id="drawings">
+									<img class="lazy-load illustration" data-src="img/finn-balloons.png" alt="" style="max-width: 244px;" />
+									<?php echo file_get_contents("svg/finn.svg"); ?>
+								</div>
 
-							<div class="work-item__content">
-								<p class="work-item__heading">Fetch Single Page App</p>
-								<h2 class="h5 subheading">web design / web development</h2>
-							</div>
-						</article>
-					</a>
-					 -->						
+								<div class="work-item__content">
+									<p class="work-item__heading">Product Page Redesign</p>
+									<h2 class="h5 subheading">ux / web design &amp; development</h2>
+								</div>
+							</article>
+						</a>
 
-				</div>				
+						<!-- 2 -->
+						<a href="mobii-manager.php" class="progressLoad">
+							<article class="work-item col-lg-4">
+								<div class="work-item__drawings" id="drawings">
+									<img class="lazy-load illustration" data-src="img/mobii-manager.png" alt="" style="max-width: 300px;" />
+									<?php echo file_get_contents("svg/galaxy-phone.svg"); ?>
+								</div>
+
+								<div class="work-item__content">
+									<p class="work-item__heading">Mobii Manager</p>
+									<h2 class="h5 subheading">ux &amp; ui design / mobile design </h2>
+								</div>
+							</article>
+						</a>
+
+						<!-- 3 -->
+						<a href="multicomm.php" class="progressLoad">
+							<article class="work-item col-lg-4">
+								<div class="work-item__drawings" id="drawings">
+									<img class="lazy-load illustration" data-src="img/multicomm.png" alt="" style="max-width: 300px; padding-top:15px;" />
+									<?php echo file_get_contents("svg/multicomm.svg"); ?>
+								</div>
+
+								<div class="work-item__content">
+									<p class="work-item__heading">Multicomm Website</p>
+									<h2 class="h5 subheading">branding / web design &amp; development</h2>
+								</div>
+							</article>
+						</a>
+
+
+						<!-- 4 -->
+						<a href="bankwest.php" class="progressLoad">
+							<article class="work-item  show-all-content">
+								<div class="work-item__drawings" id="drawings">
+									<img class="illustration" src="img/sunny.png" alt="" style="max-width: 250px; padding-top: 25px;" />
+									<?php echo file_get_contents("svg/sun.svg"); ?>															
+								</div> 
+
+								<div class="work-item__content">
+									<p class="work-item__heading">Bankwest Digital Design</p>
+									<h2 class="h5 subheading">web design / web development / digital&nbsp;marketing</h2>
+								</div>
+							</article>
+						</a>
+
+
+						<!-- 5		
+						<a href="fetch.php" class="progressLoad">
+							<article class="work-item showMore">
+								<div class="work-item__drawings" id="drawings">
+									<img class="illustration" src="img/fetch.png" alt="" style="max-width: 250px; padding-top: 25px;" />
+									<?php //echo file_get_contents("svg/fetch.svg"); ?>															
+								</div> 
+
+								<div class="work-item__content">
+									<p class="work-item__heading">Fetch Single Page App</p>
+									<h2 class="h5 subheading">web design / web development</h2>
+								</div>
+							</article>
+						</a>
+						 -->						
+
+					</div>				
+
+					<!-- show all btn -->
+					<!--<div class="col-sm-12 text-center">
+						<button class="button progressLoad text-center show-all-btn margin-top-40">Show all</button>
+					</div>	-->
 				
-				<!-- show all btn -->
-				<!--<div class="col-sm-12 text-center">
-					<button class="button progressLoad text-center show-all-btn margin-top-40">Show all</button>
-				</div>	-->
-				
+				</div>
 
 			</section>
 			<!-- end selected works -->
@@ -197,7 +199,7 @@
 			<section id="about" class="about container">
 				<h4 class="h3 subheading text-center margin-0">roles and experience</h4>
 				<h4 class="h2 text-center">About me</h4>
-				<div class="text-center"><img src="img/arrow.png" /></div>
+				<div class="text-center"><img src="svg/spear.svg" alt=""></div>
 				<div class="col-lg-9">
 					<br>
 					<p>Over 8 years of hands on experience in user-centred web design &amp; front end web development. Experience designing User Interfaces (UI) and User Experience (UX) for products from various domains. Expertise in handling projects in Web development, Responsive Web Design, JavaScript, JQuery, AngularJS, HTML5, CSS3, SASS and&nbsp;PHP.</p>
@@ -206,7 +208,7 @@
 				</div>
 				<div class="col-lg-3 text-right visible-lg">
 					<div id="drawings">
-						<img data-src="img/doug.png" class="lazy-load profile-pic img-circle">
+						<img src="img/loading.gif" data-src="img/doug.png" class="lazy-load profile-pic img-circle">
 						<?php //echo file_get_contents("svg/doug.svg"); ?>
 					</div>
 				</div>
@@ -285,7 +287,7 @@
 
 				<h4 class="h3 subheading text-center margin-0">get in touch</h4>
 				<h4 class="h2 text-center">Contact</h4>
-				<div class="text-center"><img src="img/arrow.png" /></div>
+				<div class="text-center"><img src="svg/spear.svg" alt=""></div>
 
 
 				<?php
