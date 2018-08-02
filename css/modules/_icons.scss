@@ -21,7 +21,6 @@ footer .icon { fill: #000; }
 	}
 }
 
-
 .social-wrapper {
 	width:200px; 
 	display:block; 
@@ -84,6 +83,33 @@ footer .icon { fill: #000; }
 .social-icon__svg--facebook:hover .icon {	fill: #3b5998; }
 .social-icon__svg--twitter:hover .icon { fill: #1da1f2; }
 .social-icon__svg--pinterest:hover .icon { fill: #bd081c; }
+
+
+
+/* ----- icons in left nav ----- */
+.icon-home {
+	stroke-width: 1px;
+}
+.icon-briefcase {
+	fill: none;
+	stroke: #fff;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke-width: 1px;
+}
+.icon-about {
+	fill: none;
+	stroke: #fff;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke-width: 1px;
+}
+.icon-contact {
+	fill: none;
+	stroke: #fff;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+}
 
 
 

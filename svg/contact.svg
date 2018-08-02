@@ -1,14 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="19.15" height="13.88" viewBox="0 0 19.15 13.88">
-	<defs>
-		<style>
-			.icon-contact {
-				fill: none;
-				stroke: #fff;
-				stroke-linecap: round;
-				stroke-linejoin: round;
-			}
-		</style>
-	</defs>
+<svg width="19.15" height="13.88" viewBox="0 0 19.15 13.88">
 	<title>contact</title>
 	<path class="icon-contact" d="M547.5,443V430.21a.08.08,0,0,1,.08-.08h17.84a.22.22,0,0,1,.22.22v12.58a.08.08,0,0,1-.08.08H547.5" transform="translate(-547 -429.62)" />
 	<path class="icon-contact" d="M547.72,430.29l8.78,5.48a.12.12,0,0,0,.15,0l9-5.62a0,0,0,0,0,0,0H547.78A.09.09,0,0,0,547.72,430.29Z" transform="translate(-547 -429.62)" />

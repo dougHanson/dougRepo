@@ -1,16 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="18.75" height="16.01" viewBox="0 0 18.75 16.01">
-	<defs>
-		<style>
-			.icon-briefcase {
-				fill: none;
-				stroke: #fff;
-				stroke-linecap: round;
-				stroke-linejoin: round;
-				stroke-width: 1px;
-			}
-		</style>
-	</defs>
-	<title>briefcase</title>
+<svg width="18.75" height="16.01" viewBox="0 0 18.75 16.01">
+	<title>selected works</title>
 	<path class="icon-briefcase" d="M552.7,438.32H559v-6.08a.88.88,0,0,0-.91-.87H541.91a.88.88,0,0,0-.91.87v6.08" transform="translate(-540.63 -428.63)" />
 	<line class="icon-briefcase" x1="0.38" y1="9.69" x2="6.77" y2="9.69" />
 	<ellipse class="icon-briefcase" cx="9.42" cy="9.62" rx="2.17" ry="0.88" />

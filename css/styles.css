@@ -2148,6 +2148,30 @@ footer .icon {
 .social-icon__svg--pinterest:hover .icon {
   fill: #bd081c; }
 
+/* ----- icons in left nav ----- */
+.icon-home {
+  stroke-width: 1px; }
+
+.icon-briefcase {
+  fill: none;
+  stroke: #fff;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1px; }
+
+.icon-about {
+  fill: none;
+  stroke: #fff;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1px; }
+
+.icon-contact {
+  fill: none;
+  stroke: #fff;
+  stroke-linecap: round;
+  stroke-linejoin: round; }
+
 /* ----- grid icon ----- */
 .grid-icon {
   transition: all 0.25s;
