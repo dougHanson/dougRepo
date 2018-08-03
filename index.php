@@ -12,9 +12,6 @@
 	
 	<!-- build:css -->
 	<link rel="stylesheet" href="css/styles.css" media="all">
-	<style>
-		.wrapper { opacity: 0; transition: all 200ms; } /* hide content until DOM ready */
-	</style>
 	<!-- endbuild -->
 
 	<?php //include('/inc/_favicons.php'); ?>
@@ -65,7 +62,7 @@
 			<!-- ###############################
 			//   Intro / hero content
 			#################################### -->		
-			<div id="hero-content" class="hero-content parallax-bg">
+			<section id="hero-content" class="hero-content parallax-bg">
 				<div class="lazy-load hero-content__bg">
 					<!--<div class="fadeOut"><a href="index.php"><img src="img/namelogo.png" /></a></div>-->
 					<h3 class="h1 hero-heading fadeOut"><span>Doug Hanson</span></h3>
@@ -82,7 +79,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</section>
 			<!-- end hero content -->
           
 
