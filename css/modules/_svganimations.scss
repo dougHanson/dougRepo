@@ -1,6 +1,6 @@
-svg {
-	pointer-events: none;
-}
+svg { pointer-events: none; }
+.show {	opacity: 1; }
+.hide { opacity: 0; }
 
 .illustration {
 	width: 100%;
@@ -8,14 +8,9 @@ svg {
 	opacity: 0;
 	display: block;
 	margin: 0 auto;
-}
-
-.show {
-	opacity: 1;
-}
-
-.hide {
-	opacity: 0;
+	&:hover {
+	  opacity: 1;
+  	}
 }
 
 .line-drawing,
@@ -24,30 +19,20 @@ svg {
 	transition: opacity 0.5s;
 }
 
-.illustration:hover {
-	opacity: 1;
-}
-
-.work-item:hover .illustration {
-	opacity: 1;
-}
-
 .line-drawing {
-	position: absolute; 
-	top: 0; 
+	position: absolute;
+	top: 0;
 	left: 0;
 	right: 0;
 	margin: auto;
-	max-width: 300px; 
+	max-width: 300px;
+	path {
+		fill: none;
+		stroke: #aaa;
+		stroke-width: 1;
+	}
 }
 
-.line-drawing path {
-	fill: none;
-	stroke: #aaa;
-	stroke-width: 1;
-}
-
+.work-item:hover .illustration { opacity: 1; }
 .work-item:hover .line-drawing,
-.profile-pic:hover .line-drawing {
-	opacity: 0;
-} 
+.profile-pic:hover .line-drawing { opacity: 0; }

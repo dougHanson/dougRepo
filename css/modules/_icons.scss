@@ -3,130 +3,142 @@
 //   Icons used throughout site that aren't part of icon font. SVG and PNG versions must both be maintained
 /* ************************************* */
 
+.icon {
+	fill: #fff;
+}
 
-.icon { fill: #fff; }
-footer .icon { fill: #000; }
+footer .icon {
+	fill: #000;
+}
 
 /* ----- social icons ----- */
 
-.social-icon { 
-	position: relative; 
-	float: left; 
-	padding-right: 2px; 
+.social-icon {
+	position: relative;
+	float: left;
+	padding-right: 2px;
 	margin-top: 6px;
-	display: inline-block;	
+	display: none;
 	transition: all 0.25s;
-	@media (max-width: 991px) {
-    display: none;
+	@media (min-width: 992px) {
+		display: inline-block;
 	}
-}
-
-.social-wrapper {
-	width:200px; 
-	display:block; 
-	margin: 0 auto; 
-	padding-left: 8px;
-}
-
-.social-icon-footer { 
-	position: relative; 
-	float: left; 
-	padding-right: 2px; 
-	margin-top: 6px;
-	display: inline-block;	
-	width: 25%;	
-}
-
-.social-icon__bg {
-	height: 40px; 
-	width: 40px; 
-	background: #fff; 
-	opacity: 0.25; 
-	padding: 10px;
-	transition: all 0.25s;
+	&__bg {
+		height: 40px;
+		width: 40px;
+		background: #fff;
+		opacity: 0.25;
+		padding: 10px;
+		transition: all 0.25s;
+		&--transparent {
+			opacity: 0.2;
+			@media (min-width: 992px) {
+				opacity: 0;
+			}
+		}
+	}
+	&__svg {
+		position: absolute;
+		top: 10px;
+		left: 10px;
+		transition: all 0.25s;
+		&--linkedin,
+		&--facebook,
+		&--twitter,
+		&--pinterest {
+			.icon {
+				transition: all 0.25s;
+			}
+			&:hover {
+				transition: all 0.25s;
+			}
+		}
+		&--linkedin:hover .icon {
+			fill: #0077b5;
+		}
+		&--facebook:hover .icon {
+			fill: #3b5998;
+		}
+		&--twitter:hover .icon {
+			fill: #1da1f2;
+		}
+		&--pinterest:hover .icon {
+			fill: #bd081c;
+		}
+	}
 }
 
 .social-icon:hover .social-icon__bg {
 	opacity: 0.5;
 	transition: all 0.25s;
+	&--transparent {
+		opacity: 0.2;
+		transition: all 0.25s
+	}
 }
 
-.social-icon__bg--transparent {
-	opacity: 0;
-	@media (max-width: 991px) {
-		opacity: 0.2; 
-	}	
+.social-wrapper {
+	width: 200px;
+	display: block;
+	margin: 0 auto;
+	padding-left: 8px;
 }
 
-.social-icon:hover .social-icon__bg--transparent {
-	opacity: 0.2;
-	transition: all 0.25s;
+.social-icon-footer {
+	position: relative;
+	float: left;
+	padding-right: 2px;
+	margin-top: 6px;
+	display: inline-block;
+	width: 25%;
 }
-
-.social-icon__svg {
-	position: absolute; 
-	top: 10px; 
-	left: 10px;
-	transition: all 0.25s;
-}
-.social-icon__svg--linkedin .icon {	transition: all 0.75s; }
-.social-icon__svg--facebook .icon {	transition: all 0.75s; }
-.social-icon__svg--twitter .icon { transition: all 0.75s; }
-.social-icon__svg--pinterest .icon { transition: all 0.75s;	}
-
-.social-icon__svg--linkedin:hover { transition: all 0.25s; }
-.social-icon__svg--facebook:hover { transition: all 0.25s; }
-.social-icon__svg--twitter:hover { transition: all 0.25s; }
-.social-icon__svg--pinterest:hover { transition: all 0.25s; }
-
-.social-icon__svg--linkedin:hover .icon {	fill: #0077b5; }
-.social-icon__svg--facebook:hover .icon {	fill: #3b5998; }
-.social-icon__svg--twitter:hover .icon { fill: #1da1f2; }
-.social-icon__svg--pinterest:hover .icon { fill: #bd081c; }
 
 
 
 /* ----- icons in left nav ----- */
-.icon-home {
-	stroke-width: 1px;
+
+.icon {
+	display: inline-block;
+	margin: 0 28%;
+	@media (min-width: 560px) {
+		margin: 1px 10px -15px 0;
+	}
+	@media (min-width: 768px) {
+		margin: 0 10px;
+	}
 }
-.icon-briefcase {
-	fill: none;
-	stroke: #fff;
-	stroke-linecap: round;
-	stroke-linejoin: round;
-	stroke-width: 1px;
-}
-.icon-about {
-	fill: none;
-	stroke: #fff;
-	stroke-linecap: round;
-	stroke-linejoin: round;
-	stroke-width: 1px;
-}
+
+.icon-home { stroke-width: 1px; }
+
+.icon-briefcase,
+.icon-about,
 .icon-contact {
 	fill: none;
 	stroke: #fff;
 	stroke-linecap: round;
 	stroke-linejoin: round;
+	stroke-width: 1px;
 }
 
 
 
 /* ----- grid icon ----- */
+
 .grid-icon {
 	transition: all 0.25s;
-	display: inline-block; 
-	position: relative; 
+	display: inline-block;
+	position: relative;
 	top: -28px;
-}
-
-.grid-icon:hover {
-	transform: scale(1.1);
-	transition: all 0.25s;
-}
-.grid-icon svg path { transition: all 0.3s; fill: #636362; }							
-.grid-icon:hover svg path {
-	transition: all 0.25s;
-	fill: #000;
+	svg path {
+		transition: all 0.3s;
+		fill: $grey-6;
+	}
+	&:hover {
+		transform: scale(1.1);
+		transition: all 0.25s;
+		svg path {
+			transition: all 0.25s;
+			fill: #000;
+		}
+	}
 }
