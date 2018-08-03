@@ -6,10 +6,10 @@ html, body, .container, .header {
 .header {
 	position: relative;
 	margin: 0 auto;
-	min-height: 560px;	
+	min-height: 400px;	
 	width: 100%;
-	@media (max-width: 767px) {
-		min-height: 400px;
+	@media (min-width: 768px) {
+		min-height: 560px;	
 	}	
 }
 
@@ -33,7 +33,6 @@ html, body, .container, .header {
 	}
 }
 
-
 .title {
 	z-index: 700;
 	margin: 0 auto;
@@ -44,12 +43,13 @@ html, body, .container, .header {
 		color: #fff; 
 		transition: 0.5s; 
 		margin: 0;
-		@media (max-width: 767px) {
-			font-size: 2em; 	
+		font-size: 1.6em; 
+		@media (min-width: 480px) {
+			font-size: 2em; 
 		}
-		@media (max-width: 480px) {
-			font-size: 1.6em; 	
-		}
+		@media (min-width: 768px) {
+			font-size: 3em; 	
+		}		
 	}
 	p {
 		color: #fff;
@@ -153,9 +153,9 @@ button.trigger span::before {
 }
 
 .content > div:not(.title) {
-	margin: -80px auto 0;
-	@media (max-width: 767px) {
-		margin: -40px auto 0;
+	margin: -40px auto 0;
+	@media (min-width: 768px) {
+		margin: -80px auto 0;		
 	}
 	p {
 		margin: 0 auto 1.5em auto;
@@ -226,8 +226,13 @@ button.trigger span::before {
 }
 
 .intro-effect-jam3 .title {
-	top: 250px;
-	@media (max-width: 767px) { top: 170px; }
+	top: 160px;
+	@media (min-width: 768px) { 
+		top: 230px; 
+	}
+	@media (min-width: 992px) { 
+		top: 250px; 
+	}	
 }
 
 .intro-effect-jam3.modify .bg-img {
@@ -269,8 +274,6 @@ button.trigger span::before {
 	-webkit-transform: translateY(-145px);
 	transform: translateY(-145px); 
 }
-
-.blur { transition: 0.5s; }
 
 .intro-effect-jam3.modify .blur {
 	-webkit-filter: blur(2px);

@@ -13,16 +13,16 @@
 		margin: 1.5vw 1.5vw 0 1.5vw;
 		opacity: 0; 
 		transition: opacity 500ms;
-		@media (max-width: 991px) {
-			padding-top: 60px;
+	  	padding-top: 60px;
+		@media (min-width: 992px) {
+			padding-top: 0px;
 		}
 	}
 	&__inner {
-		padding-left: 230px;
+		padding-left: 0px;	  
 		height: 100%;
-		@media (max-width: 991px) {
-		  height: 100%;
-		  padding-left: 0px;
+		@media (min-width: 992px) {
+			padding-left: 230px;
 		}
 	} 
 }
@@ -42,7 +42,7 @@
 	@media (max-width: 991px) {
 		min-height: 80vh;
 	}
-	@media (max-width: 768px) {
+	@media (max-width: 767px) {
 		text-align: center; 
 		padding: 10vh 0;  
 		height: 80vh;
@@ -56,7 +56,7 @@
 		text-align: center; 
 		padding: 30vh 10vh;  
 		height: 100vh;
-		@media (max-width: 768px) {
+		@media (max-width: 767px) {
 			text-align: center; 
 			padding: 12vh 2vh;  
 			height: 70vh;

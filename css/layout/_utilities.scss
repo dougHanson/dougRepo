@@ -79,15 +79,15 @@
   clip: rect(0, 0, 0, 0);
   border: 0; 
 }
-[hidden]			{ display: none !important; }
+[hidden] { display: none !important; }
 
 
 /* -------------------------------------
 //   Other
 /* ------------------------------------- */
 
-.full-width			{ width: 100%; }
-.show-all-content 	{ display: none; }
+.full-width { width: 100%; }
+.show-all-content { display: none; }  //hidden by default
 
 hr {
   border: 0;
