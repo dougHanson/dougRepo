@@ -147,7 +147,7 @@
 
 						<!-- 4 -->
 						<a href="bankwest.php" class="progressLoad">
-							<article class="work-item  show-all-content">
+							<article class="work-item">
 								<div class="work-item__drawings" id="drawings">
 									<img class="illustration" src="img/sunny.png" alt="" style="max-width: 250px; padding-top: 25px;" />
 									<?php echo file_get_contents("svg/sun.svg"); ?>															
@@ -163,7 +163,7 @@
 
 						<!-- 5		
 						<a href="fetch.php" class="progressLoad">
-							<article class="work-item showMore">
+							<article class="work-item show-all-content">
 								<div class="work-item__drawings" id="drawings">
 									<img class="illustration" src="img/fetch.png" alt="" style="max-width: 250px; padding-top: 25px;" />
 									<?php //echo file_get_contents("svg/fetch.svg"); ?>															

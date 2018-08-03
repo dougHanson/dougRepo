@@ -33,33 +33,29 @@
 /* ------------------------------------- */
 .hero-content {
 	background: url('../img/perth-bg.min.jpg') $grey-background;
-	min-height: 94vh;
 	background-position: center 15px;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
+  	text-align: center; 
+	height: 80vh;
 	margin-bottom: 0px;
-	@media (max-width: 991px) {
+  	padding: 14vh 0;
+	@media (min-width: 480px) {
 		min-height: 80vh;
+	  	padding: 10vh 0;
 	}
-	@media (max-width: 767px) {
-		text-align: center; 
-		padding: 10vh 0;  
-		height: 80vh;
+	@media (min-width: 768px) {
+		height: 94vh;
+		padding: 0;  
 	}
-	@media (max-width: 480px) {
-		text-align: center; 
-		padding: 14vh 0;  
-		height: 80vh;
-	}	
 	&__bg {
 		text-align: center; 
-		padding: 30vh 10vh;  
-		height: 100vh;
-		@media (max-width: 767px) {
-			text-align: center; 
-			padding: 12vh 2vh;  
-			height: 70vh;
+	  	padding: 12vh 2vh;  
+		height: 70vh;
+		@media (min-width: 768px) {
+		  padding: 30vh 10vh;  
+		  height: 100vh;
 		}	
 	}
 }

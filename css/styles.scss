@@ -3,28 +3,32 @@
 @import 'base/_reset'; 
 @import 'base/_bootstrap'; 
 
+
 // layout styles
 @import 'layout/_content';
 @import 'layout/_footer';
 @import 'layout/_utilities';
 
+
 // module styles 
-@import 'modules/_banners'; 
-@import 'modules/_nav'; 
-@import 'modules/_type'; 
-@import 'modules/_icons'; 
-@import 'modules/_buttons'; 
-@import 'modules/_tables'; 
-@import 'modules/_forms';
-@import 'modules/_images';
-@import 'modules/_workitems';
 @import 'modules/_skeleton';
-@import 'modules/_progress-bar'; 
-@import 'modules/_arrow-navigation'; 
-@import 'modules/_svganimations';
+@import 'modules/_type'; 
+@import 'modules/_nav'; 
+@import 'modules/_icons';
+@import 'modules/_images';
 @import 'modules/_mouse-scroll';
+@import 'modules/_workitems';
+@import 'modules/_svganimations';
+
+@import 'modules/_arrow-navigation'; 
 @import 'modules/_article-intro';
+@import 'modules/_banners'; 
+@import 'modules/_buttons'; 
+@import 'modules/_forms';
 @import 'modules/_lightbox';
+@import 'modules/_progress-bar';
+@import 'modules/_tables'; 
+
 
 // plugin styles
 @import 'plugins/_owl-carousel';

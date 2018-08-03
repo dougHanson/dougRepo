@@ -86,14 +86,16 @@
 //   Other
 /* ------------------------------------- */
 
-.full-width { width: 100%; }
-.show-all-content { display: none; }  //hidden by default
 
 hr {
   border: 0;
   border-top: 1px solid $grey-border;
   width: 83%;
 }
+
+.full-width { width: 100%; }
+
+.show-all-content { display: none; }  //hidden by default
 
 .fadeIn {
   animation-name: fadeIn;
