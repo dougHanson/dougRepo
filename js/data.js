@@ -42,7 +42,29 @@ var projects = {
 		//website: 'www.bankwest.com.au',
 		//website_url: '//www.bankwest.com.au',
 		thumbnail: 'bankwest-thumb.png'		
+	},
+	fetch: {
+		url: 'fetch.php',
+		title: 'Fetch AngularJS Build',
+		client: 'iiNet',
+		brand_colours: [ '#ff8200', '#d21f2a', '#808080', '#0090ab' ],
+		skills: ['AngularJS', 'Adobe Photoshop', 'HTML', 'SASS', 'UI design'],
+		year: '2017',
+		website: 'www.iinet.net.au',
+		website_url: '//www.iinet.net.au/internet-products/broadband/naked-dsl',
+		thumbnail: 'fetch-thumb.png'		
+	},
+	portfolio: {
+		url: 'portfolio.php',
+		title: 'Portfolio Website',
+		client: 'Doug Hanson',
+		brand_colours: [ '#727c7d', '#5bc0de', '#d5c3aa' ],
+		skills: ['JQuery', 'Javascript', 'UI design', 'HTML', 'SASS', 'Gulp', 'PHP'],
+		year: '2018',
+		website: '~doug.hanson',
+		website_url: '//members.iinet.net.au/~doug.hanson/',
+		thumbnail: 'portfolio-thumb.png'		
 	}
 }; 
 
-var projectOrder = ["product_page_redesign", "mobii_manager", "multicomm", "bankwest"]; 
+var projectOrder = ["product_page_redesign", "mobii_manager", "multicomm", "bankwest"];//, "fetch", "portfolio"]; 
