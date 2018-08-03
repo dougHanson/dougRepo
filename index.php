@@ -11,7 +11,10 @@
 	<meta name="keywords" content="web design, designer, web development, front end developer, ux design, perth, doug hanson">
 	
 	<!-- build:css -->
-	<link rel="stylesheet" href="css/styles.css" media="all">
+	<link rel="stylesheet" href="css/styles.min.css" media="all">
+	<style>
+		.wrapper { opacity: 0; transition: all 200ms; } /* hide content until DOM ready */
+	</style>
 	<!-- endbuild -->
 
 	<?php //include('/inc/_favicons.php'); ?>
@@ -56,7 +59,7 @@
 <?php include('inc/_nav.php'); ?>
       
   <!-- body content -->
-	<section class="wrapper__outer">
+	<div class="wrapper__outer">
 		<div class="wrapper__inner"> 
 	
 			<!-- ###############################
@@ -144,7 +147,7 @@
 
 						<!-- 4 -->
 						<a href="bankwest.php" class="progressLoad">
-							<article class="work-item">
+							<article class="work-item show-all-content">
 								<div class="work-item__drawings" id="drawings">
 									<img class="illustration" src="img/sunny.png" alt="" style="max-width: 250px; padding-top: 25px;" />
 									<?php echo file_get_contents("svg/sun.svg"); ?>															
@@ -158,12 +161,12 @@
 						</a>
 
 
-						<!-- 5		
+						<!-- 5
 						<a href="fetch.php" class="progressLoad">
 							<article class="work-item show-all-content">
 								<div class="work-item__drawings" id="drawings">
-									<img class="illustration" src="img/fetch.png" alt="" style="max-width: 250px; padding-top: 25px;" />
-									<?php //echo file_get_contents("svg/fetch.svg"); ?>															
+									<img class="illustration" src="img/fetch-mini.png" alt="" style="max-width: 250px; padding-top: 25px;" />
+									<?php echo file_get_contents("svg/fetch.svg"); ?>															
 								</div> 
 
 								<div class="work-item__content">
@@ -172,14 +175,15 @@
 								</div>
 							</article>
 						</a>
-						 -->						
+						 	-->					
 
 					</div>				
 
 					<!-- show all btn -->
-					<!--<div class="col-sm-12 text-center">
+					<div class="col-sm-12 text-center">
+						<!--<a class="show-all-btn margin-top-40 subheading h3">Show all</a>-->
 						<button class="button progressLoad text-center show-all-btn margin-top-40">Show all</button>
-					</div>	-->
+					</div>
 				
 				</div>
 
@@ -359,7 +363,7 @@
 					</div>
 
 					<div class="col-sm-12 text-center">
-						<button class="button button--primary progressLoad text-right" name="submitted">&nbsp; Send message &nbsp;</button>
+						<button class="button button--primary progressLoad text-right" name="submitted">Send message</button>
 					</div>
 				</form>
 				<!-- end mailform -->
@@ -370,16 +374,16 @@
 			
           
     </div>
-    <!-- end wrapper__outer --> 
+    <!-- end wrapper__inner --> 
 		
-  </section>
-  <!-- end wrapper -->
+  </div>
+  <!-- end wrapper__outer -->
 	
   <div class="clearfix"> </div>
 
       
 </div>
-<!-- end body content --> 
+<!-- end wrapper -->
 	
 <!-- include footer --> 	
 <?php include('inc/_footer.php'); ?>

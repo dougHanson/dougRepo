@@ -9,8 +9,6 @@
 /* ------------------------------------- */
 .wrapper { 
 	position: relative;
-    opacity: 0; 
-  	transition: all 200ms;  /* hide content until DOM ready */
 	&__outer {
 		margin: 1.5vw 1.5vw 0 1.5vw;
 		opacity: 0; 
