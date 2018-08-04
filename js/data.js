@@ -45,13 +45,13 @@ var projects = {
 	},
 	fetch: {
 		url: 'fetch.php',
-		title: 'Fetch AngularJS Build',
+		title: 'Fetch TV Offer',
 		client: 'iiNet',
 		brand_colours: [ '#ff8200', '#d21f2a', '#808080', '#0090ab' ],
-		skills: ['AngularJS', 'Adobe Photoshop', 'HTML', 'SASS', 'UI design'],
+		skills: ['AngularJS', 'HTML', 'Adobe Photoshop', 'SASS', 'UI design', 'UX design'],
 		year: '2017',
-		website: 'www.iinet.net.au',
-		website_url: '//www.iinet.net.au/internet-products/broadband/naked-dsl',
+		website: 'www.iinet.net.au/tv/fetch',
+		website_url: '//www.iinet.net.au/tv/fetch',
 		thumbnail: 'fetch-thumb.png'		
 	},
 	portfolio: {
@@ -67,4 +67,4 @@ var projects = {
 	}
 }; 
 
-var projectOrder = ["product_page_redesign", "mobii_manager", "multicomm", "bankwest"];//, "fetch", "portfolio"]; 
+var projectOrder = ["product_page_redesign", "mobii_manager", "multicomm", "bankwest", "fetch"];//, "portfolio"]; 

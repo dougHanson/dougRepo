@@ -62,7 +62,9 @@
 							<p class="h3 subheading padding-0 margin-0">The process</p>
 							<p>As this page was being built from scratch, I started by using <a href="http://styletil.es/">Style Tiles</a> to <strong>communicate the visual elements of the online brand</strong> to the client. After further requirements gathering I was able to produce templated <strong>web designs</strong> for the homepage, category pages and content&nbsp;pages.</p>
 							
-							<img src="img/loading.gif" data-src="img/multicomm-business.jpg" alt="Multicomm Website Screenshot" class="lazy-load img-center img-shadow margin-bottom-40">
+							<div class="item">
+								<a href="img/multicomm-business.jpg" data-lightbox="Multicomm" data-title="Multicomm Web Design"><img src="img/loading.gif" data-src="img/multicomm-business.jpg" alt="Multicomm Website Screenshot" class="lazy-load img-center img-shadow margin-bottom-40"></a>
+							</div>
 							
 							<p class="h3 subheading padding-0 margin-top-40 margin-bottom-0">The build</p>
 							<p>For the build, I chose to use <strong>Bootstrap</strong> as my <strong>CSS framework</strong>, as it would allow for rapid <strong>web development</strong>. I used a basic <strong>PHP mail script</strong> to add functionality to the form, and leveraged the <strong>Google Maps API</strong> to display the client's three office locations on the one&nbsp;map.</p>

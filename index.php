@@ -161,12 +161,12 @@
 						</a>
 
 
-						<!-- 5
+						<!-- 5 -->
 						<a href="fetch.php" class="progressLoad">
 							<article class="work-item show-all-content">
 								<div class="work-item__drawings" id="drawings">
 									<img class="illustration" src="img/fetch-mini.png" alt="" style="max-width: 250px; padding-top: 25px;" />
-									<?php echo file_get_contents("svg/fetch.svg"); ?>															
+									<?php echo file_get_contents("svg/fetch-mini.svg"); ?>															
 								</div> 
 
 								<div class="work-item__content">
@@ -175,7 +175,7 @@
 								</div>
 							</article>
 						</a>
-						 	-->					
+						 						
 
 					</div>				
 

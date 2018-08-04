@@ -60,9 +60,11 @@
 
 							<p class="h3 subheading padding-0 margin-0">The process</p>
 							<p>To begin gathering <strong>user requirements</strong>, I conducted a <strong>focus group</strong> with customer service reps, to identify pain points with the existing design. This gave insight not only into what users like and dislike, but also what users do, how they do it, and what frustrates them. I then conducted an <strong>expert review</strong> and a <strong>competitor analysis</strong>, to investigate the best way to solve the identified problems.</p>
-							<p>Iterations of <strong>wireframes and designs</strong> followed, and reviewed by key stakeholders at each major step. Once a very basic <strong>prototype</strong> was ready, <strong>user testing sessions</strong> were then conducted with a handful of users, which allowed us to identify any remaining issues and refine the design&nbsp;further.</p>
+							<p>Iterations of <strong>wireframes and designs</strong> followed, and reviewed by key stakeholders at each major step. Once a very basic <strong>prototype</strong> was ready using InVision App, <strong>user testing sessions</strong> were then conducted with a handful of users, which allowed us to identify any remaining issues and refine the design&nbsp;further.</p>
 
-							<img src="img/loading.gif" data-src="img/iinet-plan-pages-naked-dsl.png" alt="iiNet Product Page Refresh" class="lazy-load img-shadow img-center margin-bottom-20">
+							<div class="item">
+								<a href="img/iinet-plan-pages-naked-dsl.png" data-lightbox="DSL" data-title="DSL Web Design"><img src="img/loading.gif" data-src="img/iinet-plan-pages-naked-dsl.png" alt="iiNet Product Page Refresh" class="lazy-load img-shadow img-center margin-bottom-20"></a>
+							</div>
 							<p>&nbsp;</p>
 							
 							<p class="h3 subheading padding-0 margin-0">The build</p>

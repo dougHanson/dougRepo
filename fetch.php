@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<title>Fetch AngularJS Web Application | Doug Hanson | Web Development and Design, Perth</title>
-	<meta name="description" content="Website rebuild case study by Doug Hanson, a web designer and front end developer from Perth, Western Australia.">
+	<meta name="description" content="AngularJS web application case study by Doug Hanson, a front end web developer in Perth, Western Australia.">
 	<meta name="keywords" content="fetch, web design, designer, web development, front end developer, ux design, iinet, perth, doug hanson">
 
 	<!-- build:css -->
@@ -35,7 +35,7 @@
 				<!-- header image -->
 				<header class="header">
 					<div class="bg-img">
-						<img data-src="img/fetch.jpg" class="lazy-load" alt="Fetch TV" />
+						<img data-src="img/fetch-header.png" class="lazy-load" alt="Fetch TV" />
 					</div>
 				</header>
 
@@ -56,12 +56,14 @@
 						<div class="col-lg-9">
 														
 							<p class="h3 subheading padding-0 margin-0">At a glance</p>
-							<p>Lorem ipsum.</p>
+							<p>iiNet was promoting a Fetch TV offer which enabled users to purchase discounted Fetch hardware and one channel pack for $10, and individual channel packs for $6 each, when purchasing internet on a 24 month contract. Users could also upgrade the Fetch set top box to a Fetch Mighty for an additional $250, and could purchase up to three boxes. The challenges came from showcasing a detailed offer without confusing the end users, and programming the complexities in <strong>AngularJS</strong>. </p>
 
 							<p class="h3 subheading padding-0 margin-0">The process</p>
-							<p>lorem ipsum.</p>
+							<p>After meeting with the Marketing &amp; Products teams to determine the most important features to promote, multiple <strong>mobile first wireframes</strong> and eventually <strong>web designs</strong> were worked up in Photoshop, to play with how the information could be laid out while providing a seamless <strong>user experience</strong>. To make things easier to use, additional options such as upgrading hardware and purchasing Ultimate Channel Pack were only revealed to the user once they had opted to purchase a basic Fetch subscription.</p>
 
-							<img src="img/loading.gif" data-src="img/fetch.png" alt="" class="lazy-load img-shadow img-center margin-bottom-20">
+							<div class="item">
+								<a href="img/fetch.gif" data-lightbox="fetch" data-title="Fetch TV UI Design"><img src="img/loading.gif" data-src="img/fetch.gif" class="lazy-load img-responsive img-center img-shadow" /></a>
+							</div>				
 							<p>&nbsp;</p>
 							
 							<p class="h3 subheading padding-0 margin-0">The build</p>
@@ -69,8 +71,8 @@
 
 							
 							<div class="item margin-bottom-20">
-								<a href="img/iinet-plan-pages-code.png" data-lightbox="code" data-title="Sample of AngularJS code">
-									<img src="img/loading.gif" data-src="img/iinet-plan-pages-code.png" alt="Sample AngularJS code" class="lazy-load img-shadow img-center">
+								<a href="img/fetch-angular-js.png" data-lightbox="code" data-title="Sample of AngularJS code">
+									<img src="img/loading.gif" data-src="img/fetch-angular-js.png" alt="Sample AngularJS code" class="lazy-load img-shadow img-center">
 								</a>
 							</div>
 							<p>&nbsp;</p>

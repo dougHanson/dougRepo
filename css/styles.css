@@ -945,10 +945,7 @@ section {
 //   Wrappers
 /* ------------------------------------- */
 .wrapper {
-  position: relative;
-  opacity: 0;
-  transition: all 200ms;
-  /* hide content until DOM ready */ }
+  position: relative; }
   .wrapper__outer {
     margin: 1.5vw 1.5vw 0 1.5vw;
     opacity: 0;
@@ -2520,9 +2517,6 @@ button.trigger span::before {
   @media (min-width: 768px) {
     .intro-effect-jam3 .title {
       top: 230px; } }
-  @media (min-width: 992px) {
-    .intro-effect-jam3 .title {
-      top: 250px; } }
 
 .intro-effect-jam3.modify .bg-img {
   top: 0;
@@ -2830,6 +2824,66 @@ button.trigger span::before {
       right: 15%;
       top: -90px;
       width: 500px; } }
+
+/* -------------------------------------
+//   Mobii Manager banner
+/* ------------------------------------- */
+#fetch .title h1 {
+  background: rgba(255, 255, 255, 0.8);
+  color: #636362;
+  padding: 15px; }
+
+#fetch .intro-effect-jam3.modify .title {
+  top: 150px; }
+  @media (min-width: 768px) {
+    #fetch .intro-effect-jam3.modify .title {
+      top: 250px; } }
+  #fetch .intro-effect-jam3.modify .title h1 {
+    background: none;
+    padding: 0; }
+    @media (min-width: 992px) {
+      #fetch .intro-effect-jam3.modify .title h1 {
+        background: none;
+        margin-top: -10px; } }
+
+#fetch .bg-img {
+  background: rgba(247, 143, 29, 0.4);
+  background: -webkit-linear-gradient(to left, rgba(0, 155, 228, 0.3), rgba(241, 12, 105, 0.3));
+  background: linear-gradient(to right, rgba(0, 155, 228, 0.3), rgba(241, 12, 105, 0.3)); }
+  #fetch .bg-img img {
+    top: 20px;
+    right: -160px;
+    min-width: auto;
+    min-height: auto;
+    width: 725px; }
+    @media (min-width: 768px) {
+      #fetch .bg-img img {
+        right: 0px; } }
+    @media (min-width: 992px) {
+      #fetch .bg-img img {
+        right: 30px; } }
+    @media (min-width: 1670px) {
+      #fetch .bg-img img {
+        right: 10%; } }
+
+#fetch .intro-effect-jam3.modify .bg-img img {
+  top: 0px;
+  right: -40px;
+  width: 400px; }
+  @media (min-width: 768px) {
+    #fetch .intro-effect-jam3.modify .bg-img img {
+      right: -20px;
+      width: 582px; } }
+  @media (min-width: 992px) {
+    #fetch .intro-effect-jam3.modify .bg-img img {
+      top: -40px;
+      right: 80px;
+      width: 650px; } }
+  @media (min-width: 1670px) {
+    #fetch .intro-effect-jam3.modify .bg-img img {
+      right: 10%;
+      top: 0px;
+      width: 640px; } }
 
 /* *************************************
 //   BUTTONS  [modules/_buttons.scss]

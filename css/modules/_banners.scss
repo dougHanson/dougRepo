@@ -282,3 +282,73 @@
 		}
 	}
 }
+
+
+
+/* -------------------------------------
+//   Mobii Manager banner
+/* ------------------------------------- */
+#fetch {
+	.title h1 {
+		background: rgba(255, 255, 255, 0.8); 
+		color: $grey-6; 
+		padding: 15px; 
+	}
+
+	.intro-effect-jam3.modify .title { 
+		top: 150px; 
+		@media (min-width: 768px) {
+			top: 250px; 
+		}
+		h1 {
+			background: none;
+			padding: 0;			
+			@media (min-width: 992px) {
+				background: none;
+				margin-top: -10px; 
+			}
+		}
+	}
+	
+	.bg-img {	
+		background: rgba(247,143,29,.4); 
+		background: -webkit-linear-gradient(to left, rgba(0,155,228,.3), rgba(241,12,105,.3)); 
+		background: linear-gradient(to right, rgba(0,155,228,.3), rgba(241,12,105,.3)); 
+		img { 
+			top: 20px; 
+			right: -160px; 
+			min-width: auto; 
+			min-height: auto; 
+			width: 725px;
+			@media (min-width: 768px) {
+				right: 0px;
+			}
+			@media (min-width: 992px) {
+				right: 30px; 
+			}
+			@media (min-width: 1670px) {
+				right: 10%; 
+			}
+		}	
+	}			
+ 
+	.intro-effect-jam3.modify .bg-img img { 
+		top: 0px;
+		right: -40px; 			 
+		width: 400px; 
+		@media (min-width: 768px) {
+			right: -20px; 				
+			width: 582px; 
+		}		
+		@media (min-width: 992px) {
+			top: -40px;
+			right: 80px;
+			width: 650px;
+		}
+		@media (min-width: 1670px) {
+			right: 10%; 
+			top: 0px; 
+			width: 640px; 		
+		}			
+	}
+}
