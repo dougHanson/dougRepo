@@ -103,7 +103,7 @@
 						<a href="iinet-plan-pages.php" class="progressLoad">
 							<article class="work-item col-lg-4">
 								<div class="work-item__drawings" id="drawings">
-									<img class="lazy-load illustration" data-src="img/finn-balloons.png" alt="" style="max-width: 244px;" />
+									<img class="illustration" src="img/finn-balloons.png" alt="" style="max-width: 244px;" />
 									<?php echo file_get_contents("svg/finn.svg"); ?>
 								</div>
 
@@ -118,7 +118,7 @@
 						<a href="mobii-manager.php" class="progressLoad">
 							<article class="work-item col-lg-4">
 								<div class="work-item__drawings" id="drawings">
-									<img class="lazy-load illustration" data-src="img/mobii-manager.png" alt="" style="max-width: 300px;" />
+									<img class="illustration" src="img/mobii-manager.png" alt="" style="max-width: 300px;" />
 									<?php echo file_get_contents("svg/galaxy-phone.svg"); ?>
 								</div>
 
@@ -133,7 +133,7 @@
 						<a href="multicomm.php" class="progressLoad">
 							<article class="work-item col-lg-4">
 								<div class="work-item__drawings" id="drawings">
-									<img class="lazy-load illustration" data-src="img/multicomm.png" alt="" style="max-width: 300px; padding-top:15px;" />
+									<img class="illustration" src="img/multicomm.png" alt="" style="max-width: 300px; padding-top:15px;" />
 									<?php echo file_get_contents("svg/multicomm.svg"); ?>
 								</div>
 
@@ -161,12 +161,12 @@
 						</a>
 
 
-						<!-- 5 -->
+						<!-- 5
 						<a href="fetch.php" class="progressLoad">
 							<article class="work-item show-all-content">
 								<div class="work-item__drawings" id="drawings">
 									<img class="illustration" src="img/fetch-mini.png" alt="" style="max-width: 250px; padding-top: 25px;" />
-									<?php echo file_get_contents("svg/fetch-mini.svg"); ?>															
+									<?php //echo file_get_contents("svg/fetch-mini.svg"); ?>															
 								</div> 
 
 								<div class="work-item__content">
@@ -175,7 +175,7 @@
 								</div>
 							</article>
 						</a>
-						 						
+						 	-->					
 
 					</div>				
 

@@ -78,7 +78,7 @@
 			
 			// Draw the image in on mobiles only
 			if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-			 this.showImage();  // ## shows the full image once svg path is completely shown
+				this.showImage();  // ## shows the full image once svg path is completely shown
 			}					
 
 		} 

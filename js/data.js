@@ -67,4 +67,4 @@ var projects = {
 	}
 }; 
 
-var projectOrder = ["product_page_redesign", "mobii_manager", "multicomm", "bankwest", "fetch"];//, "portfolio"]; 
+var projectOrder = ["product_page_redesign", "mobii_manager", "multicomm", "bankwest"];//, "fetch"];//, "portfolio"]; 
