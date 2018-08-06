@@ -56,7 +56,7 @@
 						<div class="col-lg-9">
 														
 							<p class="h3 subheading padding-0 margin-0">At a glance</p>
-							<p>iiNet was promoting a Fetch TV offer which enabled users to purchase discounted Fetch hardware and one channel pack for $10, and individual channel packs for $6 each, when purchasing internet on a 24 month contract. Users could also upgrade the Fetch set top box to a Fetch Mighty for an additional $250, and could purchase up to three boxes. The challenges came from showcasing a detailed offer without confusing the end users, and programming the complexities in <strong>AngularJS</strong>. </p>
+							<p>iiNet was promoting a Fetch TV offer which enabled users to purchase discounted Fetch hardware and one channel pack for $10, and individual channel packs for $6 each, when purchasing internet on a 24 month contract. Users could also upgrade the Fetch set top box to a Fetch Mighty for an additional $250, and could purchase up to three set top boxes. The challenges came from showcasing a detailed offer without confusing our end users, and programming the complexities in <strong>AngularJS</strong>. </p>
 
 							<p class="h3 subheading padding-0 margin-0">The process</p>
 							<p>After meeting with the Marketing &amp; Products teams to determine the most important features to promote, multiple <strong>mobile first wireframes</strong> and eventually <strong>web designs</strong> were worked up in Photoshop, to play with how the information could be laid out while providing a seamless <strong>user experience</strong>. To make things easier to use, additional options such as upgrading hardware and purchasing Ultimate Channel Pack were only revealed to the user once they had opted to purchase a basic Fetch subscription.</p>
@@ -67,8 +67,8 @@
 							<p>&nbsp;</p>
 							
 							<p class="h3 subheading padding-0 margin-0">The build</p>
-							<p>lorem ipsum.</p>
-
+							<p>Following suit from the web designs, I began the build using a <strong>mobile first approach using HTML and SASS</strong>. This allowed me to add additional <strong>CSS media queries</strong> to style the content as the window size increased. <strong>Browser and display testing</strong> was then carried out to ensure the display was <strong>platform&nbsp;agnostic</strong>.</p>
+							<p>The single page <strong>AngularJS web application</strong> proved quite challenging, as there was a large number of moving parts. To keep the authoring experience clean, I ensured that <strong>best coding pracitces</strong> were used, such as avoiding global variables, and using directives only for DOM manipulation. Robust testing was carried out throughout the web development&nbsp;phase.</p>
 							
 							<div class="item margin-bottom-20">
 								<a href="img/fetch-angular-js.png" data-lightbox="code" data-title="Sample of AngularJS code">
@@ -79,16 +79,16 @@
 											
 
 							<p class="h3 subheading padding-0 margin-0">The result</p>
-							<p>lorem ipsum.</p>
+							<p>Fetch can now be purchased with any eligible Internet service on the iiNet website. Since this implementation the UI has changed somewhat, to keep up with changing business priorities.</p>
 
 							<!-- additional screenshots -->
-							<p class="h3 subheading padding-0 margin-top-40">Additional screenshots</p>
+							<!--<p class="h3 subheading padding-0 margin-top-40">Additional screenshots</p>
 							<div class="owl-carousel owl-theme">
 								<div class="item">
 									<a href="img/iinet-plan-pages-mobile-banner.png" data-lightbox="iinet-plan-pages" data-title="Campaign banner"><img src="img/loading.gif" data-src="img/iinet-plan-pages-mobile-banner.png" class="lazy-load img-center" /></a>
 								</div>
 							</div>
-							<p class="margin-bottom-40">&nbsp;</p>
+							<p class="margin-bottom-40">&nbsp;</p>-->
 
 						</div>
 						<!-- end page specific content -->
