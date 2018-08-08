@@ -150,7 +150,9 @@
 							<article class="work-item show-all-content">
 								<div class="work-item__drawings" id="drawings">
 									<img class="illustration" src="img/sunny.png" alt="" style="max-width: 250px; padding-top: 25px;" />
-									<?php echo file_get_contents("svg/sun.svg"); ?>															
+									<?php echo file_get_contents("svg/sun.svg"); ?>	
+									
+									
 								</div> 
 
 								<div class="work-item__content">

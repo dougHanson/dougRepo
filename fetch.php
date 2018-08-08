@@ -35,7 +35,7 @@
 				<!-- header image -->
 				<header class="header">
 					<div class="bg-img">
-						<img data-src="img/fetch-header.png" class="lazy-load" alt="Fetch TV" />
+						<img src="img/fetch-header.min.png" data-src="img/fetch-header.png" class="lazy-load" alt="Fetch TV" />
 					</div>
 				</header>
 
@@ -68,7 +68,7 @@
 							
 							<p class="h3 subheading padding-0 margin-0">The build</p>
 							<p>Following suit from the web designs, I began the build using a <strong>mobile first approach using HTML and SASS</strong>. This allowed me to add additional <strong>CSS media queries</strong> to style the content as the window size increased. <strong>Browser and display testing</strong> was then carried out to ensure the display was <strong>platform&nbsp;agnostic</strong>.</p>
-							<p>The single page <strong>AngularJS web application</strong> proved quite challenging, as there was a large number of moving parts. To keep the authoring experience clean, I ensured that <strong>best coding pracitces</strong> were used, such as avoiding global variables, and using directives only for DOM manipulation. Robust testing was carried out throughout the web development&nbsp;phase.</p>
+							<p>The single page <strong>AngularJS web application</strong> proved quite challenging, as there was a large number of moving parts. To keep the authoring experience clean, I ensured that <strong>best coding pracitces</strong> were used, such as avoiding global variables, and using directives only for DOM manipulation. Robust testing was carried out throughout the <strong>web development</strong>&nbsp;phase.</p>
 							
 							<div class="item margin-bottom-20">
 								<a href="img/fetch-angular-js.png" data-lightbox="code" data-title="Sample of AngularJS code">

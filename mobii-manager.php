@@ -35,7 +35,7 @@
 				<!-- header image -->
 				<header class="header">
 					<div class="bg-img">
-						<img class="lazy-load" data-src="img/mobii-header.png" alt="Mobile App Design" />
+						<img class="lazy-load" src="img/mobii-header.min.png" data-src="img/mobii-header.png" alt="Mobile App Design" />
 					</div>
 				</header>
 
