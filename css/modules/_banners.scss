@@ -17,6 +17,12 @@
 		h1 { 
 			background: none; 
 			color: $grey-6; 
+			line-height: 1.3em;
+			margin-top: -10px;
+			@media (min-width: 353px) {
+				margin-top: 0;
+				line-height: inherit;
+			}
 			@media (min-width: 992px) {
 				margin-top: -10px;	
 			}				
@@ -25,10 +31,6 @@
 
 	.intro-effect-jam3.modify .title { 
 		background: none; 
-		top: 150px; 
-		@media (min-width: 768px) {
-			top: 230px;
-		}
 		h1 { 
 			padding: 0; 
 		}	
@@ -86,10 +88,6 @@
 	}
 
 	.intro-effect-jam3.modify .title { 
-		top: 150px; 
-		@media (min-width: 768px) {
-			top: 230px; 
-		}
 		h1 {
 			background: none;
 			@media (min-width: 992px) {
@@ -162,13 +160,6 @@
 
 	.intro-effect-jam3.modify .title { 
 		background: none; 
-		top: 150px; 
-		@media (min-width: 768px) {
-			top: 230px;
-		}
-		@media (min-width: 992px) {
-		  	top: 250px;
-		}
 		h1 { 
 			padding: 0; 
 			@media (min-width: 992px) {
@@ -224,11 +215,18 @@
 	.intro-effect-jam3.modify .title {  
 		h1 { 
 			background: none; 
-			margin-top: -10px; 
+			//margin-top: -10px; 
 			padding: 0; 
+			line-height: 1.3em;
 			@media (min-width: 375px) {
-				 margin-top: 0px; 
+				// margin-top: 0px; 
+				padding: 15px 0; 
+				line-height: inherit;
 			}
+			@media (min-width: 768px) {
+				// margin-top: 0px; 
+				padding: 0; 
+			}			
 		}
 	}
 
@@ -286,22 +284,29 @@
 
 
 /* -------------------------------------
-//   Mobii Manager banner
+//   Fetch banner
 /* ------------------------------------- */
 #fetch {
 	.title h1 {
-		background: rgba(255, 255, 255, 0.8); 
-		color: $grey-6; 
+		background: rgba(55, 55, 55, 0.8); 
+		color: #fff; 
 		padding: 15px; 
+		@media (min-width: 1360px) {
+			background: none;
+		}		
 	}
 
 	.intro-effect-jam3.modify .title { 
-		top: 150px; 
+		//top: 160px; 
 		@media (min-width: 768px) {
-			top: 250px; 
+			//top: 230px; 
 		}
+		@media (min-width: 992px) {
+			//top: 250px; 
+		}		
 		h1 {
 			background: none;
+			color: $grey-6; 
 			padding: 0;			
 			@media (min-width: 992px) {
 				background: none;
@@ -312,21 +317,27 @@
 	
 	.bg-img {	
 		background: rgba(247,143,29,.4); 
-		background: -webkit-linear-gradient(to left, rgba(0,155,228,.3), rgba(241,12,105,.3)); 
-		background: linear-gradient(to right, rgba(0,155,228,.3), rgba(241,12,105,.3)); 
+		background: -webkit-linear-gradient(to left, rgba(0,155,228,.6), rgba(241,12,105,.6)); 
+		background: linear-gradient(to right, rgba(0,155,228,.8), rgba(241,12,105,.3)); 
 		img { 
-			top: 20px; 
+			top: 60px; 
 			right: -160px; 
 			min-width: auto; 
 			min-height: auto; 
-			width: 725px;
-			@media (min-width: 768px) {
+			width: 400px;
+			@media (min-width: 640px) {
 				right: 0px;
 			}
-			@media (min-width: 992px) {
-				right: 30px; 
+			@media (min-width: 768px) {
+				right: -40px;
+				top: 90px;
+				width: 500px;
 			}
-			@media (min-width: 1670px) {
+			@media (min-width: 992px) {
+				right: 0px; 
+				top: 100px;
+			}
+			@media (min-width: 1360px) {
 				right: 10%; 
 			}
 		}	
@@ -336,19 +347,15 @@
 		top: 0px;
 		right: -40px; 			 
 		width: 400px; 
-		@media (min-width: 768px) {
-			right: -20px; 				
-			width: 582px; 
+		@media (min-width: 600px) {
+			right: 0px; 				
 		}		
-		@media (min-width: 992px) {
-			top: -40px;
-			right: 80px;
-			width: 650px;
-		}
-		@media (min-width: 1670px) {
-			right: 10%; 
-			top: 0px; 
-			width: 640px; 		
+		@media (min-width: 768px) {
+			right: 10%; 				
+			width: 550px; 
+		}		
+		@media (min-width: 1360px) {
+			right: 15%; 		
 		}			
 	}
 }
