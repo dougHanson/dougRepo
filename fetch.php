@@ -75,7 +75,8 @@
 									<img src="img/loading.gif" data-src="img/fetch-angular-js.png" alt="Sample AngularJS code" class="lazy-load img-shadow img-center">
 								</a>
 							</div>
-							<p>&nbsp;</p>											
+							<p>&nbsp;</p>
+											
 
 							<p class="h3 subheading padding-0 margin-0">The result</p>
 							<p>Fetch can now be purchased with any eligible Internet service on the iiNet website. Since this implementation the UI has changed somewhat, to keep up with changing business priorities.</p>
@@ -105,5 +106,28 @@
 	<!-- include footer -->
 	<?php include('inc/_footer.php'); ?>
 
-
+	<!-- page specific scripts -->
+	<script>
+		// OWL CAROUSEL - initiate Owl Carousel plugin 
+		$('.owl-carousel').owlCarousel({
+			stagePadding: 0,
+			lazyLoad: true,
+			loop: false,
+			margin: 10,
+			nav: false,
+			responsive: {
+				0: {
+					items: 1
+				},
+				600: {
+					items: 1
+				},
+				1400: {
+					items: 2
+				}
+			}
+		});
+	</script>
+	
+	
 </body>

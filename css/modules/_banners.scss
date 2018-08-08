@@ -338,8 +338,15 @@
 				top: 100px;
 			}
 			@media (min-width: 1360px) {
-				right: 10%; 
+				top: 70px;
+				right: 7%; 
+				width: 550px;
 			}
+			@media (min-width: 1600px) {
+				top: 50px;
+				right: 15%; 
+				width: 600px;
+			}			
 		}	
 	}			
  

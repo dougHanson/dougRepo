@@ -2855,7 +2855,14 @@ button.trigger span::before {
         top: 100px; } }
     @media (min-width: 1360px) {
       #fetch .bg-img img {
-        right: 10%; } }
+        top: 70px;
+        right: 7%;
+        width: 550px; } }
+    @media (min-width: 1600px) {
+      #fetch .bg-img img {
+        top: 50px;
+        right: 15%;
+        width: 600px; } }
 
 #fetch .intro-effect-jam3.modify .bg-img img {
   top: 0px;
