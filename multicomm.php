@@ -7,12 +7,12 @@
 	<meta name="author" content="Doug Hanson">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<title>Multicomm Website | Doug Hanson | Web Design and Development, Perth</title>
+	<title>Website Development for Multicomm | Doug Hanson | Web Design and Development, Perth</title>
 	<meta name="description" content="A case study of a freelance web development project by Doug Hanson, a web designer and front end developer from Perth, Western Australia.">
 	<meta name="keywords" content="multicomm, web design, designer, web development, front end developer, ux design, perth, doug hanson">
 
 	<!-- build:css -->
-	<link rel="stylesheet" href="css/styles.css" media="all">
+	<link rel="stylesheet" href="css/styles.min.css" media="all">
 	<!-- endbuild -->
 
 </head>

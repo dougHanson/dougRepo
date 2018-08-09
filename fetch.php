@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
 
-<head>
+<head>	
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="author" content="Doug Hanson">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<title>Fetch AngularJS Web Application | Doug Hanson | Web Development and Design, Perth</title>
+	<title>AngularJS Web Application for iiNet Fetch TV | Doug Hanson | Web Development and Design, Perth</title>
 	<meta name="description" content="AngularJS web application case study by Doug Hanson, a front end web developer in Perth, Western Australia.">
 	<meta name="keywords" content="fetch, web design, designer, web development, front end developer, ux design, iinet, perth, doug hanson">
 
 	<!-- build:css -->
-	<link rel="stylesheet" href="css/styles.css" media="all">
+	<link rel="stylesheet" href="css/styles.min.css" media="all">
 	<!-- endbuild -->
 
 </head>

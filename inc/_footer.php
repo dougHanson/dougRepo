@@ -57,7 +57,6 @@
 <script src="js/data.js"></script> 
 <script src="js/plugins/lozad.min.js"></script>
 <script src="js/plugins/classie.js"></script>  
-<!--<script src="js/plugins/jquery.ui.touch-punch.min.js"></script>-->
 <script src="js/plugins/svganimations.js"></script>	
 <script src="js/plugins/owl.carousel.min.js"></script> 
 <script src="js/plugins/lightbox.js"></script>

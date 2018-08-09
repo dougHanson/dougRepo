@@ -7,12 +7,12 @@
 	<meta name="author" content="Doug Hanson">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<title>Bankwest Digital Creative | Doug Hanson | Digital Design and Development, Perth</title>
+	<title>Digital Creative for Bankwest | Doug Hanson | Digital Design and Development, Perth</title>
 	<meta name="description" content="Digital creative and web design developed by Doug Hanson for Bankwest in Perth, Western Australia.">
 	<meta name="keywords" content="bankwest, digital creative, web design, digital designer, web development, front end developer, ux design, perth, doug hanson">
 
 	<!-- build:css -->
-	<link rel="stylesheet" href="css/styles.css" media="all">
+	<link rel="stylesheet" href="css/styles.min.css" media="all">
 	<!-- endbuild -->
 
 </head>

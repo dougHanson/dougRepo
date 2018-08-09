@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
+<!-- 
+   ___                   __ __                      
+  / _ \___  __ _____ _  / // /__ ____  ___ ___  ___ 
+ / // / _ \/ // / _ `/ / _  / _ `/ _ \(_-</ _ \/ _ \
+/____/\___/\_,_/\_, / /_//_/\_,_/_//_/___/\___/_//_/
+               /___/                               
+-->		
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="author" content="Doug Hanson">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
 	
-	<title>Doug Hanson | Web Development Perth</title>
+	<title>Doug Hanson | Web Development and Design, Perth</title>
 	<meta name="description" content="Doug Hanson is a web designer and front end web developer from Perth, Western Australia.">
 	<meta name="keywords" content="web design, designer, web development, front end developer, ux design, perth, doug hanson">
 	
 	<!-- build:css -->
-	<link rel="stylesheet" href="css/styles.css" media="all">
+	<link rel="stylesheet" href="css/styles.min.css" media="all">
 	<style>
 		.wrapper { opacity: 0; transition: all 200ms; } /* hide content until DOM ready */
 	</style>
@@ -176,8 +183,7 @@
 									<h2 class="h5 subheading">web design / web development</h2>
 								</div>
 							</article>
-						</a>
-						 				
+						</a>						 				
 
 					</div>				
 

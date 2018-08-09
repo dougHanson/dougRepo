@@ -7,12 +7,12 @@
 	<meta name="author" content="Doug Hanson">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<title>iiNet Plan Page Redesign | Doug Hanson | Web Design and Development, Perth</title>
+	<title>Web Page Redesign for iiNet | Doug Hanson | Web Development and UX Design, Perth</title>
 	<meta name="description" content="Website rebuild case study by Doug Hanson, a web designer and front end developer from Perth, Western Australia.">
 	<meta name="keywords" content="iinet plan pages, web design, designer, web development, front end developer, ux design, perth, doug hanson">
 
 	<!-- build:css -->
-	<link rel="stylesheet" href="css/styles.css" media="all">
+	<link rel="stylesheet" href="css/styles.min.css" media="all">
 	<!-- endbuild -->
 
 </head>
