@@ -18,7 +18,7 @@
 	<meta name="keywords" content="web design, designer, web development, front end developer, ux design, perth, doug hanson">
 	
 	<!-- build:css -->
-	<link rel="stylesheet" href="css/styles.min.css" media="all">
+	<link rel="stylesheet" href="css/styles.css" media="all">
 	<style>
 		.wrapper { opacity: 0; transition: all 200ms; } /* hide content until DOM ready */
 	</style>

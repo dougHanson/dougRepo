@@ -42,7 +42,7 @@
 		position: absolute;
 		@media (min-width: 992px) {
 			float: none;
-			position: unset;
+			position: relative;
 			height: 160px;
 			width: 100%;
 			text-align: center;
@@ -79,7 +79,6 @@ nav {
 		text-align: left;
 	}
 	ul {
-
 		margin: 0 1% 0 1em;
 		text-align: right;
 		@media (min-width: 560px) {

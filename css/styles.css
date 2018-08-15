@@ -1701,7 +1701,7 @@ pre > code {
     @media (min-width: 992px) {
       .vertical-menu__logo {
         float: none;
-        position: unset;
+        position: relative;
         height: 160px;
         width: 100%;
         text-align: center;
@@ -2118,7 +2118,8 @@ img {
     font-weight: 400; }
   .work-item__drawings {
     height: 300px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    position: relative; }
   .work-item:hover {
     transition: all 500ms; }
     .work-item:hover .work-item__heading {
@@ -2161,7 +2162,11 @@ svg {
   max-width: 100%;
   opacity: 0;
   display: block;
-  margin: 0 auto; }
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0; }
   .illustration:hover {
     opacity: 1; }
 
@@ -2171,10 +2176,6 @@ svg {
   transition: opacity 0.5s; }
 
 .line-drawing {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
   margin: auto;
   max-width: 300px; }
   .line-drawing path {
