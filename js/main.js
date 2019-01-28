@@ -330,11 +330,11 @@ $(function() {
   // Page is loaded
 	
 	//if ( ! /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) && $(window).width() > 991 ) {
-		var asideImg = new Image();	
-		asideImg.src = 'img/aside.jpg';
-		asideImg.onload = function() {
-			$('.vertical-menu').css("background-image", "url('"+asideImg.src+"')"); 
-		};
+		//var asideImg = new Image();	
+		//asideImg.src = 'img/aside.jpg';
+		//asideImg.onload = function() {
+			//$('.vertical-menu').css("background-image", "url('"+asideImg.src+"')"); 
+		//};
 	//}
 
 	if ($('.hero-content').length) { 

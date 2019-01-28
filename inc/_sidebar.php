@@ -11,7 +11,7 @@
 							
 								<!-- client -->
 								<div class="col-sm-12">
-									<p class="h4 subheading font-bold margin-top-10 margin-bottom-0">Client</p>
+									<p class="h4 subheading font-bold margin-bottom-0">Client</p>
 									<p class="margin-0" id="projectClient"></p>		
 									<p id="projectBrandColours"> </p>
 								</div>
@@ -19,7 +19,7 @@
 
 								<!-- website -->
 								<div class="col-sm-12">
-									<p class="h4 subheading font-bold margin-top-10 margin-bottom-0">
+									<p class="h4 subheading font-bold margin-bottom-0">
 										<span class="visible-xl">Live website</span>
 										<span class="hidden-xl">Website</span>
 									</p>							
@@ -28,7 +28,7 @@
 
 								<!-- year -->
 								<div class="col-sm-12">
-									<p class="h4 subheading font-bold margin-top-10 margin-bottom-0">When</p>
+									<p class="h4 subheading font-bold margin-bottom-0">When</p>
 									<p class="margin-top-0" id="projectYear"></p>
 								</div>	
 								

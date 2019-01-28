@@ -45,7 +45,7 @@ var projects = {
 	},
 	fetch: {
 		url: 'fetch.php',
-		title: 'Fetch TV Offer',
+		title: 'AngularJS App',
 		client: 'iiNet',
 		brand_colours: [ '#ff8200', '#d21f2a', '#808080', '#0090ab' ],
 		skills: ['AngularJS', 'HTML', 'Adobe Photoshop', 'SASS', 'UI design', 'UX design'],
@@ -67,4 +67,4 @@ var projects = {
 	}
 }; 
 
-var projectOrder = ["product_page_redesign", "mobii_manager", "multicomm", "bankwest", "fetch"];//, "portfolio"]; 
+var projectOrder = ["fetch", "product_page_redesign", "mobii_manager", "multicomm", "bankwest" ];//, "portfolio"]; 

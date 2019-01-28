@@ -7,7 +7,7 @@ progress load effect on arrow navigation (make bright blue)
 
 [X] clean up code so scripts are centralised and easier to find
 [x] create global json of projects for further automation
-[ ] use properly formatted sass
+[x] use properly formatted sass
 
 [x] more diversified imagery in iinet page
 [x] place screenshots for mobii in carousel
@@ -18,34 +18,9 @@ progress load effect on arrow navigation (make bright blue)
 [ ] add dropdown on mobile to show more job details
 
 [ ] add CTAs to each project in aside, contact form perhaps
-[ ] include more projects, including relocations, beige, and gluon/portfolio
+[ ] include more projects, including jobs board, relocations and gluon/portfolio
 [ ] support retina images
-[ ] improve load times, shrink images down
+[x] improve load times, shrink images down
 [ ] add some flair to banners
-[ ] show some code in screenshots -iinet plan page angular
+[x] show some code in screenshots -iinet plan page angular
 [ ] do a page on CSS recommendations, like blog article. good for seo.
-
-
-
------------
-iinet plan pages
-
-
-At a glance
--all pages were made responsive
-
-[old page] Here's an example of the pages which needed improvement
-
-[banner, subnav, breadcrumbs] banner integrated with current ATL campaign artwork, featuring hero plan.
-
-
-[carousel steps 1 and 2 | step 3 4 5]new design created with a stepped approach, making it easy for users to understand. User testing was then conducted with a handful of customer service reps, which allowed us to refine the design further and highlight key plan features, and clear feedback as to plan availability. Checkbox element created to allow for clear feedback as to what has been selected.
-
-
-[step 6] order summary was simplified to make all costs transparent, with a large primary CTA. 
-
-[accordion] further information about each product was neatly concealed within and expandable accordion, reducing the height and complexity of the page. Awards and testimonials, which act as support for purchase decision have been included on every plan page. 
-
-[responsive images] All pages are now responsive, and X% of traffic is on mobile
-
-[link to live site or full screenshot which opens in new tab]

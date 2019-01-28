@@ -12,7 +12,7 @@
 	<meta name="keywords" content="fetch, web design, designer, web development, front end developer, ux design, iinet, perth, doug hanson">
 
 	<!-- build:css -->
-	<link rel="stylesheet" href="css/styles.min.css" media="all">
+	<link rel="stylesheet" href="css/styles.css" media="all">
 	<!-- endbuild -->
 
 </head>

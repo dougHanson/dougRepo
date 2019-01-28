@@ -105,8 +105,23 @@
 				
 				<div style="margin-top:40px;" class="full-width">
 					<div class="row">
-						
-						<!-- 1 -->
+
+						<!-- FETCH ANGULAR JS -->	
+						<a href="fetch.php" class="progressLoad">
+							<article class="work-item col-lg-4">
+								<div class="work-item__drawings" id="drawings">
+									<img class="illustration" src="img/fetch-mini.png" alt="" style="max-width: 250px; padding-top: 25px;" />
+									<?php echo file_get_contents("svg/fetch-mini.svg"); ?>
+								</div> 
+
+								<div class="work-item__content">
+									<p class="work-item__heading">AngularJS Single Page App</p>
+									<h2 class="h5 subheading">web design / web development</h2>
+								</div>
+							</article>
+						</a>
+                        
+                        <!-- IINET PLAN PAGES -->
 						<a href="iinet-plan-pages.php" class="progressLoad">
 							<article class="work-item col-lg-4">
 								<div class="work-item__drawings" id="drawings">
@@ -121,7 +136,7 @@
 							</article>
 						</a>
 
-						<!-- 2 -->
+						<!-- MOBII MANAGER -->
 						<a href="mobii-manager.php" class="progressLoad">
 							<article class="work-item col-lg-4">
 								<div class="work-item__drawings" id="drawings">
@@ -136,9 +151,9 @@
 							</article>
 						</a>
 
-						<!-- 3 -->
+						<!-- MULTICOMM -->
 						<a href="multicomm.php" class="progressLoad">
-							<article class="work-item col-lg-4">
+							<article class="work-item show-all-content">
 								<div class="work-item__drawings" id="drawings">
 									<img class="illustration" src="img/multicomm.png" alt="" style="max-width: 300px; padding-top:15px;" />
 									<?php echo file_get_contents("svg/multicomm.svg"); ?>
@@ -151,15 +166,12 @@
 							</article>
 						</a>
 
-
-						<!-- 4 -->
+						<!-- BANKWEST -->
 						<a href="bankwest.php" class="progressLoad">
 							<article class="work-item show-all-content">
 								<div class="work-item__drawings" id="drawings">
 									<img class="illustration" src="img/sunny.png" alt="" style="max-width: 250px; padding-top: 25px;" />
 									<?php echo file_get_contents("svg/sun.svg"); ?>	
-									
-									
 								</div> 
 
 								<div class="work-item__content">
@@ -168,22 +180,6 @@
 								</div>
 							</article>
 						</a>
-
-
-						<!-- 5 -->	
-						<a href="fetch.php" class="progressLoad">
-							<article class="work-item show-all-content">
-								<div class="work-item__drawings" id="drawings">
-									<img class="illustration" src="img/fetch-mini.png" alt="" style="max-width: 250px; padding-top: 25px;" />
-									<?php echo file_get_contents("svg/fetch-mini.svg"); ?>															
-								</div> 
-
-								<div class="work-item__content">
-									<p class="work-item__heading">Fetch Single Page App</p>
-									<h2 class="h5 subheading">web design / web development</h2>
-								</div>
-							</article>
-						</a>						 				
 
 					</div>				
 

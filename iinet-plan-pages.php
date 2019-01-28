@@ -12,7 +12,7 @@
 	<meta name="keywords" content="iinet plan pages, web design, designer, web development, front end developer, ux design, perth, doug hanson">
 
 	<!-- build:css -->
-	<link rel="stylesheet" href="css/styles.min.css" media="all">
+	<link rel="stylesheet" href="css/styles.css" media="all">
 	<!-- endbuild -->
 
 </head>

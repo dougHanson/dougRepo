@@ -28,7 +28,7 @@
 				<a href="index.php#selected-works" class="nav-link">
 					<i class="icon">
 						<?php echo file_get_contents("svg/briefcase.svg"); ?>
-					</i><span><span class="hidden-xs hidden-xxs">Selected</span> works</span>
+                    </i><span><span class="hidden-xs hidden-xxs">Selected</span> <span class="capitalise-mobile">works</span></span>
 				</a>
 			</li>
 

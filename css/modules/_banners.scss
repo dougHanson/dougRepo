@@ -98,9 +98,8 @@
 	}
 	
 	.bg-img {	
-		background: rgba(247,143,29,.4); 
-		background: -webkit-linear-gradient(to left, rgba(247,143,29,.3), rgba(189,18,52,.3)); 
-		background: linear-gradient(to left, rgba(247,143,29,0.3), rgba(189,18,52,0.3)); 
+        background-image: linear-gradient(-135deg, #fdfcfb 0%, #e2d1c3 100%);
+        border-bottom: 1px solid #dfdfdf;
 		img { 
 			top: 20px; 
 			right: -160px; 
@@ -108,7 +107,7 @@
 			min-height: auto; 
 			width: 725px;
 			@media (min-width: 768px) {
-				top: 90px; 
+                top: 90px; 
 				right: 0px;
 			}
 			@media (min-width: 992px) {
@@ -168,6 +167,10 @@
 			}
 		}
 	}
+    
+    .bg-img {
+        background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+    }
 
 	.bg-img img { 
 		right: -100px; 
@@ -215,27 +218,22 @@
 	.intro-effect-jam3.modify .title {  
 		h1 { 
 			background: none; 
-			//margin-top: -10px; 
 			padding: 0; 
 			line-height: 1.3em;
 			@media (min-width: 375px) {
-				// margin-top: 0px; 
 				padding: 15px 0; 
 				line-height: inherit;
 			}
-			@media (min-width: 768px) {
-				// margin-top: 0px; 
+            @media (min-width: 768px) { 
 				padding: 0; 
-			}			
+			}	
 		}
 	}
 
 	.bg-img {	
-		background: #efefef;  /* fallback for old browsers */
-		background-image: linear-gradient(to top, #ffecd2 0%, #fcb69f 100%); /*juicy peach */
 		border-bottom: 1px solid #dfdfdf;
-		/*background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
-		background-blend-mode: screen;*/ /*elegance */	
+		background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+
 		img { 
 			min-width: auto; min-height: auto;
 			width: 500px; 
@@ -288,22 +286,14 @@
 /* ------------------------------------- */
 #fetch {
 	.title h1 {
-		background: rgba(55, 55, 55, 0.8); 
-		color: #fff; 
+		background: rgba(255, 255, 255, 0.8); 
+		color: $grey-6; 
 		padding: 15px; 
 		@media (min-width: 1360px) {
-			background: none;
-		}		
+        }		
 	}
 
-	.intro-effect-jam3.modify .title { 
-		//top: 160px; 
-		@media (min-width: 768px) {
-			//top: 230px; 
-		}
-		@media (min-width: 992px) {
-			//top: 250px; 
-		}		
+	.intro-effect-jam3.modify .title { 	
 		h1 {
 			background: none;
 			color: $grey-6; 
@@ -316,9 +306,8 @@
 	}
 	
 	.bg-img {	
-		background: rgba(247,143,29,.4); 
-		background: -webkit-linear-gradient(to left, rgba(0,155,228,.6), rgba(241,12,105,.6)); 
-		background: linear-gradient(to right, rgba(0,155,228,.8), rgba(241,12,105,.3)); 
+        background: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+        
 		img { 
 			top: 60px; 
 			right: -160px; 

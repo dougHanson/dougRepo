@@ -10,7 +10,7 @@
 .wrapper { 
 	position: relative;
 	&__outer {
-		margin: 1.5vw 1.5vw 0 1.5vw;
+		margin: 1vw 1vw 0 1vw;
 		opacity: 0; 
 		transition: opacity 500ms;
 	  	padding-top: 60px;
@@ -76,9 +76,9 @@
 //  Frames
 /* ------------------------------------- */
 .frame {
-	background: #fff;
-	width: 1.5vw;
-	height: 1.5vw;
+	background: #404040;
+	width: 1vw;
+	height: 1vw;
 	z-index: 9999;	
 	position: fixed;	
 	opacity: 1;	
