@@ -7,6 +7,13 @@
 //   Work items / articles
 /* ------------------------------------- */
 
+.work-item-wrapper {
+    margin-top: 0;
+    @media (min-width: 992px) {
+        margin-top: 40px;
+    } 
+}
+
 .work-item {
 	text-align: center;
 	width: 100%;
@@ -31,6 +38,12 @@
 	&__content {
 		padding: 0 1em;
 		font-weight: 400;
+        &--pull-up-mobile {
+            margin: -40px 0 40px;
+            @media (min-width: 600px) {
+                margin: auto;
+            }
+        }
 	}
 	&__drawings {
 		height: 300px;

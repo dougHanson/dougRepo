@@ -100,10 +100,10 @@
 
 				<h4 class="h3 subheading text-center margin-0">my portfolio</h4>
 				<h4 class="h2 text-center">Selected works</h4>
-				<div class="text-center"><img src="svg/spear.svg"></div>
+				<div class="text-center"><img src="svg/spear.svg" alt=""></div>
 		
 				
-				<div style="margin-top:40px;" class="full-width">
+				<div class="work-item-wrapper">
 					<div class="row">
 
 						<!-- FETCH ANGULAR JS -->	
@@ -114,7 +114,7 @@
 									<?php echo file_get_contents("svg/fetch-mini.svg"); ?>
 								</div> 
 
-								<div class="work-item__content">
+								<div class="work-item__content work-item__content--pull-up-mobile">
 									<p class="work-item__heading">AngularJS Single Page App</p>
 									<h2 class="h5 subheading">web design / web development</h2>
 								</div>
@@ -204,16 +204,15 @@
 			<section id="about" class="about container">
 				<h4 class="h3 subheading text-center margin-0">roles and experience</h4>
 				<h4 class="h2 text-center">About me</h4>
-				<div class="text-center"><img src="svg/spear.svg" alt=""></div>
+				<div class="text-center"><img src="svg/spear.svg" alt="" class="margin-bottom-40"></div>
 				<div class="col-lg-9">
-					<br>
 					<p>Over 8 years of hands on experience in user-centred web design &amp; front end web development. Experience designing User Interfaces (UI) and User Experience (UX) for products from various domains. Expertise in handling projects in Web development, Responsive Web Design, JavaScript, JQuery, AngularJS, HTML5, CSS3, SASS and&nbsp;PHP.</p>
 					<p class="hidden-xs hidden-xxs">A driven, creative professional with a broad technical skill set. An excellent communicator experienced in interpreting and implementing client and staff visions of new websites and digital creative.</p>
 					<p>&nbsp;</p>
 				</div>
-				<div class="col-lg-3 text-right visible-lg">
-					<div id="drawings">
-						<img src="img/loading.gif" data-src="img/doug.png" class="lazy-load profile-pic img-circle">
+				<div class="col-lg-3 text-center visible-lg">
+					<div id="drawings" class="margin-top-10">
+						<img src="img/loading.gif" data-src="img/doug.png" class="lazy-load profile-pic img-circle" alt="Doug Hanson, web developer Perth">
 						<?php //echo file_get_contents("svg/doug.svg"); ?>
 					</div>
 				</div>
@@ -224,21 +223,30 @@
 					<table class="full-width">
 						<tbody>
 							<tr>
+								<td width="200px">Permeance Technologies
+									<br>2018 - Present</td>
+								<td>
+									<strong>Front-end Web Developer</strong>
+									<br>
+                                    <span class="hidden-xxs">Based at the Department of Education WA as a front-end developer, working to improve the public facing website for end-users and content authors. <span class="hidden-xs">Currently involved in migrating to the latest version of Liferay CMS with a strong focus on accessibility and creating streamlined user&nbsp;experiences.</span></span>
+								</td>
+							</tr>
+							<tr>
 								<td width="150px">iiNet
-									<br>2013 - Present</td>
+									<br>2013 - 2018</td>
 								<td>
 									<strong>Senior Web Designer</strong>
 									<br>
-									<span class="hidden-xxs"><span class="hidden-xs">To deliver design, development, and ongoing maintenance of web-based products and systems to support business initiatives.</span> Create prototypes, UI, IA, graphical and architectural requirements, and conduct usability assessments to evaluate solutions at the information architecture &amp; design level.</span>
+									<span class="hidden-xxs"><span class="hidden-xs">Designed, developed, and maintained iiNet's web-based products and systems to support business initiatives.</span> Created prototypes, UI, IA, graphical and architectural requirements, and conducted usability assessments to evaluate solutions before implementing the front&nbsp;end.</span>
 								</td>
-							</tr>
+							</tr>                            
 							<tr>
 								<td>Bankwest
 									<br>2010 - 2013</td>
 								<td>
 									<strong>Digital Production Specialist</strong>
 									<br>
-									<span class="hidden-xxs">Work with key stakeholders to design and deliver innovative digital creative elements to drive Bankwest initiatives. <span class="hidden-xs">Designed and implemented changes to the existing Bankwest website and was involved with large scale development projects, including a website refresh and designs for the original Bankwest Mobile App.</span></span>
+									<span class="hidden-xxs">Worked with key stakeholders to design and deliver innovative digital creative elements to drive Bankwest initiatives. <span class="hidden-xs">Designed and implemented changes to the existing Bankwest website and was involved with large scale development projects, including a website refresh and designs for the original Bankwest Mobile App.</span></span>
 								</td>
 							</tr>
 							<tr>
@@ -247,7 +255,7 @@
 								<td>
 									<strong>Online Marketing Manager</strong>
 									<br>
-									<span class="hidden-xxs"><span class="hidden-xs">To manage the marketing and customer experience of multiple product portfolios via the online channel.</span> Responsible for implementing well defined campaign strategies, campaign optimisation, budget management, agency relationships, and online creative development.</span>
+									<span class="hidden-xxs"><span class="hidden-xs">Managed the marketing and customer experience of multiple product portfolios via the online channel.</span> Responsible for implementing well defined campaign strategies, campaign optimisation, budget management, agency relationships, and online creative development.</span>
 								</td>
 							</tr>
 							<tr>
@@ -256,7 +264,7 @@
 								<td>
 									<strong>eCommerce Marketing Coordinator</strong>
 									<br>
-									<span class="hidden-xxs">To coordinate the Bankwest online marketing and sales function, responsible for online marketing execution, management information reporting, agency relationships and strategic projects.</span>
+									<span class="hidden-xxs">Coordinated the Bankwest online marketing and sales function, responsible for online marketing execution, management information reporting, agency relationships and strategic projects.</span>
 								</td>
 							</tr>
 							<tr>
@@ -265,7 +273,7 @@
 								<td>
 									<strong>Internet Marketing Consultant</strong>
 									<br>
-									<span class="hidden-xxs"><span class="hidden-xs">To manage a wide, varied portfolio of over 20 clients and improve ROI through Search Engines by implementing proven SEO methodologies.</span> Responsible for setting up, managing, and optimising small SEM campaigns within Google Adwords to drive acquisitions and improve ROI.</span>
+									<span class="hidden-xxs">Managed a wide, varied portfolio of over 20 clients to improve ROI through Search Engines by implementing proven SEO methodologies. <span class="hidden-xs">Responsible for setting up, managing, and optimising small SEM campaigns within Google Adwords to drive acquisitions and improve ROI.</span></span>
 								</td>
 							</tr>
 						</tbody>

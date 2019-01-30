@@ -98,7 +98,7 @@
 	}
 	
 	.bg-img {	
-        background-image: linear-gradient(-135deg, #fdfcfb 0%, #e2d1c3 100%);
+        background-image: linear-gradient(45deg, #e2d1c3 0%, #f3f2f1 100%);
         border-bottom: 1px solid #dfdfdf;
 		img { 
 			top: 20px; 
@@ -169,7 +169,7 @@
 	}
     
     .bg-img {
-        background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+        background-image: linear-gradient(45deg, #c1dfc4 0%, #deecdd 100%);
     }
 
 	.bg-img img { 
@@ -220,7 +220,7 @@
 			background: none; 
 			padding: 0; 
 			line-height: 1.3em;
-			@media (min-width: 375px) {
+			@media (min-width: 354px) {
 				padding: 15px 0; 
 				line-height: inherit;
 			}
@@ -232,7 +232,8 @@
 
 	.bg-img {	
 		border-bottom: 1px solid #dfdfdf;
-		background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+		//background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+        background: linear-gradient(45deg, #E7DCDC 0%, #FAEFEC 100%);
 
 		img { 
 			min-width: auto; min-height: auto;
@@ -297,7 +298,7 @@
 		h1 {
 			background: none;
 			color: $grey-6; 
-			padding: 0;			
+			padding: 15px 0;			
 			@media (min-width: 992px) {
 				background: none;
 				margin-top: -10px; 
@@ -306,11 +307,11 @@
 	}
 	
 	.bg-img {	
-        background: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
-        
+        background: linear-gradient(45deg, #cfd9df 0%, #ecf5fa 100%);
+
 		img { 
 			top: 60px; 
-			right: -160px; 
+			right: -120px; 
 			min-width: auto; 
 			min-height: auto; 
 			width: 400px;
@@ -340,9 +341,13 @@
 	}			
  
 	.intro-effect-jam3.modify .bg-img img { 
-		top: 0px;
-		right: -40px; 			 
-		width: 400px; 
+		top: 5px;
+		right: 5%; 			 
+		width: 90%;
+		@media (min-width: 400px) {
+            width: 360px;
+			right: 0px; 				
+		}        
 		@media (min-width: 600px) {
 			right: 0px; 				
 		}		

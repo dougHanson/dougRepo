@@ -49,6 +49,7 @@ input.button--primary[type="submit"],
 input.button--primary[type="reset"], 
 input.button--primary[type="button"] {
 	background-color: $brand-color-2;
+    //background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
 	border: 2px solid $brand-color-2;
 	color: #fff; 
 }

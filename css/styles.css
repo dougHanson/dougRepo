@@ -1723,7 +1723,7 @@ nav {
   font-weight: 600; }
   @media (min-width: 992px) {
     nav {
-      margin-top: 12vh;
+      margin-top: 11vh;
       text-align: left; } }
   nav ul {
     margin: 0 1% 0 1em;
@@ -1964,7 +1964,7 @@ img {
   margin: 0 auto;
   width: 24px;
   height: 100px;
-  margin-top: 12%;
+  margin-top: 8%;
   z-index: 0; }
 
 .m_scroll_arrows {
@@ -2094,6 +2094,12 @@ img {
 /* -------------------------------------
 //   Work items / articles
 /* ------------------------------------- */
+.work-item-wrapper {
+  margin-top: 0; }
+  @media (min-width: 992px) {
+    .work-item-wrapper {
+      margin-top: 40px; } }
+
 .work-item {
   text-align: center;
   width: 100%;
@@ -2117,6 +2123,11 @@ img {
   .work-item__content {
     padding: 0 1em;
     font-weight: 400; }
+    .work-item__content--pull-up-mobile {
+      margin: -40px 0 40px; }
+      @media (min-width: 600px) {
+        .work-item__content--pull-up-mobile {
+          margin: auto; } }
   .work-item__drawings {
     height: 300px;
     margin: 0 auto;
@@ -2654,7 +2665,7 @@ button.trigger span::before {
       margin-top: -10px; } }
 
 #mobii_manager .bg-img {
-  background-image: linear-gradient(-135deg, #fdfcfb 0%, #e2d1c3 100%);
+  background-image: linear-gradient(45deg, #e2d1c3 0%, #f3f2f1 100%);
   border-bottom: 1px solid #dfdfdf; }
   #mobii_manager .bg-img img {
     top: 20px;
@@ -2714,7 +2725,7 @@ button.trigger span::before {
         margin-top: -10px; } }
 
 #multicomm .bg-img {
-  background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%); }
+  background-image: linear-gradient(45deg, #c1dfc4 0%, #deecdd 100%); }
 
 #multicomm .bg-img img {
   right: -100px;
@@ -2756,7 +2767,7 @@ button.trigger span::before {
   background: none;
   padding: 0;
   line-height: 1.3em; }
-  @media (min-width: 375px) {
+  @media (min-width: 354px) {
     #bankwest .intro-effect-jam3.modify .title h1 {
       padding: 15px 0;
       line-height: inherit; } }
@@ -2766,7 +2777,7 @@ button.trigger span::before {
 
 #bankwest .bg-img {
   border-bottom: 1px solid #dfdfdf;
-  background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255, 255, 255, 0.5) 47%, rgba(0, 0, 0, 0.5) 100%); }
+  background: linear-gradient(45deg, #E7DCDC 0%, #FAEFEC 100%); }
   #bankwest .bg-img img {
     min-width: auto;
     min-height: auto;
@@ -2820,17 +2831,17 @@ button.trigger span::before {
 #fetch .intro-effect-jam3.modify .title h1 {
   background: none;
   color: #636362;
-  padding: 0; }
+  padding: 15px 0; }
   @media (min-width: 992px) {
     #fetch .intro-effect-jam3.modify .title h1 {
       background: none;
       margin-top: -10px; } }
 
 #fetch .bg-img {
-  background: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%); }
+  background: linear-gradient(45deg, #cfd9df 0%, #ecf5fa 100%); }
   #fetch .bg-img img {
     top: 60px;
-    right: -160px;
+    right: -120px;
     min-width: auto;
     min-height: auto;
     width: 400px; }
@@ -2858,9 +2869,13 @@ button.trigger span::before {
         width: 600px; } }
 
 #fetch .intro-effect-jam3.modify .bg-img img {
-  top: 0px;
-  right: -40px;
-  width: 400px; }
+  top: 5px;
+  right: 5%;
+  width: 90%; }
+  @media (min-width: 400px) {
+    #fetch .intro-effect-jam3.modify .bg-img img {
+      width: 360px;
+      right: 0px; } }
   @media (min-width: 600px) {
     #fetch .intro-effect-jam3.modify .bg-img img {
       right: 0px; } }

@@ -6,7 +6,7 @@
 				<div class="row">
 					
 					<div class="col-sm-12">
-						<p class="text-center">Copyright Doug Hanson 2018</p>
+						<p class="text-center">Copyright Doug Hanson 2019</p>
 					</div>
 					
 					<!-- social media icons -->
