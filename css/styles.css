@@ -980,7 +980,7 @@ section {
       padding: 10vh 0; } }
   @media (min-width: 768px) {
     .hero-content {
-      height: 94vh;
+      height: 96vh;
       padding: 0; } }
   .hero-content__bg {
     text-align: center;
