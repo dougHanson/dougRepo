@@ -56,18 +56,21 @@
 						<div class="col-lg-9">
 														
 							<p class="h3 subheading padding-0 margin-0">At a glance</p>
-							<p>Current job listing page was just a table, business wanted something more visual and sophisticated.</p>
+							<p>The Department of Education wanted to improve the existing jobs listings page which was an uninspired table. The key features they wanted asides from making it more visually appealing was the ability for end users to sort and filter job roles by different categories, to search for jobs by location, and the ability for content authors the ability to highlight/promote certain job listings.</p>
 
 							<p class="h3 subheading padding-0 margin-0">The process</p>
-							<p>Met with business. Competitore analysis and expert review. Wireframes and designs. </p>
+							<p>After meeting with the business and gathering their requirements, I conducted a competitor analysis of leaders in this space. Taking inspiration from several websites with a positive user experience, and after conducting an expert review, I presented designs to the business which included a map feature, which would allow end users to drill down jobs by location. End users would also be able to search jobs by keyword, and filter by the different features of each job listing. I also included tags so users could consume important information upfront, such as jobs that were promoted or newly listed.</p>
 
 							<div class="item">
-								<a href="img/jobs-thumb.png" data-lightbox="jobs" data-title="Jobs UI Design"><img src="img/loading.gif" data-src="img/jobs-thumb.png" class="lazy-load img-responsive img-center img-shadow" /></a>
+								<a href="img/jobs-header.png" data-lightbox="jobs" data-title="Jobs UI Design"><img src="img/loading.gif" data-src="img/jobs-header.png" class="lazy-load img-responsive img-center img-shadow" /></a>
 							</div>				
 							<p>&nbsp;</p>
 							
 							<p class="h3 subheading padding-0 margin-0">The build</p>
-							<p>Built UI. Integrated with Freemarker to read JSON. Integrated filters/search using JPlist. Integrated maps api. Accessibility. Responsive. Can be customised by authors.</p>
+							<p>I began the build by building the UI using HTML, SASS, jQuery, and Freemarker, as the Liferay CMS that the page is hosted in is based on a Java platform. The next step was to integrate the jobs data. I used Freemarker to pull down the job data which was housed in JSON format on the server. I then integrated a jQuery plugin called JPList, which included the ability to sort and filter the job listings which were populated on the page server side.</p>
+              <p>To implement the map feature, I took advantage of the Google Maps API v3. Using a workplace id within the job listing data, I was able to search another API which housed all of the School latitude and longitude coordinates. Using the API and my own bespoke jQuery, I populated each job listing location onto the map as a separate marker, and styled appropriately by clustering pins close together, adding infoWindows and more.</p>
+              <p>The most challenging part of this project was to then get Google Maps and the JPList plugin talking to each other. Using the getBounds feature within the Maps API, I was able to detect if a job listing marker was visible on the map. If it was, I triggered a JPList event to display only the listing which were visible. Likewise, I added a callback function to the JPList script to redraw the map markers each time a sorting or filter action was performed. </p>
+              <p>The final step was to ensure the portal was accessible. I completed testing using NVDA screen reader, and ensured all actions were accessible via the keyboard.</p>
 							
 							<div class="item margin-bottom-20">
 								<a href="img/jobs-js.png" data-lightbox="code" data-title="Sample of JS code">
@@ -78,7 +81,7 @@
 											
 
 							<p class="h3 subheading padding-0 margin-0">The result</p>
-							<p>Good.</p>
+							<p>A fully responsive, accessible, visually appealing job lisiting portal, with an improved user experience for end users and content authors alike.</p>
 
 						</div>
 						<!-- end page specific content -->
