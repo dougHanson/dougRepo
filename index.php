@@ -105,6 +105,21 @@
 				
 				<div class="work-item-wrapper">
 					<div class="row">
+                        
+						<!-- JOBS BOARD -->	
+						<a href="jobs.php" class="progressLoad">
+							<article class="work-item col-lg-4">
+								<div class="work-item__drawings" id="drawings">
+									<img class="illustration" src="img/jobs-header.png" alt="" style="max-width: 250px; padding-top: 25px;" />
+									<?php echo file_get_contents("svg/jobs.svg"); ?>
+								</div> 
+
+								<div class="work-item__content">
+									<p class="work-item__heading">Interactive Job Portal</p>
+									<h2 class="h5 subheading">ux design / web development</h2>
+								</div>
+							</article>
+						</a>                        
 
 						<!-- FETCH ANGULAR JS -->	
 						<a href="fetch.php" class="progressLoad">

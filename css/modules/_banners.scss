@@ -360,3 +360,76 @@
 		}			
 	}
 }
+
+
+
+/* -------------------------------------
+//   Jobs banner
+/* ------------------------------------- */
+#jobs {
+	.title h1 {
+		background: rgba(255, 255, 255, 0.8); 
+		color: $grey-6; 
+		padding: 15px; 
+	}
+
+	.intro-effect-jam3.modify .title { 
+		h1 {
+			background: none;
+			@media (min-width: 992px) {
+				background: none;
+				margin-top: -10px; 
+			}
+		}
+	}
+	
+	.bg-img {	
+        background-image: linear-gradient(45deg, #ebedee 0%, #fdfbfb 100%);
+       // background-image: linear-gradient(-135deg, #f5f7fa 0%, #c3cfe2 100%);
+/*background-color: #DCD9D4; 
+ background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%); 
+ background-blend-mode: soft-light,screen;*/
+        border-bottom: 1px solid #dfdfdf;
+		img { 
+			top: 20px; 
+			right: -20px; 
+			min-width: auto; 
+			min-height: auto; 
+			width: 300px;
+			@media (min-width: 768px) {
+                width: 400px;
+                top: 30px; 
+				right: -20px;
+			}
+			@media (min-width: 992px) {
+                top: 30px;
+				right: 30px; 
+			}
+			@media (min-width: 1360px) {
+				right: 10%; 
+			}
+		}	
+	}			
+ 
+	.intro-effect-jam3.modify .bg-img img { 
+		top: -175px;
+		right: -20px; 			 
+		width: 250px; 
+		@media (min-width: 768px) {
+            top: -300px;
+			right: -20px; 				
+			width: 440px; 
+		}		
+		@media (min-width: 992px) {
+			top: -300px;
+			right: 80px;
+			width: 440px;
+		}
+		@media (min-width: 1360px) {
+			right: 10%; 
+			top: -550px; 
+			width: 650px; 		
+		}			
+	}
+}
+

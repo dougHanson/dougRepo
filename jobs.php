@@ -41,7 +41,7 @@
 
 				<!-- heading -->
 				<div class="container">
-					<div class="col-sm-12 title">
+					<div class="title">
 						<h1 class="font-bold grey-6" id="projectTitle"></h1>
 					</div>	
 				</div>
