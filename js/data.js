@@ -67,7 +67,7 @@ var projects = {
     },
     jobs: {
         url: 'jobs.php',
-        title: 'Interactive Job Feed',
+        title: 'Interactive Job Portal',
         client: 'Department of Education WA',
         brand_colours: ['#1078b2', '#aad7eb', '#FAF3E9', '#ca8620'],
         skills: ['UX design', 'Maps API', 'jQuery', 'AJAX', 'HTML', 'SASS', 'Liferay CMS', 'Freemarker'],
@@ -78,4 +78,4 @@ var projects = {
     }
 };
 
-var projectOrder = ["fetch", "product_page_redesign", "mobii_manager", "multicomm", "bankwest", "jobs"]; //, "portfolio"];
+var projectOrder = ["jobs", "fetch", "product_page_redesign", "mobii_manager", "multicomm", "bankwest"]; //, "portfolio"];

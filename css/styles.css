@@ -2917,14 +2917,14 @@ button.trigger span::before {
     @media (min-width: 768px) {
       #jobs .bg-img img {
         width: 400px;
-        top: 30px;
-        right: -20px; } }
+        top: 30px; } }
     @media (min-width: 992px) {
       #jobs .bg-img img {
-        top: 30px;
         right: 30px; } }
     @media (min-width: 1360px) {
       #jobs .bg-img img {
+        width: 450px;
+        top: 15px;
         right: 10%; } }
 
 #jobs .intro-effect-jam3.modify .bg-img img {
