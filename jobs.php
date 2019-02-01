@@ -56,32 +56,61 @@
 						<div class="col-lg-9">
 														
 							<p class="h3 subheading padding-0 margin-0">At a glance</p>
-							<p>The Department of Education wanted to improve the existing jobs listings page which was an uninspired table. The key features they wanted asides from making it more visually appealing was the ability for end users to sort and filter job roles by different categories, to search for jobs by location, and the ability for content authors the ability to highlight/promote certain job listings.</p>
+							<p>The Department of Education wanted to improve the existing jobs listing page, which was a text heavy table. The key features they wanted asides from making it more visually appealing was the ability for end users to sort and filter job roles by different categories, to search for jobs by location, and the ability for content authors to highlight/promote certain job listings.</p>
 
 							<p class="h3 subheading padding-0 margin-0">The process</p>
-							<p>After meeting with the business and gathering their requirements, I conducted a competitor analysis of leaders in this space. Taking inspiration from several websites with a positive user experience, and after conducting an expert review, I presented designs to the business which included a map feature, which would allow end users to drill down jobs by location. End users would also be able to search jobs by keyword, and filter by the different features of each job listing. I also included tags so users could consume important information upfront, such as jobs that were promoted or newly listed.</p>
+							<p>After meeting with the business and gathering their requirements, I conducted a competitor analysis of leaders in this space. Taking inspiration from several websites with a positive user experience and after conducting my own expert review, I presented designs to the business which included a map feature, which would allow end users to drill down jobs by location. End users would also be able to search jobs by keyword via an input field, and filter by the multiple criteria of each job listing. I also included tags so users could consume important information upfront, such as jobs that were promoted or newly listed.</p>
 
 							<div class="item">
-								<a href="img/jobs-header.png" data-lightbox="jobs" data-title="Jobs UI Design"><img src="img/loading.gif" data-src="img/jobs-header.png" class="lazy-load img-responsive img-center img-shadow" /></a>
+								<a href="img/jobs-design.png" data-lightbox="jobs-design" data-title="Jobs UI Design"><img src="img/loading.gif" data-src="img/jobs-design.png" class="lazy-load img-responsive img-center img-shadow" /></a>
 							</div>				
 							<p>&nbsp;</p>
 							
 							<p class="h3 subheading padding-0 margin-0">The build</p>
-							<p>I began the build by building the UI using HTML, SASS, jQuery, and Freemarker, as the Liferay CMS that the page is hosted in is based on a Java platform. The next step was to integrate the jobs data. I used Freemarker to pull down the job data which was housed in JSON format on the server. I then integrated a jQuery plugin called JPList, which included the ability to sort and filter the job listings which were populated on the page server side.</p>
-              <p>To implement the map feature, I took advantage of the Google Maps API v3. Using a workplace id within the job listing data, I was able to search another API which housed all of the School latitude and longitude coordinates. Using the API and my own bespoke jQuery, I populated each job listing location onto the map as a separate marker, and styled appropriately by clustering pins close together, adding infoWindows and more.</p>
-              <p>The most challenging part of this project was to then get Google Maps and the JPList plugin talking to each other. Using the getBounds feature within the Maps API, I was able to detect if a job listing marker was visible on the map. If it was, I triggered a JPList event to display only the listing which were visible. Likewise, I added a callback function to the JPList script to redraw the map markers each time a sorting or filter action was performed. </p>
-              <p>The final step was to ensure the portal was accessible. I completed testing using NVDA screen reader, and ensured all actions were accessible via the keyboard.</p>
+							<p>I began the build by building the UI using HTML, SASS and JQuery. The jobs data was provided via a third party API in JSON format. As the Liferay CMS that the page is hosted in is based on a Java platform, I used freemarker to retrieve and cache the data, and populate the page contents server-side. I then integrated a JQuery plugin called JPList, which included the ability to sort and filter the job listings.</p>
+              <p>To implement the map feature, I took advantage of the Google Maps API v3. Using a workplace id field within the job listing data, I was able to search another API which housed all of the School latitude and longitude coordinates. Using the API and my own bespoke JQuery, I populated each job listing location onto the map as a separate marker, and styled appropriately by clustering pins that were close together, adding infoWindows and more.</p>
+              <pre><code> 
+                function showVisibleMarkers() {
+                  var bounds = map.getBounds();
+
+                  // Add 'notMapped' and 'jplist-hidden' classes to all listings
+                  $('.job-listing').addClass('notMapped jplist-hidden');
+                  $('.jplist-no-results').removeClass('jplist-hidden');
+
+                  for (var i = 0; i < markers.length; i++) {
+                    var marker = markers[i];
+
+                    // Remove 'notMapped' and 'jplist-hidden' classes to listings that are inside map bounds
+                    if( bounds.contains(marker.getPosition() ) === true ) {
+                      var markerId = marker.jobid;
+                      $('.job-listing').each(function () {
+                        if ( $(this).find('.job-sort__jobid').text() == markerId ) {
+                          $(this).removeClass('notMapped jplist-hidden');
+                        }
+                      });
+                      $('.jplist-no-results').addClass('jplist-hidden'); // if at least one marker visible, hide no-results message
+                    }
+                  }
+
+                  // Update number of filtered jobs on page
+                  $('.jobs-displayed__number').html( $('.job-listing').not('.notMapped').length );      
+
+                } // end function showVisibleMarkers()
+              </code></pre>
+              <p>The most challenging part of this project was to then get Google Maps and the JPList plugin talking to each other. Using the getBounds feature within the Maps API, I was able to detect if a job listing marker was visible on the map. If it was, a javascript callback function I wrote would trigger a JPList event, to display only the job listings which were visible. Similarly, I added a callback function to the JPList script to redraw the map markers each time a sorting or filter action was performed. </p>
+              <code>redraw callback function</code>
+              <p>The final step was to ensure the portal met web accessibility guidleines. Alongside browser and device testing, I completed accessibility testing using NVDA screen reader, browser extensions such as AXE and WAVE, and ensured all actions were accessible via the keyboard.</p>
 							
 							<div class="item margin-bottom-20">
-								<a href="img/jobs-js.png" data-lightbox="code" data-title="Sample of JS code">
-									<img src="img/loading.gif" data-src="img/jobs-js.png" alt="Sample AngularJS code" class="lazy-load img-shadow img-center">
+								<a href="img/jobs-freemarker-code.png" data-lightbox="code" data-title="Freemarker code">
+									<img src="img/loading.gif" data-src="img/jobs-freemarker-code.png" alt="Freemarker code" class="lazy-load img-shadow img-center">
 								</a>
 							</div>
 							<p>&nbsp;</p>
 											
 
 							<p class="h3 subheading padding-0 margin-0">The result</p>
-							<p>A fully responsive, accessible, visually appealing job lisiting portal, with an improved user experience for end users and content authors alike.</p>
+							<p>The result was a fully responsive, accessible, visually appealing job lisiting portal, with an improved user experience for end users and content authors alike.</p>
 
 						</div>
 						<!-- end page specific content -->

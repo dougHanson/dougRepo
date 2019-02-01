@@ -202,6 +202,86 @@ pre > code {
   white-space: pre; 
 }
 
+/*
+Zenburn style from voldmar.ru (c) Vladimir Epifanov <voldmar@voldmar.ru>
+based on dark.css by Ivan Sagalaev
+*/
+
+.zenburn {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #3f3f3f;
+  color: #dcdcdc;
+}
+
+.zenburn-keyword,
+.zenburn-selector-tag,
+.zenburn-tag {
+  color: #e3ceab;
+}
+
+.zenburn-template-tag {
+  color: #dcdcdc;
+}
+
+.zenburn-number {
+  color: #8cd0d3;
+}
+
+.zenburn-variable,
+.zenburn-template-variable,
+.zenburn-attribute {
+  color: #efdcbc;
+}
+
+.zenburn-literal {
+  color: #efefaf;
+}
+
+.zenburn-subst {
+  color: #8f8f8f;
+}
+
+.zenburn-title,
+.zenburn-name,
+.zenburn-selector-id,
+.zenburn-selector-class,
+.zenburn-section,
+.zenburn-type {
+  color: #efef8f;
+}
+
+.zenburn-symbol,
+.zenburn-bullet,
+.zenburn-link {
+  color: #dca3a3;
+}
+
+.zenburn-deletion,
+.zenburn-string,
+.zenburn-built_in,
+.zenburn-builtin-name {
+  color: #cc9393;
+}
+
+.zenburn-addition,
+.zenburn-comment,
+.zenburn-quote,
+.zenburn-meta {
+  color: #7f9f7f;
+}
+
+
+.zenburn-emphasis {
+  font-style: italic;
+}
+
+.zenburn-strong {
+  font-weight: bold;
+}
+
+
 
 
 /* -------------------------------------

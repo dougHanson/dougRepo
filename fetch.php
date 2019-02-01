@@ -71,8 +71,8 @@
 							<p>The single page <strong>AngularJS web application</strong> proved quite challenging, as there was a large number of moving parts. To keep the authoring experience clean, I ensured that <strong>best coding pracitces</strong> were used, such as avoiding global variables, and using directives only for DOM manipulation. Robust testing was carried out throughout the <strong>web development</strong>&nbsp;phase.</p>
 							
 							<div class="item margin-bottom-20">
-								<a href="img/fetch-angular-js.png" data-lightbox="code" data-title="Sample of AngularJS code">
-									<img src="img/loading.gif" data-src="img/fetch-angular-js.png" alt="Sample AngularJS code" class="lazy-load img-shadow img-center">
+								<a href="img/fetch-angular-js.png" data-lightbox="code" data-title="AngularJS code">
+									<img src="img/loading.gif" data-src="img/fetch-angular-js.png" alt="AngularJS code" class="lazy-load img-shadow img-center">
 								</a>
 							</div>
 							<p>&nbsp;</p>
