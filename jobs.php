@@ -9,7 +9,7 @@
 
 	<title>Interactive Jobs Portal | Doug Hanson | Web Development and Design, Perth</title>
 	<meta name="description" content="Interactive jobs portal utilising Maps API. Created by Doug Hanson, a front end web developer in Perth, Western Australia.">
-	<meta name="keywords" content="maps api, dept education, open maps, google maps, liferay, freemarker, web design, designer, web development, front end developer, ux design, perth, doug hanson">
+	<meta name="keywords" content="maps api, department of education, open maps, google maps, liferay, freemarker, web design, designer, web development, front end developer, ux design, perth, doug hanson">
 
 	<!-- build:css -->
 	<link rel="stylesheet" href="css/styles.css" media="all">
@@ -56,10 +56,10 @@
 						<div class="col-lg-9">
 														
 							<p class="h3 subheading padding-0 margin-0">At a glance</p>
-							<p>The Department of Education wanted to improve the existing jobs listing page, which was a text heavy table. The key features they wanted asides from making it more visually appealing was the ability for end users to sort and filter job roles by different categories, to search for jobs by location, and the ability for content authors to highlight/promote certain job listings.</p>
+							<p>The Department of Education wanted to improve the existing jobs listing page, which was a text heavy html table. The key features they wanted, asides from making it more visually appealing, was the ability for end users to sort and filter job roles by different categories, to search for jobs by location, and the ability for web content authors to highlight/promote certain job listings.</p>
 
 							<p class="h3 subheading padding-0 margin-0">The process</p>
-							<p>After meeting with the business and gathering their requirements, I conducted a competitor analysis of leaders in this space. Taking inspiration from several websites with a positive user experience and after conducting my own expert review, I presented designs to the business which included a map feature, which would allow end users to drill down jobs by location. End users would also be able to search jobs by keyword via an input field, and filter by the multiple criteria of each job listing. I also included tags so users could consume important information upfront, such as jobs that were promoted or newly listed.</p>
+							<p>After meeting with the business and gathering their requirements, I conducted a <strong>competitor analysis</strong> of leaders in this space. Taking inspiration from several websites with a positive user experience and after conducting my own <strong>expert review</strong>, I presented web designs to the business which included a map feature, which would allow end users to drill down jobs by location. End users would also be able to search jobs by keyword via an input field, and filter by the multiple criteria of each job listing. I also included tags so users could consume important information upfront, such as jobs that were promoted or newly listed.</p>
 
 							<div class="item">
 								<a href="img/jobs-design.png" data-lightbox="jobs-design" data-title="Jobs UI Design"><img src="img/loading.gif" data-src="img/jobs-design.png" class="lazy-load img-responsive img-center img-shadow" /></a>
@@ -67,8 +67,8 @@
 							<p>&nbsp;</p>
 							
 							<p class="h3 subheading padding-0 margin-0">The build</p>
-							<p>I began the build by building the UI using HTML, SASS and JQuery. The jobs data was provided via a third party API in JSON format. As the Liferay CMS that the page is hosted in is based on a Java platform, I used freemarker to retrieve and cache the data, and populate the page contents server-side. I then integrated a JQuery plugin called JPList, which included the ability to sort and filter the job listings.</p>
-              <p>To implement the map feature, I took advantage of the Google Maps API v3. Using a workplace id field within the job listing data, I was able to search another API which housed all of the School latitude and longitude coordinates. Using the API and my own bespoke JQuery, I populated each job listing location onto the map as a separate marker, and styled appropriately by clustering pins that were close together, adding infoWindows and more.</p>
+							<p>I began the build by <strong>building the UI using HTML, SASS and JQuery</strong>. The jobs data was provided via a <strong>third party API in JSON format</strong>. As the <strong>Liferay CMS</strong> that the page is hosted in is based on a Java platform, I used <strong>freemarker</strong> to retrieve and cache the data, and <strong>populate the page contents server-side</strong>. I then integrated a <strong>JQuery plugin</strong> called JPList, which included the ability to sort and filter the job listings.</p>
+              <p>To implement the map feature, I took advantage of the <strong>Google Maps API</strong> v3. Using a workplace id field within the job listing data, I was able to search another API which housed all of the School latitude and longitude coordinates. Using the API and my own <strong>bespoke JQuery</strong>, I populated each job listing location onto the map as a separate marker, and styled appropriately by clustering pins that were close together, adding infoWindows and more.</p>
               <pre><code> 
                 function showVisibleMarkers() {
                   var bounds = map.getBounds();
@@ -97,9 +97,9 @@
 
                 } // end function showVisibleMarkers()
               </code></pre>
-              <p>The most challenging part of this project was to then get Google Maps and the JPList plugin talking to each other. Using the getBounds feature within the Maps API, I was able to detect if a job listing marker was visible on the map. If it was, a javascript callback function I wrote would trigger a JPList event, to display only the job listings which were visible. Similarly, I added a callback function to the JPList script to redraw the map markers each time a sorting or filter action was performed. </p>
-              <code>redraw callback function</code>
-              <p>The final step was to ensure the portal met web accessibility guidleines. Alongside browser and device testing, I completed accessibility testing using NVDA screen reader, browser extensions such as AXE and WAVE, and ensured all actions were accessible via the keyboard.</p>
+              <p>The most challenging part of this project was to then get Google Maps and the JPList plugin talking to each other. Using the getBounds feature within the Maps API, I was able to detect if a job listing marker was visible on the map. If it was, a <strong>javascript callback function</strong> I wrote would trigger a JPList event, to display only the job listings which were visible. Similarly, I added a <strong>js callback function</strong> to the JPList script to redraw the map markers each time a sorting or filter action was performed. </p>
+              <pre><code>redraw callback function</code></pre>
+              <p>The final step was to ensure the portal met <strong>web accessibility guidleines</strong>. <strong>Alongside browser and device testing, I completed accessibility testing using NVDA screen reader, browser extensions such as AXE and WAVE, and ensured all actions were accessible via the keyboard</strong>.</p>
 							
 							<div class="item margin-bottom-20">
 								<a href="img/jobs-freemarker-code.png" data-lightbox="code" data-title="Freemarker code">
@@ -110,7 +110,7 @@
 											
 
 							<p class="h3 subheading padding-0 margin-0">The result</p>
-							<p>The result was a fully responsive, accessible, visually appealing job lisiting portal, with an improved user experience for end users and content authors alike.</p>
+							<p>The result was a <strong>fully responsive, accessible, visually appealing</strong> job lisiting portal, with an <strong>improved user experience</strong> for end users and content authors alike.</p>
 
 						</div>
 						<!-- end page specific content -->

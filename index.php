@@ -116,7 +116,7 @@
 
 								<div class="work-item__content">
 									<p class="work-item__heading">Interactive Job Portal</p>
-									<h2 class="h5 subheading">ux design / web development</h2>
+									<h2 class="h5 subheading">ux design / web development / application&nbsp;development</h2>
 								</div>
 							</article>
 						</a>                        
@@ -130,13 +130,13 @@
 								</div> 
 
 								<div class="work-item__content work-item__content--pull-up-mobile">
-									<p class="work-item__heading">AngularJS Single Page App</p>
-									<h2 class="h5 subheading">web design / web development</h2>
+									<p class="work-item__heading">AngularJS Fetch TV App</p>
+									<h2 class="h5 subheading">web design / ux development / single page&nbsp;application</h2>
 								</div>
 							</article>
 						</a>
                         
-                        <!-- IINET PLAN PAGES -->
+            <!-- IINET PLAN PAGES -->
 						<a href="iinet-plan-pages.php" class="progressLoad">
 							<article class="work-item">
 								<div class="work-item__drawings" id="drawings">
@@ -146,7 +146,7 @@
 
 								<div class="work-item__content">
 									<p class="work-item__heading">Product Page Redesign</p>
-									<h2 class="h5 subheading">ux / web design &amp; development</h2>
+									<h2 class="h5 subheading">ux design / web development &amp; design</h2>
 								</div>
 							</article>
 						</a>
@@ -161,7 +161,7 @@
 
 								<div class="work-item__content">
 									<p class="work-item__heading">Mobii Manager</p>
-									<h2 class="h5 subheading">ux &amp; ui design / mobile design </h2>
+									<h2 class="h5 subheading">mobile app design / ui design</h2>
 								</div>
 							</article>
 						</a>
@@ -191,7 +191,7 @@
 
 								<div class="work-item__content">
 									<p class="work-item__heading">Bankwest Digital Design</p>
-									<h2 class="h5 subheading">web design / web development / digital&nbsp;marketing</h2>
+									<h2 class="h5 subheading">digital creative / digital marketing / web&nbsp;authoring</h2>
 								</div>
 							</article>
 						</a>
@@ -242,7 +242,7 @@
 								<td>
 									<strong>Front-end Web Developer</strong>
 									<br>
-                                    <span class="hidden-xxs">Based at the Department of Education WA as a front-end developer, working to improve the public facing website for end-users and content authors. <span class="hidden-xs">Currently involved in migrating to the latest version of Liferay CMS with a strong focus on accessibility and creating streamlined user&nbsp;experiences.</span></span>
+                  <span class="hidden-xxs">Based at the Department of Education WA as a front-end developer, working to improve the public facing website for end-users and content authors. <span class="hidden-xs">Currently involved in migrating to the latest version of Liferay CMS with a strong focus on accessibility and creating better user&nbsp;experiences.</span></span>
 								</td>
 							</tr>
 							<tr>

@@ -1,4 +1,26 @@
 var projects = {
+    jobs: {
+        url: 'jobs.php',
+        title: 'Interactive Job Portal',
+        client: 'Department of Education WA',
+        brand_colours: ['#1078b2', '#aad7eb', '#FAF3E9', '#ca8620'],
+        skills: ['UX design', 'Maps API', 'jQuery', 'AJAX', 'HTML', 'SASS', 'Liferay CMS', 'Freemarker', 'accessibility'],
+        year: '2019',
+        website: 'education.wa.edu/current-jobs',
+        website_url: '//www.education.wa.edu/current-jobs',
+        thumbnail: 'jobs-thumb.png'
+    },
+    fetch: {
+        url: 'fetch.php',
+        title: 'AngularJS App',
+        client: 'iiNet',
+        brand_colours: ['#ff8200', '#d21f2a', '#808080', '#0090ab'],
+        skills: ['AngularJS', 'HTML', 'Adobe Photoshop', 'SASS', 'UI design', 'UX design'],
+        year: '2017',
+        website: 'iinet.net.au/tv/fetch',
+        website_url: '//www.iinet.net.au/tv/fetch',
+        thumbnail: 'fetch-thumb.png'
+    },
     product_page_redesign: {
         url: 'iinet-plan-pages.php',
         title: 'Product Page Redesign',
@@ -43,17 +65,6 @@ var projects = {
         //website_url: '//www.bankwest.com.au',
         thumbnail: 'bankwest-thumb.png'
     },
-    fetch: {
-        url: 'fetch.php',
-        title: 'AngularJS App',
-        client: 'iiNet',
-        brand_colours: ['#ff8200', '#d21f2a', '#808080', '#0090ab'],
-        skills: ['AngularJS', 'HTML', 'Adobe Photoshop', 'SASS', 'UI design', 'UX design'],
-        year: '2017',
-        website: 'iinet.net.au/tv/fetch',
-        website_url: '//www.iinet.net.au/tv/fetch',
-        thumbnail: 'fetch-thumb.png'
-    },
     portfolio: {
         url: 'portfolio.php',
         title: 'Portfolio Website',
@@ -64,17 +75,6 @@ var projects = {
         website: '~doug.hanson',
         website_url: '//members.iinet.net.au/~doug.hanson/',
         thumbnail: 'portfolio-thumb.png'
-    },
-    jobs: {
-        url: 'jobs.php',
-        title: 'Interactive Job Portal',
-        client: 'Department of Education WA',
-        brand_colours: ['#1078b2', '#aad7eb', '#FAF3E9', '#ca8620'],
-        skills: ['UX design', 'Maps API', 'jQuery', 'AJAX', 'HTML', 'SASS', 'Liferay CMS', 'Freemarker'],
-        year: '2019',
-        website: 'education.wa.edu/current-jobs',
-        website_url: '//www.education.wa.edu/current-jobs',
-        thumbnail: 'jobs-thumb.png'
     }
 };
 
