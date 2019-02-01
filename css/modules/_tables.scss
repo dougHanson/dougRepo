@@ -4,14 +4,15 @@
 /* ************************************* */
 
 
-th, td {
-    border-bottom: 1px solid $grey-border;
-    padding: 12px 15px;
-    text-align: left;
-    line-height: $line-height;	
-	color: $paragraph-color;
-	font-size: $paragraph-font-size;
-	font-weight: $paragraph-font-weight;
+th,
+td {
+  border-bottom: 1px solid $grey-border;
+  padding: 12px 15px;
+  text-align: left;
+  line-height: $line-height;
+  color: $paragraph-color;
+  font-size: $paragraph-font-size;
+  font-weight: $paragraph-font-weight;
 }
 
 th {
@@ -19,12 +20,24 @@ th {
   color: $grey-6;
 }
 
-th:first-child, td:first-child {
-    padding-left: 0;
+th:first-child,
+td:first-child {
+  padding-left: 0;
 }
-th:last-child, td:last-child {
-    padding-right: 0;
+
+th:last-child,
+td:last-child {
+  padding-right: 0;
 }
+
 tr:last-child td {
-    border-bottom: none;  /* Not needed as there is a <hr> directly below */
+  border-bottom: none;
+  /* Not needed as there is a <hr> directly below */
+}
+
+.td-employer {
+  width: 140px;
+  @media (min-width: 768px) {
+    width: 200px;
+  }
 }

@@ -237,7 +237,7 @@
 					<table class="full-width">
 						<tbody>
 							<tr>
-								<td width="200px">Permeance Technologies
+								<td class="td-employer">Permeance Technologies
 									<br>2018 - Present</td>
 								<td>
 									<strong>Front-end Web Developer</strong>
@@ -246,7 +246,7 @@
 								</td>
 							</tr>
 							<tr>
-								<td width="150px">iiNet
+								<td>iiNet
 									<br>2013 - 2018</td>
 								<td>
 									<strong>Senior Web Designer</strong>

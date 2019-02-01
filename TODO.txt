@@ -1,18 +1,11 @@
-use gulp clean, and get gulp minifying all files in dist directory correctly
 
-contact form inline validation
+[ ] use gulp clean, and get gulp minifying all files in dist directory correctly
+[ ] setup gulp deploy
 
-progress load effect on arrow navigation (make bright blue)
+[ ] contact form inline validation - prevent submit
+[ ] contact form submission - take user to feedback msg
 
-
-[X] clean up code so scripts are centralised and easier to find
-[x] create global json of projects for further automation
-[x] use properly formatted sass
-
-[x] more diversified imagery in iinet page
-[x] place screenshots for mobii in carousel
-[x] improve wording for multicomm
-[x] open all additional screenshots in lightbox
+[ ] progress load effect on arrow navigation (make primary brand colour)
 
 [ ] stop work items from solidifying on hover until fully drawn
 [ ] add dropdown on mobile to show more job details
@@ -20,7 +13,5 @@ progress load effect on arrow navigation (make bright blue)
 [ ] add CTAs to each project in aside, contact form perhaps
 [ ] include more projects, including jobs board, relocations and gluon/portfolio
 [ ] support retina images
-[x] improve load times, shrink images down
-[ ] add some flair to banners
-[x] show some code in screenshots -iinet plan page angular
+[ ] add some flair/animation to banners
 [ ] do a page on CSS recommendations, like blog article. good for seo.
