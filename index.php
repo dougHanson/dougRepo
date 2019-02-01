@@ -105,10 +105,25 @@
 				
 				<div class="work-item-wrapper">
 					<div class="row">
+                        
+						<!-- JOBS BOARD -->	
+						<a href="jobs.php" class="progressLoad">
+							<article class="work-item">
+								<div class="work-item__drawings" id="drawings">
+									<img class="illustration" src="img/jobs-header.png" alt="" style="max-width: 225px; padding-top: 20px;" />
+									<?php echo file_get_contents("svg/jobs.svg"); ?>
+								</div> 
+
+								<div class="work-item__content">
+									<p class="work-item__heading">Interactive Job Portal</p>
+									<h2 class="h5 subheading">ux design / web development</h2>
+								</div>
+							</article>
+						</a>                        
 
 						<!-- FETCH ANGULAR JS -->	
 						<a href="fetch.php" class="progressLoad">
-							<article class="work-item col-lg-4">
+							<article class="work-item">
 								<div class="work-item__drawings" id="drawings">
 									<img class="illustration" src="img/fetch-mini.png" alt="" style="max-width: 250px; padding-top: 25px;" />
 									<?php echo file_get_contents("svg/fetch-mini.svg"); ?>
@@ -123,7 +138,7 @@
                         
                         <!-- IINET PLAN PAGES -->
 						<a href="iinet-plan-pages.php" class="progressLoad">
-							<article class="work-item col-lg-4">
+							<article class="work-item">
 								<div class="work-item__drawings" id="drawings">
 									<img class="illustration" src="img/finn-balloons.png" alt="" style="max-width: 244px;" />
 									<?php echo file_get_contents("svg/finn.svg"); ?>
@@ -138,7 +153,7 @@
 
 						<!-- MOBII MANAGER -->
 						<a href="mobii-manager.php" class="progressLoad">
-							<article class="work-item col-lg-4">
+							<article class="work-item"> <!--show-all-content">-->
 								<div class="work-item__drawings" id="drawings">
 									<img class="illustration" src="img/mobii-manager.png" alt="" style="max-width: 300px;" />
 									<?php echo file_get_contents("svg/galaxy-phone.svg"); ?>
@@ -153,7 +168,7 @@
 
 						<!-- MULTICOMM -->
 						<a href="multicomm.php" class="progressLoad">
-							<article class="work-item show-all-content">
+							<article class="work-item"><!--show-all-content">-->
 								<div class="work-item__drawings" id="drawings">
 									<img class="illustration" src="img/multicomm.png" alt="" style="max-width: 300px; padding-top:15px;" />
 									<?php echo file_get_contents("svg/multicomm.svg"); ?>
@@ -168,7 +183,7 @@
 
 						<!-- BANKWEST -->
 						<a href="bankwest.php" class="progressLoad">
-							<article class="work-item show-all-content">
+							<article class="work-item"><!--show-all-content">-->
 								<div class="work-item__drawings" id="drawings">
 									<img class="illustration" src="img/sunny.png" alt="" style="max-width: 250px; padding-top: 25px;" />
 									<?php echo file_get_contents("svg/sun.svg"); ?>	
@@ -184,10 +199,9 @@
 					</div>				
 
 					<!-- show all btn -->
-					<div class="col-sm-12 text-center">
-						<!--<a class="show-all-btn margin-top-40 subheading h3">Show all</a>-->
+					<!--<div class="col-sm-12 text-center">
 						<button class="button progressLoad text-center show-all-btn margin-top-40">Show all</button>
-					</div>
+					</div>-->
 				
 				</div>
 

@@ -49,7 +49,7 @@ $(window).bind('scroll', function() {
 		fadingFastClass.css('opacity', 1);
 	}
 	else if (offset <= fadeUntil) {
-		opacity = 1-(1.8*((offset-fadeStart)/(fadeUntil)));
+		opacity = 1-(2*((offset-fadeStart)/(fadeUntil)));
 		fadingFastClass.css('opacity', opacity-0.5);
 	}	
 	if ( ! /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) { // && $(window).width() > 768 ) {
@@ -92,7 +92,7 @@ $(window).bind('scroll', function() {
 				if( ! /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 					$this.css('background-position', 'center ' + yBgPosition + 'px');
 				}				
-        
+
       });
     });
   };
@@ -297,7 +297,7 @@ $(function() {
 			var base = $('footer').offset().top - window.scrollY;
 			if (y >= top && base > 960) {
 				if (viewportWidth > 1200) {
-					sidebar.css('top', y - 700);
+					sidebar.css('top', y - 700); //todo: addClass to set position fixed top:0 instead
 				} else {
 					sidebar.css('top', 0);
 				}

@@ -980,7 +980,7 @@ section {
       padding: 10vh 0; } }
   @media (min-width: 768px) {
     .hero-content {
-      height: 94vh;
+      height: 96vh;
       padding: 0; } }
   .hero-content__bg {
     text-align: center;
@@ -2886,6 +2886,66 @@ button.trigger span::before {
   @media (min-width: 1360px) {
     #fetch .intro-effect-jam3.modify .bg-img img {
       right: 15%; } }
+
+/* -------------------------------------
+//   Jobs banner
+/* ------------------------------------- */
+#jobs .title h1 {
+  background: rgba(255, 255, 255, 0.8);
+  color: #636362;
+  padding: 15px; }
+
+#jobs .intro-effect-jam3.modify .title h1 {
+  background: none; }
+  @media (min-width: 992px) {
+    #jobs .intro-effect-jam3.modify .title h1 {
+      background: none;
+      margin-top: -10px; } }
+
+#jobs .bg-img {
+  background-image: linear-gradient(45deg, #ebedee 0%, #fdfbfb 100%);
+  /*background-color: #DCD9D4; 
+ background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%); 
+ background-blend-mode: soft-light,screen;*/
+  border-bottom: 1px solid #dfdfdf; }
+  #jobs .bg-img img {
+    top: 20px;
+    right: -20px;
+    min-width: auto;
+    min-height: auto;
+    width: 300px; }
+    @media (min-width: 768px) {
+      #jobs .bg-img img {
+        width: 400px;
+        top: 30px; } }
+    @media (min-width: 992px) {
+      #jobs .bg-img img {
+        right: 30px; } }
+    @media (min-width: 1360px) {
+      #jobs .bg-img img {
+        width: 450px;
+        top: 15px;
+        right: 10%; } }
+
+#jobs .intro-effect-jam3.modify .bg-img img {
+  top: -175px;
+  right: -20px;
+  width: 250px; }
+  @media (min-width: 768px) {
+    #jobs .intro-effect-jam3.modify .bg-img img {
+      top: -300px;
+      right: -20px;
+      width: 440px; } }
+  @media (min-width: 992px) {
+    #jobs .intro-effect-jam3.modify .bg-img img {
+      top: -300px;
+      right: 80px;
+      width: 440px; } }
+  @media (min-width: 1360px) {
+    #jobs .intro-effect-jam3.modify .bg-img img {
+      right: 10%;
+      top: -550px;
+      width: 650px; } }
 
 /* *************************************
 //   BUTTONS  [modules/_buttons.scss]

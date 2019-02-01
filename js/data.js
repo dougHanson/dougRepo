@@ -6,7 +6,7 @@ var projects = {
         brand_colours: ['#ff8200', '#d21f2a', '#808080', '#0090ab'],
         skills: ['HTML5', 'CSS3', 'PHP', 'SASS', 'AngularJS', 'UX design', 'user testing', 'OOCSS & BEM', 'browser testing'],
         year: '2016',
-        website: 'www.iinet.net.au',
+        website: 'iinet.net.au/dsl',
         website_url: '//www.iinet.net.au/internet-products/broadband/naked-dsl',
         thumbnail: 'iinet-plan-pages-thumb.png'
     },
@@ -28,7 +28,7 @@ var projects = {
         brand_colours: ['#FF9725', '#FFBB25', '#0C2D6C', '#3193FD'],
         skills: ['HTML5', 'CSS3', 'jQuery', 'branding', 'PHP', 'UX design', 'interaction design', 'Bootstrap', 'SEO'],
         year: '2015',
-        website: 'www.multicomm.com.au',
+        website: 'multicomm.com.au',
         website_url: '//www.multicomm.com.au/',
         thumbnail: 'multicomm-thumb.png'
     },
@@ -37,7 +37,7 @@ var projects = {
         title: 'Bankwest Digital Creative',
         client: 'Bankwest',
         brand_colours: ['#FF920C', '#E96211', '#FFFFFF', '#33404D'],
-        skills: ['HTML', 'CSS', 'Javascript', 'JQuery', 'Fatwire CMS', 'AJAX', 'email marketing', 'digital marketing'],
+        skills: ['HTML', 'CSS', 'Javascript', 'JQuery', 'Fatwire CMS', 'email marketing', 'digital marketing'],
         year: '2010 - 2013',
         //website: 'www.bankwest.com.au',
         //website_url: '//www.bankwest.com.au',
@@ -50,7 +50,7 @@ var projects = {
         brand_colours: ['#ff8200', '#d21f2a', '#808080', '#0090ab'],
         skills: ['AngularJS', 'HTML', 'Adobe Photoshop', 'SASS', 'UI design', 'UX design'],
         year: '2017',
-        website: 'www.iinet.net.au/tv/fetch',
+        website: 'iinet.net.au/tv/fetch',
         website_url: '//www.iinet.net.au/tv/fetch',
         thumbnail: 'fetch-thumb.png'
     },
@@ -67,15 +67,15 @@ var projects = {
     },
     jobs: {
         url: 'jobs.php',
-        title: 'Interactive Job Feed',
+        title: 'Interactive Job Portal',
         client: 'Department of Education WA',
-        brand_colours: ['#1078b2', '#aad7eb', '#ca8620', '#FAF3E9'],
-        skills: ['UX design', 'Maps API', 'jQuery', 'AJAX', 'Liferay CMS', 'Freemarker'],
+        brand_colours: ['#1078b2', '#aad7eb', '#FAF3E9', '#ca8620'],
+        skills: ['UX design', 'Maps API', 'jQuery', 'AJAX', 'HTML', 'SASS', 'Liferay CMS', 'Freemarker'],
         year: '2019',
-        website: 'www.education.wa.edu/current-jobs',
+        website: 'education.wa.edu/current-jobs',
         website_url: '//www.education.wa.edu/current-jobs',
         thumbnail: 'jobs-thumb.png'
     }
 };
 
-var projectOrder = ["fetch", "product_page_redesign", "mobii_manager", "multicomm", "bankwest"]; //, "portfolio"];
+var projectOrder = ["jobs", "fetch", "product_page_redesign", "mobii_manager", "multicomm", "bankwest"]; //, "portfolio"];
