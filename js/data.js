@@ -6,7 +6,7 @@ var projects = {
         brand_colours: ['#1078b2', '#aad7eb', '#FAF3E9', '#ca8620'],
         skills: ['UX design', 'Maps API', 'jQuery', 'AJAX', 'HTML', 'SASS', 'Liferay CMS', 'Freemarker', 'accessibility'],
         year: '2019',
-        website: 'education.wa.edu/current-jobs',
+        website: 'education.wa.edu/jobs',
         website_url: '//www.education.wa.edu/current-jobs',
         thumbnail: 'jobs-thumb.png'
     },
@@ -17,7 +17,7 @@ var projects = {
         brand_colours: ['#ff8200', '#d21f2a', '#808080', '#0090ab'],
         skills: ['AngularJS', 'HTML', 'Adobe Photoshop', 'SASS', 'UI design', 'UX design'],
         year: '2017',
-        website: 'iinet.net.au/tv/fetch',
+        website: 'iinet.net.au/tv',
         website_url: '//www.iinet.net.au/tv/fetch',
         thumbnail: 'fetch-thumb.png'
     },
@@ -51,7 +51,7 @@ var projects = {
         skills: ['HTML5', 'CSS3', 'jQuery', 'branding', 'PHP', 'UX design', 'interaction design', 'Bootstrap', 'SEO'],
         year: '2015',
         website: 'multicomm.com.au',
-        website_url: '//www.multicomm.com.au/',
+        website_url: '//members.iinet.net.au/~doug.hanson/all/multicomm/',
         thumbnail: 'multicomm-thumb.png'
     },
     bankwest: {
