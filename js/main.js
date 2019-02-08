@@ -299,6 +299,7 @@ $(function() {
 			if (y >= top && base > 960) {
 				if (viewportWidth > 1200) {
 					sidebar.css('top', y - 700); //todo: addClass to set position fixed top:0 instead
+                    //sidebar.css({'position': 'fixed', 'top': 0, 'right': 0});
 				} else {
 					sidebar.css('top', 0);
 				}

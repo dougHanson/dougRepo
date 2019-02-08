@@ -1718,8 +1718,8 @@ based on dark.css by Ivan Sagalaev
   color: #fff;
   border-radius: 6px;
   display: inline-block;
-  padding: 5px;
-  margin: 2px;
+  padding: 4px;
+  margin: 1px;
   white-space: nowrap; }
 
 /* *************************************
@@ -2184,6 +2184,10 @@ img {
     @media (min-width: 992px) {
       .work-item__heading {
         text-decoration: none; } }
+  .work-item__subheading {
+    font-family: "Dancing Script", serif;
+    color: #4a4a4a;
+    min-height: 80px; }
   .work-item__content {
     padding: 0 1em;
     font-weight: 400; }

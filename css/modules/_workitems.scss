@@ -35,6 +35,11 @@
 			text-decoration: none;
 		}
 	}
+    &__subheading {
+        font-family: $font-family-secondary;
+        color: $grey-2;
+        min-height: 80px;
+    }
 	&__content {
 		padding: 0 1em;
 		font-weight: 400;

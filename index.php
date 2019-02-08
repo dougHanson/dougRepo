@@ -116,7 +116,7 @@
 
 								<div class="work-item__content">
 									<p class="work-item__heading">Interactive Job Portal</p>
-									<h2 class="h5 subheading">ux design / web development / application&nbsp;development</h2>
+									<h2 class="h5 work-item__subheading">ux design / web development / application&nbsp;development</h2>
 								</div>
 							</article>
 						</a>                        
@@ -131,12 +131,12 @@
 
 								<div class="work-item__content work-item__content--pull-up-mobile">
 									<p class="work-item__heading">AngularJS Fetch TV App</p>
-									<h2 class="h5 subheading">web design / ux development / single page&nbsp;application</h2>
+									<h2 class="h5 work-item__subheading">web design / ux development / single page&nbsp;application</h2>
 								</div>
 							</article>
 						</a>
                         
-            <!-- IINET PLAN PAGES -->
+                        <!-- IINET PLAN PAGES -->
 						<a href="iinet-plan-pages.php" class="progressLoad">
 							<article class="work-item">
 								<div class="work-item__drawings" id="drawings">
@@ -146,7 +146,7 @@
 
 								<div class="work-item__content">
 									<p class="work-item__heading">Product Page Redesign</p>
-									<h2 class="h5 subheading">ux design / web development &amp; design</h2>
+									<h2 class="h5 work-item__subheading">ux design / web development &amp; design</h2>
 								</div>
 							</article>
 						</a>
@@ -161,7 +161,7 @@
 
 								<div class="work-item__content">
 									<p class="work-item__heading">Mobii Manager</p>
-									<h2 class="h5 subheading">mobile app design / ui design</h2>
+									<h2 class="h5 work-item__subheading">mobile app design / ui design</h2>
 								</div>
 							</article>
 						</a>
@@ -176,7 +176,7 @@
 
 								<div class="work-item__content">
 									<p class="work-item__heading">Multicomm Website</p>
-									<h2 class="h5 subheading">branding / web design &amp; development</h2>
+									<h2 class="h5 work-item__subheading">branding / web design &amp; development</h2>
 								</div>
 							</article>
 						</a>
@@ -191,7 +191,7 @@
 
 								<div class="work-item__content">
 									<p class="work-item__heading">Bankwest Digital Design</p>
-									<h2 class="h5 subheading">digital creative / digital marketing / web&nbsp;authoring</h2>
+									<h2 class="h5 work-item__subheading">digital creative / digital marketing / web&nbsp;authoring</h2>
 								</div>
 							</article>
 						</a>
