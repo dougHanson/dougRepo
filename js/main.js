@@ -128,6 +128,7 @@ $('.show-all-btn').click( function() {
 
 
 
+
 // INPUT FIELDS - special effects from codrops 
 (function() {
   // trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
