@@ -110,7 +110,7 @@
 						<a href="jobs.php" class="progressLoad">
 							<article class="work-item">
 								<div class="work-item__drawings" id="drawings">
-									<img class="illustration" src="img/jobs-header.png" alt="" style="max-width: 225px; padding-top: 20px;" />
+									<img class="illustration" src="img/jobs-header.png" alt="" style="max-width: 225px; padding-top: 15px;" />
 									<?php echo file_get_contents("svg/jobs.svg"); ?>
 								</div> 
 
