@@ -8,89 +8,112 @@
 /* ------------------------------------- */
 
 .work-item-wrapper {
-    margin-top: 0;
-    @media (min-width: 992px) {
-        margin-top: 40px;
-    } 
+  margin-top: 0;
+
+  @media (min-width: 992px) {
+    margin-top: 40px;
+  }
 }
 
 .work-item {
-	text-align: center;
-	width: 100%;
-	margin: 2% 0; 
-	padding: 0em;
-	float: left;
-	transform-style: preserve-3d;
-	cursor: pointer;
-	cursor: hand;
-	&__heading {
-		margin-bottom: 0;
-		margin-top: 0;
-		font-size: 1.25em;
-		font-weight: 600;
-		color: $link-color;
-		text-decoration: $link-hover-decoration;
-		transition: all 500ms;
-		@media (min-width: 992px) {
-			text-decoration: none;
-		}
-	}
-    &__subheading {
-        font-family: $font-family-secondary;
-        color: $grey-2;
-        min-height: 80px;
+  text-align: center;
+  width: 100%;
+  margin: 2% 0;
+  padding: 0em;
+  float: left;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  cursor: hand;
+
+  &__heading {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 1.25em;
+    font-weight: 600;
+    color: $link-color;
+    text-decoration: $link-hover-decoration;
+    transition: all 500ms;
+
+    @media (min-width: 992px) {
+      text-decoration: none;
     }
-	&__content {
-		padding: 0 1em;
-		font-weight: 400;
-        &--pull-up-mobile {
-            margin: -40px 0 40px;
-            @media (min-width: 600px) {
-                margin: auto;
-            }
-        }
-	}
-	&__drawings {
-		height: 300px;
-		margin: 0 auto;
-		position: relative;
-	}
-	&:hover {
-		transition: all 500ms;
-		.work-item__heading {
-			color: $link-hover-color;
-			text-decoration: $link-hover-decoration;
-			transition: all 500ms;
-			@media (min-width: 992px) {
-				text-decoration: none;
-			}
-		}
-	}
-	@media (min-width: 600px) {
-		width: 47.5%;
-		margin: 2% 1.25%;
-	}
-	@media (min-width: 992px) {
-		width: 100%;
-	}
-	@media (min-width: 1200px) {
-		width: 47.5%;
-		margin: 2% 1.25%;
-	}
-	@media (min-width: 1370px) {
-		width: 32%;
-		min-height: 340px;
-		margin: 10px 0.5%;
-	}
+  }
+
+  &__subheading {
+    font-family: $font-family-secondary;
+    color: $grey-2;
+    min-height: 80px;
+  }
+
+  &__content {
+    padding: 0 1em;
+    font-weight: 400;
+
+    &--pull-up-mobile {
+      margin: -40px 0 50px;
+
+      @media (min-width: 600px) {
+        margin: auto;
+      }
+    }
+  }
+
+  &__drawings {
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  &--jobs {
+    margin: 45px 0;
+
+    @media (min-width: 600px) {
+      margin: auto;
+    }
+  }
+
+  &:hover {
+    transition: all 500ms;
+
+    .work-item__heading {
+      color: $link-hover-color;
+      text-decoration: $link-hover-decoration;
+      transition: all 500ms;
+
+      @media (min-width: 992px) {
+        text-decoration: none;
+      }
+    }
+  }
+
+  @media (min-width: 600px) {
+    width: 47.5%;
+    margin: 2% 1.25%;
+  }
+
+  @media (min-width: 992px) {
+    width: 100%;
+  }
+
+  @media (min-width: 1200px) {
+    width: 47.5%;
+    margin: 2% 1.25%;
+  }
+
+  @media (min-width: 1370px) {
+    width: 32%;
+    min-height: 340px;
+    margin: 10px 0.5%;
+  }
 }
 
 
 /* ----- Elements on project pages ----- */
 
-.brand-colour { 
-	width: 15px; 
-	height: 10px; 
-	display: table-cell; 
-	margin: 0 0 -1em; 
-	padding: 0;
+.brand-colour {
+  width: 15px;
+  height: 10px;
+  display: table-cell;
+  margin: 0 0 -1em;
+  padding: 0;
 }

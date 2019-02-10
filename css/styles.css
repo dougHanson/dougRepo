@@ -1908,9 +1908,9 @@ footer .icon {
     top: 10px;
     left: 10px;
     transition: all 0.25s; }
-    .social-icon__svg--linkedin .icon, .social-icon__svg--facebook .icon, .social-icon__svg--twitter .icon, .social-icon__svg--pinterest .icon {
+    .social-icon__svg--linkedin .icon, .social-icon__svg--facebook .icon, .social-icon__svg--twitter .icon, .social-icon__svg--pinterest .icon, .social-icon__svg--github .icon {
       transition: all 0.25s; }
-    .social-icon__svg--linkedin:hover, .social-icon__svg--facebook:hover, .social-icon__svg--twitter:hover, .social-icon__svg--pinterest:hover {
+    .social-icon__svg--linkedin:hover, .social-icon__svg--facebook:hover, .social-icon__svg--twitter:hover, .social-icon__svg--pinterest:hover, .social-icon__svg--github:hover {
       transition: all 0.25s; }
     .social-icon__svg--linkedin:hover .icon {
       fill: #0077b5; }
@@ -1920,6 +1920,8 @@ footer .icon {
       fill: #1da1f2; }
     .social-icon__svg--pinterest:hover .icon {
       fill: #bd081c; }
+    .social-icon__svg--github:hover .icon {
+      fill: #333; }
 
 .social-icon:hover .social-icon__bg {
   opacity: 0.5;
@@ -1929,7 +1931,7 @@ footer .icon {
     transition: all 0.25s; }
 
 .social-wrapper {
-  width: 200px;
+  width: 240px;
   display: block;
   margin: 0 auto;
   padding-left: 8px; }
@@ -1940,7 +1942,7 @@ footer .icon {
   padding-right: 2px;
   margin-top: 6px;
   display: inline-block;
-  width: 25%; }
+  width: 20%; }
 
 /* ----- icons in left nav ----- */
 .icon {
@@ -2192,7 +2194,7 @@ img {
     padding: 0 1em;
     font-weight: 400; }
     .work-item__content--pull-up-mobile {
-      margin: -40px 0 40px; }
+      margin: -40px 0 50px; }
       @media (min-width: 600px) {
         .work-item__content--pull-up-mobile {
           margin: auto; } }
@@ -2200,6 +2202,11 @@ img {
     height: 300px;
     margin: 0 auto;
     position: relative; }
+  .work-item--jobs {
+    margin: 45px 0; }
+    @media (min-width: 600px) {
+      .work-item--jobs {
+        margin: auto; } }
   .work-item:hover {
     transition: all 500ms; }
     .work-item:hover .work-item__heading {
