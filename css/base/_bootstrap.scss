@@ -12,32 +12,17 @@
 }
 @media (min-width: 480px) {
   .container {
-    width: 95%;
+    width: 90%;
   }
 }
 @media (min-width: 768px) {
   .container {
-    width: 92%;
-  }
-}
-@media (min-width: 992px) {
-  .container {
-    width: 90%;
-  }
-}
-@media (min-width: 1200px) {
-  .container {
-    width: 88%;
-  }
-}
-@media (min-width: 1360px) {
-  .container {
-    width: 86%;
+    width: 80%;
   }
 }
 @media (min-width: 1960px) {
   .container {
-    width: 1600px;
+    width: 70%;
   }
 }
 .container-fluid {

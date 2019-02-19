@@ -9,6 +9,9 @@
 //   Body
 /* ------------------------------------- */
 /* -------------------------------------
+//   Layout
+/* ------------------------------------- */
+/* -------------------------------------
 //   Links
 /* ------------------------------------- */
 /* -------------------------------------
@@ -96,27 +99,15 @@ section {
 
 @media (min-width: 480px) {
   .container {
-    width: 95%; } }
+    width: 90%; } }
 
 @media (min-width: 768px) {
   .container {
-    width: 92%; } }
-
-@media (min-width: 992px) {
-  .container {
-    width: 90%; } }
-
-@media (min-width: 1200px) {
-  .container {
-    width: 88%; } }
-
-@media (min-width: 1360px) {
-  .container {
-    width: 86%; } }
+    width: 80%; } }
 
 @media (min-width: 1960px) {
   .container {
-    width: 1600px; } }
+    width: 70%; } }
 
 .container-fluid {
   margin-right: auto;
@@ -959,7 +950,7 @@ section {
     height: 100%; }
     @media (min-width: 992px) {
       .wrapper__inner {
-        padding-left: 230px; } }
+        padding-left: 250px; } }
 
 /* -------------------------------------
 //   Hero content on homepage
@@ -1261,7 +1252,7 @@ hr {
   top: 0; }
   @media (min-width: 992px) {
     .skeleton__aside {
-      width: 230px;
+      width: 250px;
       height: 100vh;
       margin: 1vw; } }
 
@@ -1295,7 +1286,7 @@ hr {
   padding: 30vh 10vh; }
   @media (min-width: 992px) {
     .skeleton__homepage {
-      margin-left: 230px; } }
+      margin-left: 250px; } }
 
 .skeleton__bar1 {
   background: #d1d1d0;
@@ -1522,10 +1513,11 @@ ol {
 
 ol, ul {
   margin-top: 0;
+  margin-bottom: 1rem;
   padding-left: 0; }
 
 ul ul, ul ol, ol ol, ol ul {
-  font-size: 90%;
+  font-size: 0.95rem;
   margin: 1rem 0 1.5rem 2rem; }
 
 ul ul {
@@ -1535,7 +1527,8 @@ ol ol {
   list-style: inside lower-alpha; }
 
 li {
-  margin-bottom: 0.75rem; }
+  font-size: 0.95rem;
+  margin-bottom: 0.25rem; }
 
 /* -------------------------------------
 //    preformatted text (code)
@@ -1744,14 +1737,15 @@ based on dark.css by Ivan Sagalaev
       background: #727c7d;
       background-size: cover;
       background-position: 0 -40px;
-      width: 230px;
+      width: 250px;
       height: 100%;
       top: 0;
       padding: 30px;
       background: linear-gradient(to bottom, #E9826D, #D9534D); } }
   @media (min-width: 1960px) {
     .vertical-menu {
-      width: 10%; } }
+      width: 12vw;
+      min-width: 250px; } }
   .vertical-menu__logo {
     height: 36px;
     width: 36px;

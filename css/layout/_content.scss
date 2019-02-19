@@ -22,7 +22,7 @@
 		padding-left: 0px;	  
 		height: 100%;
 		@media (min-width: 992px) {
-			padding-left: 230px;
+			padding-left: $nav-width;
 		}
 	} 
 }

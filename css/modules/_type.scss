@@ -26,8 +26,6 @@ a {
   }
 }
 
-
-
 strong, b { font-weight: 600; }
 
 em, i { font-style: italic; }
@@ -57,7 +55,6 @@ abbr {
 	content: attr(title);
   }
 }
-
 
 ins { text-decoration: underline; }
 
@@ -166,17 +163,21 @@ ul { list-style: inside circle; }
 ol { list-style: inside decimal; }
 ol, ul {
   margin-top: 0;
+  margin-bottom: 1rem;
   padding-left: 0;
 }
 ul ul, ul ol, ol ol, ol ul {
-  font-size: 90%;
+  font-size: $paragraph-font-size;
   margin: 1rem 0 1.5rem 2rem;
 }
 
 ul ul { list-style: inside disc; }
 ol ol { list-style: inside lower-alpha; }
 
-li { margin-bottom: 0.75rem; }
+li {
+  font-size: $paragraph-font-size;
+  margin-bottom: 0.25rem; 
+}
 
 
 
