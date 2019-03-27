@@ -67,7 +67,7 @@
               <p>&nbsp;</p>
 
               <p class="h3 subheading padding-0 margin-0">The build</p>
-              <p>I began the build by <strong>building the UI using HTML, SASS and JQuery</strong>. The jobs data was provided via a <strong>third party API in JSON format</strong>. As the <strong>Liferay CMS</strong> that the page is hosted in is based on a Java platform, I used <strong>freemarker</strong> to retrieve and cache the data, and <strong>populate the page contents server-side</strong>. I then integrated a <strong>JQuery plugin</strong> called JPList, which included the ability to sort and filter the job listings.</p>
+              <p>I began the build by <strong>building the UI using HTML, SASS and JQuery</strong>. The jobs data was provided via a <strong>third party API in JSON format</strong>. As the <strong>Liferay DXP</strong> that the page is hosted in is based on a Java platform, I used <strong>freemarker</strong> to retrieve and cache the data, and <strong>populate the page contents server-side</strong>. I then integrated a <strong>JQuery plugin</strong> called JPList, which included the ability to sort and filter the job listings.</p>
 
               <div class="item margin-bottom-20">
                 <a href="img/jobs-freemarker-code.png" data-lightbox="code" data-title="Freemarker code">

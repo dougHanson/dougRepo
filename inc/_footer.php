@@ -32,7 +32,7 @@
               </div>
             </a>
 
-            <a class="social-icon-footer" href="//au.pinterest.com/dhanson1087/" title="Pinterest" target="_blank">
+            <a class="social-icon-footer" href="//au.pinterest.com/doughanson1983/" title="Pinterest" target="_blank">
               <div class="social-icon__bg social-icon__bg--transparent"></div>
               <div class="social-icon__svg social-icon__svg--pinterest">
                 <?php echo file_get_contents("svg/pinterest.svg"); ?>

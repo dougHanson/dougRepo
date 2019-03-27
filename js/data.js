@@ -4,7 +4,7 @@ var projects = {
     title: 'Interactive Job Portal',
     client: 'Department of Education WA',
     brand_colours: ['#1078b2', '#aad7eb', '#222', '#ca8620'], //#FAF3E9
-    skills: ['UX design', 'Maps API', 'jQuery', 'AJAX', 'HTML', 'SASS', 'Liferay CMS', 'Freemarker', 'accessibility'],
+    skills: ['UX design', 'Maps API', 'jQuery', 'AJAX', 'HTML', 'SASS', 'Liferay DXP', 'Freemarker', 'accessibility'],
     year: '2019',
     website: 'Not yet live',
     website_url: '//www.education.wa.edu.au/current-jobs',

@@ -78,7 +78,7 @@
       </div>
     </a>
 
-    <a class="social-icon" href="//au.pinterest.com/dhanson1087/" target="_blank" title="Pinterest">
+    <a class="social-icon" href="//au.pinterest.com/doughanson1983/" target="_blank" title="Pinterest">
       <div class="social-icon__bg"></div>
       <div class="social-icon__svg">
         <?php echo file_get_contents("svg/pinterest.svg"); ?>

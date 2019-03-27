@@ -246,7 +246,7 @@
                   <td>
                     <strong>Front-end Web Developer</strong>
                     <br>
-                    <span class="hidden-xxs">Based at the Department of Education WA as a front-end developer, working to improve the public facing website for end-users and content authors. <span class="hidden-xs">Currently involved in migrating to the latest version of Liferay CMS with a strong focus on accessibility and creating better user&nbsp;experiences.</span></span>
+                    <span class="hidden-xxs">Based at the Department of Education WA as a front-end developer, working to improve the public facing website for end-users and content authors. <span class="hidden-xs">Currently involved in migrating to the latest version of Liferay DXP with a strong focus on accessibility and creating better user&nbsp;experiences.</span></span>
                   </td>
                 </tr>
                 <tr>
