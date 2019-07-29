@@ -1,5 +1,3 @@
-<!-- Google fonts -->
-<link href="https://fonts.googleapis.com/css?family=Raleway:100,400,600|Dancing+Script" rel="stylesheet" type="text/css">
 
 <!-- frame borders -->
 <div class="frame frame__top"></div>
