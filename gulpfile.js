@@ -78,7 +78,9 @@ gulp.task('html-replace', function () {
 gulp.task('minify-html', gulp.series('html-replace', function () {
   return gulp.src('./dist/**/*.php')
     .pipe(htmlmin({
-      collapseWhitespace: true
+      collapseWhitespace: true,
+      removeComments: true,
+      minifyJS: true
     }))
     .pipe(gulp.dest('./dist/'));
 }));
