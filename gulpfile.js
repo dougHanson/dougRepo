@@ -107,7 +107,7 @@ gulp.task('compress-images', gulp.series('copy', function () {
 
 // Watch Files For Changes
 gulp.task('watch', gulp.series('compile-sass', function () {
-  gulp.watch(['js/**/*.js', '!js/plugins/**/*.js'], gulp.series('lint-js', 'minify-js'));
+  gulp.watch(['js/**/*.js', '!js/plugins/**/*.js'], gulp.series('lint-js'));
   gulp.watch('css/**/*.scss', gulp.series('compile-sass'));
 }));
 
