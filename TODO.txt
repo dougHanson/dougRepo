@@ -1,5 +1,5 @@
 
-[ ] use gulp clean, and get gulp minifying all files in dist directory correctly
+[X] use gulp clean, and get gulp minifying all files in dist directory correctly
 [ ] setup gulp deploy
 
 [ ] contact form inline validation - prevent submit

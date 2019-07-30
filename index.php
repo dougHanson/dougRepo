@@ -22,7 +22,7 @@
   <link rel="stylesheet" href="css/styles.css" media="all">
   <style>
     .wrapper { opacity: 0; transition: all 200ms; } /* hide content until DOM ready */
-	</style>
+  </style>
   <!-- endbuild -->
 
   <?php //include('/inc/_favicons.php'); ?>

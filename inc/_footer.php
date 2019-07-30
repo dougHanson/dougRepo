@@ -59,8 +59,6 @@
 
 <!-- jQuery CDN -->
 <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-
-
 <!-- build:js -->
 <script src="js/data.js"></script>
 <script src="js/plugins/lozad.min.js"></script>
