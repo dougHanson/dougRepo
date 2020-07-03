@@ -13,7 +13,7 @@
 		margin: 1vw 1vw 0 1vw;
 		opacity: 0; 
 		transition: opacity 500ms;
-	  	padding-top: 60px;
+    padding-top: 60px;
 		@media (min-width: 992px) {
 			padding-top: 0px;
 		}
@@ -37,13 +37,13 @@
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-  	text-align: center; 
+  text-align: center; 
 	height: 80vh;
 	margin-bottom: 0px;
-  	padding: 14vh 0;
+  padding: 14vh 0;
 	@media (min-width: 480px) {
 		min-height: 80vh;
-	  	padding: 10vh 0;
+    padding: 10vh 0;
 	}
 	@media (min-width: 768px) {
 		height: 96vh;
@@ -51,7 +51,7 @@
 	}
 	&__bg {
 		text-align: center; 
-	  	padding: 12vh 2vh;  
+    padding: 12vh 2vh;  
 		height: 70vh;
 		@media (min-width: 768px) {
 		  padding: 30vh 10vh;  
