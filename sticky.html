@@ -117,13 +117,13 @@
   </div>
 
   <div class="services-parent">
-  <div class="services-panel services-search">
-    <div class="container">
-      <div class="row">
-        <input class="mb-2 mb-4" placeholder="find a service" />
+    <div class="services-panel services-search">
+      <div class="container">
+        <div class="row">
+          <input class="mb-2 mb-4" placeholder="find a service" />
+        </div>
       </div>
     </div>
-  </div>
   </div>
 
 
@@ -252,7 +252,7 @@
         // services bar sticky
         // ------------------------        
         tmpServices.css({ 'height': services.height() });
-        servicesParent.find('.tmpServices').remove();
+        //servicesParent.find('.tmpServices').remove();
         services.css({
           'position': 'static',
           'top': '',
@@ -282,6 +282,9 @@
               'width': servicesParent.width()  // maintain width value when position:fixed
             });
             services.find('input').removeClass('mb-4');  // removes btm margin when sticking
+          }
+          else {
+            servicesParent.find('.tmpServices').remove();
           }
         }
 

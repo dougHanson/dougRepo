@@ -2059,9 +2059,6 @@ p {
   display: block;
   z-index: 300; }
 
-.header-parent {
-  margin-top: 5vw; }
-
 .header-bar {
   background-color: #434343;
   color: white;
