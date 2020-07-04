@@ -110,17 +110,17 @@
       focus on the bottom line for optimize for search. </p>
   </div>
 
-  <div class="services-panel pb-0">
+  <div class="services-panel pb-0"  style="border-top: 1px #cfcfcf solid;">
     <div class="container">
-      <h4 class="m-0 pt-4">Search field sticky</h4>
+      <h4 class="m-0 pt-3">Search field sticky</h4>
     </div>
   </div>
 
   <div class="services-parent">
-    <div class="services-panel services-search">
+    <div class="services-panel services-search" style="border-bottom: 1px #cfcfcf solid;">
       <div class="container">
         <div class="row">
-          <input class="mb-2 mb-4" placeholder="find a service" />
+          <input class="mb-3 pl-4" placeholder="find a service" />
         </div>
       </div>
     </div>
@@ -162,7 +162,7 @@
     They have downloaded gmail and seems to be working for now.</p>
 </div>
 
-<div style="width: 100%; height: 100px; background-color: #404040; color:white;">FOOTER</div>
+<div style="width: 100%; height: 100px; background-color: #434343; color:white;">FOOTER</div>
 
 
 
@@ -258,7 +258,7 @@
           'top': '',
           'width': servicesParent.width()
         });
-        services.find('input').addClass('mb-4');  // removes btm margin when sticking
+        //services.find('input').addClass('mb-4');  // removes btm margin when sticking
 
         // mobile
         if (Math.max(document.documentElement.clientWidth, window.innerWidth) < 768) {
@@ -269,7 +269,10 @@
               'top': controlMenu.height() + header.height(),
               'width': servicesParent.width()  // maintain width value when position:fixed
             });
-            services.find('input').removeClass('mb-4');  // removes btm margin when sticking
+            //services.find('input').removeClass('mb-4');  // removes btm margin when sticking
+          }
+          else {
+            servicesParent.find('.tmpServices').remove();
           }
         }
         // desktop
@@ -281,7 +284,7 @@
               'top': controlMenu.height() + nav.height(),
               'width': servicesParent.width()  // maintain width value when position:fixed
             });
-            services.find('input').removeClass('mb-4');  // removes btm margin when sticking
+            //services.find('input').removeClass('mb-4');  // removes btm margin when sticking
           }
           else {
             servicesParent.find('.tmpServices').remove();
