@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css" media="all">
+  <title>Let's get schticky</title>
 </head>
 
 <body>
@@ -14,7 +15,7 @@
     <div class="container-fluid header-bar">
       <div class="row m-0">
         <div class="col-7">
-          <p style="font-size: 5em; margin: 0; line-height: 1.25">🏛</p>
+          <p style="font-size: 5em; margin: 0; line-height: 1.25;">🏛</p>
         </div>
 
         <div class="col-5" style="text-align: right;">
@@ -110,11 +111,18 @@
       focus on the bottom line for optimize for search. </p>
   </div>
 
-  <div class="services-panel">
+  <div class="services-panel pb-0"  style="border-top: 1px #cfcfcf solid;">
     <div class="container">
-      <h4 class="m-0">Search field sticky</h4>
-      <div class="services-parent">
-        <input class="services-search" placeholder="find a service" />
+      <h4 class="m-0 pt-3">Search field sticky</h4>
+    </div>
+  </div>
+
+  <div class="services-parent">
+    <div class="services-panel services-search" style="border-bottom: 1px #cfcfcf solid;">
+      <div class="container">
+        <div class="row">
+          <input class="mb-3 pl-4" placeholder="find a service" />
+        </div>
       </div>
     </div>
   </div>
@@ -154,6 +162,8 @@
     switch back to the first revision? blue sky thinking. Baseline the procedure and samepage your department punter.
     They have downloaded gmail and seems to be working for now.</p>
 </div>
+
+<div style="width: 100%; height: 100px; background-color: #434343; color:white;">FOOTER</div>
 
 
 
@@ -243,12 +253,13 @@
         // services bar sticky
         // ------------------------        
         tmpServices.css({ 'height': services.height() });
-        servicesParent.find('.tmpServices').remove();
+        //servicesParent.find('.tmpServices').remove();
         services.css({
           'position': 'static',
           'top': '',
           'width': servicesParent.width()
         });
+        //services.find('input').addClass('mb-4');  // removes btm margin when sticking
 
         // mobile
         if (Math.max(document.documentElement.clientWidth, window.innerWidth) < 768) {
@@ -259,6 +270,10 @@
               'top': controlMenu.height() + header.height(),
               'width': servicesParent.width()  // maintain width value when position:fixed
             });
+            //services.find('input').removeClass('mb-4');  // removes btm margin when sticking
+          }
+          else {
+            servicesParent.find('.tmpServices').remove();
           }
         }
         // desktop
@@ -270,6 +285,10 @@
               'top': controlMenu.height() + nav.height(),
               'width': servicesParent.width()  // maintain width value when position:fixed
             });
+            //services.find('input').removeClass('mb-4');  // removes btm margin when sticking
+          }
+          else {
+            servicesParent.find('.tmpServices').remove();
           }
         }
 
