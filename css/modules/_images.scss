@@ -359,7 +359,6 @@ $control-menu-height: 5vw;
 
 
 
-
 /* *************************************
 // Mobile search button to toggle search
 /* ************************************* */
@@ -376,7 +375,7 @@ $control-menu-height: 5vw;
   &:hover + label {
     @extend .icn-magnifier-blue;    
     //background-color: #1078b2;
-    color: #1078b2;
+    color: white;
   }
 }
 
