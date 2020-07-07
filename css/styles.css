@@ -2312,7 +2312,7 @@ p {
 .control-menu {
   background-color: #44043c;
   color: white;
-  height: 5vw;
+  height: calc(1.5vw + 25px);
   text-align: center;
   position: fixed;
   top: 0;
@@ -2321,7 +2321,7 @@ p {
   z-index: 300; }
 
 .header-parent {
-  margin-top: 5vw; }
+  margin-top: calc(1.5vw + 25px); }
 
 .header-bar {
   background-color: #434343;
@@ -2329,7 +2329,7 @@ p {
   z-index: 200;
   width: 100%;
   height: 100px;
-  top: 5vw;
+  top: calc(1.5vw + 25px);
   position: fixed; }
   @media (min-width: 768px) {
     .header-bar {
@@ -2343,25 +2343,25 @@ p {
     .navigation {
       display: block;
       position: sticky;
-      top: 5vw; } }
+      top: calc(1.5vw + 25px); } }
 
 .nav-bar {
   background-color: #434343;
   color: white; }
   @media (min-width: 768px) {
     .nav-bar {
-      background: #1078b2;
+      background-color: #007B84;
       position: sticky;
-      top: 5vw;
+      top: calc(1.5vw + 25px);
       min-height: auto;
       width: 100%;
       overflow: auto;
       height: auto; } }
   .nav-bar .links {
-    margin: 1rem 2rem; }
+    padding-left: 40px; }
     @media (min-width: 768px) {
       .nav-bar .links {
-        margin: 1rem 0; } }
+        padding: 20px 0; } }
   .nav-bar .link {
     display: inline-block;
     width: 100%;
@@ -2388,8 +2388,7 @@ p {
 
 .services-panel {
   background: #efefef;
-  width: 100%;
-  border-top: 1px #cfcfcf solid; }
+  width: 100%; }
 
 .services-search {
   width: 100%;
@@ -2411,6 +2410,33 @@ p {
   @media (min-width: 768px) {
     .mobile-buttons {
       display: none; } }
+
+.user-details {
+  width: 100%;
+  background: white;
+  padding: 10px auto;
+  color: black; }
+  .user-details__desktop {
+    display: none; }
+  @media (min-width: 768px) {
+    .user-details {
+      position: absolute;
+      top: 120px;
+      z-index: 400;
+      border: 1px solid #cfcfcf;
+      right: 10%;
+      padding: 10px 20px;
+      display: block;
+      box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+      width: 50%;
+      max-width: 440px; } }
+
+.sign-out {
+  width: 100%;
+  background: #f4f4f4;
+  border-top: 1px solid #cfcfcf;
+  padding: 10px 2em;
+  color: black; }
 
 .header__menu {
   color: #dfdfdf;
@@ -2454,7 +2480,7 @@ p {
   overflow-y: auto;
   padding: 1em 0 0;
   position: fixed;
-  top: calc( 5vw + 100px);
+  top: calc( calc(1.5vw + 25px) + 100px);
   right: 20px;
   transform: translateX(100%);
   transition: transform 0.25s cubic-bezier(0.77, 0.2, 0.05, 1), visibility 0.25s linear;
@@ -2463,8 +2489,7 @@ p {
   z-index: 400; }
   @media (min-width: 540px) {
     .menu {
-      width: 95vw;
-      max-width: 360px; } }
+      width: 70vw; } }
   @media (min-width: 768px) {
     .menu {
       display: none; } }
@@ -2476,7 +2501,7 @@ p {
   left: -9999px;
   opacity: 0;
   position: fixed;
-  top: calc( 5vw + 100px);
+  top: calc( calc(1.5vw + 25px) + 100px);
   transition: opacity 1.5s;
   width: 100vw; }
 
@@ -2609,6 +2634,22 @@ p {
   @media (min-width: 768px) {
     #toggle-search:checked ~ .mask {
       display: none; } }
+
+#site-search-query {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  margin: 0 auto;
+  padding-left: 24px;
+  z-index: 600;
+  border-bottom: 1px solid #808080;
+  top: 4px; }
+
+.lock-screen {
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+  position: fixed; }
 
 /* *************************************
 //   PROJECT SLIDE NAVIGATION  [modules/_arrow-navigation.scss]
