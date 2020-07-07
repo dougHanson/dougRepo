@@ -518,6 +518,12 @@
         }
       });
 
+      function unlockBody() {
+        if ( $('body').hasClass('lock-screen') ) {
+          $('body').removeClass('lock-screen');
+        }
+      }
+
       // Hide search if menu is opened
       $('#menu-input').on('change', function() {
         $('#toggle-search').prop('checked', false);
@@ -526,17 +532,22 @@
         if ( $('#menu-input'). prop('checked') == true ) {
           $('body').addClass('lock-screen');
         }
-        else { $('body').removeClass('lock-screen'); }
+        else { 
+          unlockBody();
+        }
       });
 
       // Hide menu if search is opened
       $('#toggle-search').on('change', function() {
         $('#menu-input').prop('checked', false);
+        unlockBody();
       });
 
       // If user clicks outside of an open menu, close it
       $('#mask').on('click', function() {
         $('#menu-input, #toggle-search').prop('checked', false);
+        unlockBody();
+
       });
 
       // Remove focus from menu / search once they are closed

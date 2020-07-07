@@ -500,4 +500,11 @@ p {
   overflow: hidden;
   width: 100%;
   position: fixed;
+  
+  @media (min-width: 768px) {
+    height: auto;
+    overflow: auto;
+    width: auto;
+    position: static;
+  }
 }

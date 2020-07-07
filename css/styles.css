@@ -2650,6 +2650,12 @@ p {
   overflow: hidden;
   width: 100%;
   position: fixed; }
+  @media (min-width: 768px) {
+    .lock-screen {
+      height: auto;
+      overflow: auto;
+      width: auto;
+      position: static; } }
 
 /* *************************************
 //   PROJECT SLIDE NAVIGATION  [modules/_arrow-navigation.scss]
