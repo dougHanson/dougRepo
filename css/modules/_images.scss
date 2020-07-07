@@ -145,22 +145,26 @@ $control-menu-height: 5vw;
     height: auto;
   }
 
-   &.sticky {
-     position: fixed;
-     top: $control-menu-height;
-   }
+  &.sticky {
+    position: fixed;
+    top: $control-menu-height;
+  }
 
-   .links {
-     margin: 1rem 2rem;
-   }
+  .links {
+    margin: 1rem 2rem;
+  }
 
   .link {
     display: inline-block;
     width: 100%;
     padding: 8px 16px 8px 0;
+    border-top: 1px solid black;
+
     @media (min-width: 768px) {
       width: auto;
+      border-top : none;
     }
+
     & a {
       color: white !important;
     }
