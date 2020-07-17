@@ -272,30 +272,26 @@ $(function () {
 
 
 //FLOATING SIDEBAR 
-$(function () {
+// $(function () {
+//   if ($('.sidebar').length) {
+//     var sidebar = $('.sidebar');
+//     var top = sidebar.offset().top;
 
-  if ($('.sidebar').length) {
-
-    var sidebar = $('.sidebar');
-    var top = sidebar.offset().top;
-
-    $(window).scroll(function (event) {
-      var viewportWidth = $(window).width();
-      var y = $(this).scrollTop() + 400;
-      var base = $('footer').offset().top - window.scrollY;
-      if (y >= top && base > 960) {
-        if (viewportWidth > 1200) {
-          sidebar.css('top', y - 700); //todo: addClass to set position fixed top:0 instead
-          //sidebar.css({'position': 'fixed', 'top': 0, 'right': 0});
-        } else {
-          sidebar.css('top', 0);
-        }
-      }
-    });
-
-  }
-
-});
+//     $(window).scroll(function (event) {
+//       var viewportWidth = $(window).width();
+//       var y = $(this).scrollTop() + 400;
+//       var base = $('footer').offset().top - window.scrollY;
+//       if (y >= top && base > 960) {
+//         if (viewportWidth > 1200) {
+//           sidebar.css('top', y - 700); //todo: addClass to set position fixed top:0 instead
+//           //sidebar.css({'position': 'fixed', 'top': 0, 'right': 0});
+//         } else {
+//           sidebar.css('top', 0);
+//         }
+//       }
+//     });
+//   }
+// });
 
 
 var currentYear = (new Date).getFullYear();
