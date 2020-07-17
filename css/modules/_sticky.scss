@@ -46,16 +46,32 @@ $xs: 400px;
 $control-menu-height: calc(1.5vw + 25px);
 $header-bar-height: 100px;
 $icn-magnifier-white: url('data:image/svg+xml;charset%3DUS-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22iso-8859-1%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2220.439%22%20height%3D%2220%22%20viewBox%3D%220%200%2020.439%2020%22%3E%3Cpath%20d%3D%22M7.386%2012.732a5.35%205.35%200%200%201-5.345-5.345%205.35%205.35%200%200%201%205.345-5.344%205.35%205.35%200%200%201%205.344%205.344%205.31%205.31%200%200%201-1.49%203.703%205.296%205.296%200%200%201-3.854%201.642zm12.631%204.854l-6.385-6.254a7.355%207.355%200%200%200%201.142-3.944C14.774%203.316%2011.46%200%207.387%200%203.314%200%200%203.314%200%207.388c0%204.073%203.314%207.387%207.388%207.387a7.32%207.32%200%200%200%204.312-1.396l6.349%206.219c.264.261.613.402.984.402a1.41%201.41%200%200%200%20.984-2.414z%22%20fill%3D%22%23FFFFFF%22%2F%3E%3C%2Fsvg%3E');
-$icn-magnifier-blue: url('data:image/svg+xml;charset%3DUS-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22iso-8859-1%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2220.439%22%20height%3D%2220%22%20viewBox%3D%220%200%2020.439%2020%22%3E%3Cpath%20d%3D%22M7.386%2012.732a5.35%205.35%200%200%201-5.345-5.345%205.35%205.35%200%200%201%205.345-5.344%205.35%205.35%200%200%201%205.344%205.344%205.31%205.31%200%200%201-1.49%203.703%205.296%205.296%200%200%201-3.854%201.642zm12.631%204.854l-6.385-6.254a7.355%207.355%200%200%200%201.142-3.944C14.774%203.316%2011.46%200%207.387%200%203.314%200%200%203.314%200%207.388c0%204.073%203.314%207.387%207.388%207.387a7.32%207.32%200%200%200%204.312-1.396l6.349%206.219c.264.261.613.402.984.402a1.41%201.41%200%200%200%20.984-2.414z%22%20fill%3D%22%231078b2%22%2F%3E%3C%2Fsvg%3E');
+$icn-magnifier-blue: url('data:image/svg+xml;charset%3DUS-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22iso-8859-1%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2220.439%22%20height%3D%2220%22%20viewBox%3D%220%200%2020.439%2020%22%3E%3Cpath%20d%3D%22M7.386%2012.732a5.35%205.35%200%200%201-5.345-5.345%205.35%205.35%200%200%201%205.345-5.344%205.35%205.35%200%200%201%205.344%205.344%205.31%205.31%200%200%201-1.49%203.703%205.296%205.296%200%200%201-3.854%201.642zm12.631%204.854l-6.385-6.254a7.355%207.355%200%200%200%201.142-3.944C14.774%203.316%2011.46%200%207.387%200%203.314%200%200%203.314%200%207.388c0%204.073%203.314%207.387%207.388%207.387a7.32%207.32%200%200%200%204.312-1.396l6.349%206.219c.264.261.613.402.984.402a1.41%201.41%200%200%200%20.984-2.414z%22%20fill%3D%22%23007B84%22%2F%3E%3C%2Fsvg%3E');
 $brand-colour: #007B84;
 $grey-bg : #434343;
 $grey-bg-light: #f0f0f0;
 $grey-mid: #555;
+$grey-dark: #333;
 $border-color: #cfcfcf;
 
 
-a { 
-  color: $brand-colour; 
+.ikon-brand__title {
+  font-size: 24px;
+  color: white;
+  margin: 14px 0 0 0;
+  font-weight: 700;
+}
+
+.ikon-brand__lead {
+  color: white;
+  line-height: 1em;
+  margin: 0px 10px 20px 0;
+  font-size: 13px;
+}
+
+a {
+  color: $brand-colour;
+  transition: none;
 }
 
 button.ikon {
@@ -109,7 +125,7 @@ p {
   color: white;
   z-index: 100;
   width: 100%;
-  height: $header-bar-height;
+  max-height: $header-bar-height;
   top: $control-menu-height;
   position: fixed;
 
@@ -151,7 +167,7 @@ p {
     top: $control-menu-height;
     min-height: auto;
     width: 100%;
-    overflow: auto;
+    //overflow: auto;
     height: auto;
     margin: 0;
     padding: 0;
@@ -168,7 +184,7 @@ p {
 
     @media (min-width: 768px) {
       padding: 20px 0;
-    }    
+    }
   }
 
   .link {
@@ -180,6 +196,7 @@ p {
     margin-bottom: 0;
     text-decoration: none;
 
+    &:focus,
     &:hover {
       //text-decoration: underline;
       background-color: $grey-mid;
@@ -191,6 +208,7 @@ p {
       width: auto;
       border-top : none;
 
+      &:focus,
       &:hover {
         text-decoration: underline;
         background-color: inherit;
@@ -206,9 +224,57 @@ p {
   display: none;
   height: 40px;
 
+  &__button {
+    &.icn-magnifier {
+      @extend .icn-magnifier-white;
+      background-color: $brand-colour;
+      background-position: center center !important;
+      background-size: 30px;
+      border-radius: 0;
+      border: 1px solid $brand-colour;
+      cursor: pointer;
+      display: block;
+      height: 57px;
+      position: absolute;
+      right: 0px;
+      top: 5px;
+      width: 60px;
+      z-index: 200;
+
+      &:active,
+      &:focus,
+      &:hover {
+        background-color: $grey-mid;
+        background-image: url('data:image/svg+xml;charset%3DUS-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22iso-8859-1%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2220.439%22%20height%3D%2220%22%20viewBox%3D%220%200%2020.439%2020%22%3E%3Cpath%20d%3D%22M7.386%2012.732a5.35%205.35%200%200%201-5.345-5.345%205.35%205.35%200%200%201%205.345-5.344%205.35%205.35%200%200%201%205.344%205.344%205.31%205.31%200%200%201-1.49%203.703%205.296%205.296%200%200%201-3.854%201.642zm12.631%204.854l-6.385-6.254a7.355%207.355%200%200%200%201.142-3.944C14.774%203.316%2011.46%200%207.387%200%203.314%200%200%203.314%200%207.388c0%204.073%203.314%207.387%207.388%207.387a7.32%207.32%200%200%200%204.312-1.396l6.349%206.219c.264.261.613.402.984.402a1.41%201.41%200%200%200%20.984-2.414z%22%20fill%3D%22%23FFFFFF%22%2F%3E%3C%2Fsvg%3E') !important;
+        border-color: $grey-mid;
+      }
+
+      @media (min-width: 768px) {
+        //@extend .icn-magnifier-blue;
+        background-image: url('data:image/svg+xml;charset%3DUS-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22iso-8859-1%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2220.439%22%20height%3D%2220%22%20viewBox%3D%220%200%2020.439%2020%22%3E%3Cpath%20d%3D%22M7.386%2012.732a5.35%205.35%200%200%201-5.345-5.345%205.35%205.35%200%200%201%205.345-5.344%205.35%205.35%200%200%201%205.344%205.344%205.31%205.31%200%200%201-1.49%203.703%205.296%205.296%200%200%201-3.854%201.642zm12.631%204.854l-6.385-6.254a7.355%207.355%200%200%200%201.142-3.944C14.774%203.316%2011.46%200%207.387%200%203.314%200%200%203.314%200%207.388c0%204.073%203.314%207.387%207.388%207.387a7.32%207.32%200%200%200%204.312-1.396l6.349%206.219c.264.261.613.402.984.402a1.41%201.41%200%200%200%20.984-2.414z%22%20fill%3D%22%23007B84%22%2F%3E%3C%2Fsvg%3E') !important;
+        background-color: white;
+        background-size: 20px;
+        border-color: white;
+        top: 21px;
+        width: 38px;
+        height: 38px;
+        z-index: inherit;
+
+        &:active,
+        &:focus,
+        &:hover {
+          background-color: $brand-colour;
+          background-image: url('data:image/svg+xml;charset%3DUS-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22iso-8859-1%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2220.439%22%20height%3D%2220%22%20viewBox%3D%220%200%2020.439%2020%22%3E%3Cpath%20d%3D%22M7.386%2012.732a5.35%205.35%200%200%201-5.345-5.345%205.35%205.35%200%200%201%205.345-5.344%205.35%205.35%200%200%201%205.344%205.344%205.31%205.31%200%200%201-1.49%203.703%205.296%205.296%200%200%201-3.854%201.642zm12.631%204.854l-6.385-6.254a7.355%207.355%200%200%200%201.142-3.944C14.774%203.316%2011.46%200%207.387%200%203.314%200%200%203.314%200%207.388c0%204.073%203.314%207.387%207.388%207.387a7.32%207.32%200%200%200%204.312-1.396l6.349%206.219c.264.261.613.402.984.402a1.41%201.41%200%200%200%20.984-2.414z%22%20fill%3D%22%23FFFFFF%22%2F%3E%3C%2Fsvg%3E') !important;
+          border-color: white;
+        }
+      }
+    }
+  }
+
   @media (min-width: 768px) {
     display: block;
     margin: 20px 0;
+    padding-left: 12px;
     //margin-top: 40px;
   }
 
@@ -294,6 +360,7 @@ p {
 
   p { color: black; }
 
+  &:focus,
   &:hover {
     background: $brand-colour;
     p { color: white; }
@@ -307,6 +374,8 @@ p {
   cursor: pointer;
   display: block;
   font-size: 13px;
+  height: 100%;
+  max-height: $header-bar-height;
   padding: 0;
   padding-top: 52px;
   position: absolute;
@@ -460,11 +529,12 @@ p {
   .main-nav__link--return {
     margin-bottom: 0;
     box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
-    padding: 12px 20px 0;
+    padding: 12px 20px;
     width: 100%;
     //border-top: 1px solid black;
 
     &:hover,
+    &:focus,
     &:focus + label {
       background-color: $grey-mid;
       color: white;
@@ -524,7 +594,7 @@ p {
 
   &:focus + label,
   &:hover + label {
-    background-color: $grey-bg;
+    background-color: $grey-dark;
     color: white;
 
     div {
@@ -537,7 +607,9 @@ p {
 //  Off canvas menu activated 
 /* ************************************* */
 #menu-input:checked + .header__menu {
-  background-color: $grey-bg;
+  //background-color: $grey-bg;
+  background-color: $grey-dark;
+  //background: linear-gradient(to bottom, lighten($grey-bg, 15%), $grey-bg);
   color: white;
 
   &:after {
@@ -602,6 +674,7 @@ p {
   &:hover + label {
     //@extend .icn-magnifier-blue;
     color: white;
+    background-color: $grey-dark;
   }
 }
 
@@ -627,7 +700,7 @@ p {
   cursor: pointer;
   display: block;
   font-size: 13px;
-  //height: 100%;
+  height: 100%;
   margin-bottom: 0;
   padding-top: 52px;
   position: absolute;
@@ -662,7 +735,7 @@ p {
   opacity: 1;
   position: absolute;
   right: 50%;
-  top: 95px;
+  top: 86px;
   transition: opacity 0.25s;
   visibility: visible;
   width: calc(100vw - 9px);
@@ -679,9 +752,11 @@ p {
 }
 
 #toggle-search:checked ~ .site-search-toggle__button {
-  //@extend .icn-magnifier-blue;
-  //background-color: white;
-  //color: $brand-colour;
+  // @extend .icn-magnifier-blue;
+  // background-color: white;
+  // color: $brand-colour;
+  background-color: $grey-dark;
+  //background: linear-gradient(to bottom, lighten($grey-bg, 15%), $grey-bg);
 }
 
 #toggle-search:checked ~ .site-search-toggle__title {
