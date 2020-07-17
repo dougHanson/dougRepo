@@ -82,7 +82,11 @@
 /* -------------------------- */
 /* Jam 3 */
 /* -------------------------- */
-.intro-effect-jam3 {  position: relative; overflow: hidden; transition: 0.5s; }
+.intro-effect-jam3 {  
+	position: relative; 
+	//overflow: hidden; 
+	transition: 0.5s; 
+}
 
 .intro-effect-jam3:not(.notrans) .bg-img {
 	-webkit-transition-property: top, left, right, bottom;

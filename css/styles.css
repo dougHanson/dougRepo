@@ -960,6 +960,10 @@ em {
       .wrapper__inner {
         padding-left: 250px; } }
 
+.sidebar {
+  position: sticky;
+  top: 180px; }
+
 /* -------------------------------------
 //   Hero content on homepage
 /* ------------------------------------- */
@@ -3015,7 +3019,6 @@ p {
 /* -------------------------- */
 .intro-effect-jam3 {
   position: relative;
-  overflow: hidden;
   transition: 0.5s; }
 
 .intro-effect-jam3:not(.notrans) .bg-img {
