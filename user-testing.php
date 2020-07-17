@@ -32,9 +32,9 @@
 
           <!-- header image -->
           <!-- <header class="header"> -->
-            <div class="bg-img" style="position: static; max-height: 360px; margin-top: 40px;">
+            <div class="bg-img" style=" overflow: hidden; height: 360px; position: relative;">
               <img src="img/user-testing-doug-hanson.jpg" data-src="img/user-testing-doug-hanson.jpg" class="lazy-load" alt="Interactive Jobs Portal" 
-                   style="width: 100%; bottom: 0; height: auto; min-width: none; min-height: none; position: static; "/>
+                   style="display: block; min-width: 100%; min-height: 100%; position: absolute; bottom: 0; height: 600px; "/>
             </div>
           <!-- </header> -->
 
