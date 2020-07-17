@@ -2238,14 +2238,7 @@ img {
       min-height: 340px;
       margin: 10px 0.5%; } }
 
-/* ----- Elements on project pages ----- */
-.brand-colour {
-  width: 15px;
-  height: 10px;
-  display: table-cell;
-  margin: 0 0 -1em;
-  padding: 0; }
-
+/* ----- SVG Animations ----- */
 svg {
   pointer-events: none; }
 
@@ -2275,6 +2268,14 @@ svg {
     stroke: #aaa;
     stroke-width: 1; }
 
+a:hover .work-item .illustration,
+a:focus .work-item .illustration {
+  opacity: 1; }
+
+a:hover .work-item .work-item__heading,
+a:focus .work-item .work-item__heading {
+  outline: 1px dashed black; }
+
 .work-item:hover .illustration {
   opacity: 1; }
 
@@ -2287,6 +2288,14 @@ svg {
 
 .hide {
   opacity: 0; }
+
+/* ----- Elements on project pages ----- */
+.brand-colour {
+  width: 15px;
+  height: 10px;
+  display: table-cell;
+  margin: 0 0 -1em;
+  padding: 0; }
 
 /* *************************************
 //   PROJECT SLIDE NAVIGATION  [modules/_arrow-navigation.scss]

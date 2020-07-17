@@ -108,6 +108,59 @@
 }
 
 
+
+/* ----- SVG Animations ----- */
+
+svg { pointer-events: none; }
+
+.illustration {
+	width: 100%;
+	max-width: 100%;
+	opacity: 0;
+	display: block;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	//bottom: 0;
+	left: 0;
+	right: 0;	
+	&:hover {
+	  opacity: 1;
+  	}
+}
+
+.line-drawing,
+.illustration {
+	-webkit-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+}
+
+.line-drawing {
+	margin: auto;
+	max-width: 300px;
+	path {
+		fill: none;
+		stroke: #aaa;
+		stroke-width: 1;
+	}
+}
+
+a:hover,
+a:focus {
+  .work-item {
+    .illustration { opacity: 1; }
+    .work-item__heading { outline: 1px dashed black; }
+  }
+}
+.work-item:hover .illustration { opacity: 1; }
+.work-item:hover .line-drawing,
+.profile-pic:hover .line-drawing { opacity: 0; }
+
+.show {	opacity: 1; }
+.hide { opacity: 0; }
+
+
+
 /* ----- Elements on project pages ----- */
 
 .brand-colour {
