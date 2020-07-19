@@ -28,29 +28,29 @@
 
       <div id="container">
 
-        <!-- header image -->
-<!--        <header class="header">
-          <div class="bg-img">
-            <img src="img/jobs-header.min.png" data-src="img/jobs-header.png" class="lazy-load" alt="Interactive Jobs Portal" />
-          </div>
-        </header>-->
-
-
         <article class="container">
+
+          <!-- header image -->
+          <!-- <header class="header"> -->
+            <div class="bg-img" style=" overflow: hidden; height: 360px; position: relative;">
+              <img src="img/user-testing-doug-hanson.jpg" data-src="img/user-testing-doug-hanson.jpg" class="lazy-load" alt="Interactive Jobs Portal" 
+                   style="display: block; min-width: 100%; min-height: 100%; position: absolute; bottom: 0; height: 600px; "/>
+            </div>
+          <!-- </header> -->
 
 
             <!-- ###############################
-						//   Page specific content
-						#################################### -->
+            //   Page specific content
+            #################################### -->
             <div class="col-lg-12">
-              
-              <h1 class="font-bold grey-6">User Testing</h1>
+
+              <h1 class="font-bold grey-6 margin-top-30">User Testing</h1>
 
               <p class="h3 subheading padding-0 margin-0">What is User Testing?</p>
               <p>User testing is the best way to understand how real users experience our website. The tests take place with real users to measure how ‘usable’ or ‘intuitive’ a website is and how easy it is for users to reach their goals. Unlike interviews or focus groups that attempt to get users to accurately self-report their own behaviour or preferences, a well-designed user test measures actual performance on mission-critical tasks.</p>
               <p>At the core of any user study is a small set of three to five design hypotheses. The goal of your study is to validate or invalidate those hypotheses. The next iteration of the design will change accordingly.</p>
               <p>The goal is to get qualitative feedback on a single design iteration from multiple participants. By keeping the sessions identical (or as similar to one another as possible), you’ll be able to suss out the commonalities between them.</p>
-              
+
               <p class="h3 subheading padding-0 margin-0">Why do we need it?</p>
               <p>There are many advantages of usability testing including:</p>
               <ul>
@@ -60,11 +60,11 @@
                 <li>it minimises the risk of new designs failing</li>
                 <li>users are better able to reach their goals, which results in the business meeting its targets</li>
               </ul>
-              
+
               <p class="h3 subheading padding-0 margin-0">Who are we testing?</p>
               <p>Users should be outsiders who are not involved in the changes we are testing in any way. This can be members of our extended team if they have been in no way involved in the design changes so far, but should also reach beyond the team. This can include staff from other teams across iiNet, such as CSRs and CSMs, and even customers in the Store downstairs (although this may require an incentive). </p>
               <p>The best results come from testing no more than 5 users and running as many small tests as practical, as 5 users are enough to uncover the majority of potential usability issues. Rather than fixating on the number of test participants, you’ll find more usability problems in your test by including a variety of tasks, than you will by including more participants. </p>
-              
+
               <p class="h3 subheading padding-0 margin-0">When to conduct a user test</p>
               <p>Virtually anything can be user tested, but it is best to reserve it for larger projects. For example a redesign of an existing page, changes to our UI or IA, changes to page layouts, and new product launches.</p>
               <p>Testing little and often is far more valuable and cost effective than doing one whopping big usability test of an entire site when it is almost finished.</p>
@@ -77,7 +77,7 @@
                 <li>when the product owner requires hard information about a page or site</li>
               </ul>
               <p>Tests may range from 5 minutes (for a single page design) to 1 hour (for a general response or new design).</p>
-              
+
               <p class="h3 subheading padding-0 margin-0">Types of user tests</p>
               <p><strong>Comparative Testing</strong></p>
               <p>Used to compare the usability of one website with another. Comparative tests are commonly used to compare a website against peer or competitor sites, however it can also be used to compare two designs to establish which provides the best user experience. </p>
@@ -88,14 +88,13 @@
               <p><strong>Preference Testing</strong></p>
               <p>Preference testing can assist teams in determining which approach to run with in a lean and cost effective fashion, independent of internal personality conflicts or petty political battles.</p>
               <p>While the statistically meaningful solution is to launch both versions and validate success via A/B Testing, often times companies do not have the bandwidth or time to create and support multiple versions of a site. Akin to competitive testing your product against itself, Preference Testing with remote users can help you get a few user opinions to back up which product to launch.</p>
-              
-              <p>&nbsp;</p>
+
               <p>Depending what stage you are at in the design process, work out which type of testing is the most appropriate. You may write a test that approaches multiple topics</p>
-              
+
               <p class="h3 subheading padding-0 margin-0">How to conduct a user test</p>
               <p><strong>A good user test has clear and measurable outcomes</strong></p>
               <p>If you have clear expectations, it will be much easier to take action on what you learn. When you’re asking open-ended tasks and questions, you still need to make sure you have a clear objective in mind. (For example, “Can visitors find the product they’re looking for?”) If you don’t know what you want to learn, your test participants may wander around aimlessly without uncovering anything useful. Make sure that your tasks and questions support the ultimate goal of your research.</p>
-              <p>This is often accomplished with hypotheses: testable statements you assume to be true for the purposes of validation. Examples of good hypotheses include:</p> 
+              <p>This is often accomplished with hypotheses: testable statements you assume to be true for the purposes of validation. Examples of good hypotheses include:</p>
               <ul>
                 <li>Users can add an item to their shopping cart and check out within five minutes</li>
                 <li>Users can bundle broadband and mobile to receive a discount without confusion</li>
@@ -117,14 +116,14 @@
                 <li>where do they get lost?</li>
                 <li>what makes sense to them?</li>
                 <li>what makes them feel insecure?</li>
-                <li>what do they like and what do they hate?</li>                
+                <li>what do they like and what do they hate?</li>
               </ul>
               <p>In a specific test you might want to know, for example:</p>
               <ul>
                 <li>can the user accomplish a key task?</li>
                 <li>can the user find something specific?</li>
               </ul>
-              
+
               <p class="h3 subheading padding-0 margin-0">Writing a test plan</p>
               <p><strong>1. Define the test objective</strong></p>
               <p>Just like any scientific experiment, the first step of setting up a user test is identifying the question you’re hoping to answer. Share it with any stakeholders to make sure everyone understands why you’re running the test and what you can expect to learn. </p>
@@ -137,18 +136,18 @@
               <p>While the statistically meaningful solution is to launch both versions and validate success via A/B Testing, often times companies do not have the bandwidth or time to create and support multiple versions of a site. Akin to competitive testing your product against itself, Preference Testing with remote users can help you get a few user opinions to back up which product to launch.</p>
               <p><strong>5. Analysing the results:</strong></p>
               <p>From the notes you take during the testing session, decide what actions need to be taken. Some problems identified will be of higher importance than others. If major changes are required, further testing may be appropriate.</p>
-              
+
               <p class="h3 subheading padding-0 margin-0">Things to remember:</p>
               <ul>
                 <li>Users don’t know what they need. Asking them what they want is rarely a winning strategy. Instead, you’re better off being a silent observer. Give them an interactive design and watch them perform real tasks with it.</li>
                 <li>Don’t accept what a single person says at face value. Until you get signal from several people that a design is flawed, withhold judgment. Once five or six participants have given consistent feedback, change the design.</li>
-                <li>Waiting for things to be perfect sets everything up for a one off usability test which tries to answer everything and ultimately comes as unwanted negative feedback. Instead, try to think of usability testing in terms of helping you to prioritise your to-do list. Stop thinking of a usability test as a one off event, and instead as an ongoing tool to help you isolate and fix issues earlier in the lifecycle. You’ll soon find that it takes less time and energy to fix issues earlier on than it is nearer project launch</li>                
-              </ul>              
+                <li>Waiting for things to be perfect sets everything up for a one off usability test which tries to answer everything and ultimately comes as unwanted negative feedback. Instead, try to think of usability testing in terms of helping you to prioritise your to-do list. Stop thinking of a usability test as a one off event, and instead as an ongoing tool to help you isolate and fix issues earlier in the lifecycle. You’ll soon find that it takes less time and energy to fix issues earlier on than it is nearer project launch</li>
+              </ul>
 
             </div>
             <!-- end page specific content -->
 
-       
+
           <!-- end container -->
 
 
@@ -165,7 +164,7 @@
 
   <!-- page specific scripts -->
   <script>
-    // OWL CAROUSEL - initiate Owl Carousel plugin 
+    // OWL CAROUSEL - initiate Owl Carousel plugin
     $('.owl-carousel').owlCarousel({
       stagePadding: 0,
       //lazyLoad: true,
