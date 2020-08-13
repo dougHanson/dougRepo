@@ -246,7 +246,7 @@
                   <td>
                     <strong>Front-end Web Developer</strong>
                     <br>
-                    <span class="hidden-xxs">Based at the Department of Education WA as a front-end developer, working to improve the public facing website for end-users and content authors. <span class="hidden-xs">Currently involved in migrating to the latest version of Liferay DXP with a strong focus on accessibility and creating better user&nbsp;experiences.</span></span>
+                    <span class="hidden-xxs">Based at the Department of Education WA as a front-end developer, working to improve the public facing website for end-users and content authors. <span class="hidden-xs">Currently developing for Liferay DXP with a strong focus on accessibility and creating better user&nbsp;experiences.</span></span>
                   </td>
                 </tr>
                 <tr>
@@ -264,7 +264,7 @@
                   <td>
                     <strong>Digital Production Specialist</strong>
                     <br>
-                    <span class="hidden-xxs">Worked with key stakeholders to design and deliver innovative digital creative elements to drive Bankwest initiatives. <span class="hidden-xs">Designed and implemented changes to the existing Bankwest website and was involved with large scale development projects, including a website refresh and designs for the original Bankwest Mobile App.</span></span>
+                    <span class="hidden-xxs">Worked with key stakeholders to design and deliver innovative digital creative elements to drive Bankwest initiatives. <span class="hidden-xs">Designed and implemented changes to the existing Bankwest website and was involved with large scale development projects, including a website refresh and designs for the original Bankwest&nbsp;Mobile&nbsp;App.</span></span>
                   </td>
                 </tr>
                 <tr>
@@ -273,7 +273,7 @@
                   <td>
                     <strong>Online Marketing Manager</strong>
                     <br>
-                    <span class="hidden-xxs"><span class="hidden-xs">Managed the marketing and customer experience of multiple product portfolios via the online channel.</span> Responsible for implementing well defined campaign strategies, campaign optimisation, budget management, agency relationships, and online creative development.</span>
+                    <span class="hidden-xxs"><span class="hidden-xs">Managed the marketing and customer experience of multiple product portfolios via the online channel.</span> Responsible for implementing well defined campaign strategies, campaign optimisation, budget management, agency relationships, and online creative&nbsp;development.</span>
                   </td>
                 </tr>
                 <tr>
@@ -282,7 +282,7 @@
                   <td>
                     <strong>eCommerce Marketing Coordinator</strong>
                     <br>
-                    <span class="hidden-xxs">Coordinated the Bankwest online marketing and sales function, responsible for online marketing execution, management information reporting, agency relationships and strategic projects.</span>
+                    <span class="hidden-xxs">Coordinated the Bankwest online marketing and sales function, responsible for online marketing execution, management information reporting, agency relationships and strategic&nbsp;projects.</span>
                   </td>
                 </tr>
                 <tr>
@@ -291,7 +291,7 @@
                   <td>
                     <strong>Internet Marketing Consultant</strong>
                     <br>
-                    <span class="hidden-xxs">Managed a wide, varied portfolio of over 20 clients to improve ROI through Search Engines by implementing proven SEO methodologies. <span class="hidden-xs">Responsible for setting up, managing, and optimising small SEM campaigns within Google Adwords to drive acquisitions and improve ROI.</span></span>
+                    <span class="hidden-xxs">Managed a wide, varied portfolio of over 20 clients to improve ROI through Search Engines by implementing proven SEO methodologies. <span class="hidden-xs">Responsible for setting up, managing, and optimising small SEM campaigns within Google Adwords to drive acquisitions and improve&nbsp;ROI.</span></span>
                   </td>
                 </tr>
               </tbody>
