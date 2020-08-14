@@ -2272,7 +2272,6 @@ a:hover .work-item .illustration,
 a:focus .work-item .illustration {
   opacity: 1; }
 
-a:hover .work-item .work-item__heading,
 a:focus .work-item .work-item__heading {
   outline: 1px dashed black; }
 

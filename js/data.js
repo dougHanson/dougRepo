@@ -17,7 +17,7 @@ var projects = {
     brand_colours: ['#1078b2', '#aad7eb', '#222', '#ca8620'], //#FAF3E9
     skills: ['UX design', 'Maps API', 'jQuery', 'AJAX', 'HTML', 'SASS', 'Liferay DXP', 'Freemarker', 'accessibility'],
     year: '2019',
-    website: 'education.wa/current-jobs',
+    website: 'education.wa/jobs',
     website_url: '//www.education.wa.edu.au/current-jobs',
     thumbnail: 'jobs-thumb.png'
   },

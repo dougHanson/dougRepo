@@ -154,14 +154,14 @@
 
               <!-- IINET PLAN PAGES -->
               <a href="iinet-plan-pages.php" class="progressLoad">
-                <article class="work-item">
+                <article class="work-item show-all-content">
                   <div class="work-item__drawings">
                     <img class="illustration" src="img/finn-balloons.png" alt="" style="max-width: 244px;" />
                     <?php echo file_get_contents("svg/finn.svg"); ?>
                   </div>
 
                   <div class="work-item__content">
-                    <p class="work-item__heading">Product Page Redesign</p>
+                    <p class="work-item__heading show-all-content">Product Page Redesign</p>
                     <h2 class="h5 work-item__subheading">ux design / web development &amp; design</h2>
                   </div>
                 </article>
@@ -169,7 +169,7 @@
 
               <!-- MOBII MANAGER -->
               <a href="mobii-manager.php" class="progressLoad">
-                <article class="work-item">
+                <article class="work-item show-all-content">
                   <!--show-all-content">-->
                   <div class="work-item__drawings">
                     <img class="illustration" src="img/mobii-manager.png" alt="" style="max-width: 300px;" />
@@ -185,7 +185,7 @@
 
               <!-- MULTICOMM -->
               <a href="multicomm.php" class="progressLoad">
-                <article class="work-item">
+                <article class="work-item show-all-content">
                   <!--show-all-content">-->
                   <div class="work-item__drawings">
                     <img class="illustration" src="img/multicomm.png" alt="" style="max-width: 300px; padding-top:15px;" />
@@ -201,7 +201,7 @@
 
               <!-- BANKWEST -->
               <a href="bankwest.php" class="progressLoad">
-                <article class="work-item">
+                <article class="work-item show-all-content">
                   <!--show-all-content">-->
                   <div class="work-item__drawings">
                     <img class="illustration" src="img/sunny.png" alt="" style="max-width: 250px; padding-top: 25px;" />
@@ -218,9 +218,9 @@
             </div>
 
             <!-- show all btn -->
-            <!--<div class="col-sm-12 text-center">
-						<button class="button progressLoad text-center show-all-btn margin-top-40">Show all</button>
-					</div>-->
+            <div class="col-sm-12 text-center">
+              <button class="button progressLoad text-center show-all-btn margin-top-40">Show all</button>
+            </div>
 
           </div>
 

@@ -58,16 +58,29 @@
               <p class="h3 subheading padding-0 margin-0">At a glance</p>
               <p>The Department of Education.....</p>
 
-              <p class="h3 subheading padding-0 margin-0">The process</p>
-              <p>The Department of Education.....</p>
+              <p>Created icon suite</p>
+              <div class="item margin-bottom-20">
+                <img src="img/loading.gif" data-src="img/policies-icons.png" alt="Icon design" class="lazy-load img-center full-width">
+              </div> 
+                          
+
+              <p class="h3 subheading padding-0 margin-0">CSS over JS</p>
+              <p>Mobile menu</p>
+              <p>Accordions</p>
+              <p>Tabs</p>
+              <p>Semantic html and accessibility</p>
 
               <div class="item">
-                <a href="img/jobs-design.png" data-lightbox="jobs-design" data-title="Jobs UI Design"><img src="img/loading.gif" data-src="img/jobs-design.png" class="lazy-load img-responsive img-center img-shadow" /></a>
+                <a href="img/policies-design-1.png" data-lightbox="policies-design" data-title="Policies UI Design">
+                  <img src="img/loading.gif" data-src="img/policies-design-1.png" class="lazy-load img-responsive img-center img-shadow" />
+                </a>
               </div>
               <p>&nbsp;</p>
 
               <p class="h3 subheading padding-0 margin-0">The build</p>
-              <p>The Department of Education.....</p>
+              <p>Create structures to enable authors easy content creation process</p>
+              <p>Freemarker to populate and style content as it was created</p>
+              <p>Minimal JS except to progressively enhance features. Browse page uses JPList plugin.</p>
 
               <div class="item margin-bottom-20">
                 <a href="img/jobs-freemarker-code.png" data-lightbox="code" data-title="Freemarker code">
@@ -92,7 +105,6 @@
               </div>
               <p class="margin-bottom-20">&nbsp;</p>
 
-              <p>The final step was</p>
 
               <p class="h3 subheading padding-0 margin-0">The result</p>
               <p>The result was a <strong>fully responsive, accessible, visually appealing</strong> job lisiting portal, with an <strong>improved user experience</strong> for end users and content authors alike.</p>
