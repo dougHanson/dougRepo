@@ -1,4 +1,15 @@
 var projects = {
+  policies: {
+    url: 'policies.php',
+    title: 'Policies website',
+    client: 'Department of Education WA',
+    brand_colours: ['#1078b2', '#aad7eb', '#222', '#ca8620'], //#FAF3E9
+    skills: ['UX design', 'jQuery', 'HTML', 'SASS', 'Liferay DXP', 'Freemarker', 'accessibility'],
+    year: '2020',
+    website: 'education.wa/policies',
+    website_url: '//www.education.wa.edu.au/web/policies',
+    thumbnail: 'policies-thumb.png'
+  },  
   jobs: {
     url: 'jobs.php',
     title: 'Interactive Job Portal',
@@ -6,7 +17,7 @@ var projects = {
     brand_colours: ['#1078b2', '#aad7eb', '#222', '#ca8620'], //#FAF3E9
     skills: ['UX design', 'Maps API', 'jQuery', 'AJAX', 'HTML', 'SASS', 'Liferay DXP', 'Freemarker', 'accessibility'],
     year: '2019',
-    website: 'education.wa.edu.au/current-jobs',
+    website: 'education.wa/jobs',
     website_url: '//www.education.wa.edu.au/current-jobs',
     thumbnail: 'jobs-thumb.png'
   },
@@ -78,4 +89,4 @@ var projects = {
   }
 };
 
-var projectOrder = ["jobs", "fetch", "product_page_redesign", "mobii_manager", "multicomm", "bankwest"]; //, "portfolio"];
+var projectOrder = ["policies", "jobs", "fetch", "product_page_redesign", "mobii_manager", "multicomm", "bankwest"]; //, "portfolio"];

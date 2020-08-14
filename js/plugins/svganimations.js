@@ -148,7 +148,7 @@
 	}
 	
 	function init() {
-		var svgs = Array.prototype.slice.call( document.querySelectorAll( '#drawings svg' ) ),
+		var svgs = Array.prototype.slice.call( document.querySelectorAll( '.work-item__drawings svg' ) ),
 			svgArr = new Array(),
 			didScroll = false,
 			resizeTimeout;

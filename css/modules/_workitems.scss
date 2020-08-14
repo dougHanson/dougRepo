@@ -149,6 +149,10 @@ a:hover,
 a:focus {
   .work-item {
     .illustration { opacity: 1; }
+  }
+}
+a:focus {
+  .work-item {
     .work-item__heading { outline: 1px dashed black; }
   }
 }

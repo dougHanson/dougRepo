@@ -107,10 +107,25 @@
           <div class="work-item-wrapper">
             <div class="row">
 
+              <!-- POLICIES -->
+              <a href="policies.php" class="progressLoad">
+                <article class="work-item">
+                  <div class="work-item__drawings" style="padding-top: 55px;">
+                    <img class="illustration" src="img/policies.png" alt="" style="max-width: 155px; padding-top: 53px;" />
+                    <?php echo file_get_contents("svg/policies.svg"); ?>
+                  </div>
+
+                  <div class="work-item__content">
+                    <p class="work-item__heading">Policies website</p>
+                    <h2 class="h5 work-item__subheading">ux design / web&nbsp;development</h2>
+                  </div>
+                </article>
+              </a>            
+
               <!-- JOBS BOARD -->
               <a href="jobs.php" class="progressLoad">
                 <article class="work-item work-item--jobs">
-                  <div class="work-item__drawings" id="drawings">
+                  <div class="work-item__drawings" >
                     <img class="illustration" src="img/jobs-wa.png" alt="" style="max-width: 225px; padding-top: 15px;" />
                     <?php echo file_get_contents("svg/jobs.svg"); ?>
                   </div>
@@ -125,7 +140,7 @@
               <!-- FETCH ANGULAR JS -->
               <a href="fetch.php" class="progressLoad">
                 <article class="work-item work-item__content--pull-up-mobile">
-                  <div class="work-item__drawings" id="drawings">
+                  <div class="work-item__drawings" >
                     <img class="illustration" src="img/fetch-mini.png" alt="" style="max-width: 250px; padding-top: 25px;" />
                     <?php echo file_get_contents("svg/fetch-mini.svg"); ?>
                   </div>
@@ -140,7 +155,7 @@
               <!-- IINET PLAN PAGES -->
               <a href="iinet-plan-pages.php" class="progressLoad">
                 <article class="work-item">
-                  <div class="work-item__drawings" id="drawings">
+                  <div class="work-item__drawings">
                     <img class="illustration" src="img/finn-balloons.png" alt="" style="max-width: 244px;" />
                     <?php echo file_get_contents("svg/finn.svg"); ?>
                   </div>
@@ -155,8 +170,7 @@
               <!-- MOBII MANAGER -->
               <a href="mobii-manager.php" class="progressLoad">
                 <article class="work-item">
-                  <!--show-all-content">-->
-                  <div class="work-item__drawings" id="drawings">
+                  <div class="work-item__drawings">
                     <img class="illustration" src="img/mobii-manager.png" alt="" style="max-width: 300px;" />
                     <?php echo file_get_contents("svg/galaxy-phone.svg"); ?>
                   </div>
@@ -171,8 +185,7 @@
               <!-- MULTICOMM -->
               <a href="multicomm.php" class="progressLoad">
                 <article class="work-item">
-                  <!--show-all-content">-->
-                  <div class="work-item__drawings" id="drawings">
+                  <div class="work-item__drawings">
                     <img class="illustration" src="img/multicomm.png" alt="" style="max-width: 300px; padding-top:15px;" />
                     <?php echo file_get_contents("svg/multicomm.svg"); ?>
                   </div>
@@ -186,9 +199,8 @@
 
               <!-- BANKWEST -->
               <a href="bankwest.php" class="progressLoad">
-                <article class="work-item">
-                  <!--show-all-content">-->
-                  <div class="work-item__drawings" id="drawings">
+                <article class="work-item show-all-content">
+                  <div class="work-item__drawings">
                     <img class="illustration" src="img/sunny.png" alt="" style="max-width: 250px; padding-top: 25px;" />
                     <?php echo file_get_contents("svg/sun.svg"); ?>
                   </div>
@@ -203,9 +215,9 @@
             </div>
 
             <!-- show all btn -->
-            <!--<div class="col-sm-12 text-center">
-						<button class="button progressLoad text-center show-all-btn margin-top-40">Show all</button>
-					</div>-->
+            <div class="col-sm-12 text-center">
+              <button class="button progressLoad text-center show-all-btn margin-top-40">Show all</button>
+            </div>
 
           </div>
 
@@ -246,7 +258,7 @@
                   <td>
                     <strong>Front-end Web Developer</strong>
                     <br>
-                    <span class="hidden-xxs">Based at the Department of Education WA as a front-end developer, working to improve the public facing website for end-users and content authors. <span class="hidden-xs">Currently involved in migrating to the latest version of Liferay DXP with a strong focus on accessibility and creating better user&nbsp;experiences.</span></span>
+                    <span class="hidden-xxs">Based at the Department of Education WA as a front-end developer, working to improve the public facing website for end-users and content authors. <span class="hidden-xs">Currently developing for Liferay DXP with a strong focus on accessibility and creating better user&nbsp;experiences.</span></span>
                   </td>
                 </tr>
                 <tr>
@@ -264,7 +276,7 @@
                   <td>
                     <strong>Digital Production Specialist</strong>
                     <br>
-                    <span class="hidden-xxs">Worked with key stakeholders to design and deliver innovative digital creative elements to drive Bankwest initiatives. <span class="hidden-xs">Designed and implemented changes to the existing Bankwest website and was involved with large scale development projects, including a website refresh and designs for the original Bankwest Mobile App.</span></span>
+                    <span class="hidden-xxs">Worked with key stakeholders to design and deliver innovative digital creative elements to drive Bankwest initiatives. <span class="hidden-xs">Designed and implemented changes to the existing Bankwest website and was involved with large scale development projects, including a website refresh and designs for the original Bankwest&nbsp;Mobile&nbsp;App.</span></span>
                   </td>
                 </tr>
                 <tr>
@@ -273,7 +285,7 @@
                   <td>
                     <strong>Online Marketing Manager</strong>
                     <br>
-                    <span class="hidden-xxs"><span class="hidden-xs">Managed the marketing and customer experience of multiple product portfolios via the online channel.</span> Responsible for implementing well defined campaign strategies, campaign optimisation, budget management, agency relationships, and online creative development.</span>
+                    <span class="hidden-xxs"><span class="hidden-xs">Managed the marketing and customer experience of multiple product portfolios via the online channel.</span> Responsible for implementing well defined campaign strategies, campaign optimisation, budget management, agency relationships, and online creative&nbsp;development.</span>
                   </td>
                 </tr>
                 <tr>
@@ -282,7 +294,7 @@
                   <td>
                     <strong>eCommerce Marketing Coordinator</strong>
                     <br>
-                    <span class="hidden-xxs">Coordinated the Bankwest online marketing and sales function, responsible for online marketing execution, management information reporting, agency relationships and strategic projects.</span>
+                    <span class="hidden-xxs">Coordinated the Bankwest online marketing and sales function, responsible for online marketing execution, management information reporting, agency relationships and strategic&nbsp;projects.</span>
                   </td>
                 </tr>
                 <tr>
@@ -291,7 +303,7 @@
                   <td>
                     <strong>Internet Marketing Consultant</strong>
                     <br>
-                    <span class="hidden-xxs">Managed a wide, varied portfolio of over 20 clients to improve ROI through Search Engines by implementing proven SEO methodologies. <span class="hidden-xs">Responsible for setting up, managing, and optimising small SEM campaigns within Google Adwords to drive acquisitions and improve ROI.</span></span>
+                    <span class="hidden-xxs">Managed a wide, varied portfolio of over 20 clients to improve ROI through Search Engines by implementing proven SEO methodologies. <span class="hidden-xs">Responsible for setting up, managing, and optimising small SEM campaigns within Google Adwords to drive acquisitions and improve&nbsp;ROI.</span></span>
                   </td>
                 </tr>
               </tbody>
