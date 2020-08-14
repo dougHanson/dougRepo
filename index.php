@@ -107,10 +107,25 @@
           <div class="work-item-wrapper">
             <div class="row">
 
+              <!-- POLICIES -->
+              <a href="policies.php" class="progressLoad">
+                <article class="work-item">
+                  <div class="work-item__drawings" style="padding-top: 55px;">
+                    <img class="illustration" src="img/policies.png" alt="" style="max-width: 155px; padding-top: 53px;" />
+                    <?php echo file_get_contents("svg/policies.svg"); ?>
+                  </div>
+
+                  <div class="work-item__content">
+                    <p class="work-item__heading">Policies website</p>
+                    <h2 class="h5 work-item__subheading">ux design / web&nbsp;development</h2>
+                  </div>
+                </article>
+              </a>            
+
               <!-- JOBS BOARD -->
               <a href="jobs.php" class="progressLoad">
                 <article class="work-item work-item--jobs">
-                  <div class="work-item__drawings" id="drawings">
+                  <div class="work-item__drawings" >
                     <img class="illustration" src="img/jobs-wa.png" alt="" style="max-width: 225px; padding-top: 15px;" />
                     <?php echo file_get_contents("svg/jobs.svg"); ?>
                   </div>
@@ -125,7 +140,7 @@
               <!-- FETCH ANGULAR JS -->
               <a href="fetch.php" class="progressLoad">
                 <article class="work-item work-item__content--pull-up-mobile">
-                  <div class="work-item__drawings" id="drawings">
+                  <div class="work-item__drawings" >
                     <img class="illustration" src="img/fetch-mini.png" alt="" style="max-width: 250px; padding-top: 25px;" />
                     <?php echo file_get_contents("svg/fetch-mini.svg"); ?>
                   </div>
@@ -140,7 +155,7 @@
               <!-- IINET PLAN PAGES -->
               <a href="iinet-plan-pages.php" class="progressLoad">
                 <article class="work-item">
-                  <div class="work-item__drawings" id="drawings">
+                  <div class="work-item__drawings">
                     <img class="illustration" src="img/finn-balloons.png" alt="" style="max-width: 244px;" />
                     <?php echo file_get_contents("svg/finn.svg"); ?>
                   </div>
@@ -156,7 +171,7 @@
               <a href="mobii-manager.php" class="progressLoad">
                 <article class="work-item">
                   <!--show-all-content">-->
-                  <div class="work-item__drawings" id="drawings">
+                  <div class="work-item__drawings">
                     <img class="illustration" src="img/mobii-manager.png" alt="" style="max-width: 300px;" />
                     <?php echo file_get_contents("svg/galaxy-phone.svg"); ?>
                   </div>
@@ -172,7 +187,7 @@
               <a href="multicomm.php" class="progressLoad">
                 <article class="work-item">
                   <!--show-all-content">-->
-                  <div class="work-item__drawings" id="drawings">
+                  <div class="work-item__drawings">
                     <img class="illustration" src="img/multicomm.png" alt="" style="max-width: 300px; padding-top:15px;" />
                     <?php echo file_get_contents("svg/multicomm.svg"); ?>
                   </div>
@@ -188,7 +203,7 @@
               <a href="bankwest.php" class="progressLoad">
                 <article class="work-item">
                   <!--show-all-content">-->
-                  <div class="work-item__drawings" id="drawings">
+                  <div class="work-item__drawings">
                     <img class="illustration" src="img/sunny.png" alt="" style="max-width: 250px; padding-top: 25px;" />
                     <?php echo file_get_contents("svg/sun.svg"); ?>
                   </div>

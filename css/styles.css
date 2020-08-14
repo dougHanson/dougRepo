@@ -3032,6 +3032,63 @@ button.trigger span::before {
       top: -550px;
       width: 650px; } }
 
+/* -------------------------------------
+//   Policies banner
+/* ------------------------------------- */
+#policies .title h1 {
+  background: rgba(255, 255, 255, 0.8);
+  color: #636362;
+  padding: 15px; }
+
+#policies .intro-effect-jam3.modify .title h1 {
+  background: none; }
+  @media (min-width: 992px) {
+    #policies .intro-effect-jam3.modify .title h1 {
+      background: none;
+      margin-top: -10px; } }
+
+#policies .bg-img {
+  background-image: linear-gradient(45deg, #fff3e3 0%, #f7f7f5 100%);
+  border-bottom: 1px solid #dfdfdf;
+  overflow: visible; }
+  #policies .bg-img img {
+    top: 45px;
+    right: 20px;
+    min-width: auto;
+    min-height: auto;
+    width: 240px; }
+    @media (min-width: 768px) {
+      #policies .bg-img img {
+        width: 330px;
+        top: 64px; } }
+    @media (min-width: 992px) {
+      #policies .bg-img img {
+        right: 30px; } }
+    @media (min-width: 1360px) {
+      #policies .bg-img img {
+        width: 360px;
+        top: 40px;
+        right: 15%; } }
+
+#policies .intro-effect-jam3.modify .bg-img img {
+  top: -40px;
+  right: 40px;
+  width: 140px; }
+  @media (min-width: 768px) {
+    #policies .intro-effect-jam3.modify .bg-img img {
+      top: -65px;
+      right: 100px;
+      width: 200px; } }
+  @media (min-width: 992px) {
+    #policies .intro-effect-jam3.modify .bg-img img {
+      top: -75px;
+      width: 210px; } }
+  @media (min-width: 1360px) {
+    #policies .intro-effect-jam3.modify .bg-img img {
+      right: 15%;
+      top: -160px;
+      width: 280px; } }
+
 /* *************************************
 //   BUTTONS  [modules/_buttons.scss]
 //   Standard CTA buttons
