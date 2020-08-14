@@ -17,9 +17,9 @@
 
 </head>
 
-<?php 	
+<?php
 	// DECLARE PROJECT VARIABLE - refer to data.js
-	$project = 'policies'; 
+	$project = 'policies';
 ?>
 
 <body class="project-page" id="<?php echo $project ?>">
@@ -55,55 +55,47 @@
 						#################################### -->
             <div class="col-lg-9">
 
-              <p class="h3 subheading padding-0 margin-0">At a glance</p>
-              <p>The Department of Education.....</p>
-
-              <p>Created icon suite</p>
-              <div class="item margin-bottom-20">
-                <img src="img/loading.gif" data-src="img/policies-icons.png" alt="Icon design" class="lazy-load img-center full-width">
-              </div> 
-                          
-
-              <p class="h3 subheading padding-0 margin-0">CSS over JS</p>
-              <p>Mobile menu</p>
-              <p>Accordions</p>
-              <p>Tabs</p>
-              <p>Semantic html and accessibility</p>
-
-              <div class="item">
-                <a href="img/policies-design-1.png" data-lightbox="policies-design" data-title="Policies UI Design">
-                  <img src="img/loading.gif" data-src="img/policies-design-1.png" class="lazy-load img-responsive img-center img-shadow" />
-                </a>
+            <p class="h3 subheading padding-0 margin-0">At a glance</p>
+              <p>The existing Department of Education Policies website was extremely outdated and hard to use. My goal was to improve the user experience for both end users and authors, whilst designing a visually appealing website.</p>
+              <!-- <div class="item margin-bottom-20">
+                <img src="img/loading.gif" data-src="img/policies-old-site.png" alt="Icon design" class="lazy-load img-center img-frame">
               </div>
-              <p>&nbsp;</p>
+              <p class="margin-bottom-20">&nbsp;</p> -->
 
-              <p class="h3 subheading padding-0 margin-0">The build</p>
-              <p>Create structures to enable authors easy content creation process</p>
-              <p>Freemarker to populate and style content as it was created</p>
-              <p>Minimal JS except to progressively enhance features. Browse page uses JPList plugin.</p>
-
-              <div class="item margin-bottom-20">
-                <a href="img/jobs-freemarker-code.png" data-lightbox="code" data-title="Freemarker code">
-                  <img src="img/loading.gif" data-src="img/jobs-freemarker-code.png" alt="Freemarker code" class="lazy-load img-shadow img-center">
-                </a>
-              </div>
-              <p>&nbsp;</p>
-
-              <p>The Department of Education.....</p>
-
+              <p class="h3 subheading padding-0 margin-0">Designs</p>
+              <p>I aligned the branding with the Department of Education website and simplified the user journey by offering two main options on the homepage. Users can now choose to search for documents by category or by content type, which is important given the large volume of content.</p>
               <div class="owl-carousel owl-theme">
                 <div class="item margin-bottom-40">
-                  <a href="img/jobs-javascript-jplist.png" data-lightbox="code" data-title="Javascript code">
-                    <img src="img/loading.gif" data-src="img/jobs-javascript-jplist.png" alt="Freemarker code" class="lazy-load img-shadow img-center">
+                  <a href="img/policies-design-1.png" data-lightbox="code" data-title="Policies UI design">
+                    <img src="img/loading.gif" data-src="img/policies-design-1.png" alt="Policies homepage" class="lazy-load img-frame img-center">
                   </a>
                 </div>
                 <div class="item margin-bottom-40">
-                  <a href="img/jobs-javascript-map-api.png" data-lightbox="code" data-title="Google Map API code">
-                    <img src="img/loading.gif" data-src="img/jobs-javascript-map-api.png" alt="Freemarker code" class="lazy-load img-shadow img-center">
+                  <a href="img/policies-design-2.png" data-lightbox="code" data-title="Policies UI design">
+                    <img src="img/loading.gif" data-src="img/policies-design-2.png" alt="Policies homepage" class="lazy-load img-frame img-center">
                   </a>
                 </div>
               </div>
               <p class="margin-bottom-20">&nbsp;</p>
+
+              <p>For easy identification between different yet similar content types, I created a cohesive SVG icon set for easy visual recognition.</p>
+              <div class="item margin-bottom-20">
+                <img src="img/loading.gif" data-src="img/policies-icons.png" alt="Icon design" class="lazy-load img-center full-width">
+              </div>
+              <p class="margin-bottom-20">&nbsp;</p>
+
+
+              <p class="h3 subheading padding-0 margin-0">CSS over JS</p>
+              <p>By designing with progressive enhancement in mind the majority of the website can be used with JavaScript disabled. By focusing on developing semantic HTML without the use of JS has also made the site naturally accessible from the outset.</p>
+              <p>The mobile menu was developed by styling checkboxes.</p>
+              <p>Accordions were developed using checkboxes, adding CSS transitions to animate the expand and collapse.</p>
+              <p>Tabs were developed by styling radio buttons, which show and hide adjacent content when checked.</p>
+
+
+              <p class="h3 subheading padding-0 margin-0">Complex freemarker templates</p>
+              <p>Create structures to enable authors easy content creation process</p>
+              <p>Freemarker to populate and style content as it was created</p>
+              <p>Browse page uses JPList plugin, degrades gracefully.</p>
 
 
               <p class="h3 subheading padding-0 margin-0">The result</p>
@@ -136,7 +128,7 @@
 
   <!-- page specific scripts -->
   <script>
-    // OWL CAROUSEL - initiate Owl Carousel plugin 
+    // OWL CAROUSEL - initiate Owl Carousel plugin
     $('.owl-carousel').owlCarousel({
       stagePadding: 0,
       //lazyLoad: true,

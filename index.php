@@ -154,14 +154,14 @@
 
               <!-- IINET PLAN PAGES -->
               <a href="iinet-plan-pages.php" class="progressLoad">
-                <article class="work-item show-all-content">
+                <article class="work-item">
                   <div class="work-item__drawings">
                     <img class="illustration" src="img/finn-balloons.png" alt="" style="max-width: 244px;" />
                     <?php echo file_get_contents("svg/finn.svg"); ?>
                   </div>
 
                   <div class="work-item__content">
-                    <p class="work-item__heading show-all-content">Product Page Redesign</p>
+                    <p class="work-item__heading">Product Page Redesign</p>
                     <h2 class="h5 work-item__subheading">ux design / web development &amp; design</h2>
                   </div>
                 </article>
@@ -169,8 +169,7 @@
 
               <!-- MOBII MANAGER -->
               <a href="mobii-manager.php" class="progressLoad">
-                <article class="work-item show-all-content">
-                  <!--show-all-content">-->
+                <article class="work-item">
                   <div class="work-item__drawings">
                     <img class="illustration" src="img/mobii-manager.png" alt="" style="max-width: 300px;" />
                     <?php echo file_get_contents("svg/galaxy-phone.svg"); ?>
@@ -185,8 +184,7 @@
 
               <!-- MULTICOMM -->
               <a href="multicomm.php" class="progressLoad">
-                <article class="work-item show-all-content">
-                  <!--show-all-content">-->
+                <article class="work-item">
                   <div class="work-item__drawings">
                     <img class="illustration" src="img/multicomm.png" alt="" style="max-width: 300px; padding-top:15px;" />
                     <?php echo file_get_contents("svg/multicomm.svg"); ?>
@@ -202,7 +200,6 @@
               <!-- BANKWEST -->
               <a href="bankwest.php" class="progressLoad">
                 <article class="work-item show-all-content">
-                  <!--show-all-content">-->
                   <div class="work-item__drawings">
                     <img class="illustration" src="img/sunny.png" alt="" style="max-width: 250px; padding-top: 25px;" />
                     <?php echo file_get_contents("svg/sun.svg"); ?>

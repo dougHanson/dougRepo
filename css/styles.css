@@ -3073,15 +3073,15 @@ button.trigger span::before {
         top: 64px; } }
     @media (min-width: 1360px) {
       #policies .bg-img img {
-        width: 360px;
-        top: 40px;
-        right: 15%; } }
+        width: 340px;
+        top: 60px;
+        right: 18%; } }
 
 #policies .intro-effect-jam3.modify .bg-img img {
   top: -30px;
   right: 50px;
   width: 140px;
-  transform: rotate(-7deg); }
+  transform: rotate(-5deg); }
   @media (min-width: 768px) {
     #policies .intro-effect-jam3.modify .bg-img img {
       right: 80px;
