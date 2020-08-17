@@ -165,7 +165,7 @@
 
     if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
 
-      // detect if IE : from http://stackoverflow.com/a/16657946		
+      // detect if IE : from http://stackoverflow.com/a/16657946
       var ie = (function() {
         var undef, rv = -1; // Return value assumes failure.
         var ua = window.navigator.userAgent;
@@ -185,7 +185,7 @@
       }());
 
 
-      // disable/enable scroll (mousewheel and keys) from http://stackoverflow.com/a/4770179					
+      // disable/enable scroll (mousewheel and keys) from http://stackoverflow.com/a/4770179
       // left: 37, up: 38, right: 39, down: 40,
       // spacebar: 32, pageup: 33, pagedown: 34, end: 35, home: 36
       var keys = [32],
@@ -212,7 +212,7 @@
       }
 
       function wheel(e) {
-        // for IE 
+        // for IE
         //if( ie ) {
         //preventDefault(e);
         //}

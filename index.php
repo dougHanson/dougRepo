@@ -2,12 +2,12 @@
 <html>
 
 <head>
-  <!-- 
-   ___                   __ __                      
-  / _ \___  __ _____ _  / // /__ ____  ___ ___  ___ 
+  <!--
+   ___                   __ __
+  / _ \___  __ _____ _  / // /__ ____  ___ ___  ___
  / // / _ \/ // / _ `/ / _  / _ `/ _ \(_-</ _ \/ _ \
 /____/\___/\_,_/\_, / /_//_/\_,_/_//_/___/\___/_//_/
-               /___/                               
+               /___/
 -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -38,7 +38,7 @@
   // Define your username and password
   $username = "doug";
   $password = "password";
-			
+
   if ($_POST['txtUsername'] != $username || $_POST['txtPassword'] != $password) {
 ?>
   <div class="col-md-2 col-md-offset-5">
@@ -56,7 +56,7 @@
     </form>
   </div>
   <?php
-  }	
+  }
   else {
 */ ?>
 
@@ -120,7 +120,7 @@
                     <h2 class="h5 work-item__subheading">ux design / web&nbsp;development</h2>
                   </div>
                 </article>
-              </a>            
+              </a>
 
               <!-- JOBS BOARD -->
               <a href="jobs.php" class="progressLoad">
@@ -344,25 +344,25 @@
 					//$contact = $_POST['input-contact'];
 					$message = $_POST['input-message'];
 
-					//compose the email message 
+					//compose the email message
 					$to = "doug83@iinet.net.au";
-					$email_from = "doug83@iinet.net.au";   
-					$email_subject = "Email from portfolio website" ; 
+					$email_from = "doug83@iinet.net.au";
+					$email_subject = "Email from portfolio website" ;
 					$email_body = "A new message has been submitted:\n
 
-					Name: $name \n  
-					Email Address: $email \n              
-					Enquiry: $message"; 
+					Name: $name \n
+					Email Address: $email \n
+					Enquiry: $message";
 
 					//from my address to stop spam catcher
-					$headers = "From: $email_from \n"; 
-					$headers .= "Reply-To: $email \n"; 
+					$headers = "From: $email_from \n";
+					$headers .= "Reply-To: $email \n";
 
 					//send email
-					mail($to,$email_subject,$email_body,$headers);   
+					mail($to,$email_subject,$email_body,$headers);
 
 					//thankyou message on website
-					echo "<div class='clearfix'><!-- --></div><p class='thankyou-msg font-heavy'>Thank you ".$name.", I'll respond to your message shortly.</p>";         
+					echo "<div class='clearfix'><!-- --></div><p class='thankyou-msg font-heavy'>Thank you ".$name.", I'll respond to your message shortly.</p>";
 
 				}
 				?>

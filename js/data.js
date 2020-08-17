@@ -4,7 +4,7 @@ var projects = {
     title: 'Policies website',
     client: 'Department of Education WA',
     brand_colours: ['#1078b2', '#aad7eb', '#222', '#ca8620'], //#FAF3E9
-    skills: ['UX design', 'jQuery', 'semantic HTML', 'SASS', 'Liferay DXP', 'Freemarker', 'macros', 'accessibility'],
+    skills: ['UX development', 'icon design', 'semantic HTML', 'SASS', 'Liferay DXP', 'Freemarker', 'jQuery', 'accessibility'],
     year: '2020',
     website: 'education.wa/policies',
     website_url: '//www.education.wa.edu.au/web/policies',
