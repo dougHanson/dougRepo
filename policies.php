@@ -66,20 +66,37 @@
               <p>I designed simple yet corporate templates which aligned with the Department of Education's <strong>website branding</strong>. I also <strong>improved the UX by simplifying the user journey</strong> through offering two main options on the homepage. Users can now choose to search for documents by category or by content type, which is important given the large volume of content.</p>
               <p>I also created a new cohesive <strong>SVG icon set using Adobe Illustrator</strong>, for easy identification between different yet similar content types.</p>
 
-              <div class="item margin-bottom-20">
-                <a href="img/policies-design-2.png" data-lightbox="code" data-title="Policies UI design">
-                  <img src="img/loading.gif" data-src="img/policies-design-2.png" alt="Policies homepage" class="lazy-load img-shadow img-center">
-                </a>
+              <div class="owl-carousel owl-theme">
+                <div class="item margin-bottom-40">
+                  <a href="img/policies-design-2.png" data-lightbox="ui designs" data-title="Policies UI design">
+                    <img src="img/loading.gif" data-src="img/policies-design-2.png" alt="Policies homepage" class="lazy-load img-shadow img-center">
+                  </a>
+                </div>
+                <div class="item margin-bottom-40">
+                  <a href="img/policies-design-3.png" data-lightbox="ui designs" data-title="Policies UI design">
+                    <img src="img/loading.gif" data-src="img/policies-design-3.png" alt="Policies browse page" class="lazy-load img-shadow img-center">
+                  </a>
+                </div>
+                <div class="item margin-bottom-40">
+                  <a href="img/policies-design-4.png" data-lightbox="ui designs" data-title="Policies UI design">
+                    <img src="img/loading.gif" data-src="img/policies-design-4.png" alt="Policies category page" class="lazy-load img-shadow img-center">
+                  </a>
+                </div>
+                <div class="item margin-bottom-40">
+                  <a href="img/policies-design-5.png" data-lightbox="ui designs" data-title="Policies UI design">
+                    <img src="img/loading.gif" data-src="img/policies-design-5.png" alt="Policies policy page" class="lazy-load img-shadow img-center">
+                  </a>
+                </div>                                                
               </div>
               <p class="margin-bottom-20">&nbsp;</p>
 
 
-              <p class="h3 subheading padding-0 margin-0">CSS over JS</p>
+              <p class="h3 subheading padding-0 margin-0">CSS before JavaScript</p>
               <p>By designing with <strong>progressive enhancement</strong> in mind, the majority of the website has full functionality with JavaScript disabled. By focusing on developing <strong>semantic HTML with minimal inclusion of JavaScript</strong> has made the site naturally <strong>keyboard navigable and screen reader accessible</strong> from the outset.</p>
 
               <p>The <strong>responsive, off-canvas mobile menu</strong> was developed by styling checkboxes.</p>
               <div class="owl-carousel owl-theme">
-              <div class="item margin-bottom-40">
+                <div class="item margin-bottom-40">
                   <a href="img/policies-mobile-menu.png" data-lightbox="CSS only mobile menu" data-title="Policies responsive mobile menu">
                     <img src="img/loading.gif" data-src="img/policies-mobile-menu.png" alt="responsive mobile menu" class="lazy-load img-shadow img-center">
                   </a>
@@ -142,8 +159,8 @@
               <p class="margin-bottom-20">&nbsp;</p>              
 
 
-              <p class="h3 subheading padding-0 margin-0">Additional screenshots</p>
-              <p>The result was a <strong>fully responsive, accessible and visually appealing</strong> job lisiting portal, with an <strong>improved user experience</strong> for end users and web content authors alike.</p>
+              <!-- <p class="h3 subheading padding-0 margin-0">Additional screenshots</p> -->
+
 
             </div>
             <!-- end page specific content -->
