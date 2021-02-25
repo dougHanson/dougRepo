@@ -206,6 +206,9 @@ $('#input-message').blur(function () {
 // NAV MENU - add smooth scrolling 
 var scrollSpeed = 1000;
 var pathname = window.location.pathname; // Returns path only
+pathname = pathname.replace('/dougrepo', '');
+
+//alert(pathname);
 
 $(".nav-home").click(function (e) {
   if (pathname === "/index.php" || pathname === '/' || pathname === '/~doug.hanson/') {

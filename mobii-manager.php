@@ -17,9 +17,9 @@
 
 </head>
 
-<?php 
+<?php
 	// DECLARE PROJECT VARIABLE - refer to data.js
-	$project = 'mobii_manager'; 	
+	$project = 'mobii_manager';
 ?>
 
 <body class="project-page" id="<?php echo $project ?>">
@@ -35,7 +35,9 @@
         <!-- header image -->
         <header class="header">
           <div class="bg-img">
-            <img class="lazy-load" src="img/mobii-header.min.png" data-src="img/mobii-header.png" alt="Mobile App Design" />
+            <img
+              src="data:image/png;base64,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"
+              data-src="img/mobii-header.png" class="lazy-load" alt="Mobile App Design" />
           </div>
         </header>
 
@@ -139,7 +141,7 @@
 
   <!-- page specific scripts -->
   <script>
-    // OWL CAROUSEL - initiate Owl Carousel plugin 
+    // OWL CAROUSEL - initiate Owl Carousel plugin
     $('.owl-carousel').owlCarousel({
       stagePadding: 0,
       //lazyLoad: true,
