@@ -1,20 +1,31 @@
 var projects = {
+  new_future: {
+    url: 'new-future.php',
+    title: 'New Future website',
+    client: 'Department of Education WA',
+    brand_colours: ['#fed428', '#ff9933', '#d82243', '#8a6996', '#078092'],
+    skills: ['UI/UX development', 'Liferay DXP', 'javascript', 'Freemarker', 'SASS', 'HTML'],
+    year: '2021',
+    website: 'newfuture.wa.edu.au',
+    website_url: '//www.newfuture.wa.edu.au',
+    thumbnail: 'new-future-thumb.png'
+  }, 
   policies: {
     url: 'policies.php',
     title: 'Policies website',
     client: 'Department of Education WA',
-    brand_colours: ['#1078b2', '#aad7eb', '#222', '#ca8620'], //#FAF3E9
+    brand_colours: ['#1078b2', '#aad7eb', '#222', '#ca8620'],
     skills: ['UX development', 'icon design', 'semantic HTML', 'SASS', 'Liferay DXP', 'Freemarker', 'jQuery', 'accessibility'],
     year: '2020',
     website: 'education.wa/policies',
     website_url: '//www.education.wa.edu.au/web/policies',
     thumbnail: 'policies-thumb.png'
-  },  
+  },    
   jobs: {
     url: 'jobs.php',
     title: 'Interactive Job Portal',
     client: 'Department of Education WA',
-    brand_colours: ['#1078b2', '#aad7eb', '#222', '#ca8620'], //#FAF3E9
+    brand_colours: ['#1078b2', '#aad7eb', '#222', '#ca8620'],
     skills: ['UX design', 'Maps API', 'jQuery', 'AJAX', 'HTML', 'SASS', 'Liferay DXP', 'Freemarker', 'accessibility'],
     year: '2019',
     website: 'education.wa/jobs',
@@ -89,4 +100,4 @@ var projects = {
   }
 };
 
-var projectOrder = ["policies", "jobs", "fetch", "product_page_redesign", "mobii_manager", "multicomm", "bankwest"]; //, "portfolio"];
+var projectOrder = ["new_future", "policies", "jobs", "fetch", "product_page_redesign", "mobii_manager", "multicomm", "bankwest"]; //, "portfolio"];

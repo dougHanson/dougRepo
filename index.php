@@ -107,6 +107,21 @@
           <div class="work-item-wrapper">
             <div class="row">
 
+              <!-- NEW FUTURE -->
+              <a href="new-future.php" class="progressLoad">
+                <article class="work-item">
+                  <div class="work-item__drawings" style="padding-top: 140px;">
+                    <img class="illustration" src="img/new-future.png" alt="" style="max-width: 280px; padding-top: 140px;" />
+                    <?php echo file_get_contents("svg/new-future.svg"); ?>
+                  </div>
+
+                  <div class="work-item__content">
+                    <p class="work-item__heading">New Future website</p>
+                    <h2 class="h5 work-item__subheading">ui &amp; ux design / web&nbsp;development</h2>
+                  </div>
+                </article>
+              </a>
+
               <!-- POLICIES -->
               <a href="policies.php" class="progressLoad">
                 <article class="work-item">
@@ -120,7 +135,7 @@
                     <h2 class="h5 work-item__subheading">ux design / web&nbsp;development</h2>
                   </div>
                 </article>
-              </a>
+              </a>              
 
               <!-- JOBS BOARD -->
               <a href="jobs.php" class="progressLoad">
@@ -184,7 +199,7 @@
 
               <!-- MULTICOMM -->
               <a href="multicomm.php" class="progressLoad">
-                <article class="work-item">
+                <article class="work-item show-all-content">
                   <div class="work-item__drawings">
                     <img class="illustration" src="img/multicomm.png" alt="" style="max-width: 300px; padding-top:15px;" />
                     <?php echo file_get_contents("svg/multicomm.svg"); ?>
