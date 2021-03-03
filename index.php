@@ -70,7 +70,7 @@
     <div class="wrapper__outer">
       <div class="wrapper__inner">
 
-        <!-- ###############################
+      <!-- ###############################
 			//   Intro / hero content
 			#################################### -->
         <section id="hero-content" class="hero-content parallax-bg">
@@ -94,7 +94,7 @@
         <!-- end hero content -->
 
 
-        <!-- ###############################
+      <!-- ###############################
 			//   Selected Works
 			#################################### -->
         <section id="selected-works" class="selected-works container">
@@ -135,7 +135,7 @@
                     <h2 class="h5 work-item__subheading">ux design / web&nbsp;development</h2>
                   </div>
                 </article>
-              </a>              
+              </a>
 
               <!-- JOBS BOARD -->
               <a href="jobs.php" class="progressLoad">
@@ -243,7 +243,7 @@
         <hr>
 
 
-        <!-- ###############################
+      <!-- ###############################
 			//   About me
 			#################################### -->
         <section id="about" class="about container">
@@ -251,7 +251,7 @@
           <h4 class="h2 text-center">About me</h4>
           <div class="text-center"><img src="svg/spear.svg" alt="" class="margin-bottom-40"></div>
           <div class="col-lg-9">
-            <p>Over 8 years of hands on experience in user-centred web design &amp; front end web development. Experience designing User Interfaces (UI) and User Experience (UX) for products from various domains. Expertise in handling projects in Web development, Responsive Web Design, JavaScript, JQuery, AngularJS, HTML5, CSS3, SASS and&nbsp;PHP.</p>
+            <p>Over <span class="js-years-experience">10</span> years of hands on experience in user-centred web design &amp; front end web development. Experience designing User Interfaces (UI) and User Experience (UX) for products from various domains. Expertise in handling projects in Web development, Responsive Web Design, JavaScript, JQuery, AngularJS, HTML5, CSS3, SASS, Freemarker and&nbsp;PHP.</p>
             <p class="hidden-xs hidden-xxs">A driven, creative professional with a broad technical skill set. An excellent communicator experienced in interpreting and implementing client and staff visions of new websites and digital creative.</p>
             <p>&nbsp;</p>
           </div>

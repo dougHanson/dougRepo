@@ -6,7 +6,7 @@
         <div class="row">
 
           <div class="col-sm-12">
-            <p class="text-center">Copyright Doug Hanson <span class="js-year">2020</span></p>
+            <p class="text-center">Copyright Doug Hanson <span class="js-year">2021</span></p>
           </div>
 
           <!-- social media icons -->

@@ -1,4 +1,4 @@
-// OWL CAROUSEL - initiate Owl Carousel plugin 
+// OWL CAROUSEL - initiate Owl Carousel plugin
 /*$('.owl-carousel').owlCarousel({
 	stagePadding: 0,
 	lazyLoad: true,
@@ -118,7 +118,7 @@ $('.show-all-btn').click(function () {
 
 
 
-// INPUT FIELDS - special effects from codrops 
+// INPUT FIELDS - special effects from codrops
 (function () {
   // trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
   if (!String.prototype.trim) {
@@ -155,7 +155,7 @@ $('.show-all-btn').click(function () {
 
 
 
-//FORM VALIDATION	
+//FORM VALIDATION
 function isValidField(field) {
   field.addClass('input-valid').removeClass('input-error');
 }
@@ -203,7 +203,7 @@ $('#input-message').blur(function () {
 
 
 
-// NAV MENU - add smooth scrolling 
+// NAV MENU - add smooth scrolling
 var scrollSpeed = 1000;
 var pathname = window.location.pathname; // Returns path only
 pathname = pathname.replace('/dougrepo', '');
@@ -274,7 +274,7 @@ $(function () {
 
 
 
-//FLOATING SIDEBAR 
+//FLOATING SIDEBAR
 // $(function () {
 //   if ($('.sidebar').length) {
 //     var sidebar = $('.sidebar');
@@ -299,6 +299,7 @@ $(function () {
 
 var currentYear = (new Date).getFullYear();
 $('.js-year').html(currentYear);
+$('.js-years-experience').html(currentYear - 2011);
 
 
 //INITIALISE LAZY LOAD (LOZAD)
@@ -321,10 +322,10 @@ $(function () {
   // Page is loaded
 
   //if ( ! /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) && $(window).width() > 991 ) {
-  //var asideImg = new Image();	
+  //var asideImg = new Image();
   //asideImg.src = 'img/aside.jpg';
   //asideImg.onload = function() {
-  //$('.vertical-menu').css("background-image", "url('"+asideImg.src+"')"); 
+  //$('.vertical-menu').css("background-image", "url('"+asideImg.src+"')");
   //};
   //}
 
