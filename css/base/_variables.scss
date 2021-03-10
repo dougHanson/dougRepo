@@ -21,7 +21,7 @@ $grey-9:                    #999998 !default;
 $grey-d:                    #d1d1d0 !default;
 
 $grey-border:               #e4e4e4 !default;
-$grey-background:           #fcfcfb !default;
+$grey-background:           #fafafa !default;
 
 $brand-primary:             #727c7d !default;
 $brand-color-2:             #5bc0de !default;
@@ -53,7 +53,7 @@ $nav-width:                  250px;
 /* ------------------------------------- */
 
 $link-color:                 $brand-color-2 !default;
-$link-hover-color:           darken($link-color, 25%) !default;
+$link-hover-color:           darken($link-color, 30%) !default;
 $link-hover-decoration:      underline !default;
 
 

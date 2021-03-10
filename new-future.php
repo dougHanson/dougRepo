@@ -57,8 +57,22 @@
 						#################################### -->
             <div class="col-lg-9">
 
-              <p class="h3 subheading padding-0 margin-0">Case study coming soon</p>
-              <p><a href="//www.newfuture.wa.edu.au">www.newfuture.wa.edu</a></p>
+              <p class="h3 subheading padding-0 margin-0">At a glance</p>
+              <p>The Department of Education wanted to launch a new initiative to try and inspire children and get them excited for their futures in the workforce, without it looking like a direct message from the government.</p>
+              <p>View the live website at <a href="//www.newfuture.wa.edu.au">www.newfuture.wa.edu</a></p> 
+              
+              <p class="h3 subheading padding-0 margin-0">The design</p>
+              <p>accessible colour palette, different rich content/media types, ux for both user and author...</p>
+
+              <p class="h3 subheading padding-0 margin-0">The front-end development</p>
+              <p>ftl, jplist with callback to masonry.js</p> 
+                            
+              <p>The glitch</p>
+              <p>svg filters for glitch effect ties in with logo (show insitu button example)...</p>
+
+
+              <img src="img/loading.gif" data-src="img/new-future-mobile-cards.png" class="lazy-load img-center img-responsive img-center margin-top-40" alt="New Future web design on Android mobile">
+
 
               <!-- website -->
               <!-- <p class="h3 subheading padding-0 margin-0">Website</p>
