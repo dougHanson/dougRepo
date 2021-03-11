@@ -96,16 +96,16 @@
 
               <p>The <strong>responsive, off-canvas mobile menu</strong> was developed by styling checkboxes.</p>
               <div class="owl-carousel owl-theme">
-                <div class="item margin-bottom-40">
+                <!-- <div class="item margin-bottom-40"> -->
                   <a href="img/policies-mobile-menu.png" data-lightbox="CSS only mobile menu" data-title="Policies responsive mobile menu">
-                    <img src="img/loading.gif" data-src="img/policies-mobile-menu.png" alt="responsive mobile menu" class="lazy-load img-frame img-center">
+                    <img src="img/loading.gif" data-src="img/policies-mobile-menu.png" alt="responsive mobile menu" class="owl-lazy lazy-load img-frame img-center">
                   </a>
-                </div>
-                <div class="item margin-bottom-40">
+                <!-- </div> -->
+                <!-- <div class="item margin-bottom-40"> -->
                   <a href="img/policies-mobile-menu-code.png" data-lightbox="CSS only mobile menu" data-title="Policies responsive mobile menu">
-                    <img src="img/loading.gif" data-src="img/policies-mobile-menu-code.png" alt="responsive mobile menu" class="lazy-load img-frame img-center">
+                    <img src="img/loading.gif" data-src="img/policies-mobile-menu-code.png" alt="responsive mobile menu" class="owl-lazy img-frame img-center">
                   </a>
-                </div>
+                <!-- </div> -->
               </div>
               <p class="margin-bottom-20">&nbsp;</p>
 
@@ -194,6 +194,7 @@
       stagePadding: 0,
       lazyLoad: true,
       loop: false,
+      dots: true,
       margin: 10,
       nav: false,
       responsive: {

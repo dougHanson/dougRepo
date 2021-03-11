@@ -9,7 +9,7 @@
 <!-- left hand nav include -->
 <aside class="vertical-menu">
   <div class="vertical-menu__logo">
-    <a href="index.php"><img src="img/logo-retina.png" /></a>
+    <a href="index.php"><img src="img/logo-retina.png" alt="Doug Hanson" height="136" width="136" /></a>
   </div>
   <!--<br class="hidden-sm hidden-xs hidden-xxs">-->
   <nav>
@@ -48,14 +48,14 @@
     </ul>
 
     <!-- social icons -->
-    <a class="social-icon" href="//www.linkedin.com/in/doug83/" target="_blank" title="LinkedIn">
+    <a class="social-icon" href="https://www.linkedin.com/in/doug83/" target="_blank" title="LinkedIn">
       <div class="social-icon__bg"></div>
       <div class="social-icon__svg">
         <?php echo file_get_contents("svg/linkedin.svg"); ?>
       </div>
     </a>
 
-    <a class="social-icon" href="//github.com/dougHanson" target="_blank" title="Github">
+    <a class="social-icon" href="https://github.com/dougHanson" target="_blank" title="Github">
       <div class="social-icon__bg"></div>
       <div class="social-icon__svg">
         <?php echo file_get_contents("svg/github.svg"); ?>
@@ -69,14 +69,14 @@
 			</div>
 		</a>-->
 
-    <a class="social-icon" href="//twitter.com/doug83" target="_blank" title="Twitter">
+    <a class="social-icon" href="https://twitter.com/doug83" target="_blank" title="Twitter">
       <div class="social-icon__bg"></div>
       <div class="social-icon__svg">
         <?php echo file_get_contents("svg/twitter.svg"); ?>
       </div>
     </a>
 
-    <a class="social-icon" href="//au.pinterest.com/doughanson1983/" target="_blank" title="Pinterest">
+    <a class="social-icon" href="https://au.pinterest.com/doughanson1983/" target="_blank" title="Pinterest">
       <div class="social-icon__bg"></div>
       <div class="social-icon__svg">
         <?php echo file_get_contents("svg/pinterest.svg"); ?>

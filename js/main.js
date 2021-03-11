@@ -309,7 +309,7 @@ lozad('.lazy-load', {
     el.onload = function () {
       //if not homepage, fadeIn images. Don't fadeIn on homepage as interferes with SVG animations.
       var pathname = window.location.pathname;
-      if (pathname != "/index.php" && pathname != '/' && pathname != '/~doug.hanson' && pathname != '/~doug.hanson/index.php') {
+      if (pathname != "/index.php" && pathname != '/'  && pathname != '/~doug.hanson' && pathname != '/~doug.hanson/index.php' && pathname != '/dougrepo/' && pathname != '/dougrepo/index.php') {
         el.classList.add('fadeIn'); //see utilities.scss for fadeIn class
       }
     };

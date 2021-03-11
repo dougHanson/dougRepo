@@ -58,28 +58,28 @@
             <div class="col-lg-9">
 
               <p class="h3 subheading padding-0 margin-0">At a glance</p>
-              <p>The Department of Education wanted to launch a new initiative to try and inspire children and get them excited for their futures in the workforce, without it looking like a direct message from the government.</p>
+              <p>The Department of Education wanted to launch a new initiative to try and inspire children and get them excited for their futures in the workforce, and wanted me to <strong>design and develop a campaign website</strong> without it looking like a direct message from the government.</p>
               <p><a class="button margin-bottom-10" href="//www.newfuture.wa.edu.au" target="_blank">www.newfuture.wa.edu</a></p>
 
-              <p class="h3 subheading padding-0 margin-0">The design</p>
+              <p class="h3 subheading padding-0 margin-0">The web designs</p>
               <p>I began by creating a bold and <strong>accesible colour palette</strong> centred around Gen Z yellow, which met the <strong>WCAG AA standard contrast ratio</strong> of 4.5:1 , while complementing the colours already being used in the logo provided. When creating the <strong>web designs</strong> I coupled the bright palette with bold colourful imagery including imagery including talent which appeared optimistic, bright, friendly and determined. I also coupled a popular <strong>sans-serif Google font</strong> with a cursive accent font called 'Schoolbell'.<p>
               <img src="img/new-future-palette.png" alt="Colour palette" />
 
               <p>Because there would eventually be a large amount of content I determined the best approach would be to hide older articles behind a load more button. This provided a <strong>better user experience over infinite scroll</strong>, whilst providing the performance boost of <strong>lazy loading</strong> the hidden content when it was requested.</p>
               <p>There are several different <strong>rich media content</strong> types which the authors could create, such as internal and external articles, videos, images and podcasts. Each one would be fully customisable as to which content would appear. Articles would be sorted by displaying the most recent ones first, but authors had the option to tag articles as 'featured' which would give them priority placement.
 
-              <a href="img/new-future-web-design-1.jpg" data-lightbox="new-future" data-title="New Future web designs">
+              <a href="img/new-future-web-design-1.jpg" data-lightbox="new-future-designs" data-title="New Future web designs">
                 <img src="img/loading.gif" data-src="img/new-future-web-design-1.jpg" class="lazy-load img-center img-responsive img-center img-shadow margin-top-40" alt="New future web design" />
               </a>
 
               <div class="owl-carousel owl-theme">
                 <div class="item margin-bottom-40">
-                  <a href="img/new-future-web-design-2.jpg" data-lightbox="new-future" data-title="New Future web designs">
+                  <a href="img/new-future-web-design-2.jpg" data-lightbox="new-future-designs" data-title="New Future web designs">
                     <img src="img/loading.gif" data-src="img/new-future-web-design-2.jpg" class="lazy-load img-center img-responsive img-center img-frame margin-top-40" alt="New future web design" />
                   </a>
                 </div>
                 <div class="item margin-bottom-40">
-                  <a href="img/new-future-web-design-3.jpg" data-lightbox="new-future" data-title="New Future web designs">
+                  <a href="img/new-future-web-design-3.jpg" data-lightbox="new-future-designs" data-title="New Future web designs">
                     <img src="img/loading.gif" data-src="img/new-future-web-design-3.jpg" class="lazy-load img-center img-responsive img-center img-frame margin-top-40" alt="New future web design" />
                   </a>
                 </div>
@@ -87,10 +87,24 @@
               <p class="margin-bottom-20">&nbsp;</p>
 
 
+              <p class="h3 subheading padding-0 margin-0">The authoring experience</p>
+              <p>Created structure in Liferay, thinking about the best UX for the author when laying out the different options for each content type.</p>
 
+              <div class="owl-carousel owl-theme">
+                <div class="item margin-bottom-40">
+                  <a href="img/new-future-web-authoring-1.jpg" data-lightbox="authoring" data-title="New Future web authoring in Liferay DXP">
+                    <img src="img/loading.gif" data-src="img/new-future-web-authoring-1.jpg" class="lazy-load img-center img-responsive img-center img-frame" alt="New Future web authoring in Liferay DXP" />
+                  </a>
+                </div>
+                <div class="item margin-bottom-40">
+                  <a href="img/new-future-web-authoring-2.jpg" data-lightbox="authoring" data-title="New Future web authoring in Liferay DXP">
+                    <img src="img/loading.gif" data-src="img/new-future-web-authoring-2.jpg" class="lazy-load img-center img-responsive img-center img-frame" alt="New Future web authoring in Liferay DXP" />
+                  </a>
+                </div>
+              </div>
+              <p class="margin-bottom-20">&nbsp;</p>
 
               <p class="h3 subheading padding-0 margin-0">The front-end development</p>
-              <p>Created structure in Liferay, thinking about the best UX for the author when laying out the different options for each content type.
               <p>ftl, jplist with callback to masonry.js, social sharing</p>
 
               <p>The glitch</p>

@@ -2,7 +2,6 @@
 //   TYPE  [modules/_type.scss]
 //   styles for copy
 /* ************************************* */
-
 p {
   color: $paragraph-color;
   line-height: $line-height;
@@ -75,7 +74,6 @@ del { text-decoration: line-through; }
 /* -------------------------------------
 //   Headings
 /* ------------------------------------- */
-
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: $font-family-primary;
@@ -113,7 +111,6 @@ h6, .h6              { font-size: $font-size-h6; }
 /* ------------------------------------- */
 
 /* ----- Alignment ----- */
-
 .text-left           { text-align: left; }
 .text-right          { text-align: right; }
 .text-center         { text-align: center; }
@@ -124,13 +121,11 @@ h6, .h6              { font-size: $font-size-h6; }
 }
 
 /* ----- Transformation ----- */
-
 .text-lowercase      { text-transform: lowercase; }
 .text-uppercase      { text-transform: uppercase; }
 .text-capitalize     { text-transform: capitalize; }
 
 /* ----- Font sizes ----- */
-
 .font-xxs            { font-size: 0.7em; }
 .font-xs             { font-size: 0.8em; }
 .font-sm             { font-size: 0.9em; }
@@ -140,13 +135,11 @@ h6, .h6              { font-size: $font-size-h6; }
 .font-xxl            { font-size: 3.5em; }
 
 /* ----- Font weights ----- */
-
 .font-light          { font-weight: 100; }
 .font-bold           { font-weight: 400; }
 .font-heavy          { font-weight: 600; }
 
 /* ----- Line spacing ----- */
-
 .lh-sm               { line-height: 1em; }
 .lh-md               { line-height: 1.2em; }
 .lh-lg               { line-height: 1.7em; }
@@ -154,11 +147,9 @@ h6, .h6              { font-size: $font-size-h6; }
 
 
 
-
 /* -------------------------------------
 //   Lists
 /* ------------------------------------- */
-
 ul { list-style: inside circle; }
 ol { list-style: inside decimal; }
 ol, ul {
@@ -184,7 +175,6 @@ li {
 /* -------------------------------------
 //    preformatted text (code)
 /* ------------------------------------- */
-
 code {
   padding: .1rem .4rem;
   margin: 0 .2rem;
@@ -288,7 +278,6 @@ based on dark.css by Ivan Sagalaev
 /* -------------------------------------
 //   Custom classes
 /* ------------------------------------- */
-
 .white { color: #fff !important; }
 
 .subheading { 
@@ -310,7 +299,6 @@ based on dark.css by Ivan Sagalaev
 /* -------------------------------------
 //   Hero heading (used on home page)
 /* ------------------------------------- */
-
 .hero-heading {
 	font-size: 36px;
 	font-weight: 600;
