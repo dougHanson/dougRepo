@@ -76,7 +76,7 @@
 //  Frames
 /* ------------------------------------- */
 .frame {
-	background: #404040;
+	background: $grey-4;
 	width: 1vw;
 	height: 1vw;
 	z-index: 9999;
@@ -113,6 +113,6 @@
 	top: 180px;
 
 	@media (min-width: 1200px) {
-		padding-left: 3em;
+		padding-left: 2.5em;
 	}
 }

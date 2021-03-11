@@ -73,7 +73,7 @@ q:before, q:after {
   content: none; }
 
 :focus {
-  outline: dashed 1px #4a4a4a; }
+  outline: dashed 1px #474746; }
 
 table {
   border-collapse: collapse;
@@ -999,7 +999,7 @@ section {
 //  Frames
 /* ------------------------------------- */
 .frame {
-  background: #404040;
+  background: #474746;
   width: 1vw;
   height: 1vw;
   z-index: 9999;
@@ -1026,7 +1026,7 @@ section {
   top: 180px; }
   @media (min-width: 1200px) {
     .sidebar {
-      padding-left: 3em; } }
+      padding-left: 2.5em; } }
 
 /* *************************************
 //   FOOTER  [layout/_footer.scss]
@@ -1357,7 +1357,7 @@ em, i {
 
 u {
   text-decoration: none;
-  border-bottom: 1px solid #4a4a4a; }
+  border-bottom: 1px solid #474746; }
 
 abbr {
   border-bottom: 2px dotted #727c7d;
@@ -1374,7 +1374,7 @@ abbr {
     background: #fafafa;
     border: 1px solid #e4e4e4;
     font-size: 0.8em;
-    color: #4a4a4a;
+    color: 4;
     text-align: center;
     content: attr(title); }
 
@@ -1635,11 +1635,11 @@ based on dark.css by Ivan Sagalaev
 
 .subheading {
   font-family: "Dancing Script", serif;
-  color: #4a4a4a; }
+  color: #474746; }
   .subheading__hero {
     font-family: "Dancing Script", serif;
     font-size: 1.5rem;
-    color: #4a4a4a;
+    color: #474746;
     width: 80%;
     margin: 0 auto; }
     @media (min-width: 768px) {
@@ -1654,7 +1654,7 @@ based on dark.css by Ivan Sagalaev
   font-weight: 600;
   font-family: "Raleway", Arial, sans-serif, serif;
   line-height: 1.4em;
-  color: #4a4a4a;
+  color: #474746;
   letter-spacing: 3px;
   width: 90%;
   margin: 0 auto; }
@@ -2013,7 +2013,7 @@ img {
 .img-frame {
   padding: 0.5em;
   line-height: 1.428571429;
-  background-color: #f7f7f7;
+  background-color: white;
   border: 1px solid #e4e4e4;
   transition: all 0.2s ease-in-out;
   display: inline-block;
@@ -2196,7 +2196,7 @@ img {
         text-decoration: none; } }
   .work-item__subheading {
     font-family: "Dancing Script", serif;
-    color: #4a4a4a;
+    color: #474746;
     min-height: 80px; }
   .work-item__content {
     padding: 0 1em;
@@ -2396,7 +2396,7 @@ a:focus .work-item .work-item__heading {
     .nav-slide .icon-wrap__text {
       position: absolute;
       top: 18px;
-      color: #4a4a4a; }
+      color: #474746; }
       .nav-slide .icon-wrap__text--left {
         left: 60px; }
       .nav-slide .icon-wrap__text--right {
@@ -3356,7 +3356,7 @@ label > .label-body {
   background: transparent;
   padding: 1.5em 1em 0.25em 2em;
   width: 100%;
-  color: #4a4a4a; }
+  color: #474746; }
 
 textarea.input__field {
   padding-top: 1.9em; }

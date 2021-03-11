@@ -10,12 +10,10 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:100,400,600|Dancing+Script");
 
 
-
 /* -------------------------------------
 //   Colours
 /* ------------------------------------- */
-
-$grey-2:                    #4a4a4a !default;
+$grey-4:                    #474746 !default;
 $grey-6:                    #636362 !default;
 $grey-9:                    #999998 !default;
 $grey-d:                    #d1d1d0 !default;
@@ -36,7 +34,6 @@ $brand-danger:              #d9534f !default;
 /* -------------------------------------
 //   Body
 /* ------------------------------------- */
-
 $body-bg:                    $grey-background !default;
 $body-color:                 $grey-6 !default;
 
@@ -44,14 +41,12 @@ $body-color:                 $grey-6 !default;
 /* -------------------------------------
 //   Layout
 /* ------------------------------------- */
-
 $nav-width:                  250px;
 
 
 /* -------------------------------------
 //   Links
 /* ------------------------------------- */
-
 $link-color:                 $brand-color-2 !default;
 $link-hover-color:           darken($link-color, 30%) !default;
 $link-hover-decoration:      underline !default;
@@ -60,8 +55,6 @@ $link-hover-decoration:      underline !default;
 /* -------------------------------------
 //   Typography
 /* ------------------------------------- */
-
-
 $font-family-primary:        "Raleway", Arial, sans-serif !default;
 $font-family-secondary:      "Dancing Script", serif !default;
 $font-size-root:             16px !default;

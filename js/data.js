@@ -4,7 +4,7 @@ var projects = {
     title: 'New Future website',
     client: 'Department of Education WA',
     brand_colours: ['#fed428', '#ff9933', '#d82243', '#8a6996', '#078092'],
-    skills: ['UI/UX development', 'Liferay DXP', 'javascript', 'Freemarker', 'SASS', 'HTML'],
+    skills: ['UI/UX development', 'Liferay DXP', 'javascript', 'Freemarker', 'SASS', 'HTML', 'WCAG AA compliant'],
     year: '2021',
     website: 'newfuture.wa.edu.au',
     website_url: '//www.newfuture.wa.edu.au',

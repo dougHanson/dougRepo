@@ -32,7 +32,7 @@ em, i { font-style: italic; }
 
 u { 
   text-decoration: none;
-  border-bottom: 1px solid $grey-2; 
+  border-bottom: 1px solid $grey-4; 
 }
 
 abbr {
@@ -50,7 +50,7 @@ abbr {
 	background: $grey-background;
 	border: 1px solid $grey-border;
 	font-size: 0.8em;
-	color: $grey-2;
+	color: 4;
 	text-align: center;
 	content: attr(title);
   }
@@ -293,11 +293,11 @@ based on dark.css by Ivan Sagalaev
 
 .subheading { 
   font-family: $font-family-secondary;
-  color: $grey-2;
+  color: $grey-4;
   &__hero {
 	font-family: $font-family-secondary;
 	font-size: 1.5rem;
-	color: $grey-2;
+	color: $grey-4;
 	width: 80%;
 	margin: 0 auto;
 	@media (min-width: 768px) {
@@ -316,7 +316,7 @@ based on dark.css by Ivan Sagalaev
 	font-weight: 600;
 	font-family: $font-family-primary, serif;
 	line-height: 1.4em; //text-transform: uppercase;   
-	color: $grey-2;
+	color: $grey-4;
 	letter-spacing: 3px;
 	width: 90%;
 	margin: 0 auto;
