@@ -87,7 +87,7 @@
               <p class="margin-bottom-20">&nbsp;</p>
 
 
-              <p class="h3 subheading padding-0 margin-0">The authoring experience</p>
+              <!-- <p class="h3 subheading padding-0 margin-0">The authoring experience</p>
               <p>Created structure in Liferay, thinking about the best UX for the author when laying out the different options for each content type.</p>
 
               <div class="owl-carousel owl-theme">
@@ -108,7 +108,9 @@
               <p>ftl, jplist with callback to masonry.js, social sharing</p>
 
               <p>The glitch</p>
-              <p>svg filters for glitch effect ties in with logo (show insitu button example)...</p>
+              <p>svg filters for glitch effect ties in with logo (show insitu button example)...</p> -->
+
+              <p class="h3 subheading padding-0 margin-0">More project details coming soon...</p>
 
 
               <img src="img/loading.gif" data-src="img/new-future-mobile-cards.png" class="lazy-load img-center img-responsive img-center margin-top-40" alt="New Future web design on Android mobile">
