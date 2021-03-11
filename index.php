@@ -15,8 +15,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Doug Hanson | Web Development and Design, Perth</title>
-  <meta name="description" content="Doug Hanson is a web designer and front end web developer from Perth, Western Australia.">
-  <meta name="keywords" content="web design, designer, web development, front end developer, ux design, perth, doug hanson">
+  <meta name="description"        content="Doug Hanson is a web designer and front end web developer from Perth, Western Australia.">
+  <meta name="keywords"           content="web design, designer, web development, front end developer, ux design, perth, doug hanson">
+  <meta name="twitter:card"       content="summary_large_image">
+  <meta name="twitter:creator"    content="@Doug83">
+  <meta name="twitter:image"      content="http://members.iinet.net.au/~doug.hanson/img/doug.png">
+  <meta name="twitter:image:src"  content="http://members.iinet.net.au/~doug.hanson/img/doug.png">  
+  <meta property="og:title"       content="Doug Hanson | Web Development and Design, Perth" />
+  <meta property="og:description" content="View work from Doug Hanson, a front end web developer from Perth, Western Australia." />
+  <meta property="og:image"       content="http://members.iinet.net.au/~doug.hanson/img/doug.png" />
 
   <!-- build:css -->
   <link rel="stylesheet" href="css/styles.css" media="all">
