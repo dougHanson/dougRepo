@@ -11,35 +11,35 @@
 
           <!-- social media icons -->
           <div class="social-wrapper">
-            <a class="social-icon-footer" href="https://www.linkedin.com/in/doug83/" title="LinkedIn" target="_blank">
+            <a class="social-icon-footer" href="https://www.linkedin.com/in/doug83/" rel="noreferrer" title="LinkedIn" target="_blank">
               <div class="social-icon__bg social-icon__bg--transparent"></div>
               <div class="social-icon__svg social-icon__svg--linkedin">
                 <?php echo file_get_contents("svg/linkedin.svg"); ?>
               </div>
             </a>
 
-            <a class="social-icon-footer" href="https://github.com/dougHanson" title="Github" target="_blank">
+            <a class="social-icon-footer" href="https://github.com/dougHanson" rel="noreferrer" title="Github" target="_blank">
               <div class="social-icon__bg social-icon__bg--transparent"></div>
               <div class="social-icon__svg social-icon__svg--github">
                 <?php echo file_get_contents("svg/github.svg"); ?>
               </div>
             </a>
 
-            <a class="social-icon-footer" href="https://twitter.com/doug83" title="Twitter" target="_blank">
+            <a class="social-icon-footer" href="https://twitter.com/doug83" rel="noreferrer" title="Twitter" target="_blank">
               <div class="social-icon__bg social-icon__bg--transparent"></div>
               <div class="social-icon__svg social-icon__svg--twitter">
                 <?php echo file_get_contents("svg/twitter.svg"); ?>
               </div>
             </a>
 
-            <a class="social-icon-footer" href="https://au.pinterest.com/doughanson1983/" title="Pinterest" target="_blank">
+            <a class="social-icon-footer" href="https://au.pinterest.com/doughanson1983/" rel="noreferrer" title="Pinterest" target="_blank">
               <div class="social-icon__bg social-icon__bg--transparent"></div>
               <div class="social-icon__svg social-icon__svg--pinterest">
                 <?php echo file_get_contents("svg/pinterest.svg"); ?>
               </div>
             </a>
 
-            <a class="social-icon-footer" href="https://facebook.com/doug83" title="Facebook" target="_blank">
+            <a class="social-icon-footer" href="https://facebook.com/doug83" rel="noreferrer" title="Facebook" target="_blank">
               <div class="social-icon__bg social-icon__bg--transparent"></div>
               <div class="social-icon__svg social-icon__svg--facebook">
                 <?php echo file_get_contents("svg/facebook.svg"); ?>

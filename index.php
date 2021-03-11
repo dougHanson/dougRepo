@@ -268,7 +268,7 @@
             <table class="full-width">
               <tbody>
                 <tr>
-                  <td class="td-employer"><a href="https://www.campfire.com.au/" target="_blank">Campfire</a>
+                  <td class="td-employer"><a href="https://www.campfire.com.au/" target="_blank" rel="noreferrer">Campfire</a>
                     <br>2018 - Present</td>
                   <td>
                     <strong>Front-end Web Developer</strong>
@@ -277,7 +277,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <td><a href="https://www.iinet.net.au/" target="_blank">iiNet</a>
+                  <td><a href="https://www.iinet.net.au/" target="_blank" rel="noreferrer">iiNet</a>
                     <br>2013 - 2018</td>
                   <td>
                     <strong>Senior Web Designer</strong>
@@ -286,7 +286,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <td><a href="https://www.bankwest.com.au/" target="_blank">Bankwest</a>
+                  <td><a href="https://www.bankwest.com.au/" target="_blank" rel="noreferrer">Bankwest</a>
                     <br>2010 - 2013</td>
                   <td>
                     <strong>Digital Production Specialist</strong>
@@ -295,7 +295,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <td><a href="https://www.bankwest.com.au/" target="_blank">Bankwest</a>
+                  <td><a href="https://www.bankwest.com.au/" target="_blank" rel="noreferrer">Bankwest</a>
                     <br>2009 - 2010</td>
                   <td>
                     <strong>Online Marketing Manager</strong>
@@ -304,7 +304,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <td><a href="https://www.bankwest.com.au/" target="_blank">Bankwest</a>
+                  <td><a href="https://www.bankwest.com.au/" target="_blank" rel="noreferrer">Bankwest</a>
                     <br>2007 - 2009</td>
                   <td>
                     <strong>eCommerce Marketing Coordinator</strong>
@@ -313,7 +313,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <td><a href="https://www.whitechalkroad.com.au/" target="_blank">White Chalk Road</a>
+                  <td><a href="https://www.whitechalkroad.com.au/" target="_blank" rel="noreferrer">White Chalk Road</a>
                     <br>2006 - 2007</td>
                   <td>
                     <strong>Internet Marketing Consultant</strong>
