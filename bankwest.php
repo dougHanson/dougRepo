@@ -74,10 +74,10 @@
 
               <div class="owl-carousel owl-theme">
                 <div class="item">
-                  <img src="img/loading.gif" data-src="img/bankwest-landing-mobile.png" alt="Bankwest eDM" class="lazy-load img-center img-responsive">
+                  <img src="img/loading.gif" data-src="img/bankwest-landing-mobile.png" alt="Bankwest eDM" class="lazy-load img-frame img-center img-responsive">
                 </div>
                 <div class="item">
-                  <img src="img/loading.gif" data-src="img/bankwest-landing-page-more.jpg" alt="Bankwest eDM" class="lazy-load img-center img-responsive">
+                  <img src="img/loading.gif" data-src="img/bankwest-landing-page-more.jpg" alt="Bankwest eDM" class="lazy-load img-frame img-center img-responsive">
                 </div>
               </div>
 
@@ -87,10 +87,10 @@
 
               <div class="owl-carousel owl-theme">
                 <div class="item">
-                  <img src="img/loading.gif" class="lazy-load img-center img-responsive" data-src="img/bankwest-edm-service.png" />
+                  <img src="img/loading.gif" class="lazy-load img-frame img-center img-responsive" data-src="img/bankwest-edm-service.png" />
                 </div>
                 <div class="item">
-                  <img src="img/loading.gif" class="lazy-load img-center img-responsive" data-src="img/bankwest-edm-sales.png" />
+                  <img src="img/loading.gif" class="lazy-load img-frame img-center img-responsive" data-src="img/bankwest-edm-sales.png" />
                 </div>
               </div>
 

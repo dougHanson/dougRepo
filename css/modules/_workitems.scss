@@ -41,7 +41,7 @@
 
   &__subheading {
     font-family: $font-family-secondary;
-    color: $grey-2;
+    color: $grey-4;
     min-height: 80px;
   }
 
@@ -139,7 +139,7 @@ svg { pointer-events: none; }
 	margin: auto;
 	max-width: 300px;
 	path {
-		fill: none;
+		fill: white;
 		stroke: #aaa;
 		stroke-width: 1;
 	}

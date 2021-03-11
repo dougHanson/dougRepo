@@ -1,4 +1,4 @@
-<div class="col-lg-2 col-lg-offset-1 sidebar">
+<div class="col-lg-3 sidebar">
 
   <!-- skills used -->
   <p class="h4 subheading font-bold margin-0 margin-bottom-0">

@@ -7,11 +7,11 @@
 /* -------------------------------------
 //   Wrappers
 /* ------------------------------------- */
-.wrapper { 
+.wrapper {
 	position: relative;
 	&__outer {
 		margin: 1vw 1vw 0 1vw;
-		opacity: 0; 
+		opacity: 0;
 		transition: opacity 500ms;
     padding-top: 60px;
 		@media (min-width: 992px) {
@@ -19,12 +19,12 @@
 		}
 	}
 	&__inner {
-		padding-left: 0px;	  
+		padding-left: 0px;
 		height: 100%;
 		@media (min-width: 992px) {
 			padding-left: $nav-width;
 		}
-	} 
+	}
 }
 
 
@@ -47,16 +47,16 @@
 	}
 	@media (min-width: 768px) {
 		height: 96vh;
-		padding: 0;  
+		padding: 0;
 	}
 	&__bg {
 		text-align: center; 
     padding: 12vh 2vh;  
 		height: 70vh;
 		@media (min-width: 768px) {
-		  padding: 30vh 10vh;  
+		  padding: 30vh 10vh;
 		  height: 100vh;
-		}	
+		}
 	}
 }
 
@@ -64,10 +64,10 @@
 /* -------------------------------------
 //  Homepage sections
 /* ------------------------------------- */
-.selected-works, 
-.about, 
-.contact-me { 
-	margin-bottom: 70px; 
+.selected-works,
+.about,
+.contact-me {
+	margin-bottom: 70px;
 	padding-top: 60px;
 }
 
@@ -76,21 +76,21 @@
 //  Frames
 /* ------------------------------------- */
 .frame {
-	background: #404040;
+	background: $grey-4;
 	width: 1vw;
 	height: 1vw;
-	z-index: 9999;	
-	position: fixed;	
-	opacity: 1;	
+	z-index: 9999;
+	position: fixed;
+	opacity: 1;
 	&__left {
-		//background-image: linear-gradient(to top, #ffecd2 0%, #fcb69f 100%); 
+		//background-image: linear-gradient(to top, #ffecd2 0%, #fcb69f 100%);
 	  height: 100vh;
-	  left: 0;			
-	}	
+	  left: 0;
+	}
 	&__right {
-	  //background-image: linear-gradient(to top, #ffecd2 0%, #fcb69f 100%); 
+	  //background-image: linear-gradient(to top, #ffecd2 0%, #fcb69f 100%);
 		height: 100vh;
-	  right: 0;			
+	  right: 0;
 	}
 	&__top {
 		//background: #fcb69f;
@@ -111,4 +111,8 @@
 .sidebar {
 	position: sticky;
 	top: 180px;
+
+	@media (min-width: 1200px) {
+		padding-left: 2.5em;
+	}
 }

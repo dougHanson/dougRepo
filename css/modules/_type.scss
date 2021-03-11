@@ -2,7 +2,6 @@
 //   TYPE  [modules/_type.scss]
 //   styles for copy
 /* ************************************* */
-
 p {
   color: $paragraph-color;
   line-height: $line-height;
@@ -32,7 +31,7 @@ em, i { font-style: italic; }
 
 u { 
   text-decoration: none;
-  border-bottom: 1px solid $grey-2; 
+  border-bottom: 1px solid $grey-4; 
 }
 
 abbr {
@@ -50,7 +49,7 @@ abbr {
 	background: $grey-background;
 	border: 1px solid $grey-border;
 	font-size: 0.8em;
-	color: $grey-2;
+	color: 4;
 	text-align: center;
 	content: attr(title);
   }
@@ -75,7 +74,6 @@ del { text-decoration: line-through; }
 /* -------------------------------------
 //   Headings
 /* ------------------------------------- */
-
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: $font-family-primary;
@@ -113,7 +111,6 @@ h6, .h6              { font-size: $font-size-h6; }
 /* ------------------------------------- */
 
 /* ----- Alignment ----- */
-
 .text-left           { text-align: left; }
 .text-right          { text-align: right; }
 .text-center         { text-align: center; }
@@ -124,13 +121,11 @@ h6, .h6              { font-size: $font-size-h6; }
 }
 
 /* ----- Transformation ----- */
-
 .text-lowercase      { text-transform: lowercase; }
 .text-uppercase      { text-transform: uppercase; }
 .text-capitalize     { text-transform: capitalize; }
 
 /* ----- Font sizes ----- */
-
 .font-xxs            { font-size: 0.7em; }
 .font-xs             { font-size: 0.8em; }
 .font-sm             { font-size: 0.9em; }
@@ -140,13 +135,11 @@ h6, .h6              { font-size: $font-size-h6; }
 .font-xxl            { font-size: 3.5em; }
 
 /* ----- Font weights ----- */
-
 .font-light          { font-weight: 100; }
 .font-bold           { font-weight: 400; }
 .font-heavy          { font-weight: 600; }
 
 /* ----- Line spacing ----- */
-
 .lh-sm               { line-height: 1em; }
 .lh-md               { line-height: 1.2em; }
 .lh-lg               { line-height: 1.7em; }
@@ -154,11 +147,9 @@ h6, .h6              { font-size: $font-size-h6; }
 
 
 
-
 /* -------------------------------------
 //   Lists
 /* ------------------------------------- */
-
 ul { list-style: inside circle; }
 ol { list-style: inside decimal; }
 ol, ul {
@@ -184,7 +175,6 @@ li {
 /* -------------------------------------
 //    preformatted text (code)
 /* ------------------------------------- */
-
 code {
   padding: .1rem .4rem;
   margin: 0 .2rem;
@@ -288,16 +278,15 @@ based on dark.css by Ivan Sagalaev
 /* -------------------------------------
 //   Custom classes
 /* ------------------------------------- */
-
 .white { color: #fff !important; }
 
 .subheading { 
   font-family: $font-family-secondary;
-  color: $grey-2;
+  color: $grey-4;
   &__hero {
 	font-family: $font-family-secondary;
 	font-size: 1.5rem;
-	color: $grey-2;
+	color: $grey-4;
 	width: 80%;
 	margin: 0 auto;
 	@media (min-width: 768px) {
@@ -310,13 +299,12 @@ based on dark.css by Ivan Sagalaev
 /* -------------------------------------
 //   Hero heading (used on home page)
 /* ------------------------------------- */
-
 .hero-heading {
 	font-size: 36px;
 	font-weight: 600;
 	font-family: $font-family-primary, serif;
 	line-height: 1.4em; //text-transform: uppercase;   
-	color: $grey-2;
+	color: $grey-4;
 	letter-spacing: 3px;
 	width: 90%;
 	margin: 0 auto;

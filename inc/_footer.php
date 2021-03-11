@@ -6,40 +6,40 @@
         <div class="row">
 
           <div class="col-sm-12">
-            <p class="text-center">Copyright Doug Hanson <span class="js-year">2020</span></p>
+            <p class="text-center">Copyright Doug Hanson <span class="js-year">2021</span></p>
           </div>
 
           <!-- social media icons -->
           <div class="social-wrapper">
-            <a class="social-icon-footer" href="//www.linkedin.com/in/doug83/" title="LinkedIn" target="_blank">
+            <a class="social-icon-footer" href="https://www.linkedin.com/in/doug83/" rel="noreferrer" title="LinkedIn" target="_blank">
               <div class="social-icon__bg social-icon__bg--transparent"></div>
               <div class="social-icon__svg social-icon__svg--linkedin">
                 <?php echo file_get_contents("svg/linkedin.svg"); ?>
               </div>
             </a>
 
-            <a class="social-icon-footer" href="//github.com/dougHanson" title="Github" target="_blank">
+            <a class="social-icon-footer" href="https://github.com/dougHanson" rel="noreferrer" title="Github" target="_blank">
               <div class="social-icon__bg social-icon__bg--transparent"></div>
               <div class="social-icon__svg social-icon__svg--github">
                 <?php echo file_get_contents("svg/github.svg"); ?>
               </div>
             </a>
 
-            <a class="social-icon-footer" href="//twitter.com/doug83" title="Twitter" target="_blank">
+            <a class="social-icon-footer" href="https://twitter.com/doug83" rel="noreferrer" title="Twitter" target="_blank">
               <div class="social-icon__bg social-icon__bg--transparent"></div>
               <div class="social-icon__svg social-icon__svg--twitter">
                 <?php echo file_get_contents("svg/twitter.svg"); ?>
               </div>
             </a>
 
-            <a class="social-icon-footer" href="//au.pinterest.com/doughanson1983/" title="Pinterest" target="_blank">
+            <a class="social-icon-footer" href="https://au.pinterest.com/doughanson1983/" rel="noreferrer" title="Pinterest" target="_blank">
               <div class="social-icon__bg social-icon__bg--transparent"></div>
               <div class="social-icon__svg social-icon__svg--pinterest">
                 <?php echo file_get_contents("svg/pinterest.svg"); ?>
               </div>
             </a>
 
-            <a class="social-icon-footer" href="//facebook.com/doug83" title="Facebook" target="_blank">
+            <a class="social-icon-footer" href="https://facebook.com/doug83" rel="noreferrer" title="Facebook" target="_blank">
               <div class="social-icon__bg social-icon__bg--transparent"></div>
               <div class="social-icon__svg social-icon__svg--facebook">
                 <?php echo file_get_contents("svg/facebook.svg"); ?>
@@ -58,7 +58,11 @@
 
 
 <!-- jQuery CDN -->
-<script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" type="text/javascript"></script> -->
+<script
+			  src="https://code.jquery.com/jquery-2.2.4.min.js"
+			  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+			  crossorigin="anonymous"></script>
 <!-- build:js -->
 <script src="js/data.js"></script>
 <script src="js/plugins/lozad.min.js"></script>

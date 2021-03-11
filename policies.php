@@ -69,22 +69,22 @@
               <div class="owl-carousel owl-theme">
                 <div class="item margin-bottom-40">
                   <a href="img/policies-design-2.png" data-lightbox="ui designs" data-title="Policies UI design">
-                    <img src="img/policies-design-2.png" data-src="img/policies-design-2.png" alt="Policies homepage" class="img-shadow img-center">
+                    <img src="img/policies-design-2.png" data-src="img/policies-design-2.png" alt="Policies homepage" class="img-frame img-center">
                   </a>
                 </div>
                 <div class="item margin-bottom-40">
                   <a href="img/policies-design-3.png" data-lightbox="ui designs" data-title="Policies UI design">
-                    <img src="img/policies-design-3.png" data-src="img/policies-design-3.png" alt="Policies browse page" class="img-shadow img-center">
+                    <img src="img/policies-design-3.png" data-src="img/policies-design-3.png" alt="Policies browse page" class="img-frame img-center">
                   </a>
                 </div>
                 <div class="item margin-bottom-40">
                   <a href="img/policies-design-4.png" data-lightbox="ui designs" data-title="Policies UI design">
-                    <img src="img/policies-design-4.png" data-src="img/policies-design-4.png" alt="Policies category page" class="img-shadow img-center">
+                    <img src="img/policies-design-4.png" data-src="img/policies-design-4.png" alt="Policies category page" class="img-frame img-center">
                   </a>
                 </div>
                 <div class="item margin-bottom-40">
                   <a href="img/policies-design-5.png" data-lightbox="ui designs" data-title="Policies UI design">
-                    <img src="img/policies-design-5.png" data-src="img/policies-design-5.png" alt="Policies policy page" class="img-shadow img-center">
+                    <img src="img/policies-design-5.png" data-src="img/policies-design-5.png" alt="Policies policy page" class="img-frame img-center">
                   </a>
                 </div>                                                
               </div>
@@ -96,16 +96,16 @@
 
               <p>The <strong>responsive, off-canvas mobile menu</strong> was developed by styling checkboxes.</p>
               <div class="owl-carousel owl-theme">
-                <div class="item margin-bottom-40">
+                <!-- <div class="item margin-bottom-40"> -->
                   <a href="img/policies-mobile-menu.png" data-lightbox="CSS only mobile menu" data-title="Policies responsive mobile menu">
-                    <img src="img/loading.gif" data-src="img/policies-mobile-menu.png" alt="responsive mobile menu" class="lazy-load img-shadow img-center">
+                    <img src="img/loading.gif" data-src="img/policies-mobile-menu.png" alt="responsive mobile menu" class="owl-lazy lazy-load img-frame img-center">
                   </a>
-                </div>
-                <div class="item margin-bottom-40">
+                <!-- </div> -->
+                <!-- <div class="item margin-bottom-40"> -->
                   <a href="img/policies-mobile-menu-code.png" data-lightbox="CSS only mobile menu" data-title="Policies responsive mobile menu">
-                    <img src="img/loading.gif" data-src="img/policies-mobile-menu-code.png" alt="responsive mobile menu" class="lazy-load img-frame img-center">
+                    <img src="img/loading.gif" data-src="img/policies-mobile-menu-code.png" alt="responsive mobile menu" class="owl-lazy img-frame img-center">
                   </a>
-                </div>
+                <!-- </div> -->
               </div>
               <p class="margin-bottom-20">&nbsp;</p>
 
@@ -113,7 +113,7 @@
               <div class="owl-carousel owl-theme">
               <div class="item margin-bottom-40">
                   <a href="img/policies-accordions.png" data-lightbox="CSS only accordions" data-title="Policies CSS accordions">
-                    <img src="img/loading.gif" data-src="img/policies-accordions.png" alt="CSS accordions" class="lazy-load img-shadow img-center">
+                    <img src="img/loading.gif" data-src="img/policies-accordions.png" alt="CSS accordions" class="lazy-load img-frame img-center">
                   </a>
                 </div>
                 <div class="item margin-bottom-40">
@@ -128,7 +128,7 @@
               <div class="owl-carousel owl-theme">
               <div class="item margin-bottom-40">
                   <a href="img/policies-tabs.png" data-lightbox="CSS only tabs" data-title="Policies CSS tabs">
-                    <img src="img/loading.gif" data-src="img/policies-tabs.png" alt="CSS tabs" class="lazy-load img-shadow img-center">
+                    <img src="img/loading.gif" data-src="img/policies-tabs.png" alt="CSS tabs" class="lazy-load img-frame img-center">
                   </a>
                 </div>
                 <div class="item margin-bottom-40">
@@ -194,6 +194,7 @@
       stagePadding: 0,
       lazyLoad: true,
       loop: false,
+      dots: true,
       margin: 10,
       nav: false,
       responsive: {
@@ -204,7 +205,7 @@
           items: 1
         },
         1400: {
-          items: 1
+          items: 2
         }
       }
     });

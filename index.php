@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-AU">
 
 <head>
   <!--
@@ -77,7 +77,7 @@
     <div class="wrapper__outer">
       <div class="wrapper__inner">
 
-        <!-- ###############################
+      <!-- ###############################
 			//   Intro / hero content
 			#################################### -->
         <section id="hero-content" class="hero-content parallax-bg">
@@ -101,24 +101,39 @@
         <!-- end hero content -->
 
 
-        <!-- ###############################
+      <!-- ###############################
 			//   Selected Works
 			#################################### -->
         <section id="selected-works" class="selected-works container">
 
           <h4 class="h3 subheading text-center margin-0">my portfolio</h4>
           <h4 class="h2 text-center">Selected works</h4>
-          <div class="text-center"><img src="svg/spear.svg" alt=""></div>
+          <div class="text-center"><img src="svg/spear.svg" alt="" height="10" width="227"></div>
 
-
+ 
           <div class="work-item-wrapper">
             <div class="row">
+
+              <!-- NEW FUTURE -->
+              <a href="new-future.php" class="progressLoad">
+                <article class="work-item">
+                  <div class="work-item__drawings" style="padding-top: 140px;">
+                    <img class="illustration lazy-load" src="img/loading.gif" data-src="img/new-future.png" alt="" style="max-width: 280px; padding-top: 140px;" />
+                    <?php echo file_get_contents("svg/new-future.svg"); ?>
+                  </div>
+
+                  <div class="work-item__content">
+                    <p class="work-item__heading">New Future website</p>
+                    <h2 class="h5 work-item__subheading">ui &amp; ux design / web&nbsp;development</h2>
+                  </div>
+                </article>
+              </a>
 
               <!-- POLICIES -->
               <a href="policies.php" class="progressLoad">
                 <article class="work-item">
                   <div class="work-item__drawings" style="padding-top: 55px;">
-                    <img class="illustration" src="img/policies.png" alt="" style="max-width: 155px; padding-top: 53px;" />
+                    <img class="illustration lazy-load" src="img/loading.gif" data-src="img/policies.png" alt="" style="max-width: 155px; padding-top: 53px;" />
                     <?php echo file_get_contents("svg/policies.svg"); ?>
                   </div>
 
@@ -133,7 +148,7 @@
               <a href="jobs.php" class="progressLoad">
                 <article class="work-item work-item--jobs">
                   <div class="work-item__drawings" >
-                    <img class="illustration" src="img/jobs-wa.png" alt="" style="max-width: 225px; padding-top: 15px;" />
+                    <img class="illustration lazy-load" src="img/loading.gif" data-src="img/jobs-wa.png" alt="" style="max-width: 225px; padding-top: 15px;" />
                     <?php echo file_get_contents("svg/jobs.svg"); ?>
                   </div>
 
@@ -148,7 +163,7 @@
               <a href="fetch.php" class="progressLoad">
                 <article class="work-item work-item__content--pull-up-mobile">
                   <div class="work-item__drawings" >
-                    <img class="illustration" src="img/fetch-mini.png" alt="" style="max-width: 250px; padding-top: 25px;" />
+                    <img class="illustration lazy-load" src="img/loading.gif" data-src="img/fetch-mini.png" alt="" style="max-width: 250px; padding-top: 25px;" />
                     <?php echo file_get_contents("svg/fetch-mini.svg"); ?>
                   </div>
 
@@ -163,7 +178,7 @@
               <a href="iinet-plan-pages.php" class="progressLoad">
                 <article class="work-item">
                   <div class="work-item__drawings">
-                    <img class="illustration" src="img/finn-balloons.png" alt="" style="max-width: 244px;" />
+                    <img class="illustration lazy-load" src="img/loading.gif" data-src="img/finn-balloons.png" alt="" style="max-width: 244px;" />
                     <?php echo file_get_contents("svg/finn.svg"); ?>
                   </div>
 
@@ -178,7 +193,7 @@
               <a href="mobii-manager.php" class="progressLoad">
                 <article class="work-item">
                   <div class="work-item__drawings">
-                    <img class="illustration" src="img/mobii-manager.png" alt="" style="max-width: 300px;" />
+                    <img class="illustration lazy-load" src="img/loading.gif" data-src="img/mobii-manager.png" alt="" style="max-width: 300px;" />
                     <?php echo file_get_contents("svg/galaxy-phone.svg"); ?>
                   </div>
 
@@ -191,9 +206,9 @@
 
               <!-- MULTICOMM -->
               <a href="multicomm.php" class="progressLoad">
-                <article class="work-item">
+                <article class="work-item show-all-content">
                   <div class="work-item__drawings">
-                    <img class="illustration" src="img/multicomm.png" alt="" style="max-width: 300px; padding-top:15px;" />
+                    <img class="illustration lazy-load" src="img/loading.gif" data-src="img/multicomm.png" alt="" style="max-width: 300px; padding-top:15px;" />
                     <?php echo file_get_contents("svg/multicomm.svg"); ?>
                   </div>
 
@@ -208,7 +223,7 @@
               <a href="bankwest.php" class="progressLoad">
                 <article class="work-item show-all-content">
                   <div class="work-item__drawings">
-                    <img class="illustration" src="img/sunny.png" alt="" style="max-width: 250px; padding-top: 25px;" />
+                    <img class="illustration lazy-load" src="img/loading.gif" data-src="img/sunny.png" alt="" style="max-width: 250px; padding-top: 25px;" />
                     <?php echo file_get_contents("svg/sun.svg"); ?>
                   </div>
 
@@ -235,15 +250,15 @@
         <hr>
 
 
-        <!-- ###############################
+      <!-- ###############################
 			//   About me
 			#################################### -->
         <section id="about" class="about container">
           <h4 class="h3 subheading text-center margin-0">roles and experience</h4>
           <h4 class="h2 text-center">About me</h4>
-          <div class="text-center"><img src="svg/spear.svg" alt="" class="margin-bottom-40"></div>
+          <div class="text-center"><img src="svg/spear.svg" alt="" height="10" width="227" class="margin-bottom-40"></div>
           <div class="col-lg-9">
-            <p>Over 8 years of hands on experience in user-centred web design &amp; front end web development. Experience designing User Interfaces (UI) and User Experience (UX) for products from various domains. Expertise in handling projects in Web development, Responsive Web Design, JavaScript, JQuery, AngularJS, HTML5, CSS3, SASS and&nbsp;PHP.</p>
+            <p>Over <span class="js-years-experience">10</span> years of hands on experience in user-centred web design &amp; front end web development. Experience designing User Interfaces (UI) and User Experience (UX) for products from various domains. Expertise in handling projects in Web development, Responsive Web Design, JavaScript, JQuery, AngularJS, HTML5, CSS3, SASS, Freemarker and&nbsp;PHP.</p>
             <p class="hidden-xs hidden-xxs">A driven, creative professional with a broad technical skill set. An excellent communicator experienced in interpreting and implementing client and staff visions of new websites and digital creative.</p>
             <p>&nbsp;</p>
           </div>
@@ -260,7 +275,7 @@
             <table class="full-width">
               <tbody>
                 <tr>
-                  <td class="td-employer">Permeance Technologies
+                  <td class="td-employer"><a href="https://www.campfire.com.au/" target="_blank" rel="noreferrer">Campfire</a>
                     <br>2018 - Present</td>
                   <td>
                     <strong>Front-end Web Developer</strong>
@@ -269,7 +284,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <td>iiNet
+                  <td><a href="https://www.iinet.net.au/" target="_blank" rel="noreferrer">iiNet</a>
                     <br>2013 - 2018</td>
                   <td>
                     <strong>Senior Web Designer</strong>
@@ -278,7 +293,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <td>Bankwest
+                  <td><a href="https://www.bankwest.com.au/" target="_blank" rel="noreferrer">Bankwest</a>
                     <br>2010 - 2013</td>
                   <td>
                     <strong>Digital Production Specialist</strong>
@@ -287,7 +302,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <td>Bankwest
+                  <td><a href="https://www.bankwest.com.au/" target="_blank" rel="noreferrer">Bankwest</a>
                     <br>2009 - 2010</td>
                   <td>
                     <strong>Online Marketing Manager</strong>
@@ -296,7 +311,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <td>Bankwest
+                  <td><a href="https://www.bankwest.com.au/" target="_blank" rel="noreferrer">Bankwest</a>
                     <br>2007 - 2009</td>
                   <td>
                     <strong>eCommerce Marketing Coordinator</strong>
@@ -305,7 +320,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <td>White Chalk Road
+                  <td><a href="https://www.whitechalkroad.com.au/" target="_blank" rel="noreferrer">White Chalk Road</a>
                     <br>2006 - 2007</td>
                   <td>
                     <strong>Internet Marketing Consultant</strong>
@@ -330,14 +345,14 @@
 
         <hr>
 
-        <!-- ###############################
+      <!-- ###############################
 			//   Contact
 			#################################### -->
         <section id="contact" class="contact-me container">
 
           <h4 class="h3 subheading text-center margin-0">get in touch</h4>
           <h4 class="h2 text-center">Contact</h4>
-          <div class="text-center"><img src="svg/spear.svg" alt=""></div>
+          <div class="text-center"><img src="svg/spear.svg" height="10" width="227" alt=""></div>
 
 
           <?php
