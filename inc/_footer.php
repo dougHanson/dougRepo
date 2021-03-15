@@ -67,9 +67,16 @@
 <script src="js/data.js"></script>
 <script src="js/plugins/lozad.min.js"></script>
 <script src="js/plugins/classie.js"></script>
-<script src="js/plugins/svganimations.js"></script>
-<script src="js/plugins/owl.carousel.min.js"></script>
-<script src="js/plugins/lightbox.js"></script>
+<?php 
+  $currentpage = $_SERVER['REQUEST_URI'];
+  if ($currentpage != "/home" && $currentpage != '/'  && $currentpage != '/~doug.hanson' && $currentpage != '/~doug.hanson/home' && $currentpage != '/dougrepo/' && $currentpage != '/dougrepo/home') {
+    echo '<script src="js/plugins/owl.carousel.min.js"></script>';
+    echo '<script src="js/plugins/lightbox.js"></script>';
+  }
+  else {
+    echo '<script src="js/plugins/svganimations.js"></script>';
+  }
+?>
 <script src="js/main.js"></script>
 <!-- endbuild -->
 

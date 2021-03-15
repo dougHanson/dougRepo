@@ -64,7 +64,7 @@
               <p class="h3 subheading padding-0 margin-0">Website</p>
               <p>Designed and implemented changes to the existing Bankwest website. Was involved with large scale development projects, including a <strong>website refresh</strong> which included defining <strong>taxonomy, information architecture, developing UI and graphical elements</strong>, and generating content. The new website was integrated with an <strong>enterprise content management system</strong>, namely <strong>Fatwire&nbsp;CMS</strong>. </p>
               <div class="item margin-bottom-20">
-                <img src="img/loading.gif" data-src="img/bankwest-site.jpg" alt="Bankwest eDM" class="lazy-load img-center img-shadow">
+                <img src="img/loading.gif" data-src="img/bankwest-site.jpg" alt="Bankwest eDM" class="lazy-load lazy-load--loading img-center img-shadow">
               </div>
               <p>&nbsp;</p>
 
@@ -74,10 +74,10 @@
 
               <div class="owl-carousel owl-theme">
                 <div class="item">
-                  <img src="img/loading.gif" data-src="img/bankwest-landing-mobile.png" alt="Bankwest eDM" class="lazy-load img-frame img-center img-responsive">
+                  <img src="img/loading.gif" data-src="img/bankwest-landing-mobile.png" alt="Bankwest eDM" class="lazy-load lazy-load--loading img-frame img-center img-responsive">
                 </div>
                 <div class="item">
-                  <img src="img/loading.gif" data-src="img/bankwest-landing-page-more.jpg" alt="Bankwest eDM" class="lazy-load img-frame img-center img-responsive">
+                  <img src="img/loading.gif" data-src="img/bankwest-landing-page-more.jpg" alt="Bankwest eDM" class="lazy-load  lazy-load--loadingimg-frame img-center img-responsive">
                 </div>
               </div>
 
@@ -87,10 +87,10 @@
 
               <div class="owl-carousel owl-theme">
                 <div class="item">
-                  <img src="img/loading.gif" class="lazy-load img-frame img-center img-responsive" data-src="img/bankwest-edm-service.png" />
+                  <img src="img/loading.gif" class="lazy-load lazy-load--loading img-frame img-center img-responsive" data-src="img/bankwest-edm-service.png" />
                 </div>
                 <div class="item">
-                  <img src="img/loading.gif" class="lazy-load img-frame img-center img-responsive" data-src="img/bankwest-edm-sales.png" />
+                  <img src="img/loading.gif" class="lazy-load lazy-load--loading img-frame img-center img-responsive" data-src="img/bankwest-edm-sales.png" />
                 </div>
               </div>
 

@@ -2069,6 +2069,15 @@ img {
   width: 90%;
   width: 180px; }
 
+.lazy-load--loading {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  height: 40px;
+  max-width: 40px !important;
+  padding: 0 !important;
+  width: 40px; }
+
 .mouse_scroll {
   display: block;
   margin: 0 auto;
@@ -2303,7 +2312,7 @@ svg {
   margin: auto;
   max-width: 300px; }
   .line-drawing path {
-    fill: white;
+    fill: #fafafa;
     stroke: #aaa;
     stroke-width: 1; }
 
@@ -3539,7 +3548,10 @@ body.lb-disable-scrolling {
   width: 32px;
   height: 32px;
   margin: 0 auto;
-  background: url(../img/loading.gif) no-repeat; }
+  background: url(../img/loading.gif) no-repeat;
+  padding: 0;
+  min-width: auto;
+  border: none; }
 
 .lb-nav {
   position: absolute;

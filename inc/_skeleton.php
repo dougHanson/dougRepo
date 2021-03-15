@@ -11,6 +11,6 @@
 		<div class="skeleton__bar1"></div>
 		<div class="skeleton__bar2"></div>
 		<p>Site loading...</p>
-		<img src="img/loading.gif" />
+		<img src="img/loading.gif" alt="" height="40" width="40" />
 	</div>
 </div>

@@ -9,8 +9,8 @@
 <!-- left hand nav include -->
 <aside class="vertical-menu">
   <div class="vertical-menu__logo">
-    <a href="index.php">
-      <img src="img/logo-retina.png" alt="Doug Hanson" height="136" width="136" />
+    <a href="home.php">
+      <img src="img/logo-retina.png" alt="" height="136" width="136" />
       <!-- <svg xmlns="http://www.w3.org/2000/svg" width="115.3" height="116.7" viewBox="0 0 115.3 116.7">
         <path
             d="M58.1,1.4c3.8,4,7.2,7.7,10.9,11.4,14.3,14.4,28.6,28.8,43.1,43,2.7,2.7,3,4.4.1,7.3Q87,88,62,113.2c-3.4,3.5-5.6,3.3-8.9-.1C37,96.7,20.6,80.5,4.4,64.2c-4.5-4.5-4.5-4.9.1-9.5L54,5.2C55.1,4,56.4,3,58.1,1.4Zm1.1,40.1c-11.6-5.2-16-3.1-17.7,8.9-1.1,7.5-.6,15.3-.5,22.9a22.7,22.7,0,0,0,2.1,7.6c2.4,5.5,6.9,7,12.3,4.5a6.5,6.5,0,0,1,3-.9c4.6.6,9.2,1.4,13.1,2-.7-5.9-1.6-10.6-1.7-15.3-.3-11.8-.1-23.7-.1-35.5,0-1.8-.2-3.5-.3-5.4H56.9Z"
@@ -28,7 +28,7 @@
   <nav>
     <ul>
       <li class="nav-home">
-        <a href="index.php#home" class="nav-link">
+        <a href="home.php#home" class="nav-link">
           <i class="icon">
             <?php echo file_get_contents("svg/homepage.svg"); ?>
           </i><span>Home</span>
@@ -36,7 +36,7 @@
       </li>
 
       <li class="nav-works">
-        <a href="index.php#selected-works" class="nav-link">
+        <a href="home.php#selected-works" class="nav-link">
           <i class="icon">
             <?php echo file_get_contents("svg/briefcase.svg"); ?>
           </i><span><span class="hidden-xs hidden-xxs">Selected works</span> <span class="hidden-sm hidden-md hidden-lg hidden-xl">My work</span></span>
@@ -44,7 +44,7 @@
       </li>
 
       <li class="nav-about">
-        <a href="index.php#about" class="nav-link">
+        <a href="home.php#about" class="nav-link">
           <i class="icon">
             <?php echo file_get_contents("svg/about.svg"); ?>
           </i><span>About <span class="hidden-xs hidden-xxs">me</span></span>
@@ -52,7 +52,7 @@
       </li>
 
       <li class="nav-contact">
-        <a href="index.php#contact" class="nav-link">
+        <a href="home.php#contact" class="nav-link">
           <i class="icon">
             <?php echo file_get_contents("svg/contact.svg"); ?>
           </i><span>Contact</span>

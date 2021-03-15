@@ -35,7 +35,7 @@
   </div>
   <!-- end row -->
 
-  <!--<a href="index.php#contact" class="button progressLoad margin-right-10 hidden-xs hidden-xxs">Get in touch</a>-->
+  <!--<a href="home.php#contact" class="button progressLoad margin-right-10 hidden-xs hidden-xxs">Get in touch</a>-->
 
 </div>
 <!-- end sidebar -->

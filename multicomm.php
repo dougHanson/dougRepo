@@ -65,7 +65,7 @@
               <p>As this page was being built from scratch, I started by using <a href="http://styletil.es/">Style Tiles</a> to <strong>communicate the visual elements of the online brand</strong> to the client. After further requirements gathering I was able to produce templated <strong>web designs</strong> for the homepage, category pages and content&nbsp;pages.</p>
 
               <div class="item">
-                <a href="img/multicomm-business.jpg" data-lightbox="Multicomm" data-title="Multicomm Web Design"><img src="img/loading.gif" data-src="img/multicomm-business.jpg" alt="Multicomm Website Screenshot" class="lazy-load img-center img-shadow margin-bottom-40"></a>
+                <a href="img/multicomm-business.jpg" data-lightbox="Multicomm" data-title="Multicomm Web Design"><img src="img/loading.gif" data-src="img/multicomm-business.jpg" alt="Multicomm Website Screenshot" class="lazy-load lazy-load--loading img-center img-shadow margin-bottom-40"></a>
               </div>
 
               <p class="h3 subheading padding-0 margin-top-40 margin-bottom-0">The build</p>
@@ -73,7 +73,7 @@
 
               <div class="item margin-bottom-20">
                 <a href="img/multicomm-code.png" data-lightbox="code" data-title="Sample of HTML code">
-                  <img src="img/loading.gif" data-src="img/multicomm-code.png" alt="HTML" class="lazy-load img-center img-shadow">
+                  <img src="img/loading.gif" data-src="img/multicomm-code.png" alt="HTML" class="lazy-load lazy-load--loading img-center img-shadow">
                 </a>
               </div>
               <p>&nbsp;</p>
@@ -87,23 +87,23 @@
               <div class="owl-carousel owl-theme">
                 <div class="item">
                   <a href="img/multicomm-mobile-home.png" data-lightbox="multicomm" data-title="Mobile homepage">
-                    <img class="img-center lazy-load" src="img/loading.gif" data-src="img/multicomm-mobile-home.png" /></a>
+                    <img class="img-center lazy-load lazy-load--loading" src="img/loading.gif" data-src="img/multicomm-mobile-home.png" /></a>
                 </div>
                 <div class="item">
                   <a href="img/multicomm-mobile-nav.png" data-lightbox="multicomm" data-title="Mobile navigation">
-                    <img class="img-center lazy-load" src="img/loading.gif" data-src="img/multicomm-mobile-nav.png" /></a>
+                    <img class="img-center lazy-load lazy-load--loading" src="img/loading.gif" data-src="img/multicomm-mobile-nav.png" /></a>
                 </div>
                 <div class="item">
                   <a href="img/multicomm-mobile-page.png" data-lightbox="multicomm" data-title="Product page">
-                    <img class="img-center lazy-load" src="img/loading.gif" data-src="img/multicomm-mobile-page.png" /></a>
+                    <img class="img-center lazy-load lazy-load--loading" src="img/loading.gif" data-src="img/multicomm-mobile-page.png" /></a>
                 </div>
                 <div class="item">
                   <a href="img/multicomm-mobile-contact.png" data-lightbox="multicomm" data-title="Contact form">
-                    <img class="lazy-load" src="img/loading.gif" data-src="img/multicomm-mobile-contact.png" /></a>
+                    <img class="lazy-load lazy-load--loading" src="img/loading.gif" data-src="img/multicomm-mobile-contact.png" /></a>
                 </div>
                 <div class="item">
                   <a href="img/multicomm-style-tile.png" data-lightbox="multicomm" data-title="brand elements">
-                    <img class="img-center lazy-load" src="img/loading.gif" data-src="img/multicomm-style-tile.png" style="border: 1px solid #d1d1d0" /></a>
+                    <img class="img-center lazy-load lazy-load--loading" src="img/loading.gif" data-src="img/multicomm-style-tile.png" style="border: 1px solid #d1d1d0" /></a>
                 </div>
               </div>
               <p class="margin-bottom-40">&nbsp;</p>

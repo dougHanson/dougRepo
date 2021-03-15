@@ -73,7 +73,7 @@
 
               <div class="item margin-bottom-20">
                 <a href="img/jobs-freemarker-code.png" data-lightbox="code" data-title="Freemarker code">
-                  <img src="img/loading.gif" data-src="img/jobs-freemarker-code.png" alt="Freemarker code" class="lazy-load img-shadow img-center">
+                  <img src="img/loading.gif" data-src="img/jobs-freemarker-code.png" alt="Freemarker code" class="lazy-load lazy-load--loading img-shadow img-center">
                 </a>
               </div>
               <p>&nbsp;</p>
@@ -85,12 +85,12 @@
               <div class="owl-carousel owl-theme">
                 <div class="item margin-bottom-40">
                   <a href="img/jobs-javascript-jplist.png" data-lightbox="code" data-title="Javascript code">
-                    <img src="img/loading.gif" data-src="img/jobs-javascript-jplist.png" alt="Freemarker code" class="lazy-load img-frame img-center">
+                    <img src="img/loading.gif" data-src="img/jobs-javascript-jplist.png" alt="Freemarker code" class="lazy-load lazy-load--loading img-frame img-center">
                   </a>
                 </div>
                 <div class="item margin-bottom-40">
                   <a href="img/jobs-javascript-map-api.png" data-lightbox="code" data-title="Google Map API code">
-                    <img src="img/loading.gif" data-src="img/jobs-javascript-map-api.png" alt="Freemarker code" class="lazy-load img-frame img-center">
+                    <img src="img/loading.gif" data-src="img/jobs-javascript-map-api.png" alt="Freemarker code" class="lazy-load lazy-load--loading img-frame img-center">
                   </a>
                 </div>
               </div>
