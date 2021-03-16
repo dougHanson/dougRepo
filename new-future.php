@@ -63,7 +63,7 @@
 
               <p class="h3 subheading padding-0 margin-0">The web designs</p>
               <p>I began by creating a bold and <strong>accessible colour palette</strong> which met <strong>WCAG AA standard contrast ratio</strong> of 4.5:1, while complementing the colours already being used in the logo provided. When creating the <strong>web designs</strong> I coupled the bright palette with bold colourful imagery including imagery including talent which appeared optimistic, bright, friendly and determined.</p>
-              <p><img src="img/new-future-palette.png" alt="Colour palette" /></p>
+              <!-- <p><img src="img/new-future-palette.png" alt="Colour palette" /></p> -->
 
               <p>Because there would eventually be a large amount of content I determined the best approach would be to hide older articles behind a load more button. This provided a <strong>better user experience than infinite scroll</strong>, whilst providing the performance boost of <strong>lazy loading</strong> the hidden content.</p>
               <p>Each article would contain customisable <strong>rich media content</strong> such as internal and external articles, videos, images and podcasts. Articles would be sorted by displaying the most recent ones first but authors had the option to tag articles as 'featured' which would give them priority placement in the grid layout.</p>
@@ -83,12 +83,19 @@
                     <img src="img/loading.gif" data-src="img/new-future-web-design-3.jpg" class="lazy-load lazy-load--loading img-center img-responsive img-center img-frame margin-top-40" alt="New future web design" />
                   </a>
                 </div>
+                <div class="item margin-bottom-40">
+                  <a href="img/new-future-mobile-cards.png" data-lightbox="new-future-designs" data-title="New Future web designs">
+                    <img src="img/loading.gif" data-src="img/new-future-mobile-cards.png" class="lazy-load lazy-load--loading img-center img-responsive img-center margin-top-40" style="padding-top: 40px;" alt="New Future web design on Android mobile">
+                  </a>
+                </div>                
+                
+
               </div>
               <p class="margin-bottom-20">&nbsp;</p>
 
 
-              <!-- <p class="h3 subheading padding-0 margin-0">The authoring experience</p>
-              <p>Created structure in Liferay, thinking about the best UX for the author when laying out the different options for each content type.</p>
+              <p class="h3 subheading padding-0 margin-0">The authoring experience</p>
+              <p>In addition to optimising the UX for the end user, the web content authors' experience also had to be streamlined. When creating the Liferay DXP structures (the CMS interface authors use to create web content) I kept it as simple as possible by separating content, media and external content, and including helpful tooltips.</p>
 
               <div class="owl-carousel owl-theme">
                 <div class="item margin-bottom-40">
@@ -105,27 +112,43 @@
               <p class="margin-bottom-20">&nbsp;</p>
 
               <p class="h3 subheading padding-0 margin-0">The front-end development</p>
-              <p>ftl, jplist with callback to masonry.js, social sharing</p>
+              <p>I created all of the markup using Freemarker templates. Calling the Liferay API allowed me to query the matching content available in the database which I could then manipulate using Freemarker (FTL) to display the desired output.</p>
+              <div class="owl-carousel owl-theme">
+                <div class="item margin-bottom-40">
+                  <a href="img/new-future-ftl-1.png" data-lightbox="freemarker" data-title="New Future freemarker templates in Liferay DXP">
+                    <img src="img/loading.gif" data-src="img/new-future-ftl-1.png" class="lazy-load lazy-load--loading img-center img-responsive img-center img-frame" alt="New Future freemarker templates in Liferay DXP" />
+                  </a>
+                </div>
+                <div class="item margin-bottom-40">
+                  <a href="img/new-future-ftl-2.png" data-lightbox="freemarker" data-title="New Future freemarker templates in Liferay DXP">
+                    <img src="img/loading.gif" data-src="img/new-future-ftl-2.png" class="lazy-load lazy-load--loading img-center img-responsive img-center img-frame" alt="New Future freemarker templates in Liferay DXP" />
+                  </a>
+                </div>
+                <div class="item margin-bottom-40">
+                  <a href="img/new-future-ftl-3.png" data-lightbox="freemarker" data-title="New Future freemarker templates in Liferay DXP">
+                    <img src="img/loading.gif" data-src="img/new-future-ftl-3.png" class="lazy-load lazy-load--loading img-center img-responsive img-center img-frame" alt="New Future freemarker templates in Liferay DXP" />
+                  </a>
+                </div>                
+              </div>              
 
-              <p>The glitch</p>
-              <p>svg filters for glitch effect ties in with logo (show insitu button example)...</p> -->
+              <p>The homepage design includes a dynamic grid of all available content which could be sorted and searched. To implement this I decided to leverage two popular js plugins, JPList to sort and search the content, and Masonry.js to update the display of content in a masonry grid. Once a sorting event had taken place, I used a JPList callback to call Masonry.js and update the display.</p>
+              <div class="owl-carousel owl-theme">
+              <div class="item margin-bottom-40">
+                  <a href="img/new-future-js-1.png" data-lightbox="javascript" data-title="New Future javascript / JQuery">
+                    <img src="img/loading.gif" data-src="img/new-future-js-1.png" class="lazy-load lazy-load--loading img-center img-responsive img-center img-frame" alt="New Future javascript / JQuery" />
+                  </a>
+                </div>  
+                <div class="item margin-bottom-40">
+                  <a href="img/new-future-js-2.png" data-lightbox="javascript" data-title="New Future javascript / JQuery">
+                    <img src="img/loading.gif" data-src="img/new-future-js-2.png" class="lazy-load lazy-load--loading img-center img-responsive img-center img-frame" alt="New Future javascript / JQuery" />
+                  </a>
+                </div>                               
+              </div>                
 
-              <p class="h3 subheading padding-0 margin-0">More project details coming soon...</p>
-
-
-              <img src="img/loading.gif" data-src="img/new-future-mobile-cards.png" class="lazy-load lazy-load--loading img-center img-responsive img-center margin-top-40" alt="New Future web design on Android mobile">
-
-
-              <!-- website -->
-              <!-- <p class="h3 subheading padding-0 margin-0">Website</p>
-              <p>Designed and implemented changes to the existing Bankwest website. Was involved with large scale development projects, including a <strong>website refresh</strong> which included defining <strong>taxonomy, information architecture, developing UI and graphical elements</strong>, and generating content. The new website was integrated with an <strong>enterprise content management system</strong>, namely <strong>Fatwire&nbsp;CMS</strong>. </p>
-              <div class="item margin-bottom-20">
-                <img src="img/loading.gif" data-src="img/bankwest-site.jpg" alt="Bankwest eDM" class="lazy-load lazy-load--loading img-center img-shadow">
-              </div>
-              <p>&nbsp;</p> -->
+              <p class="h3 subheading padding-0 margin-0">The "glitch"</p>
+              <p>svg filters for glitch effect ties in with logo (show insitu button example and code)...</p>
 
               <p>&nbsp;</p>
-
 
             </div>
             <!-- end page specific content -->
