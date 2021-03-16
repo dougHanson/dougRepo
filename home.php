@@ -333,7 +333,7 @@
             <!-- resume` link -->
             <div class="row">
               <div class="col-sm-12 margin-top-30 ">
-                <a href="doc/Doug-Hanson-Resume.pdf" target="_blank" class="button button--primary progressLoad margin-right-10">Download Resume` (PDF 72kB)</a>
+                <a href="doc/Doug-Hanson-Resume.pdf" target="_blank" class="button button--primary progressLoad margin-right-10">Download Resume` (PDF 161kB)</a>
               </div>
             </div>
 
