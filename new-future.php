@@ -87,8 +87,8 @@
                   <a href="img/new-future-mobile-cards.png" data-lightbox="new-future-designs" data-title="New Future web designs">
                     <img src="img/loading.gif" data-src="img/new-future-mobile-cards.png" class="lazy-load lazy-load--loading img-center img-responsive img-center margin-top-40" style="padding-top: 40px;" alt="New Future web design on Android mobile">
                   </a>
-                </div>                
-                
+                </div>
+
 
               </div>
               <p class="margin-bottom-20">&nbsp;</p>
@@ -128,8 +128,8 @@
                   <a href="img/new-future-ftl-3.png" data-lightbox="freemarker" data-title="New Future freemarker templates in Liferay DXP">
                     <img src="img/loading.gif" data-src="img/new-future-ftl-3.png" class="lazy-load lazy-load--loading img-center img-responsive img-center img-frame" alt="New Future freemarker templates in Liferay DXP" />
                   </a>
-                </div>                
-              </div>              
+                </div>
+              </div>
 
               <p>The homepage design includes a dynamic grid of all available content which could be sorted and searched. To implement this I decided to leverage two popular js plugins, JPList to sort and search the content, and Masonry.js to update the display of content in a masonry grid. Once a sorting event had taken place, I used a JPList callback to call Masonry.js and update the display.</p>
               <div class="owl-carousel owl-theme">
@@ -137,16 +137,17 @@
                   <a href="img/new-future-js-1.png" data-lightbox="javascript" data-title="New Future javascript / JQuery">
                     <img src="img/loading.gif" data-src="img/new-future-js-1.png" class="lazy-load lazy-load--loading img-center img-responsive img-center img-frame" alt="New Future javascript / JQuery" />
                   </a>
-                </div>  
+                </div>
                 <div class="item margin-bottom-40">
                   <a href="img/new-future-js-2.png" data-lightbox="javascript" data-title="New Future javascript / JQuery">
                     <img src="img/loading.gif" data-src="img/new-future-js-2.png" class="lazy-load lazy-load--loading img-center img-responsive img-center img-frame" alt="New Future javascript / JQuery" />
                   </a>
-                </div>                               
-              </div>                
+                </div>
+              </div>
 
-              <p class="h3 subheading padding-0 margin-0">The "glitch"</p>
-              <p>svg filters for glitch effect ties in with logo (show insitu button example and code)...</p>
+
+              <!-- <p class="h3 subheading padding-0 margin-0">The "glitch"</p>
+              <p>svg filters for glitch effect ties in with logo (show insitu button example and code)...</p> -->
 
               <p>&nbsp;</p>
 

@@ -11,17 +11,17 @@ p {
 }
 
 a {
-  color: $link-color;  
+  color: $link-color;
   text-decoration: $link-hover-decoration;
-  font-weight: 400; 
+  font-weight: 400;
   transition: all 0.25s;
   @media (min-width: 991px) {
 	  text-decoration: none;
   }
   &:hover, &:focus {
-	color: $link-hover-color;
-	text-decoration: $link-hover-decoration;
-	transition: all 0.25s;
+    color: $link-hover-color;
+    text-decoration: $link-hover-decoration;
+    transition: all 0.25s;
   }
 }
 
@@ -29,15 +29,15 @@ strong, b { font-weight: 600; }
 
 em, i { font-style: italic; }
 
-u { 
+u {
   text-decoration: none;
-  border-bottom: 1px solid $grey-4; 
+  border-bottom: 1px solid $grey-4;
 }
 
 abbr {
   border-bottom: 2px dotted $brand-primary;
   position: relative;
-  cursor: help;  
+  cursor: help;
   &:hover::after {
 	position: absolute;
 	bottom: 100%;
@@ -61,7 +61,7 @@ del { text-decoration: line-through; }
 
 ::selection {
   background: $brand-primary; /* WebKit/Blink Browsers */
-  color: #fff;  
+  color: #fff;
 }
 
 ::-moz-selection {
@@ -116,8 +116,8 @@ h6, .h6              { font-size: $font-size-h6; }
 .text-center         { text-align: center; }
 .text-justify        { text-align: justify; }
 .text-nowrap         { white-space: nowrap; }
-.text-center-xs		   { text-align: center;		
-	@media (min-width: 480px) {	text-align: left; } 	
+.text-center-xs		   { text-align: center;
+	@media (min-width: 480px) {	text-align: left; }
 }
 
 /* ----- Transformation ----- */
@@ -167,7 +167,7 @@ ol ol { list-style: inside lower-alpha; }
 
 li {
   font-size: $paragraph-font-size;
-  margin-bottom: 0.25rem; 
+  margin-bottom: 0.25rem;
 }
 
 
@@ -184,13 +184,13 @@ code {
   white-space: nowrap;
   background: $grey-background;
   border: 1px solid $grey-border;
-  border-radius: 4px; 
+  border-radius: 4px;
 }
-  
+
 pre > code {
   display: block;
   padding: 1rem 1.5rem;
-  white-space: pre; 
+  white-space: pre;
 }
 
 /*
@@ -273,25 +273,23 @@ based on dark.css by Ivan Sagalaev
 }
 
 
-
-
 /* -------------------------------------
 //   Custom classes
 /* ------------------------------------- */
 .white { color: #fff !important; }
 
-.subheading { 
+.subheading {
   font-family: $font-family-secondary;
   color: $grey-4;
   &__hero {
-	font-family: $font-family-secondary;
-	font-size: 1.5rem;
-	color: $grey-4;
-	width: 80%;
-	margin: 0 auto;
-	@media (min-width: 768px) {
-		font-size: 2rem;
-	} 	
+    font-family: $font-family-secondary;
+    font-size: 1.5rem;
+    color: $grey-4;
+    width: 80%;
+    margin: 0 auto;
+    @media (min-width: 768px) {
+      font-size: 2rem;
+    }
   }
 }
 
@@ -303,7 +301,7 @@ based on dark.css by Ivan Sagalaev
 	font-size: 36px;
 	font-weight: 600;
 	font-family: $font-family-primary, serif;
-	line-height: 1.4em; //text-transform: uppercase;   
+	line-height: 1.4em; //text-transform: uppercase;
 	color: $grey-4;
 	letter-spacing: 3px;
 	width: 90%;
@@ -326,12 +324,11 @@ based on dark.css by Ivan Sagalaev
 	}
 	@media (min-width: 992px) {
 		font-size: 64px;
-	}  
+	}
 	@media (min-width: 1360px) {
 		font-size: 88px;
 	}
 }
-
 
 
 /*
@@ -344,7 +341,7 @@ based on dark.css by Ivan Sagalaev
   border-top: 1px solid $grey-6;
   top: 45%;
   width: 60px;
-} 
+}
 
 .hero-heading span:before {
   right: 100%;
@@ -375,15 +372,13 @@ based on dark.css by Ivan Sagalaev
 /* -------------------------------------
 //   Tags
 /* ------------------------------------- */
-
 .tag {
-	font-size: .7em; 
-	background: $grey-6;  
+	font-size: .7em;
+	background: $grey-6;
 	color: #fff;
-	border-radius: 6px; 
-	display: inline-block; 
+	border-radius: 6px;
+	display: inline-block;
 	padding: 4px;
 	margin: 1px;
 	white-space: nowrap;
 }
-
