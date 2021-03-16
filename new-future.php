@@ -59,7 +59,7 @@
 
               <p class="h3 subheading padding-0 margin-0">At a glance</p>
               <p>The Department of Education wanted to launch a new initiative to try and inspire children and get them excited for their futures in the workforce, and wanted me to <strong>design and develop a campaign website</strong> without it looking like a direct message from the government.</p>
-              <p><a class="button margin-bottom-10" href="//www.newfuture.wa.edu.au" target="_blank">www.newfuture.wa.edu.au</a></p>
+              <p><a class="button margin-bottom-10" href="//www.newfuture.wa.edu.au" target="_blank" rel="noreferrer">www.newfuture.wa.edu.au</a></p>
 
               <p class="h3 subheading padding-0 margin-0">The web designs</p>
               <p>I began by creating a bold and <strong>accessible colour palette</strong> which met <strong>WCAG AA standard contrast ratio</strong> of 4.5:1, while complementing the colours already being used in the logo provided. When creating the <strong>web designs</strong> I coupled the bright palette with bold colourful imagery including imagery including talent which appeared optimistic, bright, friendly and determined.</p>

@@ -141,7 +141,7 @@
 
   //website
   if (!!thisProject.website) {
-    $('#projectWebsite').append("<a href='" + thisProject.website_url + "' target='_blank'>" + thisProject.website + "</a>");
+    $('#projectWebsite').append("<a href='" + thisProject.website_url + "' target='_blank'  rel='noreferrer'>" + thisProject.website + "</a>");
   } else {
     $('#projectWebsite').parent().hide();
   }

@@ -83,7 +83,7 @@
         <section id="hero-content" class="hero-content parallax-bg">
           <div class="lazy-load hero-content__bg">
             <!--<div class="fadeOut"><a href="home.php"><img src="img/namelogo.png" /></a></div>-->
-            <h3 class="h1 hero-heading fadeOut"><span>Doug Hanson</span></h3>
+            <h2 class="h1 hero-heading fadeOut"><span>Doug Hanson</span></h2>
             <h1 class="h3 subheading subheading__hero grey-2 fadeOut">Web designer &amp; front end developer based in Perth, Western&nbsp;Australia</h1>
 
             <div class="mouse_scroll fadeOut--fast visible-lg">
@@ -106,15 +106,15 @@
 			#################################### -->
         <section id="selected-works" class="selected-works container">
 
-          <h4 class="h3 subheading text-center margin-0">my portfolio</h4>
-          <h4 class="h2 text-center">Selected works</h4>
+          <p class="h3 subheading text-center margin-0">my portfolio</p>
+          <p class="h2 text-center">Selected works</p>
           <div class="text-center"><img src="svg/spear.svg" alt="" height="10" width="227"></div>
 
           <div class="work-item-wrapper">
             <div class="row">
 
               <!-- NEW FUTURE -->
-              <a href="new-future.php" class="progressLoad">
+              <a href="new-future.php" class="progressLoad" aria-label="New Future website">
                 <article class="work-item">
                   <div class="work-item__drawings" style="padding-top: 140px;">
                     <img class="illustration lazy-load lazy-load--loading" src="img/loading.gif" data-src="img/new-future.png" alt="" style="max-width: 280px; padding-top: 140px;" />
@@ -129,7 +129,7 @@
               </a>
 
               <!-- POLICIES -->
-              <a href="policies.php" class="progressLoad">
+              <a href="policies.php" class="progressLoad" aria-label="Policies website">
                 <article class="work-item">
                   <div class="work-item__drawings" style="padding-top: 55px;">
                     <img class="illustration lazy-load lazy-load--loading" src="img/loading.gif" data-src="img/policies.png" alt="" style="max-width: 155px; padding-top: 53px;" />
@@ -144,7 +144,7 @@
               </a>
 
               <!-- JOBS BOARD -->
-              <a href="jobs.php" class="progressLoad">
+              <a href="jobs.php" class="progressLoad" aria-label="Interactive Job Portal">
                 <article class="work-item work-item--jobs">
                   <div class="work-item__drawings" >
                     <img class="illustration lazy-load lazy-load--loading" src="img/loading.gif" data-src="img/jobs-wa.png" alt="" style="max-width: 225px; padding-top: 15px;" />
@@ -159,7 +159,7 @@
               </a>
 
               <!-- FETCH ANGULAR JS -->
-              <a href="fetch.php" class="progressLoad">
+              <a href="fetch.php" class="progressLoad" aria-label="AngularJS Fetch TV App">
                 <article class="work-item work-item__content--pull-up-mobile">
                   <div class="work-item__drawings" >
                     <img class="illustration lazy-load lazy-load--loading" src="img/loading.gif" data-src="img/fetch-mini.png" alt="" style="max-width: 250px; padding-top: 25px;" />
@@ -174,7 +174,7 @@
               </a>
 
               <!-- IINET PLAN PAGES -->
-              <a href="iinet-plan-pages.php" class="progressLoad">
+              <a href="iinet-plan-pages.php" class="progressLoad" aria-label="Product Page Redesign">
                 <article class="work-item">
                   <div class="work-item__drawings">
                     <img class="illustration lazy-load lazy-load--loading" src="img/loading.gif" data-src="img/finn-balloons.png" alt="" style="max-width: 244px;" />
@@ -189,7 +189,7 @@
               </a>
 
               <!-- MOBII MANAGER -->
-              <a href="mobii-manager.php" class="progressLoad">
+              <a href="mobii-manager.php" class="progressLoad" aria-label="Mobii Manager">
                 <article class="work-item">
                   <div class="work-item__drawings">
                     <img class="illustration lazy-load lazy-load--loading" src="img/loading.gif" data-src="img/mobii-manager.png" alt="" style="max-width: 300px;" />
@@ -204,7 +204,7 @@
               </a>
 
               <!-- MULTICOMM -->
-              <a href="multicomm.php" class="progressLoad">
+              <a href="multicomm.php" class="progressLoad" aria-label="Multicomm Website">
                 <article class="work-item show-all-content">
                   <div class="work-item__drawings">
                     <img class="illustration lazy-load lazy-load--loading" src="img/loading.gif" data-src="img/multicomm.png" alt="" style="max-width: 300px; padding-top:15px;" />
@@ -219,7 +219,7 @@
               </a>
 
               <!-- BANKWEST -->
-              <a href="bankwest.php" class="progressLoad">
+              <a href="bankwest.php" class="progressLoad" aria-label="Bankwest Digital Design">
                 <article class="work-item show-all-content">
                   <div class="work-item__drawings">
                     <img class="illustration lazy-load lazy-load--loading" src="img/loading.gif" data-src="img/sunny.png" alt="" style="max-width: 250px; padding-top: 25px;" />
@@ -253,8 +253,8 @@
 			//   About me
 			#################################### -->
         <section id="about" class="about container">
-          <h4 class="h3 subheading text-center margin-0">roles and experience</h4>
-          <h4 class="h2 text-center">About me</h4>
+          <p class="h3 subheading text-center margin-0">roles and experience</p>
+          <p class="h2 text-center">About me</p>
           <div class="text-center"><img src="svg/spear.svg" alt="" height="10" width="227" class="margin-bottom-40"></div>
           <div class="col-lg-9">
             <p>Over <span class="js-years-experience">10</span> years of hands on experience in user-centred web design &amp; front end web development. Experience designing User Interfaces (UI) and User Experience (UX) for products from various domains. Expertise in handling projects in Web development, Responsive Web Design, JavaScript, JQuery, AngularJS, HTML5, CSS3, SASS, Freemarker and&nbsp;PHP.</p>
@@ -270,7 +270,7 @@
 
 
           <div class="col-lg-12">
-            <h4>Experience</h4>
+            <p>Experience</p>
             <table class="full-width">
               <tbody>
                 <tr>
@@ -349,8 +349,8 @@
 			#################################### -->
         <section id="contact" class="contact-me container">
 
-          <h4 class="h3 subheading text-center margin-0">get in touch</h4>
-          <h4 class="h2 text-center">Contact</h4>
+          <p class="h3 subheading text-center margin-0">get in touch</p>
+          <p class="h2 text-center">Contact</p>
           <div class="text-center"><img src="svg/spear.svg" height="10" width="227" alt=""></div>
 
 

@@ -206,12 +206,12 @@ $('#input-message').blur(function () {
 // NAV MENU - add smooth scrolling
 var scrollSpeed = 1000;
 var pathname = window.location.pathname; // Returns path only
-pathname = pathname.replace('/dougrepo/', '');
+pathname = pathname.replace('/dougrepo', '');
 
 //alert(pathname);
 
 $(".nav-home").click(function (e) {
-  if (pathname === "/home.php" || pathname === '/' || pathname === '/~doug.hanson/') {
+  if (pathname === "/home" || pathname === '/' || pathname === '/~doug.hanson/') {
     e.preventDefault();
     $('html, body').animate({
       scrollTop: $(".hero-content").offset().top
@@ -220,7 +220,7 @@ $(".nav-home").click(function (e) {
 });
 
 $(".nav-works").click(function (e) {
-  if (pathname === "/home.php" || pathname === '/' || pathname === '/~doug.hanson/') {
+  if (pathname === "/home" || pathname === '/' || pathname === '/~doug.hanson/') {
     e.preventDefault();
     $('html, body').animate({
       scrollTop: $(".selected-works").offset().top
@@ -229,7 +229,7 @@ $(".nav-works").click(function (e) {
 });
 
 $(".nav-about").click(function (e) {
-  if (pathname === "/home.php" || pathname === '/' || pathname === '/~doug.hanson/') {
+  if (pathname === "/home" || pathname === '/' || pathname === '/~doug.hanson/') {
     e.preventDefault();
     $('html, body').animate({
       scrollTop: $(".about").offset().top
@@ -238,7 +238,7 @@ $(".nav-about").click(function (e) {
 });
 
 $(".nav-contact").click(function (e) {
-  if (pathname === "/home.php" || pathname === '/' || pathname === '/~doug.hanson/') {
+  if (pathname === "/home" || pathname === '/' || pathname === '/~doug.hanson/') {
     e.preventDefault();home
     $('html, body').animate({
       scrollTop: $(".contact-me").offset().top
@@ -309,7 +309,7 @@ lozad('.lazy-load', {
     el.onload = function () {
       //if not homepage, fadeIn images. Don't fadeIn on homepage as interferes with SVG animations.
       var pathname = window.location.pathname;
-      if (pathname != "/home.php" && pathname != '/'  && pathname != '/~doug.hanson' && pathname != '/~doug.hanson/home.php' && pathname != '/dougrepo/' && pathname != '/dougrepo/home.php') {
+      if (pathname != "/home" && pathname != '/'  && pathname != '/~doug.hanson' && pathname != '/~doug.hanson/home' && pathname != '/dougrepo/' && pathname != '/dougrepo/home') {
         el.classList.add('fadeIn'); //see utilities.scss for fadeIn class
       }
       el.classList.remove('lazy-load--loading');
