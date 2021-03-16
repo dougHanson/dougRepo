@@ -58,7 +58,7 @@
             <p class="h3 subheading padding-0 margin-0">At a glance</p>
               <p>The existing Department of Education Policies website was extremely outdated and hard to use. My goal was to improve the <strong>user experience</strong> for both end users and <strong>web content authors</strong>, while designing a more visually appealing website.</p>
               <!-- <div class="item margin-bottom-20">
-                <img src="img/loading.gif" data-src="img/policies-old-site.png" alt="Icon design" class="lazy-load img-center img-frame">
+                <img src="img/loading.gif" data-src="img/policies-old-site.png" alt="Icon design" class="lazy-load lazy-load--loading img-center img-frame">
               </div>
               <p class="margin-bottom-20">&nbsp;</p> -->
 
@@ -96,16 +96,16 @@
 
               <p>The <strong>responsive, off-canvas mobile menu</strong> was developed by styling checkboxes.</p>
               <div class="owl-carousel owl-theme">
-                <!-- <div class="item margin-bottom-40"> -->
+                <div class="item margin-bottom-40">
                   <a href="img/policies-mobile-menu.png" data-lightbox="CSS only mobile menu" data-title="Policies responsive mobile menu">
-                    <img src="img/loading.gif" data-src="img/policies-mobile-menu.png" alt="responsive mobile menu" class="owl-lazy lazy-load img-frame img-center">
+                    <img src="img/loading.gif" data-src="img/policies-mobile-menu.png" alt="responsive mobile menu" class="lazy-load lazy-load--loading img-frame img-center">
                   </a>
-                <!-- </div> -->
-                <!-- <div class="item margin-bottom-40"> -->
+                </div>
+                <div class="item margin-bottom-40">
                   <a href="img/policies-mobile-menu-code.png" data-lightbox="CSS only mobile menu" data-title="Policies responsive mobile menu">
-                    <img src="img/loading.gif" data-src="img/policies-mobile-menu-code.png" alt="responsive mobile menu" class="owl-lazy img-frame img-center">
+                    <img src="img/loading.gif" data-src="img/policies-mobile-menu-code.png" alt="responsive mobile menu" class="lazy-load lazy-load--loading img-frame img-center">
                   </a>
-                <!-- </div> -->
+                </div>
               </div>
               <p class="margin-bottom-20">&nbsp;</p>
 
@@ -113,12 +113,12 @@
               <div class="owl-carousel owl-theme">
               <div class="item margin-bottom-40">
                   <a href="img/policies-accordions.png" data-lightbox="CSS only accordions" data-title="Policies CSS accordions">
-                    <img src="img/loading.gif" data-src="img/policies-accordions.png" alt="CSS accordions" class="lazy-load img-frame img-center">
+                    <img src="img/loading.gif" data-src="img/policies-accordions.png" alt="CSS accordions" class="lazy-load lazy-load--loading img-frame img-center">
                   </a>
                 </div>
                 <div class="item margin-bottom-40">
                   <a href="img/policies-accordions-code.png" data-lightbox="CSS only accordions" data-title="Policies CSS accordions">
-                    <img src="img/loading.gif" data-src="img/policies-accordions-code.png" alt="CSS accordions" class="lazy-load img-frame img-center">
+                    <img src="img/loading.gif" data-src="img/policies-accordions-code.png" alt="CSS accordions" class="lazy-load lazy-load--loading img-frame img-center">
                   </a>
                 </div>
               </div>
@@ -128,12 +128,12 @@
               <div class="owl-carousel owl-theme">
               <div class="item margin-bottom-40">
                   <a href="img/policies-tabs.png" data-lightbox="CSS only tabs" data-title="Policies CSS tabs">
-                    <img src="img/loading.gif" data-src="img/policies-tabs.png" alt="CSS tabs" class="lazy-load img-frame img-center">
+                    <img src="img/loading.gif" data-src="img/policies-tabs.png" alt="CSS tabs" class="lazy-load lazy-load--loading img-frame img-center">
                   </a>
                 </div>
                 <div class="item margin-bottom-40">
                   <a href="img/policies-tabs-code.png" data-lightbox="CSS only tabs" data-title="Policies CSS tabs">
-                    <img src="img/loading.gif" data-src="img/policies-tabs-code.png" alt="CSS tabs" class="lazy-load img-frame img-center">
+                    <img src="img/loading.gif" data-src="img/policies-tabs-code.png" alt="CSS tabs" class="lazy-load lazy-load--loading img-frame img-center">
                   </a>
                 </div>
               </div>
@@ -147,12 +147,12 @@
               <div class="owl-carousel owl-theme">
               <div class="item margin-bottom-40">
                   <a href="img/policies-freemarker-template.png" data-lightbox="Freemarker template" data-title="Policies Freemarker template">
-                    <img src="img/loading.gif" data-src="img/policies-freemarker-template.png" alt="Freemarker template" class="lazy-load img-frame img-center">
+                    <img src="img/loading.gif" data-src="img/policies-freemarker-template.png" alt="Freemarker template" class="lazy-load lazy-load--loading img-frame img-center">
                   </a>
                 </div>
                 <div class="item margin-bottom-40">
                   <a href="img/policies-freemarker-browse.png" data-lightbox="Freemarker template" data-title="Policies Freemarker template">
-                    <img src="img/loading.gif" data-src="img/policies-freemarker-browse.png" alt="Freemarker template" class="lazy-load img-frame img-center">
+                    <img src="img/loading.gif" data-src="img/policies-freemarker-browse.png" alt="Freemarker template" class="lazy-load lazy-load--loading img-frame img-center">
                   </a>
                 </div>
               </div>
