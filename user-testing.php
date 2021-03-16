@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-AU">
 
 <head>
   <meta charset="utf-8">
@@ -37,6 +37,7 @@
                 src="img/user-testing-doug-hanson.jpg" 
                 data-src="img/user-testing-doug-hanson.jpg" 
                 class="lazy-load" alt="Interactive Jobs Portal" 
+                alt=""
                 style="bottom: -20px; margin: auto; width: 100%; min-width: 700px; "/>
             </div>
           <!-- </header> -->

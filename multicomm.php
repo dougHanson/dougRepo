@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-AU">
 
 <head>
   <meta charset="utf-8">
@@ -87,23 +87,23 @@
               <div class="owl-carousel owl-theme">
                 <div class="item">
                   <a href="img/multicomm-mobile-home.png" data-lightbox="multicomm" data-title="Mobile homepage">
-                    <img class="img-center lazy-load lazy-load--loading" src="img/loading.gif" data-src="img/multicomm-mobile-home.png" /></a>
+                    <img class="img-center lazy-load lazy-load--loading" src="img/loading.gif" data-src="img/multicomm-mobile-home.png" alt="" /></a>
                 </div>
                 <div class="item">
                   <a href="img/multicomm-mobile-nav.png" data-lightbox="multicomm" data-title="Mobile navigation">
-                    <img class="img-center lazy-load lazy-load--loading" src="img/loading.gif" data-src="img/multicomm-mobile-nav.png" /></a>
+                    <img class="img-center lazy-load lazy-load--loading" src="img/loading.gif" data-src="img/multicomm-mobile-nav.png" alt="" /></a>
                 </div>
                 <div class="item">
                   <a href="img/multicomm-mobile-page.png" data-lightbox="multicomm" data-title="Product page">
-                    <img class="img-center lazy-load lazy-load--loading" src="img/loading.gif" data-src="img/multicomm-mobile-page.png" /></a>
+                    <img class="img-center lazy-load lazy-load--loading" src="img/loading.gif" data-src="img/multicomm-mobile-page.png" alt="" /></a>
                 </div>
                 <div class="item">
                   <a href="img/multicomm-mobile-contact.png" data-lightbox="multicomm" data-title="Contact form">
-                    <img class="lazy-load lazy-load--loading" src="img/loading.gif" data-src="img/multicomm-mobile-contact.png" /></a>
+                    <img class="lazy-load lazy-load--loading" src="img/loading.gif" data-src="img/multicomm-mobile-contact.png" alt="" /></a>
                 </div>
                 <div class="item">
                   <a href="img/multicomm-style-tile.png" data-lightbox="multicomm" data-title="brand elements">
-                    <img class="img-center lazy-load lazy-load--loading" src="img/loading.gif" data-src="img/multicomm-style-tile.png" style="border: 1px solid #d1d1d0" /></a>
+                    <img class="img-center lazy-load lazy-load--loading" src="img/loading.gif" data-src="img/multicomm-style-tile.png" alt="" style="border: 1px solid #d1d1d0" /></a>
                 </div>
               </div>
               <p class="margin-bottom-40">&nbsp;</p>

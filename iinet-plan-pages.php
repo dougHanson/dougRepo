@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-AU">
 
 <head>
   <meta charset="utf-8">
@@ -90,13 +90,13 @@
               <p class="h3 subheading padding-0 margin-top-40">Additional screenshots</p>
               <div class="owl-carousel owl-theme">
                 <div class="item">
-                  <a href="img/iinet-plan-pages-mobile-banner.png" data-lightbox="iinet-plan-pages" data-title="Campaign banner"><img src="img/loading.gif" data-src="img/iinet-plan-pages-mobile-banner.png" class="lazy-load lazy-load--loading img-center" /></a>
+                  <a href="img/iinet-plan-pages-mobile-banner.png" data-lightbox="iinet-plan-pages" data-title="Campaign banner"><img src="img/loading.gif" data-src="img/iinet-plan-pages-mobile-banner.png" class="lazy-load lazy-load--loading img-center" alt="" /></a>
                 </div>
                 <div class="item">
-                  <a href="img/iinet-plan-pages-mobile-plans.png" data-lightbox="iinet-plan-pages" data-title="Broadband plans"><img src="img/loading.gif" data-src="img/iinet-plan-pages-mobile-plans.png" class="lazy-load lazy-load--loading img-center" /></a>
+                  <a href="img/iinet-plan-pages-mobile-plans.png" data-lightbox="iinet-plan-pages" data-title="Broadband plans"><img src="img/loading.gif" data-src="img/iinet-plan-pages-mobile-plans.png" class="lazy-load lazy-load--loading img-center" alt="" /></a>
                 </div>
                 <div class="item">
-                  <a href="img/iinet-plan-pages-mobile-signup.png" data-lightbox="iinet-plan-pages" data-title="Signup summary"><img src="img/loading.gif" data-src="img/iinet-plan-pages-mobile-signup.png" class="lazy-load lazy-load--loading img-center" /></a>
+                  <a href="img/iinet-plan-pages-mobile-signup.png" data-lightbox="iinet-plan-pages" data-title="Signup summary"><img src="img/loading.gif" data-src="img/iinet-plan-pages-mobile-signup.png" class="lazy-load lazy-load--loading img-center" alt="" /></a>
                 </div>
               </div>
               <p class="margin-bottom-40">&nbsp;</p>

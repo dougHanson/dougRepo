@@ -2,7 +2,7 @@
     <nav id="hrmenu" class="hrmenu">
       <ul>
         <li>
-          <img src="img/logo.png" class="margin-right-20" style="width:160px;" />
+          <img src="img/logo.png" class="margin-right-20" style="width:160px;" alt="" />
         </li>
           <li>
               <a href="#">Base</a>

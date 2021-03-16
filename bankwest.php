@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-AU">
 
 <head>
   <meta charset="utf-8">
@@ -87,10 +87,10 @@
 
               <div class="owl-carousel owl-theme">
                 <div class="item">
-                  <img src="img/loading.gif" class="lazy-load lazy-load--loading img-frame img-center img-responsive" data-src="img/bankwest-edm-service.png" />
+                  <img src="img/loading.gif" class="lazy-load lazy-load--loading img-frame img-center img-responsive" data-src="img/bankwest-edm-service.png" alt="" />
                 </div>
                 <div class="item">
-                  <img src="img/loading.gif" class="lazy-load lazy-load--loading img-frame img-center img-responsive" data-src="img/bankwest-edm-sales.png" />
+                  <img src="img/loading.gif" class="lazy-load lazy-load--loading img-frame img-center img-responsive" data-src="img/bankwest-edm-sales.png" alt="" />
                 </div>
               </div>
 

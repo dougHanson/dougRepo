@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-AU">
 
 <head>
   <meta charset="utf-8">
@@ -64,7 +64,7 @@
               <p>After meeting with the Marketing &amp; Products teams to determine the most important features to promote, multiple <strong>mobile first wireframes</strong> and eventually <strong>web designs</strong> were worked up in Photoshop, to play with how the information could be laid out while providing a seamless <strong>user experience</strong>. To make things easier to use, additional options such as upgrading hardware and purchasing Ultimate Channel Pack were only revealed to the user once they had opted to purchase a basic Fetch subscription.</p>
 
               <div class="item">
-                <a href="img/fetch.gif" data-lightbox="fetch" data-title="Fetch TV UI Design"><img src="img/loading.gif" data-src="img/fetch.gif" class="lazy-load lazy-load--loading img-responsive img-center img-shadow" /></a>
+                <a href="img/fetch.gif" data-lightbox="fetch" data-title="Fetch TV UI Design"><img src="img/loading.gif" data-src="img/fetch.gif" class="lazy-load lazy-load--loading img-responsive img-center img-shadow" alt="" /></a>
               </div>
               <p>&nbsp;</p>
 
@@ -74,7 +74,7 @@
 
               <div class="item margin-bottom-20">
                 <a href="img/fetch-angular-js.png" data-lightbox="code" data-title="AngularJS code">
-                  <img src="img/loading.gif" data-src="img/fetch-angular-js.png" alt="AngularJS code" class="lazy-load lazy-load--loading img-shadow img-center">
+                  <img src="img/loading.gif" data-src="img/fetch-angular-js.png" alt="AngularJS code" class="lazy-load lazy-load--loading img-shadow img-center" alt="">
                 </a>
               </div>
               <p>&nbsp;</p>
