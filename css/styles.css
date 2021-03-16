@@ -1294,18 +1294,19 @@ hr {
   width: 100%;
   background: #d1d1d0;
   position: fixed;
-  top: 0; }
+  top: 8px; }
   @media (min-width: 992px) {
     .skeleton__aside {
       width: 250px;
       height: 100vh;
-      margin: 1vw; } }
+      margin: 1vw;
+      top: 0; } }
 
 .skeleton__logo {
   width: 90px;
   height: 90px;
   background: #fff;
-  margin: 70px auto 160px;
+  margin: 55px auto 160px;
   transform: rotate(45deg);
   opacity: 0.6;
   display: none; }
@@ -1314,12 +1315,14 @@ hr {
       display: block; } }
 
 .skeleton__nav {
-  margin: 30px auto;
   background: #fff;
-  width: 60%;
+  display: none;
   height: 20px;
+  margin: 190px auto 40px;
   opacity: 0.5;
-  display: none; }
+  width: 60%; }
+  .skeleton__nav ~ .skeleton__nav {
+    margin: 40px auto; }
   @media (min-width: 992px) {
     .skeleton__nav {
       display: block; } }

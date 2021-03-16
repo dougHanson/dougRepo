@@ -5,73 +5,78 @@
 
 
 /* ----- navigation ----- */
-.skeleton__aside { 
-	height: 60px; 
-	margin: 0; 
+.skeleton__aside {
+	height: 60px;
+	margin: 0;
 	width: 100%;
 	background: $grey-d;
 	position: fixed;
-	top: 0;
+	top: 8px;
 	@media (min-width: 992px) {
 		width: $nav-width;
 		height: 100vh;
-		margin: 1vw;	
+		margin: 1vw;
+		top: 0;
 	}
 }
-.skeleton__logo { 
+.skeleton__logo {
 	width: 90px;
 	height: 90px;
 	background: #fff;
-	margin: 70px auto 160px;
+	margin: 55px auto 160px;
 	transform: rotate(45deg);
 	opacity: 0.6;
 	display: none;
-	@media (min-width: 992px) { 
-		display: block; 
+	@media (min-width: 992px) {
+		display: block;
 	}
 }
-.skeleton__nav { 
-	margin: 30px auto; 
-	background: #fff; 
-	width: 60%; 
-	height: 20px; 
-	opacity: 0.5; 
+.skeleton__nav {
+	background: #fff;
 	display: none;
-	@media (min-width: 992px) { 
-		display: block; 
+	height: 20px;
+	margin: 190px auto 40px;
+	opacity: 0.5;
+	width: 60%;
+
+	~ .skeleton__nav {
+		margin: 40px auto;	
+	}
+	@media (min-width: 992px) {
+		display: block;
 	}
 }
 
 
 /* ----- homepage ----- */
-.skeleton__homepage { 
-	margin-left: 0px; 
-	text-align: center; 
-	padding: 30vh 10vh; 
+.skeleton__homepage {
+	margin-left: 0px;
+	text-align: center;
+	padding: 30vh 10vh;
 	@media (min-width: 992px) {
 		margin-left: $nav-width;
 	}
 }
-.skeleton__bar1 { 
-	background: $grey-d; 
-	width: 100%; 
-	height: 30px; 
+.skeleton__bar1 {
+	background: $grey-d;
+	width: 100%;
+	height: 30px;
 	margin: 30px auto;
 	@media (min-width: 992px) {
-		width: 50%; 
-		height: 70px; 
-		margin: 40px auto; 		
+		width: 50%;
+		height: 70px;
+		margin: 40px auto;
 	}
 }
-.skeleton__bar2 { 
-	background: $grey-d; 
-	width: 75%; 
-	height: 70px; 
+.skeleton__bar2 {
+	background: $grey-d;
+	width: 75%;
+	height: 70px;
 	margin: 20px auto;
 	@media (min-width: 992px) {
-		width: 70%; 
-		height: 30px; 	
-		margin: 50px auto 100px; 		
+		width: 70%;
+		height: 30px;
+		margin: 50px auto 100px;
 	}
 }
 
