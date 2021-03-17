@@ -239,7 +239,7 @@ $(".nav-about").click(function (e) {
 
 $(".nav-contact").click(function (e) {
   if (pathname === "/home" || pathname === '/' || pathname === '/~doug.hanson/') {
-    e.preventDefault();home
+    e.preventDefault();
     $('html, body').animate({
       scrollTop: $(".contact-me").offset().top
     }, scrollSpeed);
@@ -309,7 +309,9 @@ lozad('.lazy-load', {
     el.onload = function () {
       //if not homepage, fadeIn images. Don't fadeIn on homepage as interferes with SVG animations.
       var pathname = window.location.pathname;
-      if (pathname != "/home" && pathname != '/'  && pathname != '/~doug.hanson' && pathname != '/~doug.hanson/home' && pathname != '/dougrepo/' && pathname != '/dougrepo/home') {
+      pathname = pathname.replace('/dougrepo', '').replace('/~doug.hanson', '');
+      //alert(pathname);
+      if (pathname != "/" && pathname != '/home' && pathname != "/home.php") {
         el.classList.add('fadeIn'); //see utilities.scss for fadeIn class
       }
       el.classList.remove('lazy-load--loading');

@@ -69,7 +69,10 @@
 <script src="js/plugins/classie.js"></script>
 <?php 
   $currentpage = $_SERVER['REQUEST_URI'];
-  if ($currentpage != "/home" && $currentpage != '/'  && $currentpage != '/~doug.hanson' && $currentpage != '/~doug.hanson/home' && $currentpage != '/dougrepo/' && $currentpage != '/dougrepo/home') {
+  $currentpage = str_replace('/~doug.hanson','', $currentpage);
+  $currentpage = str_replace('/dougrepo','', $currentpage);
+  echo $currentpage;
+  if ($currentpage != '/'  && $currentpage != '/home' && $currentpage != '/home.php') {
     echo '<script src="js/plugins/owl.carousel.min.js"></script>';
     echo '<script src="js/plugins/lightbox.js"></script>';
   }

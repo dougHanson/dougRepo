@@ -4,18 +4,28 @@ RewriteEngine On
 RewriteBase /
 
 # To externally redirect file.php to /file
-RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
-RewriteRule ^ /%1 [R=302,L,NE]
+# RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
+# RewriteRule ^ /%1 [R=302,L,NE]
 
 # To internally forward /file to /file.php
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{DOCUMENT_ROOT}/$1\.php -f [NC]
-RewriteRule ^(.+?)/?$ $1.php [L]
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteCond %{DOCUMENT_ROOT}/$1\.php -f [NC]
+# RewriteRule ^(.+?)/?$ $1.php [L]
+
+<IfModule mod_rewrite.c>
+  # redirect /file.php to /file
+  RewriteCond %{THE_REQUEST} \s/([^.]+)\.php [NC]
+  RewriteRule ^ /%1 [NE,L,R]
+
+  # now we will internally map /file to /file.php
+  RewriteCond %{REQUEST_FILENAME}.php -f
+  RewriteRule ^(.*)/?$ /$1.php  [L]
+</IfModule>
 
 
 # BEGIN GZIP
 <ifmodule mod_deflate.c>
-    AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript
+  AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript
 </ifmodule>
 # END GZIP
 
