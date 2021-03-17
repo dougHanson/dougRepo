@@ -1,17 +1,4 @@
 DirectoryIndex home.php
-Options +MultiViews -Indexes
-RewriteEngine On
-RewriteBase /
-
-# To externally redirect file.php to /file
-RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
-RewriteRule ^ /%1 [R=302,L,NE]
-
-# To internally forward /file to /file.php
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{DOCUMENT_ROOT}/$1\.php -f [NC]
-RewriteRule ^(.+?)/?$ $1.php [L]
-
 
 # BEGIN GZIP
 <ifmodule mod_deflate.c>

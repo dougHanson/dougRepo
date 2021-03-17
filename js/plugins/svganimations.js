@@ -92,7 +92,7 @@
 	};
 
 	SVGEl.prototype.showImage = function() {
-		//classie.add( this.image, 'show' );
+		classie.add( this.image, 'show' );
 		classie.add( this.el, 'hide' );
 	};
 
