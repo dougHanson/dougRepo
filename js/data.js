@@ -17,7 +17,7 @@ var projects = {
     brand_colours: ['#1078b2', '#aad7eb', '#222', '#ca8620'],
     skills: ['UX development', 'icon design', 'semantic HTML', 'SASS', 'Liferay DXP', 'Freemarker', 'jQuery', 'accessibility'],
     year: '2020',
-    website: 'education.wa/policies',
+    website: 'education.wa.edu.au/policies',
     website_url: '//www.education.wa.edu.au/web/policies',
     thumbnail: 'policies-thumb.png'
   },    
