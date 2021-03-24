@@ -66,11 +66,43 @@
 }
 
 
-// CUSTOMISATIONS
+/* OWL CUSTOMISATIONS
+// -------------------------- */
 .owl-theme .owl-dots .owl-dot {
   min-width: auto;
   width: auto;
 }
-.owl-carousel .owl-item img {
-  width: auto;
+
+.owl-carousel {
+  .owl-item {
+    img {
+      max-width: 100%;
+      width: auto;
+    }
+
+    // grabbing cursors
+    .item {
+      cursor: move;
+      cursor: grab;
+      cursor: -moz-grab;
+      cursor: -webkit-grab;
+
+      &:active {
+        cursor: grabbing;
+        cursor: -moz-grabbing;
+        cursor: -webkit-grabbing;
+      }
+      a,
+      a:active {
+        cursor: inherit;
+      }
+    }
+  }
+  .owl-grab {
+    cursor: move;
+    cursor: grab;
+    cursor: -webkit-grab;
+    cursor: -o-grab;
+    cursor: -ms-grab;
+  }
 }

@@ -4013,9 +4013,32 @@ tr:last-child td {
 .owl-theme .owl-dots .owl-dot:hover span {
   background: #869791; }
 
+/* OWL CUSTOMISATIONS
+// -------------------------- */
 .owl-theme .owl-dots .owl-dot {
   min-width: auto;
   width: auto; }
 
 .owl-carousel .owl-item img {
+  max-width: 100%;
   width: auto; }
+
+.owl-carousel .owl-item .item {
+  cursor: move;
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab; }
+  .owl-carousel .owl-item .item:active {
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing; }
+  .owl-carousel .owl-item .item a,
+  .owl-carousel .owl-item .item a:active {
+    cursor: inherit; }
+
+.owl-carousel .owl-grab {
+  cursor: move;
+  cursor: grab;
+  cursor: -webkit-grab;
+  cursor: -o-grab;
+  cursor: -ms-grab; }
