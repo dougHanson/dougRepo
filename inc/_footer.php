@@ -58,22 +58,19 @@
 
 
 <!-- jQuery CDN -->
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" type="text/javascript"></script> -->
-<script
-			  src="https://code.jquery.com/jquery-2.2.4.min.js"
-			  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-			  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+
 <!-- build:js -->
 <script src="js/data.js"></script>
 <script src="js/plugins/lozad.min.js"></script>
 <script src="js/plugins/classie.js"></script>
-<?php 
+<?php
   $currentpage = $_SERVER['REQUEST_URI'];
   $currentpage = str_replace('/~doug.hanson','', $currentpage);
   $currentpage = str_replace('/dougrepo','', $currentpage);
   echo $currentpage;
   if ($currentpage != '/'  && $currentpage != '/home' && $currentpage != '/home.php') {
-    echo '<script src="js/plugins/owl.carousel.min.js"></script>';
+    echo '<script src="js/plugins/owl.carousel.2.3.4.min.js"></script>';
     echo '<script src="js/plugins/lightbox.js"></script>';
   }
   else {

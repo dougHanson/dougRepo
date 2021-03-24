@@ -32,6 +32,8 @@
   </style>
   <!-- endbuild -->
 
+  <link rel="prefetch=" href="../new-future.php" />
+
   <?php //include('/inc/_favicons.php'); ?>
 </head>
 
