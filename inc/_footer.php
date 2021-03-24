@@ -68,7 +68,6 @@
   $currentpage = $_SERVER['REQUEST_URI'];
   $currentpage = str_replace('/~doug.hanson','', $currentpage);
   $currentpage = str_replace('/dougrepo','', $currentpage);
-  echo $currentpage;
   if ($currentpage != '/'  && $currentpage != '/home' && $currentpage != '/home.php') {
     echo '<script src="js/plugins/owl.carousel.2.3.4.min.js"></script>';
     echo '<script src="js/plugins/lightbox.js"></script>';
