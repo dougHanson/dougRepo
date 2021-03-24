@@ -4014,7 +4014,8 @@ tr:last-child td {
   background: #869791; }
 
 .owl-theme .owl-dots .owl-dot {
-  min-width: auto; }
+  min-width: auto;
+  width: auto; }
 
 .owl-carousel .owl-item img {
   width: auto; }

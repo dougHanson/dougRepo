@@ -1,18 +1,11 @@
 DirectoryIndex home.php
-Options +MultiViews -Indexes
-RewriteEngine On
-RewriteBase /
 
-# To externally redirect file.php to /file
-# RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
-# RewriteRule ^ /%1 [R=302,L,NE]
-
-# To internally forward /file to /file.php
-# RewriteCond %{REQUEST_FILENAME} !-d
-# RewriteCond %{DOCUMENT_ROOT}/$1\.php -f [NC]
-# RewriteRule ^(.+?)/?$ $1.php [L]
-
+# BEGIN REWRITE
 <IfModule mod_rewrite.c>
+  Options +MultiViews -Indexes
+  RewriteEngine On
+  RewriteBase /
+
   # redirect /file.php to /file
   RewriteCond %{THE_REQUEST} \s/([^.]+)\.php [NC]
   RewriteRule ^ /%1 [NE,L,R]
@@ -20,8 +13,17 @@ RewriteBase /
   # now we will internally map /file to /file.php
   RewriteCond %{REQUEST_FILENAME}.php -f
   RewriteRule ^(.*)/?$ /$1.php  [L]
-</IfModule>
 
+  # To externally redirect file.php to /file
+  # RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
+  # RewriteRule ^ /%1 [R=302,L,NE]
+
+  # To internally forward /file to /file.php
+  # RewriteCond %{REQUEST_FILENAME} !-d
+  # RewriteCond %{DOCUMENT_ROOT}/$1\.php -f [NC]
+  # RewriteRule ^(.+?)/?$ $1.php [L]
+</IfModule>
+# END REWRITE
 
 # BEGIN GZIP
 <ifmodule mod_deflate.c>
@@ -29,8 +31,8 @@ RewriteBase /
 </ifmodule>
 # END GZIP
 
-# BEGIN Expire headers  
-<IfModule mod_expires.c>  
+# BEGIN Expire headers
+<IfModule mod_expires.c>
   # Turn on the module.
   ExpiresActive on
   # Set the default expiry times.
@@ -47,5 +49,5 @@ RewriteBase /
   ExpiresByType image/ico "access plus 1 month"
   ExpiresByType image/x-icon "access plus 1 month"
   ExpiresByType text/html "access plus 600 seconds"
-</IfModule>  
+</IfModule>
 # END Expire headers
