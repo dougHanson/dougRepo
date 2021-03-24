@@ -136,6 +136,7 @@
 /*
  *  Owl Carousel - Animate Plugin
  */
+ /*
 .owl-carousel .animated {
   animation-duration: 1000ms;
   animation-fill-mode: both;
@@ -161,7 +162,7 @@
   100% {
     opacity: 0;
   }
-}
+}*/
 
 /*
  * 	Owl Carousel - Auto Height Plugin
@@ -179,7 +180,7 @@
 			calculation of the height of the owl-item that breaks page layouts
 		 */
 }
-
+/*
 .owl-carousel .owl-item .owl-lazy {
   opacity: 0;
   transition: opacity 400ms ease;
@@ -192,12 +193,12 @@
 
 .owl-carousel .owl-item img.owl-lazy {
   transform-style: preserve-3d;
-}
+}*/
 
 /*
  * 	Owl Carousel - Video Plugin
  */
-.owl-carousel .owl-video-wrapper {
+/*.owl-carousel .owl-video-wrapper {
   position: relative;
   height: 100%;
   background: #000;
@@ -242,4 +243,4 @@
   z-index: 1;
   height: 100%;
   width: 100%;
-}
+}*/
