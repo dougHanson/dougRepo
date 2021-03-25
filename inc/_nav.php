@@ -87,7 +87,7 @@
       </div>
     </a>
 
-    <a class="social-icon" href="//facebook.com/doug83" target="_blank" title="Facebook">
+    <a class="social-icon" href="//facebook.com/doug83" rel="noreferrer" target="_blank" title="Facebook">
 			<div class="social-icon__bg"></div>
 			<div class="social-icon__svg">
 				<?php echo file_get_contents("svg/facebook.svg"); ?>
