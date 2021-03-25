@@ -265,7 +265,7 @@
           </div>
           <div class="col-lg-3 text-center visible-lg">
             <div id="drawings" class="margin-top-10">
-              <img src="img/loading.gif" data-src="img/doug.png" class="lazy-load profile-pic img-circle lazy-load--loading" alt="Doug Hanson, web developer Perth">
+              <img src="img/loading.gif" data-src="img/doug.png" class="lazy-load lazy-load--loading profile-pic img-circle" alt="Doug Hanson, web developer Perth">
               <?php //echo file_get_contents("svg/doug.svg"); ?>
             </div>
           </div>
