@@ -25,17 +25,17 @@
               </div>
             </a>
 
-            <a class="social-icon-footer" href="https://twitter.com/doug83" rel="noreferrer" title="Twitter" target="_blank">
-              <div class="social-icon__bg social-icon__bg--transparent"></div>
-              <div class="social-icon__svg social-icon__svg--twitter">
-                <?php echo file_get_contents("svg/twitter.svg"); ?>
-              </div>
-            </a>
-
             <a class="social-icon-footer" href="https://au.pinterest.com/doughanson1983/" rel="noreferrer" title="Pinterest" target="_blank">
               <div class="social-icon__bg social-icon__bg--transparent"></div>
               <div class="social-icon__svg social-icon__svg--pinterest">
                 <?php echo file_get_contents("svg/pinterest.svg"); ?>
+              </div>
+            </a>
+
+            <a class="social-icon-footer" href="https://twitter.com/doug83" rel="noreferrer" title="Twitter" target="_blank">
+              <div class="social-icon__bg social-icon__bg--transparent"></div>
+              <div class="social-icon__svg social-icon__svg--twitter">
+                <?php echo file_get_contents("svg/twitter.svg"); ?>
               </div>
             </a>
 

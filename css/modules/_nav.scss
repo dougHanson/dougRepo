@@ -4,7 +4,6 @@
 /* ************************************* */
 
 /* ----- vertical aside, will change on smaller screens ----- */
-
 .vertical-menu {
 	width: 100%;
 	height: 60px;
@@ -17,48 +16,74 @@
 	z-index: 888;
   background: linear-gradient(to right, #E9826D, #D9534D);
 	border-right: 1px solid $grey-9;
+
 	@media (min-width: 992px) {
 		background: $brand-primary;
+    background: linear-gradient(to bottom, #E9826D, #D9534D);
 		background-size: cover;
 		background-position: 0 -40px;
 		width: $nav-width;
 		height: 100%;
 		top: 0;
-		padding: 30px;
-    background: linear-gradient(to bottom, #E9826D, #D9534D);
+		padding: 30px 28px;
 	}
+
 	@media (min-width: 1960px) {
 		width: 12vw;
     min-width: $nav-width;
-	}  
+	}
+
 	&__logo {
 		height: 36px;
 		width: 36px;
-		margin-top: -8px;
 		float: left;
 		position: absolute;
+
+		a {
+			display: block;
+			height: 150%;
+			width: 150%;
+			margin-top: -16px;
+		}
+
 		@media (min-width: 992px) {
 			float: none;
 			position: relative;
 			height: 160px;
 			width: 100%;
 			text-align: center;
-			margin-top: 10px;
-		}
-		img {
-			max-height: 150%;
-			max-width: 150%;
-			margin-top: -8px;
-			transition: all 0.25s;
 
-			@media (min-width: 992px) {
-				height: 136px;
-				width: 136px;
+			a {
+				height: 100%;
+				width: 100%;
+				margin-top: 0px;
 			}
+		}
 
-			&:hover {
+		&:hover,
+		&:focus {
+			svg {
 				transform: scale(1.1);
 				transition: all 0.25s;
+			}
+		}
+
+		svg {
+			max-height: 100%;
+			max-width: 100%;
+			transition: all 0.25s;
+
+			#outer_stroke { fill: none; stroke: $grey-6; stroke-miterlimit: 10; opacity: 0.85; }
+			#outer { fill:#fff;	stroke:$grey-6;	stroke-miterlimit: 10;opacity: 0.33; }
+			#inner { opacity: 0.9; }
+			#inner polygon { fill: #fff; }
+			#inner path { fill: $grey-6; }
+			#d { fill: $grey-4; }
+
+			@media (min-width: 992px) {
+				height: 145px;
+				width: 145px;
+				margin-top: 12px;
 			}
 		}
 	}
@@ -66,7 +91,6 @@
 
 
 /* ----- navigation styles ----- */
-
 nav {
 	margin-top: 0;
 	width: 100%;
@@ -128,36 +152,36 @@ nav {
 }
 
 .nav-home {
-	display: none; //On mobile devices the logo can be used to nav home	
+	display: none; //On mobile devices the logo can be used to nav home
 	@media (min-width: 992px) {
 		display: block;
-	} 	
+	}
 }
 
 .nav-link {
 	color: #fff;
 	width: 100%;
 	height: 100%;
-  	margin-top: -16px; 
+  	margin-top: -16px;
 	padding: 6px 6px 0;
 	display: block;
 	transition: all 0.25s;
 	font-weight: 600;
 	text-shadow: 0 0 1px $grey-6;
-	text-decoration: none; 
+	text-decoration: none;
 	@media (min-width: 400px) {
 		padding: 6px 1em 0;
-	}    
-  	@media (min-width: 560px) {		
+	}
+  	@media (min-width: 560px) {
 		padding: 0 1em;
-	}  
+	}
   	@media (min-width: 767px) {
 		padding: 0 0.8em
-	}  
+	}
   	@media (min-width: 992px) {
 		margin-top: 0;
 		padding: 1.5vh 2em;
-	}  
+	}
 	&:hover, &:focus {
 	  background-color: rgba(255, 255, 255, 0.10);
 	  color: #fff;
@@ -169,5 +193,5 @@ nav {
     text-transform: capitalize;
     @media (min-width: 767px) {
 		text-transform: none;
-	} 
+	}
 }

@@ -1303,10 +1303,10 @@ hr {
       top: 0; } }
 
 .skeleton__logo {
-  width: 90px;
-  height: 90px;
+  width: 100px;
+  height: 100px;
   background: #fff;
-  margin: 55px auto 160px;
+  margin: 63px auto 0 75px;
   transform: rotate(45deg);
   opacity: 0.6;
   display: none; }
@@ -1318,7 +1318,7 @@ hr {
   background: #fff;
   display: none;
   height: 20px;
-  margin: 190px auto 40px;
+  margin: 163px auto 40px;
   opacity: 0.5;
   width: 60%; }
   .skeleton__nav ~ .skeleton__nav {
@@ -1783,13 +1783,13 @@ based on dark.css by Ivan Sagalaev
   @media (min-width: 992px) {
     .vertical-menu {
       background: #727c7d;
+      background: linear-gradient(to bottom, #E9826D, #D9534D);
       background-size: cover;
       background-position: 0 -40px;
       width: 250px;
       height: 100%;
       top: 0;
-      padding: 30px;
-      background: linear-gradient(to bottom, #E9826D, #D9534D); } }
+      padding: 30px 28px; } }
   @media (min-width: 1960px) {
     .vertical-menu {
       width: 12vw;
@@ -1797,29 +1797,54 @@ based on dark.css by Ivan Sagalaev
   .vertical-menu__logo {
     height: 36px;
     width: 36px;
-    margin-top: -8px;
     float: left;
     position: absolute; }
+    .vertical-menu__logo a {
+      display: block;
+      height: 150%;
+      width: 150%;
+      margin-top: -16px; }
     @media (min-width: 992px) {
       .vertical-menu__logo {
         float: none;
         position: relative;
         height: 160px;
         width: 100%;
-        text-align: center;
-        margin-top: 10px; } }
-    .vertical-menu__logo img {
-      max-height: 150%;
-      max-width: 150%;
-      margin-top: -8px;
+        text-align: center; }
+        .vertical-menu__logo a {
+          height: 100%;
+          width: 100%;
+          margin-top: 0px; } }
+    .vertical-menu__logo:hover svg, .vertical-menu__logo:focus svg {
+      transform: scale(1.1);
       transition: all 0.25s; }
+    .vertical-menu__logo svg {
+      max-height: 100%;
+      max-width: 100%;
+      transition: all 0.25s; }
+      .vertical-menu__logo svg #outer_stroke {
+        fill: none;
+        stroke: #636362;
+        stroke-miterlimit: 10;
+        opacity: 0.85; }
+      .vertical-menu__logo svg #outer {
+        fill: #fff;
+        stroke: #636362;
+        stroke-miterlimit: 10;
+        opacity: 0.33; }
+      .vertical-menu__logo svg #inner {
+        opacity: 0.9; }
+      .vertical-menu__logo svg #inner polygon {
+        fill: #fff; }
+      .vertical-menu__logo svg #inner path {
+        fill: #636362; }
+      .vertical-menu__logo svg #d {
+        fill: #474746; }
       @media (min-width: 992px) {
-        .vertical-menu__logo img {
-          height: 136px;
-          width: 136px; } }
-      .vertical-menu__logo img:hover {
-        transform: scale(1.1);
-        transition: all 0.25s; }
+        .vertical-menu__logo svg {
+          height: 145px;
+          width: 145px;
+          margin-top: 12px; } }
 
 /* ----- navigation styles ----- */
 nav {
@@ -1939,8 +1964,8 @@ footer .icon {
     .social-icon {
       display: inline-block; } }
   .social-icon__bg {
-    height: 40px;
-    width: 40px;
+    height: 36px;
+    width: 36px;
     background: #fff;
     opacity: 0.25;
     padding: 10px;
@@ -1952,8 +1977,8 @@ footer .icon {
           opacity: 0; } }
   .social-icon__svg {
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 8px;
+    left: 8px;
     transition: all 0.25s; }
     .social-icon__svg--linkedin .icon, .social-icon__svg--facebook .icon, .social-icon__svg--twitter .icon, .social-icon__svg--pinterest .icon, .social-icon__svg--github .icon {
       transition: all 0.25s; }

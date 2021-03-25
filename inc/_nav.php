@@ -10,22 +10,19 @@
 <aside class="vertical-menu">
   <div class="vertical-menu__logo">
     <a href="home.php">
-      <img src="img/logo-retina.png" alt="" height="136" width="136" />
+      <svg xmlns="http://www.w3.org/2000/svg" width="200.3" height="200.2" viewBox="0 0 200.3 200.2">
+        <polygon id="outer_stroke" data-name="outer stroke" points="100.7 0.7 199.6 99.5 100.7 199.5 0.7 99.5 100.7 0.7"/>
+        <polygon id="outer" points="100.7 0.7 199.6 99.5 100.7 199.5 0.7 99.5 100.7 0.7" />
+        <g id="inner">
+          <polygon points="15.8 100.1 100.1 15.9 184.5 99.9 100.1 184.3 15.8 100.1" />
+          <path d="M100.1,16.6l83.6,83.3-83.6,83.7L16.5,100.1l83.6-83.5m0-1.4-85,84.9,85,84.9,85.1-85.1L100.1,15.2Z" />
+        </g>
+        <path id="d" d="M100.5,74.1c0-3.8,1.5-7.2-2.6-10-1.6-1.1-1.8-4.6,2-4.7,5.6-.2,11.2-.1,17.4-.1.1,2.3.2,4.3.2,6.2q.1,29.9,0,59.7c0,3.2-.2,6.2,2.9,8.5,1,.6.8,2.8,1.1,4.3-10.1,1.9-19.7,1-21.8-1.9L96.3,138c-7.2,3.7-14.6,1.6-18.1-5.7-2-4.1-3.7-8.8-3.7-13.2-.1-11.9-.2-23.9,1.5-35.6S87,67.3,98.4,73.3Zm.3,30.9c0-7.3.1-14.6-.2-21.9,0-1.3-1.7-3.5-2.9-3.7s-3.2,1.1-4.1,2.3-.9,3.2-.9,4.8c-.1,12.6,0,25.2,0,37.8,0,3,0,6.3,3.8,6.3s4.3-3,4.3-6.2C100.7,117.9,100.8,111.5,100.8,105Z" />
+      </svg>
       <span class="sr-only">Return to homepage</span>
-      <!-- <svg xmlns="http://www.w3.org/2000/svg" width="115.3" height="116.7" viewBox="0 0 115.3 116.7">
-        <path
-            d="M58.1,1.4c3.8,4,7.2,7.7,10.9,11.4,14.3,14.4,28.6,28.8,43.1,43,2.7,2.7,3,4.4.1,7.3Q87,88,62,113.2c-3.4,3.5-5.6,3.3-8.9-.1C37,96.7,20.6,80.5,4.4,64.2c-4.5-4.5-4.5-4.9.1-9.5L54,5.2C55.1,4,56.4,3,58.1,1.4Zm1.1,40.1c-11.6-5.2-16-3.1-17.7,8.9-1.1,7.5-.6,15.3-.5,22.9a22.7,22.7,0,0,0,2.1,7.6c2.4,5.5,6.9,7,12.3,4.5a6.5,6.5,0,0,1,3-.9c4.6.6,9.2,1.4,13.1,2-.7-5.9-1.6-10.6-1.7-15.3-.3-11.8-.1-23.7-.1-35.5,0-1.8-.2-3.5-.3-5.4H56.9Z"
-            style="fill:#fff;stroke:#231f20;stroke-miterlimit:10;stroke-width:2px" />
-        <path
-            d="M59.2,41.5,56.9,30.3H69.4c.1,1.9.3,3.6.3,5.4,0,11.8-.2,23.7.1,35.5.1,4.7,1,9.4,1.7,15.3-3.9-.6-8.5-1.4-13.1-2a6.5,6.5,0,0,0-3,.9c-5.4,2.5-9.9,1-12.3-4.5A22.7,22.7,0,0,1,41,73.3c-.1-7.6-.6-15.4.5-22.9C43.2,38.4,47.6,36.3,59.2,41.5ZM58.8,63c0-4.6.2-9.3-.2-13.9-.1-1.6-1.6-3-2.5-4.5-1.1,1.4-3.2,2.7-3.2,4.2-.3,9.2-.3,18.5-.1,27.8.1,1.4,1.8,2.7,2.8,4.1,1-1.4,2.9-2.8,3-4.3C59,72,58.7,67.5,58.8,63Z"
-            style="stroke:#231f20;stroke-miterlimit:10;stroke-width:2px" />
-        <path
-            d="M58.7,63c0,4.5.3,9-.1,13.4-.1,1.5-2,2.9-3,4.3-1-1.4-2.7-2.7-2.8-4.1-.2-9.3-.2-18.6.1-27.8,0-1.5,2.1-2.8,3.2-4.2.9,1.5,2.4,2.9,2.5,4.5A128.9,128.9,0,0,1,58.7,63Z"
-            style="fill:#fff;stroke:#231f20;stroke-miterlimit:10;stroke-width:2px" />
-      </svg> -->
- </a>
+    </a>
   </div>
-  <!--<br class="hidden-sm hidden-xs hidden-xxs">-->
+
   <nav>
     <ul>
       <li class="nav-home">
@@ -76,12 +73,12 @@
       </div>
     </a>
 
-    <!--<a class="social-icon" href="//facebook.com/doug83" target="_blank" title="Facebook">
-			<div class="social-icon__bg"></div>
-			<div class="social-icon__svg">
-				<?php //echo file_get_contents("svg/facebook.svg"); ?>
-			</div>
-		</a>-->
+    <a class="social-icon" href="https://au.pinterest.com/doughanson1983/" rel="noreferrer" target="_blank" title="Pinterest">
+      <div class="social-icon__bg"></div>
+      <div class="social-icon__svg">
+        <?php echo file_get_contents("svg/pinterest.svg"); ?>
+      </div>
+    </a>
 
     <a class="social-icon" href="https://twitter.com/doug83" rel="noreferrer" target="_blank" title="Twitter">
       <div class="social-icon__bg"></div>
@@ -90,12 +87,12 @@
       </div>
     </a>
 
-    <a class="social-icon" href="https://au.pinterest.com/doughanson1983/" rel="noreferrer" target="_blank" title="Pinterest">
-      <div class="social-icon__bg"></div>
-      <div class="social-icon__svg">
-        <?php echo file_get_contents("svg/pinterest.svg"); ?>
-      </div>
-    </a>
+    <a class="social-icon" href="//facebook.com/doug83" target="_blank" title="Facebook">
+			<div class="social-icon__bg"></div>
+			<div class="social-icon__svg">
+				<?php echo file_get_contents("svg/facebook.svg"); ?>
+			</div>
+		</a>
 
   </nav>
 </aside>
