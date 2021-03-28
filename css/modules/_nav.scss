@@ -14,14 +14,14 @@
 	top: 0;
 	left: 0;
 	z-index: 888;
-  background: linear-gradient(to right, #E9826D, #D9534D);
+  	background: linear-gradient(to right, #E9826D, #D9534D);
 	border-right: 1px solid $grey-9;
 
 	@media (min-width: 992px) {
 		background: $brand-primary;
-    background: linear-gradient(to bottom, #E9826D, #D9534D);
+    	background: linear-gradient(to bottom, #E9826D, #D9534D);
 		background-size: cover;
-		background-position: 0 -40px;
+		//background-position: 0 0;
 		width: $nav-width;
 		height: 100%;
 		top: 0;
