@@ -1,13 +1,38 @@
 DirectoryIndex home.php
 
+# BEGIN REWRITE
+<IfModule mod_rewrite.c>
+  Options +MultiViews -Indexes
+  RewriteEngine On
+  RewriteBase /
+
+  # redirect /file.php to /file
+  RewriteCond %{THE_REQUEST} \s/([^.]+)\.php [NC]
+  RewriteRule ^ /%1 [NE,L,R]
+
+  # now we will internally map /file to /file.php
+  RewriteCond %{REQUEST_FILENAME}.php -f
+  RewriteRule ^(.*)/?$ /$1.php  [L]
+
+  # To externally redirect file.php to /file
+  # RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
+  # RewriteRule ^ /%1 [R=302,L,NE]
+
+  # To internally forward /file to /file.php
+  # RewriteCond %{REQUEST_FILENAME} !-d
+  # RewriteCond %{DOCUMENT_ROOT}/$1\.php -f [NC]
+  # RewriteRule ^(.+?)/?$ $1.php [L]
+</IfModule>
+# END REWRITE
+
 # BEGIN GZIP
 <ifmodule mod_deflate.c>
-    AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript
+  AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript
 </ifmodule>
 # END GZIP
 
-# BEGIN Expire headers  
-<IfModule mod_expires.c>  
+# BEGIN Expire headers
+<IfModule mod_expires.c>
   # Turn on the module.
   ExpiresActive on
   # Set the default expiry times.
@@ -24,5 +49,5 @@ DirectoryIndex home.php
   ExpiresByType image/ico "access plus 1 month"
   ExpiresByType image/x-icon "access plus 1 month"
   ExpiresByType text/html "access plus 600 seconds"
-</IfModule>  
+</IfModule>
 # END Expire headers

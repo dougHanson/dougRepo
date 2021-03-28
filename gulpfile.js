@@ -97,7 +97,7 @@ gulp.task('copy', function () {
 
 
 // Compress new images [gulp-imagemin]
-gulp.task('compress-images', gulp.series('copy', function () {
+gulp.task('compress-images', gulp.series('copy', function copying() {
   return gulp.src(['./dist/svg/**/*', './dist/img/**/*'], {
       base: './'
     })
@@ -108,7 +108,7 @@ gulp.task('compress-images', gulp.series('copy', function () {
 
 
 // Watch Files For Changes
-gulp.task('watch', gulp.series('compile-sass', function () {
+gulp.task('build', gulp.series('compile-sass', function watching() {
   gulp.watch(['js/**/*.js', '!js/plugins/**/*.js'], gulp.series('lint-js'));
   gulp.watch('css/**/*.scss', gulp.series('compile-sass'));
 }));
@@ -126,5 +126,5 @@ gulp.task('clean', function () {
 
 
 // Default Tasks
-gulp.task('default', gulp.series('watch'));
+gulp.task('default', gulp.series('build'));
 gulp.task('publish', gulp.series('clean', 'minify-css', 'minify-js', 'compress-images', 'minify-html'));
