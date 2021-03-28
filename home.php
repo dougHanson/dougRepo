@@ -32,7 +32,7 @@
   </style>
   <!-- endbuild -->
 
-  <link rel="prefetch=" href="../new-future.php" />
+  <!-- <link rel="prefetch=" href="../new-future.php" /> -->
 
   <?php //include('/inc/_favicons.php'); ?>
 </head>
@@ -110,7 +110,7 @@
 
           <p class="h3 subheading text-center margin-0">my portfolio</p>
           <p class="h2 text-center">Selected works</p>
-          <div class="text-center"><img src="svg/spear.svg" alt="" height="10" width="227"></div>
+          <div class="text-center"><?php echo file_get_contents("svg/spear.svg"); ?></div>
 
           <div class="work-item-wrapper">
             <div class="row">
@@ -257,7 +257,7 @@
         <section id="about" class="about container">
           <p class="h3 subheading text-center margin-0">roles and experience</p>
           <p class="h2 text-center">About me</p>
-          <div class="text-center"><img src="svg/spear.svg" alt="" height="10" width="227" class="margin-bottom-40"></div>
+          <div class="text-center"><?php echo file_get_contents("svg/spear.svg"); ?></div>
           <div class="col-lg-9">
             <p>Over <span class="js-years-experience">10</span> years of hands on experience in user-centred web design &amp; front end web development. Experience designing User Interfaces (UI) and User Experience (UX) for products from various domains. Expertise in handling projects in Web development, Responsive Web Design, JavaScript, JQuery, AngularJS, HTML5, CSS3, SASS, Freemarker and&nbsp;PHP.</p>
             <p class="hidden-xs hidden-xxs">A driven, creative professional with a broad technical skill set. An excellent communicator experienced in interpreting and implementing client and staff visions of new websites and digital creative.</p>
@@ -265,7 +265,7 @@
           </div>
           <div class="col-lg-3 text-center visible-lg">
             <div id="drawings" class="margin-top-10">
-              <img src="img/loading.gif" data-src="img/doug.png" class="lazy-load profile-pic img-circle lazy-load--loading" alt="Doug Hanson, web developer Perth">
+              <img src="img/loading.gif" data-src="img/doug.png" class="lazy-load lazy-load--loading profile-pic img-circle" alt="Doug Hanson, web developer Perth">
               <?php //echo file_get_contents("svg/doug.svg"); ?>
             </div>
           </div>
@@ -353,7 +353,7 @@
 
           <p class="h3 subheading text-center margin-0">get in touch</p>
           <p class="h2 text-center">Contact</p>
-          <div class="text-center"><img src="svg/spear.svg" height="10" width="227" alt=""></div>
+          <div class="text-center"><?php echo file_get_contents("svg/spear.svg"); ?></div>
 
 
           <?php

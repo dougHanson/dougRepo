@@ -64,7 +64,7 @@
               <p>After meeting with the business and gathering their requirements, I conducted a <strong>competitor analysis</strong> of leaders in this space. Taking inspiration from several websites with a positive user experience and after conducting my own <strong>expert review</strong>, I presented <strong>web designs</strong> to the business which included a map feature, which would allow end users to drill down jobs by location. End users would also be able to search jobs by keyword via an input field, and filter by the multiple criteria of each job listing. I also included tags so users could consume important information upfront, such as jobs that were promoted or newly listed.</p>
 
               <div class="item">
-                <a href="img/jobs-design.png" data-lightbox="jobs-design" data-title="Jobs UI Design"><img src="img/loading.gif" data-src="img/jobs-design.png" class="lazy-load img-responsive img-center img-shadow" alt="" /></a>
+                <a href="img/jobs-design.png" data-lightbox="jobs-design" data-title="Jobs UI Design"><img src="img/loading.gif" data-src="img/jobs-design.png" class="lazy-load lazy-load--loading img-responsive img-center img-shadow" alt="" /></a>
               </div>
               <p>&nbsp;</p>
 
