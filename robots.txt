@@ -3,3 +3,5 @@
 # Allow crawling of all content
 User-agent: *
 Disallow: /all/*
+
+Sitemap: http://members.iinet.net.au/~doug.hanson/sitemap.xml
