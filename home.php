@@ -259,7 +259,7 @@
           <p class="h2 text-center">About me</p>
           <div class="text-center"><?php echo file_get_contents("svg/spear.svg"); ?></div>
           <div class="col-lg-9">
-            <p>Over <span class="js-years-experience">10</span> years of hands on experience in user-centred web design &amp; front end web development. Experience designing User Interfaces (UI) and User Experience (UX) for products from various domains. Expertise in handling projects in Web development, Responsive Web Design, JavaScript, JQuery, AngularJS, HTML5, CSS3, SASS, Freemarker and&nbsp;PHP.</p>
+            <p>Over <span class="js-years-experience">11</span> years of hands on experience in user-centred web design &amp; front end web development. Experience designing User Interfaces (UI) and User Experience (UX) for products from various domains. Expertise in handling projects in Web development, Responsive Web Design, JavaScript, JQuery, AngularJS, HTML5, CSS3, SASS, Freemarker and&nbsp;PHP.</p>
             <p class="hidden-xs hidden-xxs">A driven, creative professional with a broad technical skill set. An excellent communicator experienced in interpreting and implementing client and staff visions of new websites and digital creative.</p>
             <p>&nbsp;</p>
           </div>
@@ -281,7 +281,7 @@
                   <td>
                     <strong>Front-end Web Developer</strong>
                     <br>
-                    <span class="hidden-xxs">Based at the Department of Education WA as a front-end developer, working to improve the public facing website for end-users and content authors. <span class="hidden-xs">Currently developing for Liferay DXP with a strong focus on accessibility and creating better user&nbsp;experiences.</span></span>
+                    <span class="hidden-xxs">Based at the Department of Education WA as a front-end developer, working to improve the public facing website and campaign websites for end-users and content authors. <span class="hidden-xs">Currently developing within Liferay DXP with a strong focus on accessibility and creating better user&nbsp;experiences.</span></span>
                   </td>
                 </tr>
                 <tr>
