@@ -40,6 +40,9 @@
 
 <body>
 
+  <!-- include skeleton css -->
+  <?php include('inc/_skeleton.php'); ?>
+
   <?php /*
 
   // Define your username and password
@@ -71,9 +74,6 @@
 
     <!-- include frames and nav -->
     <?php include('inc/_nav.php'); ?>
-
-    <!-- include skeleton css -->
-    <?php include('inc/_skeleton.php'); ?>
 
     <!-- body content -->
     <div class="wrapper__outer">

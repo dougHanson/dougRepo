@@ -1,3 +1,10 @@
+<!-- frame borders -->
+<div class="frame frame__top"></div>
+<div class="frame frame__bottom"></div>
+<div class="frame frame__left"></div>
+<div class="frame frame__right"></div>
+<!-- end frame borders -->
+
 <div class="skeleton">
 	<div class="skeleton__aside">
 		<div class="skeleton__logo"></div>
