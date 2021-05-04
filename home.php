@@ -20,7 +20,7 @@
   <meta name="twitter:card"       content="summary_large_image">
   <meta name="twitter:creator"    content="@Doug83">
   <meta name="twitter:image"      content="http://members.iinet.net.au/~doug.hanson/img/doug.png">
-  <meta name="twitter:image:src"  content="http://members.iinet.net.au/~doug.hanson/img/doug.png">  
+  <meta name="twitter:image:src"  content="http://members.iinet.net.au/~doug.hanson/img/doug.png">
   <meta property="og:title"       content="Doug Hanson | Web Development and Design, Perth" />
   <meta property="og:description" content="View work from Doug Hanson, a front end web developer from Perth, Western Australia." />
   <meta property="og:image"       content="http://members.iinet.net.au/~doug.hanson/img/doug.png" />
@@ -32,15 +32,13 @@
   </style>
   <!-- endbuild -->
 
-  <!-- <link rel="prefetch=" href="../new-future.php" /> -->
+  <link rel="prefetch=" href="../new-future.php" />
 
   <?php //include('/inc/_favicons.php'); ?>
 </head>
 
 
 <body>
-
-  <?php include('inc/_skeleton.php'); ?>
 
   <?php /*
 
@@ -69,11 +67,13 @@
   else {
 */ ?>
 
-
   <div class="wrapper">
 
     <!-- include frames and nav -->
     <?php include('inc/_nav.php'); ?>
+
+    <!-- include skeleton css -->
+    <?php include('inc/_skeleton.php'); ?>
 
     <!-- body content -->
     <div class="wrapper__outer">

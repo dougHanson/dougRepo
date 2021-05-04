@@ -95,7 +95,7 @@
 
 
               <p class="h3 subheading padding-0 margin-0">The authoring experience</p>
-              <p>In addition to optimising the UX for the end user, the web content authors' experience also had to be streamlined. When creating the Liferay DXP structures (the CMS interface authors use to create web content) I kept it as simple as possible by separating content, media and external content, and including helpful tooltips.</p>
+              <p>In addition to <strong>optimising the UX for the end user</strong>, the web content authors' experience also had to be optimised. When creating the Liferay DXP structures (the CMS interface authors use to create web content) I kept it as simple as possible by separating content, media and external content, and including helpful tooltips.</p>
 
               <div class="owl-carousel owl-theme">
                 <div class="item margin-bottom-40">
@@ -112,7 +112,7 @@
               <p class="margin-bottom-20">&nbsp;</p>
 
               <p class="h3 subheading padding-0 margin-0">The front-end development</p>
-              <p>I created all of the markup using Freemarker templates. Calling the Liferay API allowed me to query the matching content available in the database which I could then manipulate using Freemarker (FTL) to display the desired output.</p>
+              <p>I created all of the markup using <strong>Freemarker templates</strong>. Calling the <strong>Liferay API</strong> allowed me to query the matching content available in the database which I could then manipulate using Freemarker (FTL) to display the desired output.</p>
               <div class="owl-carousel owl-theme">
                 <div class="item margin-bottom-40">
                   <a href="img/new-future-ftl-1.png" data-lightbox="freemarker" data-title="New Future freemarker templates in Liferay DXP">
@@ -131,7 +131,7 @@
                 </div>
               </div>
 
-              <p>The homepage design includes a dynamic grid of all available content which could be sorted and searched. To implement this I decided to leverage two popular js plugins, JPList to sort and search the content, and Masonry.js to update the display of content in a masonry grid. Once a sorting event had taken place, I used a JPList callback to call Masonry.js and update the display.</p>
+              <p>The homepage design includes a dynamic grid of all available content which could be sorted and searched. To implement this I decided to utilise two popular <strong>javascript plugins</strong>, JPList to sort and search the content, and Masonry.js to update the display of content in a masonry grid. Once a sorting event had taken place, I used a JPList callback to call Masonry.js and update the display.</p>
               <div class="owl-carousel owl-theme">
               <div class="item margin-bottom-40">
                   <a href="img/new-future-js-1.png" data-lightbox="javascript" data-title="New Future javascript / JQuery">
