@@ -10,6 +10,17 @@ var projects = {
     website_url: '//www.newfuture.wa.edu.au',
     thumbnail: 'new-future-thumb.png'
   }, 
+  doe_redesign: {
+    url: 'doe-redesign.php',
+    title: 'Department of Education website redesign',
+    client: 'Department of Education WA',
+    brand_colours: ['#A40A66', '#3F2B56', '#E94F36', '#FDC432'],
+    skills: ['UI/UX development', 'Liferay DXP', 'javascript', 'Freemarker', 'SASS', 'HTML', 'WCAG AA compliant'],
+    year: '2022',
+    website: 'education.wa.edu.au',
+    website_url: '//www.education.wa.edu.au',
+    thumbnail: 'doe-thumb.png'
+  }, 
   policies: {
     url: 'policies.php',
     title: 'Policies website',
