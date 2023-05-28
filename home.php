@@ -86,7 +86,7 @@
           <div class="lazy-load hero-content__bg">
             <!--<div class="fadeOut"><a href="home.php"><img src="img/namelogo.png" /></a></div>-->
             <h2 class="h1 hero-heading fadeOut"><span>Doug Hanson</span></h2>
-            <h1 class="h3 subheading subheading__hero grey-2 fadeOut">Web designer &amp; front end developer based in Perth, Western&nbsp;Australia</h1>
+            <h1 class="h3 subheading subheading__hero grey-2 fadeOut">Web designer &amp; front end developer (retired) based in Perth, Western&nbsp;Australia</h1>
 
             <div class="mouse_scroll fadeOut--fast visible-lg">
               <div class="mouse">
@@ -350,7 +350,7 @@
             <!-- resume` link -->
             <div class="row">
               <div class="col-sm-12 margin-top-30 ">
-                <a href="doc/Doug-Hanson-Resume.pdf" target="_blank" class="button button--primary progressLoad margin-right-10">Download Resume` (PDF 161kB)</a>
+                <a href="doc/Doug-Hanson-Resume.pdf" target="_blank" class="button button--primary progressLoad margin-right-10">Download Resume (PDF 116kB)</a>
               </div>
             </div>
 

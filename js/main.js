@@ -299,7 +299,7 @@ $(function () {
 
 var currentYear = (new Date).getFullYear();
 $('.js-year').html(currentYear);
-$('.js-years-experience').html(currentYear - 2011);
+// $('.js-years-experience').html(currentYear - 2011);
 
 
 //INITIALISE LAZY LOAD (LOZAD)
