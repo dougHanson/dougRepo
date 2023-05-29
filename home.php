@@ -115,6 +115,23 @@
           <div class="work-item-wrapper">
             <div class="row">
 
+              <?php /*
+              <!-- DOE -->
+              <a href="doe-redesign.php" class="progressLoad" aria-label="DoE website">
+                <article class="work-item">
+                  <div class="work-item__drawings" style="padding-top: 140px;">
+                    <img class="illustration lazy-load lazy-load--loading" src="img/loading.gif" data-src="img/doe-redesign.png" alt="" style="max-width: 280px; padding-top: 140px;" />
+                    <?php echo file_get_contents("svg/doe-redesign.svg"); ?>
+                  </div>
+
+                  <div class="work-item__content">
+                    <p class="work-item__heading">DoE website</p>
+                    <h2 class="h5 work-item__subheading">ui &amp; ux design / web&nbsp;development</h2>
+                  </div>
+                </article>
+              </a> 
+              */?>
+
               <!-- NEW FUTURE -->
               <a href="new-future.php" class="progressLoad" aria-label="New Future website">
                 <article class="work-item">
