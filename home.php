@@ -115,21 +115,6 @@
           <div class="work-item-wrapper">
             <div class="row">
 
-              <!-- DOE -->
-              <a href="doe-redesign.php" class="progressLoad" aria-label="DoE website">
-                <article class="work-item">
-                  <div class="work-item__drawings" style="padding-top: 140px;">
-                    <img class="illustration lazy-load lazy-load--loading" src="img/loading.gif" data-src="img/doe-redesign.png" alt="" style="max-width: 280px; padding-top: 140px;" />
-                    <?php echo file_get_contents("svg/doe-redesign.svg"); ?>
-                  </div>
-
-                  <div class="work-item__content">
-                    <p class="work-item__heading">DoE website</p>
-                    <h2 class="h5 work-item__subheading">ui &amp; ux design / web&nbsp;development</h2>
-                  </div>
-                </article>
-              </a>
-
               <!-- NEW FUTURE -->
               <a href="new-future.php" class="progressLoad" aria-label="New Future website">
                 <article class="work-item">
@@ -292,9 +277,9 @@
               <tbody>
                 <tr>
                   <td class="td-employer"><a href="https://www.campfire.com.au/" target="_blank" rel="noreferrer">Campfire</a>
-                    <br>2018 - Present</td>
+                    <br>2018 - 2022</td>
                   <td>
-                    <strong>Front-end Web Developer</strong>
+                    <strong>Senior Front-end Web Developer</strong>
                     <br>
                     <span class="hidden-xxs">Based at the Department of Education WA as a front-end developer, working to improve the public facing website and campaign websites for end-users and content authors. <span class="hidden-xs">Currently developing within Liferay DXP with a strong focus on accessibility and creating better user&nbsp;experiences.</span></span>
                   </td>
@@ -347,7 +332,7 @@
               </tbody>
             </table>
 
-            <!-- resume` link -->
+            <!-- resume link -->
             <div class="row">
               <div class="col-sm-12 margin-top-30 ">
                 <a href="doc/Doug-Hanson-Resume.pdf" target="_blank" class="button button--primary progressLoad margin-right-10">Download Resume (PDF 116kB)</a>
